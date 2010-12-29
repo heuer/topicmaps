@@ -16,7 +16,7 @@
 
 cls:CONFIDENTIAL - "CONFIDENTIAL"; - dc:title: "Confidential".
 
-cls:NOFORN - "NOFORN"; - dc:title: "Not for release to foreign nationals".
+cls:NOFORN - "NOFORN"; - dc:title: "No Foreign Nationals".
 
 cls:SECRET - "SECRET"; - dc:title: "Secret". 
 
