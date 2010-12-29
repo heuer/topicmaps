@@ -268,6 +268,41 @@ KWPA 	Worldwide Property Accountability
 KWWW 	World Wide Web Site
 """
 
+#
+# Removed acc. to <http://www.state.gov/documents/organization/89257.pdf>
+#   AS 	Australia
+#   AS 	Lord Howe Island
+#   AS 	Macquarie Island
+#   AS 	Tasmania
+#   EK 	Annobon
+#   FI 	Aland Islands
+#   FR 	Corsica
+#   GR 	Crete
+#   IN 	Andaman Islands
+#   IN 	Lakshadweep Islands
+#   IN 	Nicobar Islands
+#   IO 	Chagos Archipelago
+#   IO 	Diego Garcia
+#   JA 	Okinawa
+#   JA 	Ryukyu Islands
+#   NZ 	Antipodes Islands
+#   NZ 	Auckland Islands
+#   NZ 	Bounty Islands
+#   NZ 	Chatham Islands
+#   NZ 	Kermadec Islands
+#   PO 	Azores
+#   PO 	Madeira Islands
+#   PS 	Trust Territory of the Pacific Islands
+#   RS 	Wrangel Islands
+#   SH 	Ascension Island
+#   SH 	Gough Island
+#   SH 	Tristan da Cunha
+#   SP 	Balearic Islands
+#   SP 	Canary Islands
+#   SP 	Mallorca
+#   US 	Aleutian Islands
+#   XB 	East Asia and Pacific
+#
 GEO_TAGS = u"""\
 AA 	Aruba
 AC 	Antigua and Barbuda
@@ -282,10 +317,6 @@ AO 	Angola
 AQ 	American Samoa
 AR 	Argentina
 AS 	Ashmore and Cartier Islands
-AS 	Australia
-AS 	Lord Howe Island
-AS 	Macquarie Island
-AS 	Tasmania
 AU 	Austria
 AV 	Anguilla
 AY 	Antarctica
@@ -340,7 +371,6 @@ DR 	Dominican Republic
 EC 	Ecuador
 EG 	Egypt
 EI 	Ireland
-EK 	Annobon
 EK 	Equatorial Guinea
 EN 	Estonia
 ER 	Eritrea
@@ -349,7 +379,6 @@ ET 	Ethiopia
 EU 	Europa Island
 EZ 	Czech Republic
 FG 	French Guiana
-FI 	Aland Islands
 FI 	Finland
 FJ 	Fiji
 FK 	Falkland Islands (Islas Malvinas)
@@ -357,7 +386,6 @@ FM 	Micronesia
 FO 	Faroe Islands
 FP 	French Polynesia
 FQ 	Baker Island
-FR 	Corsica
 FR 	France
 FS 	French Southern and Antarctic Lands
 GA 	Gambia (The)
@@ -372,7 +400,6 @@ GM 	Germany
 GO 	Glorioso Islands
 GP 	Guadeloupe
 GQ 	Guam
-GR 	Crete
 GR 	Greece
 GT 	Guatemala
 GV 	Guinea
@@ -388,13 +415,8 @@ HU 	Hungary
 IC 	Iceland
 ID 	Indonesia
 IM 	Man, Isle of
-IN 	Andaman Islands
 IN 	India
-IN 	Lakshadweep Islands
-IN 	Nicobar Islands
 IO 	British Indian Ocean Territory
-IO 	Chagos Archipelago
-IO 	Diego Garcia
 IP 	Clipperton Island
 IR 	Iran
 IS 	Israel
@@ -402,8 +424,6 @@ IT 	Italy
 IV 	Cote D’Ivoire
 IZ 	Iraq
 JA 	Japan
-JA 	Okinawa
-JA 	Ryukyu Islands
 JE 	Jersey
 JM 	Jamaica
 JN 	Jan Mayen
@@ -466,11 +486,6 @@ NP 	Nepal
 NR 	Nauru
 NS 	Suriname
 NU 	Nicaragua
-NZ 	Antipodes Islands
-NZ 	Auckland Islands
-NZ 	Bounty Islands
-NZ 	Chatham Islands
-NZ 	Kermadec Islands
 NZ 	New Zealand
 PA 	Paraguay
 PC 	Pitcairn Islands
@@ -480,12 +495,9 @@ PG 	Spratly Islands
 PK 	Pakistan
 PL 	Poland
 PM 	Panama
-PO 	Azores
-PO 	Madeira Islands
 PO 	Portugal
 PP 	Papua New Guinea
 PS 	Palau
-PS 	Trust Territory of the Pacific Islands
 PU 	Guinea-Bissau
 QA 	Qatar
 RE 	Reunion
@@ -494,7 +506,6 @@ RO 	Romania
 RP 	Philippines
 RQ 	Puerto Rico
 RS 	Russia
-RS 	Wrangel Islands
 RW 	Rwanda
 SA 	Saudi Arabia
 SB 	Saint Pierre and Miquelon
@@ -502,18 +513,12 @@ SC 	Saint Kitts and Nevis
 SE 	Seychelles
 SF 	South Africa
 SG 	Senegal
-SH 	Ascension Island
-SH 	Gough Island
 SH 	Saint Helena
-SH 	Tristan da Cunha
 SI 	Slovenia
 SL 	Sierra Leone
 SM 	San Marino
 SN 	Singapore
 SO 	Somalia
-SP 	Balearic Islands
-SP 	Canary Islands
-SP 	Mallorca
 SP 	Spain
 SR 	Serbia
 ST 	Saint Lucia
@@ -541,7 +546,6 @@ TZ 	Tanzania
 UG 	Uganda
 UK 	United Kingdom
 UP 	Ukraine
-US 	Aleutian Islands
 US 	United States
 UV 	Burkina Faso
 UY 	Uruguay
@@ -561,7 +565,6 @@ WQ 	Wake Island
 WS 	Samoa
 WZ 	Swaziland
 XA 	Africa
-XB 	East Asia and Pacific
 XB 	East Asia and Pacific (Pacific Basin)
 XC 	Southeast Asia
 XD 	South Asia

@@ -235,18 +235,6 @@ tag:AR - "AR"; - dc:title: "Argentina".
 
 tag:AS - "AS"; - dc:title: "Ashmore and Cartier Islands".
 
-# CAUTION: Duplicate
-tag:AS - "AS"; - dc:title: "Australia".
-
-# CAUTION: Duplicate
-tag:AS - "AS"; - dc:title: "Lord Howe Island".
-
-# CAUTION: Duplicate
-tag:AS - "AS"; - dc:title: "Macquarie Island".
-
-# CAUTION: Duplicate
-tag:AS - "AS"; - dc:title: "Tasmania".
-
 tag:AU - "AU"; - dc:title: "Austria".
 
 tag:AV - "AV"; - dc:title: "Anguilla".
@@ -355,9 +343,6 @@ tag:EG - "EG"; - dc:title: "Egypt".
 
 tag:EI - "EI"; - dc:title: "Ireland".
 
-tag:EK - "EK"; - dc:title: "Annobon".
-
-# CAUTION: Duplicate
 tag:EK - "EK"; - dc:title: "Equatorial Guinea".
 
 tag:EN - "EN"; - dc:title: "Estonia".
@@ -374,9 +359,6 @@ tag:EZ - "EZ"; - dc:title: "Czech Republic".
 
 tag:FG - "FG"; - dc:title: "French Guiana".
 
-tag:FI - "FI"; - dc:title: "Aland Islands".
-
-# CAUTION: Duplicate
 tag:FI - "FI"; - dc:title: "Finland".
 
 tag:FJ - "FJ"; - dc:title: "Fiji".
@@ -391,9 +373,6 @@ tag:FP - "FP"; - dc:title: "French Polynesia".
 
 tag:FQ - "FQ"; - dc:title: "Baker Island".
 
-tag:FR - "FR"; - dc:title: "Corsica".
-
-# CAUTION: Duplicate
 tag:FR - "FR"; - dc:title: "France".
 
 tag:FS - "FS"; - dc:title: "French Southern and Antarctic Lands".
@@ -422,9 +401,6 @@ tag:GP - "GP"; - dc:title: "Guadeloupe".
 
 tag:GQ - "GQ"; - dc:title: "Guam".
 
-tag:GR - "GR"; - dc:title: "Crete".
-
-# CAUTION: Duplicate
 tag:GR - "GR"; - dc:title: "Greece".
 
 tag:GT - "GT"; - dc:title: "Guatemala".
@@ -455,24 +431,9 @@ tag:ID - "ID"; - dc:title: "Indonesia".
 
 tag:IM - "IM"; - dc:title: "Man, Isle of".
 
-tag:IN - "IN"; - dc:title: "Andaman Islands".
-
-# CAUTION: Duplicate
 tag:IN - "IN"; - dc:title: "India".
 
-# CAUTION: Duplicate
-tag:IN - "IN"; - dc:title: "Lakshadweep Islands".
-
-# CAUTION: Duplicate
-tag:IN - "IN"; - dc:title: "Nicobar Islands".
-
 tag:IO - "IO"; - dc:title: "British Indian Ocean Territory".
-
-# CAUTION: Duplicate
-tag:IO - "IO"; - dc:title: "Chagos Archipelago".
-
-# CAUTION: Duplicate
-tag:IO - "IO"; - dc:title: "Diego Garcia".
 
 tag:IP - "IP"; - dc:title: "Clipperton Island".
 
@@ -487,12 +448,6 @@ tag:IV - "IV"; - dc:title: "Cote D’Ivoire".
 tag:IZ - "IZ"; - dc:title: "Iraq".
 
 tag:JA - "JA"; - dc:title: "Japan".
-
-# CAUTION: Duplicate
-tag:JA - "JA"; - dc:title: "Okinawa".
-
-# CAUTION: Duplicate
-tag:JA - "JA"; - dc:title: "Ryukyu Islands".
 
 tag:JE - "JE"; - dc:title: "Jersey".
 
@@ -618,21 +573,6 @@ tag:NS - "NS"; - dc:title: "Suriname".
 
 tag:NU - "NU"; - dc:title: "Nicaragua".
 
-tag:NZ - "NZ"; - dc:title: "Antipodes Islands".
-
-# CAUTION: Duplicate
-tag:NZ - "NZ"; - dc:title: "Auckland Islands".
-
-# CAUTION: Duplicate
-tag:NZ - "NZ"; - dc:title: "Bounty Islands".
-
-# CAUTION: Duplicate
-tag:NZ - "NZ"; - dc:title: "Chatham Islands".
-
-# CAUTION: Duplicate
-tag:NZ - "NZ"; - dc:title: "Kermadec Islands".
-
-# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "New Zealand".
 
 tag:PA - "PA"; - dc:title: "Paraguay".
@@ -651,20 +591,11 @@ tag:PL - "PL"; - dc:title: "Poland".
 
 tag:PM - "PM"; - dc:title: "Panama".
 
-tag:PO - "PO"; - dc:title: "Azores".
-
-# CAUTION: Duplicate
-tag:PO - "PO"; - dc:title: "Madeira Islands".
-
-# CAUTION: Duplicate
 tag:PO - "PO"; - dc:title: "Portugal".
 
 tag:PP - "PP"; - dc:title: "Papua New Guinea".
 
 tag:PS - "PS"; - dc:title: "Palau".
-
-# CAUTION: Duplicate
-tag:PS - "PS"; - dc:title: "Trust Territory of the Pacific Islands".
 
 tag:PU - "PU"; - dc:title: "Guinea-Bissau".
 
@@ -682,9 +613,6 @@ tag:RQ - "RQ"; - dc:title: "Puerto Rico".
 
 tag:RS - "RS"; - dc:title: "Russia".
 
-# CAUTION: Duplicate
-tag:RS - "RS"; - dc:title: "Wrangel Islands".
-
 tag:RW - "RW"; - dc:title: "Rwanda".
 
 tag:SA - "SA"; - dc:title: "Saudi Arabia".
@@ -699,16 +627,7 @@ tag:SF - "SF"; - dc:title: "South Africa".
 
 tag:SG - "SG"; - dc:title: "Senegal".
 
-tag:SH - "SH"; - dc:title: "Ascension Island".
-
-# CAUTION: Duplicate
-tag:SH - "SH"; - dc:title: "Gough Island".
-
-# CAUTION: Duplicate
 tag:SH - "SH"; - dc:title: "Saint Helena".
-
-# CAUTION: Duplicate
-tag:SH - "SH"; - dc:title: "Tristan da Cunha".
 
 tag:SI - "SI"; - dc:title: "Slovenia".
 
@@ -720,15 +639,6 @@ tag:SN - "SN"; - dc:title: "Singapore".
 
 tag:SO - "SO"; - dc:title: "Somalia".
 
-tag:SP - "SP"; - dc:title: "Balearic Islands".
-
-# CAUTION: Duplicate
-tag:SP - "SP"; - dc:title: "Canary Islands".
-
-# CAUTION: Duplicate
-tag:SP - "SP"; - dc:title: "Mallorca".
-
-# CAUTION: Duplicate
 tag:SP - "SP"; - dc:title: "Spain".
 
 tag:SR - "SR"; - dc:title: "Serbia".
@@ -783,9 +693,6 @@ tag:UK - "UK"; - dc:title: "United Kingdom".
 
 tag:UP - "UP"; - dc:title: "Ukraine".
 
-tag:US - "US"; - dc:title: "Aleutian Islands".
-
-# CAUTION: Duplicate
 tag:US - "US"; - dc:title: "United States".
 
 tag:UV - "UV"; - dc:title: "Burkina Faso".
@@ -824,9 +731,6 @@ tag:WZ - "WZ"; - dc:title: "Swaziland".
 
 tag:XA - "XA"; - dc:title: "Africa".
 
-tag:XB - "XB"; - dc:title: "East Asia and Pacific".
-
-# CAUTION: Duplicate
 tag:XB - "XB"; - dc:title: "East Asia and Pacific (Pacific Basin)".
 
 tag:XC - "XC"; - dc:title: "Southeast Asia".
@@ -2371,4 +2275,4 @@ tag:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
 
 
 
-# Duplicate count: 58
+# Duplicate count: 26
