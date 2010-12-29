@@ -14,12 +14,22 @@
 %prefix cls <http://psi.metaleaks.org/cablegate/cls/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
-cls:CONFIDENTIAL - "CONFIDENTIAL"; - dc:title: "Confidential".
+cls:CONFIDENTIAL isa cls:classification-level; 
+  - "CONFIDENTIAL"; 
+  - dc:title: "Confidential".
 
-cls:NOFORN - "NOFORN"; - dc:title: "No Foreign Nationals".
+cls:NOFORN isa cls:classification-level; 
+  - "NOFORN"; 
+  - dc:title: "No Foreign Nationals".
 
-cls:SECRET - "SECRET"; - dc:title: "Secret". 
+cls:SECRET isa cls:classification-level; 
+  - "SECRET"; 
+  - dc:title: "Secret". 
 
-cls:UNCLASSIFIED - "UNCLASSIFIED"; - dc:title: "Unclassified".
+cls:UNCLASSIFIED isa cls:classification-level; 
+  - "UNCLASSIFIED"; 
+  - dc:title: "Unclassified".
 
-cls:FOUO - "FOR OFFICIAL USE ONLY"; - dc:title: "For Official Use Only".
+cls:FOUO isa cls:classification-level; 
+  - "FOR OFFICIAL USE ONLY"; 
+  - dc:title: "For Official Use Only".
