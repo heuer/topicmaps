@@ -10,6 +10,28 @@ from urllib import quote
 _TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:\s+)(.+)$', re.UNICODE)
 
 def generate_ctm(fileobj):
+    def write_tags(s, seen_tags, dups, header=None):
+        if header:
+            fileobj.write("""\
+#
+#-- %s
+#
+""" % header)
+        for l in StringIO(s):
+            m = _TAG_NAME_PATTERN.match(l)
+            tag, name = m.groups()
+            tag = tag.strip().upper()
+            path = quote(tag).replace('/', '%2F')
+            if path == tag:
+                sid = u'tag:%s' % tag
+            else:
+                sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
+            if sid in seen_tags:
+                fileobj.write('# CAUTION: Duplicate\n')
+                dups+=1
+            else:
+                seen_tags.append(sid)
+            fileobj.write(u'%s - "%s"; - dc:title: "%s".\n\n' % (sid, tag, name))
     fileobj.write(u"""\
 #
 # ==============
@@ -33,22 +55,10 @@ def generate_ctm(fileobj):
 """)
     seen_tags = []
     dups = 0
-    for s in (SUBJECT_TAGS, GEO_TAGS, ORG_TAGS, PROGRAM_TAGS):
-        for l in StringIO(s):
-            m = _TAG_NAME_PATTERN.match(l)
-            tag, name = m.groups()
-            tag = tag.strip().upper()
-            path = quote(tag).replace('/', '%2F')
-            if path == tag:
-                sid = u'tag:%s' % tag
-            else:
-                sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
-            if sid in seen_tags:
-                fileobj.write('# CAUTION: Duplicate\n')
-                dups+=1
-            else:
-                seen_tags.append(sid)
-            fileobj.write(u'%s - "%s"; - dc:title: "%s".\n\n' % (sid, tag, name))
+    write_tags(SUBJECT_TAGS, seen_tags, dups, 'Subject Tags')
+    write_tags(GEO_TAGS, seen_tags, dups, 'Geo Tags')
+    write_tags(ORG_TAGS, seen_tags, dups, 'Organization Tags')
+    write_tags(PROGRAM_TAGS, seen_tags, dups, 'Program Tags')
     fileobj.write('\n\n# Duplicate count: %d\n' % dups)
 
 #
@@ -607,7 +617,24 @@ ZT 	South Atlantic Area
 ZU 	Southern Africa
 """
 
-# Removed Colombo Plan 	CPCTC
+#
+# Removed acc. to <http://www.state.gov/documents/organization/89258.pdf>
+#   AID 	International Cooperation Administration
+#   In favor of the Geo tag AL
+#   AL 	Arab League
+#   In favor of the Geo tag BP
+#   BP 	British Petroleum Company
+#   BQG 	Bonn Quadripartite Group
+#   BQG 	Bonngroup
+#   CDG 	Conference of Committee on Disarmament
+#   CEP 	Civil Emergency Planning Committee Senior Civil Emergency Planning Committee
+#   CEMA 	CMEA
+#   CEMA 	COMECON
+#   CITEL 	Inter-American Telecommunications Commission
+#   Colombo Plan 	CPCTC
+#   ECA 	UN Economic Commission for Africa
+#   ECA 	Economic Commission for Africa (UN)
+#   
 ORG_TAGS = u"""\
 AAA 	American Automobile Association
 AAFLI 	Asian American Free Labor Institute
@@ -636,10 +663,8 @@ AFSA 	American Foreign Service Association
 AGR 	Department of Agriculture
 AI 	Amnesty International
 AID 	Agency for International Development
-AID 	International Cooperation Administration
 AIFLD 	American Institute for Free Labor Development
 AKB 	Allied Kommandatura Berlin
-AL 	Arab League
 AL-1 	Arab League
 ALIA 	Royal Jordanian Airline
 Alitalia 	Italian Airline
@@ -679,11 +704,8 @@ BIE 	Bureau of International Expositions
 BIS 	Bank of International Settlements
 BLS 	Bureau of Labor Statistics
 BOS 	Southern Opposition Block
-BP 	British Petroleum Company
 BP-1 	British Petroleum Company
 BQG 	Berlin Quadripartite Group
-BQG 	Bonn Quadripartite Group
-BQG 	Bonngroup
 Bundesbank 	Central Bank of the FRG
 BWIA 	British West Indies Airline
 CAA 	British Civil Aviation Authority
@@ -704,16 +726,12 @@ CCUS 	Chamber of Commerce of the US
 CDB 	Caribbean Development Bank
 CDC 	Communicable Diseases Center
 CDG 	Committee on Disarmament
-CDG 	Conference of Committee on Disarmament
 CDI 	Christian Democratic International
 CDU 	Christian Democratic Union
 CEA 	Council of Economic Advisers
 CEAC 	Committee on European Airspace Coordination
 CEC 	Commission of the European Communities
-CEMA 	CMEA
-CEMA 	COMECON
-CEMA 	Council on Mutual Economic Assistance
-CEP 	Civil Emergency Planning Committee Senior Civil Emergency Planning Committee
+CEMA 	Council for Mutual Economic Assistance
 CEP 	Civil Emergency Planning Committee
 CEQ 	Council on Environmental Quality
 CIA 	Central Intelligence Agency
@@ -724,7 +742,6 @@ CIP 	Council on International Programs
 CIPEC 	Intergovernmental Council of Copper Exporting Countries
 CIS 	Commonwealth of Independent States
 CITEL 	Inter-American Telecommunications Commissions
-CITEL 	Inter-American Telecommunications Commission
 CITIBANK 	First National City Bank of New York
 COE 	Council of Europe
 Colombo Plan 	Colombo Plan Council for Technical Cooperation in South and Southeast Asia
@@ -763,8 +780,6 @@ EALG 	East Asian Liaison Group
 EAPC 	Euro-Atlantic Partnership Council
 EBRD 	European Bank for Reconstruction and Development
 ECA 	Economic Commission for Africa (UN), UN Economic Commission for Africa
-ECA 	UN Economic Commission for Africa
-ECA 	Economic Commission for Africa (UN)
 ECAC 	European Civil Aviation Conference
 ECDC 	Economic Cooperation and Development Comt
 ECE 	UN Economic Commission for Europe

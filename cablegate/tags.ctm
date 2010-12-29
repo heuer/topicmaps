@@ -17,6 +17,9 @@
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
 
+#
+#-- Subject Tags
+#
 tag:AADP - "AADP"; - dc:title: "Automated Data Processing".
 
 tag:ABLD - "ABLD"; - dc:title: "Buildings and Grounds".
@@ -209,6 +212,9 @@ tag:TSPA - "TSPA"; - dc:title: "Space Activities".
 
 tag:TSPL - "TSPL"; - dc:title: "Science and Technology Policy".
 
+#
+#-- Geo Tags
+#
 tag:AA - "AA"; - dc:title: "Aruba".
 
 tag:AC - "AC"; - dc:title: "Antigua and Barbuda".
@@ -443,7 +449,7 @@ tag:IS - "IS"; - dc:title: "Israel".
 
 tag:IT - "IT"; - dc:title: "Italy".
 
-tag:IV - "IV"; - dc:title: "Cote D’Ivoire".
+tag:IV - "IV"; - dc:title: "Cote DâIvoire".
 
 tag:IZ - "IZ"; - dc:title: "Iraq".
 
@@ -763,7 +769,7 @@ tag:XS - "XS"; - dc:title: "North America".
 
 tag:XT - "XT"; - dc:title: "Western Europe".
 
-tag:XU - "XU"; - dc:title: "Australia – New Zealand Region".
+tag:XU - "XU"; - dc:title: "Australia â New Zealand Region".
 
 tag:XV - "XV"; - dc:title: "South Pacific Ocean Area".
 
@@ -811,6 +817,9 @@ tag:ZT - "ZT"; - dc:title: "South Atlantic Area".
 
 tag:ZU - "ZU"; - dc:title: "Southern Africa".
 
+#
+#-- Organization Tags
+#
 tag:AAA - "AAA"; - dc:title: "American Automobile Association".
 
 tag:AAFLI - "AAFLI"; - dc:title: "Asian American Free Labor Institute".
@@ -865,15 +874,9 @@ tag:AI - "AI"; - dc:title: "Amnesty International".
 
 tag:AID - "AID"; - dc:title: "Agency for International Development".
 
-# CAUTION: Duplicate
-tag:AID - "AID"; - dc:title: "International Cooperation Administration".
-
 tag:AIFLD - "AIFLD"; - dc:title: "American Institute for Free Labor Development".
 
 tag:AKB - "AKB"; - dc:title: "Allied Kommandatura Berlin".
-
-# CAUTION: Duplicate
-tag:AL - "AL"; - dc:title: "Arab League".
 
 tag:AL-1 - "AL-1"; - dc:title: "Arab League".
 
@@ -883,7 +886,7 @@ tag:ALITALIA - "ALITALIA"; - dc:title: "Italian Airline".
 
 tag:ALP - "ALP"; - dc:title: "Australian Labor Party".
 
-tag:AMAL - "AMAL"; - dc:title: "Movement of the Deprived (Sh’a Muslim Militia Organization)".
+tag:AMAL - "AMAL"; - dc:title: "Movement of the Deprived (Shâa Muslim Militia Organization)".
 
 tag:AMAX - "AMAX"; - dc:title: "American Metals Climax Inc".
 
@@ -953,18 +956,9 @@ tag:BLS - "BLS"; - dc:title: "Bureau of Labor Statistics".
 
 tag:BOS - "BOS"; - dc:title: "Southern Opposition Block".
 
-# CAUTION: Duplicate
-tag:BP - "BP"; - dc:title: "British Petroleum Company".
-
 tag:BP-1 - "BP-1"; - dc:title: "British Petroleum Company".
 
 tag:BQG - "BQG"; - dc:title: "Berlin Quadripartite Group".
-
-# CAUTION: Duplicate
-tag:BQG - "BQG"; - dc:title: "Bonn Quadripartite Group".
-
-# CAUTION: Duplicate
-tag:BQG - "BQG"; - dc:title: "Bonngroup".
 
 tag:BUNDESBANK - "BUNDESBANK"; - dc:title: "Central Bank of the FRG".
 
@@ -1006,9 +1000,6 @@ tag:CDC - "CDC"; - dc:title: "Communicable Diseases Center".
 
 tag:CDG - "CDG"; - dc:title: "Committee on Disarmament".
 
-# CAUTION: Duplicate
-tag:CDG - "CDG"; - dc:title: "Conference of Committee on Disarmament".
-
 tag:CDI - "CDI"; - dc:title: "Christian Democratic International".
 
 tag:CDU - "CDU"; - dc:title: "Christian Democratic Union".
@@ -1019,17 +1010,8 @@ tag:CEAC - "CEAC"; - dc:title: "Committee on European Airspace Coordination".
 
 tag:CEC - "CEC"; - dc:title: "Commission of the European Communities".
 
-tag:CEMA - "CEMA"; - dc:title: "CMEA".
+tag:CEMA - "CEMA"; - dc:title: "Council for Mutual Economic Assistance".
 
-# CAUTION: Duplicate
-tag:CEMA - "CEMA"; - dc:title: "COMECON".
-
-# CAUTION: Duplicate
-tag:CEMA - "CEMA"; - dc:title: "Council on Mutual Economic Assistance".
-
-tag:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee Senior Civil Emergency Planning Committee".
-
-# CAUTION: Duplicate
 tag:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee".
 
 tag:CEQ - "CEQ"; - dc:title: "Council on Environmental Quality".
@@ -1049,9 +1031,6 @@ tag:CIPEC - "CIPEC"; - dc:title: "Intergovernmental Council of Copper Exporting 
 tag:CIS - "CIS"; - dc:title: "Commonwealth of Independent States".
 
 tag:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commissions".
-
-# CAUTION: Duplicate
-tag:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commission".
 
 tag:CITIBANK - "CITIBANK"; - dc:title: "First National City Bank of New York".
 
@@ -1128,12 +1107,6 @@ tag:EAPC - "EAPC"; - dc:title: "Euro-Atlantic Partnership Council".
 tag:EBRD - "EBRD"; - dc:title: "European Bank for Reconstruction and Development".
 
 tag:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN), UN Economic Commission for Africa".
-
-# CAUTION: Duplicate
-tag:ECA - "ECA"; - dc:title: "UN Economic Commission for Africa".
-
-# CAUTION: Duplicate
-tag:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN)".
 
 tag:ECAC - "ECAC"; - dc:title: "European Civil Aviation Conference".
 
@@ -1302,7 +1275,7 @@ tag:HKA - "HKA"; - dc:title: "Hong Kong Airways".
 
 tag:HUD - "HUD"; - dc:title: "Department of Housing and Urban Development".
 
-tag:IACI - "IACI"; - dc:title: "Inter-American Children’s Institute".
+tag:IACI - "IACI"; - dc:title: "Inter-American Childrenâs Institute".
 
 tag:IACW - "IACW"; - dc:title: "Inter-American Commission of Women".
 
@@ -1402,13 +1375,13 @@ tag:ILA - "ILA"; - dc:title: "International Law Association".
 
 tag:ILC - "ILC"; - dc:title: "International Law Commission".
 
-tag:ILO - "ILO"; - dc:title: "International Labor Organization—specialized agency of the UN".
+tag:ILO - "ILO"; - dc:title: "International Labor Organizationâspecialized agency of the UN".
 
 tag:ILZSG - "ILZSG"; - dc:title: "International Lead and Zinc Study Group".
 
 tag:IMC - "IMC"; - dc:title: "International Meteorological Committee".
 
-tag:IMF - "IMF"; - dc:title: "International Monetary Fund in Washington—Related to the UN".
+tag:IMF - "IMF"; - dc:title: "International Monetary Fund in WashingtonâRelated to the UN".
 
 tag:IMH - "IMH"; - dc:title: "International Mission of Hope".
 
@@ -1474,7 +1447,7 @@ tag:ITT - "ITT"; - dc:title: "International Telephone and Telegraph Company".
 
 tag:ITTO - "ITTO"; - dc:title: "International Tropical Timber Organization".
 
-tag:ITU - "ITU"; - dc:title: "International Telecommunication Union—specialized agency of the UN".
+tag:ITU - "ITU"; - dc:title: "International Telecommunication Unionâspecialized agency of the UN".
 
 tag:IUCNNR - "IUCNNR"; - dc:title: "International Union for the Conservation of Nature and Natural Resources".
 
@@ -1712,7 +1685,7 @@ tag:PJC - "PJC"; - dc:title: "Permanent Joint Council, NATO-Russia".
 
 tag:PKFK - "PKFK"; - dc:title: "NATO Led Peacekeeping Forces in Kosovo".
 
-tag:PLA - "PLA"; - dc:title: "Sudan Peoples’ Liberation Army".
+tag:PLA - "PLA"; - dc:title: "Sudan Peoplesâ Liberation Army".
 
 tag:PLN - "PLN"; - dc:title: "National Liberation Front in Costa Rica".
 
@@ -1734,7 +1707,7 @@ tag:PSD - "PSD"; - dc:title: "Social Democratic Party in Portugal".
 
 tag:PSI - "PSI"; - dc:title: "Italian Socialist Party".
 
-tag:PSOE - "PSOE"; - dc:title: "Spanish Socialist Workers’ Party".
+tag:PSOE - "PSOE"; - dc:title: "Spanish Socialist Workersâ Party".
 
 tag:PUAS - "PUAS"; - dc:title: "Postal Union of the Americas and Spain".
 
@@ -1778,9 +1751,9 @@ tag:SPD - "SPD"; - dc:title: "Social Democratic Party in FRG and UK".
 
 tag:SPF - "SPF"; - dc:title: "South Pacific Forum".
 
-tag:SPLA - "SPLA"; - dc:title: "Sudan Peoples’ Liberation Army".
+tag:SPLA - "SPLA"; - dc:title: "Sudan Peoplesâ Liberation Army".
 
-tag:SPLM - "SPLM"; - dc:title: "Sudan Peoples’ Liberation Movement".
+tag:SPLM - "SPLM"; - dc:title: "Sudan Peoplesâ Liberation Movement".
 
 tag:SSA - "SSA"; - dc:title: "Social Security Administration".
 
@@ -1790,7 +1763,7 @@ tag:STAT - "STAT"; - dc:title: "UN Statistical Commission".
 
 tag:SVC - "SVC"; - dc:title: "Special Verification Commission".
 
-tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples’ Organization".
+tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoplesâ Organization".
 
 # CAUTION: Duplicate
 tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples Organization".
@@ -2055,6 +2028,9 @@ tag:ZANU - "ZANU"; - dc:title: "Zimbabwe African National Union".
 
 tag:ZAPU - "ZAPU"; - dc:title: "Zimbabwe African Peoples Union".
 
+#
+#-- Program Tags
+#
 tag:KACT - "KACT"; - dc:title: "Strategic Arms Control (ACS) Treaties".
 
 tag:KAWC - "KAWC"; - dc:title: "Atrocities and War Crimes".
@@ -2157,7 +2133,7 @@ tag:KMFO - "KMFO"; - dc:title: "Multinational Force Observers".
 
 tag:KMPI - "KMPI"; - dc:title: "Middle East Partnership Initiative".
 
-tag:KMRS - "KMRS"; - dc:title: "Rightsizing the U.S. Government’s Overseas Presence".
+tag:KMRS - "KMRS"; - dc:title: "Rightsizing the U.S. Governmentâs Overseas Presence".
 
 tag:KMSG - "KMSG"; - dc:title: "Marine Security Guard Program".
 
@@ -2173,7 +2149,7 @@ tag:KNNP - "KNNP"; - dc:title: "Nuclear Non- Proliferation".
 
 tag:KNSD - "KNSD"; - dc:title: "North-South Dialogue".
 
-tag:KOCI - "KOCI"; - dc:title: "Children’s Issues".
+tag:KOCI - "KOCI"; - dc:title: "Childrenâs Issues".
 
 tag:KOGL - "KOGL"; - dc:title: "Open Source and Gray Literature".
 
@@ -2223,7 +2199,7 @@ tag:KSAC - "KSAC"; - dc:title: "Security Advisory Council".
 
 tag:KSAF - "KSAF"; - dc:title: "Safety Program".
 
-tag:KSCA - "KSCA"; - dc:title: "Science Counselors and Attachés".
+tag:KSCA - "KSCA"; - dc:title: "Science Counselors and AttachÃ©s".
 
 tag:KSEI - "KSEI"; - dc:title: "Southeast European Cooperative Initiative".
 
@@ -2275,4 +2251,4 @@ tag:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
 
 
 
-# Duplicate count: 26
+# Duplicate count: 0
