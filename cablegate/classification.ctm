@@ -11,28 +11,26 @@
 # Date:         2010-12-29
 # 
 
+%prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %prefix cls <http://psi.metaleaks.org/cablegate/cls/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
-cls:classification-level 
-  - "classification level".
-
-cls:CONFIDENTIAL isa cls:classification-level; 
+cls:CONFIDENTIAL isa onto:classification-level; 
   - "CONFIDENTIAL"; 
   - dc:title: "Confidential".
 
-cls:NOFORN isa cls:classification-level; 
+cls:NOFORN isa onto:classification-level; 
   - "NOFORN"; 
   - dc:title: "No Foreign Nationals".
 
-cls:SECRET isa cls:classification-level; 
+cls:SECRET isa onto:classification-level; 
   - "SECRET"; 
   - dc:title: "Secret". 
 
-cls:UNCLASSIFIED isa cls:classification-level; 
+cls:UNCLASSIFIED isa onto:classification-level; 
   - "UNCLASSIFIED"; 
   - dc:title: "Unclassified".
 
-cls:FOUO isa cls:classification-level; 
+cls:FOUO isa onto:classification-level; 
   - "FOR OFFICIAL USE ONLY"; 
   - dc:title: "For Official Use Only".

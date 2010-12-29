@@ -1,0 +1,27 @@
+#
+# ==================
+# Cablegate Ontology
+# ==================
+#
+#
+# Description:  This topic map creates the Cablegate ontology
+#
+# License:      Public Domain
+#
+# Date:         2010-12-29
+# 
+
+%prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+
+onto:tag
+  - "TAG".
+
+onto:classification-level 
+  - "classification level".
+
+onto:diplomatic-cable
+  - "diplomatic cable".
+
+dc:title
+  - "title".
