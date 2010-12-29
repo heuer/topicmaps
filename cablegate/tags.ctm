@@ -1927,19 +1927,19 @@ tag:UNFPA - "UNFPA"; - dc:title: "UN Fund for Population Activities".
 
 tag:UNGA - "UNGA"; - dc:title: "UN General Assembly".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-1> - "UNGA/C-1"; - dc:title: "Political Committee (UNGA), UN General Assembly First Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-1> - "UNGA/C-1"; - dc:title: "Political Committee (UNGA), UN General Assembly First Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-2> - "UNGA/C-2"; - dc:title: "UN General Assembly Economic Committee, UN General Assembly Second Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-2> - "UNGA/C-2"; - dc:title: "UN General Assembly Economic Committee, UN General Assembly Second Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-3> - "UNGA/C-3"; - dc:title: "UN General Assembly Social Committee, UN General Assembly Third Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-3> - "UNGA/C-3"; - dc:title: "UN General Assembly Social Committee, UN General Assembly Third Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-4> - "UNGA/C-4"; - dc:title: "Trusteeship Committee (UNGA), UN General Assembly Fourth Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-4> - "UNGA/C-4"; - dc:title: "Trusteeship Committee (UNGA), UN General Assembly Fourth Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-5> - "UNGA/C-5"; - dc:title: "UN General Assembly Adm and Budget Committee, UN General Assembly Fifth Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-5> - "UNGA/C-5"; - dc:title: "UN General Assembly Adm and Budget Committee, UN General Assembly Fifth Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/C-6> - "UNGA/C-6"; - dc:title: "UN General Assembly Legal Committee, UN General Assembly Sixth Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-6> - "UNGA/C-6"; - dc:title: "UN General Assembly Legal Committee, UN General Assembly Sixth Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA/SPC> - "UNGA/SPC"; - dc:title: "UN General Assembly Special Political Committee".
+<http://psi.metaleaks.org/cablegate/tag/UNGA%2FSPC> - "UNGA/SPC"; - dc:title: "UN General Assembly Special Political Committee".
 
 tag:UNGOMAP - "UNGOMAP"; - dc:title: "UN Good Offices Mission for Afghanistan and Pakistan".
 
