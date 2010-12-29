@@ -968,6 +968,7 @@ tag:AIFLD - "AIFLD"; - dc:title: "American Institute for Free Labor Development"
 
 tag:AKB - "AKB"; - dc:title: "Allied Kommandatura Berlin".
 
+# CAUTION: Duplicate
 tag:AL - "AL"; - dc:title: "Arab League".
 
 tag:AL-1 - "AL-1"; - dc:title: "Arab League".
@@ -1048,6 +1049,7 @@ tag:BLS - "BLS"; - dc:title: "Bureau of Labor Statistics".
 
 tag:BOS - "BOS"; - dc:title: "Southern Opposition Block".
 
+# CAUTION: Duplicate
 tag:BP - "BP"; - dc:title: "British Petroleum Company".
 
 tag:BP-1 - "BP-1"; - dc:title: "British Petroleum Company".
@@ -2367,3 +2369,6 @@ tag:KWPA - "KWPA"; - dc:title: "Worldwide Property Accountability".
 
 tag:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
 
+
+
+# Duplicate count: 58
