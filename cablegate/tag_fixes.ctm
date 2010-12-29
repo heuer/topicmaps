@@ -1,0 +1,35 @@
+#
+# =======================
+# Cablegate TAGS fixtures
+# =======================
+#
+#
+# Description:  This topic map assigns names to TAGS which are not covered 
+#               by "tags.ctm" and let TAGS with typos etc. merge.
+#
+# License:      Public Domain
+#
+# Source:       <https://cabletags.wordpress.com/>
+#
+# Date:         2010-12-29
+# 
+
+%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+
+
+#-- Let tags merge -- Structure: TAG-with-typo -> official-TAG
+
+tag:SYR tag:SY.
+
+tag:MOPPS tag:MOPS.
+
+
+#-- Additional names
+<http://psi.metaleaks.org/cablegate/tag/CLINTON,%20HILLARY> - "CLINTON, HILLARY"; -dc:title: "Hillary Clinton".
+
+<http://psi.metaleaks.org/cablegate/tag/RICE,%20CONDOLEEZZA> - "RICE, CONDOLEEZZA"; - dc:title: "Condoleezza Rice".
+
+<http://psi.metaleaks.org/cablegate/tag/BIDEN,%20JOSEPH> - "BIDEN, JOSEPH"; - dc:title: "Joseph Biden".
+
+<http://psi.metaleaks.org/cablegate/tag/STEINBERG,%20JAMES%20B.> - "STEINBERG, JAMES B."; - dc:title: "James B. Steinberg".
