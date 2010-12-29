@@ -1,0 +1,25 @@
+#
+# ===============================
+# Cablegate Classification Levels
+# ===============================
+#
+#
+# Description:  This topic map assigns names to the classification levels.
+#
+# License:      Public Domain
+#
+# Date:         2010-12-29
+# 
+
+%prefix cls <http://psi.metaleaks.org/cablegate/cls/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+
+cls:CONFIDENTIAL - "CONFIDENTIAL"; - dc:title: "Confidential".
+
+cls:NOFORN - "NOFORN"; - dc:title: "Not for release to foreign nationals".
+
+cls:SECRET - "SECRET"; - dc:title: "Secret". 
+
+cls:UNCLASSIFIED - "UNCLASSIFIED"; - dc:title: "Unclassified".
+
+cls:FOUO - "FOR OFFICIAL USE ONLY"; - dc:title: "For Official Use Only".
