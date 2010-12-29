@@ -235,12 +235,16 @@ tag:AR - "AR"; - dc:title: "Argentina".
 
 tag:AS - "AS"; - dc:title: "Ashmore and Cartier Islands".
 
+# CAUTION: Duplicate
 tag:AS - "AS"; - dc:title: "Australia".
 
+# CAUTION: Duplicate
 tag:AS - "AS"; - dc:title: "Lord Howe Island".
 
+# CAUTION: Duplicate
 tag:AS - "AS"; - dc:title: "Macquarie Island".
 
+# CAUTION: Duplicate
 tag:AS - "AS"; - dc:title: "Tasmania".
 
 tag:AU - "AU"; - dc:title: "Austria".
@@ -353,6 +357,7 @@ tag:EI - "EI"; - dc:title: "Ireland".
 
 tag:EK - "EK"; - dc:title: "Annobon".
 
+# CAUTION: Duplicate
 tag:EK - "EK"; - dc:title: "Equatorial Guinea".
 
 tag:EN - "EN"; - dc:title: "Estonia".
@@ -371,6 +376,7 @@ tag:FG - "FG"; - dc:title: "French Guiana".
 
 tag:FI - "FI"; - dc:title: "Aland Islands".
 
+# CAUTION: Duplicate
 tag:FI - "FI"; - dc:title: "Finland".
 
 tag:FJ - "FJ"; - dc:title: "Fiji".
@@ -387,6 +393,7 @@ tag:FQ - "FQ"; - dc:title: "Baker Island".
 
 tag:FR - "FR"; - dc:title: "Corsica".
 
+# CAUTION: Duplicate
 tag:FR - "FR"; - dc:title: "France".
 
 tag:FS - "FS"; - dc:title: "French Southern and Antarctic Lands".
@@ -417,6 +424,7 @@ tag:GQ - "GQ"; - dc:title: "Guam".
 
 tag:GR - "GR"; - dc:title: "Crete".
 
+# CAUTION: Duplicate
 tag:GR - "GR"; - dc:title: "Greece".
 
 tag:GT - "GT"; - dc:title: "Guatemala".
@@ -449,16 +457,21 @@ tag:IM - "IM"; - dc:title: "Man, Isle of".
 
 tag:IN - "IN"; - dc:title: "Andaman Islands".
 
+# CAUTION: Duplicate
 tag:IN - "IN"; - dc:title: "India".
 
+# CAUTION: Duplicate
 tag:IN - "IN"; - dc:title: "Lakshadweep Islands".
 
+# CAUTION: Duplicate
 tag:IN - "IN"; - dc:title: "Nicobar Islands".
 
 tag:IO - "IO"; - dc:title: "British Indian Ocean Territory".
 
+# CAUTION: Duplicate
 tag:IO - "IO"; - dc:title: "Chagos Archipelago".
 
+# CAUTION: Duplicate
 tag:IO - "IO"; - dc:title: "Diego Garcia".
 
 tag:IP - "IP"; - dc:title: "Clipperton Island".
@@ -475,8 +488,10 @@ tag:IZ - "IZ"; - dc:title: "Iraq".
 
 tag:JA - "JA"; - dc:title: "Japan".
 
+# CAUTION: Duplicate
 tag:JA - "JA"; - dc:title: "Okinawa".
 
+# CAUTION: Duplicate
 tag:JA - "JA"; - dc:title: "Ryukyu Islands".
 
 tag:JE - "JE"; - dc:title: "Jersey".
@@ -605,14 +620,19 @@ tag:NU - "NU"; - dc:title: "Nicaragua".
 
 tag:NZ - "NZ"; - dc:title: "Antipodes Islands".
 
+# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "Auckland Islands".
 
+# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "Bounty Islands".
 
+# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "Chatham Islands".
 
+# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "Kermadec Islands".
 
+# CAUTION: Duplicate
 tag:NZ - "NZ"; - dc:title: "New Zealand".
 
 tag:PA - "PA"; - dc:title: "Paraguay".
@@ -633,14 +653,17 @@ tag:PM - "PM"; - dc:title: "Panama".
 
 tag:PO - "PO"; - dc:title: "Azores".
 
+# CAUTION: Duplicate
 tag:PO - "PO"; - dc:title: "Madeira Islands".
 
+# CAUTION: Duplicate
 tag:PO - "PO"; - dc:title: "Portugal".
 
 tag:PP - "PP"; - dc:title: "Papua New Guinea".
 
 tag:PS - "PS"; - dc:title: "Palau".
 
+# CAUTION: Duplicate
 tag:PS - "PS"; - dc:title: "Trust Territory of the Pacific Islands".
 
 tag:PU - "PU"; - dc:title: "Guinea-Bissau".
@@ -659,6 +682,7 @@ tag:RQ - "RQ"; - dc:title: "Puerto Rico".
 
 tag:RS - "RS"; - dc:title: "Russia".
 
+# CAUTION: Duplicate
 tag:RS - "RS"; - dc:title: "Wrangel Islands".
 
 tag:RW - "RW"; - dc:title: "Rwanda".
@@ -677,10 +701,13 @@ tag:SG - "SG"; - dc:title: "Senegal".
 
 tag:SH - "SH"; - dc:title: "Ascension Island".
 
+# CAUTION: Duplicate
 tag:SH - "SH"; - dc:title: "Gough Island".
 
+# CAUTION: Duplicate
 tag:SH - "SH"; - dc:title: "Saint Helena".
 
+# CAUTION: Duplicate
 tag:SH - "SH"; - dc:title: "Tristan da Cunha".
 
 tag:SI - "SI"; - dc:title: "Slovenia".
@@ -695,10 +722,13 @@ tag:SO - "SO"; - dc:title: "Somalia".
 
 tag:SP - "SP"; - dc:title: "Balearic Islands".
 
+# CAUTION: Duplicate
 tag:SP - "SP"; - dc:title: "Canary Islands".
 
+# CAUTION: Duplicate
 tag:SP - "SP"; - dc:title: "Mallorca".
 
+# CAUTION: Duplicate
 tag:SP - "SP"; - dc:title: "Spain".
 
 tag:SR - "SR"; - dc:title: "Serbia".
@@ -755,6 +785,7 @@ tag:UP - "UP"; - dc:title: "Ukraine".
 
 tag:US - "US"; - dc:title: "Aleutian Islands".
 
+# CAUTION: Duplicate
 tag:US - "US"; - dc:title: "United States".
 
 tag:UV - "UV"; - dc:title: "Burkina Faso".
@@ -795,6 +826,7 @@ tag:XA - "XA"; - dc:title: "Africa".
 
 tag:XB - "XB"; - dc:title: "East Asia and Pacific".
 
+# CAUTION: Duplicate
 tag:XB - "XB"; - dc:title: "East Asia and Pacific (Pacific Basin)".
 
 tag:XC - "XC"; - dc:title: "Southeast Asia".
@@ -929,6 +961,7 @@ tag:AI - "AI"; - dc:title: "Amnesty International".
 
 tag:AID - "AID"; - dc:title: "Agency for International Development".
 
+# CAUTION: Duplicate
 tag:AID - "AID"; - dc:title: "International Cooperation Administration".
 
 tag:AIFLD - "AIFLD"; - dc:title: "American Institute for Free Labor Development".
@@ -1021,8 +1054,10 @@ tag:BP-1 - "BP-1"; - dc:title: "British Petroleum Company".
 
 tag:BQG - "BQG"; - dc:title: "Berlin Quadripartite Group".
 
+# CAUTION: Duplicate
 tag:BQG - "BQG"; - dc:title: "Bonn Quadripartite Group".
 
+# CAUTION: Duplicate
 tag:BQG - "BQG"; - dc:title: "Bonngroup".
 
 tag:BUNDESBANK - "BUNDESBANK"; - dc:title: "Central Bank of the FRG".
@@ -1065,6 +1100,7 @@ tag:CDC - "CDC"; - dc:title: "Communicable Diseases Center".
 
 tag:CDG - "CDG"; - dc:title: "Committee on Disarmament".
 
+# CAUTION: Duplicate
 tag:CDG - "CDG"; - dc:title: "Conference of Committee on Disarmament".
 
 tag:CDI - "CDI"; - dc:title: "Christian Democratic International".
@@ -1079,12 +1115,15 @@ tag:CEC - "CEC"; - dc:title: "Commission of the European Communities".
 
 tag:CEMA - "CEMA"; - dc:title: "CMEA".
 
+# CAUTION: Duplicate
 tag:CEMA - "CEMA"; - dc:title: "COMECON".
 
+# CAUTION: Duplicate
 tag:CEMA - "CEMA"; - dc:title: "Council on Mutual Economic Assistance".
 
 tag:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee Senior Civil Emergency Planning Committee".
 
+# CAUTION: Duplicate
 tag:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee".
 
 tag:CEQ - "CEQ"; - dc:title: "Council on Environmental Quality".
@@ -1105,6 +1144,7 @@ tag:CIS - "CIS"; - dc:title: "Commonwealth of Independent States".
 
 tag:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commissions".
 
+# CAUTION: Duplicate
 tag:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commission".
 
 tag:CITIBANK - "CITIBANK"; - dc:title: "First National City Bank of New York".
@@ -1112,8 +1152,6 @@ tag:CITIBANK - "CITIBANK"; - dc:title: "First National City Bank of New York".
 tag:COE - "COE"; - dc:title: "Council of Europe".
 
 <http://psi.metaleaks.org/cablegate/tag/COLOMBO%20PLAN> - "COLOMBO PLAN"; - dc:title: "Colombo Plan Council for Technical Cooperation in South and Southeast Asia".
-
-<http://psi.metaleaks.org/cablegate/tag/COLOMBO%20PLAN> - "COLOMBO PLAN"; - dc:title: "CPCTC".
 
 tag:COM - "COM"; - dc:title: "Department of Commerce".
 
@@ -1185,8 +1223,10 @@ tag:EBRD - "EBRD"; - dc:title: "European Bank for Reconstruction and Development
 
 tag:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN), UN Economic Commission for Africa".
 
+# CAUTION: Duplicate
 tag:ECA - "ECA"; - dc:title: "UN Economic Commission for Africa".
 
+# CAUTION: Duplicate
 tag:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN)".
 
 tag:ECAC - "ECAC"; - dc:title: "European Civil Aviation Conference".
@@ -1243,18 +1283,25 @@ tag:EUCOM - "EUCOM"; - dc:title: "European Command".
 
 tag:EUN - "EUN"; - dc:title: "Communaute Economique Europeene".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Atomic Energy Community".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Common Market".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Communities".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Economic Community".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Union".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "Marche Commun European".
 
+# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Economic Community AKA European Common Market".
 
 tag:EUROCONTROL - "EUROCONTROL"; - dc:title: "European Organization for the Safety of Air Navigation".
@@ -1839,6 +1886,7 @@ tag:SVC - "SVC"; - dc:title: "Special Verification Commission".
 
 tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples’ Organization".
 
+# CAUTION: Duplicate
 tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples Organization".
 
 tag:TAPLINE - "TAPLINE"; - dc:title: "Trans Arabian Pipeline Company".
@@ -1983,8 +2031,10 @@ tag:UNPOP - "UNPOP"; - dc:title: "UN Population Commission".
 
 tag:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space & UN Outer Space Committee".
 
+# CAUTION: Duplicate
 tag:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space".
 
+# CAUTION: Duplicate
 tag:UNPUOS - "UNPUOS"; - dc:title: "UN Outer Space Committee".
 
 tag:UNRWA - "UNRWA"; - dc:title: "UN Relief and Works Agency for Palestine Refugees in the Near East".
@@ -1997,10 +2047,12 @@ tag:UNTAT - "UNTAT"; - dc:title: "UN Transitional Administration in East Timor".
 
 tag:UNTC - "UNTC"; - dc:title: "UN Trusteeship Council".
 
+# CAUTION: Duplicate
 tag:UNTC - "UNTC"; - dc:title: "Trusteeship Council".
 
 tag:UNTERR - "UNTERR"; - dc:title: "UN Committee on International Terrorism".
 
+# CAUTION: Duplicate
 tag:UNTERR - "UNTERR"; - dc:title: "Terrorism Committee (UN)".
 
 tag:UNTFSA - "UNTFSA"; - dc:title: "UN Trust Fund for South Africa".
@@ -2057,8 +2109,10 @@ tag:WCC - "WCC"; - dc:title: "World Council of Churches".
 
 tag:WCL - "WCL"; - dc:title: "International Federation of Christian World Confederation of".
 
+# CAUTION: Duplicate
 tag:WCL - "WCL"; - dc:title: "International Federation of Christian Trade Unions".
 
+# CAUTION: Duplicate
 tag:WCL - "WCL"; - dc:title: "World Confederation of Labor".
 
 tag:WEO - "WEO"; - dc:title: "Western European and Other Groups".
