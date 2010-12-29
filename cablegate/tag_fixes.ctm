@@ -39,3 +39,5 @@ tag:RU tag:RS.  # RU is used by i.e. 09BERLIN1433, 09RIYADH181 etc.
 <http://psi.metaleaks.org/cablegate/tag/BIDEN,%20JOSEPH> - "BIDEN, JOSEPH"; - dc:title: "Joseph Biden".
 
 <http://psi.metaleaks.org/cablegate/tag/STEINBERG,%20JAMES%20B.> - "STEINBERG, JAMES B."; - dc:title: "James B. Steinberg".
+
+tag:COUNTERTERRORISM - "COUNTERTERRORISM"; -dc:title: "Counter-terrorism".
