@@ -14,6 +14,9 @@
 %prefix cls <http://psi.metaleaks.org/cablegate/cls/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
+cls:classification-level 
+  - "classification level".
+
 cls:CONFIDENTIAL isa cls:classification-level; 
   - "CONFIDENTIAL"; 
   - dc:title: "Confidential".
