@@ -1160,28 +1160,7 @@ tag:ETA - "ETA"; - dc:title: "Basque Terrorist Group".
 
 tag:EUCOM - "EUCOM"; - dc:title: "European Command".
 
-tag:EUN - "EUN"; - dc:title: "Communaute Economique Europeene".
-
-# CAUTION: Duplicate
 tag:EUN - "EUN"; - dc:title: "European Atomic Energy Community".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "European Common Market".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "European Communities".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "European Economic Community".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "European Union".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "Marche Commun European".
-
-# CAUTION: Duplicate
-tag:EUN - "EUN"; - dc:title: "European Economic Community AKA European Common Market".
 
 tag:EUROCONTROL - "EUROCONTROL"; - dc:title: "European Organization for the Safety of Air Navigation".
 
@@ -1763,9 +1742,6 @@ tag:STAT - "STAT"; - dc:title: "UN Statistical Commission".
 
 tag:SVC - "SVC"; - dc:title: "Special Verification Commission".
 
-tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoplesâ Organization".
-
-# CAUTION: Duplicate
 tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples Organization".
 
 tag:TAPLINE - "TAPLINE"; - dc:title: "Trans Arabian Pipeline Company".
@@ -1908,13 +1884,7 @@ tag:UNOMIG - "UNOMIG"; - dc:title: "UN Observation Mission in Georgia".
 
 tag:UNPOP - "UNPOP"; - dc:title: "UN Population Commission".
 
-tag:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space & UN Outer Space Committee".
-
-# CAUTION: Duplicate
 tag:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space".
-
-# CAUTION: Duplicate
-tag:UNPUOS - "UNPUOS"; - dc:title: "UN Outer Space Committee".
 
 tag:UNRWA - "UNRWA"; - dc:title: "UN Relief and Works Agency for Palestine Refugees in the Near East".
 
@@ -1924,15 +1894,9 @@ tag:UNSCEAR - "UNSCEAR"; - dc:title: "UN Scientific Committee on the Effects of 
 
 tag:UNTAT - "UNTAT"; - dc:title: "UN Transitional Administration in East Timor".
 
-tag:UNTC - "UNTC"; - dc:title: "UN Trusteeship Council".
-
-# CAUTION: Duplicate
 tag:UNTC - "UNTC"; - dc:title: "Trusteeship Council".
 
-tag:UNTERR - "UNTERR"; - dc:title: "UN Committee on International Terrorism".
-
-# CAUTION: Duplicate
-tag:UNTERR - "UNTERR"; - dc:title: "Terrorism Committee (UN)".
+<http://psi.metaleaks.org/cablegate/tag/UNTER%20%20%20COMMITTEE%20ON%20INTERNATIONAL> - "UNTER   COMMITTEE ON INTERNATIONAL"; - dc:title: "Terrorism".
 
 tag:UNTFSA - "UNTFSA"; - dc:title: "UN Trust Fund for South Africa".
 
@@ -1986,13 +1950,7 @@ tag:WARC - "WARC"; - dc:title: "World Administrative Radio Conference".
 
 tag:WCC - "WCC"; - dc:title: "World Council of Churches".
 
-tag:WCL - "WCL"; - dc:title: "International Federation of Christian World Confederation of".
-
-# CAUTION: Duplicate
-tag:WCL - "WCL"; - dc:title: "International Federation of Christian Trade Unions".
-
-# CAUTION: Duplicate
-tag:WCL - "WCL"; - dc:title: "World Confederation of Labor".
+<http://psi.metaleaks.org/cablegate/tag/WCL%20%20%20%20%20INTERNATIONAL%20FEDERATION%20OF%20CHRISTIAN%20WORLD%20CONFEDERATION%20OF> - "WCL     INTERNATIONAL FEDERATION OF CHRISTIAN WORLD CONFEDERATION OF"; - dc:title: "Labor".
 
 tag:WEO - "WEO"; - dc:title: "Western European and Other Groups".
 
@@ -2251,4 +2209,4 @@ tag:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
 
 
 
-# Duplicate count: 0
+# Duplicates: []

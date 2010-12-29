@@ -10,7 +10,7 @@ from urllib import quote
 _TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:\s+)(.+)$', re.UNICODE)
 
 def generate_ctm(fileobj):
-    def write_tags(s, seen_tags, dups, header=None):
+    def write_tags(s, seen_tags, dupl_tags, header=None):
         if header:
             fileobj.write("""\
 #
@@ -28,7 +28,8 @@ def generate_ctm(fileobj):
                 sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
             if sid in seen_tags:
                 fileobj.write('# CAUTION: Duplicate\n')
-                dups+=1
+                if sid not in dupl_tags:
+                    dupl_tags.append(sid)
             else:
                 seen_tags.append(sid)
             fileobj.write(u'%s - "%s"; - dc:title: "%s".\n\n' % (sid, tag, name))
@@ -54,12 +55,12 @@ def generate_ctm(fileobj):
 
 """)
     seen_tags = []
-    dups = 0
-    write_tags(SUBJECT_TAGS, seen_tags, dups, 'Subject Tags')
-    write_tags(GEO_TAGS, seen_tags, dups, 'Geo Tags')
-    write_tags(ORG_TAGS, seen_tags, dups, 'Organization Tags')
-    write_tags(PROGRAM_TAGS, seen_tags, dups, 'Program Tags')
-    fileobj.write('\n\n# Duplicate count: %d\n' % dups)
+    dupl_tags = []
+    write_tags(SUBJECT_TAGS, seen_tags, dupl_tags, 'Subject Tags')
+    write_tags(GEO_TAGS, seen_tags, dupl_tags, 'Geo Tags')
+    write_tags(ORG_TAGS, seen_tags, dupl_tags, 'Organization Tags')
+    write_tags(PROGRAM_TAGS, seen_tags, dupl_tags, 'Program Tags')
+    fileobj.write('\n\n# Duplicates: %r\n' % dupl_tags)
 
 #
 # Source: <https://cabletags.wordpress.com>
@@ -634,6 +635,22 @@ ZU 	Southern Africa
 #   Colombo Plan 	CPCTC
 #   ECA 	UN Economic Commission for Africa
 #   ECA 	Economic Commission for Africa (UN)
+#   EUN 	Communaute Economique Europeene
+#   EUN 	European Common Market
+#   EUN 	European Communities
+#   EUN 	European Economic Community
+#   EUN 	European Union
+#   EUN 	Marche Commun European
+#   EUN 	European Economic Community AKA European Common Market
+#   SWAPO 	Southwest Africa Peoples’ Organization
+#   UNPUOS 	UN Committee on Peaceful Uses of Outer Space & UN Outer Space Committee
+#   UNPUOS 	UN Outer Space Committee
+#   UNTC 	UN Trusteeship Council
+#   UNTERR 	UN Committee on International Terrorism
+#   UNTERR 	Terrorism Committee (UN)
+#   WCL 	International Federation of Christian World Confederation of
+#   WCL 	International Federation of Christian Trade Unions
+#   WCL 	World Confederation of Labor
 #   
 ORG_TAGS = u"""\
 AAA 	American Automobile Association
@@ -806,14 +823,7 @@ ESCAP 	UN Economic and Social Commission for Asia and Pacific
 ESDI 	European Security and Defense Identity
 ETA 	Basque Terrorist Group
 EUCOM 	European Command
-EUN 	Communaute Economique Europeene
 EUN 	European Atomic Energy Community
-EUN 	European Common Market
-EUN 	European Communities
-EUN 	European Economic Community
-EUN 	European Union
-EUN 	Marche Commun European
-EUN 	European Economic Community AKA European Common Market
 EUROCONTROL 	European Organization for the Safety of Air Navigation
 EXIM 	Export Import Bank of US
 FAA 	Federal Aviation Administration
@@ -1104,7 +1114,6 @@ SSA 	Social Security Administration
 SSOD 	Special Session on Disarmament (UN)
 STAT 	UN Statistical Commission
 SVC 	Special Verification Commission
-SWAPO 	Southwest Africa Peoples’ Organization
 SWAPO 	Southwest Africa Peoples Organization
 TAPLINE 	Trans Arabian Pipeline Company
 TDB 	Trade and Development Board
@@ -1176,17 +1185,13 @@ UNMOP 	UN Mission of Observers in Prevlaka
 UNO 	United Nicaraguan Opposition
 UNOMIG 	UN Observation Mission in Georgia
 UNPOP 	UN Population Commission
-UNPUOS 	UN Committee on Peaceful Uses of Outer Space & UN Outer Space Committee
 UNPUOS 	UN Committee on Peaceful Uses of Outer Space
-UNPUOS 	UN Outer Space Committee
 UNRWA 	UN Relief and Works Agency for Palestine Refugees in the Near East
 UNSC 	UN Security Council
 UNSCEAR 	UN Scientific Committee on the Effects of Atomic Radiation
 UNTAT 	UN Transitional Administration in East Timor
-UNTC 	UN Trusteeship Council
 UNTC 	Trusteeship Council
-UNTERR 	UN Committee on International Terrorism
-UNTERR 	Terrorism Committee (UN)
+UNTER   Committee on International Terrorism
 UNTFSA 	UN Trust Fund for South Africa
 UNTNC 	UN Commission on Transnational Corps
 UNTSO 	UN Truce Supervision Organization
@@ -1213,9 +1218,7 @@ VIASA 	Venezuelan Airline
 VOA 	Voice of America
 WARC 	World Administrative Radio Conference
 WCC 	World Council of Churches
-WCL 	International Federation of Christian World Confederation of
-WCL 	International Federation of Christian Trade Unions
-WCL 	World Confederation of Labor
+WCL     International Federation of Christian World Confederation of Labor
 WEO 	Western European and Other Groups
 WEU 	Western European Union
 WFC-2 	World Food Council
