@@ -16,14 +16,22 @@
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
 
-#-- Let tags merge -- Structure: TAG-with-typo -> official-TAG
+#
+# Let tags merge -- Structure: TAG-with-typo -> official-TAG
+#
 
 tag:SYR tag:SY.
 
 tag:MOPPS tag:MOPS.
 
+tag:RU tag:RS.  # RU is used by i.e. 09BERLIN1433, 09RIYADH181 etc.
 
-#-- Additional names
+
+
+#
+# Additional names
+#
+
 <http://psi.metaleaks.org/cablegate/tag/CLINTON,%20HILLARY> - "CLINTON, HILLARY"; -dc:title: "Hillary Clinton".
 
 <http://psi.metaleaks.org/cablegate/tag/RICE,%20CONDOLEEZZA> - "RICE, CONDOLEEZZA"; - dc:title: "Condoleezza Rice".
