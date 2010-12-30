@@ -1,0 +1,37 @@
+#
+# ================
+# Cablegate Schema
+# ================
+#
+#
+# Description:  Cablegate TMCL schema
+#
+# License:      Public Domain
+#
+# Date:         2010-12-30
+# 
+
+%include <http://www.isotopicmaps.org/tmcl/templates.ctm>
+
+%prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
+%prefix tmcl http://psi.topicmaps.org/tmcl/
+%prefix tmdm http://psi.topicmaps.org/iso13250/model/
+%prefix xsd http://www.w3.org/2001/XMLSchema#
+%prefix dc <http://purl.org/dc/elements/1.1/>
+
+onto:reference-id isa tmcl:name-type;
+  # TMCL does not support RegExes on names. Why?!?!?
+  # matches-regexp("[0-9]{2}[A-Z]+[0-9]+").
+  .
+
+onto:transmission-id isa tmcl:occurrence-type;
+  has-datatype(xsd:string);
+  matches-regexp("[A-Z]+[0-9]+").
+
+onto:tag isa tmcl:topic-type.
+
+onto:classification-level isa tmcl:topic-type.
+
+onto:diplomatic-cable isa tmcl:topic-type.
+
+dc:title isa tmcl:name-type.
