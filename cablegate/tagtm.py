@@ -3,6 +3,7 @@
 # Donated to the public domain by Lars Heuer - <heuer[at]semgia.com>
 #
 import re
+from datetime import date
 from StringIO import StringIO
 from urllib import quote
 
@@ -10,6 +11,11 @@ from urllib import quote
 _TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:\s+)(.+)$', re.UNICODE)
 
 def generate_ctm(fileobj):
+    """\
+    
+    `fileobj`
+        A file object.
+    """
     def write_tags(s, seen_tags, dupl_tags, header=None):
         if header:
             fileobj.write("""\
@@ -18,8 +24,7 @@ def generate_ctm(fileobj):
 #
 """ % header)
         for l in StringIO(s):
-            m = _TAG_NAME_PATTERN.match(l)
-            tag, name = m.groups()
+            tag, name = _TAG_NAME_PATTERN.match(l).groups()
             tag = tag.strip().upper()
             path = quote(tag).replace('/', '%2F')
             if path == tag:
@@ -46,21 +51,22 @@ def generate_ctm(fileobj):
 #
 # Source:       <https://cabletags.wordpress.com/>
 #
-# Date:         2010-12-29
+# Date:         %s
 # 
 
-%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
-%prefix dc <http://purl.org/dc/elements/1.1/>
+%%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
+%%prefix dc <http://purl.org/dc/elements/1.1/>
 
 
-""")
+""" % date.today().isoformat())
     seen_tags = []
     dupl_tags = []
     write_tags(SUBJECT_TAGS, seen_tags, dupl_tags, 'Subject Tags')
     write_tags(GEO_TAGS, seen_tags, dupl_tags, 'Geo Tags')
     write_tags(ORG_TAGS, seen_tags, dupl_tags, 'Organization Tags')
     write_tags(PROGRAM_TAGS, seen_tags, dupl_tags, 'Program Tags')
-    fileobj.write('\n\n# Duplicates: %r\n' % dupl_tags)
+    if dupl_tags:
+        fileobj.write('\n\n# Duplicates: %r\n' % dupl_tags)
 
 #
 # Source: <https://cabletags.wordpress.com>
@@ -1242,4 +1248,3 @@ ZAPU 	Zimbabwe African Peoples Union
 if __name__ == '__main__':
     import codecs
     generate_ctm(codecs.open('./tags.ctm', 'wb', 'utf-8'))
-    
