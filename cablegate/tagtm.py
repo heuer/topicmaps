@@ -8,7 +8,8 @@ from StringIO import StringIO
 from urllib import quote
 
 
-_TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:\s+)(.+)$', re.UNICODE)
+_TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:[ \t]+)(.+)$', re.UNICODE)
+_WS_NORMALIZER_PATTERN = re.compile(r'[ ]+')
 
 def generate_ctm(fileobj):
     """\
@@ -26,6 +27,7 @@ def generate_ctm(fileobj):
         for l in StringIO(s):
             tag, name = _TAG_NAME_PATTERN.match(l).groups()
             tag = tag.strip().upper()
+            tag = _WS_NORMALIZER_PATTERN.sub(' ', tag)
             path = quote(tag).replace('/', '%2F')
             if path == tag:
                 sid = u'tag:%s' % tag
@@ -1197,7 +1199,7 @@ UNSC 	UN Security Council
 UNSCEAR 	UN Scientific Committee on the Effects of Atomic Radiation
 UNTAT 	UN Transitional Administration in East Timor
 UNTC 	Trusteeship Council
-UNTER   Committee on International Terrorism
+UNTER 	Committee on International Terrorism
 UNTFSA 	UN Trust Fund for South Africa
 UNTNC 	UN Commission on Transnational Corps
 UNTSO 	UN Truce Supervision Organization
@@ -1224,7 +1226,7 @@ VIASA 	Venezuelan Airline
 VOA 	Voice of America
 WARC 	World Administrative Radio Conference
 WCC 	World Council of Churches
-WCL     International Federation of Christian World Confederation of Labor
+WCL 	International Federation of Christian World Confederation of Labor
 WEO 	Western European and Other Groups
 WEU 	Western European Union
 WFC-2 	World Food Council

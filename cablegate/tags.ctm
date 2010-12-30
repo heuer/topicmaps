@@ -1896,7 +1896,7 @@ tag:UNTAT - "UNTAT"; - dc:title: "UN Transitional Administration in East Timor".
 
 tag:UNTC - "UNTC"; - dc:title: "Trusteeship Council".
 
-<http://psi.metaleaks.org/cablegate/tag/UNTER%20%20%20COMMITTEE%20ON%20INTERNATIONAL> - "UNTER   COMMITTEE ON INTERNATIONAL"; - dc:title: "Terrorism".
+tag:UNTER - "UNTER"; - dc:title: "Committee on International Terrorism".
 
 tag:UNTFSA - "UNTFSA"; - dc:title: "UN Trust Fund for South Africa".
 
@@ -1950,7 +1950,7 @@ tag:WARC - "WARC"; - dc:title: "World Administrative Radio Conference".
 
 tag:WCC - "WCC"; - dc:title: "World Council of Churches".
 
-<http://psi.metaleaks.org/cablegate/tag/WCL%20%20%20%20%20INTERNATIONAL%20FEDERATION%20OF%20CHRISTIAN%20WORLD%20CONFEDERATION%20OF> - "WCL     INTERNATIONAL FEDERATION OF CHRISTIAN WORLD CONFEDERATION OF"; - dc:title: "Labor".
+tag:WCL - "WCL"; - dc:title: "International Federation of Christian World Confederation of Labor".
 
 tag:WEO - "WEO"; - dc:title: "Western European and Other Groups".
 
