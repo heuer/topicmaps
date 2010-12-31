@@ -8,11 +8,17 @@
 #
 # License:      Public Domain
 #
-# Date:         2010-12-29
+# Date:         2010-12-31
 # 
 
 %prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
+
+onto:is-partial
+  - "is partial".
+
+onto:partial
+  - "partial".
 
 onto:reference-id
   - "reference identifier".
