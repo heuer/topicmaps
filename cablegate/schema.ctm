@@ -25,14 +25,26 @@ onto:is-partial isa tmcl:association-type;
 onto:reference-id isa tmcl:name-type;
   matches-regexp("[0-9]{2}[A-Z]+[0-9]+").
 
+onto:subject isa tmcl:name-type.
+
 onto:transmission-id isa tmcl:occurrence-type;
   has-datatype(xsd:string);
   matches-regexp("[A-Z]+[0-9]+").
 
-onto:tag isa tmcl:topic-type.
+onto:tag isa tmcl:topic-type;
+  has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/tag/.+");
+.
 
 onto:classification-level isa tmcl:topic-type.
 
-onto:diplomatic-cable isa tmcl:topic-type.
+onto:diplomatic-cable isa tmcl:topic-type;
+  has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/cable/[0-9]{2}[A-Z]+[0-9]+");
+  has-subject-locator(1, 1, "http://wikileaks\.ch/cable/[0-9]{4}/[0-9]{2}/[0-9]{2}[A-Z]+[0-9]+\.html");
+  has-subject-locator(1, 1, "http://cablegate\.wikileaks\.org/cable/[0-9]{4}/[0-9]{2}/[0-9]{2}[A-Z]+[0-9]+\.html");
+  has-subject-locator(1, 1, "http://213\.251\.145\.96/cable/[0-9]{4}/[0-9]{2}/[0-9]{2}[A-Z]+[0-9]+\.html");
+  has-name(onto:reference-id, 1, 1);
+  has-name(onto:subject, 0, 1);
+  has-occurrence(onto:transmission-id, 0, 1);
+.
 
 dc:title isa tmcl:name-type.

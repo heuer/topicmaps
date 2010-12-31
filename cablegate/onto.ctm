@@ -35,5 +35,8 @@ onto:classification-level
 onto:diplomatic-cable
   - "diplomatic cable".
 
+onto:subject
+  - "subject".
+
 dc:title
   - "title".
