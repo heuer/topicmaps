@@ -1,0 +1,66 @@
+#
+# ================================
+# FIPS Code -> Region Name Mapping
+# ================================
+#
+# FIPS: <https://secure.wikimedia.org/wikipedia/en/wiki/FIPS_state_code>
+#
+# Source: "U.S. Department of State Foreign Affairs Handbook Volume 5 Handbook 3 – TAGS/Terms Handbook
+#         5 FAH-3 H-400
+#         GEO-POLITICAL TAGS
+#         (CT:TAGS-39; 07-07-2009)
+#         (Effective Date: 08-10-2007)
+#         (Office of Origin: A/GIS/IPS)
+#
+#         <http://www.state.gov/documents/organization/89257.pdf>
+#
+#
+# How to read this source:
+#
+# import re
+# p = re.compile('^([A-Z]{2})[ ](.+)$')
+# for l in source:
+#     if l.startswith('#'):
+#         continue
+#     fips, name = p.match(l).groups()
+#     name = name.strip()
+#
+# -----------------------
+# FIPS Region Code | Name
+# -----------------------
+XA Africa 
+ZR Arabian Peninsula 
+XQ Arctic Ocean Area 
+XU Australia-New Zealand Region 
+ZL Balkan States 
+ZB Baltic States 
+XL Caribbean 
+ZF Central Africa 
+XK Central America 
+ZK Central Asia 
+XW East Africa 
+XE East Asia 
+XB East Asia and Pacific 
+XH Eastern Europe 
+XG Europe 
+XO Indian Ocean Area 
+XM Latin America 
+ZM Mediterranean Sea Area 
+XF Middle East 
+XI North Africa 
+XS North America 
+ZO North Asia 
+ZH North Atlantic Area 
+ZN North Pacific Area 
+ZP Persian Gulf Area 
+XZ Scandinavia 
+XR South America 
+XD South Asia 
+ZT South Atlantic Area 
+XV South Pacific Ocean Area 
+XC Southeast Asia 
+ZU Southern Africa 
+ZS Southern Europe 
+ZJ Transcaucasus 
+XY West Africa 
+XT Western Europe

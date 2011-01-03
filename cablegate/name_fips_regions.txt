@@ -1,0 +1,321 @@
+#
+# ======================================
+# Country -> FIPS -> Region Code Mapping
+# ======================================
+#
+# FIPS: <https://secure.wikimedia.org/wikipedia/en/wiki/FIPS_state_code>
+#
+# Source: "U.S. Department of State Foreign Affairs Handbook Volume 5 Handbook 3 – TAGS/Terms Handbook
+#         5 FAH-3 H-400
+#         GEO-POLITICAL TAGS
+#         (CT:TAGS-39; 07-07-2009)
+#         (Effective Date: 08-10-2007)
+#         (Office of Origin: A/GIS/IPS)
+#
+#         <http://www.state.gov/documents/organization/89257.pdf>
+#
+# How to read this source:
+#
+# import re
+# p = re.compile('^(.+)[ ]([A-Z]{2})[ ](.+)$')
+# for l in source:
+#     if l.startswith('#'):
+#         continue
+#     name, fips, regions = p.match(l).groups()
+#     regions = [region.strip() for region in regions.split(',')]
+#
+# ----------------------------
+# Name | FIPS code | region(s)
+# ----------------------------
+Afghanistan AF XD 
+Aland Islands FI XG, XT, XZ 
+Albania AL XG, XH, ZL 
+Aleutian Islands US XS, ZN 
+Algeria AG XA, XF, XI 
+American Samoa AQ XB, XV 
+Andaman Islands IN XD 
+Andorra AN XG, XT 
+Angola AO XA, ZU 
+Anguilla AV XL 
+Annobon EK XA, ZF 
+Antarctica AY ZT 
+Antigua and Barbuda AC XL 
+Antipodes Islands NZ XB, XU 
+Argentina AR XM, XR 
+Armenia AM ZJ 
+Aruba AA XL 
+Ascension Island SH XA, ZU 
+Ashmore and Cartier Islands AS XU 
+Auckland Islands NZ XB, XU 
+Australia AS XB, XU 
+Austria AU XG, XT 
+Azerbaijan AJ ZJ 
+Azores PO XG, XT, ZH 
+Bahamas, The BF XL 
+Bahrain BA XF, ZP, ZR 
+Baker Island FQ XB, XV 
+Balearic Islands SP XG, XT, ZM 
+Bangladesh BG XD 
+Barbados BB XL 
+Bassas da India BS XO 
+Belarus BO XH 
+Belgium BE XG, XT 
+Belize BH XK, XM 
+Benin BN XA, XY 
+Bermuda BD XT, ZH 
+Bhutan BT XD 
+Bolivia BL XM, XR 
+Bosnia and Herzegovina BK XG, XH, ZL 
+Botswana BC XA, ZU 
+Bounty Islands NZ XB, XU 
+Bouvet Island BV XA, ZU 
+Brazil BR XM, XR 
+British Virgin Islands VI XL 
+British Indian Ocean Territory IO XO 
+Brunei BX XB, XC, XE 
+Bulgaria BU XG, XH, ZL 
+Burkina Faso UV XA, XY 
+Burma BM XB, XC, XE 
+Burundi BY XA, ZF 
+Cambodia CB XB, XC, XE 
+Cameroon CM XA, ZF 
+Canada CA XS 
+Canary Islands SP ZH 
+Cape Verde CV XA, XY 
+Cayman Islands CJ XL 
+Central African Republic CT XA, ZF 
+Chad CD XA, ZF 
+Chagos Archipelago IO XO 
+Chatham Islands NZ XB, XU 
+Chile CI XM, XR 
+China CH XB, XE, ZO 
+Christmas Island KT XB, XU 
+Clipperton Island IP XM 
+Cocos (Keeling) Islands CK XB, XU 
+Colombia CO XM, XR 
+Comoros CN XA, XO, XW 
+Congo (Brazzaville) CF XA, ZF 
+Congo (Kinshasa) CG XA, ZF 
+Cook Islands CW XB, XV 
+Coral Sea Islands CR XB, XU 
+Corsica FR XG, XT, ZM 
+Costa Rica CS XK, XM 
+Cote D’Ivoire IV XA, XY 
+Crete GR XG, ZM 
+Croatia HR XG, XH, ZL 
+Cuba CU XL 
+Cyprus CY XG, XT, ZM, ZS 
+Czech Republic EZ XG, XH 
+Denmark DA XG, XT, XZ 
+Diego Garcia IO XA, XO, XW 
+Djibouti DJ XA, XW 
+Dominica DO XL 
+Dominican Republic DR XL 
+East Timor TT XD, XO 
+Ecuador EC XM, XR 
+Egypt EG XA, XF, XI 
+El Salvador ES XK, XM 
+Equatorial Guinea EK XA, ZF 
+Eritrea ER XA, XW 
+Estonia EN XG, XH, ZB 
+Ethiopia ET XA, XW 
+Europa EU XO 
+Falkland Islands (Islas Malvinas) FK ZT 
+Faroe Islands FO XG, XT, XZ 
+Fiji FJ XB, XV 
+Finland FI XG, XT, XZ 
+France FR XG, XT 
+French Guiana FG XL, XR 
+French Polynesia FP XB, XV 
+French Southern and Antarctic Lands FS XO 
+Gabon GB XA, ZF 
+Gambia, The GA XA, XY 
+Gaza Strip GZ XF 
+Georgia GG ZJ 
+Germany GM XG, XT 
+Ghana GH XA, XY 
+Gibraltar GI XG, XT 
+Glorioso Islands GO XO 
+Gough Island SH XA, ZU 
+Greece GR XG, XT, ZL, ZS 
+Greenland GL XG, XT, XZ, ZH 
+Grenada GJ XL 
+Guadeloupe GP XL 
+Guam GQ XV 
+Guatemala GT XK, XM 
+Guernsey GK XG, XT 
+Guinea GV XA, XY 
+Guinea-Bissau PU XA, XY 
+Guyana GY XL, XR 
+Haiti HA XL 
+Heard Island and McDonald Islands HM XB, XU 
+Honduras HO XK, XM 
+Hong Kong HK XB, XE, ZO 
+Howland Island HQ XB, XV 
+Hungary HU XG, XH 
+Iceland IC XG, XT, XZ, ZH 
+India IN XD 
+Indonesia ID XB, XC, XE 
+Iran IR XF, ZP, ZR 
+Iraq IZ XF, ZP, ZR 
+Ireland EI XG, XT 
+Israel IS XF 
+Italy IT XG, XT, ZM 
+Jamaica JM XL 
+Jan Mayen JN XG, ZH 
+Japan JA XB, XE, ZO 
+Jarvis Island DQ XB, XV 
+Jersey JE XT, XZ 
+Johnston Atoll JQ XB, XV 
+Jordan JO XF 
+Juan de Nova Island JU XO 
+Kazakhstan KZ ZK 
+Kenya KE XA, XW 
+Kermadec Islands NZ XB, XU 
+Kingman Reef KQ XB, XV 
+Kiribati KR XB, XV 
+Korea (Dem. Peoples Rep. of) KN XB, XE, ZO 
+Korea (Republic of) KS XB, XE, ZO 
+Kosovo KV XG, XH, ZL 
+Kuwait KU XF, ZP, ZR 
+Kyrgyzstan KG ZK 
+Lakshadweep Islands IN XD, XO 
+Laos LA XB, XC, XE 
+Latvia LG XG, XH, ZB 
+Lebanon LE XF 
+Lesotho LT XA, ZU 
+Liberia LI XA, XY 
+Libya LY XA, XF, XI 
+Liechtenstein LS XG, XT 
+Lithuania LH XG, XH, ZB 
+Lord Howe Island AS XB, XU 
+Luxembourg LU XG, XT 
+Macau MC XB, XE, ZO 
+Macedonia MK XG, XH, ZL 
+Macquarie Island AS XB, XU 
+Madagascar MA XA, XO, XW 
+Madeira Islands PO ZH 
+Malawi MI XA, ZU 
+Malaysia MY XB, XC, XE 
+Maldives MV XD, XO 
+Mali ML XA, XY 
+Mallorca SP XG, ZM 
+Malta MT XG, XT, ZM 
+Man, Isle of IM XT 
+Marshall Islands RM XB, XV 
+Martinique MB XL 
+Mauritania MR XA, XY 
+Mauritius MP XA, XO, XW 
+Mayotte MF XA, ZU 
+Mexico MX XM 
+Micronesia FM XB, XV 
+Midway Islands MQ XB, XV 
+Moldova MD XH 
+Monaco MN XG, XT 
+Mongolia MG XB, XE, ZO 
+Montenegro MW XG, XH, ZL 
+Montserrat MH XL 
+Morocco MO XA, XF, XI 
+Mozambique MZ XA, ZU 
+Namibia WA XA, ZU 
+Nauru NR XB, XV 
+Navassa Island BQ XL 
+Nepal NP XD 
+Netherlands NL XG, XT 
+Netherlands Antilles NT XL 
+New Caledonia NC XB, XV 
+New Zealand NZ XB, XU 
+Nicaragua NU XK, XM 
+Nicobar Islands IN XD, XO 
+Niger NG XA, XY 
+Nigeria NI XA, XY 
+Niue NE XB, XV 
+Norfolk Island NF XB, XU 
+Northern Mariana Islands CQ XB, XV 
+Norway NO XG, XT, XZ 
+Okinawa JA XB, XE, ZO 
+Oman MU XF, ZP, ZR 
+Pakistan PK XD 
+Palau PS XB, XV 
+Palmyra Atoll LQ XB, XV 
+Panama PM XK, XM 
+Papua New Guinea PP XB, XV 
+Paracel Islands PF XB, XC, XE 
+Paraguay PA XM, XR 
+Peru PE XM, XR 
+Philippines RP XB, XC, XE 
+Pitcairn Islands PC XB, XV 
+Poland PL XG, XH 
+Portugal PO XG, XT 
+Puerto Rico RQ XL 
+Qatar QA XF, ZP, ZR 
+Reunion RE XA, XO, XW 
+Romania RO XG, XH, ZL 
+Russia RS XG, XH 
+Rwanda RW XA, ZF 
+Ryukyu Islands JA XB, XE, ZO 
+Saint Helena SH XA, ZU 
+Saint Kitts and Nevis SC XL 
+Saint Lucia ST XL 
+Saint Pierre and Miquelon SB ZH 
+Saint Vincent and the Grenadines VC XL 
+Samoa WS XB, XV 
+San Marino SM XG, XT 
+Sao Tome and Principe TP XA, ZF 
+Saudi Arabia SA XF, ZP, ZR 
+Senegal SG XA, XY 
+Serbia and Montenegro YI XG, XH, ZL 
+Seychelles SE XA, XO, XW 
+Sierra Leone SL XA, XY 
+Singapore SN XB, XC, XE 
+Slovakia LO XG, XH 
+Slovenia SI XG, XH, ZL 
+Solomon Islands BP XB, XV 
+Somalia SO XA, XW 
+South Africa SF XA, ZU 
+Spain SP XG, XT 
+Spratly Islands PG XB, XC, XE 
+Sri Lanka CE XD, XO 
+Sudan SU XA, XW 
+Suriname NS XL, XR 
+Svalbard SV XG, XT, XZ 
+Swaziland WZ XA, ZU 
+Sweden SW XG, XT, XZ 
+Switzerland SZ XG, XT 
+Syria SY XF 
+Taiwan TW XB, XE, ZO 
+Tajikistan TI ZK 
+Tanzania TZ XA, XW 
+Tasmania AS XB, XU 
+Thailand TH XB, XC, XE 
+Togo TO XA, XY 
+Tokelau TL XB, XV 
+Tonga TN XB, XV 
+Trinidad and Tobago TD XL 
+Tristan da Cunha SH XA, ZU 
+Tromelin Island TE XO 
+Tunisia TS XA, XF, XI 
+Turkey TU XG, XT, ZL, ZS 
+Turkmenistan TX ZK 
+Turks and Caicos Islands TK XL 
+Tuvalu TV XB, XV 
+Uganda UG XA, XW 
+Ukraine UP XH 
+United Arab Emirates AE XF, ZP, ZR 
+United Kingdom UK XG, XT 
+United States US XS 
+Uruguay UY XM, XR 
+US Virgin Islands VQ XL 
+Uzbekistan UZ ZK 
+Vanuatu NH XB, XV 
+Vatican City (Holy See) VT XG, XT 
+Venezuela VE XM, XR 
+Vietnam VM XB, XC, XE 
+Wake Island WQ XB, XV 
+Wallis and Futuna WF XB, XV 
+West Bank WE XF 
+Western Sahara WI XA, XY 
+Wrangel Island RS XQ 
+Yemen YM XF, ZR 
+Zambia ZA XA, ZU 
+Zimbabwe ZI XA, ZU 
