@@ -31,6 +31,8 @@ onto:transmission-id isa tmcl:occurrence-type;
   has-datatype(xsd:string);
   matches-regexp("[A-Z]+[0-9]+").
 
+onto:summary isa tmcl:occurrence-type.
+
 onto:tag isa tmcl:topic-type;
   has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/tag/.+");
 .
@@ -45,6 +47,7 @@ onto:diplomatic-cable isa tmcl:topic-type;
   has-name(onto:reference-id, 1, 1);
   has-name(onto:subject, 0, 1);
   has-occurrence(onto:transmission-id, 0, 1);
+  has-occurrence(onto:summary, 0, 1);
 .
 
 dc:title isa tmcl:name-type.
