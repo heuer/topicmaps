@@ -8,9 +8,6 @@ from StringIO import StringIO
 from urllib import quote
 
 
-_TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:[ \t]+)(.+)$', re.UNICODE)
-_WS_NORMALIZER_PATTERN = re.compile(r'[ ]+')
-
 def generate_ctm(fileobj):
     """\
     
@@ -24,15 +21,7 @@ def generate_ctm(fileobj):
 #-- %s
 #
 """ % header)
-        for l in StringIO(s):
-            tag, name = _TAG_NAME_PATTERN.match(l).groups()
-            tag = tag.strip().upper()
-            tag = _WS_NORMALIZER_PATTERN.sub(' ', tag)
-            path = quote(tag).replace('/', '%2F')
-            if path == tag:
-                sid = u'tag:%s' % tag
-            else:
-                sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
+        for sid, tag, name in _get_sid_tag_name(s):
             if sid in seen_tags:
                 fileobj.write('# CAUTION: Duplicate\n')
                 if sid not in dupl_tags:
@@ -69,6 +58,39 @@ def generate_ctm(fileobj):
     write_tags(PROGRAM_TAGS, seen_tags, dupl_tags, 'Program Tags')
     if dupl_tags:
         fileobj.write('\n\n# Duplicates: %r\n' % dupl_tags)
+
+
+def _get_sid_tag_name(s):
+    """\
+    Returns a tuple (sid, tag, name) where "sid" is either an IRI or a QName.
+
+    `s`
+        The string to read the tags/names from (tag <tab> name).
+    """
+    for tag, name in _get_tag_name(s):
+        path = quote(tag).replace('/', '%2F')
+        if path == tag:
+            sid = u'tag:%s' % tag
+        else:
+            sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
+        yield sid, tag, name
+
+
+_TAG_NAME_PATTERN = re.compile(ur'^([A-Za-z0-9&/ _-]+)(?:[ \t]+)(.+)$', re.UNICODE)
+_WS_NORMALIZER_PATTERN = re.compile(r'[ ]+')
+
+def _get_tag_name(s):
+    """\
+    Returns a tuple (tag, name)
+    
+    `s`
+        The string to read the tags/names from (tag <tab> name).
+    """
+    for l in StringIO(s):
+        tag, name = _TAG_NAME_PATTERN.match(l).groups()
+        tag = tag.strip().upper()
+        tag = _WS_NORMALIZER_PATTERN.sub(' ', tag)
+        yield tag, name
 
 #
 # Source: <https://cabletags.wordpress.com>
