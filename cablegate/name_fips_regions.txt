@@ -5,7 +5,7 @@
 #
 # FIPS: <https://secure.wikimedia.org/wikipedia/en/wiki/FIPS_state_code>
 #
-# Source: "U.S. Department of State Foreign Affairs Handbook Volume 5 Handbook 3 – TAGS/Terms Handbook
+# Source: "U.S. Department of State Foreign Affairs Handbook Volume 5 Handbook 3 â€“ TAGS/Terms Handbook
 #         5 FAH-3 H-400
 #         GEO-POLITICAL TAGS
 #         (CT:TAGS-39; 07-07-2009)
@@ -17,7 +17,7 @@
 # How to read this source:
 #
 # import re
-# p = re.compile('^(.+)[ ]([A-Z]{2})[ ](.+)$')
+# p = re.compile(r'^(.+?)[ ]([A-Z]{2})[ ](.+)$', re.UNICODE)
 # for l in source:
 #     if l.startswith('#'):
 #         continue
@@ -100,7 +100,7 @@ Cook Islands CW XB, XV
 Coral Sea Islands CR XB, XU 
 Corsica FR XG, XT, ZM 
 Costa Rica CS XK, XM 
-Cote D’Ivoire IV XA, XY 
+Cote Dâ€™Ivoire IV XA, XY 
 Crete GR XG, ZM 
 Croatia HR XG, XH, ZL 
 Cuba CU XL 
