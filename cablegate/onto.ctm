@@ -29,6 +29,12 @@ onto:transmission-id
 onto:tag
   - "TAG".
 
+onto:country-tag ako onto:tag;
+  - "country TAG".
+
+onto:region-tag ako onto:tag;
+  - "region TAG".
+
 onto:classification-level 
   - "classification level".
 

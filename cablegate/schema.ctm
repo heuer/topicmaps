@@ -31,11 +31,18 @@ onto:transmission-id isa tmcl:occurrence-type;
   has-datatype(xsd:string);
   matches-regexp("[A-Z]+[0-9]+").
 
-onto:summary isa tmcl:occurrence-type.
+onto:summary isa tmcl:occurrence-type;
+  has-datatype(xsd:string).
 
 onto:tag isa tmcl:topic-type;
   has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/tag/.+");
 .
+
+onto:region-tag ako onto:tag;
+  matches-regexp("[A-Z]{2}").
+
+onto:country-tag ako onto:tag;
+  matches-regexp("[A-Z]{2}").
 
 onto:classification-level isa tmcl:topic-type.
 
