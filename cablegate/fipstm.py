@@ -46,7 +46,7 @@ def generate_ctm(fileobj):
     dupl_tags = []
     fileobj.write("""\
 
-def belongs-to($tag, $region)
+def belongs-to($country, $region)
     #TODO
 end
 
