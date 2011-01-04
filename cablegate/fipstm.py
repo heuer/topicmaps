@@ -42,8 +42,6 @@ def generate_ctm(fileobj):
 
 
 """ % date.today().isoformat())
-    seen_tags = []
-    dupl_tags = []
     fileobj.write("""\
 
 def belongs-to($country, $region)
@@ -56,7 +54,15 @@ end
 # ---------
 #
 """)
+    seen_tags = []
+    dupl_tags = []
     for code, name, regions in get_countries():
+        if code in seen_tags:
+            fileobj.write('# CAUTION: Duplicate\n')
+            if code not in dupl_tags:
+                dupl_tags.append(code)
+        else:
+            seen_tags.append(code)
         fileobj.write(u'tag:%s isa onto:country-tag;\n    - "%s";\n    - dc:title: "%s";\n' % (code, code, name))
         for region in regions:
             fileobj.write(u'    belongs-to(tag:%s);\n' % region)
@@ -69,7 +75,15 @@ end
 #
 """)
     for code, name in get_regions():
+        if code in seen_tags:
+            fileobj.write('# CAUTION: Duplicate\n')
+            if code not in dupl_tags:
+                dupl_tags.append(code)
+        else:
+            seen_tags.append(code)
         fileobj.write(u'tag:%s isa onto:region-tag;\n    - "%s";\n    - dc:title: "%s".\n\n' % (code, code, name))
+    if dupl_tags:
+        fileobj.write('# Duplicates: %r' % dupl_tags)
 
 
 def get_countries():

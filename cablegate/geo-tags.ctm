@@ -24,7 +24,7 @@
 
 
 
-def belongs-to($tag, $region)
+def belongs-to($country, $region)
     #TODO
 end
 
@@ -161,6 +161,7 @@ tag:AS isa onto:country-tag;
     belongs-to(tag:XU);
 .
 
+# CAUTION: Duplicate
 tag:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "Auckland Islands";
@@ -168,6 +169,7 @@ tag:NZ isa onto:country-tag;
     belongs-to(tag:XU);
 .
 
+# CAUTION: Duplicate
 tag:AS isa onto:country-tag;
     - "AS";
     - dc:title: "Australia";
@@ -305,6 +307,7 @@ tag:BC isa onto:country-tag;
     belongs-to(tag:ZU);
 .
 
+# CAUTION: Duplicate
 tag:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "Bounty Islands";
@@ -397,6 +400,7 @@ tag:CA isa onto:country-tag;
     belongs-to(tag:XS);
 .
 
+# CAUTION: Duplicate
 tag:SP isa onto:country-tag;
     - "SP";
     - dc:title: "Canary Islands";
@@ -430,12 +434,14 @@ tag:CD isa onto:country-tag;
     belongs-to(tag:ZF);
 .
 
+# CAUTION: Duplicate
 tag:IO isa onto:country-tag;
     - "IO";
     - dc:title: "Chagos Archipelago";
     belongs-to(tag:XO);
 .
 
+# CAUTION: Duplicate
 tag:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "Chatham Islands";
@@ -588,6 +594,7 @@ tag:DA isa onto:country-tag;
     belongs-to(tag:XZ);
 .
 
+# CAUTION: Duplicate
 tag:IO isa onto:country-tag;
     - "IO";
     - dc:title: "Diego Garcia";
@@ -644,6 +651,7 @@ tag:ES isa onto:country-tag;
     belongs-to(tag:XM);
 .
 
+# CAUTION: Duplicate
 tag:EK isa onto:country-tag;
     - "EK";
     - dc:title: "Equatorial Guinea";
@@ -700,6 +708,7 @@ tag:FJ isa onto:country-tag;
     belongs-to(tag:XV);
 .
 
+# CAUTION: Duplicate
 tag:FI isa onto:country-tag;
     - "FI";
     - dc:title: "Finland";
@@ -708,6 +717,7 @@ tag:FI isa onto:country-tag;
     belongs-to(tag:XZ);
 .
 
+# CAUTION: Duplicate
 tag:FR isa onto:country-tag;
     - "FR";
     - dc:title: "France";
@@ -788,6 +798,7 @@ tag:GO isa onto:country-tag;
     belongs-to(tag:XO);
 .
 
+# CAUTION: Duplicate
 tag:SH isa onto:country-tag;
     - "SH";
     - dc:title: "Gough Island";
@@ -795,6 +806,7 @@ tag:SH isa onto:country-tag;
     belongs-to(tag:ZU);
 .
 
+# CAUTION: Duplicate
 tag:GR isa onto:country-tag;
     - "GR";
     - dc:title: "Greece";
@@ -917,6 +929,7 @@ tag:IC isa onto:country-tag;
     belongs-to(tag:ZH);
 .
 
+# CAUTION: Duplicate
 tag:IN isa onto:country-tag;
     - "IN";
     - dc:title: "India";
@@ -1035,6 +1048,7 @@ tag:KE isa onto:country-tag;
     belongs-to(tag:XW);
 .
 
+# CAUTION: Duplicate
 tag:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "Kermadec Islands";
@@ -1094,6 +1108,7 @@ tag:KG isa onto:country-tag;
     belongs-to(tag:ZK);
 .
 
+# CAUTION: Duplicate
 tag:IN isa onto:country-tag;
     - "IN";
     - dc:title: "Lakshadweep Islands";
@@ -1160,6 +1175,7 @@ tag:LH isa onto:country-tag;
     belongs-to(tag:ZB);
 .
 
+# CAUTION: Duplicate
 tag:AS isa onto:country-tag;
     - "AS";
     - dc:title: "Lord Howe Island";
@@ -1190,6 +1206,7 @@ tag:MK isa onto:country-tag;
     belongs-to(tag:ZL);
 .
 
+# CAUTION: Duplicate
 tag:AS isa onto:country-tag;
     - "AS";
     - dc:title: "Macquarie Island";
@@ -1205,6 +1222,7 @@ tag:MA isa onto:country-tag;
     belongs-to(tag:XW);
 .
 
+# CAUTION: Duplicate
 tag:PO isa onto:country-tag;
     - "PO";
     - dc:title: "Madeira Islands";
@@ -1240,6 +1258,7 @@ tag:ML isa onto:country-tag;
     belongs-to(tag:XY);
 .
 
+# CAUTION: Duplicate
 tag:SP isa onto:country-tag;
     - "SP";
     - dc:title: "Mallorca";
@@ -1412,6 +1431,7 @@ tag:NC isa onto:country-tag;
     belongs-to(tag:XV);
 .
 
+# CAUTION: Duplicate
 tag:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "New Zealand";
@@ -1426,6 +1446,7 @@ tag:NU isa onto:country-tag;
     belongs-to(tag:XM);
 .
 
+# CAUTION: Duplicate
 tag:IN isa onto:country-tag;
     - "IN";
     - dc:title: "Nicobar Islands";
@@ -1476,6 +1497,7 @@ tag:NO isa onto:country-tag;
     belongs-to(tag:XZ);
 .
 
+# CAUTION: Duplicate
 tag:JA isa onto:country-tag;
     - "JA";
     - dc:title: "Okinawa";
@@ -1570,6 +1592,7 @@ tag:PL isa onto:country-tag;
     belongs-to(tag:XH);
 .
 
+# CAUTION: Duplicate
 tag:PO isa onto:country-tag;
     - "PO";
     - dc:title: "Portugal";
@@ -1621,6 +1644,7 @@ tag:RW isa onto:country-tag;
     belongs-to(tag:ZF);
 .
 
+# CAUTION: Duplicate
 tag:JA isa onto:country-tag;
     - "JA";
     - dc:title: "Ryukyu Islands";
@@ -1629,6 +1653,7 @@ tag:JA isa onto:country-tag;
     belongs-to(tag:ZO);
 .
 
+# CAUTION: Duplicate
 tag:SH isa onto:country-tag;
     - "SH";
     - dc:title: "Saint Helena";
@@ -1763,6 +1788,7 @@ tag:SF isa onto:country-tag;
     belongs-to(tag:ZU);
 .
 
+# CAUTION: Duplicate
 tag:SP isa onto:country-tag;
     - "SP";
     - dc:title: "Spain";
@@ -1856,6 +1882,7 @@ tag:TZ isa onto:country-tag;
     belongs-to(tag:XW);
 .
 
+# CAUTION: Duplicate
 tag:AS isa onto:country-tag;
     - "AS";
     - dc:title: "Tasmania";
@@ -1898,6 +1925,7 @@ tag:TD isa onto:country-tag;
     belongs-to(tag:XL);
 .
 
+# CAUTION: Duplicate
 tag:SH isa onto:country-tag;
     - "SH";
     - dc:title: "Tristan da Cunha";
@@ -1975,6 +2003,7 @@ tag:UK isa onto:country-tag;
     belongs-to(tag:XT);
 .
 
+# CAUTION: Duplicate
 tag:US isa onto:country-tag;
     - "US";
     - dc:title: "United States";
@@ -2056,6 +2085,7 @@ tag:WI isa onto:country-tag;
     belongs-to(tag:XY);
 .
 
+# CAUTION: Duplicate
 tag:RS isa onto:country-tag;
     - "RS";
     - dc:title: "Wrangel Island";
@@ -2232,3 +2262,4 @@ tag:XT isa onto:region-tag;
     - "XT";
     - dc:title: "Western Europe".
 
+# Duplicates: [u'NZ', u'AS', u'SP', u'IO', u'EK', u'FI', u'FR', u'SH', u'GR', u'IN', u'PO', u'JA', u'US', u'RS']
