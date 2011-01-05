@@ -6,33 +6,25 @@
 #
 # Description:  Cablegate TMCL schema
 #
+# Status:       Experimental/untested
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
 # License:      Public Domain
 #
-# Date:         2010-12-31
+# Date:         2011-01-05
 # 
 
 %include <http://www.isotopicmaps.org/tmcl/templates.ctm>
 
 %prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
-%prefix tmcl http://psi.topicmaps.org/tmcl/
-%prefix tmdm http://psi.topicmaps.org/iso13250/model/
-%prefix xsd http://www.w3.org/2001/XMLSchema#
+%prefix tmcl <http://psi.topicmaps.org/tmcl/>
+%prefix xsd <http://www.w3.org/2001/XMLSchema#>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
-onto:is-partial isa tmcl:association-type;
-  has-role(onto:partial, 1, 1).
-
-onto:reference-id isa tmcl:name-type;
-  matches-regexp("[0-9]{2}[A-Z]+[0-9]+").
-
-onto:subject isa tmcl:name-type.
-
-onto:transmission-id isa tmcl:occurrence-type;
-  has-datatype(xsd:string);
-  matches-regexp("[A-Z]+[0-9]+").
-
-onto:summary isa tmcl:occurrence-type;
-  has-datatype(xsd:string).
+#
+# Topic types
+#
 
 onto:tag isa tmcl:topic-type;
   has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/tag/.+");
@@ -56,5 +48,38 @@ onto:diplomatic-cable isa tmcl:topic-type;
   has-occurrence(onto:transmission-id, 0, 1);
   has-occurrence(onto:summary, 0, 1);
 .
+
+#
+# Association types
+#
+onto:is-partial isa tmcl:association-type;
+  has-role(onto:partial, 1, 1).
+
+
+#
+# Role types
+#
+
+
+#
+# Occurrence types
+#
+
+onto:transmission-id isa tmcl:occurrence-type;
+  has-datatype(xsd:string);
+  matches-regexp("[A-Z]+[0-9]+").
+
+onto:summary isa tmcl:occurrence-type;
+  has-datatype(xsd:string).
+
+
+#
+# Name types
+#
+
+onto:reference-id isa tmcl:name-type;
+  matches-regexp("[0-9]{2}[A-Z]+[0-9]+").
+
+onto:subject isa tmcl:name-type.
 
 dc:title isa tmcl:name-type.

@@ -6,9 +6,11 @@
 #
 # Description:  This topic map creates the Cablegate ontology
 #
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
 # License:      Public Domain
 #
-# Date:         2010-12-31
+# Date:         2011-01-05
 # 
 
 %prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
