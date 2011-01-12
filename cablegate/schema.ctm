@@ -28,6 +28,7 @@
 
 onto:tag isa tmcl:topic-type;
   has-subject-identifier(1, 1, "http://psi\.metaleaks\.org/cablegate/tag/.+");
+  has-name(dc:title, 1, *);
 .
 
 onto:region-tag ako onto:tag;

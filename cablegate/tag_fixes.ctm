@@ -17,18 +17,6 @@
 
 
 #
-# Let tags merge -- Structure: TAG-with-typo -> official-TAG
-#
-
-tag:SYR tag:SY.
-
-tag:MOPPS tag:MOPS.
-
-tag:RU tag:RS.  # RU is used by i.e. 09BERLIN1433, 09RIYADH181 etc.
-
-
-
-#
 # Additional names
 #
 
