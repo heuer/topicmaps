@@ -71,7 +71,7 @@ onto:is-partial isa tmcl:association-type;
 
 onto:transmission-id isa tmcl:occurrence-type;
   has-datatype(xsd:string);
-  matches-regexp("[A-Z]+[0-9]+").
+  matches-regexp("VZCZ[A-Z]+[0-9]+").
 
 onto:summary isa tmcl:occurrence-type;
   has-datatype(xsd:string).
