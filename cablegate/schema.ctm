@@ -13,6 +13,8 @@
 # License:      Public Domain
 #
 # Date:         2011-01-05
+#
+# Modified:     2011-01-27
 # 
 
 %include <http://www.isotopicmaps.org/tmcl/templates.ctm>
@@ -21,6 +23,7 @@
 %prefix tmcl <http://psi.topicmaps.org/tmcl/>
 %prefix xsd <http://www.w3.org/2001/XMLSchema#>
 %prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix geo <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
 #
 # Topic types
@@ -72,6 +75,16 @@ onto:transmission-id isa tmcl:occurrence-type;
 
 onto:summary isa tmcl:occurrence-type;
   has-datatype(xsd:string).
+
+#
+# TODO: Acc. to <http://www.w3.org/2003/01/geo/> the datatype is a string
+#       this schema enforces xsd:float. We'll see if this causes any trouble.
+
+geo:lat isa tmcl:occurrence-type;
+  has-datatype(xsd:float).
+
+geo:long isa tmcl:occurrence-type;
+  has-datatype(xsd:float).
 
 
 #

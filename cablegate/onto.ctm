@@ -12,9 +12,12 @@
 #
 # Date:         2011-01-05
 # 
+# Modified:     2011-01-27
+# 
 
 %prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix geo <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
 onto:is-partial
   - "is partial".
@@ -51,3 +54,6 @@ onto:summary
 
 dc:title
   - "title".
+
+geo:lat - "latitude".
+geo:long - "longitude".
