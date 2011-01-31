@@ -11,1594 +11,1605 @@
 # Source:       <https://cabletags.wordpress.com/>
 #
 # Date:         2011-01-04
+#
+# Modified:     2011-01-31
 # 
 
-%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
-%prefix dc <http://purl.org/dc/elements/1.1/>
+#
+# Prefixes
+#
+%prefix org<http://psi.metaleaks.org/cablegate/org-tag/>
+%prefix program<http://psi.metaleaks.org/cablegate/program-tag/>
+%prefix subj<http://psi.metaleaks.org/cablegate/subject-tag/>
+%prefix dc<http://purl.org/dc/elements/1.1/>
 
 
 #
 #-- Subject Tags
 #
-tag:AADP - "AADP"; - dc:title: "Automated Data Processing".
+subj:AADP - "AADP"; - dc:title: "Automated Data Processing".
 
-tag:ABLD - "ABLD"; - dc:title: "Buildings and Grounds".
+subj:ABLD - "ABLD"; - dc:title: "Buildings and Grounds".
 
-tag:ABUD - "ABUD"; - dc:title: "Budget Services and Financial Systems".
+subj:ABUD - "ABUD"; - dc:title: "Budget Services and Financial Systems".
 
-tag:ACOA - "ACOA"; - dc:title: "Communication Operations and Administration".
+subj:ACOA - "ACOA"; - dc:title: "Communication Operations and Administration".
 
-tag:ACKM - "ACKM"; - dc:title: "COMSEC Key Management".
+subj:ACKM - "ACKM"; - dc:title: "COMSEC Key Management".
 
-tag:ADCO - "ADCO"; - dc:title: "Diplomatic Courier Operations".
+subj:ADCO - "ADCO"; - dc:title: "Diplomatic Courier Operations".
 
-tag:ADPM - "ADPM"; - dc:title: "Diplomatic Pouch and Mail".
+subj:ADPM - "ADPM"; - dc:title: "Diplomatic Pouch and Mail".
 
-tag:AEMR - "AEMR"; - dc:title: "Emergency Planning and Evacuation".
+subj:AEMR - "AEMR"; - dc:title: "Emergency Planning and Evacuation".
 
-tag:AFIN - "AFIN"; - dc:title: "Financial Management".
+subj:AFIN - "AFIN"; - dc:title: "Financial Management".
 
-tag:AFSI - "AFSI"; - dc:title: "Foreign Service Institute".
+subj:AFSI - "AFSI"; - dc:title: "Foreign Service Institute".
 
-tag:AFSN - "AFSN"; - dc:title: "Foreign Service National Personnel".
+subj:AFSN - "AFSN"; - dc:title: "Foreign Service National Personnel".
 
-tag:AGAO - "AGAO"; - dc:title: "General Accounting Office".
+subj:AGAO - "AGAO"; - dc:title: "General Accounting Office".
 
-tag:AINF - "AINF"; - dc:title: "Information Management Services".
+subj:AINF - "AINF"; - dc:title: "Information Management Services".
 
-tag:AINR - "AINR"; - dc:title: "INR Program Administration".
+subj:AINR - "AINR"; - dc:title: "INR Program Administration".
 
-tag:AINT - "AINT"; - dc:title: "Internet Administration".
+subj:AINT - "AINT"; - dc:title: "Internet Administration".
 
-tag:ALOW - "ALOW"; - dc:title: "Allowances".
+subj:ALOW - "ALOW"; - dc:title: "Allowances".
 
-tag:AMED - "AMED"; - dc:title: "Medical Services".
+subj:AMED - "AMED"; - dc:title: "Medical Services".
 
-tag:AMGT - "AMGT"; - dc:title: "Management Operations".
+subj:AMGT - "AMGT"; - dc:title: "Management Operations".
 
-tag:AMTC - "AMTC"; - dc:title: "Telecommunications Equipment Maintenance".
+subj:AMTC - "AMTC"; - dc:title: "Telecommunications Equipment Maintenance".
 
-tag:ANET - "ANET"; - dc:title: "Communications, Circuits, and Networks".
+subj:ANET - "ANET"; - dc:title: "Communications, Circuits, and Networks".
 
-tag:AODE - "AODE"; - dc:title: "Employees Abroad".
+subj:AODE - "AODE"; - dc:title: "Employees Abroad".
 
-tag:AOMS - "AOMS"; - dc:title: "Office Management Specialist Issues".
+subj:AOMS - "AOMS"; - dc:title: "Office Management Specialist Issues".
 
-tag:AORC - "AORC"; - dc:title: "International Organizations and Conferences".
+subj:AORC - "AORC"; - dc:title: "International Organizations and Conferences".
 
-tag:APCS - "APCS"; - dc:title: "Personal Computers".
+subj:APCS - "APCS"; - dc:title: "Personal Computers".
 
-tag:APER - "APER"; - dc:title: "Personnel".
+subj:APER - "APER"; - dc:title: "Personnel".
 
-tag:ASCH - "ASCH"; - dc:title: "U.S. Sponsored Schools".
+subj:ASCH - "ASCH"; - dc:title: "U.S. Sponsored Schools".
 
-tag:ASEC - "ASEC"; - dc:title: "Security".
+subj:ASEC - "ASEC"; - dc:title: "Security".
 
-tag:ASIG - "ASIG"; - dc:title: "Inspector General Activities".
+subj:ASIG - "ASIG"; - dc:title: "Inspector General Activities".
 
-tag:BBSR - "BBSR"; - dc:title: "Business Services Reporting".
+subj:BBSR - "BBSR"; - dc:title: "Business Services Reporting".
 
-tag:BEXP - "BEXP"; - dc:title: "Trade Expansion and Promotion".
+subj:BEXP - "BEXP"; - dc:title: "Trade Expansion and Promotion".
 
-tag:BMGT - "BMGT"; - dc:title: "FCS Management Operations".
+subj:BMGT - "BMGT"; - dc:title: "FCS Management Operations".
 
-tag:BTIO - "BTIO"; - dc:title: "Trade and Investment Opportunities".
+subj:BTIO - "BTIO"; - dc:title: "Trade and Investment Opportunities".
 
-tag:CASC - "CASC"; - dc:title: "Assistance to Citizens".
+subj:CASC - "CASC"; - dc:title: "Assistance to Citizens".
 
-tag:CFED - "CFED"; - dc:title: "Federal Agency Services".
+subj:CFED - "CFED"; - dc:title: "Federal Agency Services".
 
-tag:CJAN - "CJAN"; - dc:title: "Judicial Assistance and Notarial Services".
+subj:CJAN - "CJAN"; - dc:title: "Judicial Assistance and Notarial Services".
 
-tag:CLOK - "CLOK"; - dc:title: "Visa Lookout".
+subj:CLOK - "CLOK"; - dc:title: "Visa Lookout".
 
-tag:CMGT - "CMGT"; - dc:title: "Consular Administration and Management".
+subj:CMGT - "CMGT"; - dc:title: "Consular Administration and Management".
 
-tag:CPAS - "CPAS"; - dc:title: "Passport and Citizenship".
+subj:CPAS - "CPAS"; - dc:title: "Passport and Citizenship".
 
-tag:CVIS - "CVIS"; - dc:title: "Visas".
+subj:CVIS - "CVIS"; - dc:title: "Visas".
 
-tag:EAGR - "EAGR"; - dc:title: "Agriculture and Forestry".
+subj:EAGR - "EAGR"; - dc:title: "Agriculture and Forestry".
 
-tag:EAID - "EAID"; - dc:title: "Foreign Economic Assistance".
+subj:EAID - "EAID"; - dc:title: "Foreign Economic Assistance".
 
-tag:EAIR - "EAIR"; - dc:title: "Civil Aviation".
+subj:EAIR - "EAIR"; - dc:title: "Civil Aviation".
 
-tag:ECON - "ECON"; - dc:title: "Economic Conditions".
+subj:ECON - "ECON"; - dc:title: "Economic Conditions".
 
-tag:ECPS - "ECPS"; - dc:title: "Communications and Postal Systems".
+subj:ECPS - "ECPS"; - dc:title: "Communications and Postal Systems".
 
-tag:EFIN - "EFIN"; - dc:title: "Financial and Monetary Affairs".
+subj:EFIN - "EFIN"; - dc:title: "Financial and Monetary Affairs".
 
-tag:EFIS - "EFIS"; - dc:title: "Commercial Fishing and Fish Processing".
+subj:EFIS - "EFIS"; - dc:title: "Commercial Fishing and Fish Processing".
 
-tag:EIND - "EIND"; - dc:title: "Industry and Manufacturing".
+subj:EIND - "EIND"; - dc:title: "Industry and Manufacturing".
 
-tag:EINT - "EINT"; - dc:title: "Economic and Commercial Internet".
+subj:EINT - "EINT"; - dc:title: "Economic and Commercial Internet".
 
-tag:EINV - "EINV"; - dc:title: "Foreign Investments".
+subj:EINV - "EINV"; - dc:title: "Foreign Investments".
 
-tag:ELAB - "ELAB"; - dc:title: "Labor Sector Affairs".
+subj:ELAB - "ELAB"; - dc:title: "Labor Sector Affairs".
 
-tag:ELTN - "ELTN"; - dc:title: "Land Transportation".
+subj:ELTN - "ELTN"; - dc:title: "Land Transportation".
 
-tag:EMIN - "EMIN"; - dc:title: "Minerals and Metals".
+subj:EMIN - "EMIN"; - dc:title: "Minerals and Metals".
 
-tag:ENRG - "ENRG"; - dc:title: "Energy and Power".
+subj:ENRG - "ENRG"; - dc:title: "Energy and Power".
 
-tag:EPET - "EPET"; - dc:title: "Petroleum and Natural Gas".
+subj:EPET - "EPET"; - dc:title: "Petroleum and Natural Gas".
 
-tag:ETRD - "ETRD"; - dc:title: "Foreign Trade".
+subj:ETRD - "ETRD"; - dc:title: "Foreign Trade".
 
-tag:ETTC - "ETTC"; - dc:title: "Trade and Technology Controls".
+subj:ETTC - "ETTC"; - dc:title: "Trade and Technology Controls".
 
-tag:EWWT - "EWWT"; - dc:title: "Waterborne Transportation".
+subj:EWWT - "EWWT"; - dc:title: "Waterborne Transportation".
 
-tag:MARR - "MARR"; - dc:title: "Military and Defense Arrangements".
+subj:MARR - "MARR"; - dc:title: "Military and Defense Arrangements".
 
-tag:MASS - "MASS"; - dc:title: "Military Assistance and Sales".
+subj:MASS - "MASS"; - dc:title: "Military Assistance and Sales".
 
-tag:MCAP - "MCAP"; - dc:title: "Military Capabilities".
+subj:MCAP - "MCAP"; - dc:title: "Military Capabilities".
 
-tag:MNUC - "MNUC"; - dc:title: "Military Nuclear Applications".
+subj:MNUC - "MNUC"; - dc:title: "Military Nuclear Applications".
 
-tag:MOPS - "MOPS"; - dc:title: "Military Operations".
+subj:MOPS - "MOPS"; - dc:title: "Military Operations".
 
-tag:ODIP - "ODIP"; - dc:title: "U.S. Diplomatic Representation".
+subj:ODIP - "ODIP"; - dc:title: "U.S. Diplomatic Representation".
 
-tag:OEXC - "OEXC"; - dc:title: "Educational and Cultural Exchange Operations".
+subj:OEXC - "OEXC"; - dc:title: "Educational and Cultural Exchange Operations".
 
-tag:OFDP - "OFDP"; - dc:title: "Foreign Diplomats and Foreign Missions".
+subj:OFDP - "OFDP"; - dc:title: "Foreign Diplomats and Foreign Missions".
 
-tag:OIIP - "OIIP"; - dc:title: "International Information Programs".
+subj:OIIP - "OIIP"; - dc:title: "International Information Programs".
 
-tag:OPDC - "OPDC"; - dc:title: "Diplomatic Correspondence".
+subj:OPDC - "OPDC"; - dc:title: "Diplomatic Correspondence".
 
-tag:OPRC - "OPRC"; - dc:title: "Public Relations and Correspondence".
+subj:OPRC - "OPRC"; - dc:title: "Public Relations and Correspondence".
 
-tag:OREP - "OREP"; - dc:title: "U.S. Congressional Travel".
+subj:OREP - "OREP"; - dc:title: "U.S. Congressional Travel".
 
-tag:OSCI - "OSCI"; - dc:title: "Science Grants".
+subj:OSCI - "OSCI"; - dc:title: "Science Grants".
 
-tag:OTRA - "OTRA"; - dc:title: "Travel".
+subj:OTRA - "OTRA"; - dc:title: "Travel".
 
-tag:OVIP - "OVIP"; - dc:title: "Visits and Travel of Prominent Individuals and Leaders".
+subj:OVIP - "OVIP"; - dc:title: "Visits and Travel of Prominent Individuals and Leaders".
 
-tag:PARM - "PARM"; - dc:title: "Arms Controls and Disarmament".
+subj:PARM - "PARM"; - dc:title: "Arms Controls and Disarmament".
 
-tag:PBTS - "PBTS"; - dc:title: "National Boundaries, Territories, and Sovereignty".
+subj:PBTS - "PBTS"; - dc:title: "National Boundaries, Territories, and Sovereignty".
 
-tag:PGOV - "PGOV"; - dc:title: "Internal Governmental Affairs".
+subj:PGOV - "PGOV"; - dc:title: "Internal Governmental Affairs".
 
-tag:PHSA - "PHSA"; - dc:title: "High Seas Affairs".
+subj:PHSA - "PHSA"; - dc:title: "High Seas Affairs".
 
-tag:PHUM - "PHUM"; - dc:title: "Human Rights".
+subj:PHUM - "PHUM"; - dc:title: "Human Rights".
 
-tag:PINR - "PINR"; - dc:title: "Intelligence".
+subj:PINR - "PINR"; - dc:title: "Intelligence".
 
-tag:PINS - "PINS"; - dc:title: "National Security".
+subj:PINS - "PINS"; - dc:title: "National Security".
 
-tag:PNAT - "PNAT"; - dc:title: "National Independence".
+subj:PNAT - "PNAT"; - dc:title: "National Independence".
 
-tag:PREF - "PREF"; - dc:title: "Refugees".
+subj:PREF - "PREF"; - dc:title: "Refugees".
 
-tag:PREL - "PREL"; - dc:title: "External Political Relations".
+subj:PREL - "PREL"; - dc:title: "External Political Relations".
 
-tag:PROP - "PROP"; - dc:title: "Propaganda and Psychological Operations".
+subj:PROP - "PROP"; - dc:title: "Propaganda and Psychological Operations".
 
-tag:PTER - "PTER"; - dc:title: "Terrorists and Terrorism".
+subj:PTER - "PTER"; - dc:title: "Terrorists and Terrorism".
 
-tag:SCUL - "SCUL"; - dc:title: "Cultural Affairs".
+subj:SCUL - "SCUL"; - dc:title: "Cultural Affairs".
 
-tag:SENV - "SENV"; - dc:title: "Environmental Affairs".
+subj:SENV - "SENV"; - dc:title: "Environmental Affairs".
 
-tag:SMIG - "SMIG"; - dc:title: "Migration".
+subj:SMIG - "SMIG"; - dc:title: "Migration".
 
-tag:SNAR - "SNAR"; - dc:title: "Narcotics".
+subj:SNAR - "SNAR"; - dc:title: "Narcotics".
 
-tag:SOCI - "SOCI"; - dc:title: "Social Conditions".
+subj:SOCI - "SOCI"; - dc:title: "Social Conditions".
 
-tag:TBIO - "TBIO"; - dc:title: "Biological and Medical Science".
+subj:TBIO - "TBIO"; - dc:title: "Biological and Medical Science".
 
-tag:TINT - "TINT"; - dc:title: "Internet Technology".
+subj:TINT - "TINT"; - dc:title: "Internet Technology".
 
-tag:TNGD - "TNGD"; - dc:title: "Engineering Research and Development".
+subj:TNGD - "TNGD"; - dc:title: "Engineering Research and Development".
 
-tag:TPHY - "TPHY"; - dc:title: "Physical Sciences".
+subj:TPHY - "TPHY"; - dc:title: "Physical Sciences".
 
-tag:TRGY - "TRGY"; - dc:title: "Energy Technology".
+subj:TRGY - "TRGY"; - dc:title: "Energy Technology".
 
-tag:TSPA - "TSPA"; - dc:title: "Space Activities".
+subj:TSPA - "TSPA"; - dc:title: "Space Activities".
 
-tag:TSPL - "TSPL"; - dc:title: "Science and Technology Policy".
+subj:TSPL - "TSPL"; - dc:title: "Science and Technology Policy".
 
 #
 #-- Organization Tags
 #
-tag:AAA - "AAA"; - dc:title: "American Automobile Association".
+org:AAA - "AAA"; - dc:title: "American Automobile Association".
 
-tag:AAFLI - "AAFLI"; - dc:title: "Asian American Free Labor Institute".
+org:AAFLI - "AAFLI"; - dc:title: "Asian American Free Labor Institute".
 
-tag:AAI - "AAI"; - dc:title: "African American Institute".
+org:AAI - "AAI"; - dc:title: "African American Institute".
 
-tag:AALC - "AALC"; - dc:title: "African American Labor Center".
+org:AALC - "AALC"; - dc:title: "African American Labor Center".
 
-tag:ABA - "ABA"; - dc:title: "American Bar Association".
+org:ABA - "ABA"; - dc:title: "American Bar Association".
 
-tag:ABC - "ABC"; - dc:title: "American Broadcasting Company".
+org:ABC - "ABC"; - dc:title: "American Broadcasting Company".
 
-tag:ABMC - "ABMC"; - dc:title: "American Battle Monuments Commission".
+org:ABMC - "ABMC"; - dc:title: "American Battle Monuments Commission".
 
-tag:ACABQ - "ACABQ"; - dc:title: "UN Advisory Committee on Administration and Budget Questions".
+org:ACABQ - "ACABQ"; - dc:title: "UN Advisory Committee on Administration and Budget Questions".
 
-tag:ACTU - "ACTU"; - dc:title: "Australian Labor Union".
+org:ACTU - "ACTU"; - dc:title: "Australian Labor Union".
 
-tag:ADB - "ADB"; - dc:title: "Asian Development Bank".
+org:ADB - "ADB"; - dc:title: "Asian Development Bank".
 
-tag:ADB-1 - "ADB-1"; - dc:title: "Association for the Advancement of International Education".
+org:ADB-1 - "ADB-1"; - dc:title: "Association for the Advancement of International Education".
 
-tag:ADF - "ADF"; - dc:title: "African Development Foundation".
+org:ADF - "ADF"; - dc:title: "African Development Foundation".
 
-tag:ADPSEC - "ADPSEC"; - dc:title: "Automatic Data Processing Security".
+org:ADPSEC - "ADPSEC"; - dc:title: "Automatic Data Processing Security".
 
-tag:AEC - "AEC"; - dc:title: "Atomic Energy Commission".
+org:AEC - "AEC"; - dc:title: "Atomic Energy Commission".
 
-tag:AEDF - "AEDF"; - dc:title: "Asian Economic Development Fund".
+org:AEDF - "AEDF"; - dc:title: "Asian Economic Development Fund".
 
-<http://psi.metaleaks.org/cablegate/tag/AER%20LINGUS> - "AER LINGUS"; - dc:title: "Irish Airline".
+<None/AER%20LINGUS> - "AER LINGUS"; - dc:title: "Irish Airline".
 
-tag:AEROFLOT - "AEROFLOT"; - dc:title: "Soviet Airline".
+org:AEROFLOT - "AEROFLOT"; - dc:title: "Soviet Airline".
 
-<http://psi.metaleaks.org/cablegate/tag/AEROLINEAS%20ARGENTINAS> - "AEROLINEAS ARGENTINAS"; - dc:title: "Argentine Airline".
+<None/AEROLINEAS%20ARGENTINAS> - "AEROLINEAS ARGENTINAS"; - dc:title: "Argentine Airline".
 
-tag:AEROPERU - "AEROPERU"; - dc:title: "National Airline of Peru".
+org:AEROPERU - "AEROPERU"; - dc:title: "National Airline of Peru".
 
-tag:AFDB - "AFDB"; - dc:title: "African Development Bank".
+org:AFDB - "AFDB"; - dc:title: "African Development Bank".
 
-tag:AFDF - "AFDF"; - dc:title: "African Development Fund".
+org:AFDF - "AFDF"; - dc:title: "African Development Fund".
 
-tag:AFL-CIO - "AFL-CIO"; - dc:title: "American Federation of Labor-Congress of Industrial Organizations".
+org:AFL-CIO - "AFL-CIO"; - dc:title: "American Federation of Labor-Congress of Industrial Organizations".
 
-tag:AFP - "AFP"; - dc:title: "Agence France Press".
+org:AFP - "AFP"; - dc:title: "Agence France Press".
 
-tag:AFSA - "AFSA"; - dc:title: "American Foreign Service Association".
+org:AFSA - "AFSA"; - dc:title: "American Foreign Service Association".
 
-tag:AGR - "AGR"; - dc:title: "Department of Agriculture".
+org:AGR - "AGR"; - dc:title: "Department of Agriculture".
 
-tag:AI - "AI"; - dc:title: "Amnesty International".
+org:AI - "AI"; - dc:title: "Amnesty International".
 
-tag:AID - "AID"; - dc:title: "Agency for International Development".
+org:AID - "AID"; - dc:title: "Agency for International Development".
 
-tag:AIFLD - "AIFLD"; - dc:title: "American Institute for Free Labor Development".
+org:AIFLD - "AIFLD"; - dc:title: "American Institute for Free Labor Development".
 
-tag:AKB - "AKB"; - dc:title: "Allied Kommandatura Berlin".
+org:AKB - "AKB"; - dc:title: "Allied Kommandatura Berlin".
 
-tag:AL-1 - "AL-1"; - dc:title: "Arab League".
+org:AL - "AL"; - dc:title: "Arab League".
 
-tag:ALIA - "ALIA"; - dc:title: "Royal Jordanian Airline".
+org:AL-1 - "AL-1"; - dc:title: "Arab League".
 
-tag:ALITALIA - "ALITALIA"; - dc:title: "Italian Airline".
+org:ALIA - "ALIA"; - dc:title: "Royal Jordanian Airline".
 
-tag:ALP - "ALP"; - dc:title: "Australian Labor Party".
+org:ALITALIA - "ALITALIA"; - dc:title: "Italian Airline".
 
-tag:AMAL - "AMAL"; - dc:title: "Movement of the Deprived (Sh’a Muslim Militia Organization)".
+org:ALP - "ALP"; - dc:title: "Australian Labor Party".
 
-tag:AMAX - "AMAX"; - dc:title: "American Metals Climax Inc".
+org:AMAL - "AMAL"; - dc:title: "Movement of the Deprived (Sh’a Muslim Militia Organization)".
 
-tag:AMCHAMS - "AMCHAMS"; - dc:title: "American Chambers of Commerce".
+org:AMAX - "AMAX"; - dc:title: "American Metals Climax Inc".
 
-tag:AMOCO - "AMOCO"; - dc:title: "American Oil Company".
+org:AMCHAMS - "AMCHAMS"; - dc:title: "American Chambers of Commerce".
 
-tag:ANC - "ANC"; - dc:title: "African National Congress".
+org:AMOCO - "AMOCO"; - dc:title: "American Oil Company".
 
-tag:ANZUS - "ANZUS"; - dc:title: "Australia, New Zealand and US Council".
+org:ANC - "ANC"; - dc:title: "African National Congress".
 
-tag:AP - "AP"; - dc:title: "Associated Press".
+org:ANZUS - "ANZUS"; - dc:title: "Australia, New Zealand and US Council".
 
-tag:APAG - "APAG"; - dc:title: "Atlantic Policy Advisory Group".
+org:AP - "AP"; - dc:title: "Associated Press".
 
-tag:APCAC - "APCAC"; - dc:title: "Asian Pacific Council of American Chambers of Commerce".
+org:APAG - "APAG"; - dc:title: "Atlantic Policy Advisory Group".
 
-tag:APECO - "APECO"; - dc:title: "Asia Pacific Economic Cooperation".
+org:APCAC - "APCAC"; - dc:title: "Asian Pacific Council of American Chambers of Commerce".
 
-tag:ARAMCO - "ARAMCO"; - dc:title: "Arabian American Oil Company".
+org:APECO - "APECO"; - dc:title: "Asia Pacific Economic Cooperation".
 
-tag:ARC - "ARC"; - dc:title: "American Red Cross".
+org:ARAMCO - "ARAMCO"; - dc:title: "Arabian American Oil Company".
 
-tag:ARCO - "ARCO"; - dc:title: "Atlantic Richfield Oil Company".
+org:ARC - "ARC"; - dc:title: "American Red Cross".
 
-tag:ARDE - "ARDE"; - dc:title: "Revolutionary Democratic Alliance".
+org:ARCO - "ARCO"; - dc:title: "Atlantic Richfield Oil Company".
 
-tag:ARENA - "ARENA"; - dc:title: "Political Party in El Salvador".
+org:ARDE - "ARDE"; - dc:title: "Revolutionary Democratic Alliance".
 
-tag:ARIANA - "ARIANA"; - dc:title: "Afghan Airline".
+org:ARENA - "ARENA"; - dc:title: "Political Party in El Salvador".
 
-tag:ASALA - "ASALA"; - dc:title: "Armenian Secret Army".
+org:ARIANA - "ARIANA"; - dc:title: "Afghan Airline".
 
-tag:ASEAN - "ASEAN"; - dc:title: "Association of Southeast Asian Nations".
+org:ASALA - "ASALA"; - dc:title: "Armenian Secret Army".
 
-tag:ASPAC - "ASPAC"; - dc:title: "Asian and Pacific Council".
+org:ASEAN - "ASEAN"; - dc:title: "Association of Southeast Asian Nations".
 
-<http://psi.metaleaks.org/cablegate/tag/AT%26T> - "AT&T"; - dc:title: "American Telephone & Telegraph".
+org:ASPAC - "ASPAC"; - dc:title: "Asian and Pacific Council".
 
-tag:ATA - "ATA"; - dc:title: "Atlantic Treaty Association".
+<None/AT%26T> - "AT&T"; - dc:title: "American Telephone & Telegraph".
 
-tag:AU-1 - "AU-1"; - dc:title: "African Union".
+org:ATA - "ATA"; - dc:title: "Atlantic Treaty Association".
 
-tag:AUB - "AUB"; - dc:title: "American University in Beirut".
+org:AU-1 - "AU-1"; - dc:title: "African Union".
 
-tag:AUCCTU - "AUCCTU"; - dc:title: "All Union Central Council of Trade Unions (USSR)".
+org:AUB - "AUB"; - dc:title: "American University in Beirut".
 
-tag:AVENSA - "AVENSA"; - dc:title: "Aerovias Venezolanas".
+org:AUCCTU - "AUCCTU"; - dc:title: "All Union Central Council of Trade Unions (USSR)".
 
-tag:AVIANCA - "AVIANCA"; - dc:title: "Aerovias Nacionales De Colombia".
+org:AVENSA - "AVENSA"; - dc:title: "Aerovias Venezolanas".
 
-tag:BASC - "BASC"; - dc:title: "Berlin Air Safety Center".
+org:AVIANCA - "AVIANCA"; - dc:title: "Aerovias Nacionales De Colombia".
 
-tag:BBC - "BBC"; - dc:title: "British Broadcasting Company".
+org:BASC - "BASC"; - dc:title: "Berlin Air Safety Center".
 
-tag:BBG - "BBG"; - dc:title: "Broadcasting Board of Governors".
+org:BBC - "BBC"; - dc:title: "British Broadcasting Company".
 
-tag:BDC - "BDC"; - dc:title: "Berlin Document Center".
+org:BBG - "BBG"; - dc:title: "Broadcasting Board of Governors".
 
-tag:BENDIX - "BENDIX"; - dc:title: "Bendix Corporation".
+org:BDC - "BDC"; - dc:title: "Berlin Document Center".
 
-tag:BIE - "BIE"; - dc:title: "Bureau of International Expositions".
+org:BENDIX - "BENDIX"; - dc:title: "Bendix Corporation".
 
-tag:BIS - "BIS"; - dc:title: "Bank of International Settlements".
+org:BIE - "BIE"; - dc:title: "Bureau of International Expositions".
 
-tag:BLS - "BLS"; - dc:title: "Bureau of Labor Statistics".
+org:BIS - "BIS"; - dc:title: "Bank of International Settlements".
 
-tag:BOS - "BOS"; - dc:title: "Southern Opposition Block".
+org:BLS - "BLS"; - dc:title: "Bureau of Labor Statistics".
 
-tag:BP-1 - "BP-1"; - dc:title: "British Petroleum Company".
+org:BOS - "BOS"; - dc:title: "Southern Opposition Block".
 
-tag:BQG - "BQG"; - dc:title: "Berlin Quadripartite Group".
+org:BP - "BP"; - dc:title: "British Petroleum Company".
 
-tag:BUNDESBANK - "BUNDESBANK"; - dc:title: "Central Bank of the FRG".
+org:BP-1 - "BP-1"; - dc:title: "British Petroleum Company".
 
-tag:BWIA - "BWIA"; - dc:title: "British West Indies Airline".
+org:BQG - "BQG"; - dc:title: "Berlin Quadripartite Group".
 
-tag:CAA - "CAA"; - dc:title: "British Civil Aviation Authority".
+org:BUNDESBANK - "BUNDESBANK"; - dc:title: "Central Bank of the FRG".
 
-tag:CAAC - "CAAC"; - dc:title: "Civil Aviation Authority for China".
+org:BWIA - "BWIA"; - dc:title: "British West Indies Airline".
 
-tag:CACM - "CACM"; - dc:title: "Central American Common Market".
+org:CAA - "CAA"; - dc:title: "British Civil Aviation Authority".
 
-tag:CAPC - "CAPC"; - dc:title: "Civil Aviation Planning Committee (NATO)".
+org:CAAC - "CAAC"; - dc:title: "Civil Aviation Authority for China".
 
-tag:CARE - "CARE"; - dc:title: "Cooperative for American Relief Everywhere, Inc".
+org:CACM - "CACM"; - dc:title: "Central American Common Market".
 
-tag:CBC - "CBC"; - dc:title: "Canadian Broadcasting Corporation".
+org:CAPC - "CAPC"; - dc:title: "Civil Aviation Planning Committee (NATO)".
 
-tag:CBS - "CBS"; - dc:title: "Columbia Broadcasting System".
+org:CARE - "CARE"; - dc:title: "Cooperative for American Relief Everywhere, Inc".
 
-tag:CCC-1 - "CCC-1"; - dc:title: "Commodity Credit Corporation".
+org:CBC - "CBC"; - dc:title: "Canadian Broadcasting Corporation".
 
-tag:CCC-3 - "CCC-3"; - dc:title: "Customs Cooperation Council".
+org:CBS - "CBS"; - dc:title: "Columbia Broadcasting System".
 
-tag:CCD - "CCD"; - dc:title: "Committee on Disarmament".
+org:CCC-1 - "CCC-1"; - dc:title: "Commodity Credit Corporation".
 
-tag:CCIR - "CCIR"; - dc:title: "International Radio Consultative Committee".
+org:CCC-3 - "CCC-3"; - dc:title: "Customs Cooperation Council".
 
-tag:CCITT - "CCITT"; - dc:title: "International Telegraph and Telephone Consultative Committee".
+org:CCD - "CCD"; - dc:title: "Committee on Disarmament".
 
-tag:CCMS - "CCMS"; - dc:title: "Committee on the Challenges of Modern Society".
+org:CCIR - "CCIR"; - dc:title: "International Radio Consultative Committee".
 
-tag:CCNAA - "CCNAA"; - dc:title: "Coordinating Council for North American Affairs".
+org:CCITT - "CCITT"; - dc:title: "International Telegraph and Telephone Consultative Committee".
 
-tag:CCUS - "CCUS"; - dc:title: "Chamber of Commerce of the US".
+org:CCMS - "CCMS"; - dc:title: "Committee on the Challenges of Modern Society".
 
-tag:CDB - "CDB"; - dc:title: "Caribbean Development Bank".
+org:CCNAA - "CCNAA"; - dc:title: "Coordinating Council for North American Affairs".
 
-tag:CDC - "CDC"; - dc:title: "Communicable Diseases Center".
+org:CCUS - "CCUS"; - dc:title: "Chamber of Commerce of the US".
 
-tag:CDG - "CDG"; - dc:title: "Committee on Disarmament".
+org:CDB - "CDB"; - dc:title: "Caribbean Development Bank".
 
-tag:CDI - "CDI"; - dc:title: "Christian Democratic International".
+org:CDC - "CDC"; - dc:title: "Communicable Diseases Center".
 
-tag:CDU - "CDU"; - dc:title: "Christian Democratic Union".
+org:CDG - "CDG"; - dc:title: "Committee on Disarmament".
 
-tag:CEA - "CEA"; - dc:title: "Council of Economic Advisers".
+org:CDI - "CDI"; - dc:title: "Christian Democratic International".
 
-tag:CEAC - "CEAC"; - dc:title: "Committee on European Airspace Coordination".
+org:CDU - "CDU"; - dc:title: "Christian Democratic Union".
 
-tag:CEC - "CEC"; - dc:title: "Commission of the European Communities".
+org:CEA - "CEA"; - dc:title: "Council of Economic Advisers".
 
-tag:CEMA - "CEMA"; - dc:title: "Council for Mutual Economic Assistance".
+org:CEAC - "CEAC"; - dc:title: "Committee on European Airspace Coordination".
 
-tag:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee".
+org:CEC - "CEC"; - dc:title: "Commission of the European Communities".
 
-tag:CEQ - "CEQ"; - dc:title: "Council on Environmental Quality".
+org:CEMA - "CEMA"; - dc:title: "Council for Mutual Economic Assistance".
 
-tag:CIA - "CIA"; - dc:title: "Central Intelligence Agency".
+org:CEP - "CEP"; - dc:title: "Civil Emergency Planning Committee".
 
-tag:CIEC - "CIEC"; - dc:title: "Inter-American Council on Education Science and Culture".
+org:CEQ - "CEQ"; - dc:title: "Council on Environmental Quality".
 
-tag:CIL - "CIL"; - dc:title: "Central Identification Lab".
+org:CIA - "CIA"; - dc:title: "Central Intelligence Agency".
 
-tag:CIME - "CIME"; - dc:title: "Committee on Investments and Multi-National Enterprise".
+org:CIEC - "CIEC"; - dc:title: "Inter-American Council on Education Science and Culture".
 
-tag:CIP - "CIP"; - dc:title: "Council on International Programs".
+org:CIL - "CIL"; - dc:title: "Central Identification Lab".
 
-tag:CIPEC - "CIPEC"; - dc:title: "Intergovernmental Council of Copper Exporting Countries".
+org:CIME - "CIME"; - dc:title: "Committee on Investments and Multi-National Enterprise".
 
-tag:CIS - "CIS"; - dc:title: "Commonwealth of Independent States".
+org:CIP - "CIP"; - dc:title: "Council on International Programs".
 
-tag:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commissions".
+org:CIPEC - "CIPEC"; - dc:title: "Intergovernmental Council of Copper Exporting Countries".
 
-tag:CITIBANK - "CITIBANK"; - dc:title: "First National City Bank of New York".
+org:CIS - "CIS"; - dc:title: "Commonwealth of Independent States".
 
-tag:COE - "COE"; - dc:title: "Council of Europe".
+org:CITEL - "CITEL"; - dc:title: "Inter-American Telecommunications Commissions".
 
-<http://psi.metaleaks.org/cablegate/tag/COLOMBO%20PLAN> - "COLOMBO PLAN"; - dc:title: "Colombo Plan Council for Technical Cooperation in South and Southeast Asia".
+org:CITIBANK - "CITIBANK"; - dc:title: "First National City Bank of New York".
 
-tag:COM - "COM"; - dc:title: "Department of Commerce".
+org:COE - "COE"; - dc:title: "Council of Europe".
 
-tag:COMIBOL - "COMIBOL"; - dc:title: "Bolivian National Mining Corporation or Corporacion Minera De Bolivia".
+<None/COLOMBO%20PLAN> - "COLOMBO PLAN"; - dc:title: "Colombo Plan Council for Technical Cooperation in South and Southeast Asia".
 
-tag:CONDECA - "CONDECA"; - dc:title: "Central American Defense Council".
+org:COM - "COM"; - dc:title: "Department of Commerce".
 
-tag:CONOCO - "CONOCO"; - dc:title: "Continental Oil Company".
+org:COMIBOL - "COMIBOL"; - dc:title: "Bolivian National Mining Corporation or Corporacion Minera De Bolivia".
 
-tag:CONTRIB - "CONTRIB"; - dc:title: "UN Committee on Contributions".
+org:CONDECA - "CONDECA"; - dc:title: "Central American Defense Council".
 
-tag:COSEP - "COSEP"; - dc:title: "Superior Council of the Private Sector Groups in Nicaragua".
+org:CONOCO - "CONOCO"; - dc:title: "Continental Oil Company".
 
-tag:CPC - "CPC"; - dc:title: "UN Committee for Program and Coordination".
+org:CONTRIB - "CONTRIB"; - dc:title: "UN Committee on Contributions".
 
-tag:CPSU - "CPSU"; - dc:title: "Communist Party in the USSR".
+org:COSEP - "COSEP"; - dc:title: "Superior Council of the Private Sector Groups in Nicaragua".
 
-tag:CRS - "CRS"; - dc:title: "Catholic Relief Services".
+org:CPC - "CPC"; - dc:title: "UN Committee for Program and Coordination".
 
-tag:CSIS - "CSIS"; - dc:title: "Center for Strategic and International Studies".
+org:CPSU - "CPSU"; - dc:title: "Communist Party in the USSR".
 
-tag:CSTP - "CSTP"; - dc:title: "Committee for Scientific and Technical Personnel".
+org:CRS - "CRS"; - dc:title: "Catholic Relief Services".
 
-tag:CSU - "CSU"; - dc:title: "Christian Social Union".
+org:CSIS - "CSIS"; - dc:title: "Center for Strategic and International Studies".
 
-tag:CTM - "CTM"; - dc:title: "Customs".
+org:CSTP - "CSTP"; - dc:title: "Committee for Scientific and Technical Personnel".
 
-tag:CWC - "CWC"; - dc:title: "Chemical Weapons Convention".
+org:CSU - "CSU"; - dc:title: "Christian Social Union".
 
-tag:CWS - "CWS"; - dc:title: "Church World Service".
+org:CTM - "CTM"; - dc:title: "Customs".
 
-tag:DAC - "DAC"; - dc:title: "Development Assistance Committee (OECD)".
+org:CWC - "CWC"; - dc:title: "Chemical Weapons Convention".
 
-tag:DC - "DC"; - dc:title: "Christian Democratic Party in Italy".
+org:CWS - "CWS"; - dc:title: "Church World Service".
 
-tag:DCA - "DCA"; - dc:title: "Defense Communication Agency".
+org:DAC - "DAC"; - dc:title: "Development Assistance Committee (OECD)".
 
-tag:DCI - "DCI"; - dc:title: "Defense Capabilities Initiative".
+org:DC - "DC"; - dc:title: "Christian Democratic Party in Italy".
 
-tag:DEA - "DEA"; - dc:title: "Drug Enforcement Administration".
+org:DCA - "DCA"; - dc:title: "Defense Communication Agency".
 
-tag:DHS - "DHS"; - dc:title: "Department of Homeland Security".
+org:DCI - "DCI"; - dc:title: "Defense Capabilities Initiative".
 
-tag:DIA - "DIA"; - dc:title: "Defense Intelligence Agency".
+org:DEA - "DEA"; - dc:title: "Drug Enforcement Administration".
 
-tag:DJP - "DJP"; - dc:title: "Ruling Democratic Justice Party".
+org:DHS - "DHS"; - dc:title: "Department of Homeland Security".
 
-tag:DOD - "DOD"; - dc:title: "Department of Defense".
+org:DIA - "DIA"; - dc:title: "Defense Intelligence Agency".
 
-tag:DOE - "DOE"; - dc:title: "Department of Energy".
+org:DJP - "DJP"; - dc:title: "Ruling Democratic Justice Party".
 
-tag:DOT - "DOT"; - dc:title: "Department of Transportation".
+org:DOD - "DOD"; - dc:title: "Department of Defense".
 
-tag:DPC - "DPC"; - dc:title: "Defense Planning Commission".
+org:DOE - "DOE"; - dc:title: "Department of Energy".
 
-tag:DPP - "DPP"; - dc:title: "Democratic Progressive Party".
+org:DOT - "DOT"; - dc:title: "Department of Transportation".
 
-tag:DPR - "DPR"; - dc:title: "Office of Policy and Resources".
+org:DPC - "DPC"; - dc:title: "Defense Planning Commission".
 
-tag:EAC - "EAC"; - dc:title: "East African Community".
+org:DPP - "DPP"; - dc:title: "Democratic Progressive Party".
 
-tag:EAL - "EAL"; - dc:title: "Ethiopian Airlines".
+org:DPR - "DPR"; - dc:title: "Office of Policy and Resources".
 
-tag:EALG - "EALG"; - dc:title: "East Asian Liaison Group".
+org:EAC - "EAC"; - dc:title: "East African Community".
 
-tag:EAPC - "EAPC"; - dc:title: "Euro-Atlantic Partnership Council".
+org:EAL - "EAL"; - dc:title: "Ethiopian Airlines".
 
-tag:EBRD - "EBRD"; - dc:title: "European Bank for Reconstruction and Development".
+org:EALG - "EALG"; - dc:title: "East Asian Liaison Group".
 
-tag:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN), UN Economic Commission for Africa".
+org:EAPC - "EAPC"; - dc:title: "Euro-Atlantic Partnership Council".
 
-tag:ECAC - "ECAC"; - dc:title: "European Civil Aviation Conference".
+org:EBRD - "EBRD"; - dc:title: "European Bank for Reconstruction and Development".
 
-tag:ECDC - "ECDC"; - dc:title: "Economic Cooperation and Development Comt".
+org:ECA - "ECA"; - dc:title: "Economic Commission for Africa (UN), UN Economic Commission for Africa".
 
-tag:ECE - "ECE"; - dc:title: "UN Economic Commission for Europe".
+org:ECAC - "ECAC"; - dc:title: "European Civil Aviation Conference".
 
-tag:ECG - "ECG"; - dc:title: "Energy Coordinating Group".
+org:ECDC - "ECDC"; - dc:title: "Economic Cooperation and Development Comt".
 
-tag:ECLAC - "ECLAC"; - dc:title: "CEPAL, UN Economic Commission for Latin America and the Caribbean".
+org:ECE - "ECE"; - dc:title: "UN Economic Commission for Europe".
 
-tag:ECMT - "ECMT"; - dc:title: "European Conference of Ministers of Transport".
+org:ECG - "ECG"; - dc:title: "Energy Coordinating Group".
 
-tag:ECOSOC - "ECOSOC"; - dc:title: "UN Economic and Social Council, UNECOSOC".
+org:ECLAC - "ECLAC"; - dc:title: "CEPAL, UN Economic Commission for Latin America and the Caribbean".
 
-tag:ECOWAS - "ECOWAS"; - dc:title: "Economic Community of West African States".
+org:ECMT - "ECMT"; - dc:title: "European Conference of Ministers of Transport".
 
-tag:ECWA - "ECWA"; - dc:title: "UN Economic Commission for Western Asia".
+org:ECOSOC - "ECOSOC"; - dc:title: "UN Economic and Social Council, UNECOSOC".
 
-tag:ED - "ED"; - dc:title: "Department of Education".
+org:ECOWAS - "ECOWAS"; - dc:title: "Economic Community of West African States".
 
-tag:EDC - "EDC"; - dc:title: "Export Development Corporation".
+org:ECWA - "ECWA"; - dc:title: "UN Economic Commission for Western Asia".
 
-tag:EDRC - "EDRC"; - dc:title: "Economic and Development Review Committee in OECD".
+org:ED - "ED"; - dc:title: "Department of Education".
 
-tag:EDU - "EDU"; - dc:title: "European Democratic Union".
+org:EDC - "EDC"; - dc:title: "Export Development Corporation".
 
-tag:EEOC - "EEOC"; - dc:title: "Equal Employment Opportunity Commission".
+org:EDRC - "EDRC"; - dc:title: "Economic and Development Review Committee in OECD".
 
-tag:EFTA - "EFTA"; - dc:title: "European Free Trade Association AKA Outer Seven AKA The Seven".
+org:EDU - "EDU"; - dc:title: "European Democratic Union".
 
-<http://psi.metaleaks.org/cablegate/tag/EL%20AL> - "EL AL"; - dc:title: "Israeli Airlines".
+org:EEOC - "EEOC"; - dc:title: "Equal Employment Opportunity Commission".
 
-tag:ELF - "ELF"; - dc:title: "Eritrean Liberation Front".
+org:EFTA - "EFTA"; - dc:title: "European Free Trade Association AKA Outer Seven AKA The Seven".
 
-tag:ELN - "ELN"; - dc:title: "Bolivian National Liberation Army".
+<None/EL%20AL> - "EL AL"; - dc:title: "Israeli Airlines".
 
-tag:EP - "EP"; - dc:title: "European Parliament".
+org:ELF - "ELF"; - dc:title: "Eritrean Liberation Front".
 
-tag:EPA - "EPA"; - dc:title: "Environmental Protection Agency".
+org:ELN - "ELN"; - dc:title: "Bolivian National Liberation Army".
 
-tag:EPC - "EPC"; - dc:title: "Economic Policy Committee (OECD)".
+org:EP - "EP"; - dc:title: "European Parliament".
 
-tag:ESA - "ESA"; - dc:title: "European Space Agency".
+org:EPA - "EPA"; - dc:title: "Environmental Protection Agency".
 
-tag:ESCAP - "ESCAP"; - dc:title: "UN Economic and Social Commission for Asia and Pacific".
+org:EPC - "EPC"; - dc:title: "Economic Policy Committee (OECD)".
 
-tag:ESDI - "ESDI"; - dc:title: "European Security and Defense Identity".
+org:ESA - "ESA"; - dc:title: "European Space Agency".
 
-tag:ETA - "ETA"; - dc:title: "Basque Terrorist Group".
+org:ESCAP - "ESCAP"; - dc:title: "UN Economic and Social Commission for Asia and Pacific".
 
-tag:EUCOM - "EUCOM"; - dc:title: "European Command".
+org:ESDI - "ESDI"; - dc:title: "European Security and Defense Identity".
 
-tag:EUN - "EUN"; - dc:title: "European Atomic Energy Community".
+org:ETA - "ETA"; - dc:title: "Basque Terrorist Group".
 
-tag:EUROCONTROL - "EUROCONTROL"; - dc:title: "European Organization for the Safety of Air Navigation".
+org:EUCOM - "EUCOM"; - dc:title: "European Command".
 
-tag:EXIM - "EXIM"; - dc:title: "Export Import Bank of US".
+org:EUN - "EUN"; - dc:title: "European Atomic Energy Community".
 
-tag:FAA - "FAA"; - dc:title: "Federal Aviation Administration".
+org:EUROCONTROL - "EUROCONTROL"; - dc:title: "European Organization for the Safety of Air Navigation".
 
-tag:FAO - "FAO"; - dc:title: "Food and Agriculture Organization of the UN".
+org:EXIM - "EXIM"; - dc:title: "Export Import Bank of US".
 
-tag:FAPC - "FAPC"; - dc:title: "Food and Agriculture Planning Committee".
+org:FAA - "FAA"; - dc:title: "Federal Aviation Administration".
 
-tag:FAPLA - "FAPLA"; - dc:title: "Forcas Armadas Para A Liberacao De Angola".
+org:FAO - "FAO"; - dc:title: "Food and Agriculture Organization of the UN".
 
-tag:FARC - "FARC"; - dc:title: "Fuerzas Armadas Revolucionaria".
+org:FAPC - "FAPC"; - dc:title: "Food and Agriculture Planning Committee".
 
-tag:FAS - "FAS"; - dc:title: "Foreign Agriculture Service (Dept. of Agriculture)".
+org:FAPLA - "FAPLA"; - dc:title: "Forcas Armadas Para A Liberacao De Angola".
 
-tag:FBI - "FBI"; - dc:title: "Federal Bureau of Investigation".
+org:FARC - "FARC"; - dc:title: "Fuerzas Armadas Revolucionaria".
 
-tag:FBIS - "FBIS"; - dc:title: "Foreign Broadcast Information Service".
+org:FAS - "FAS"; - dc:title: "Foreign Agriculture Service (Dept. of Agriculture)".
 
-tag:FCC - "FCC"; - dc:title: "Federal Communications Commission".
+org:FBI - "FBI"; - dc:title: "Federal Bureau of Investigation".
 
-tag:FCIA - "FCIA"; - dc:title: "Federal Credit Insurance Association".
+org:FBIS - "FBIS"; - dc:title: "Foreign Broadcast Information Service".
 
-tag:FCSC - "FCSC"; - dc:title: "Foreign Claims Settlement Commission of the US".
+org:FCC - "FCC"; - dc:title: "Federal Communications Commission".
 
-tag:FDA - "FDA"; - dc:title: "Food and Drug Administration (HHS)".
+org:FCIA - "FCIA"; - dc:title: "Federal Credit Insurance Association".
 
-tag:FDIC - "FDIC"; - dc:title: "Federal Deposit Insurance Corp.".
+org:FCSC - "FCSC"; - dc:title: "Foreign Claims Settlement Commission of the US".
 
-tag:FDN - "FDN"; - dc:title: "Democratic Revolutionary Front in El Salvador".
+org:FDA - "FDA"; - dc:title: "Food and Drug Administration (HHS)".
 
-tag:FDR - "FDR"; - dc:title: "Guerrilla Group in El Salvador".
+org:FDIC - "FDIC"; - dc:title: "Federal Deposit Insurance Corp.".
 
-tag:FEMA - "FEMA"; - dc:title: "Federal Emergency Management Administration".
+org:FDN - "FDN"; - dc:title: "Democratic Revolutionary Front in El Salvador".
 
-tag:FHWA - "FHWA"; - dc:title: "Federal Highway Administration".
+org:FDR - "FDR"; - dc:title: "Guerrilla Group in El Salvador".
 
-tag:FINNAIR - "FINNAIR"; - dc:title: "National Airline of Finland".
+org:FEMA - "FEMA"; - dc:title: "Federal Emergency Management Administration".
 
-tag:FLN - "FLN"; - dc:title: "Algerian National Liberation Front AKA National Army of Liberation (Algeria)".
+org:FHWA - "FHWA"; - dc:title: "Federal Highway Administration".
 
-tag:FMC - "FMC"; - dc:title: "Federal Maritime Commission".
+org:FINNAIR - "FINNAIR"; - dc:title: "National Airline of Finland".
 
-tag:FMLN - "FMLN"; - dc:title: "Farabundo Marti Liberacion Nacional".
+org:FLN - "FLN"; - dc:title: "Algerian National Liberation Front AKA National Army of Liberation (Algeria)".
 
-tag:FNLA - "FNLA"; - dc:title: "National Front for the Liberation of Angola".
+org:FMC - "FMC"; - dc:title: "Federal Maritime Commission".
 
-tag:FPC - "FPC"; - dc:title: "Federal Power Commission".
+org:FMLN - "FMLN"; - dc:title: "Farabundo Marti Liberacion Nacional".
 
-tag:FRB - "FRB"; - dc:title: "Board of Governors of the Federal Reserve System AKA Federal Reserve Board".
+org:FNLA - "FNLA"; - dc:title: "National Front for the Liberation of Angola".
 
-tag:FRELIMO - "FRELIMO"; - dc:title: "Leading Angolan Political Party".
+org:FPC - "FPC"; - dc:title: "Federal Power Commission".
 
-tag:FSCADP - "FSCADP"; - dc:title: "FSC Paris ADP Center".
+org:FRB - "FRB"; - dc:title: "Board of Governors of the Federal Reserve System AKA Federal Reserve Board".
 
-tag:FSLN - "FSLN"; - dc:title: "Sandinistas National Liberation Front".
+org:FRELIMO - "FRELIMO"; - dc:title: "Leading Angolan Political Party".
 
-tag:FTC - "FTC"; - dc:title: "Federal Trade Commission".
+org:FSCADP - "FSCADP"; - dc:title: "FSC Paris ADP Center".
 
-tag:FTUI - "FTUI"; - dc:title: "Free Trade Union Institute".
+org:FSLN - "FSLN"; - dc:title: "Sandinistas National Liberation Front".
 
-tag:FWS - "FWS"; - dc:title: "Fish and Wildlife Service".
+org:FTC - "FTC"; - dc:title: "Federal Trade Commission".
 
-tag:G-77 - "G-77"; - dc:title: "Group of Seventy-Seven".
+org:FTUI - "FTUI"; - dc:title: "Free Trade Union Institute".
 
-tag:G-8 - "G-8"; - dc:title: "Group of Eight".
+org:FWS - "FWS"; - dc:title: "Fish and Wildlife Service".
 
-tag:GAO - "GAO"; - dc:title: "General Accounting Office".
+org:G-77 - "G-77"; - dc:title: "Group of Seventy-Seven".
 
-tag:GATT - "GATT"; - dc:title: "General Agreement on Tariffs and Trade".
+org:G-8 - "G-8"; - dc:title: "Group of Eight".
 
-tag:GCC - "GCC"; - dc:title: "Gulf Cooperation Council".
+org:GAO - "GAO"; - dc:title: "General Accounting Office".
 
-<http://psi.metaleaks.org/cablegate/tag/GENERAL%20MOTORS> - "GENERAL MOTORS"; - dc:title: "GM".
+org:GATT - "GATT"; - dc:title: "General Agreement on Tariffs and Trade".
 
-tag:GM-1 - "GM-1"; - dc:title: "General Motors".
+org:GCC - "GCC"; - dc:title: "Gulf Cooperation Council".
 
-tag:GPO - "GPO"; - dc:title: "Government Printing Office".
+<None/GENERAL%20MOTORS> - "GENERAL MOTORS"; - dc:title: "GM".
 
-tag:GREENS - "GREENS"; - dc:title: "Green Party".
+org:GM-1 - "GM-1"; - dc:title: "General Motors".
 
-tag:GSA - "GSA"; - dc:title: "General Services Administration".
+org:GPO - "GPO"; - dc:title: "Government Printing Office".
 
-tag:HCOPIL - "HCOPIL"; - dc:title: "Hague Conference on Private Intl Law".
+org:GREENS - "GREENS"; - dc:title: "Green Party".
 
-tag:HHS - "HHS"; - dc:title: "Department of Health and Human Services".
+org:GSA - "GSA"; - dc:title: "General Services Administration".
 
-tag:HKA - "HKA"; - dc:title: "Hong Kong Airways".
+org:HCOPIL - "HCOPIL"; - dc:title: "Hague Conference on Private Intl Law".
 
-tag:HUD - "HUD"; - dc:title: "Department of Housing and Urban Development".
+org:HHS - "HHS"; - dc:title: "Department of Health and Human Services".
 
-tag:IACI - "IACI"; - dc:title: "Inter-American Children’s Institute".
+org:HKA - "HKA"; - dc:title: "Hong Kong Airways".
 
-tag:IACW - "IACW"; - dc:title: "Inter-American Commission of Women".
+org:HUD - "HUD"; - dc:title: "Department of Housing and Urban Development".
 
-tag:IADB - "IADB"; - dc:title: "Inter-American Defense Board".
+org:IACI - "IACI"; - dc:title: "Inter-American Children’s Institute".
 
-tag:IAEA - "IAEA"; - dc:title: "International Atomic Energy Agency".
+org:IACW - "IACW"; - dc:title: "Inter-American Commission of Women".
 
-tag:IA-ECOSOC - "IA-ECOSOC"; - dc:title: "Inter-American Economic and Social Council".
+org:IADB - "IADB"; - dc:title: "Inter-American Defense Board".
 
-tag:IAF - "IAF"; - dc:title: "Inter-American Foundation".
+org:IAEA - "IAEA"; - dc:title: "International Atomic Energy Agency".
 
-tag:IAHRC - "IAHRC"; - dc:title: "Inter-American Human Rights Commission".
+org:IA-ECOSOC - "IA-ECOSOC"; - dc:title: "Inter-American Economic and Social Council".
 
-tag:IAII - "IAII"; - dc:title: "Inter-American Indian Institute".
+org:IAF - "IAF"; - dc:title: "Inter-American Foundation".
 
-tag:IAJC - "IAJC"; - dc:title: "Inter-American Juridical Committee (OAS)".
+org:IAHRC - "IAHRC"; - dc:title: "Inter-American Human Rights Commission".
 
-tag:IARC - "IARC"; - dc:title: "International Agency for Research on Cancer".
+org:IAII - "IAII"; - dc:title: "Inter-American Indian Institute".
 
-tag:IATA - "IATA"; - dc:title: "International Air Transport Association".
+org:IAJC - "IAJC"; - dc:title: "Inter-American Juridical Committee (OAS)".
 
-tag:IATTC - "IATTC"; - dc:title: "Inter-American Tropical Tuna Commission".
+org:IARC - "IARC"; - dc:title: "International Agency for Research on Cancer".
 
-tag:IBC - "IBC"; - dc:title: "International Boundary Commission United States and Canada".
+org:IATA - "IATA"; - dc:title: "International Air Transport Association".
 
-tag:IBM - "IBM"; - dc:title: "International Business Machines".
+org:IATTC - "IATTC"; - dc:title: "Inter-American Tropical Tuna Commission".
 
-tag:IBPCA - "IBPCA"; - dc:title: "International Bureau of the Permanent Court of Arbitration".
+org:IBC - "IBC"; - dc:title: "International Boundary Commission United States and Canada".
 
-tag:IBPCT - "IBPCT"; - dc:title: "International Bureau for the Publication of Customs Tariffs".
+org:IBM - "IBM"; - dc:title: "International Business Machines".
 
-tag:IBRD - "IBRD"; - dc:title: "International Bank for Reconstruction and Development, a Specialized Agency of the UN".
+org:IBPCA - "IBPCA"; - dc:title: "International Bureau of the Permanent Court of Arbitration".
 
-tag:IBWC - "IBWC"; - dc:title: "International Boundary and Water Commission United States and Mexico".
+org:IBPCT - "IBPCT"; - dc:title: "International Bureau for the Publication of Customs Tariffs".
 
-tag:IBWM - "IBWM"; - dc:title: "International Bureau of Weights and Measures".
+org:IBRD - "IBRD"; - dc:title: "International Bank for Reconstruction and Development, a Specialized Agency of the UN".
 
-tag:ICAC - "ICAC"; - dc:title: "International Cotton Advisory Committee".
+org:IBWC - "IBWC"; - dc:title: "International Boundary and Water Commission United States and Mexico".
 
-tag:ICAF - "ICAF"; - dc:title: "Industrial College of the Armed Forces".
+org:IBWM - "IBWM"; - dc:title: "International Bureau of Weights and Measures".
 
-tag:ICAO - "ICAO"; - dc:title: "International Civil Aviation Organization, a specialized agency of the UN".
+org:ICAC - "ICAC"; - dc:title: "International Cotton Advisory Committee".
 
-tag:ICBL - "ICBL"; - dc:title: "The International Campaign to Ban Landmines".
+org:ICAF - "ICAF"; - dc:title: "Industrial College of the Armed Forces".
 
-tag:ICC - "ICC"; - dc:title: "Interstate Commerce Commission".
+org:ICAO - "ICAO"; - dc:title: "International Civil Aviation Organization, a specialized agency of the UN".
 
-tag:ICCAT - "ICCAT"; - dc:title: "International Convention for the Conservation of Atlantic Tunas".
+org:ICBL - "ICBL"; - dc:title: "The International Campaign to Ban Landmines".
 
-tag:ICCROM - "ICCROM"; - dc:title: "International Center for the Study of the Preservation and Restoration of Cultural Property".
+org:ICC - "ICC"; - dc:title: "Interstate Commerce Commission".
 
-tag:ICES - "ICES"; - dc:title: "International Council for the Exploration of the Sea".
+org:ICCAT - "ICCAT"; - dc:title: "International Convention for the Conservation of Atlantic Tunas".
 
-tag:ICFTU - "ICFTU"; - dc:title: "International Confederation of Free Trade Unions".
+org:ICCROM - "ICCROM"; - dc:title: "International Center for the Study of the Preservation and Restoration of Cultural Property".
 
-tag:ICJ - "ICJ"; - dc:title: "International Court of Justice".
+org:ICES - "ICES"; - dc:title: "International Council for the Exploration of the Sea".
 
-tag:ICMC - "ICMC"; - dc:title: "International Catholic Migration Commission".
+org:ICFTU - "ICFTU"; - dc:title: "International Confederation of Free Trade Unions".
 
-tag:ICO - "ICO"; - dc:title: "International Coffee Organization".
+org:ICJ - "ICJ"; - dc:title: "International Court of Justice".
 
-tag:ICO-1 - "ICO-1"; - dc:title: "International Cocoa Organization".
+org:ICMC - "ICMC"; - dc:title: "International Catholic Migration Commission".
 
-tag:ICRC - "ICRC"; - dc:title: "International Committee of the Red Cross".
+org:ICO - "ICO"; - dc:title: "International Coffee Organization".
 
-tag:ICSC - "ICSC"; - dc:title: "Interim Committee on Communication Satellites".
+org:ICO-1 - "ICO-1"; - dc:title: "International Cocoa Organization".
 
-tag:ICTR - "ICTR"; - dc:title: "International Criminal Tribunal for Rwanda".
+org:ICRC - "ICRC"; - dc:title: "International Committee of the Red Cross".
 
-tag:ICTY - "ICTY"; - dc:title: "International Criminal Tribunal for the former Yugoslavia".
+org:ICSC - "ICSC"; - dc:title: "Interim Committee on Communication Satellites".
 
-tag:IDA - "IDA"; - dc:title: "International Development Association Administered by the IBRD".
+org:ICTR - "ICTR"; - dc:title: "International Criminal Tribunal for Rwanda".
 
-tag:IDB - "IDB"; - dc:title: "Inter-American Development Bank AKA Banco Interamericano de Desarollo in Washington, not a UN activity".
+org:ICTY - "ICTY"; - dc:title: "International Criminal Tribunal for the former Yugoslavia".
 
-tag:IEA - "IEA"; - dc:title: "International Energy Agency".
+org:IDA - "IDA"; - dc:title: "International Development Association Administered by the IBRD".
 
-tag:IFAD - "IFAD"; - dc:title: "Fund for Agricultural Development, International Fund for Agriculture Development".
+org:IDB - "IDB"; - dc:title: "Inter-American Development Bank AKA Banco Interamericano de Desarollo in Washington, not a UN activity".
 
-tag:IFC - "IFC"; - dc:title: "International Finance Corporation in Washington, an affiliate of IBRD but a separate legal entity".
+org:IEA - "IEA"; - dc:title: "International Energy Agency".
 
-tag:IFRB - "IFRB"; - dc:title: "International Frequency Registration Board".
+org:IFAD - "IFAD"; - dc:title: "Fund for Agricultural Development, International Fund for Agriculture Development".
 
-tag:IFRC - "IFRC"; - dc:title: "International Federation of Red Cross and Red Crescent Societies".
+org:IFC - "IFC"; - dc:title: "International Finance Corporation in Washington, an affiliate of IBRD but a separate legal entity".
 
-tag:IHB - "IHB"; - dc:title: "International Hydrographic Bureau".
+org:IFRB - "IFRB"; - dc:title: "International Frequency Registration Board".
 
-tag:IIC - "IIC"; - dc:title: "International Institute for Cotton".
+org:IFRC - "IFRC"; - dc:title: "International Federation of Red Cross and Red Crescent Societies".
 
-tag:IICA - "IICA"; - dc:title: "Inter-American Institute of Agriculture".
+org:IHB - "IHB"; - dc:title: "International Hydrographic Bureau".
 
-tag:IJC - "IJC"; - dc:title: "International Joint Commission U.S.-Canada".
+org:IIC - "IIC"; - dc:title: "International Institute for Cotton".
 
-tag:IJO - "IJO"; - dc:title: "International Jute Organization".
+org:IICA - "IICA"; - dc:title: "Inter-American Institute of Agriculture".
 
-tag:ILA - "ILA"; - dc:title: "International Law Association".
+org:IJC - "IJC"; - dc:title: "International Joint Commission U.S.-Canada".
 
-tag:ILC - "ILC"; - dc:title: "International Law Commission".
+org:IJO - "IJO"; - dc:title: "International Jute Organization".
 
-tag:ILO - "ILO"; - dc:title: "International Labor Organization—specialized agency of the UN".
+org:ILA - "ILA"; - dc:title: "International Law Association".
 
-tag:ILZSG - "ILZSG"; - dc:title: "International Lead and Zinc Study Group".
+org:ILC - "ILC"; - dc:title: "International Law Commission".
 
-tag:IMC - "IMC"; - dc:title: "International Meteorological Committee".
+org:ILO - "ILO"; - dc:title: "International Labor Organization—specialized agency of the UN".
 
-tag:IMF - "IMF"; - dc:title: "International Monetary Fund in Washington—Related to the UN".
+org:ILZSG - "ILZSG"; - dc:title: "International Lead and Zinc Study Group".
 
-tag:IMH - "IMH"; - dc:title: "International Mission of Hope".
+org:IMC - "IMC"; - dc:title: "International Meteorological Committee".
 
-tag:IMO - "IMO"; - dc:title: "Intergovernmental Maritime Consultative Organization".
+org:IMF - "IMF"; - dc:title: "International Monetary Fund in Washington—Related to the UN".
 
-tag:INCB - "INCB"; - dc:title: "International Narcotics Control Board".
+org:IMH - "IMH"; - dc:title: "International Mission of Hope".
 
-tag:INFCE - "INFCE"; - dc:title: "International Nuclear Cycle Evaluation".
+org:IMO - "IMO"; - dc:title: "Intergovernmental Maritime Consultative Organization".
 
-tag:INMARSAT - "INMARSAT"; - dc:title: "International Maritime Satellite".
+org:INCB - "INCB"; - dc:title: "International Narcotics Control Board".
 
-tag:INPFC - "INPFC"; - dc:title: "International North Pacific Fisheries Commission".
+org:INFCE - "INFCE"; - dc:title: "International Nuclear Cycle Evaluation".
 
-tag:INRA - "INRA"; - dc:title: "National Institute for Agrarian Reform".
+org:INMARSAT - "INMARSAT"; - dc:title: "International Maritime Satellite".
 
-tag:INRO - "INRO"; - dc:title: "International Natural Rubber Organization".
+org:INPFC - "INPFC"; - dc:title: "International North Pacific Fisheries Commission".
 
-tag:INS - "INS"; - dc:title: "Immigration and Naturalization Service".
+org:INRA - "INRA"; - dc:title: "National Institute for Agrarian Reform".
 
-tag:INT - "INT"; - dc:title: "Department of the Interior".
+org:INRO - "INRO"; - dc:title: "International Natural Rubber Organization".
 
-tag:INTELSAT - "INTELSAT"; - dc:title: "International Telecomsatellite Consort".
+org:INS - "INS"; - dc:title: "Immigration and Naturalization Service".
 
-tag:INTERPOL - "INTERPOL"; - dc:title: "International Criminal Police Organization".
+org:INT - "INT"; - dc:title: "Department of the Interior".
 
-tag:IOC - "IOC"; - dc:title: "Intergovernmental Oceanographic Commission".
+org:INTELSAT - "INTELSAT"; - dc:title: "International Telecomsatellite Consort".
 
-tag:IOLM - "IOLM"; - dc:title: "International Organization for Legal Metrology".
+org:INTERPOL - "INTERPOL"; - dc:title: "International Criminal Police Organization".
 
-tag:IOM - "IOM"; - dc:title: "International Organization for Migration".
+org:IOC - "IOC"; - dc:title: "Intergovernmental Oceanographic Commission".
 
-tag:IOVW - "IOVW"; - dc:title: "International Office of the Vine and Wine".
+org:IOLM - "IOLM"; - dc:title: "International Organization for Legal Metrology".
 
-tag:IPDC - "IPDC"; - dc:title: "International Program for Development of Communications".
+org:IOM - "IOM"; - dc:title: "International Organization for Migration".
 
-tag:IPHC - "IPHC"; - dc:title: "International Pacific Halibut Commission U.S. and Canada".
+org:IOVW - "IOVW"; - dc:title: "International Office of the Vine and Wine".
 
-tag:IPU - "IPU"; - dc:title: "Interparliamentary Union".
+org:IPDC - "IPDC"; - dc:title: "International Program for Development of Communications".
 
-tag:IRA - "IRA"; - dc:title: "Irish Republican Army".
+org:IPHC - "IPHC"; - dc:title: "International Pacific Halibut Commission U.S. and Canada".
 
-tag:IRC - "IRC"; - dc:title: "International Rice Commission".
+org:IPU - "IPU"; - dc:title: "Interparliamentary Union".
 
-tag:IRC-2 - "IRC-2"; - dc:title: "International Rescue Committee".
+org:IRA - "IRA"; - dc:title: "Irish Republican Army".
 
-tag:IRC-3 - "IRC-3"; - dc:title: "International Red Cross".
+org:IRC - "IRC"; - dc:title: "International Rice Commission".
 
-tag:IREX - "IREX"; - dc:title: "International Research and Exchange Board".
+org:IRC-2 - "IRC-2"; - dc:title: "International Rescue Committee".
 
-tag:IRS - "IRS"; - dc:title: "Internal Revenue Service".
+org:IRC-3 - "IRC-3"; - dc:title: "International Red Cross".
 
-tag:IRSG - "IRSG"; - dc:title: "International Rubber Study Group".
+org:IREX - "IREX"; - dc:title: "International Research and Exchange Board".
 
-tag:ISCON - "ISCON"; - dc:title: "Islamic Conference".
+org:IRS - "IRS"; - dc:title: "Internal Revenue Service".
 
-tag:ISO - "ISO"; - dc:title: "International Sugar Organization".
+org:IRSG - "IRSG"; - dc:title: "International Rubber Study Group".
 
-tag:ISTA - "ISTA"; - dc:title: "International Seed Testing Association".
+org:ISCON - "ISCON"; - dc:title: "Islamic Conference".
 
-tag:ITC - "ITC"; - dc:title: "International Trade Commission".
+org:ISO - "ISO"; - dc:title: "International Sugar Organization".
 
-tag:ITT - "ITT"; - dc:title: "International Telephone and Telegraph Company".
+org:ISTA - "ISTA"; - dc:title: "International Seed Testing Association".
 
-tag:ITTO - "ITTO"; - dc:title: "International Tropical Timber Organization".
+org:ITC - "ITC"; - dc:title: "International Trade Commission".
 
-tag:ITU - "ITU"; - dc:title: "International Telecommunication Union—specialized agency of the UN".
+org:ITT - "ITT"; - dc:title: "International Telephone and Telegraph Company".
 
-tag:IUCNNR - "IUCNNR"; - dc:title: "International Union for the Conservation of Nature and Natural Resources".
+org:ITTO - "ITTO"; - dc:title: "International Tropical Timber Organization".
 
-tag:IWBC - "IWBC"; - dc:title: "International Boundary and Water Commission United States and Mexico".
+org:ITU - "ITU"; - dc:title: "International Telecommunication Union—specialized agency of the UN".
 
-tag:IWC-1 - "IWC-1"; - dc:title: "International Whaling Commission".
+org:IUCNNR - "IUCNNR"; - dc:title: "International Union for the Conservation of Nature and Natural Resources".
 
-tag:IWC-2 - "IWC-2"; - dc:title: "International Wheat Council".
+org:IWBC - "IWBC"; - dc:title: "International Boundary and Water Commission United States and Mexico".
 
-tag:IWSG - "IWSG"; - dc:title: "International Wool Study Group".
+org:IWC-1 - "IWC-1"; - dc:title: "International Whaling Commission".
 
-tag:IYC - "IYC"; - dc:title: "International Youth Conference".
+org:IWC-2 - "IWC-2"; - dc:title: "International Wheat Council".
 
-tag:JAL - "JAL"; - dc:title: "Japan Air Lines".
+org:IWSG - "IWSG"; - dc:title: "International Wool Study Group".
 
-tag:JAT - "JAT"; - dc:title: "Yugoslav Airline".
+org:IYC - "IYC"; - dc:title: "International Youth Conference".
 
-tag:JCIC - "JCIC"; - dc:title: "Joint Compliance and Inspection Commission".
+org:JAL - "JAL"; - dc:title: "Japan Air Lines".
 
-tag:JDL - "JDL"; - dc:title: "Jewish Defense League".
+org:JAT - "JAT"; - dc:title: "Yugoslav Airline".
 
-tag:JLP - "JLP"; - dc:title: "Jamaica Labor Party".
+org:JCIC - "JCIC"; - dc:title: "Joint Compliance and Inspection Commission".
 
-tag:JUS - "JUS"; - dc:title: "Department of Justice".
+org:JDL - "JDL"; - dc:title: "Jewish Defense League".
 
-tag:KAL - "KAL"; - dc:title: "Korean National Airlines".
+org:JLP - "JLP"; - dc:title: "Jamaica Labor Party".
 
-tag:KANU - "KANU"; - dc:title: "Kenya African National Union".
+org:JUS - "JUS"; - dc:title: "Department of Justice".
 
-tag:KGB - "KGB"; - dc:title: "Soviet Intelligence Service".
+org:KAL - "KAL"; - dc:title: "Korean National Airlines".
 
-tag:KLM - "KLM"; - dc:title: "Royal Dutch Airlines".
+org:KANU - "KANU"; - dc:title: "Kenya African National Union".
 
-tag:KMT - "KMT"; - dc:title: "Kuomintang or Nationalist Party".
+org:KGB - "KGB"; - dc:title: "Soviet Intelligence Service".
 
-tag:KOC - "KOC"; - dc:title: "Kuwait Oil Company".
+org:KLM - "KLM"; - dc:title: "Royal Dutch Airlines".
 
-tag:KPNLF - "KPNLF"; - dc:title: "Khmer Peoples National Liberation Front".
+org:KMT - "KMT"; - dc:title: "Kuomintang or Nationalist Party".
 
-tag:LAB - "LAB"; - dc:title: "Department of Labor".
+org:KOC - "KOC"; - dc:title: "Kuwait Oil Company".
 
-tag:LBAR - "LBAR"; - dc:title: "Board of Appellate Review".
+org:KPNLF - "KPNLF"; - dc:title: "Khmer Peoples National Liberation Front".
 
-tag:LDP - "LDP"; - dc:title: "Liberal Democratic Party".
+org:LAB - "LAB"; - dc:title: "Department of Labor".
 
-tag:LOC - "LOC"; - dc:title: "Library of Congress".
+org:LBAR - "LBAR"; - dc:title: "Board of Appellate Review".
 
-tag:LOT - "LOT"; - dc:title: "Polish National Airlines".
+org:LDP - "LDP"; - dc:title: "Liberal Democratic Party".
 
-tag:MAB - "MAB"; - dc:title: "Man and the Biosphere Program (The)".
+org:LOC - "LOC"; - dc:title: "Library of Congress".
 
-tag:MARAD - "MARAD"; - dc:title: "US Maritime Administration".
+org:LOT - "LOT"; - dc:title: "Polish National Airlines".
 
-tag:MAS - "MAS"; - dc:title: "Military Agency for Standardization".
+org:MAB - "MAB"; - dc:title: "Man and the Biosphere Program (The)".
 
-tag:MCG - "MCG"; - dc:title: "Mediterranean Cooperation Group (NATO)".
+org:MARAD - "MARAD"; - dc:title: "US Maritime Administration".
 
-tag:MCLRS - "MCLRS"; - dc:title: "Maintenance of Certain Lights in the Red Sea".
+org:MAS - "MAS"; - dc:title: "Military Agency for Standardization".
 
-tag:MEA - "MEA"; - dc:title: "Middle East Airlines".
+org:MCG - "MCG"; - dc:title: "Mediterranean Cooperation Group (NATO)".
 
-tag:MFO - "MFO"; - dc:title: "Multinational Force Observers".
+org:MCLRS - "MCLRS"; - dc:title: "Maintenance of Certain Lights in the Red Sea".
 
-tag:MINURSO - "MINURSO"; - dc:title: "UN Mission for the Referendum in Western Sahara".
+org:MEA - "MEA"; - dc:title: "Middle East Airlines".
 
-tag:MIR - "MIR"; - dc:title: "Leftist Revolutionary Movement in Bolivia".
+org:MFO - "MFO"; - dc:title: "Multinational Force Observers".
 
-tag:MNLF - "MNLF"; - dc:title: "Mor National Liberation Front".
+org:MINURSO - "MINURSO"; - dc:title: "UN Mission for the Referendum in Western Sahara".
 
-tag:MONUC - "MONUC"; - dc:title: "UN Organization Mission in the Democratic Republic of the Congo".
+org:MIR - "MIR"; - dc:title: "Leftist Revolutionary Movement in Bolivia".
 
-tag:MPEAA - "MPEAA"; - dc:title: "Motion Picture Export Association of America".
+org:MNLF - "MNLF"; - dc:title: "Mor National Liberation Front".
 
-tag:MPLA - "MPLA"; - dc:title: "Popular Movement for the Liberation of Angola".
+org:MONUC - "MONUC"; - dc:title: "UN Organization Mission in the Democratic Republic of the Congo".
 
-tag:MTCRE - "MTCRE"; - dc:title: "Missile Technology Control Regime".
+org:MPEAA - "MPEAA"; - dc:title: "Motion Picture Export Association of America".
 
-tag:MTN - "MTN"; - dc:title: "Multilateral Trade Negotiations".
+org:MPLA - "MPLA"; - dc:title: "Popular Movement for the Liberation of Angola".
 
-tag:NAA - "NAA"; - dc:title: "North Atlantic Assembly".
+org:MTCRE - "MTCRE"; - dc:title: "Missile Technology Control Regime".
 
-tag:NAC - "NAC"; - dc:title: "North Atlantic Council".
+org:MTN - "MTN"; - dc:title: "Multilateral Trade Negotiations".
 
-tag:NACB - "NACB"; - dc:title: "Nonaligned Coordinating Bureau".
+org:NAA - "NAA"; - dc:title: "North Atlantic Assembly".
 
-tag:NAFO - "NAFO"; - dc:title: "Northwest Atlantic Fisheries Organization".
+org:NAC - "NAC"; - dc:title: "North Atlantic Council".
 
-tag:NAMSA - "NAMSA"; - dc:title: "NATO Management Supply Agency".
+org:NACB - "NACB"; - dc:title: "Nonaligned Coordinating Bureau".
 
-tag:NAS - "NAS"; - dc:title: "National Academy of Sciences (US)".
+org:NAFO - "NAFO"; - dc:title: "Northwest Atlantic Fisheries Organization".
 
-tag:NASA - "NASA"; - dc:title: "National Aeronautics and Space Admin".
+org:NAMSA - "NAMSA"; - dc:title: "NATO Management Supply Agency".
 
-tag:NASCO - "NASCO"; - dc:title: "North Atlantic Salmon Conservation Organization".
+org:NAS - "NAS"; - dc:title: "National Academy of Sciences (US)".
 
-tag:NATO - "NATO"; - dc:title: "North Atlantic Treaty Organization".
+org:NASA - "NASA"; - dc:title: "National Aeronautics and Space Admin".
 
-tag:NBC - "NBC"; - dc:title: "National Broadcasting Company".
+org:NASCO - "NASCO"; - dc:title: "North Atlantic Salmon Conservation Organization".
 
-tag:NBCCA - "NBCCA"; - dc:title: "National Bipartisan Comm on Central America".
+org:NATO - "NATO"; - dc:title: "North Atlantic Treaty Organization".
 
-tag:NBS - "NBS"; - dc:title: "National Bureau of Standards".
+org:NBC - "NBC"; - dc:title: "National Broadcasting Company".
 
-tag:NDR - "NDR"; - dc:title: "Nicaraguan Democratic Resistance".
+org:NBCCA - "NBCCA"; - dc:title: "National Bipartisan Comm on Central America".
 
-tag:NDU - "NDU"; - dc:title: "National Defense University".
+org:NBS - "NBS"; - dc:title: "National Bureau of Standards".
 
-tag:NEB - "NEB"; - dc:title: "National Energy Board".
+org:NDR - "NDR"; - dc:title: "Nicaraguan Democratic Resistance".
 
-tag:NGA - "NGA"; - dc:title: "National Gallery of Art".
+org:NDU - "NDU"; - dc:title: "National Defense University".
 
-tag:NIAG - "NIAG"; - dc:title: "NATO Industrial Advisory Group".
+org:NEB - "NEB"; - dc:title: "National Energy Board".
 
-tag:NICSMA - "NICSMA"; - dc:title: "NATO Integrated Communications Systems".
+org:NGA - "NGA"; - dc:title: "National Gallery of Art".
 
-tag:NIDA - "NIDA"; - dc:title: "National Institute on Drug Abuse".
+org:NIAG - "NIAG"; - dc:title: "NATO Industrial Advisory Group".
 
-tag:NIH - "NIH"; - dc:title: "National Institute of Health".
+org:NICSMA - "NICSMA"; - dc:title: "NATO Integrated Communications Systems".
 
-tag:NIOC - "NIOC"; - dc:title: "National Iranian Oil Company".
+org:NIDA - "NIDA"; - dc:title: "National Institute on Drug Abuse".
 
-tag:NKDP - "NKDP"; - dc:title: "New Korean Democratic Party".
+org:NIH - "NIH"; - dc:title: "National Institute of Health".
 
-tag:NMFS - "NMFS"; - dc:title: "National Marine Fisheries Services".
+org:NIOC - "NIOC"; - dc:title: "National Iranian Oil Company".
 
-tag:NNPC - "NNPC"; - dc:title: "Nigerian National Petroleum Corp".
+org:NKDP - "NKDP"; - dc:title: "New Korean Democratic Party".
 
-tag:NOAA - "NOAA"; - dc:title: "National Oceanographic and Atmosphere Agency".
+org:NMFS - "NMFS"; - dc:title: "National Marine Fisheries Services".
 
-tag:NPC - "NPC"; - dc:title: "National Peoples Congress".
+org:NNPC - "NNPC"; - dc:title: "Nigerian National Petroleum Corp".
 
-tag:NPFSC - "NPFSC"; - dc:title: "North Pacific Fur Seal Commission".
+org:NOAA - "NOAA"; - dc:title: "National Oceanographic and Atmosphere Agency".
 
-tag:NPG - "NPG"; - dc:title: "Nuclear Planning Group NATO".
+org:NPC - "NPC"; - dc:title: "National Peoples Congress".
 
-tag:NRC-5 - "NRC-5"; - dc:title: "National Research Council (US)".
+org:NPFSC - "NPFSC"; - dc:title: "North Pacific Fur Seal Commission".
 
-tag:NSA - "NSA"; - dc:title: "National Security Agency".
+org:NPG - "NPG"; - dc:title: "Nuclear Planning Group NATO".
 
-tag:NSC - "NSC"; - dc:title: "National Security Council".
+org:NRC-5 - "NRC-5"; - dc:title: "National Research Council (US)".
 
-tag:NSF - "NSF"; - dc:title: "National Science Foundation".
+org:NSA - "NSA"; - dc:title: "National Security Agency".
 
-tag:NTIA - "NTIA"; - dc:title: "National Telecommunications and Information Administration".
+org:NSC - "NSC"; - dc:title: "National Security Council".
 
-tag:NTIS - "NTIS"; - dc:title: "National Technical Information Service".
+org:NSF - "NSF"; - dc:title: "National Science Foundation".
 
-tag:NTSB - "NTSB"; - dc:title: "National Transportation Safety Board".
+org:NTIA - "NTIA"; - dc:title: "National Telecommunications and Information Administration".
 
-tag:NTT - "NTT"; - dc:title: "Nippon Telegraph and Telephone Corp".
+org:NTIS - "NTIS"; - dc:title: "National Technical Information Service".
 
-tag:NUC - "NUC"; - dc:title: "NATO-Ukraine Commission".
+org:NTSB - "NTSB"; - dc:title: "National Transportation Safety Board".
 
-tag:NWC - "NWC"; - dc:title: "National War College".
+org:NTT - "NTT"; - dc:title: "Nippon Telegraph and Telephone Corp".
 
-tag:OAPEC - "OAPEC"; - dc:title: "Organization of Arab Petroleum Exporting Countries".
+org:NUC - "NUC"; - dc:title: "NATO-Ukraine Commission".
 
-tag:OAS - "OAS"; - dc:title: "Organization of American States".
+org:NWC - "NWC"; - dc:title: "National War College".
 
-tag:OATU - "OATU"; - dc:title: "Organization of African Union Unity".
+org:OAPEC - "OAPEC"; - dc:title: "Organization of Arab Petroleum Exporting Countries".
 
-tag:OAU - "OAU"; - dc:title: "Organization of African Unity".
+org:OAS - "OAS"; - dc:title: "Organization of American States".
 
-tag:OECD - "OECD"; - dc:title: "Organization for Economic Cooperation and Development in Paris".
+org:OATU - "OATU"; - dc:title: "Organization of African Union Unity".
 
-tag:OECS - "OECS"; - dc:title: "Organization of Eastern Caribbean States".
+org:OAU - "OAU"; - dc:title: "Organization of African Unity".
 
-tag:OIC-2 - "OIC-2"; - dc:title: "International Olympic Committee".
+org:OECD - "OECD"; - dc:title: "Organization for Economic Cooperation and Development in Paris".
 
-tag:OIE - "OIE"; - dc:title: "International Office of Epizootics".
+org:OECS - "OECS"; - dc:title: "Organization of Eastern Caribbean States".
 
-tag:OMB - "OMB"; - dc:title: "Office of Management and Budget Formerly Bureau of the Budget".
+org:OIC-2 - "OIC-2"; - dc:title: "International Olympic Committee".
 
-tag:OMSN - "OMSN"; - dc:title: "Office of Micronesian Status Negotiations".
+org:OIE - "OIE"; - dc:title: "International Office of Epizootics".
 
-tag:OPEC - "OPEC"; - dc:title: "Organization of Petroleum Exporting Countries".
+org:OMB - "OMB"; - dc:title: "Office of Management and Budget Formerly Bureau of the Budget".
 
-tag:OPIC - "OPIC"; - dc:title: "Overseas Private Investment Corporation".
+org:OMSN - "OMSN"; - dc:title: "Office of Micronesian Status Negotiations".
 
-tag:OPM - "OPM"; - dc:title: "Office of Personnel Management".
+org:OPEC - "OPEC"; - dc:title: "Organization of Petroleum Exporting Countries".
 
-tag:ORIT-ICFTU - "ORIT-ICFTU"; - dc:title: "Inter-American Regional Organization of the ICFTU, Organizacion Regional Interamericana de Trabajadores".
+org:OPIC - "OPIC"; - dc:title: "Overseas Private Investment Corporation".
 
-tag:OSCE - "OSCE"; - dc:title: "Organization for Security and Cooperation in Europe".
+org:OPM - "OPM"; - dc:title: "Office of Personnel Management".
 
-tag:OSHA - "OSHA"; - dc:title: "Occupational Safety and Health Administration".
+org:ORIT-ICFTU - "ORIT-ICFTU"; - dc:title: "Inter-American Regional Organization of the ICFTU, Organizacion Regional Interamericana de Trabajadores".
 
-tag:OSIA - "OSIA"; - dc:title: "Onsight Inspection Agency".
+org:OSCE - "OSCE"; - dc:title: "Organization for Security and Cooperation in Europe".
 
-tag:OVP - "OVP"; - dc:title: "Office of the Vice President".
+org:OSHA - "OSHA"; - dc:title: "Occupational Safety and Health Administration".
 
-tag:PAC - "PAC"; - dc:title: "Pan Africanist Congress".
+org:OSIA - "OSIA"; - dc:title: "Onsight Inspection Agency".
 
-tag:PAHO - "PAHO"; - dc:title: "Pan American Health Organization in Washington".
+org:OVP - "OVP"; - dc:title: "Office of the Vice President".
 
-tag:PAIGH - "PAIGH"; - dc:title: "Pan American Institute of Geography and History".
+org:PAC - "PAC"; - dc:title: "Pan Africanist Congress".
 
-tag:PAL - "PAL"; - dc:title: "Philippine Airlines".
+org:PAHO - "PAHO"; - dc:title: "Pan American Health Organization in Washington".
 
-tag:PAN - "PAN"; - dc:title: "Partido Accion Nacional".
+org:PAIGH - "PAIGH"; - dc:title: "Pan American Institute of Geography and History".
 
-tag:PARCA - "PARCA"; - dc:title: "Pan American Railway Congress Association in Buenos Aires".
+org:PAL - "PAL"; - dc:title: "Philippine Airlines".
 
-tag:PBEIST - "PBEIST"; - dc:title: "Planning Board for European Inland Surface Transportation".
+org:PAN - "PAN"; - dc:title: "Partido Accion Nacional".
 
-tag:PBOS - "PBOS"; - dc:title: "Planning Board on Ocean Shipping".
+org:PARCA - "PARCA"; - dc:title: "Pan American Railway Congress Association in Buenos Aires".
 
-tag:PBS - "PBS"; - dc:title: "Public Broadcasting System".
+org:PBEIST - "PBEIST"; - dc:title: "Planning Board for European Inland Surface Transportation".
 
-tag:PCC - "PCC"; - dc:title: "Panama Canal Commission".
+org:PBOS - "PBOS"; - dc:title: "Planning Board on Ocean Shipping".
 
-tag:PCI - "PCI"; - dc:title: "Italian Communist Party".
+org:PBS - "PBS"; - dc:title: "Public Broadcasting System".
 
-tag:PDC - "PDC"; - dc:title: "Christian Democratic Party in El Salvador".
+org:PCC - "PCC"; - dc:title: "Panama Canal Commission".
 
-tag:PEMEX - "PEMEX"; - dc:title: "Petroleas Mexicanos".
+org:PCI - "PCI"; - dc:title: "Italian Communist Party".
 
-tag:PETROBRAS - "PETROBRAS"; - dc:title: "Brazilian State Owned Oil Company".
+org:PDC - "PDC"; - dc:title: "Christian Democratic Party in El Salvador".
 
-tag:PFLP - "PFLP"; - dc:title: "Popular Front for Liberation of Palestine".
+org:PEMEX - "PEMEX"; - dc:title: "Petroleas Mexicanos".
 
-tag:PFP - "PFP"; - dc:title: "Partnership for Peace (NATO)".
+org:PETROBRAS - "PETROBRAS"; - dc:title: "Brazilian State Owned Oil Company".
 
-<http://psi.metaleaks.org/cablegate/tag/PHALANGE%20PARTY> - "PHALANGE PARTY"; - dc:title: "Political Party in Lebanon".
+org:PFLP - "PFLP"; - dc:title: "Popular Front for Liberation of Palestine".
 
-tag:PHS - "PHS"; - dc:title: "Public Health Service".
+org:PFP - "PFP"; - dc:title: "Partnership for Peace (NATO)".
 
-tag:PIA - "PIA"; - dc:title: "Pakistani Airlines".
+<None/PHALANGE%20PARTY> - "PHALANGE PARTY"; - dc:title: "Political Party in Lebanon".
 
-tag:PIARC - "PIARC"; - dc:title: "Permanent International Association of Road Congresses".
+org:PHS - "PHS"; - dc:title: "Public Health Service".
 
-tag:PICES - "PICES"; - dc:title: "North Pacific Marine Science Organization".
+org:PIA - "PIA"; - dc:title: "Pakistani Airlines".
 
-tag:PJC - "PJC"; - dc:title: "Permanent Joint Council, NATO-Russia".
+org:PIARC - "PIARC"; - dc:title: "Permanent International Association of Road Congresses".
 
-tag:PKFK - "PKFK"; - dc:title: "NATO Led Peacekeeping Forces in Kosovo".
+org:PICES - "PICES"; - dc:title: "North Pacific Marine Science Organization".
 
-tag:PLA - "PLA"; - dc:title: "Sudan Peoples’ Liberation Army".
+org:PJC - "PJC"; - dc:title: "Permanent Joint Council, NATO-Russia".
 
-tag:PLN - "PLN"; - dc:title: "National Liberation Front in Costa Rica".
+org:PKFK - "PKFK"; - dc:title: "NATO Led Peacekeeping Forces in Kosovo".
 
-tag:PLO - "PLO"; - dc:title: "Palestine Liberation Organization".
+org:PLA - "PLA"; - dc:title: "Sudan Peoples’ Liberation Army".
 
-tag:PNC - "PNC"; - dc:title: "Palestinian National Council".
+org:PLN - "PLN"; - dc:title: "National Liberation Front in Costa Rica".
 
-tag:PNDC - "PNDC"; - dc:title: "Provisional National Defense Council".
+org:PLO - "PLO"; - dc:title: "Palestine Liberation Organization".
 
-tag:PNP - "PNP"; - dc:title: "Peoples National Party".
+org:PNC - "PNC"; - dc:title: "Palestinian National Council".
 
-tag:PPD - "PPD"; - dc:title: "Party for Peace and Democracy".
+org:PNDC - "PNDC"; - dc:title: "Provisional National Defense Council".
 
-tag:PPP - "PPP"; - dc:title: "Pakistan Peoples Party".
+org:PNP - "PNP"; - dc:title: "Peoples National Party".
 
-tag:PRI - "PRI"; - dc:title: "Partido Revolucionario Institucional".
+org:PPD - "PPD"; - dc:title: "Party for Peace and Democracy".
 
-tag:PSD - "PSD"; - dc:title: "Social Democratic Party in Portugal".
+org:PPP - "PPP"; - dc:title: "Pakistan Peoples Party".
 
-tag:PSI - "PSI"; - dc:title: "Italian Socialist Party".
+org:PRI - "PRI"; - dc:title: "Partido Revolucionario Institucional".
 
-tag:PSOE - "PSOE"; - dc:title: "Spanish Socialist Workers’ Party".
+org:PSD - "PSD"; - dc:title: "Social Democratic Party in Portugal".
 
-tag:PUAS - "PUAS"; - dc:title: "Postal Union of the Americas and Spain".
+org:PSI - "PSI"; - dc:title: "Italian Socialist Party".
 
-tag:QANTAS - "QANTAS"; - dc:title: "Qantas Empire Airways".
+org:PSOE - "PSOE"; - dc:title: "Spanish Socialist Workers’ Party".
 
-tag:RDP - "RDP"; - dc:title: "Reunification Democracy Party".
+org:PUAS - "PUAS"; - dc:title: "Postal Union of the Americas and Spain".
 
-tag:RENAMO - "RENAMO"; - dc:title: "Resistencia Nacional Mocambicana".
+org:QANTAS - "QANTAS"; - dc:title: "Qantas Empire Airways".
 
-tag:RFE - "RFE"; - dc:title: "Radio Free Europe".
+org:RDP - "RDP"; - dc:title: "Reunification Democracy Party".
 
-tag:RL - "RL"; - dc:title: "Radio Liberty".
+org:RENAMO - "RENAMO"; - dc:title: "Resistencia Nacional Mocambicana".
 
-tag:RRB - "RRB"; - dc:title: "Railroad Retirement Board".
+org:RFE - "RFE"; - dc:title: "Radio Free Europe".
 
-tag:SAARC - "SAARC"; - dc:title: "South Asian Association for Regional Cooperation".
+org:RL - "RL"; - dc:title: "Radio Liberty".
 
-tag:SAS - "SAS"; - dc:title: "Scandinavian Airlines System".
+org:RRB - "RRB"; - dc:title: "Railroad Retirement Board".
 
-tag:SBA - "SBA"; - dc:title: "Small Business Administration".
+org:SAARC - "SAARC"; - dc:title: "South Asian Association for Regional Cooperation".
 
-tag:SCC - "SCC"; - dc:title: "Standing Consultative Commission".
+org:SAS - "SAS"; - dc:title: "Scandinavian Airlines System".
 
-tag:SCEPC - "SCEPC"; - dc:title: "Senior Civil Emergency Planning Committee".
+org:SBA - "SBA"; - dc:title: "Small Business Administration".
 
-tag:SDFCU - "SDFCU"; - dc:title: "State Department Federal Credit Union".
+org:SCC - "SCC"; - dc:title: "Standing Consultative Commission".
 
-tag:SEC - "SEC"; - dc:title: "Securities and Exchange Commission".
+org:SCEPC - "SCEPC"; - dc:title: "Senior Civil Emergency Planning Committee".
 
-tag:SELA - "SELA"; - dc:title: "Latin American Economic System".
+org:SDFCU - "SDFCU"; - dc:title: "State Department Federal Credit Union".
 
-tag:SFOR - "SFOR"; - dc:title: "NATO Led Stabilization Forces in Bosnia-Herzegovina".
+org:SEC - "SEC"; - dc:title: "Securities and Exchange Commission".
 
-tag:SMI - "SMI"; - dc:title: "Smithsonian Institution".
+org:SELA - "SELA"; - dc:title: "Latin American Economic System".
 
-tag:SOCINT - "SOCINT"; - dc:title: "Socialist International".
+org:SFOR - "SFOR"; - dc:title: "NATO Led Stabilization Forces in Bosnia-Herzegovina".
 
-tag:SPC - "SPC"; - dc:title: "Secretariat of the Pacific Community".
+org:SMI - "SMI"; - dc:title: "Smithsonian Institution".
 
-tag:SPD - "SPD"; - dc:title: "Social Democratic Party in FRG and UK".
+org:SOCINT - "SOCINT"; - dc:title: "Socialist International".
 
-tag:SPF - "SPF"; - dc:title: "South Pacific Forum".
+org:SPC - "SPC"; - dc:title: "Secretariat of the Pacific Community".
 
-tag:SPLA - "SPLA"; - dc:title: "Sudan Peoples’ Liberation Army".
+org:SPD - "SPD"; - dc:title: "Social Democratic Party in FRG and UK".
 
-tag:SPLM - "SPLM"; - dc:title: "Sudan Peoples’ Liberation Movement".
+org:SPF - "SPF"; - dc:title: "South Pacific Forum".
 
-tag:SSA - "SSA"; - dc:title: "Social Security Administration".
+org:SPLA - "SPLA"; - dc:title: "Sudan Peoples’ Liberation Army".
 
-tag:SSOD - "SSOD"; - dc:title: "Special Session on Disarmament (UN)".
+org:SPLM - "SPLM"; - dc:title: "Sudan Peoples’ Liberation Movement".
 
-tag:STAT - "STAT"; - dc:title: "UN Statistical Commission".
+org:SSA - "SSA"; - dc:title: "Social Security Administration".
 
-tag:SVC - "SVC"; - dc:title: "Special Verification Commission".
+org:SSOD - "SSOD"; - dc:title: "Special Session on Disarmament (UN)".
 
-tag:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples Organization".
+org:STAT - "STAT"; - dc:title: "UN Statistical Commission".
 
-tag:TAPLINE - "TAPLINE"; - dc:title: "Trans Arabian Pipeline Company".
+org:SVC - "SVC"; - dc:title: "Special Verification Commission".
 
-tag:TDB - "TDB"; - dc:title: "Trade and Development Board".
+org:SWAPO - "SWAPO"; - dc:title: "Southwest Africa Peoples Organization".
 
-tag:TGC - "TGC"; - dc:title: "Tripartite Gold Commission".
+org:TAPLINE - "TAPLINE"; - dc:title: "Trans Arabian Pipeline Company".
 
-tag:THY - "THY"; - dc:title: "Turkish Airlines".
+org:TDB - "TDB"; - dc:title: "Trade and Development Board".
 
-tag:TNC - "TNC"; - dc:title: "Tariff Negotiating Committee (GATT)".
+org:TGC - "TGC"; - dc:title: "Tripartite Gold Commission".
 
-tag:TPLF - "TPLF"; - dc:title: "Tigrean Peoples Liberation Front".
+org:THY - "THY"; - dc:title: "Turkish Airlines".
 
-tag:TRSY - "TRSY"; - dc:title: "Department of the Treasury".
+org:TNC - "TNC"; - dc:title: "Tariff Negotiating Committee (GATT)".
 
-tag:TUAC - "TUAC"; - dc:title: "Trade Union Advisory Committee (OECD)".
+org:TPLF - "TPLF"; - dc:title: "Tigrean Peoples Liberation Front".
 
-tag:TUC - "TUC"; - dc:title: "Trade Union Conference".
+org:TRSY - "TRSY"; - dc:title: "Department of the Treasury".
 
-tag:TVA - "TVA"; - dc:title: "Tennessee Valley Authority".
+org:TUAC - "TUAC"; - dc:title: "Trade Union Advisory Committee (OECD)".
 
-tag:UANC - "UANC"; - dc:title: "United African National Congress".
+org:TUC - "TUC"; - dc:title: "Trade Union Conference".
 
-tag:UAW - "UAW"; - dc:title: "United Auto Workers".
+org:TVA - "TVA"; - dc:title: "Tennessee Valley Authority".
 
-tag:UCD - "UCD"; - dc:title: "United Democratic Center".
+org:UANC - "UANC"; - dc:title: "United African National Congress".
 
-tag:UDEAC - "UDEAC"; - dc:title: "Central African Customs and Economic Union".
+org:UAW - "UAW"; - dc:title: "United Auto Workers".
 
-tag:UIL - "UIL"; - dc:title: "Italian Labor Union".
+org:UCD - "UCD"; - dc:title: "United Democratic Center".
 
-tag:UMNO - "UMNO"; - dc:title: "United Malays National Organization".
+org:UDEAC - "UDEAC"; - dc:title: "Central African Customs and Economic Union".
 
-tag:UMOA - "UMOA"; - dc:title: "Union Monetaire Ouest Africaine, West African Monetary".
+org:UIL - "UIL"; - dc:title: "Italian Labor Union".
 
-tag:UN - "UN"; - dc:title: "United Nations".
+org:UMNO - "UMNO"; - dc:title: "United Malays National Organization".
 
-tag:UNAMSIL - "UNAMSIL"; - dc:title: "UN Mission in Sierra Leone".
+org:UMOA - "UMOA"; - dc:title: "Union Monetaire Ouest Africaine, West African Monetary".
 
-tag:UNAUS - "UNAUS"; - dc:title: "UN Association of the United States of America".
+org:UN - "UN"; - dc:title: "United Nations".
 
-tag:UNBRO - "UNBRO"; - dc:title: "UN Border Relief Operations".
+org:UNAMSIL - "UNAMSIL"; - dc:title: "UN Mission in Sierra Leone".
 
-tag:UNC - "UNC"; - dc:title: "UN Command in Korea".
+org:UNAUS - "UNAUS"; - dc:title: "UN Association of the United States of America".
 
-tag:UNCHC - "UNCHC"; - dc:title: "UN Committee on Hostages Convention".
+org:UNBRO - "UNBRO"; - dc:title: "UN Border Relief Operations".
 
-tag:UNCHS - "UNCHS"; - dc:title: "UN Commission on Human Settlements".
+org:UNC - "UNC"; - dc:title: "UN Command in Korea".
 
-tag:UNCITRAL - "UNCITRAL"; - dc:title: "UN Commission on International Trade Law".
+org:UNCHC - "UNCHC"; - dc:title: "UN Committee on Hostages Convention".
 
-tag:UNCND - "UNCND"; - dc:title: "UN Commission on Narcotic Drugs".
+org:UNCHS - "UNCHS"; - dc:title: "UN Commission on Human Settlements".
 
-tag:UNCRED - "UNCRED"; - dc:title: "UN Credentials Committee".
+org:UNCITRAL - "UNCITRAL"; - dc:title: "UN Commission on International Trade Law".
 
-tag:UNCRIME - "UNCRIME"; - dc:title: "Crime Prevention Control Committee (UN)".
+org:UNCND - "UNCND"; - dc:title: "UN Commission on Narcotic Drugs".
 
-tag:UNCSD - "UNCSD"; - dc:title: "UN Commission on Social Development".
+org:UNCRED - "UNCRED"; - dc:title: "UN Credentials Committee".
 
-tag:UNCSW - "UNCSW"; - dc:title: "UN Commission on Status of Women".
+org:UNCRIME - "UNCRIME"; - dc:title: "Crime Prevention Control Committee (UN)".
 
-tag:UNCTAD - "UNCTAD"; - dc:title: "UN Conference on Trade and Development".
+org:UNCSD - "UNCSD"; - dc:title: "UN Commission on Social Development".
 
-tag:UNDC - "UNDC"; - dc:title: "UN Disarmament Commission".
+org:UNCSW - "UNCSW"; - dc:title: "UN Commission on Status of Women".
 
-tag:UNDOF - "UNDOF"; - dc:title: "UN Disengagement Observer Force".
+org:UNCTAD - "UNCTAD"; - dc:title: "UN Conference on Trade and Development".
 
-tag:UNDP - "UNDP"; - dc:title: "UN Development Program".
+org:UNDC - "UNDC"; - dc:title: "UN Disarmament Commission".
 
-tag:UNDRO - "UNDRO"; - dc:title: "Office of UN Disaster Relief, UN Disaster Relief Coordinator".
+org:UNDOF - "UNDOF"; - dc:title: "UN Disengagement Observer Force".
 
-tag:UNEF - "UNEF"; - dc:title: "UN Emergency Force".
+org:UNDP - "UNDP"; - dc:title: "UN Development Program".
 
-tag:UNEP - "UNEP"; - dc:title: "UN Environment Program".
+org:UNDRO - "UNDRO"; - dc:title: "Office of UN Disaster Relief, UN Disaster Relief Coordinator".
 
-tag:UNESCO - "UNESCO"; - dc:title: "UN Educational Scientific and Cultural Organization".
+org:UNEF - "UNEF"; - dc:title: "UN Emergency Force".
 
-tag:UNETPSA - "UNETPSA"; - dc:title: "UN Educational and Training Program for Southern Africa".
+org:UNEP - "UNEP"; - dc:title: "UN Environment Program".
 
-tag:UNFDAC - "UNFDAC"; - dc:title: "UN Fund for Drug Abuse Control".
+org:UNESCO - "UNESCO"; - dc:title: "UN Educational Scientific and Cultural Organization".
 
-tag:UNFICYP - "UNFICYP"; - dc:title: "UN Force in Cyprus".
+org:UNETPSA - "UNETPSA"; - dc:title: "UN Educational and Training Program for Southern Africa".
 
-tag:UNFPA - "UNFPA"; - dc:title: "UN Fund for Population Activities".
+org:UNFDAC - "UNFDAC"; - dc:title: "UN Fund for Drug Abuse Control".
 
-tag:UNGA - "UNGA"; - dc:title: "UN General Assembly".
+org:UNFICYP - "UNFICYP"; - dc:title: "UN Force in Cyprus".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-1> - "UNGA/C-1"; - dc:title: "Political Committee (UNGA), UN General Assembly First Committee".
+org:UNFPA - "UNFPA"; - dc:title: "UN Fund for Population Activities".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-2> - "UNGA/C-2"; - dc:title: "UN General Assembly Economic Committee, UN General Assembly Second Committee".
+org:UNGA - "UNGA"; - dc:title: "UN General Assembly".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-3> - "UNGA/C-3"; - dc:title: "UN General Assembly Social Committee, UN General Assembly Third Committee".
+<None/UNGA%2FC-1> - "UNGA/C-1"; - dc:title: "Political Committee (UNGA), UN General Assembly First Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-4> - "UNGA/C-4"; - dc:title: "Trusteeship Committee (UNGA), UN General Assembly Fourth Committee".
+<None/UNGA%2FC-2> - "UNGA/C-2"; - dc:title: "UN General Assembly Economic Committee, UN General Assembly Second Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-5> - "UNGA/C-5"; - dc:title: "UN General Assembly Adm and Budget Committee, UN General Assembly Fifth Committee".
+<None/UNGA%2FC-3> - "UNGA/C-3"; - dc:title: "UN General Assembly Social Committee, UN General Assembly Third Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FC-6> - "UNGA/C-6"; - dc:title: "UN General Assembly Legal Committee, UN General Assembly Sixth Committee".
+<None/UNGA%2FC-4> - "UNGA/C-4"; - dc:title: "Trusteeship Committee (UNGA), UN General Assembly Fourth Committee".
 
-<http://psi.metaleaks.org/cablegate/tag/UNGA%2FSPC> - "UNGA/SPC"; - dc:title: "UN General Assembly Special Political Committee".
+<None/UNGA%2FC-5> - "UNGA/C-5"; - dc:title: "UN General Assembly Adm and Budget Committee, UN General Assembly Fifth Committee".
 
-tag:UNGOMAP - "UNGOMAP"; - dc:title: "UN Good Offices Mission for Afghanistan and Pakistan".
+<None/UNGA%2FC-6> - "UNGA/C-6"; - dc:title: "UN General Assembly Legal Committee, UN General Assembly Sixth Committee".
 
-tag:UNHCR - "UNHCR"; - dc:title: "UN High Commissioner for Refugees".
+<None/UNGA%2FSPC> - "UNGA/SPC"; - dc:title: "UN General Assembly Special Political Committee".
 
-tag:UNHRC-1 - "UNHRC-1"; - dc:title: "UN Human Rights Commission".
+org:UNGOMAP - "UNGOMAP"; - dc:title: "UN Good Offices Mission for Afghanistan and Pakistan".
 
-tag:UNHRC-2 - "UNHRC-2"; - dc:title: "UN Human Rights Committee".
+org:UNHCR - "UNHCR"; - dc:title: "UN High Commissioner for Refugees".
 
-tag:UNICEF - "UNICEF"; - dc:title: "UN Childrens Fund".
+org:UNHRC-1 - "UNHRC-1"; - dc:title: "UN Human Rights Commission".
 
-tag:UNIDCP - "UNIDCP"; - dc:title: "UN International Drug Control Program".
+org:UNHRC-2 - "UNHRC-2"; - dc:title: "UN Human Rights Committee".
 
-tag:UNIDO - "UNIDO"; - dc:title: "UN Industrial Development Organization".
+org:UNICEF - "UNICEF"; - dc:title: "UN Childrens Fund".
 
-tag:UNIDROIT - "UNIDROIT"; - dc:title: "International Institute for the Unification of Private Law".
+org:UNIDCP - "UNIDCP"; - dc:title: "UN International Drug Control Program".
 
-tag:UNIFIL - "UNIFIL"; - dc:title: "UN Force in Lebanon, UN Interim Force in Lebanon, & UN International Forces in Lebanon".
+org:UNIDO - "UNIDO"; - dc:title: "UN Industrial Development Organization".
 
-tag:UNIKOM - "UNIKOM"; - dc:title: "UN Iraq-Kuwait Observation Mission".
+org:UNIDROIT - "UNIDROIT"; - dc:title: "International Institute for the Unification of Private Law".
 
-tag:UNITA - "UNITA"; - dc:title: "National Union for Total Independence in Angola".
+org:UNIFIL - "UNIFIL"; - dc:title: "UN Force in Lebanon, UN Interim Force in Lebanon, & UN International Forces in Lebanon".
 
-tag:UNITAR - "UNITAR"; - dc:title: "UN Institute for Training and Research".
+org:UNIKOM - "UNIKOM"; - dc:title: "UN Iraq-Kuwait Observation Mission".
 
-tag:UNMEE - "UNMEE"; - dc:title: "UN Mission in Ethiopia and Eritrea".
+org:UNITA - "UNITA"; - dc:title: "National Union for Total Independence in Angola".
 
-tag:UNMIBH - "UNMIBH"; - dc:title: "UN Mission In Bosnia and Herzegovina".
+org:UNITAR - "UNITAR"; - dc:title: "UN Institute for Training and Research".
 
-tag:UNMIK - "UNMIK"; - dc:title: "UN Interim Administration Mission in Kosovo".
+org:UNMEE - "UNMEE"; - dc:title: "UN Mission in Ethiopia and Eritrea".
 
-tag:UNMOGIP - "UNMOGIP"; - dc:title: "UN Military Observer Group in India and Pakistan".
+org:UNMIBH - "UNMIBH"; - dc:title: "UN Mission In Bosnia and Herzegovina".
 
-tag:UNMOP - "UNMOP"; - dc:title: "UN Mission of Observers in Prevlaka".
+org:UNMIK - "UNMIK"; - dc:title: "UN Interim Administration Mission in Kosovo".
 
-tag:UNO - "UNO"; - dc:title: "United Nicaraguan Opposition".
+org:UNMOGIP - "UNMOGIP"; - dc:title: "UN Military Observer Group in India and Pakistan".
 
-tag:UNOMIG - "UNOMIG"; - dc:title: "UN Observation Mission in Georgia".
+org:UNMOP - "UNMOP"; - dc:title: "UN Mission of Observers in Prevlaka".
 
-tag:UNPOP - "UNPOP"; - dc:title: "UN Population Commission".
+org:UNO - "UNO"; - dc:title: "United Nicaraguan Opposition".
 
-tag:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space".
+org:UNOMIG - "UNOMIG"; - dc:title: "UN Observation Mission in Georgia".
 
-tag:UNRWA - "UNRWA"; - dc:title: "UN Relief and Works Agency for Palestine Refugees in the Near East".
+org:UNPOP - "UNPOP"; - dc:title: "UN Population Commission".
 
-tag:UNSC - "UNSC"; - dc:title: "UN Security Council".
+org:UNPUOS - "UNPUOS"; - dc:title: "UN Committee on Peaceful Uses of Outer Space".
 
-tag:UNSCEAR - "UNSCEAR"; - dc:title: "UN Scientific Committee on the Effects of Atomic Radiation".
+org:UNRWA - "UNRWA"; - dc:title: "UN Relief and Works Agency for Palestine Refugees in the Near East".
 
-tag:UNTAT - "UNTAT"; - dc:title: "UN Transitional Administration in East Timor".
+org:UNSC - "UNSC"; - dc:title: "UN Security Council".
 
-tag:UNTC - "UNTC"; - dc:title: "Trusteeship Council".
+org:UNSCEAR - "UNSCEAR"; - dc:title: "UN Scientific Committee on the Effects of Atomic Radiation".
 
-tag:UNTER - "UNTER"; - dc:title: "Committee on International Terrorism".
+org:UNTAT - "UNTAT"; - dc:title: "UN Transitional Administration in East Timor".
 
-tag:UNTFSA - "UNTFSA"; - dc:title: "UN Trust Fund for South Africa".
+org:UNTC - "UNTC"; - dc:title: "Trusteeship Council".
 
-tag:UNTNC - "UNTNC"; - dc:title: "UN Commission on Transnational Corps".
+org:UNTER - "UNTER"; - dc:title: "Committee on International Terrorism".
 
-tag:UNTSO - "UNTSO"; - dc:title: "UN Truce Supervision Organization".
+org:UNTFSA - "UNTFSA"; - dc:title: "UN Trust Fund for South Africa".
 
-tag:UPD - "UPD"; - dc:title: "Democratic Popular Unity".
+org:UNTNC - "UNTNC"; - dc:title: "UN Commission on Transnational Corps".
 
-tag:UPI - "UPI"; - dc:title: "United Press International".
+org:UNTSO - "UNTSO"; - dc:title: "UN Truce Supervision Organization".
 
-tag:UPOV - "UPOV"; - dc:title: "Committee for the Protection for New Varieties of Plants".
+org:UPD - "UPD"; - dc:title: "Democratic Popular Unity".
 
-tag:UPU - "UPU"; - dc:title: "Universal Postal Union".
+org:UPI - "UPI"; - dc:title: "United Press International".
 
-tag:USEGJC - "USEGJC"; - dc:title: "US-Egypt Joint Cooperation Commission".
+org:UPOV - "UPOV"; - dc:title: "Committee for the Protection for New Varieties of Plants".
 
-tag:USEM - "USEM"; - dc:title: "Social Union Mexican Businessmen".
+org:UPU - "UPU"; - dc:title: "Universal Postal Union".
 
-tag:USGS - "USGS"; - dc:title: "US Geodetic Survey".
+org:USEGJC - "USEGJC"; - dc:title: "US-Egypt Joint Cooperation Commission".
 
-tag:USINJC - "USINJC"; - dc:title: "US-India Joint Commission on Educational and Cultural Cooperation".
+org:USEM - "USEM"; - dc:title: "Social Union Mexican Businessmen".
 
-tag:USIS - "USIS"; - dc:title: "United States Information Service".
+org:USGS - "USGS"; - dc:title: "US Geodetic Survey".
 
-tag:USISJC - "USISJC"; - dc:title: "US-Israel Joint Committee for Investment and Trade".
+org:USINJC - "USINJC"; - dc:title: "US-India Joint Commission on Educational and Cultural Cooperation".
 
-tag:USNRC - "USNRC"; - dc:title: "Nuclear Regulatory Commission".
+org:USIS - "USIS"; - dc:title: "United States Information Service".
 
-tag:USPS - "USPS"; - dc:title: "US Postal Service".
+org:USISJC - "USISJC"; - dc:title: "US-Israel Joint Committee for Investment and Trade".
 
-tag:USSAEC - "USSAEC"; - dc:title: "US-Saudi Arabia Economic Commission".
+org:USNRC - "USNRC"; - dc:title: "Nuclear Regulatory Commission".
 
-tag:USSS - "USSS"; - dc:title: "US Secret Service".
+org:USPS - "USPS"; - dc:title: "US Postal Service".
 
-tag:USTR - "USTR"; - dc:title: "Office of the Special Representative for Trade Negotiations".
+org:USSAEC - "USSAEC"; - dc:title: "US-Saudi Arabia Economic Commission".
 
-tag:USTTA - "USTTA"; - dc:title: "United States Travel and Tourism Administration".
+org:USSS - "USSS"; - dc:title: "US Secret Service".
 
-tag:VA - "VA"; - dc:title: "Veterans Administration".
+org:USTR - "USTR"; - dc:title: "Office of the Special Representative for Trade Negotiations".
 
-tag:VARIG - "VARIG"; - dc:title: "S A Empresa De Viacao Area Rio Grandense, Brazilian International Airline".
+org:USTTA - "USTTA"; - dc:title: "United States Travel and Tourism Administration".
 
-tag:VFW - "VFW"; - dc:title: "Veterans of Foreign Wars".
+org:VA - "VA"; - dc:title: "Veterans Administration".
 
-tag:VIASA - "VIASA"; - dc:title: "Venezuelan Airline".
+org:VARIG - "VARIG"; - dc:title: "S A Empresa De Viacao Area Rio Grandense, Brazilian International Airline".
 
-tag:VOA - "VOA"; - dc:title: "Voice of America".
+org:VFW - "VFW"; - dc:title: "Veterans of Foreign Wars".
 
-tag:WARC - "WARC"; - dc:title: "World Administrative Radio Conference".
+org:VIASA - "VIASA"; - dc:title: "Venezuelan Airline".
 
-tag:WCC - "WCC"; - dc:title: "World Council of Churches".
+org:VOA - "VOA"; - dc:title: "Voice of America".
 
-tag:WCL - "WCL"; - dc:title: "International Federation of Christian World Confederation of Labor".
+org:WARC - "WARC"; - dc:title: "World Administrative Radio Conference".
 
-tag:WEO - "WEO"; - dc:title: "Western European and Other Groups".
+org:WCC - "WCC"; - dc:title: "World Council of Churches".
 
-tag:WEU - "WEU"; - dc:title: "Western European Union".
+org:WCL - "WCL"; - dc:title: "International Federation of Christian World Confederation of Labor".
 
-tag:WFC-2 - "WFC-2"; - dc:title: "World Food Council".
+org:WEO - "WEO"; - dc:title: "Western European and Other Groups".
 
-tag:WFP - "WFP"; - dc:title: "World Food Program".
+org:WEU - "WEU"; - dc:title: "Western European Union".
 
-tag:WFTU - "WFTU"; - dc:title: "World Federation of Trade Unions".
+org:WFC-2 - "WFC-2"; - dc:title: "World Food Council".
 
-tag:WHC - "WHC"; - dc:title: "World Heritage Convention (The)".
+org:WFP - "WFP"; - dc:title: "World Food Program".
 
-tag:WHO - "WHO"; - dc:title: "World Health Organization".
+org:WFTU - "WFTU"; - dc:title: "World Federation of Trade Unions".
 
-tag:WILPF - "WILPF"; - dc:title: "Womens International League for Peace".
+org:WHC - "WHC"; - dc:title: "World Heritage Convention (The)".
 
-tag:WIPO - "WIPO"; - dc:title: "World Intellectual Property Organization".
+org:WHO - "WHO"; - dc:title: "World Health Organization".
 
-tag:WJC - "WJC"; - dc:title: "World Jewish Congress".
+org:WILPF - "WILPF"; - dc:title: "Womens International League for Peace".
 
-tag:WMO - "WMO"; - dc:title: "World Meteorological Organization".
+org:WIPO - "WIPO"; - dc:title: "World Intellectual Property Organization".
 
-tag:WPO - "WPO"; - dc:title: "Warsaw Pact Organization & Warsaw Treaty Organization".
+org:WJC - "WJC"; - dc:title: "World Jewish Congress".
 
-tag:WTO - "WTO"; - dc:title: "World Tourism Organization".
+org:WMO - "WMO"; - dc:title: "World Meteorological Organization".
 
-tag:WTRO - "WTRO"; - dc:title: "World Trade Organization".
+org:WPO - "WPO"; - dc:title: "Warsaw Pact Organization & Warsaw Treaty Organization".
 
-tag:YPFB - "YPFB"; - dc:title: "Yacemientos Petroliferos Fiscales (BL)".
+org:WTO - "WTO"; - dc:title: "World Tourism Organization".
 
-tag:ZANU - "ZANU"; - dc:title: "Zimbabwe African National Union".
+org:WTRO - "WTRO"; - dc:title: "World Trade Organization".
 
-tag:ZAPU - "ZAPU"; - dc:title: "Zimbabwe African Peoples Union".
+org:YPFB - "YPFB"; - dc:title: "Yacemientos Petroliferos Fiscales (BL)".
+
+org:ZANU - "ZANU"; - dc:title: "Zimbabwe African National Union".
+
+org:ZAPU - "ZAPU"; - dc:title: "Zimbabwe African Peoples Union".
 
 #
 #-- Program Tags
 #
-tag:KACT - "KACT"; - dc:title: "Strategic Arms Control (ACS) Treaties".
+program:KACT - "KACT"; - dc:title: "Strategic Arms Control (ACS) Treaties".
 
-tag:KAWC - "KAWC"; - dc:title: "Atrocities and War Crimes".
+program:KAWC - "KAWC"; - dc:title: "Atrocities and War Crimes".
 
-tag:KBCT - "KBCT"; - dc:title: "Arab League Boycott".
+program:KBCT - "KBCT"; - dc:title: "Arab League Boycott".
 
-tag:KCCP - "KCCP"; - dc:title: "Classified Connectivity Deployment Program".
+program:KCCP - "KCCP"; - dc:title: "Classified Connectivity Deployment Program".
 
-tag:KCFE - "KCFE"; - dc:title: "Conventional Armed Forces in Europe".
+program:KCFE - "KCFE"; - dc:title: "Conventional Armed Forces in Europe".
 
-tag:KCIP - "KCIP"; - dc:title: "Critical Infrastructure Protection".
+program:KCIP - "KCIP"; - dc:title: "Critical Infrastructure Protection".
 
-tag:KCIS - "KCIS"; - dc:title: "Posts Classified Information Handling".
+program:KCIS - "KCIS"; - dc:title: "Posts Classified Information Handling".
 
-tag:KCOG - "KCOG"; - dc:title: "Continuity of the Federal Government".
+program:KCOG - "KCOG"; - dc:title: "Continuity of the Federal Government".
 
-tag:KCOM - "KCOM"; - dc:title: "Chief of Mission".
+program:KCOM - "KCOM"; - dc:title: "Chief of Mission".
 
-tag:KCOR - "KCOR"; - dc:title: "Corruption and Anti-Corruption".
+program:KCOR - "KCOR"; - dc:title: "Corruption and Anti-Corruption".
 
-tag:KCRM - "KCRM"; - dc:title: "Criminal Activity".
+program:KCRM - "KCRM"; - dc:title: "Criminal Activity".
 
-tag:KCRS - "KCRS"; - dc:title: "Coordinator for Reconstruction and Stabilization".
+program:KCRS - "KCRS"; - dc:title: "Coordinator for Reconstruction and Stabilization".
 
-tag:KCSY - "KCSY"; - dc:title: "Consular System".
+program:KCSY - "KCSY"; - dc:title: "Consular System".
 
-tag:KDEM - "KDEM"; - dc:title: "Democratization".
+program:KDEM - "KDEM"; - dc:title: "Democratization".
 
-tag:KDRG - "KDRG"; - dc:title: "Detainee Repatriation from Guantanamo Bay".
+program:KDRG - "KDRG"; - dc:title: "Detainee Repatriation from Guantanamo Bay".
 
-tag:KEAI - "KEAI"; - dc:title: "Enterprise for the Americas Initiative".
+program:KEAI - "KEAI"; - dc:title: "Enterprise for the Americas Initiative".
 
-tag:KECF - "KECF"; - dc:title: "The U.S. Africa Economic Cooperation Forum".
+program:KECF - "KECF"; - dc:title: "The U.S. Africa Economic Cooperation Forum".
 
-tag:KEMS - "KEMS"; - dc:title: "Electronic Messaging Systems".
+program:KEMS - "KEMS"; - dc:title: "Electronic Messaging Systems".
 
-tag:KESS - "KESS"; - dc:title: "Emergency Security Supplemental".
+program:KESS - "KESS"; - dc:title: "Emergency Security Supplemental".
 
-tag:KFAM - "KFAM"; - dc:title: "Foreign Affairs Manual".
+program:KFAM - "KFAM"; - dc:title: "Foreign Affairs Manual".
 
-tag:KFLO - "KFLO"; - dc:title: "Family Liaison".
+program:KFLO - "KFLO"; - dc:title: "Family Liaison".
 
-tag:KFLU - "KFLU"; - dc:title: "Avian and Pandemic Influenza Activities".
+program:KFLU - "KFLU"; - dc:title: "Avian and Pandemic Influenza Activities".
 
-tag:KFPC - "KFPC"; - dc:title: "Foreign Policy Trade Controls and East/West Trade".
+program:KFPC - "KFPC"; - dc:title: "Foreign Policy Trade Controls and East/West Trade".
 
-tag:KFRD - "KFRD"; - dc:title: "Fraud Prevention Programs".
+program:KFRD - "KFRD"; - dc:title: "Fraud Prevention Programs".
 
-tag:KFSC - "KFSC"; - dc:title: "Financial Service Center Operations".
+program:KFSC - "KFSC"; - dc:title: "Financial Service Center Operations".
 
-tag:KGCN - "KGCN"; - dc:title: "Government to Government Claims Negotiations".
+program:KGCN - "KGCN"; - dc:title: "Government to Government Claims Negotiations".
 
-tag:KGHA - "KGHA"; - dc:title: "Greater Horn of Africa Initiative".
+program:KGHA - "KGHA"; - dc:title: "Greater Horn of Africa Initiative".
 
-tag:KGHG - "KGHG"; - dc:title: "Global Climate Change".
+program:KGHG - "KGHG"; - dc:title: "Global Climate Change".
 
-tag:KGIC - "KGIC"; - dc:title: "Global Initiative to Combat Nuclear Terrorism".
+program:KGIC - "KGIC"; - dc:title: "Global Initiative to Combat Nuclear Terrorism".
 
-tag:KGIT - "KGIT"; - dc:title: "Global Information Technology Modernization Program".
+program:KGIT - "KGIT"; - dc:title: "Global Information Technology Modernization Program".
 
-tag:KGLB - "KGLB"; - dc:title: "Global Learning and Observations to Benefit the Environment (GLOBE)".
+program:KGLB - "KGLB"; - dc:title: "Global Learning and Observations to Benefit the Environment (GLOBE)".
 
-tag:KHDP - "KHDP"; - dc:title: "Humanitarian Demining Program".
+program:KHDP - "KHDP"; - dc:title: "Humanitarian Demining Program".
 
-tag:KHIV - "KHIV"; - dc:title: "Emerging Infectious Diseases and HIV/AIDS Program".
+program:KHIV - "KHIV"; - dc:title: "Emerging Infectious Diseases and HIV/AIDS Program".
 
-tag:KHLS - "KHLS"; - dc:title: "Homeland Security".
+program:KHLS - "KHLS"; - dc:title: "Homeland Security".
 
-tag:KICA - "KICA"; - dc:title: "International Cooperative Administrative Support Services".
+program:KICA - "KICA"; - dc:title: "International Cooperative Administrative Support Services".
 
-tag:KICR - "KICR"; - dc:title: "International Coral Reef Initiative".
+program:KICR - "KICR"; - dc:title: "International Coral Reef Initiative".
 
-tag:KICT - "KICT"; - dc:title: "Iran-U.S. Claims Tribunal".
+program:KICT - "KICT"; - dc:title: "Iran-U.S. Claims Tribunal".
 
-tag:KIDE - "KIDE"; - dc:title: "Investment Disputes and Property Expropriations".
+program:KIDE - "KIDE"; - dc:title: "Investment Disputes and Property Expropriations".
 
-tag:KIMT - "KIMT"; - dc:title: "Information Management Training".
+program:KIMT - "KIMT"; - dc:title: "Information Management Training".
 
-tag:KIPR - "KIPR"; - dc:title: "Intellectual Property Rights".
+program:KIPR - "KIPR"; - dc:title: "Intellectual Property Rights".
 
-tag:KIRC - "KIRC"; - dc:title: "Information Resource Centers".
+program:KIRC - "KIRC"; - dc:title: "Information Resource Centers".
 
-tag:KIRF - "KIRF"; - dc:title: "International Religious Freedom".
+program:KIRF - "KIRF"; - dc:title: "International Religious Freedom".
 
-tag:KISL - "KISL"; - dc:title: "Islamic Issues".
+program:KISL - "KISL"; - dc:title: "Islamic Issues".
 
-tag:KJUS - "KJUS"; - dc:title: "Administration of Justice".
+program:KJUS - "KJUS"; - dc:title: "Administration of Justice".
 
-tag:KLBO - "KLBO"; - dc:title: "Information Resource Management Liaison Office to Overseas Buildings Operations".
+program:KLBO - "KLBO"; - dc:title: "Information Resource Management Liaison Office to Overseas Buildings Operations".
 
-tag:KLIG - "KLIG"; - dc:title: "Foreign Litigation".
+program:KLIG - "KLIG"; - dc:title: "Foreign Litigation".
 
-tag:KLSO - "KLSO"; - dc:title: "Language Support Operations".
+program:KLSO - "KLSO"; - dc:title: "Language Support Operations".
 
-tag:KMCA - "KMCA"; - dc:title: "Millennium Challenge Account".
+program:KMCA - "KMCA"; - dc:title: "Millennium Challenge Account".
 
-tag:KMDR - "KMDR"; - dc:title: "Media Reaction Reporting".
+program:KMDR - "KMDR"; - dc:title: "Media Reaction Reporting".
 
-tag:KMFO - "KMFO"; - dc:title: "Multinational Force Observers".
+program:KMFO - "KMFO"; - dc:title: "Multinational Force Observers".
 
-tag:KMPI - "KMPI"; - dc:title: "Middle East Partnership Initiative".
+program:KMPI - "KMPI"; - dc:title: "Middle East Partnership Initiative".
 
-tag:KMRS - "KMRS"; - dc:title: "Rightsizing the U.S. Government’s Overseas Presence".
+program:KMRS - "KMRS"; - dc:title: "Rightsizing the U.S. Government’s Overseas Presence".
 
-tag:KMSG - "KMSG"; - dc:title: "Marine Security Guard Program".
+program:KMSG - "KMSG"; - dc:title: "Marine Security Guard Program".
 
-tag:KNAR - "KNAR"; - dc:title: "Nazi Assets and Restitution".
+program:KNAR - "KNAR"; - dc:title: "Nazi Assets and Restitution".
 
-tag:KNEI - "KNEI"; - dc:title: "Northern Europe Initiative (NEI)".
+program:KNEI - "KNEI"; - dc:title: "Northern Europe Initiative (NEI)".
 
-tag:KNEP - "KNEP"; - dc:title: "Nonexpendable Property Application (NEPA)".
+program:KNEP - "KNEP"; - dc:title: "Nonexpendable Property Application (NEPA)".
 
-tag:KNET - "KNET"; - dc:title: "Department of State Telecommunications Network (DOSTN) Program".
+program:KNET - "KNET"; - dc:title: "Department of State Telecommunications Network (DOSTN) Program".
 
-tag:KNNP - "KNNP"; - dc:title: "Nuclear Non- Proliferation".
+program:KNNP - "KNNP"; - dc:title: "Nuclear Non- Proliferation".
 
-tag:KNSD - "KNSD"; - dc:title: "North-South Dialogue".
+program:KNSD - "KNSD"; - dc:title: "North-South Dialogue".
 
-tag:KOCI - "KOCI"; - dc:title: "Children’s Issues".
+program:KOCI - "KOCI"; - dc:title: "Children’s Issues".
 
-tag:KOGL - "KOGL"; - dc:title: "Open Source and Gray Literature".
+program:KOGL - "KOGL"; - dc:title: "Open Source and Gray Literature".
 
-tag:KOLY - "KOLY"; - dc:title: "Olympic Games Reporting".
+program:KOLY - "KOLY"; - dc:title: "Olympic Games Reporting".
 
-tag:KOMC - "KOMC"; - dc:title: "Export Control of Defense Articles and Defense Services".
+program:KOMC - "KOMC"; - dc:title: "Export Control of Defense Articles and Defense Services".
 
-tag:KONP - "KONP"; - dc:title: "OpenNet Plus Program".
+program:KONP - "KONP"; - dc:title: "OpenNet Plus Program".
 
-tag:KPAL - "KPAL"; - dc:title: "Palestinian Affairs".
+program:KPAL - "KPAL"; - dc:title: "Palestinian Affairs".
 
-tag:KPAM - "KPAM"; - dc:title: "Property Accountability Management".
+program:KPAM - "KPAM"; - dc:title: "Property Accountability Management".
 
-tag:KPAO - "KPAO"; - dc:title: "Public Affairs Office".
+program:KPAO - "KPAO"; - dc:title: "Public Affairs Office".
 
-tag:KPAP - "KPAP"; - dc:title: "Overseas Presence Advisory Panel (OPAP)".
+program:KPAP - "KPAP"; - dc:title: "Overseas Presence Advisory Panel (OPAP)".
 
-tag:KPDC - "KPDC"; - dc:title: "Protected Digital Copier".
+program:KPDC - "KPDC"; - dc:title: "Protected Digital Copier".
 
-tag:KPIN - "KPIN"; - dc:title: "Political Internationals".
+program:KPIN - "KPIN"; - dc:title: "Political Internationals".
 
-tag:KPIR - "KPIR"; - dc:title: "Maritime Piracy and Armed Robbery Against Ships".
+program:KPIR - "KPIR"; - dc:title: "Maritime Piracy and Armed Robbery Against Ships".
 
-tag:KPKO - "KPKO"; - dc:title: "United Nations Peacekeeping Operations".
+program:KPKO - "KPKO"; - dc:title: "United Nations Peacekeeping Operations".
 
-tag:KPLS - "KPLS"; - dc:title: "Polls, Survey Research and Focus Groups".
+program:KPLS - "KPLS"; - dc:title: "Polls, Survey Research and Focus Groups".
 
-tag:KPMP - "KPMP"; - dc:title: "Patch Management Program".
+program:KPMP - "KPMP"; - dc:title: "Patch Management Program".
 
-tag:KPOW - "KPOW"; - dc:title: "Prisoners of War/Missing in Action".
+program:KPOW - "KPOW"; - dc:title: "Prisoners of War/Missing in Action".
 
-tag:KPRV - "KPRV"; - dc:title: "Privatization".
+program:KPRV - "KPRV"; - dc:title: "Privatization".
 
-tag:KPWR - "KPWR"; - dc:title: "Power Support Program".
+program:KPWR - "KPWR"; - dc:title: "Power Support Program".
 
-tag:KQDD - "KQDD"; - dc:title: "Quadrennial Diplomacy and Developments Review".
+program:KQDD - "KQDD"; - dc:title: "Quadrennial Diplomacy and Developments Review".
 
-tag:KRAD - "KRAD"; - dc:title: "Radioactive Contamination of the Environment".
+program:KRAD - "KRAD"; - dc:title: "Radioactive Contamination of the Environment".
 
-tag:KREC - "KREC"; - dc:title: "Reciprocity".
+program:KREC - "KREC"; - dc:title: "Reciprocity".
 
-tag:KRIM - "KRIM"; - dc:title: "Regional Information Management Centers".
+program:KRIM - "KRIM"; - dc:title: "Regional Information Management Centers".
 
-tag:KRVC - "KRVC"; - dc:title: "Research Vessel Clearances".
+program:KRVC - "KRVC"; - dc:title: "Research Vessel Clearances".
 
-tag:KSAC - "KSAC"; - dc:title: "Security Advisory Council".
+program:KSAC - "KSAC"; - dc:title: "Security Advisory Council".
 
-tag:KSAF - "KSAF"; - dc:title: "Safety Program".
+program:KSAF - "KSAF"; - dc:title: "Safety Program".
 
-tag:KSCA - "KSCA"; - dc:title: "Science Counselors and Attachés".
+program:KSCA - "KSCA"; - dc:title: "Science Counselors and Attachés".
 
-tag:KSEI - "KSEI"; - dc:title: "Southeast European Cooperative Initiative".
+program:KSEI - "KSEI"; - dc:title: "Southeast European Cooperative Initiative".
 
-tag:KSEO - "KSEO"; - dc:title: "Security Engineering Operations".
+program:KSEO - "KSEO"; - dc:title: "Security Engineering Operations".
 
-tag:KSIP - "KSIP"; - dc:title: "IT Skills Incentive Program".
+program:KSIP - "KSIP"; - dc:title: "IT Skills Incentive Program".
 
-tag:KSLG - "KSLG"; - dc:title: "Secure Logistics".
+program:KSLG - "KSLG"; - dc:title: "Secure Logistics".
 
-tag:KSPR - "KSPR"; - dc:title: "Strategic, Performance and Resource Planning".
+program:KSPR - "KSPR"; - dc:title: "Strategic, Performance and Resource Planning".
 
-tag:KSRK - "KSRK"; - dc:title: "Visas Shark Communication".
+program:KSRK - "KSRK"; - dc:title: "Visas Shark Communication".
 
-tag:KSTC - "KSTC"; - dc:title: "Strategic Trade and Technology Controls".
+program:KSTC - "KSTC"; - dc:title: "Strategic Trade and Technology Controls".
 
-tag:KSTT - "KSTT"; - dc:title: "State Transition Team".
+program:KSTT - "KSTT"; - dc:title: "State Transition Team".
 
-tag:KSUM - "KSUM"; - dc:title: "Summit Meetings".
+program:KSUM - "KSUM"; - dc:title: "Summit Meetings".
 
-tag:KTDB - "KTDB"; - dc:title: "National Trade Data Bank".
+program:KTDB - "KTDB"; - dc:title: "National Trade Data Bank".
 
-tag:KTEX - "KTEX"; - dc:title: "Textiles".
+program:KTEX - "KTEX"; - dc:title: "Textiles".
 
-tag:KTFN - "KTFN"; - dc:title: "Terrorism Finance Traffic".
+program:KTFN - "KTFN"; - dc:title: "Terrorism Finance Traffic".
 
-tag:KTIA - "KTIA"; - dc:title: "Treaties and International Agreements".
+program:KTIA - "KTIA"; - dc:title: "Treaties and International Agreements".
 
-tag:KTIP - "KTIP"; - dc:title: "Trafficking in Persons".
+program:KTIP - "KTIP"; - dc:title: "Trafficking in Persons".
 
-tag:KTSD - "KTSD"; - dc:title: "Trilateral Strategic Dialogue".
+program:KTSD - "KTSD"; - dc:title: "Trilateral Strategic Dialogue".
 
-tag:KUNC - "KUNC"; - dc:title: "United Nations Compensation Commission".
+program:KUNC - "KUNC"; - dc:title: "United Nations Compensation Commission".
 
-tag:KUNR - "KUNR"; - dc:title: "UN Reform".
+program:KUNR - "KUNR"; - dc:title: "UN Reform".
 
-tag:KVIR - "KVIR"; - dc:title: "Computer Virus and/or Anti-Virus Program".
+program:KVIR - "KVIR"; - dc:title: "Computer Virus and/or Anti-Virus Program".
 
-tag:KVPR - "KVPR"; - dc:title: "Visas VIPER Communications".
+program:KVPR - "KVPR"; - dc:title: "Visas VIPER Communications".
 
-tag:KWBG - "KWBG"; - dc:title: "West Bank and Gaza".
+program:KWBG - "KWBG"; - dc:title: "West Bank and Gaza".
 
-tag:KWIR - "KWIR"; - dc:title: "Wireless".
+program:KWIR - "KWIR"; - dc:title: "Wireless".
 
-tag:KWMN - "KWMN"; - dc:title: "Women Issues".
+program:KWMN - "KWMN"; - dc:title: "Women Issues".
 
-tag:KWPA - "KWPA"; - dc:title: "Worldwide Property Accountability".
+program:KWPA - "KWPA"; - dc:title: "Worldwide Property Accountability".
 
-tag:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
+program:KWWW - "KWWW"; - dc:title: "World Wide Web Site".
 

@@ -7,6 +7,12 @@ from datetime import date
 from StringIO import StringIO
 from urllib import quote
 
+_NAMESPACES = {
+    'subj': 'http://psi.metaleaks.org/cablegate/subject-tag/',
+    'org': 'http://psi.metaleaks.org/cablegate/org-tag/',
+    'program': 'http://psi.metaleaks.org/cablegate/program-tag/',
+    'dc': 'http://purl.org/dc/elements/1.1/',
+}
 
 def generate_ctm(fileobj):
     """\
@@ -14,14 +20,14 @@ def generate_ctm(fileobj):
     `fileobj`
         A file object.
     """
-    def write_tags(s, seen_tags, dupl_tags, header=None):
+    def write_tags(s, seen_tags, dupl_tags, prefix, header=None):
         if header:
             fileobj.write("""\
 #
 #-- %s
 #
 """ % header)
-        for sid, tag, name in _get_sid_tag_name(s):
+        for sid, tag, name in _get_sid_tag_name(s, prefix):
             if sid in seen_tags:
                 fileobj.write('# CAUTION: Duplicate\n')
                 if sid not in dupl_tags:
@@ -42,24 +48,28 @@ def generate_ctm(fileobj):
 #
 # Source:       <https://cabletags.wordpress.com/>
 #
-# Date:         %s
+# Date:         2011-01-04
+#
+# Modified:     %s
 # 
 
-%%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
-%%prefix dc <http://purl.org/dc/elements/1.1/>
+#
+# Prefixes
+#
+%s
 
 
-""" % date.today().isoformat())
+""" % (date.today().isoformat(), '\n'.join(['%prefix ' + k + '<' + v + '>' for k, v in _NAMESPACES.iteritems()]))    )
     seen_tags = []
     dupl_tags = []
-    write_tags(SUBJECT_TAGS, seen_tags, dupl_tags, 'Subject Tags')
-    write_tags(ORG_TAGS, seen_tags, dupl_tags, 'Organization Tags')
-    write_tags(PROGRAM_TAGS, seen_tags, dupl_tags, 'Program Tags')
+    write_tags(SUBJECT_TAGS, seen_tags, dupl_tags, prefix='subj', header='Subject Tags')
+    write_tags(ORG_TAGS, seen_tags, dupl_tags, prefix='org', header='Organization Tags')
+    write_tags(PROGRAM_TAGS, seen_tags, dupl_tags, prefix='program', header='Program Tags')
     if dupl_tags:
         fileobj.write('\n\n# Duplicates: %r\n' % dupl_tags)
 
 
-def _get_sid_tag_name(s):
+def _get_sid_tag_name(s, prefix):
     """\
     Returns a tuple (sid, tag, name) where "sid" is either an IRI or a QName.
 
@@ -69,9 +79,9 @@ def _get_sid_tag_name(s):
     for tag, name in _get_tag_name(s):
         path = quote(tag).replace('/', '%2F')
         if path == tag:
-            sid = u'tag:%s' % tag
+            sid = u'%s:%s' % (prefix, tag)
         else:
-            sid = u'<http://psi.metaleaks.org/cablegate/tag/%s>' % path
+            sid = u'<%s/%s>' % (_NAMESPACES.get('prefix'), path)
         yield sid, tag, name
 
 
@@ -311,10 +321,6 @@ KWWW 	World Wide Web Site
 #
 # Removed acc. to <http://www.state.gov/documents/organization/89258.pdf>
 #   AID 	International Cooperation Administration
-#   In favor of the Geo tag AL
-#   AL 	Arab League
-#   In favor of the Geo tag BP
-#   BP 	British Petroleum Company
 #   BQG 	Bonn Quadripartite Group
 #   BQG 	Bonngroup
 #   CDG 	Conference of Committee on Disarmament
@@ -341,7 +347,6 @@ KWWW 	World Wide Web Site
 #   WCL 	International Federation of Christian World Confederation of
 #   WCL 	International Federation of Christian Trade Unions
 #   WCL 	World Confederation of Labor
-#   
 ORG_TAGS = u"""\
 AAA 	American Automobile Association
 AAFLI 	Asian American Free Labor Institute
@@ -372,6 +377,7 @@ AI 	Amnesty International
 AID 	Agency for International Development
 AIFLD 	American Institute for Free Labor Development
 AKB 	Allied Kommandatura Berlin
+AL 	Arab League
 AL-1 	Arab League
 ALIA 	Royal Jordanian Airline
 Alitalia 	Italian Airline
@@ -411,6 +417,7 @@ BIE 	Bureau of International Expositions
 BIS 	Bank of International Settlements
 BLS 	Bureau of Labor Statistics
 BOS 	Southern Opposition Block
+BP 	British Petroleum Company
 BP-1 	British Petroleum Company
 BQG 	Berlin Quadripartite Group
 Bundesbank 	Central Bank of the FRG
