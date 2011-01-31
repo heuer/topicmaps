@@ -33,10 +33,12 @@ def generate_ctm(fileobj):
 #               <https://github.com/heuer/topicmaps/blob/master/cablegate/fips_regions.txt>
 #               <https://github.com/heuer/topicmaps/blob/master/cablegate/name_fips_regions.txt>
 #
-# Date:         %s
+# Date:         2011-01-04
+#
+# Modified:     %s
 # 
 
-%%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
+%%prefix geo <http://psi.metaleaks.org/cablegate/tag/geo/>
 %%prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %%prefix dc <http://purl.org/dc/elements/1.1/>
 
@@ -63,9 +65,9 @@ end
                 dupl_tags.append(code)
         else:
             seen_tags.append(code)
-        fileobj.write(u'tag:%s isa onto:country-tag;\n    - "%s";\n    - dc:title: "%s";\n' % (code, code, name))
+        fileobj.write(u'geo:%s isa onto:country-tag;\n    - "%s";\n    - dc:title: "%s";\n' % (code, code, name))
         for region in regions:
-            fileobj.write(u'    belongs-to(tag:%s);\n' % region)
+            fileobj.write(u'    belongs-to(geo:%s);\n' % region)
         fileobj.write(u'.\n\n')
     fileobj.write("""\
 #
@@ -81,7 +83,7 @@ end
                 dupl_tags.append(code)
         else:
             seen_tags.append(code)
-        fileobj.write(u'tag:%s isa onto:region-tag;\n    - "%s";\n    - dc:title: "%s".\n\n' % (code, code, name))
+        fileobj.write(u'geo:%s isa onto:region-tag;\n    - "%s";\n    - dc:title: "%s".\n\n' % (code, code, name))
     if dupl_tags:
         fileobj.write('# Duplicates: %r' % dupl_tags)
 

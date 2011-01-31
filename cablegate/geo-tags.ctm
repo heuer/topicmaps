@@ -16,9 +16,11 @@
 #               <https://github.com/heuer/topicmaps/blob/master/cablegate/name_fips_regions.txt>
 #
 # Date:         2011-01-04
+#
+# Modified:     2011-01-31
 # 
 
-%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
+%prefix geo <http://psi.metaleaks.org/cablegate/tag/geo/>
 %prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
@@ -33,1843 +35,1843 @@ end
 # Countries
 # ---------
 #
-tag:AF isa onto:country-tag;
+geo:AF isa onto:country-tag;
     - "AF";
     - dc:title: "Afghanistan";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:AL isa onto:country-tag;
+geo:AL isa onto:country-tag;
     - "AL";
     - dc:title: "Albania";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:AG isa onto:country-tag;
+geo:AG isa onto:country-tag;
     - "AG";
     - dc:title: "Algeria";
-    belongs-to(tag:XA);
-    belongs-to(tag:XF);
-    belongs-to(tag:XI);
+    belongs-to(geo:XA);
+    belongs-to(geo:XF);
+    belongs-to(geo:XI);
 .
 
-tag:AQ isa onto:country-tag;
+geo:AQ isa onto:country-tag;
     - "AQ";
     - dc:title: "American Samoa";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:AN isa onto:country-tag;
+geo:AN isa onto:country-tag;
     - "AN";
     - dc:title: "Andorra";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:AO isa onto:country-tag;
+geo:AO isa onto:country-tag;
     - "AO";
     - dc:title: "Angola";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:AV isa onto:country-tag;
+geo:AV isa onto:country-tag;
     - "AV";
     - dc:title: "Anguilla";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:AY isa onto:country-tag;
+geo:AY isa onto:country-tag;
     - "AY";
     - dc:title: "Antarctica";
-    belongs-to(tag:ZT);
+    belongs-to(geo:ZT);
 .
 
-tag:AC isa onto:country-tag;
+geo:AC isa onto:country-tag;
     - "AC";
     - dc:title: "Antigua and Barbuda";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:AR isa onto:country-tag;
+geo:AR isa onto:country-tag;
     - "AR";
     - dc:title: "Argentina";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:AM isa onto:country-tag;
+geo:AM isa onto:country-tag;
     - "AM";
     - dc:title: "Armenia";
-    belongs-to(tag:ZJ);
+    belongs-to(geo:ZJ);
 .
 
-tag:AA isa onto:country-tag;
+geo:AA isa onto:country-tag;
     - "AA";
     - dc:title: "Aruba";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:AS isa onto:country-tag;
+geo:AS isa onto:country-tag;
     - "AS";
     - dc:title: "Australia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:AU isa onto:country-tag;
+geo:AU isa onto:country-tag;
     - "AU";
     - dc:title: "Austria";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:AJ isa onto:country-tag;
+geo:AJ isa onto:country-tag;
     - "AJ";
     - dc:title: "Azerbaijan";
-    belongs-to(tag:ZJ);
+    belongs-to(geo:ZJ);
 .
 
-tag:BF isa onto:country-tag;
+geo:BF isa onto:country-tag;
     - "BF";
     - dc:title: "Bahamas, The";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:BA isa onto:country-tag;
+geo:BA isa onto:country-tag;
     - "BA";
     - dc:title: "Bahrain";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:FQ isa onto:country-tag;
+geo:FQ isa onto:country-tag;
     - "FQ";
     - dc:title: "Baker Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:BG isa onto:country-tag;
+geo:BG isa onto:country-tag;
     - "BG";
     - dc:title: "Bangladesh";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:BB isa onto:country-tag;
+geo:BB isa onto:country-tag;
     - "BB";
     - dc:title: "Barbados";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:BS isa onto:country-tag;
+geo:BS isa onto:country-tag;
     - "BS";
     - dc:title: "Bassas da India";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:BO isa onto:country-tag;
+geo:BO isa onto:country-tag;
     - "BO";
     - dc:title: "Belarus";
-    belongs-to(tag:XH);
+    belongs-to(geo:XH);
 .
 
-tag:BE isa onto:country-tag;
+geo:BE isa onto:country-tag;
     - "BE";
     - dc:title: "Belgium";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:BH isa onto:country-tag;
+geo:BH isa onto:country-tag;
     - "BH";
     - dc:title: "Belize";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:BN isa onto:country-tag;
+geo:BN isa onto:country-tag;
     - "BN";
     - dc:title: "Benin";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:BD isa onto:country-tag;
+geo:BD isa onto:country-tag;
     - "BD";
     - dc:title: "Bermuda";
-    belongs-to(tag:XT);
-    belongs-to(tag:ZH);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZH);
 .
 
-tag:BT isa onto:country-tag;
+geo:BT isa onto:country-tag;
     - "BT";
     - dc:title: "Bhutan";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:BL isa onto:country-tag;
+geo:BL isa onto:country-tag;
     - "BL";
     - dc:title: "Bolivia";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:BK isa onto:country-tag;
+geo:BK isa onto:country-tag;
     - "BK";
     - dc:title: "Bosnia and Herzegovina";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:BC isa onto:country-tag;
+geo:BC isa onto:country-tag;
     - "BC";
     - dc:title: "Botswana";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:BV isa onto:country-tag;
+geo:BV isa onto:country-tag;
     - "BV";
     - dc:title: "Bouvet Island";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:BR isa onto:country-tag;
+geo:BR isa onto:country-tag;
     - "BR";
     - dc:title: "Brazil";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:VI isa onto:country-tag;
+geo:VI isa onto:country-tag;
     - "VI";
     - dc:title: "British Virgin Islands";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:IO isa onto:country-tag;
+geo:IO isa onto:country-tag;
     - "IO";
     - dc:title: "British Indian Ocean Territory";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:BX isa onto:country-tag;
+geo:BX isa onto:country-tag;
     - "BX";
     - dc:title: "Brunei";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:BU isa onto:country-tag;
+geo:BU isa onto:country-tag;
     - "BU";
     - dc:title: "Bulgaria";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:UV isa onto:country-tag;
+geo:UV isa onto:country-tag;
     - "UV";
     - dc:title: "Burkina Faso";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:BM isa onto:country-tag;
+geo:BM isa onto:country-tag;
     - "BM";
     - dc:title: "Burma";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:BY isa onto:country-tag;
+geo:BY isa onto:country-tag;
     - "BY";
     - dc:title: "Burundi";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CB isa onto:country-tag;
+geo:CB isa onto:country-tag;
     - "CB";
     - dc:title: "Cambodia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:CM isa onto:country-tag;
+geo:CM isa onto:country-tag;
     - "CM";
     - dc:title: "Cameroon";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CA isa onto:country-tag;
+geo:CA isa onto:country-tag;
     - "CA";
     - dc:title: "Canada";
-    belongs-to(tag:XS);
+    belongs-to(geo:XS);
 .
 
-tag:CV isa onto:country-tag;
+geo:CV isa onto:country-tag;
     - "CV";
     - dc:title: "Cape Verde";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:CJ isa onto:country-tag;
+geo:CJ isa onto:country-tag;
     - "CJ";
     - dc:title: "Cayman Islands";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:CT isa onto:country-tag;
+geo:CT isa onto:country-tag;
     - "CT";
     - dc:title: "Central African Republic";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CD isa onto:country-tag;
+geo:CD isa onto:country-tag;
     - "CD";
     - dc:title: "Chad";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CI isa onto:country-tag;
+geo:CI isa onto:country-tag;
     - "CI";
     - dc:title: "Chile";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:CH isa onto:country-tag;
+geo:CH isa onto:country-tag;
     - "CH";
     - dc:title: "China";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:KT isa onto:country-tag;
+geo:KT isa onto:country-tag;
     - "KT";
     - dc:title: "Christmas Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:IP isa onto:country-tag;
+geo:IP isa onto:country-tag;
     - "IP";
     - dc:title: "Clipperton Island";
-    belongs-to(tag:XM);
+    belongs-to(geo:XM);
 .
 
-tag:CK isa onto:country-tag;
+geo:CK isa onto:country-tag;
     - "CK";
     - dc:title: "Cocos (Keeling) Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:CO isa onto:country-tag;
+geo:CO isa onto:country-tag;
     - "CO";
     - dc:title: "Colombia";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:CN isa onto:country-tag;
+geo:CN isa onto:country-tag;
     - "CN";
     - dc:title: "Comoros";
-    belongs-to(tag:XA);
-    belongs-to(tag:XO);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XO);
+    belongs-to(geo:XW);
 .
 
-tag:CF isa onto:country-tag;
+geo:CF isa onto:country-tag;
     - "CF";
     - dc:title: "Congo (Brazzaville)";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CG isa onto:country-tag;
+geo:CG isa onto:country-tag;
     - "CG";
     - dc:title: "Congo (Kinshasa)";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:CW isa onto:country-tag;
+geo:CW isa onto:country-tag;
     - "CW";
     - dc:title: "Cook Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:CR isa onto:country-tag;
+geo:CR isa onto:country-tag;
     - "CR";
     - dc:title: "Coral Sea Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:CS isa onto:country-tag;
+geo:CS isa onto:country-tag;
     - "CS";
     - dc:title: "Costa Rica";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:IV isa onto:country-tag;
+geo:IV isa onto:country-tag;
     - "IV";
     - dc:title: "Cote D’Ivoire";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:HR isa onto:country-tag;
+geo:HR isa onto:country-tag;
     - "HR";
     - dc:title: "Croatia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:CU isa onto:country-tag;
+geo:CU isa onto:country-tag;
     - "CU";
     - dc:title: "Cuba";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:CY isa onto:country-tag;
+geo:CY isa onto:country-tag;
     - "CY";
     - dc:title: "Cyprus";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:ZM);
-    belongs-to(tag:ZS);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZM);
+    belongs-to(geo:ZS);
 .
 
-tag:EZ isa onto:country-tag;
+geo:EZ isa onto:country-tag;
     - "EZ";
     - dc:title: "Czech Republic";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
 .
 
-tag:DA isa onto:country-tag;
+geo:DA isa onto:country-tag;
     - "DA";
     - dc:title: "Denmark";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:DJ isa onto:country-tag;
+geo:DJ isa onto:country-tag;
     - "DJ";
     - dc:title: "Djibouti";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:DO isa onto:country-tag;
+geo:DO isa onto:country-tag;
     - "DO";
     - dc:title: "Dominica";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:DR isa onto:country-tag;
+geo:DR isa onto:country-tag;
     - "DR";
     - dc:title: "Dominican Republic";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:TT isa onto:country-tag;
+geo:TT isa onto:country-tag;
     - "TT";
     - dc:title: "East Timor";
-    belongs-to(tag:XD);
-    belongs-to(tag:XO);
+    belongs-to(geo:XD);
+    belongs-to(geo:XO);
 .
 
-tag:EC isa onto:country-tag;
+geo:EC isa onto:country-tag;
     - "EC";
     - dc:title: "Ecuador";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:EG isa onto:country-tag;
+geo:EG isa onto:country-tag;
     - "EG";
     - dc:title: "Egypt";
-    belongs-to(tag:XA);
-    belongs-to(tag:XF);
-    belongs-to(tag:XI);
+    belongs-to(geo:XA);
+    belongs-to(geo:XF);
+    belongs-to(geo:XI);
 .
 
-tag:ES isa onto:country-tag;
+geo:ES isa onto:country-tag;
     - "ES";
     - dc:title: "El Salvador";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:EK isa onto:country-tag;
+geo:EK isa onto:country-tag;
     - "EK";
     - dc:title: "Equatorial Guinea";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:ER isa onto:country-tag;
+geo:ER isa onto:country-tag;
     - "ER";
     - dc:title: "Eritrea";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:EN isa onto:country-tag;
+geo:EN isa onto:country-tag;
     - "EN";
     - dc:title: "Estonia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZB);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZB);
 .
 
-tag:ET isa onto:country-tag;
+geo:ET isa onto:country-tag;
     - "ET";
     - dc:title: "Ethiopia";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:EU isa onto:country-tag;
+geo:EU isa onto:country-tag;
     - "EU";
     - dc:title: "Europa";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:FK isa onto:country-tag;
+geo:FK isa onto:country-tag;
     - "FK";
     - dc:title: "Falkland Islands (Islas Malvinas)";
-    belongs-to(tag:ZT);
+    belongs-to(geo:ZT);
 .
 
-tag:FO isa onto:country-tag;
+geo:FO isa onto:country-tag;
     - "FO";
     - dc:title: "Faroe Islands";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:FJ isa onto:country-tag;
+geo:FJ isa onto:country-tag;
     - "FJ";
     - dc:title: "Fiji";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:FI isa onto:country-tag;
+geo:FI isa onto:country-tag;
     - "FI";
     - dc:title: "Finland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:FR isa onto:country-tag;
+geo:FR isa onto:country-tag;
     - "FR";
     - dc:title: "France";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:FG isa onto:country-tag;
+geo:FG isa onto:country-tag;
     - "FG";
     - dc:title: "French Guiana";
-    belongs-to(tag:XL);
-    belongs-to(tag:XR);
+    belongs-to(geo:XL);
+    belongs-to(geo:XR);
 .
 
-tag:FP isa onto:country-tag;
+geo:FP isa onto:country-tag;
     - "FP";
     - dc:title: "French Polynesia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:FS isa onto:country-tag;
+geo:FS isa onto:country-tag;
     - "FS";
     - dc:title: "French Southern and Antarctic Lands";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:GB isa onto:country-tag;
+geo:GB isa onto:country-tag;
     - "GB";
     - dc:title: "Gabon";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:GA isa onto:country-tag;
+geo:GA isa onto:country-tag;
     - "GA";
     - dc:title: "Gambia, The";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:GZ isa onto:country-tag;
+geo:GZ isa onto:country-tag;
     - "GZ";
     - dc:title: "Gaza Strip";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:GG isa onto:country-tag;
+geo:GG isa onto:country-tag;
     - "GG";
     - dc:title: "Georgia";
-    belongs-to(tag:ZJ);
+    belongs-to(geo:ZJ);
 .
 
-tag:GM isa onto:country-tag;
+geo:GM isa onto:country-tag;
     - "GM";
     - dc:title: "Germany";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:GH isa onto:country-tag;
+geo:GH isa onto:country-tag;
     - "GH";
     - dc:title: "Ghana";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:GI isa onto:country-tag;
+geo:GI isa onto:country-tag;
     - "GI";
     - dc:title: "Gibraltar";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:GO isa onto:country-tag;
+geo:GO isa onto:country-tag;
     - "GO";
     - dc:title: "Glorioso Islands";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:GR isa onto:country-tag;
+geo:GR isa onto:country-tag;
     - "GR";
     - dc:title: "Greece";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:ZL);
-    belongs-to(tag:ZS);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZL);
+    belongs-to(geo:ZS);
 .
 
-tag:GL isa onto:country-tag;
+geo:GL isa onto:country-tag;
     - "GL";
     - dc:title: "Greenland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
-    belongs-to(tag:ZH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
+    belongs-to(geo:ZH);
 .
 
-tag:GJ isa onto:country-tag;
+geo:GJ isa onto:country-tag;
     - "GJ";
     - dc:title: "Grenada";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:GP isa onto:country-tag;
+geo:GP isa onto:country-tag;
     - "GP";
     - dc:title: "Guadeloupe";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:GQ isa onto:country-tag;
+geo:GQ isa onto:country-tag;
     - "GQ";
     - dc:title: "Guam";
-    belongs-to(tag:XV);
+    belongs-to(geo:XV);
 .
 
-tag:GT isa onto:country-tag;
+geo:GT isa onto:country-tag;
     - "GT";
     - dc:title: "Guatemala";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:GK isa onto:country-tag;
+geo:GK isa onto:country-tag;
     - "GK";
     - dc:title: "Guernsey";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:GV isa onto:country-tag;
+geo:GV isa onto:country-tag;
     - "GV";
     - dc:title: "Guinea";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:PU isa onto:country-tag;
+geo:PU isa onto:country-tag;
     - "PU";
     - dc:title: "Guinea-Bissau";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:GY isa onto:country-tag;
+geo:GY isa onto:country-tag;
     - "GY";
     - dc:title: "Guyana";
-    belongs-to(tag:XL);
-    belongs-to(tag:XR);
+    belongs-to(geo:XL);
+    belongs-to(geo:XR);
 .
 
-tag:HA isa onto:country-tag;
+geo:HA isa onto:country-tag;
     - "HA";
     - dc:title: "Haiti";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:HM isa onto:country-tag;
+geo:HM isa onto:country-tag;
     - "HM";
     - dc:title: "Heard Island and McDonald Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:HO isa onto:country-tag;
+geo:HO isa onto:country-tag;
     - "HO";
     - dc:title: "Honduras";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:HK isa onto:country-tag;
+geo:HK isa onto:country-tag;
     - "HK";
     - dc:title: "Hong Kong";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:HQ isa onto:country-tag;
+geo:HQ isa onto:country-tag;
     - "HQ";
     - dc:title: "Howland Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:HU isa onto:country-tag;
+geo:HU isa onto:country-tag;
     - "HU";
     - dc:title: "Hungary";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
 .
 
-tag:IC isa onto:country-tag;
+geo:IC isa onto:country-tag;
     - "IC";
     - dc:title: "Iceland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
-    belongs-to(tag:ZH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
+    belongs-to(geo:ZH);
 .
 
-tag:IN isa onto:country-tag;
+geo:IN isa onto:country-tag;
     - "IN";
     - dc:title: "India";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:ID isa onto:country-tag;
+geo:ID isa onto:country-tag;
     - "ID";
     - dc:title: "Indonesia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:IR isa onto:country-tag;
+geo:IR isa onto:country-tag;
     - "IR";
     - dc:title: "Iran";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:IZ isa onto:country-tag;
+geo:IZ isa onto:country-tag;
     - "IZ";
     - dc:title: "Iraq";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:EI isa onto:country-tag;
+geo:EI isa onto:country-tag;
     - "EI";
     - dc:title: "Ireland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:IS isa onto:country-tag;
+geo:IS isa onto:country-tag;
     - "IS";
     - dc:title: "Israel";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:IT isa onto:country-tag;
+geo:IT isa onto:country-tag;
     - "IT";
     - dc:title: "Italy";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:ZM);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZM);
 .
 
-tag:JM isa onto:country-tag;
+geo:JM isa onto:country-tag;
     - "JM";
     - dc:title: "Jamaica";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:JN isa onto:country-tag;
+geo:JN isa onto:country-tag;
     - "JN";
     - dc:title: "Jan Mayen";
-    belongs-to(tag:XG);
-    belongs-to(tag:ZH);
+    belongs-to(geo:XG);
+    belongs-to(geo:ZH);
 .
 
-tag:JA isa onto:country-tag;
+geo:JA isa onto:country-tag;
     - "JA";
     - dc:title: "Japan";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:DQ isa onto:country-tag;
+geo:DQ isa onto:country-tag;
     - "DQ";
     - dc:title: "Jarvis Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:JE isa onto:country-tag;
+geo:JE isa onto:country-tag;
     - "JE";
     - dc:title: "Jersey";
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:JQ isa onto:country-tag;
+geo:JQ isa onto:country-tag;
     - "JQ";
     - dc:title: "Johnston Atoll";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:JO isa onto:country-tag;
+geo:JO isa onto:country-tag;
     - "JO";
     - dc:title: "Jordan";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:JU isa onto:country-tag;
+geo:JU isa onto:country-tag;
     - "JU";
     - dc:title: "Juan de Nova Island";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:KZ isa onto:country-tag;
+geo:KZ isa onto:country-tag;
     - "KZ";
     - dc:title: "Kazakhstan";
-    belongs-to(tag:ZK);
+    belongs-to(geo:ZK);
 .
 
-tag:KE isa onto:country-tag;
+geo:KE isa onto:country-tag;
     - "KE";
     - dc:title: "Kenya";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:KQ isa onto:country-tag;
+geo:KQ isa onto:country-tag;
     - "KQ";
     - dc:title: "Kingman Reef";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:KR isa onto:country-tag;
+geo:KR isa onto:country-tag;
     - "KR";
     - dc:title: "Kiribati";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:KN isa onto:country-tag;
+geo:KN isa onto:country-tag;
     - "KN";
     - dc:title: "Korea (Dem. Peoples Rep. of)";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:KS isa onto:country-tag;
+geo:KS isa onto:country-tag;
     - "KS";
     - dc:title: "Korea (Republic of)";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:KV isa onto:country-tag;
+geo:KV isa onto:country-tag;
     - "KV";
     - dc:title: "Kosovo";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:KU isa onto:country-tag;
+geo:KU isa onto:country-tag;
     - "KU";
     - dc:title: "Kuwait";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:KG isa onto:country-tag;
+geo:KG isa onto:country-tag;
     - "KG";
     - dc:title: "Kyrgyzstan";
-    belongs-to(tag:ZK);
+    belongs-to(geo:ZK);
 .
 
-tag:LA isa onto:country-tag;
+geo:LA isa onto:country-tag;
     - "LA";
     - dc:title: "Laos";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:LG isa onto:country-tag;
+geo:LG isa onto:country-tag;
     - "LG";
     - dc:title: "Latvia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZB);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZB);
 .
 
-tag:LE isa onto:country-tag;
+geo:LE isa onto:country-tag;
     - "LE";
     - dc:title: "Lebanon";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:LT isa onto:country-tag;
+geo:LT isa onto:country-tag;
     - "LT";
     - dc:title: "Lesotho";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:LI isa onto:country-tag;
+geo:LI isa onto:country-tag;
     - "LI";
     - dc:title: "Liberia";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:LY isa onto:country-tag;
+geo:LY isa onto:country-tag;
     - "LY";
     - dc:title: "Libya";
-    belongs-to(tag:XA);
-    belongs-to(tag:XF);
-    belongs-to(tag:XI);
+    belongs-to(geo:XA);
+    belongs-to(geo:XF);
+    belongs-to(geo:XI);
 .
 
-tag:LS isa onto:country-tag;
+geo:LS isa onto:country-tag;
     - "LS";
     - dc:title: "Liechtenstein";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:LH isa onto:country-tag;
+geo:LH isa onto:country-tag;
     - "LH";
     - dc:title: "Lithuania";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZB);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZB);
 .
 
-tag:LU isa onto:country-tag;
+geo:LU isa onto:country-tag;
     - "LU";
     - dc:title: "Luxembourg";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:MC isa onto:country-tag;
+geo:MC isa onto:country-tag;
     - "MC";
     - dc:title: "Macau";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:MK isa onto:country-tag;
+geo:MK isa onto:country-tag;
     - "MK";
     - dc:title: "Macedonia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:MA isa onto:country-tag;
+geo:MA isa onto:country-tag;
     - "MA";
     - dc:title: "Madagascar";
-    belongs-to(tag:XA);
-    belongs-to(tag:XO);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XO);
+    belongs-to(geo:XW);
 .
 
-tag:MI isa onto:country-tag;
+geo:MI isa onto:country-tag;
     - "MI";
     - dc:title: "Malawi";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:MY isa onto:country-tag;
+geo:MY isa onto:country-tag;
     - "MY";
     - dc:title: "Malaysia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:MV isa onto:country-tag;
+geo:MV isa onto:country-tag;
     - "MV";
     - dc:title: "Maldives";
-    belongs-to(tag:XD);
-    belongs-to(tag:XO);
+    belongs-to(geo:XD);
+    belongs-to(geo:XO);
 .
 
-tag:ML isa onto:country-tag;
+geo:ML isa onto:country-tag;
     - "ML";
     - dc:title: "Mali";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:MT isa onto:country-tag;
+geo:MT isa onto:country-tag;
     - "MT";
     - dc:title: "Malta";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:ZM);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZM);
 .
 
-tag:IM isa onto:country-tag;
+geo:IM isa onto:country-tag;
     - "IM";
     - dc:title: "Man, Isle of";
-    belongs-to(tag:XT);
+    belongs-to(geo:XT);
 .
 
-tag:RM isa onto:country-tag;
+geo:RM isa onto:country-tag;
     - "RM";
     - dc:title: "Marshall Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:MB isa onto:country-tag;
+geo:MB isa onto:country-tag;
     - "MB";
     - dc:title: "Martinique";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:MR isa onto:country-tag;
+geo:MR isa onto:country-tag;
     - "MR";
     - dc:title: "Mauritania";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:MP isa onto:country-tag;
+geo:MP isa onto:country-tag;
     - "MP";
     - dc:title: "Mauritius";
-    belongs-to(tag:XA);
-    belongs-to(tag:XO);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XO);
+    belongs-to(geo:XW);
 .
 
-tag:MF isa onto:country-tag;
+geo:MF isa onto:country-tag;
     - "MF";
     - dc:title: "Mayotte";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:MX isa onto:country-tag;
+geo:MX isa onto:country-tag;
     - "MX";
     - dc:title: "Mexico";
-    belongs-to(tag:XM);
+    belongs-to(geo:XM);
 .
 
-tag:FM isa onto:country-tag;
+geo:FM isa onto:country-tag;
     - "FM";
     - dc:title: "Micronesia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:MQ isa onto:country-tag;
+geo:MQ isa onto:country-tag;
     - "MQ";
     - dc:title: "Midway Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:MD isa onto:country-tag;
+geo:MD isa onto:country-tag;
     - "MD";
     - dc:title: "Moldova";
-    belongs-to(tag:XH);
+    belongs-to(geo:XH);
 .
 
-tag:MN isa onto:country-tag;
+geo:MN isa onto:country-tag;
     - "MN";
     - dc:title: "Monaco";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:MG isa onto:country-tag;
+geo:MG isa onto:country-tag;
     - "MG";
     - dc:title: "Mongolia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:MW isa onto:country-tag;
+geo:MW isa onto:country-tag;
     - "MW";
     - dc:title: "Montenegro";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:MH isa onto:country-tag;
+geo:MH isa onto:country-tag;
     - "MH";
     - dc:title: "Montserrat";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:MO isa onto:country-tag;
+geo:MO isa onto:country-tag;
     - "MO";
     - dc:title: "Morocco";
-    belongs-to(tag:XA);
-    belongs-to(tag:XF);
-    belongs-to(tag:XI);
+    belongs-to(geo:XA);
+    belongs-to(geo:XF);
+    belongs-to(geo:XI);
 .
 
-tag:MZ isa onto:country-tag;
+geo:MZ isa onto:country-tag;
     - "MZ";
     - dc:title: "Mozambique";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:WA isa onto:country-tag;
+geo:WA isa onto:country-tag;
     - "WA";
     - dc:title: "Namibia";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:NR isa onto:country-tag;
+geo:NR isa onto:country-tag;
     - "NR";
     - dc:title: "Nauru";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:BQ isa onto:country-tag;
+geo:BQ isa onto:country-tag;
     - "BQ";
     - dc:title: "Navassa Island";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:NP isa onto:country-tag;
+geo:NP isa onto:country-tag;
     - "NP";
     - dc:title: "Nepal";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:NL isa onto:country-tag;
+geo:NL isa onto:country-tag;
     - "NL";
     - dc:title: "Netherlands";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:NT isa onto:country-tag;
+geo:NT isa onto:country-tag;
     - "NT";
     - dc:title: "Netherlands Antilles";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:NC isa onto:country-tag;
+geo:NC isa onto:country-tag;
     - "NC";
     - dc:title: "New Caledonia";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:NZ isa onto:country-tag;
+geo:NZ isa onto:country-tag;
     - "NZ";
     - dc:title: "New Zealand";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:NU isa onto:country-tag;
+geo:NU isa onto:country-tag;
     - "NU";
     - dc:title: "Nicaragua";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:NG isa onto:country-tag;
+geo:NG isa onto:country-tag;
     - "NG";
     - dc:title: "Niger";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:NI isa onto:country-tag;
+geo:NI isa onto:country-tag;
     - "NI";
     - dc:title: "Nigeria";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:NE isa onto:country-tag;
+geo:NE isa onto:country-tag;
     - "NE";
     - dc:title: "Niue";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:NF isa onto:country-tag;
+geo:NF isa onto:country-tag;
     - "NF";
     - dc:title: "Norfolk Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XU);
+    belongs-to(geo:XB);
+    belongs-to(geo:XU);
 .
 
-tag:CQ isa onto:country-tag;
+geo:CQ isa onto:country-tag;
     - "CQ";
     - dc:title: "Northern Mariana Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:NO isa onto:country-tag;
+geo:NO isa onto:country-tag;
     - "NO";
     - dc:title: "Norway";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:MU isa onto:country-tag;
+geo:MU isa onto:country-tag;
     - "MU";
     - dc:title: "Oman";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:PK isa onto:country-tag;
+geo:PK isa onto:country-tag;
     - "PK";
     - dc:title: "Pakistan";
-    belongs-to(tag:XD);
+    belongs-to(geo:XD);
 .
 
-tag:PS isa onto:country-tag;
+geo:PS isa onto:country-tag;
     - "PS";
     - dc:title: "Palau";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:LQ isa onto:country-tag;
+geo:LQ isa onto:country-tag;
     - "LQ";
     - dc:title: "Palmyra Atoll";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:PM isa onto:country-tag;
+geo:PM isa onto:country-tag;
     - "PM";
     - dc:title: "Panama";
-    belongs-to(tag:XK);
-    belongs-to(tag:XM);
+    belongs-to(geo:XK);
+    belongs-to(geo:XM);
 .
 
-tag:PP isa onto:country-tag;
+geo:PP isa onto:country-tag;
     - "PP";
     - dc:title: "Papua New Guinea";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:PF isa onto:country-tag;
+geo:PF isa onto:country-tag;
     - "PF";
     - dc:title: "Paracel Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:PA isa onto:country-tag;
+geo:PA isa onto:country-tag;
     - "PA";
     - dc:title: "Paraguay";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:PE isa onto:country-tag;
+geo:PE isa onto:country-tag;
     - "PE";
     - dc:title: "Peru";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:RP isa onto:country-tag;
+geo:RP isa onto:country-tag;
     - "RP";
     - dc:title: "Philippines";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:PC isa onto:country-tag;
+geo:PC isa onto:country-tag;
     - "PC";
     - dc:title: "Pitcairn Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:PL isa onto:country-tag;
+geo:PL isa onto:country-tag;
     - "PL";
     - dc:title: "Poland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
 .
 
-tag:PO isa onto:country-tag;
+geo:PO isa onto:country-tag;
     - "PO";
     - dc:title: "Portugal";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:RQ isa onto:country-tag;
+geo:RQ isa onto:country-tag;
     - "RQ";
     - dc:title: "Puerto Rico";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:QA isa onto:country-tag;
+geo:QA isa onto:country-tag;
     - "QA";
     - dc:title: "Qatar";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:RE isa onto:country-tag;
+geo:RE isa onto:country-tag;
     - "RE";
     - dc:title: "Reunion";
-    belongs-to(tag:XA);
-    belongs-to(tag:XO);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XO);
+    belongs-to(geo:XW);
 .
 
-tag:RO isa onto:country-tag;
+geo:RO isa onto:country-tag;
     - "RO";
     - dc:title: "Romania";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:RS isa onto:country-tag;
+geo:RS isa onto:country-tag;
     - "RS";
     - dc:title: "Russia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
 .
 
-tag:RW isa onto:country-tag;
+geo:RW isa onto:country-tag;
     - "RW";
     - dc:title: "Rwanda";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:SH isa onto:country-tag;
+geo:SH isa onto:country-tag;
     - "SH";
     - dc:title: "Saint Helena";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:SC isa onto:country-tag;
+geo:SC isa onto:country-tag;
     - "SC";
     - dc:title: "Saint Kitts and Nevis";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:ST isa onto:country-tag;
+geo:ST isa onto:country-tag;
     - "ST";
     - dc:title: "Saint Lucia";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:SB isa onto:country-tag;
+geo:SB isa onto:country-tag;
     - "SB";
     - dc:title: "Saint Pierre and Miquelon";
-    belongs-to(tag:ZH);
+    belongs-to(geo:ZH);
 .
 
-tag:VC isa onto:country-tag;
+geo:VC isa onto:country-tag;
     - "VC";
     - dc:title: "Saint Vincent and the Grenadines";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:WS isa onto:country-tag;
+geo:WS isa onto:country-tag;
     - "WS";
     - dc:title: "Samoa";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:SM isa onto:country-tag;
+geo:SM isa onto:country-tag;
     - "SM";
     - dc:title: "San Marino";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:TP isa onto:country-tag;
+geo:TP isa onto:country-tag;
     - "TP";
     - dc:title: "Sao Tome and Principe";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZF);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZF);
 .
 
-tag:SA isa onto:country-tag;
+geo:SA isa onto:country-tag;
     - "SA";
     - dc:title: "Saudi Arabia";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:SG isa onto:country-tag;
+geo:SG isa onto:country-tag;
     - "SG";
     - dc:title: "Senegal";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:YI isa onto:country-tag;
+geo:YI isa onto:country-tag;
     - "YI";
     - dc:title: "Serbia and Montenegro";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:SE isa onto:country-tag;
+geo:SE isa onto:country-tag;
     - "SE";
     - dc:title: "Seychelles";
-    belongs-to(tag:XA);
-    belongs-to(tag:XO);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XO);
+    belongs-to(geo:XW);
 .
 
-tag:SL isa onto:country-tag;
+geo:SL isa onto:country-tag;
     - "SL";
     - dc:title: "Sierra Leone";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:SN isa onto:country-tag;
+geo:SN isa onto:country-tag;
     - "SN";
     - dc:title: "Singapore";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:LO isa onto:country-tag;
+geo:LO isa onto:country-tag;
     - "LO";
     - dc:title: "Slovakia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
 .
 
-tag:SI isa onto:country-tag;
+geo:SI isa onto:country-tag;
     - "SI";
     - dc:title: "Slovenia";
-    belongs-to(tag:XG);
-    belongs-to(tag:XH);
-    belongs-to(tag:ZL);
+    belongs-to(geo:XG);
+    belongs-to(geo:XH);
+    belongs-to(geo:ZL);
 .
 
-tag:BP isa onto:country-tag;
+geo:BP isa onto:country-tag;
     - "BP";
     - dc:title: "Solomon Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:SO isa onto:country-tag;
+geo:SO isa onto:country-tag;
     - "SO";
     - dc:title: "Somalia";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:SF isa onto:country-tag;
+geo:SF isa onto:country-tag;
     - "SF";
     - dc:title: "South Africa";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:SP isa onto:country-tag;
+geo:SP isa onto:country-tag;
     - "SP";
     - dc:title: "Spain";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:PG isa onto:country-tag;
+geo:PG isa onto:country-tag;
     - "PG";
     - dc:title: "Spratly Islands";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:CE isa onto:country-tag;
+geo:CE isa onto:country-tag;
     - "CE";
     - dc:title: "Sri Lanka";
-    belongs-to(tag:XD);
-    belongs-to(tag:XO);
+    belongs-to(geo:XD);
+    belongs-to(geo:XO);
 .
 
-tag:SU isa onto:country-tag;
+geo:SU isa onto:country-tag;
     - "SU";
     - dc:title: "Sudan";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:NS isa onto:country-tag;
+geo:NS isa onto:country-tag;
     - "NS";
     - dc:title: "Suriname";
-    belongs-to(tag:XL);
-    belongs-to(tag:XR);
+    belongs-to(geo:XL);
+    belongs-to(geo:XR);
 .
 
-tag:SV isa onto:country-tag;
+geo:SV isa onto:country-tag;
     - "SV";
     - dc:title: "Svalbard";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:WZ isa onto:country-tag;
+geo:WZ isa onto:country-tag;
     - "WZ";
     - dc:title: "Swaziland";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:SW isa onto:country-tag;
+geo:SW isa onto:country-tag;
     - "SW";
     - dc:title: "Sweden";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:XZ);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:XZ);
 .
 
-tag:SZ isa onto:country-tag;
+geo:SZ isa onto:country-tag;
     - "SZ";
     - dc:title: "Switzerland";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:SY isa onto:country-tag;
+geo:SY isa onto:country-tag;
     - "SY";
     - dc:title: "Syria";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:TW isa onto:country-tag;
+geo:TW isa onto:country-tag;
     - "TW";
     - dc:title: "Taiwan";
-    belongs-to(tag:XB);
-    belongs-to(tag:XE);
-    belongs-to(tag:ZO);
+    belongs-to(geo:XB);
+    belongs-to(geo:XE);
+    belongs-to(geo:ZO);
 .
 
-tag:TI isa onto:country-tag;
+geo:TI isa onto:country-tag;
     - "TI";
     - dc:title: "Tajikistan";
-    belongs-to(tag:ZK);
+    belongs-to(geo:ZK);
 .
 
-tag:TZ isa onto:country-tag;
+geo:TZ isa onto:country-tag;
     - "TZ";
     - dc:title: "Tanzania";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:TH isa onto:country-tag;
+geo:TH isa onto:country-tag;
     - "TH";
     - dc:title: "Thailand";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:TO isa onto:country-tag;
+geo:TO isa onto:country-tag;
     - "TO";
     - dc:title: "Togo";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:TL isa onto:country-tag;
+geo:TL isa onto:country-tag;
     - "TL";
     - dc:title: "Tokelau";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:TN isa onto:country-tag;
+geo:TN isa onto:country-tag;
     - "TN";
     - dc:title: "Tonga";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:TD isa onto:country-tag;
+geo:TD isa onto:country-tag;
     - "TD";
     - dc:title: "Trinidad and Tobago";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:TE isa onto:country-tag;
+geo:TE isa onto:country-tag;
     - "TE";
     - dc:title: "Tromelin Island";
-    belongs-to(tag:XO);
+    belongs-to(geo:XO);
 .
 
-tag:TS isa onto:country-tag;
+geo:TS isa onto:country-tag;
     - "TS";
     - dc:title: "Tunisia";
-    belongs-to(tag:XA);
-    belongs-to(tag:XF);
-    belongs-to(tag:XI);
+    belongs-to(geo:XA);
+    belongs-to(geo:XF);
+    belongs-to(geo:XI);
 .
 
-tag:TU isa onto:country-tag;
+geo:TU isa onto:country-tag;
     - "TU";
     - dc:title: "Turkey";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
-    belongs-to(tag:ZL);
-    belongs-to(tag:ZS);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
+    belongs-to(geo:ZL);
+    belongs-to(geo:ZS);
 .
 
-tag:TX isa onto:country-tag;
+geo:TX isa onto:country-tag;
     - "TX";
     - dc:title: "Turkmenistan";
-    belongs-to(tag:ZK);
+    belongs-to(geo:ZK);
 .
 
-tag:TK isa onto:country-tag;
+geo:TK isa onto:country-tag;
     - "TK";
     - dc:title: "Turks and Caicos Islands";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:TV isa onto:country-tag;
+geo:TV isa onto:country-tag;
     - "TV";
     - dc:title: "Tuvalu";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:UG isa onto:country-tag;
+geo:UG isa onto:country-tag;
     - "UG";
     - dc:title: "Uganda";
-    belongs-to(tag:XA);
-    belongs-to(tag:XW);
+    belongs-to(geo:XA);
+    belongs-to(geo:XW);
 .
 
-tag:UP isa onto:country-tag;
+geo:UP isa onto:country-tag;
     - "UP";
     - dc:title: "Ukraine";
-    belongs-to(tag:XH);
+    belongs-to(geo:XH);
 .
 
-tag:AE isa onto:country-tag;
+geo:AE isa onto:country-tag;
     - "AE";
     - dc:title: "United Arab Emirates";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZP);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZP);
+    belongs-to(geo:ZR);
 .
 
-tag:UK isa onto:country-tag;
+geo:UK isa onto:country-tag;
     - "UK";
     - dc:title: "United Kingdom";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:US isa onto:country-tag;
+geo:US isa onto:country-tag;
     - "US";
     - dc:title: "United States";
-    belongs-to(tag:XS);
+    belongs-to(geo:XS);
 .
 
-tag:UY isa onto:country-tag;
+geo:UY isa onto:country-tag;
     - "UY";
     - dc:title: "Uruguay";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:VQ isa onto:country-tag;
+geo:VQ isa onto:country-tag;
     - "VQ";
     - dc:title: "US Virgin Islands";
-    belongs-to(tag:XL);
+    belongs-to(geo:XL);
 .
 
-tag:UZ isa onto:country-tag;
+geo:UZ isa onto:country-tag;
     - "UZ";
     - dc:title: "Uzbekistan";
-    belongs-to(tag:ZK);
+    belongs-to(geo:ZK);
 .
 
-tag:NH isa onto:country-tag;
+geo:NH isa onto:country-tag;
     - "NH";
     - dc:title: "Vanuatu";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:VT isa onto:country-tag;
+geo:VT isa onto:country-tag;
     - "VT";
     - dc:title: "Vatican City (Holy See)";
-    belongs-to(tag:XG);
-    belongs-to(tag:XT);
+    belongs-to(geo:XG);
+    belongs-to(geo:XT);
 .
 
-tag:VE isa onto:country-tag;
+geo:VE isa onto:country-tag;
     - "VE";
     - dc:title: "Venezuela";
-    belongs-to(tag:XM);
-    belongs-to(tag:XR);
+    belongs-to(geo:XM);
+    belongs-to(geo:XR);
 .
 
-tag:VM isa onto:country-tag;
+geo:VM isa onto:country-tag;
     - "VM";
     - dc:title: "Vietnam";
-    belongs-to(tag:XB);
-    belongs-to(tag:XC);
-    belongs-to(tag:XE);
+    belongs-to(geo:XB);
+    belongs-to(geo:XC);
+    belongs-to(geo:XE);
 .
 
-tag:WQ isa onto:country-tag;
+geo:WQ isa onto:country-tag;
     - "WQ";
     - dc:title: "Wake Island";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:WF isa onto:country-tag;
+geo:WF isa onto:country-tag;
     - "WF";
     - dc:title: "Wallis and Futuna";
-    belongs-to(tag:XB);
-    belongs-to(tag:XV);
+    belongs-to(geo:XB);
+    belongs-to(geo:XV);
 .
 
-tag:WE isa onto:country-tag;
+geo:WE isa onto:country-tag;
     - "WE";
     - dc:title: "West Bank";
-    belongs-to(tag:XF);
+    belongs-to(geo:XF);
 .
 
-tag:WI isa onto:country-tag;
+geo:WI isa onto:country-tag;
     - "WI";
     - dc:title: "Western Sahara";
-    belongs-to(tag:XA);
-    belongs-to(tag:XY);
+    belongs-to(geo:XA);
+    belongs-to(geo:XY);
 .
 
-tag:YM isa onto:country-tag;
+geo:YM isa onto:country-tag;
     - "YM";
     - dc:title: "Yemen";
-    belongs-to(tag:XF);
-    belongs-to(tag:ZR);
+    belongs-to(geo:XF);
+    belongs-to(geo:ZR);
 .
 
-tag:ZA isa onto:country-tag;
+geo:ZA isa onto:country-tag;
     - "ZA";
     - dc:title: "Zambia";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
-tag:ZI isa onto:country-tag;
+geo:ZI isa onto:country-tag;
     - "ZI";
     - dc:title: "Zimbabwe";
-    belongs-to(tag:XA);
-    belongs-to(tag:ZU);
+    belongs-to(geo:XA);
+    belongs-to(geo:ZU);
 .
 
 #
@@ -1877,147 +1879,147 @@ tag:ZI isa onto:country-tag;
 # Regions
 # -------
 #
-tag:XA isa onto:region-tag;
+geo:XA isa onto:region-tag;
     - "XA";
     - dc:title: "Africa".
 
-tag:ZR isa onto:region-tag;
+geo:ZR isa onto:region-tag;
     - "ZR";
     - dc:title: "Arabian Peninsula".
 
-tag:XQ isa onto:region-tag;
+geo:XQ isa onto:region-tag;
     - "XQ";
     - dc:title: "Arctic Ocean Area".
 
-tag:XU isa onto:region-tag;
+geo:XU isa onto:region-tag;
     - "XU";
     - dc:title: "Australia-New Zealand Region".
 
-tag:ZL isa onto:region-tag;
+geo:ZL isa onto:region-tag;
     - "ZL";
     - dc:title: "Balkan States".
 
-tag:ZB isa onto:region-tag;
+geo:ZB isa onto:region-tag;
     - "ZB";
     - dc:title: "Baltic States".
 
-tag:XL isa onto:region-tag;
+geo:XL isa onto:region-tag;
     - "XL";
     - dc:title: "Caribbean".
 
-tag:ZF isa onto:region-tag;
+geo:ZF isa onto:region-tag;
     - "ZF";
     - dc:title: "Central Africa".
 
-tag:XK isa onto:region-tag;
+geo:XK isa onto:region-tag;
     - "XK";
     - dc:title: "Central America".
 
-tag:ZK isa onto:region-tag;
+geo:ZK isa onto:region-tag;
     - "ZK";
     - dc:title: "Central Asia".
 
-tag:XW isa onto:region-tag;
+geo:XW isa onto:region-tag;
     - "XW";
     - dc:title: "East Africa".
 
-tag:XE isa onto:region-tag;
+geo:XE isa onto:region-tag;
     - "XE";
     - dc:title: "East Asia".
 
-tag:XB isa onto:region-tag;
+geo:XB isa onto:region-tag;
     - "XB";
     - dc:title: "East Asia and Pacific".
 
-tag:XH isa onto:region-tag;
+geo:XH isa onto:region-tag;
     - "XH";
     - dc:title: "Eastern Europe".
 
-tag:XG isa onto:region-tag;
+geo:XG isa onto:region-tag;
     - "XG";
     - dc:title: "Europe".
 
-tag:XO isa onto:region-tag;
+geo:XO isa onto:region-tag;
     - "XO";
     - dc:title: "Indian Ocean Area".
 
-tag:XM isa onto:region-tag;
+geo:XM isa onto:region-tag;
     - "XM";
     - dc:title: "Latin America".
 
-tag:ZM isa onto:region-tag;
+geo:ZM isa onto:region-tag;
     - "ZM";
     - dc:title: "Mediterranean Sea Area".
 
-tag:XF isa onto:region-tag;
+geo:XF isa onto:region-tag;
     - "XF";
     - dc:title: "Middle East".
 
-tag:XI isa onto:region-tag;
+geo:XI isa onto:region-tag;
     - "XI";
     - dc:title: "North Africa".
 
-tag:XS isa onto:region-tag;
+geo:XS isa onto:region-tag;
     - "XS";
     - dc:title: "North America".
 
-tag:ZO isa onto:region-tag;
+geo:ZO isa onto:region-tag;
     - "ZO";
     - dc:title: "North Asia".
 
-tag:ZH isa onto:region-tag;
+geo:ZH isa onto:region-tag;
     - "ZH";
     - dc:title: "North Atlantic Area".
 
-tag:ZN isa onto:region-tag;
+geo:ZN isa onto:region-tag;
     - "ZN";
     - dc:title: "North Pacific Area".
 
-tag:ZP isa onto:region-tag;
+geo:ZP isa onto:region-tag;
     - "ZP";
     - dc:title: "Persian Gulf Area".
 
-tag:XZ isa onto:region-tag;
+geo:XZ isa onto:region-tag;
     - "XZ";
     - dc:title: "Scandinavia".
 
-tag:XR isa onto:region-tag;
+geo:XR isa onto:region-tag;
     - "XR";
     - dc:title: "South America".
 
-tag:XD isa onto:region-tag;
+geo:XD isa onto:region-tag;
     - "XD";
     - dc:title: "South Asia".
 
-tag:ZT isa onto:region-tag;
+geo:ZT isa onto:region-tag;
     - "ZT";
     - dc:title: "South Atlantic Area".
 
-tag:XV isa onto:region-tag;
+geo:XV isa onto:region-tag;
     - "XV";
     - dc:title: "South Pacific Ocean Area".
 
-tag:XC isa onto:region-tag;
+geo:XC isa onto:region-tag;
     - "XC";
     - dc:title: "Southeast Asia".
 
-tag:ZU isa onto:region-tag;
+geo:ZU isa onto:region-tag;
     - "ZU";
     - dc:title: "Southern Africa".
 
-tag:ZS isa onto:region-tag;
+geo:ZS isa onto:region-tag;
     - "ZS";
     - dc:title: "Southern Europe".
 
-tag:ZJ isa onto:region-tag;
+geo:ZJ isa onto:region-tag;
     - "ZJ";
     - dc:title: "Transcaucasus".
 
-tag:XY isa onto:region-tag;
+geo:XY isa onto:region-tag;
     - "XY";
     - dc:title: "West Africa".
 
-tag:XT isa onto:region-tag;
+geo:XT isa onto:region-tag;
     - "XT";
     - dc:title: "Western Europe".
 
