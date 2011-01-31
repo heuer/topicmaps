@@ -34,10 +34,13 @@ onto:transmission-id
 onto:tag
   - "TAG".
 
-onto:country-tag ako onto:tag;
+onto:geo-tag ako onto:tag;
+  - "Geo TAG".
+
+onto:country-tag ako onto:geo-tag;
   - "country TAG".
 
-onto:region-tag ako onto:tag;
+onto:region-tag ako onto:geo-tag;
   - "region TAG".
 
 onto:classification-level 
