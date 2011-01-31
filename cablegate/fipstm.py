@@ -38,7 +38,7 @@ def generate_ctm(fileobj):
 # Modified:     %s
 # 
 
-%%prefix geo <http://psi.metaleaks.org/cablegate/tag/geo/>
+%%prefix geo <http://psi.metaleaks.org/cablegate/geo-tag/>
 %%prefix onto <http://psi.metaleaks.org/cablegate/ontology/>
 %%prefix dc <http://purl.org/dc/elements/1.1/>
 
