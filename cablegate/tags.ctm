@@ -18,10 +18,10 @@
 #
 # Prefixes
 #
-%prefix org<http://psi.metaleaks.org/cablegate/org-tag/>
-%prefix program<http://psi.metaleaks.org/cablegate/program-tag/>
-%prefix subj<http://psi.metaleaks.org/cablegate/subject-tag/>
-%prefix dc<http://purl.org/dc/elements/1.1/>
+%prefix org <http://psi.metaleaks.org/cablegate/org-tag/>
+%prefix program <http://psi.metaleaks.org/cablegate/program-tag/>
+%prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
 
 
 #

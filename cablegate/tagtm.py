@@ -59,7 +59,7 @@ def generate_ctm(fileobj):
 %s
 
 
-""" % (date.today().isoformat(), '\n'.join(['%prefix ' + k + '<' + v + '>' for k, v in _NAMESPACES.iteritems()]))    )
+""" % (date.today().isoformat(), '\n'.join(['%prefix ' + k + ' <' + v + '>' for k, v in _NAMESPACES.iteritems()]))    )
     seen_tags = []
     dupl_tags = []
     write_tags(SUBJECT_TAGS, seen_tags, dupl_tags, prefix='subj', header='Subject Tags')
