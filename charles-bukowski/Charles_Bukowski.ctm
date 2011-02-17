@@ -1,0 +1,2081 @@
+%encoding "UTF-8"
+%version 1.0
+#(
+
+Created by <http://ws.mappify.org/>
+
+)#
+
+%prefix cyc <http://sw.opencyc.org/2008/06/10/concept/>
+%prefix dbp-cat <http://dbpedia.org/resource/Category:>
+%prefix dbp-onto <http://dbpedia.org/ontology/>
+%prefix dbp-prop <http://dbpedia.org/property/>
+%prefix dbp-res <http://dbpedia.org/resource/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix dct <http://purl.org/dc/terms/>
+%prefix dctm <http://psi.topicmaps.org/iso29111/>
+%prefix ff <http://factforge.net/>
+%prefix foaf <http://xmlns.com/foaf/0.1/>
+%prefix lang <http://psi.oasis-open.org/iso/639/#>
+%prefix mo <http://purl.org/ontology/mo/>
+%prefix op <http://psi.ontopedia.net/>
+%prefix owl <http://www.w3.org/2002/07/owl#>
+%prefix rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+%prefix rdfs <http://www.w3.org/2000/01/rdf-schema#>
+%prefix tmdm <http://psi.topicmaps.org/iso13250/model/>
+%prefix xsd <http://www.w3.org/2001/XMLSchema#>
+%prefix yago-cls <http://dbpedia.org/class/yago/>
+%prefix zg-artist <http://zitgist.com/music/artist/>
+%prefix zg-perform <http://zitgist.com/music/performance/>
+%prefix zg-record <http://zitgist.com/music/record/>
+%prefix zg-track <http://zitgist.com/music/track/>
+
+
+dbp-res:Charles_Bukowski
+    isa foaf:Person;
+    isa owl:Thing;
+    isa dbp-onto:Person;
+    isa dbp-onto:Artist;
+    isa dbp-onto:Writer;
+    isa dbp-res:Artist;
+    isa dbp-res:Author;
+    isa dbp-res:Person;
+    isa dbp-res:Person;
+    isa dbp-res:Person;
+    isa <http://sw.opencyc.org/concept/Mx4rOElPzMiWEdmAAAACs6hRjg>;
+    isa <http://umbel.org/umbel/sc/Communicator>;
+    isa <http://umbel.org/umbel/sc/Person>;
+    isa mo:MusicArtist;
+    isa mo:SoloMusicArtist;
+    <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000071c57>;
+    <http://sw.opencyc.org/concept/Mx4rwUUkfpwpEbGdrcN5Y29ycA>;
+    zg-artist:1ad1c7db-cf3f-46c8-96e9-24be0a29e027;
+    <http://umbel.org/umbel/ne/wikipedia/Charles_Bukowski>;
+    rdfs:comment: "Чарлз БУКОЎСКІ, сапр. : Генрых Карл БУКОЎСКІ, амерыканскі паэт і празаік." @lang:bel;
+    rdfs:comment: "Henry Charles Bukowski jr. war ein US-amerikanischer Dichter und Schriftsteller polnisch-deutscher Abstammung. Er veröffentlichte zwischen 1960 und den frühen 1990er-Jahren über vierzig Bücher mit Gedichten und Prosa." @lang:deu;
+    rdfs:comment: "Henry Charles Bukowski oli USA poeet ja proosakirjanik." @lang:est;
+    rdfs:comment: "Charles Bukowski est un écrivain américain d'origine allemande, auteur de romans et de poésie, né le 16 août 1920 à Andernach en Allemagne, mort le 9 mars 1994 à Los Angeles en Californie, aux États-Unis. Il est souvent connu sous ses pseudonymes divers : Hank, Buk, Henry Chinaski, ce dernier étant celui de son alter ego dans ses nombreux romans autobiographiques. Il est l'auteur en prose, comme en poésie, d'une oeuvre considérable." @lang:fra;
+    rdfs:comment: "Charles Bukowski, nado en Andernach, Alemaña, o 16 de agosto de 1920 e falecido en Los Angeles o 9 de marzo de 1994, foi un escritor e poeta estadounidense." @lang:glg;
+    rdfs:comment: "Henry Charles Bukowski adalah seorang penyair dan novelis Amerika. Cara penulisannya sangat dipengaruhi oleh keadaan kota tempat tinggalnya, Los Angeles. Bukowski telah menghasilkan ribuan puisi, ratusan cerita pendek, dan enam novel, pada akhirnya memiliki lebih dari 50 buku yang sudah diterbitkan.";
+    rdfs:comment: "Ha scritto sei romanzi, centinaia di racconti e migliaia di poesie, per un totale di oltre sessanta libri. Il contenuto di questi tratta della sua vita, caratterizzata da un rapporto morboso con l'alcol, costellata da frequentissime esperienze sessuali, da rapporti tempestosi con le persone. Una vita dedita inoltre alle scommesse ippiche, all'ozio e all'autodistruzione." @lang:ita;
+    rdfs:comment: "Henry Charles Bukowski was een Amerikaans schrijver en dichter. Het stedelijk landschap en de atmosfeer van zijn woonplaats Los Angeles hadden een grote invloed op zijn werk. Op zijn beurt had hij invloed op een aantal van zijn tijdgenoten en werd zijn stijl vaak nagevolgd. Hij was een productief schrijver, zijn oeuvre beslaat duizenden gedichten, honderden korte verhalen en zes romans." @lang:nld;
+    rdfs:comment: "Henry Charles Bukowski Jr foi um poeta, contista e romancista alemão. Sua obra obscena e estilo coloquial, com descrições de trabalhos braçais, porres e relacionamentos baratos, fascinaram gerações de jovens à procura de uma obra com a qual pudessem se identificar." @lang:por;
+    rdfs:comment: "Henry Charles Bukowski, a fost un poet, romancier germano-american. Scrierile lui Bukowski au fost puternic influenţate de atmosfera casei lui din oraşul Los Angeles şi sunt marcate de empatie pentru viaţa obişnuită a săracilor americani albi, actul scrisului, alcool, relaţiile cu femei. Un autor prolific, Bukowski a scris mii de poezii, sute de nuvele şi şase romane." @lang:ron;
+    rdfs:comment: "{{Infobox Osobnosť |Meno = Charles Bukowski |Portrét = |Popis = americký spisovateľ |Dátum narodenia = 16. august 1920 |Miesto narodenia = Andernach, Nemecko |Dátum úmrtia = 9. marec 1994 |Miesto úmrtia = San Pedro, USA" @lang:slk;
+    rdfs:comment: "Heinrich Karl Bukowski, més conegut com Charles Bukowski fou un escriptor i poeta estatunidenc. Bukowski va ser un autor prolífic, va escriure més de cinquanta llibres, incomptables relats curts i multitud de poemes. Sovint s'esmenta la seva influència en autors contemporanis i el seu estil s'imita freqüentment. Va morir de leucèmia el 1994, a l'edat de 73 anys." @lang:cat;
+    rdfs:comment: "Charles Bukowski byl americký básník a spisovatel, který se proslavil nekonvenčními autobiografickými prózami a vulgárním stylem. Vzhledem ke svému stylu bývá často přiřazován ke spisovatelům poněkud vágní skupiny beat generation, kam patří zejména Jack Kerouac nebo John Clellon Holmes. Osobně se však tomuto zařazení vždy velmi silně bránil." @lang:ces;
+    rdfs:comment: "Henry Charles Bukowski var en indflydelsesrig poet og romanforfatter fra Los Angeles. Han er i sin skrivestil stærkt præget af atmosfæren i Los Angeles som desuden er hans hjemstavn. Han er ofte nævnt som en inspirationskilde for nuværende forfattere, og hans skrivestil er i mange nutidige sammenhænge blevet efterlignet. Han var en tilhænger af beatgenerationen og skrev selv ærlige og tilnærmelsesvist frastødende tekster." @lang:dan;
+    rdfs:comment: "Αρχείο:CharlesBukowski. jpg Ο Μπουκόφσκι στο σπίτι του στο Σαν Πέντρο το 1990, με τους συγγραφείς Mary Ann Swissler και Mat Gleason." @lang:ell;
+    rdfs:comment: "Henry Charles Bukowski, born Heinrich Karl Bukowski, (August 16, 1920 – March 9, 1994) was an American poet, novelist, and short story writer. Bukowski's writing was heavily influenced by the geography and atmosphere of his home city of Los Angeles, and is marked by an emphasis on the ordinary lives of poor Americans, the act of writing, alcohol, relationships with women, and the drudgery of work." @lang:eng;
+    rdfs:comment: "Charles BUKOWSKI estis usona verkisto. Li naskiĝis en Andernach, Germanio. Ekde la jaro 1922 li kun sia familio ekloĝis en Usono. Longan tempon de sia vivo li pasigis kiel vaganto, tranoktante ekstere kaj elprovante sin en pluraj okupoj, kiel ekz. poŝtisto, pordisto, varbisto por bordelo, havenlaboristo kaj benzinvendisto. En 1956 li ekloĝis en Losanĝeleso kaj serioze ekokupiĝis pri verkado. Entute li publikigis pli ol 40 volumojn da poemoj, rakontoj kaj romanoj." @lang:epo;
+    rdfs:comment: "Charles Bukowski, nacido con el nombre de Heinrich Karl Bukowski, fue un escritor y poeta estadounidense. A menudo fue erróneamente asociado con los escritores de la Generación Beat, debido a sus similitudes de estilo y actitud. La escritura de Bukowski está fuertemente influida con la atmósfera de la ciudad donde pasó la mayor parte de su vida, Los Ángeles en los Estados Unidos." @lang:spa;
+    rdfs:comment: "Charles Bukowski, idazle estatubatuarra. Estilo eta jarrera antzekoa izateagatik, sarritan Beat Generaziokotzat kontsideratua izan da era okerrean. Bere idatzietan modu nabarmenean agertzen da bere jaioterria, Los Angeles. Berrogeita hamar liburu baino gehiago eta hainbat kontakizun idatzi zituen. Gaur egungo idazle batzuk influentziatu dituela esaten da, bere estiloa askotan imitatua izanik." @lang:eus;
+    rdfs:comment: "هنری چارلز بوکوفسکی (زادهٔ ۱۶ اوت ۱۹۲۰ در آندرناخ آلمان) رمان‌نویس بود." @lang:fas;
+    rdfs:comment: "Henry Charles Bukowski oli yhdysvaltalainen runoilija ja kirjailija. Bukowski syntyi Andernachissa Saksassa ja kolme vuotta myöhemmin muutti perheensä mukana Los Angelesiin, Yhdysvaltoihin, missä hän asui suurimman osan elämästään." @lang:fin;
+    rdfs:comment: "Henry Charles Bukowski wie in Amerikaansk skriuwer en dichter. It steedlik lânskip en de atmosfear fan syn wenplak Los Angeles hiene in grutte ynfloed op syn wurk. Bukowski's styl is faak neifolge troch in tal tiidgenoaten. Hy wie in produktyf skriuwer, syn oeuvre omfiemet tûzenen gedichten, hûnderten koarte ferhalen en seis romans. In soad wurk fan Bukowski hat in autobiografysk karakter; faak is er sels de persoan fan Henry (Hank) Chinasky." @lang:fry;
+    rdfs:comment: "קובץ:CharlesBukowski-2. jpg צ'ארלס בוקובסקי הנרי צ'ארלס בוקובסקי, הוא משורר, סופר ופובליציסט אמריקאי.";
+    rdfs:comment: "Henry Charles Bukowski Mlađi, američki književnik, predstavnik drugog vala beat generacije. Bukowski je erotski pisac, poznat po autobiografskoj kvintologiji o svom alter egu Henryu Chinaskom. Pijanac, ali i plodan pisac. Otac ga je stalno tukao i ponižavao, a majka ga nije branila. Studirao je dvije godine na koledžu. Prijatelj je pisca Williama Saroyana. U 21. počinje pisati, ali ozbiljno počinje oko 35. godine." @lang:hrv;
+    rdfs:comment: "Henry Charles Bukowski Otthona az amerikai Los Angeles volt, melynek földrajzi adottságai és atmoszférája erősen befolyásolta Bukowski munkásságát. Stílusa nagy hatással volt kortársaira, akik gyakran utánozták azt." @lang:hun;
+    rdfs:comment: "헨리 찰스 부코스키는 미국의 시인, 작가이다. 부코스키의 작품은, 그의 고향 로스앤젤레스의 정서에 강한 영향을 받았는데 그의 작품은 현대의 많은 작가에게 영향을 주었다." @lang:kor;
+    rdfs:comment: "Charles Bukowski (16 Tebax 1920 – 9 Adar 1994), helbestvanekî emerîkî ku navê wî yê esil Heinrich Karl Bukowski ye. Di berhemên xwe de carinan navê Henry Chinaski jî bikaranî ye. Jiyana xwe bi granî li Los Angelesê ya ku bajarekî California ya DYA'yê ye derbas kiriye. Ew, di berhemên xwe de bi granî cîdayîna merevên dervî civakê, depresyon û araqxwurîyê navdar e." @lang:kur;
+    rdfs:comment: "Henry Charles Bukowski (1920 m. rugpjūčio 16 d. – 1994 kovo 9 d. ) – JAV buvo vokiečių kilmės JAV poetas, romanų ir trumpų istorijų rašytojas. Charles Bukowski rašymui didelę įtaką darė Los Andželo miesto, kuriame jis gyveno, geografija ir atmosfera." @lang:lit;
+    rdfs:comment: "Henry Charles Bukowski var en amerikansk forfatter. Hans far var en amerikansk soldat og hans mor var tysk. Da Charles var tre år gammel ble han tatt med til USA og vokste opp i Los Angeles, hvor han bodde i femti år. I løpet av et langt og uryddig liv fikk han publisert mer enn førtifem bøker, bestående av både noveller, romaner og dikt. Bukowski døde 9." @lang:nno;
+    rdfs:comment: """Henry Charles Bukowski, amerykański poeta, powieściopisarz, nowelista, scenarzysta filmowy i rysownik niemieckiego pochodzenia. Bukowski przez wielu zaliczany do pokolenia Beat Generation, sam nigdy nie dał się jednoznacznie sklasyfikować. Sławę zyskał dzięki cyklowi powieściowemu, w którym stworzył postać alkoholika i "ćmy barowej" − Henry'ego Chinaskiego.""" @lang:pol;
+    rdfs:comment: "Ге́нри Чарльз Буко́вски (англ." @lang:rus;
+    rdfs:comment: "Charles Bukowski, ameriški pisatelj in pesnik, *16. avgust 1920, Andernach, † 9. marec 1994, San Pedro Charles Bukowski je bil poet ameriškega velemesta Los Angeles in njegova poezija daje čutiti močan utrip njegovega mesta. Kot piscu proze mu je bila oblika izražanja novela, ki jih je združene objavil v nekoliko knjigah." @lang:slv;
+    rdfs:comment: "Charles Bukowski ka lindur ne Andrenach ne Gjermani me 16 gusht te vitit 1920. Pas dy vjetesh nga lindja e tij e gjithe familja emigron ne Amerike. Ata vendosen ne Los Anxhelos,ku Bukowski qendroi gjithe jeten. E gjithe jeta e tij eshte e shkruar ne libra. Emri i tij i plote eshte Henry Charles Bukowski Jr.. ,por ate thjesht e therrisnin Henk . Ka vdekur me 9 mars te vitit 1994 nga leuçemia ne San Pedro. Eshte autori i 34 vellimeve poetike dhe i tre romaneve dhe nje skenari filmi." @lang:sqi;
+    rdfs:comment: "Henry Charles Bukowski, född 16 augusti 1920 i Andernach, Rheinland-Pfalz, död 9 mars 1994 i Los Angeles, Kalifornien, var en tysk-amerikansk poet och författare. Bukowski influerades starkt av geografin och atmosfären i sin hemstad Los Angeles, och kännetecknas av en tonvikt på det vardagliga livet för fattiga och marginaliserade amerikaner, skrivandet, alkohol, förhållanden till kvinnor, arbetets slit, och travsport." @lang:swe;
+    rdfs:comment: "ชาร์ลส์ บูเคาว์สกี (16 สิงหาคม ค. ศ." @lang:tha;
+    rdfs:comment: "Charles Bukowski, asıl adı Heinrich Karl Bukowski olan Amerikalı yazar ve şair. Yapıtlarında bazen Henry Chinaski ismini de kullanmıştır. Hayatının çoğunu ABD'nin Los Angeles şehrinde geçirmiştir. Eserlerinde genellikle toplum dışı insanları ve depresyonu konu alması ve alkolizme yakın bir hayat tarzını anlatmasıyla ünlüdür." @lang:tur;
+    rdfs:comment: "Файл:CharlesBukowski-2." @lang:ukr;
+    - "Чарлз Буковски" @lang:bul;
+    - "Charles Bukowski" @lang:ces;
+    - "Charles Bukowski" @lang:fin;
+    - "Charles Bukowski" @lang:fra;
+    - "Charles Bukowski";
+    - "Charles Bukowski" @lang:lit;
+    - "Charles Bukowski" @lang:pol;
+    - "Charles Bukowski" @lang:por;
+    - "Charles Bukowski" @lang:slk;
+    - "Charles Bukowski" @lang:slv;
+    - "Charles Bukowski" @lang:swe;
+    - "ชาร์ลส์ บูเคาว์สกี" @lang:tha;
+    - "Чарльз Букоўскі" @lang:bel;
+    - "Charles Bukowski" @lang:cat;
+    - "Charles Bukowski" @lang:dan;
+    - "Charles Bukowski" @lang:deu;
+    - "Τσαρλς Μπουκόφσκι" @lang:ell;
+    - "Charles Bukowski" @lang:eng;
+    - "The buke" @lang:eng;
+    - "Charles Bukowski" @lang:epo;
+    - "Charles Bukowski" @lang:spa;
+    - "Charles Bukowski" @lang:est;
+    - "Charles Bukowski" @lang:eus;
+    - "چارلز بوکوفسکی" @lang:fas;
+    - "Charles Bukowski" @lang:fry;
+    - "Charles Bukowski" @lang:glg;
+    - "צ'ארלס בוקובסקי";
+    - "Charles Bukowski" @lang:hrv;
+    - "Charles Bukowski" @lang:hun;
+    - "Charles Bukowski" @lang:ita;
+    - "찰스 부코스키" @lang:kor;
+    - "Charles Bukowski" @lang:kur;
+    - "Чарлс Буковски" @lang:mkd;
+    - "Charles Bukowski" @lang:nld;
+    - "Charles Bukowski" @lang:nno;
+    - "Charles Bukowski" @lang:ron;
+    - "Буковски, Чарльз" @lang:rus;
+    - "Charles Bukowski" @lang:sqi;
+    - "Чарлс Буковски" @lang:srp;
+    - "Charles Bukowski" @lang:tur;
+    - "Чарльз Буковскі" @lang:ukr;
+    - "查理·布考斯基" @lang:zho;
+    dc:description: "US-amerikanischer Dichter und Schriftsteller" @lang:deu;
+    dc:description: "American Novelist, Poet" @lang:eng;
+    - "Henry  Charles Bukowski" @lang:eng;
+    - "Charles Bukowski" @lang:deu;
+    - "Charles Bukowski" @lang:eng;
+    - "Charles Bukowski";
+    - foaf:givenname: "Charles" @lang:eng;
+    - foaf:givenname: "Charles" @lang:deu;
+    - foaf:surname: "Bukowski" @lang:eng;
+    - foaf:surname: "Bukowski" @lang:deu;
+    <http://en.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://en.wikipedia.org/wiki/The_buke>;
+    <http://be.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D1%9E%D1%81%D0%BA%D1%96>;
+    <http://bg.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>;
+    <http://ca.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://cs.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://da.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://de.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://el.wikipedia.org/wiki/%CE%A4%CF%83%CE%B1%CF%81%CE%BB%CF%82_%CE%9C%CF%80%CE%BF%CF%85%CE%BA%CF%8C%CF%86%CF%83%CE%BA%CE%B9>;
+    <http://eo.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://es.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://et.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://eu.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://fa.wikipedia.org/wiki/%DA%86%D8%A7%D8%B1%D9%84%D8%B2_%D8%A8%D9%88%DA%A9%D9%88%D9%81%D8%B3%DA%A9%DB%8C>;
+    <http://fi.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://fr.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://fy.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://gl.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%A1_%D7%91%D7%95%D7%A7%D7%95%D7%91%D7%A1%D7%A7%D7%99>;
+    <http://hr.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://hu.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://id.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://it.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://ko.wikipedia.org/wiki/%EC%B0%B0%EC%8A%A4_%EB%B6%80%EC%BD%94%EC%8A%A4%ED%82%A4>;
+    <http://ku.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://lt.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://mk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%81_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>;
+    <http://nl.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://no.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://pl.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://pt.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://ro.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%2C_%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7>;
+    <http://sk.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://sl.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://sq.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://sr.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%81_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>;
+    <http://sv.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://th.wikipedia.org/wiki/%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%AA%E0%B9%8C_%E0%B8%9A%E0%B8%B9%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%A7%E0%B9%8C%E0%B8%AA%E0%B8%81%E0%B8%B5>;
+    <http://tr.wikipedia.org/wiki/Charles_Bukowski>;
+    <http://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D1%96>;
+    <http://zh.wikipedia.org/wiki/%E6%9F%A5%E7%90%86%C2%B7%E5%B8%83%E8%80%83%E6%96%AF%E5%9F%BA>;
+.
+
+foaf:depiction(owl:Thing: dbp-res:Charles_Bukowski, 
+        foaf:Image: <http://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Bukowski_smoking.jpg>)
+
+dbp-res:Charles_Bukowski
+.
+
+op:died_in(op:Person: dbp-res:Charles_Bukowski, 
+        op:Place: <http://dbpedia.org/resource/El_Pueblo_de_Nuestra_Se%C3%B1ora_Reina_de_los_%C3%81ngeles_de_la_Porciuncula>)
+
+dbp-res:Charles_Bukowski
+.
+
+op:died_in(op:Person: dbp-res:Charles_Bukowski, 
+        op:Place: <http://dbpedia.org/resource/El_Pueblo_de_Nuestra_Se%C3%B1ora_Reina_de_los_%C3%81ngeles_de_la_Porciuncula>)
+
+dbp-res:Charles_Bukowski
+.
+
+op:died_in(op:Person: dbp-res:Charles_Bukowski, 
+        op:Place: <http://dbpedia.org/resource/Los_Angeles%2C_California>)
+
+dbp-res:Charles_Bukowski
+    dbp-onto:abstract: "Чарлз БУКОЎСКІ, сапр. : Генрых Карл БУКОЎСКІ, амерыканскі паэт і празаік." @lang:bel;
+    dbp-onto:abstract: "Хенри Чарлз Буковски е американски поет, романист и публицист, известен с безкомпромисния си, често даже циничен език, любовта си към обществените низини като литературна тема и безразборния си личен и професионален живот." @lang:bul;
+    dbp-onto:abstract: """Heinrich Karl Bukowski, més conegut com Charles Bukowski fou un escriptor i poeta estatunidenc. Bukowski va ser un autor prolífic, va escriure més de cinquanta llibres, incomptables relats curts i multitud de poemes. Sovint s'esmenta la seva influència en autors contemporanis i el seu estil s'imita freqüentment. Va morir de leucèmia el 1994, a l'edat de 73 anys. Avui en dia se'l considera un dels grans escriptors americans i símbol del "realisme brut" i la literatura independent.""" @lang:cat;
+    dbp-onto:abstract: "Charles Bukowski byl americký básník a spisovatel, který se proslavil nekonvenčními autobiografickými prózami a vulgárním stylem. Vzhledem ke svému stylu bývá často přiřazován ke spisovatelům poněkud vágní skupiny beat generation, kam patří zejména Jack Kerouac nebo John Clellon Holmes. Osobně se však tomuto zařazení vždy velmi silně bránil. Historky o tom, že byl nechtěným nemanželským dítětem, které o sobě sám šířil, nejsou pravdivé. Narodil se v německém Andernachu. Jeho otec tam po skončení 1. světové války sloužil v místní posádce americké armády, zamiloval se do osmnáctileté švadleny a vzal si ji. V roce 1924 se rodina přestěhovala do Los Angeles, ale synovi se tam nelíbilo. Nemluvil dobře anglicky a děti se mu smály. V pubertě byl navíc silně postižen akné (v šestnácti byl kvůli tomu dokonce na půl roku omluven ze školy). Spolužáků se stranil a seznámit se s nějakou dívkou pro něj bylo téměř nemožné. Ani doma se necítil dobře: otec byl přísný, on však jeho autoritu vůbec nepřijímal a v jednadvaceti odjel do New Orleansu a později do San Franciska. Střídal levné podnájmy a podřadná zaměstnání, z kterých ho kvůli pití a absencím většinou brzy vyhodili. Cítil se být vyděděným, časem si na tento pocit zvykl a svým způsobem si v něm začal libovat." @lang:ces;
+    dbp-onto:abstract: """Henry Charles Bukowski var en indflydelsesrig poet og romanforfatter fra Los Angeles. Han er i sin skrivestil stærkt præget af atmosfæren i Los Angeles som desuden er hans hjemstavn. Han er ofte nævnt som en inspirationskilde for nuværende forfattere, og hans skrivestil er i mange nutidige sammenhænge blevet efterlignet. Han var en tilhænger af beatgenerationen og skrev selv ærlige og tilnærmelsesvist frastødende tekster. Hans tekster indeholder menneskelige eller ligefrem dyriske essentielle emner, så som afhængighed af alkohol, kvinder og sin egen person. Tømmermænd er et vigtigt tema i størstedelen af hans værker, og det forhutlede liv giver denne forfatter en egenartet karakter som bør sammenlignes med Dostojevskijs. Det handler om pinsel, eksistentialisme og en tro på sig selv som en overlegen karakter. Den overvejende del af forfatterens samlede værk udgøres af digte. Men Charles Bukowski er vel nok mest kendt for sine romaner, der har en overvejende selvbiografisk karakter og fortæller om alter ego-figuren Henry "Hank" Chinaski og hans forsøg på at kombinere rollerne som henholdvis hårdt prøvet drukkenbolt og kæmpende og ludfattig digter. To af de mest kendte romaner, Factotum og Hollywood, har medført filmatiseringer med henholdvis Matt Dillon og Mickey Rourke i hovedrollerne, som Hank Chinaski.""" @lang:dan;
+    dbp-onto:abstract: "Henry Charles Bukowski jr. war ein US-amerikanischer Dichter und Schriftsteller polnisch-deutscher Abstammung. Er veröffentlichte zwischen 1960 und den frühen 1990er-Jahren über vierzig Bücher mit Gedichten und Prosa." @lang:deu;
+    dbp-onto:abstract: "Αρχείο:CharlesBukowski. jpg Ο Μπουκόφσκι στο σπίτι του στο Σαν Πέντρο το 1990, με τους συγγραφείς Mary Ann Swissler και Mat Gleason. Ο Χένρι Τσαρλς Μπουκόφσκι ήταν ένας Αμερικανός ποιητής και συγγραφέας, που έζησε κυρίως στο Λος Άντζελες της Αμερικής. Έγραψε πάνω από 50 βιβλία, καθώς και πολλά μικρότερα κομμάτια, και έχει αναγνωριστεί ως πολύ σημαντικός για το είδος του, ενώ συχνά αναφέρεται από πολλούς συγγραφείς και ποιητές ως μεγάλη επιρροή." @lang:ell;
+    dbp-onto:abstract: "Henry Charles Bukowski, born Heinrich Karl Bukowski, (August 16, 1920 – March 9, 1994) was an American poet, novelist, and short story writer. Bukowski's writing was heavily influenced by the geography and atmosphere of his home city of Los Angeles, and is marked by an emphasis on the ordinary lives of poor Americans, the act of writing, alcohol, relationships with women, and the drudgery of work. A prolific author, Bukowski wrote thousands of poems, hundreds of short stories, and six novels, eventually having over 60 books in print. In 1986 Time called Bukowski a \"laureate of American lowlife.\"" @lang:eng;
+    dbp-onto:abstract: "Charles BUKOWSKI estis usona verkisto. Li naskiĝis en Andernach, Germanio. Ekde la jaro 1922 li kun sia familio ekloĝis en Usono. Longan tempon de sia vivo li pasigis kiel vaganto, tranoktante ekstere kaj elprovante sin en pluraj okupoj, kiel ekz. poŝtisto, pordisto, varbisto por bordelo, havenlaboristo kaj benzinvendisto. En 1956 li ekloĝis en Losanĝeleso kaj serioze ekokupiĝis pri verkado. Entute li publikigis pli ol 40 volumojn da poemoj, rakontoj kaj romanoj. Ofte li en humura kaj/aŭ ŝokige drasta lingvaĵo priskribis proprajn spertojn akiritajn dum sia vivo je la rando de la socio. Charles Bukowski mortis en San Pedro, Kalifornio." @lang:epo;
+    dbp-onto:abstract: """Charles Bukowski, nacido con el nombre de Heinrich Karl Bukowski, fue un escritor y poeta estadounidense. A menudo fue erróneamente asociado con los escritores de la Generación Beat, debido a sus similitudes de estilo y actitud. La escritura de Bukowski está fuertemente influida con la atmósfera de la ciudad donde pasó la mayor parte de su vida, Los Ángeles en los Estados Unidos. Bukowski fue un autor prolífico, escribió más de cincuenta libros, incontables relatos cortos y multitud de poemas. A menudo es mencionado como influencia de autores contemporáneos y su estilo es frecuentemente imitado. Murió de leucemia en 1994, a la edad de 73 años. Hoy en día es considerado uno de los escritores estadounidense más influyentes y símbolo del "realismo sucio" y la literatura independiente.""" @lang:spa;
+    dbp-onto:abstract: "Henry Charles Bukowski oli USA poeet ja proosakirjanik." @lang:est;
+    dbp-onto:abstract: "Charles Bukowski, idazle estatubatuarra. Estilo eta jarrera antzekoa izateagatik, sarritan Beat Generaziokotzat kontsideratua izan da era okerrean. Bere idatzietan modu nabarmenean agertzen da bere jaioterria, Los Angeles. Berrogeita hamar liburu baino gehiago eta hainbat kontakizun idatzi zituen. Gaur egungo idazle batzuk influentziatu dituela esaten da, bere estiloa askotan imitatua izanik. Txikitan, aitak gaizkitua izan zen eta eskolan ez zuten kideek onartzen (hau, gaztetan pairatutako eritasunaren ondoriotzat zituen aurpegiko markek oraindik eta gehiago zailduz), horrela, irakurketan babestu zen bere bizitzako lehen zatian. Lanbide ezberdin askotatik pasa zen ez oso denbora luzea emanez bakoitzean, postariarena izan ezik. Azken lan hau utzi zuenean hasi zen idazle gisa 1969. urtean." @lang:eus;
+    dbp-onto:abstract: "هنری چارلز بوکوفسکی (زادهٔ ۱۶ اوت ۱۹۲۰ در آندرناخ آلمان) رمان‌نویس بود. هنری چالز بوکفسکی(۱۶ اگوست ۱۹۲۰- ۹ مارس ۱۹۹۴) شاعر و داستان‌نویس لوس‌آنجلسی است. نوشته‌های بوکفسکی به شدت تحت تاثیر فضای شهر لوس‌آنجلس است که در آن زندگی می‌کند. او اغلب به عنوان نویسنده‌ی تاثیر گذارِ معاصر نام برده می‌شود، و سبک او بارها مورد تقلید قرار گرفته‌است. نویسنده‌ی پرکار، بوکفسکی، هزاران شعر، صدها داستان کوتاه، و ۶ رمان، و بیش از پنجاه کتاب نوشته و به چاپ رسانده‌است. بوکفسکی در سال ۱۹۲۰ در شهر آندرناخ آلمان در خانواده \"هِنری کارل بوکفسکی\" به‌دنیا آمد. مادرش \"کاترینا فِت\" ، که یک آلمانی اصیل بود، پدرش را که یک آلمانی-امریکایی بود، بعد از جنگ جهانی اول ملاقات کرد. جدِ پدری بوکفسکی در آلمان به‌دنیا آمدند. بوکفسکی مدعی است که یک زنازاده‌است، اما بایگانی آندرناخ نشان می‌دهد که والدین او به‌راستی یک ماه قبل از تولد او ازدواج کرده‌اند. بعد از فروپاشی اقتصاد آلمان در پی جنگ جهانی اول، خانواده در سال ۱۹۲۳ به بالتیمور رفتند. در زبان امریکایی، والدین بوکفسکی او را به اسم \"هِنری\" صدا می‌زدند، و تلفظ نام خانوادگی‌شان را از Buk-ov-ski به Buk-cow-ski تغییر دادند. بعد از پس‌انداز پول، خانواده به حومه لوس‌آنجلس رفتند، جایی که خانواده پدری بوکفسکی زندگی می‌کردند. در دوران کودکی بوکفسکی، پدرش اغلب بیکار بود، و به عقیده‌ی بوکفسکی بد دهن و بد رفتار بود. بعد از فارغ‌التحصیل شدن از دبیرستان لوس‌آنجلس ، بوکفسکی دو سال در دانشگاه شهر لوس‌آنجلس بود و دوره‌های هنر، روزنامه‌نگاری و ادبیات را گذراند. در ۲۴ سالگی، داستان کوتاه «عواقب یک یادداشت بلندِ مردود» بوکفسکی در مجله داستان به چاپ رسید. دو سال بعد، داستان کوتاه « ۲۰ تشکر از کاسلدان» منتشر شد. بوکفسکی نوشتن را با جریان انتشار و رها ساختن نوشتن برای یک دهه آزاد ساخت. در طول این مدت او در لوس‌آنجلس زندگی می‌کرد اما مدتی را در ایالات متحده سرگردان بود، کارهای موقتی می‌کرد و در اتاق‌های ارزان اقامت می‌کرد. در اوایل دهه‌ی ۱۹۵۰ بوکفسکی در اداره پست لوس‌آنجلس به شغل پستچی و نامه‌رسان مشغول به کار می‌شود اما بعد از دو سال و نیم آن را رها می‌کند. در ۱۹۵۵ او به خاطر زخم معده تقریباً وخیم بستری می‌شود. وقتی که او بیمارستان را ترک کرد، شروع به نوشتن شعر کرد. در ۱۹۵۷ او با شاعر و نویسنده \"باربارا فیری\" ازدواج کرد، اما آنها در سال ۱۹۵۹ از هم جدا شدند. فیری اصرار داشت که جدایی آنها هیچ ارتباطی با ادبیات ندارد، اگرچه او اغلب به صورت مشکوک می‌گفت که چیره دستی بوکفسکی در شاعری است. در پی این جدایی، بوکفسکی دوباره شراب‌خواری را از سر گرفت و به نوشتن شعر ادامه داد. او به اداره پست لوس‌آنجلس برگشت، جایی که ده سال قبل در آن کار می‌کرد. در ۱۹۶۴، یک دختر، به نام \"مارینا لوییس بوکفسکی\" ، از او و \"فرانس اسمیت\" به‌دنیا آمد. اسمیت و بوکفسکی با هم زندگی می‌کردند ولی هرگز ازدواج نکردند. بوکفسکی برای مدت کوتاهی در توزان اقامت کرد جایی که با \"جان و جیپسی لو وب\" دوست بود. \"وبزها\" مجله‌ی ادبی The Outsider را منتشر می‌کردند و به‌طور خاص برخی از شعرهای بوکفسکی را چاپ کردند. آنها از بوکفسکی \"قلب من در دست او اسیر است\" (۱۹۶۳) و \"صلیب در دست مرگ\" را در ۱۹۶۵ منتشر کردند. جان وب هزینه چاپش را از قماربازی در لاس‌وگاس بدست می‌آورد. در این مسیر بود که دوستی بوکفسکی و \"فرانس داسکی\" آغاز شد. آنها بحث می‌کردند و اغلب کار به زد و خورد می‌کشید. داسکی یکی از دوستان وب بود که اغلب در خانه کوچک آنها در خیابان E. Elm مهمان بود و به کارهای چاپ می‌رسید. وبزها، بوکفسکی و داسکی مدتی را با هم در New Orleans بودند، جایی که جیپسی لو بعد از در گذشت جان وب سرانجام به آنجا برگشت. در ۱۹۶۹، بعد از بستن قرار داد با انتشارات Black Sparrow Press و ناشر آن \"جان مارتین\" و داشتن حقوق مادام‌العمرِ ماهیانه ۱۰۰ دلار، بوکفسکی کارش در اداره پست را رها کرد و به نوشتن حرفه‌ای تمام وقت پرداخت. او ۴۹ سالش بود. همان‌طور که او در نامه‌ای در آن زمان شرح داده‌است: \"من دو تا انتخاب دارم.. در اداره پست بمونم و احمق بشم... یا بیرون از اینجا باشم و وانمود کنم که نویسنده‌ام و گرسنه باشم. من تصمیم گرفتم که گرسنه باشم. \" کمتر از یک ماه بعد از ترک اداره پست، او اولین رمانش به نام \"پستخانه\" را تمام کرد. همان‌قدر که بوکفسکی برای حمایت مالی مارتین و اعتماد به یک نویسنده‌ی نا شناخته احترام می‌گذاشت، او تقریباً تمام کارهای بعدی خود را با انتشارات Black Sparrow به چاپ رساند. در ۱۹۷۶، بوکفسکی \"لیندا لی بِیلی\" را ملاقات کرد، که صاحب یک رستوران health-food بود. دو سال بعد، آن دو از شرق هالیوود، جایی که بوکفسکی بیش از همه در آنجا زندگی کرد، به بندر \"سن پدرو\" و اقصی نقاط جنوب شهر لوس‌آنجلس رفتند. بوکفسکی و بِیلی در سال ۱۹۸۵ ازدواج کردند. لیندا لی بِیلی با نام سارا در رمان‌های \"زن‌ها\" و \"هالیوود\" بوکفسکی نام برده شده‌است. بوکفسکی در ۹ مارس، ۱۹۹۴ در \"سن پدرو\"‌ی کالیفرنیا در سن ۷۳ سالگی، اندکی بعد از تمام کردن آخرین رمانش \"تفاله\" ، از بیماری سرطان خون درگذشت. مراسم تدفین او بوسیله‌ی راهبان بودایی انجام شد. بر روی سنگ قبر او این عبارت خواند می‌شود: \" Don't Try\" (تلاش نکنید) به قول \"لیندا لی بوکفسکی\" منظور از سنگ نوشته قبر شوهرش چیزی شبیه به این گفته‌است: \"‌اگه شما تمام وقتتان را برای تلاش کردن صرف کنید، آنگاه همه آن چیزی که انجام دادید تلاش کردن بوده. پس تلاش نکنید. فقط انجامش بدید.\"" @lang:fas;
+    dbp-onto:abstract: """Henry Charles Bukowski oli yhdysvaltalainen runoilija ja kirjailija. Bukowski syntyi Andernachissa Saksassa ja kolme vuotta myöhemmin muutti perheensä mukana Los Angelesiin, Yhdysvaltoihin, missä hän asui suurimman osan elämästään. Hän oli lapsuudessaan syrjäänvetäytyvä ja hiljainen, teini-iässä hänelle tuli vielä äärimmäisen paha akne mikä vaikeutti entisestään hänen sosiaalista elämäänsä. Bukowski menetti neitsyytensä 24-vuotiaana. Nuoruudessaan hän vietti kiertelevää elämää asuen esimerkiksi Philadelphiassa ja New Orleansissa tehden satunnaisia pätkätöitä sekä kirjoitellen ahkerasti novelleja, joita lähetti moniin kirjallisuuslehtiin julkaisun toivossa. Bukowski opiskeli jonkin aikaa journalistiikkaa collegessa. Opiskeluaikanaankin Bukowski oli ujo ja syrjäänvetäytyvä, vaikka hän kirjoissaan kuvaa itsensä haastamassa opettajiaan ja huutamassa kansallissosialismiin viittaavia iskulauseita luennoilla. Hän kiinnostui kansallissosialismista mahdollisesti vastalauseena isänsä yltiöisänmaallisuudelle. Hän ei myöskään pitänyt siitä miten saksalaisia kuvattiin mediassa. Hän luki Mein Kampfia ja muita asiaan liittyviä teoksia, mutta heitti ne pois Yhdysvaltojen julistettua sodan Saksalle. Toisen maailmansodan aikana Bukowski pidätettiin epäiltynä kutsuntojen pakoilemisesta. Lopulta hän sai vapautuksen palveluksesta terveydellisistä syistä. Tuotannossaan hän usein kertoo sotavuosista, siitä miten halveksi maan sen hetkistä henkeä ja tunsi itsensä ulkopuoliseksi, joka ei välittänyt mistään mitään. Bukowski piti mm. Anton Tšehovia, Ernest Hemingwayta, John Fantea, Louis-Ferdinand Célinea esikuvinaan ja innoittajinaan kirjoitustyössä. Hän oli erittäin tuottelias, julkaisten yli 40 kirjaa runoja ja proosaa. Bukowski piti yllä ns. "renttukirjailijan" imagoa. Hänellä oli kuitenkin useita pitkäaikaisia työpaikkoja, esim. postissa hän työskenteli yhteensä 11 vuotta. Hän työskenteli yövuorossa voidakseen käydä laukkaradalla lyömässä vetoa hevosista. Noista vuosista hän kirjoitti menestysteoksen "Post Office". Bukowski tunnetaan runsaasta alkoholin käytöstään ja hän melkein menehtyi alkoholinkäyttönsä seurauksena jo alle nelikymppisenä. Hänet vietiin sairaalaan hänen oksennettuaan runsaasti verta, ja hän tarvitsi lukuisia verensiirtoja. Hän kuunteli klassista musiikkia, kuten Mahleria ja Sibeliusta. Tarinat kertovat lähes aina elämän laitapuolesta ja niiden tematiikka liikkuu yksinäisyyden ja ulkopuolisuuden tunteissa, myös vaikeasta suhteestaan isäänsä hän kirjoitti paljon, parhaana esimerkkinä omaelämäkerrallinen kasvuromaani "Siinä sivussa". Tarinoiden päähenkilö oli usein Bukowskin alter ego, Henry Chinaski: naimaton, rähjäinen ja vapaa mies. Bukowski kuoli leukemiaan. Kirjallisen tuotantonsa lisäksi Charles Bukowski käsikirjoitti Mickey Rourken ja Faye Dunawayn tähdittämän elokuvan Barfly eli Baarikärpänen. Suomeksi Bukowskia on julkaissut pääasiassa pienkustantamo Sammakko.""" @lang:fin;
+    dbp-onto:abstract: "Charles Bukowski est un écrivain américain d'origine allemande, auteur de romans et de poésie, né le 16 août 1920 à Andernach en Allemagne, mort le 9 mars 1994 à Los Angeles en Californie, aux États-Unis. Il est souvent connu sous ses pseudonymes divers : Hank, Buk, Henry Chinaski, ce dernier étant celui de son alter ego dans ses nombreux romans autobiographiques. Il est l'auteur en prose, comme en poésie, d'une oeuvre considérable." @lang:fra;
+    dbp-onto:abstract: "Henry Charles Bukowski wie in Amerikaansk skriuwer en dichter. It steedlik lânskip en de atmosfear fan syn wenplak Los Angeles hiene in grutte ynfloed op syn wurk. Bukowski's styl is faak neifolge troch in tal tiidgenoaten. Hy wie in produktyf skriuwer, syn oeuvre omfiemet tûzenen gedichten, hûnderten koarte ferhalen en seis romans. In soad wurk fan Bukowski hat in autobiografysk karakter; faak is er sels de persoan fan Henry (Hank) Chinasky. Syn wurk wurdt befolke troch bewenners fan de rûge buorren fan Los Angeles, lytse kriminelen, alkoholisten, huorren en gokkers. Syn poëzij is faak in frij fers, syn proaza hurd en direkt, fol fan skerpe dialogen." @lang:fry;
+    dbp-onto:abstract: "Charles Bukowski, nado en Andernach, Alemaña, o 16 de agosto de 1920 e falecido en Los Angeles o 9 de marzo de 1994, foi un escritor e poeta estadounidense." @lang:glg;
+    dbp-onto:abstract: """קובץ:CharlesBukowski-2. jpg צ'ארלס בוקובסקי הנרי צ'ארלס בוקובסקי, הוא משורר, סופר ופובליציסט אמריקאי. בוקובסקי לא זכה להכרה רבה בארצות הברית ונחשב בה לסופר מחתרתי. באירופה, לעומת זאת, ובעיקר בגרמניה, נחשב לאחד מהסופרים האמריקאים המפורסמים ביותר. במדינות אירופיות רבות הפכו ספריו לרבי מכר (בגרמניה לבדה נמכרו כשני מיליון עותקים מספריו) ותורגמו לשפות רבות, ובהן עברית. כתיבתו, דיבורו והתנהגותו של בוקובסקי התאפיינו בכנות ובבוטות. העלילות שסבבו סביב שיחות שערך בבתי זונות, לילות שכרות בפאבים, ותיאורים חסרי אסתטיקה של הרפתקאותיו המיניות. בראיונות נהג בוקובסקי לקלל ובמהלך אחד מהראיונות שהעניק, הוא צולם כשהוא מדבר אל אשתו בגזענות ומכה אותה‏‏. אחד מהציטוטים המפורסמים של בוקובסקי, מרמז על תפיסתו בנוגע לכתיבה: "אני חושב שצריך לאלץ גבר לכתוב בחדר מלא גולגולות, כשסביבו תלויות חתיכות בשר מכורסמות על ידי עכברושים עצלנים ושמנים". לבוקובסקי הייתה השפעה רבה על משוררים אחרים, ביניהם ריימונד קארבר.""";
+    dbp-onto:abstract: "Henry Charles Bukowski Mlađi, američki književnik, predstavnik drugog vala beat generacije. Bukowski je erotski pisac, poznat po autobiografskoj kvintologiji o svom alter egu Henryu Chinaskom. Pijanac, ali i plodan pisac. Otac ga je stalno tukao i ponižavao, a majka ga nije branila. Studirao je dvije godine na koledžu. Prijatelj je pisca Williama Saroyana. U 21. počinje pisati, ali ozbiljno počinje oko 35. godine. Volio je priče Ernesta Hemingwaya i romane koje je napisao David Herbert Lawrence. Pisao je pjesme, prozu, i nekoliko odličnih eseja. Objavljivao je do 1992. Umro je od leukemije." @lang:hrv;
+    dbp-onto:abstract: "Henry Charles Bukowski Otthona az amerikai Los Angeles volt, melynek földrajzi adottságai és atmoszférája erősen befolyásolta Bukowski munkásságát. Stílusa nagy hatással volt kortársaira, akik gyakran utánozták azt. Ő maga termékeny író volt, több ezer költeményt, több száz novellát és hat regényt jegyez; több mint ötven könyve jelent meg nyomtatásban. Rendszeresen emlegetik a skid row koszorús költőjeként." @lang:hun;
+    dbp-onto:abstract: "Henry Charles Bukowski adalah seorang penyair dan novelis Amerika. Cara penulisannya sangat dipengaruhi oleh keadaan kota tempat tinggalnya, Los Angeles. Bukowski telah menghasilkan ribuan puisi, ratusan cerita pendek, dan enam novel, pada akhirnya memiliki lebih dari 50 buku yang sudah diterbitkan.";
+    dbp-onto:abstract: "Ha scritto sei romanzi, centinaia di racconti e migliaia di poesie, per un totale di oltre sessanta libri. Il contenuto di questi tratta della sua vita, caratterizzata da un rapporto morboso con l'alcol, costellata da frequentissime esperienze sessuali, da rapporti tempestosi con le persone. Una vita dedita inoltre alle scommesse ippiche, all'ozio e all'autodistruzione." @lang:ita;
+    dbp-onto:abstract: """헨리 찰스 부코스키는 미국의 시인, 작가이다. 부코스키의 작품은, 그의 고향 로스앤젤레스의 정서에 강한 영향을 받았는데 그의 작품은 현대의 많은 작가에게 영향을 주었다. 그의 전기 영화로서 "부코스키 올드 뱅크"가 있다.""" @lang:kor;
+    dbp-onto:abstract: "Charles Bukowski (16 Tebax 1920 – 9 Adar 1994), helbestvanekî emerîkî ku navê wî yê esil Heinrich Karl Bukowski ye. Di berhemên xwe de carinan navê Henry Chinaski jî bikaranî ye. Jiyana xwe bi granî li Los Angelesê ya ku bajarekî California ya DYA'yê ye derbas kiriye. Ew, di berhemên xwe de bi granî cîdayîna merevên dervî civakê, depresyon û araqxwurîyê navdar e. Ew bixwe jî jiyanek wuha jiya ye." @lang:kur;
+    dbp-onto:abstract: "Henry Charles Bukowski (1920 m. rugpjūčio 16 d. – 1994 kovo 9 d. ) – JAV buvo vokiečių kilmės JAV poetas, romanų ir trumpų istorijų rašytojas. Charles Bukowski rašymui didelę įtaką darė Los Andželo miesto, kuriame jis gyveno, geografija ir atmosfera. Dažniausiai jo kūriniuose pasakojama apie paprastus skurdžių amerikiečių gyvenimus, apie patį rašymą, alkoholį, santykius su moterimis, darbo sunkumą ir nuobodumą, ir arklių lenktynes. Charles Bukowski parašė tūkstančius poemų, šimtus trumpų istorijų, šešis romanus. Iš viso išleista per 60 jo knygų." @lang:lit;
+    dbp-onto:abstract: "Хенри Чарлс Буковски е поет и писател од Лос Анџелес а неговото пишување е под географско и атмосферско влијание на неговиот роден град. Напишал повеќе од 50 книги и безброј помали текстови. Неговиот стил има влијание врз современите автори и често е имитиран. Тој има богат опус од илјадници поеми, стотици кратки раскази и шест новели." @lang:mkd;
+    dbp-onto:abstract: "Henry Charles Bukowski was een Amerikaans schrijver en dichter. Het stedelijk landschap en de atmosfeer van zijn woonplaats Los Angeles hadden een grote invloed op zijn werk. Op zijn beurt had hij invloed op een aantal van zijn tijdgenoten en werd zijn stijl vaak nagevolgd. Hij was een productief schrijver, zijn oeuvre beslaat duizenden gedichten, honderden korte verhalen en zes romans." @lang:nld;
+    dbp-onto:abstract: "Henry Charles Bukowski var en amerikansk forfatter. Hans far var en amerikansk soldat og hans mor var tysk. Da Charles var tre år gammel ble han tatt med til USA og vokste opp i Los Angeles, hvor han bodde i femti år. I løpet av et langt og uryddig liv fikk han publisert mer enn førtifem bøker, bestående av både noveller, romaner og dikt. Bukowski døde 9. mars 1994 i San Pedro, California, søttitre år gammel, like etter at han hadde fullført sin siste roman, Pulp." @lang:nno;
+    dbp-onto:abstract: """Henry Charles Bukowski, amerykański poeta, powieściopisarz, nowelista, scenarzysta filmowy i rysownik niemieckiego pochodzenia. Bukowski przez wielu zaliczany do pokolenia Beat Generation, sam nigdy nie dał się jednoznacznie sklasyfikować. Sławę zyskał dzięki cyklowi powieściowemu, w którym stworzył postać alkoholika i "ćmy barowej" − Henry'ego Chinaskiego. Twórczość Bukowskiego inspirowana była jego własnymi doświadczeniami, związanymi z seksem, alkoholem, biedą, niedolą pisarza i słabościami każdego człowieka. Pomimo wulgarnego języka i prostego stylu, jego twórczość ujmuje wrażliwością i głębokim zrozumieniem ludzkiej natury. Sam Bukowski był znany z awanturniczego, pełnego skandali życia, toteż typowy bohater jego − częstokroć mocno autobiograficznej − prozy to człowiek z marginesu społecznego, outsider przepełniony sceptycyzmem wobec ludzi, a jednocześnie wiecznie poszukujący bliskości z nimi.""" @lang:pol;
+    dbp-onto:abstract: "Henry Charles Bukowski Jr foi um poeta, contista e romancista alemão. Sua obra obscena e estilo coloquial, com descrições de trabalhos braçais, porres e relacionamentos baratos, fascinaram gerações de jovens à procura de uma obra com a qual pudessem se identificar." @lang:por;
+    dbp-onto:abstract: "Henry Charles Bukowski, a fost un poet, romancier germano-american. Scrierile lui Bukowski au fost puternic influenţate de atmosfera casei lui din oraşul Los Angeles şi sunt marcate de empatie pentru viaţa obişnuită a săracilor americani albi, actul scrisului, alcool, relaţiile cu femei. Un autor prolific, Bukowski a scris mii de poezii, sute de nuvele şi şase romane." @lang:ron;
+    dbp-onto:abstract: "Ге́нри Чарльз Буко́вски (англ. Henry Charles Bukowski; произносится) — американский поэт, романист и автор рассказов, часто ошибочно причисляемый к битникам. Всю жизнь прожил в Лос-Анджелесе. Работал в жанре гиперреализма, описывая героев, находящихся в атмосфере алкогольной зависимости, распутства и насилия. Главный герой почти всех его книг (во многом автобиографических) — писатель Генри Чинаски. Произведения Буковски неоднократно экранизировались (самая знаменитая экранизация — «Пьяница», к которой Буковски сам написал сценарий. О жизни Чарльза Буковски сняты документальные фильмы: «Буковски — таким родился» и «Буковски» ." @lang:rus;
+    dbp-onto:abstract: "{{Infobox Osobnosť |Meno = Charles Bukowski |Portrét = |Popis = americký spisovateľ |Dátum narodenia = 16. august 1920 |Miesto narodenia = Andernach, Nemecko |Dátum úmrtia = 9. marec 1994 |Miesto úmrtia = San Pedro, USA" @lang:slk;
+    dbp-onto:abstract: "Charles Bukowski, ameriški pisatelj in pesnik, *16. avgust 1920, Andernach, † 9. marec 1994, San Pedro Charles Bukowski je bil poet ameriškega velemesta Los Angeles in njegova poezija daje čutiti močan utrip njegovega mesta. Kot piscu proze mu je bila oblika izražanja novela, ki jih je združene objavil v nekoliko knjigah. Piše o vsakodnevnih pojavih kapitalistične družbe, kot so alkoholizem, prostitucija, narkomanija, kriminal in revščina. Opisuje ulično življenje in ljudi z dna. Je kultna osebnost sodobne književnosti in ima velik vpliv tako na mlade bralce, kot ustvarjalce, saj se je kot umetnik razvijal v obdobju hipi generacije. V svojih novelah mnogokrat nastopa kot avtobiografski lik Henry Chinaski." @lang:slv;
+    dbp-onto:abstract: "Charles Bukowski ka lindur ne Andrenach ne Gjermani me 16 gusht te vitit 1920. Pas dy vjetesh nga lindja e tij e gjithe familja emigron ne Amerike. Ata vendosen ne Los Anxhelos,ku Bukowski qendroi gjithe jeten. E gjithe jeta e tij eshte e shkruar ne libra. Emri i tij i plote eshte Henry Charles Bukowski Jr.. ,por ate thjesht e therrisnin Henk . Ka vdekur me 9 mars te vitit 1994 nga leuçemia ne San Pedro. Eshte autori i 34 vellimeve poetike dhe i tre romaneve dhe nje skenari filmi. Henk njihet si nje dner themeluesit e rrymes Underground." @lang:sqi;
+    dbp-onto:abstract: "Чарлс Буковски амерички песник, приповедач и романописац данас се сматра једним од најутицајнијих писаца битничке генерације. Остаће упамћен по свом експлицитном, сировом, понекад чак вулгарном књижевном изразу и својим причама о симпатичним губитницима са маргина америчког друштва." @lang:srp;
+    dbp-onto:abstract: "Henry Charles Bukowski, född 16 augusti 1920 i Andernach, Rheinland-Pfalz, död 9 mars 1994 i Los Angeles, Kalifornien, var en tysk-amerikansk poet och författare. Bukowski influerades starkt av geografin och atmosfären i sin hemstad Los Angeles, och kännetecknas av en tonvikt på det vardagliga livet för fattiga och marginaliserade amerikaner, skrivandet, alkohol, förhållanden till kvinnor, arbetets slit, och travsport. Bukowski skrev tusentals dikter, hundratals noveller och sex romaner, tills det att han till slut hade 60 böcker i tryck. Han kallas ibland för Poet Laureate till Skid Row. Bukowski studerade utan framgång journalistik vid Los Angeles City College och levde ett vagabonderande liv under 1940-talet, efter att under andra världskriget ha fått frisedel från försvaret, för att från 1952 under 3 år arbeta som brevbärare i hemstaden Los Angeles. Sedan han sagt upp sig från postverket och blivit opererad för ett livshotande magsår började han skriva stora mängder poesi. 1958 lyckades han åter få anställning inom postverket och arbetade sedan som postsorterare tills han 1969 fick chansen att försörja sig som författare tack vare stöd från sin blivande förläggare John Martin. I slutet av 1950-talet började Bukowski publicera beatinfluerad poesi, och gjorde sig känd för en grov och hänsynslös stil. Framför allt kommer denna till uttryck i de fyra självbiografiska romanerna om Henry Chinaski (samtliga översatta till svenska). Bukowski bejakade en svart syn på livet, med en varm syn på kvinnan, spriten och de på samhällets botten. I de flesta TV-inslag som finns om Bukowski är han kraftigt berusad. I sina böcker beskriver han samhället från de plågades perspektiv, han skildrar verkligheten sådan som den tedde sig för dem som levede i dåtidens slum. Han skrev även manuset till filmen Barfly från 1987. År 1994 avled han i leukemi." @lang:swe;
+    dbp-onto:abstract: "ชาร์ลส์ บูเคาว์สกี (16 สิงหาคม ค. ศ. 1920 - ชาร์ลส์ บูเคาว์สกีเป็นนักเขียนนวนิยายและเรื่องสั้น กวี และนักเขียนคอลัมน์ชาวอเมริกันเชื้อสายเยอรมัน งานเขียนของบูเคาว์สกีเป็นงานที่ได้รับอิทธิพลทางภูมิศาสตร์และบรรยากาศโดยตรงจากลอสแอนเจลิสที่เป็นเมืองที่พำนัก และเน้นการเขียนเกี่ยวกับชีวิตของคนอเมริกันธรรมดาที่มีฐานะยากจน, การเขียน, แอลกอฮอล์, ความสัมพันธ์กับสตรี และความน่าเบื่อหน่ายของการทำงาน บูเคาว์สกีผลิตงานเขียนเป็นจำนวนมากที่รวมทั้งกวีนิพนธ์เป็นจำนวนพัน เรื่องสั้นอีกเป็นร้อยเรื่อง นวนิยายหกเรื่อง และมีงานที่ได้รับการตีพิมพ์ทั้งสิ้นกว่า 60 เล่ม ในปี ค. ศ. 1986 ไทม์เรียกบูเคาว์สกีว่า “นักเขียนเอกแห่งชีวิตอเมริกันชั้นต่ำ”" @lang:tha;
+    dbp-onto:abstract: "Charles Bukowski, asıl adı Heinrich Karl Bukowski olan Amerikalı yazar ve şair. Yapıtlarında bazen Henry Chinaski ismini de kullanmıştır. Hayatının çoğunu ABD'nin Los Angeles şehrinde geçirmiştir. Eserlerinde genellikle toplum dışı insanları ve depresyonu konu alması ve alkolizme yakın bir hayat tarzını anlatmasıyla ünlüdür. Bunun nedeni olarak kendisinin bu hayatı yaşaması gösterilebilir. Bukowski’nin yazılarında kendi hayatını yazıp yazmadığı tartışma konusu olmuştur hayranlarının bir kısmı bunları kurguladığını, çoğunluğu ise yaşamadan bu tip kurguları yapmasının mümkün olmayacağını ve o karakterde bir insanın bu hayatı sürmesinin zaten doğal olduğu görüşünü savunmaktadır." @lang:tur;
+    dbp-onto:abstract: "Файл:CharlesBukowski-2. jpg Чарльз Буковскі в 1990 Генрі Чарльз Буковскі, німецько - американський поет, романіст, новеліст. Буковскі в творах в значній мірі чудово передає атмосферу та географію свого рідного міста Лос-Анджелеса, і характеризується на акцентувані життя бідного маргінального білого прошарку населення. Автор відзначався небаченою продуктивністю, написав тисячі віршів, сотні коротких оповідань і шість романів, що в кінцевому підсумку вийшло 110 книг в друкованому вигляді." @lang:ukr;
+    dbp-onto:abstract: "查理·布考斯基 （英文：Henry Charles Bukowski，1920年8月16日－1994年3月9日），德裔美國詩人，小說家和短篇小說家。Bukowski的寫作風格嚴重的受到了他在洛杉磯家鄉的地理和氣氛的影響，特點是側重於描寫生活處於社會邊緣地位的貧困美國人、寫作行為、酒、與女人的交往、苦工的工作和賽馬。他的作品很多，有數以千計的詩，數以百計的小故事和6篇小說，最終擁有60多本圖書出版。1986年，《時代周刊》稱他為一個“美國下層階級人桂冠詩人”（laureate of American lowlife） 。" @lang:zho;
+.
+
+op:born_in(op:Person: dbp-res:Charles_Bukowski, 
+        op:Place: dbp-res:Andernach)
+
+dbp-res:Charles_Bukowski
+    dbp-onto:thumbnail: <http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Charles_Bukowski_smoking.jpg/200px-Charles_Bukowski_smoking.jpg>;
+    - "Bukowski, Charles" @lang:deu;
+    - "Bukowski, Charles" @lang:eng;
+    - "Henry  Charles Bukowski" @lang:eng;
+    - "Charles Bukowski";
+    - "Charles Bukowski" @lang:slv;
+    - "ชาร์ลส์ บูเคาว์สกี" @lang:tha;
+    - "Henry  Charles Bukowski" @lang:zho;
+    dbp-prop:birth: 1920-08-16;
+    dbp-prop:death: 1994-03-09;
+.
+
+<http://sw.opencyc.org/concept/Mx4rwUUkfpwpEbGdrcN5Y29ycA>
+    dbp-res:Charles_Bukowski;
+.
+
+<http://mpii.de/yago/resource/Charles_Bukowski>
+    dbp-res:Charles_Bukowski;
+.
+
+zg-record:0209d007-ab54-4bc1-b388-47dfa5bc2829
+.
+
+op:created_by(op:Work_of_art: zg-record:0209d007-ab54-4bc1-b388-47dfa5bc2829, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:ab3bbf7d-7e05-4f42-bdd2-9b5d290c5a88
+.
+
+op:created_by(op:Work_of_art: zg-track:ab3bbf7d-7e05-4f42-bdd2-9b5d290c5a88, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:2a7c4760-aa5f-4261-8da7-e96ef1936c68
+.
+
+op:created_by(op:Work_of_art: zg-record:2a7c4760-aa5f-4261-8da7-e96ef1936c68, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:054047e0-2ae6-43f6-af7f-a307c55bcf97
+.
+
+op:created_by(op:Work_of_art: zg-track:054047e0-2ae6-43f6-af7f-a307c55bcf97, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:06d34ef8-6a15-4494-b802-ca84d7b842fd
+.
+
+op:created_by(op:Work_of_art: zg-track:06d34ef8-6a15-4494-b802-ca84d7b842fd, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:0930377c-ea42-4e49-b60f-cde0729e42ec
+.
+
+op:created_by(op:Work_of_art: zg-track:0930377c-ea42-4e49-b60f-cde0729e42ec, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:19e1db79-a5d8-4b35-9df4-8edec7a5567a
+.
+
+op:created_by(op:Work_of_art: zg-track:19e1db79-a5d8-4b35-9df4-8edec7a5567a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:1e932493-547e-4b70-a597-d8c593e8af11
+.
+
+op:created_by(op:Work_of_art: zg-track:1e932493-547e-4b70-a597-d8c593e8af11, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2a870685-cd4c-4f39-b9ef-bf2af572c912
+.
+
+op:created_by(op:Work_of_art: zg-track:2a870685-cd4c-4f39-b9ef-bf2af572c912, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2eec197c-968b-4ebf-be4c-8e6205097d68
+.
+
+op:created_by(op:Work_of_art: zg-track:2eec197c-968b-4ebf-be4c-8e6205097d68, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:43a746a5-d612-4b4f-ac51-789fd67c20ef
+.
+
+op:created_by(op:Work_of_art: zg-track:43a746a5-d612-4b4f-ac51-789fd67c20ef, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4fa3f473-0a14-4119-b221-64b99cb7dd2e
+.
+
+op:created_by(op:Work_of_art: zg-track:4fa3f473-0a14-4119-b221-64b99cb7dd2e, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:53443b18-dfd6-4cb8-98c4-0f08f710c1e7
+.
+
+op:created_by(op:Work_of_art: zg-track:53443b18-dfd6-4cb8-98c4-0f08f710c1e7, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:581ad51c-6ea6-4492-ba7b-a2b8cef91040
+.
+
+op:created_by(op:Work_of_art: zg-track:581ad51c-6ea6-4492-ba7b-a2b8cef91040, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:66965930-db05-4a83-9b10-f1061e74088e
+.
+
+op:created_by(op:Work_of_art: zg-track:66965930-db05-4a83-9b10-f1061e74088e, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:920111c3-d113-4b66-99ef-12928ace2caa
+.
+
+op:created_by(op:Work_of_art: zg-track:920111c3-d113-4b66-99ef-12928ace2caa, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:9dcb85b7-2ce7-43a9-86c9-58e9a4514cd5
+.
+
+op:created_by(op:Work_of_art: zg-track:9dcb85b7-2ce7-43a9-86c9-58e9a4514cd5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:9e0c8e7c-41c9-4719-b746-b87e0bbda6cb
+.
+
+op:created_by(op:Work_of_art: zg-track:9e0c8e7c-41c9-4719-b746-b87e0bbda6cb, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:ae251dc8-d9c0-4f0b-aac1-47cdc8156b17
+.
+
+op:created_by(op:Work_of_art: zg-track:ae251dc8-d9c0-4f0b-aac1-47cdc8156b17, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b97c2e07-321a-4178-951f-c81df7b2ab31
+.
+
+op:created_by(op:Work_of_art: zg-track:b97c2e07-321a-4178-951f-c81df7b2ab31, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:cf131017-c30a-4659-b31a-1afad05c2a54
+.
+
+op:created_by(op:Work_of_art: zg-track:cf131017-c30a-4659-b31a-1afad05c2a54, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:e47aff3e-eef0-47c2-9cd8-bc50d7cffb92
+.
+
+op:created_by(op:Work_of_art: zg-track:e47aff3e-eef0-47c2-9cd8-bc50d7cffb92, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:ebe189a2-c0a2-4953-9564-6b082a97db57
+.
+
+op:created_by(op:Work_of_art: zg-track:ebe189a2-c0a2-4953-9564-6b082a97db57, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:ec436150-2042-475b-9457-5eea73291458
+.
+
+op:created_by(op:Work_of_art: zg-track:ec436150-2042-475b-9457-5eea73291458, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:8b920187-81fb-4da5-8d3f-ac66bafb7a7a
+.
+
+op:created_by(op:Work_of_art: zg-record:8b920187-81fb-4da5-8d3f-ac66bafb7a7a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:0406ba13-707a-4045-a3cc-9429292f9695
+.
+
+op:created_by(op:Work_of_art: zg-track:0406ba13-707a-4045-a3cc-9429292f9695, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:19e5cca2-6377-4b43-b5bb-5bdb63372ebc
+.
+
+op:created_by(op:Work_of_art: zg-track:19e5cca2-6377-4b43-b5bb-5bdb63372ebc, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2414cca0-d284-44af-aeb9-e287688fc9a4
+.
+
+op:created_by(op:Work_of_art: zg-track:2414cca0-d284-44af-aeb9-e287688fc9a4, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2a9df766-eab9-4a1d-b6dd-634a2f610ebc
+.
+
+op:created_by(op:Work_of_art: zg-track:2a9df766-eab9-4a1d-b6dd-634a2f610ebc, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:3155f798-2417-4b57-b197-3313cf0f566f
+.
+
+op:created_by(op:Work_of_art: zg-track:3155f798-2417-4b57-b197-3313cf0f566f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:432bb16a-6b25-43e9-b25e-03c3a94e4a3f
+.
+
+op:created_by(op:Work_of_art: zg-track:432bb16a-6b25-43e9-b25e-03c3a94e4a3f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4cb7d7fd-7aee-4bb3-8c06-9b6496f82402
+.
+
+op:created_by(op:Work_of_art: zg-track:4cb7d7fd-7aee-4bb3-8c06-9b6496f82402, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:5475ba75-537d-40c9-bd1b-474fb4d752e8
+.
+
+op:created_by(op:Work_of_art: zg-track:5475ba75-537d-40c9-bd1b-474fb4d752e8, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:56755153-a68d-4931-b225-2c9f8caf603c
+.
+
+op:created_by(op:Work_of_art: zg-track:56755153-a68d-4931-b225-2c9f8caf603c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:5a7cd594-d745-47d3-8cbd-3681453a4cd3
+.
+
+op:created_by(op:Work_of_art: zg-track:5a7cd594-d745-47d3-8cbd-3681453a4cd3, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:89eb30f8-ee81-4717-b733-347432bd6b5d
+.
+
+op:created_by(op:Work_of_art: zg-track:89eb30f8-ee81-4717-b733-347432bd6b5d, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:a5738bc2-e449-4603-ab40-72557f46b3eb
+.
+
+op:created_by(op:Work_of_art: zg-track:a5738bc2-e449-4603-ab40-72557f46b3eb, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:a94ddbb4-a209-45d6-bb43-c3073cb50a1f
+.
+
+op:created_by(op:Work_of_art: zg-track:a94ddbb4-a209-45d6-bb43-c3073cb50a1f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:affde847-882a-4d0c-93da-e2ff12472f16
+.
+
+op:created_by(op:Work_of_art: zg-track:affde847-882a-4d0c-93da-e2ff12472f16, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b0dc6090-db31-49de-9572-15ad369813b1
+.
+
+op:created_by(op:Work_of_art: zg-track:b0dc6090-db31-49de-9572-15ad369813b1, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b45cb27f-93be-4781-aa48-c5f915f5ff87
+.
+
+op:created_by(op:Work_of_art: zg-track:b45cb27f-93be-4781-aa48-c5f915f5ff87, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:bedd09ba-1aa5-44ee-873d-7f7574ebad1a
+.
+
+op:created_by(op:Work_of_art: zg-track:bedd09ba-1aa5-44ee-873d-7f7574ebad1a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:e7dc33f2-bfdd-465e-bf9c-ff4e2e6f7d19
+.
+
+op:created_by(op:Work_of_art: zg-track:e7dc33f2-bfdd-465e-bf9c-ff4e2e6f7d19, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f3c95d4a-532a-497a-b083-ab00b32fd8d1
+.
+
+op:created_by(op:Work_of_art: zg-track:f3c95d4a-532a-497a-b083-ab00b32fd8d1, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:934aa5a0-8988-4f2d-bf39-b700360dbe54
+.
+
+op:created_by(op:Work_of_art: zg-record:934aa5a0-8988-4f2d-bf39-b700360dbe54, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:02665b70-117b-491d-9c5b-de661079c02d
+.
+
+op:created_by(op:Work_of_art: zg-track:02665b70-117b-491d-9c5b-de661079c02d, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:02e73bab-37fb-4feb-974f-c3e172e736b5
+.
+
+op:created_by(op:Work_of_art: zg-track:02e73bab-37fb-4feb-974f-c3e172e736b5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:06869ba4-e358-46f1-9a11-3f49c9f457f7
+.
+
+op:created_by(op:Work_of_art: zg-track:06869ba4-e358-46f1-9a11-3f49c9f457f7, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:11041d44-5116-4012-b752-aba88d2bfa3a
+.
+
+op:created_by(op:Work_of_art: zg-track:11041d44-5116-4012-b752-aba88d2bfa3a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:1825477d-7010-491f-993a-0eedb715ece5
+.
+
+op:created_by(op:Work_of_art: zg-track:1825477d-7010-491f-993a-0eedb715ece5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2db7a6eb-1afe-4b08-bd98-0dd7af31f9fc
+.
+
+op:created_by(op:Work_of_art: zg-track:2db7a6eb-1afe-4b08-bd98-0dd7af31f9fc, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:32b37d18-ac4e-4b8e-9d3a-d7064d21d6ba
+.
+
+op:created_by(op:Work_of_art: zg-track:32b37d18-ac4e-4b8e-9d3a-d7064d21d6ba, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:3561d3ea-b310-4ab6-ae46-711313d886be
+.
+
+op:created_by(op:Work_of_art: zg-track:3561d3ea-b310-4ab6-ae46-711313d886be, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:40c27671-bed0-48ad-9ac9-fdf903bc9d56
+.
+
+op:created_by(op:Work_of_art: zg-track:40c27671-bed0-48ad-9ac9-fdf903bc9d56, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:47ac1d2c-9bf2-45cb-acf3-79968f641499
+.
+
+op:created_by(op:Work_of_art: zg-track:47ac1d2c-9bf2-45cb-acf3-79968f641499, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4ffe6518-3574-4645-a9c9-afef218d1be3
+.
+
+op:created_by(op:Work_of_art: zg-track:4ffe6518-3574-4645-a9c9-afef218d1be3, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:745af286-90ca-4f2f-9115-f8987d8bc951
+.
+
+op:created_by(op:Work_of_art: zg-track:745af286-90ca-4f2f-9115-f8987d8bc951, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:828adfbd-d6c8-4866-9461-0949dec456b4
+.
+
+op:created_by(op:Work_of_art: zg-track:828adfbd-d6c8-4866-9461-0949dec456b4, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:8ba1dcc3-bb37-4a76-be31-64076ae6b578
+.
+
+op:created_by(op:Work_of_art: zg-track:8ba1dcc3-bb37-4a76-be31-64076ae6b578, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:8e194042-f22d-43de-952a-03fd014b6fa0
+.
+
+op:created_by(op:Work_of_art: zg-track:8e194042-f22d-43de-952a-03fd014b6fa0, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b4cf249a-5b20-40ea-b600-6313527e2087
+.
+
+op:created_by(op:Work_of_art: zg-track:b4cf249a-5b20-40ea-b600-6313527e2087, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b680e6b8-7d20-43e1-bf81-129920a13849
+.
+
+op:created_by(op:Work_of_art: zg-track:b680e6b8-7d20-43e1-bf81-129920a13849, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b7e4fc50-4bd0-4a9a-9171-d52ad4d5b661
+.
+
+op:created_by(op:Work_of_art: zg-track:b7e4fc50-4bd0-4a9a-9171-d52ad4d5b661, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c444788d-130b-4e9e-8dd6-0bd56f05eae6
+.
+
+op:created_by(op:Work_of_art: zg-track:c444788d-130b-4e9e-8dd6-0bd56f05eae6, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c714c346-a762-4c8c-82d6-93b2f3e04918
+.
+
+op:created_by(op:Work_of_art: zg-track:c714c346-a762-4c8c-82d6-93b2f3e04918, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:d92e31d9-e3cf-40d1-a2b4-758d361d8a86
+.
+
+op:created_by(op:Work_of_art: zg-track:d92e31d9-e3cf-40d1-a2b4-758d361d8a86, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:dacfb615-10f5-47a2-b882-9b5edbc13a1c
+.
+
+op:created_by(op:Work_of_art: zg-track:dacfb615-10f5-47a2-b882-9b5edbc13a1c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:e255c280-0f55-4608-bb9e-53f2d6f53237
+.
+
+op:created_by(op:Work_of_art: zg-track:e255c280-0f55-4608-bb9e-53f2d6f53237, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f22a90a1-88f3-4aa2-92dd-cb349f3a2d5f
+.
+
+op:created_by(op:Work_of_art: zg-track:f22a90a1-88f3-4aa2-92dd-cb349f3a2d5f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f0629494-2a06-4979-bfca-ce84d7d4de12
+.
+
+op:created_by(op:Work_of_art: zg-track:f0629494-2a06-4979-bfca-ce84d7d4de12, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:ec5bdcc2-8307-44d3-8aad-42de9ee6d7c6
+.
+
+op:created_by(op:Work_of_art: zg-record:ec5bdcc2-8307-44d3-8aad-42de9ee6d7c6, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:0ab4a4d3-16cc-473b-8f87-1a2a8b8aadc5
+.
+
+op:created_by(op:Work_of_art: zg-track:0ab4a4d3-16cc-473b-8f87-1a2a8b8aadc5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:0fd93cf2-dc18-44d4-b3ee-4590d3da7ed5
+.
+
+op:created_by(op:Work_of_art: zg-track:0fd93cf2-dc18-44d4-b3ee-4590d3da7ed5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:130a8eb9-a432-49d8-9f9a-947eb600db65
+.
+
+op:created_by(op:Work_of_art: zg-track:130a8eb9-a432-49d8-9f9a-947eb600db65, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:17731e37-3284-4be7-ae13-a0ef92e4e772
+.
+
+op:created_by(op:Work_of_art: zg-track:17731e37-3284-4be7-ae13-a0ef92e4e772, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2d28b546-18f9-4ce2-a568-2bcce8f15189
+.
+
+op:created_by(op:Work_of_art: zg-track:2d28b546-18f9-4ce2-a568-2bcce8f15189, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2e44f808-f219-433d-bd99-9fd6cc68df06
+.
+
+op:created_by(op:Work_of_art: zg-track:2e44f808-f219-433d-bd99-9fd6cc68df06, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:31b60adb-7455-49c9-8ae5-334a376d4c40
+.
+
+op:created_by(op:Work_of_art: zg-track:31b60adb-7455-49c9-8ae5-334a376d4c40, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:41531e40-e443-4781-96c7-4cd2a5d6c21b
+.
+
+op:created_by(op:Work_of_art: zg-track:41531e40-e443-4781-96c7-4cd2a5d6c21b, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:49913d45-def0-4731-a619-d16c020ee025
+.
+
+op:created_by(op:Work_of_art: zg-track:49913d45-def0-4731-a619-d16c020ee025, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4ebfff99-c2c7-4b6f-bc62-b0e4209ffd8e
+.
+
+op:created_by(op:Work_of_art: zg-track:4ebfff99-c2c7-4b6f-bc62-b0e4209ffd8e, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:52e5ced9-9962-4a31-b610-8445c3bec3e3
+.
+
+op:created_by(op:Work_of_art: zg-track:52e5ced9-9962-4a31-b610-8445c3bec3e3, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:573969a9-e30d-4746-ad94-35806ce6ce3d
+.
+
+op:created_by(op:Work_of_art: zg-track:573969a9-e30d-4746-ad94-35806ce6ce3d, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:6177b2d8-aa9e-4214-abeb-f1bd417154cd
+.
+
+op:created_by(op:Work_of_art: zg-track:6177b2d8-aa9e-4214-abeb-f1bd417154cd, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:75918d4b-8f53-4e34-8ad8-e345fa9628f8
+.
+
+op:created_by(op:Work_of_art: zg-track:75918d4b-8f53-4e34-8ad8-e345fa9628f8, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:8055efe7-8843-43f3-b9ea-258af20ec7e8
+.
+
+op:created_by(op:Work_of_art: zg-track:8055efe7-8843-43f3-b9ea-258af20ec7e8, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:82ad8968-bbb3-42bd-8bd3-42680e4aeffc
+.
+
+op:created_by(op:Work_of_art: zg-track:82ad8968-bbb3-42bd-8bd3-42680e4aeffc, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:a1aac85c-6626-4c06-9204-fb8cce6c7ef4
+.
+
+op:created_by(op:Work_of_art: zg-track:a1aac85c-6626-4c06-9204-fb8cce6c7ef4, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:bd0ea5c8-37b9-4d59-b102-8e18421e4f59
+.
+
+op:created_by(op:Work_of_art: zg-track:bd0ea5c8-37b9-4d59-b102-8e18421e4f59, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:cc36c8bf-82f3-4f79-8e51-cf677a43bba6
+.
+
+op:created_by(op:Work_of_art: zg-track:cc36c8bf-82f3-4f79-8e51-cf677a43bba6, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:dfb4a596-fc2b-481a-8d80-7eacbafae88f
+.
+
+op:created_by(op:Work_of_art: zg-track:dfb4a596-fc2b-481a-8d80-7eacbafae88f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:dfef5d08-566e-4da7-b8c6-fab0b3c53d8c
+.
+
+op:created_by(op:Work_of_art: zg-track:dfef5d08-566e-4da7-b8c6-fab0b3c53d8c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:e92425b1-ec76-4d0b-8445-33a4de65d498
+.
+
+op:created_by(op:Work_of_art: zg-track:e92425b1-ec76-4d0b-8445-33a4de65d498, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f2b86dd4-1985-4089-ad63-7dfd42286639
+.
+
+op:created_by(op:Work_of_art: zg-track:f2b86dd4-1985-4089-ad63-7dfd42286639, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:ede414bd-a82d-4f55-90b8-e87356296b4f
+.
+
+op:created_by(op:Work_of_art: zg-record:ede414bd-a82d-4f55-90b8-e87356296b4f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:17a1040a-a168-4a62-882f-800962c64c32
+.
+
+op:created_by(op:Work_of_art: zg-track:17a1040a-a168-4a62-882f-800962c64c32, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:21224a16-99cf-4f46-af1d-f24be256352d
+.
+
+op:created_by(op:Work_of_art: zg-track:21224a16-99cf-4f46-af1d-f24be256352d, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2611a19b-8e52-40cb-a4b7-93c723094dd9
+.
+
+op:created_by(op:Work_of_art: zg-track:2611a19b-8e52-40cb-a4b7-93c723094dd9, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4db79193-5b7f-4d43-a010-23764e9b12fe
+.
+
+op:created_by(op:Work_of_art: zg-track:4db79193-5b7f-4d43-a010-23764e9b12fe, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:55e7b559-5d8f-44be-890f-36337f487a30
+.
+
+op:created_by(op:Work_of_art: zg-track:55e7b559-5d8f-44be-890f-36337f487a30, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:59371528-2c19-4174-9f56-ddecfd9a4752
+.
+
+op:created_by(op:Work_of_art: zg-track:59371528-2c19-4174-9f56-ddecfd9a4752, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:63c3b080-26f0-4aa7-ad8c-71cefb81ca5c
+.
+
+op:created_by(op:Work_of_art: zg-track:63c3b080-26f0-4aa7-ad8c-71cefb81ca5c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:759ef023-ef1a-4184-a3f3-60bb300bc020
+.
+
+op:created_by(op:Work_of_art: zg-track:759ef023-ef1a-4184-a3f3-60bb300bc020, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:7bf53993-7bba-41ad-b328-139045cc2a4a
+.
+
+op:created_by(op:Work_of_art: zg-track:7bf53993-7bba-41ad-b328-139045cc2a4a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:88f219bd-7bc2-4ec2-8038-bd7ab8948b1b
+.
+
+op:created_by(op:Work_of_art: zg-track:88f219bd-7bc2-4ec2-8038-bd7ab8948b1b, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:89249aa8-9563-43ec-aac8-560acfd825ad
+.
+
+op:created_by(op:Work_of_art: zg-track:89249aa8-9563-43ec-aac8-560acfd825ad, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:9ea9ec95-a3c5-47da-9f7c-9283ec0a7711
+.
+
+op:created_by(op:Work_of_art: zg-track:9ea9ec95-a3c5-47da-9f7c-9283ec0a7711, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:aa781742-a20f-4142-b29e-26068b4d1c2a
+.
+
+op:created_by(op:Work_of_art: zg-track:aa781742-a20f-4142-b29e-26068b4d1c2a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:abe3c9e9-2549-445c-b503-111b848f352a
+.
+
+op:created_by(op:Work_of_art: zg-track:abe3c9e9-2549-445c-b503-111b848f352a, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:d8f131e4-cef9-4278-b587-6a7fe4eb8459
+.
+
+op:created_by(op:Work_of_art: zg-track:d8f131e4-cef9-4278-b587-6a7fe4eb8459, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:dc80a3fb-45e2-4211-ae66-ff9b8bfe6964
+.
+
+op:created_by(op:Work_of_art: zg-track:dc80a3fb-45e2-4211-ae66-ff9b8bfe6964, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:dcc07ece-b0d0-4bf8-b720-4a84039049a5
+.
+
+op:created_by(op:Work_of_art: zg-track:dcc07ece-b0d0-4bf8-b720-4a84039049a5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f25b9486-a493-487e-b0b6-a244d6f4a6e1
+.
+
+op:created_by(op:Work_of_art: zg-track:f25b9486-a493-487e-b0b6-a244d6f4a6e1, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:f45f556d-4f81-47dd-bce2-4aa4dc333c17
+.
+
+op:created_by(op:Work_of_art: zg-track:f45f556d-4f81-47dd-bce2-4aa4dc333c17, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-record:fab4fa42-129e-4607-9843-efa5e0fe00fe
+.
+
+op:created_by(op:Work_of_art: zg-record:fab4fa42-129e-4607-9843-efa5e0fe00fe, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:09e0ffc5-ebb9-4553-b43b-b6c576dac0e0
+.
+
+op:created_by(op:Work_of_art: zg-track:09e0ffc5-ebb9-4553-b43b-b6c576dac0e0, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2983f88c-cb10-4522-9e48-69a62a9f511b
+.
+
+op:created_by(op:Work_of_art: zg-track:2983f88c-cb10-4522-9e48-69a62a9f511b, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2bc30540-bff8-4a78-a30a-defe100cf6c0
+.
+
+op:created_by(op:Work_of_art: zg-track:2bc30540-bff8-4a78-a30a-defe100cf6c0, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:2c04dc9d-8fd9-4372-92ec-d2a181f63a28
+.
+
+op:created_by(op:Work_of_art: zg-track:2c04dc9d-8fd9-4372-92ec-d2a181f63a28, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:348a75fe-885e-47fd-9af6-b0ebbcd8d582
+.
+
+op:created_by(op:Work_of_art: zg-track:348a75fe-885e-47fd-9af6-b0ebbcd8d582, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:4f23bce9-1196-4632-8185-8ac02d669c77
+.
+
+op:created_by(op:Work_of_art: zg-track:4f23bce9-1196-4632-8185-8ac02d669c77, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:590304be-0a73-4b67-8dec-a84eace2a4ca
+.
+
+op:created_by(op:Work_of_art: zg-track:590304be-0a73-4b67-8dec-a84eace2a4ca, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:6c50f392-8658-43f9-b88a-9d899029eb4c
+.
+
+op:created_by(op:Work_of_art: zg-track:6c50f392-8658-43f9-b88a-9d899029eb4c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:6ca4f10f-a264-4459-80cb-6fdf2cd75f63
+.
+
+op:created_by(op:Work_of_art: zg-track:6ca4f10f-a264-4459-80cb-6fdf2cd75f63, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:82c57173-bd78-41ba-9aaa-1080cbd57369
+.
+
+op:created_by(op:Work_of_art: zg-track:82c57173-bd78-41ba-9aaa-1080cbd57369, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:87cbb1d0-1b08-49db-bb62-c858d3dff97c
+.
+
+op:created_by(op:Work_of_art: zg-track:87cbb1d0-1b08-49db-bb62-c858d3dff97c, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:8cfbaf62-54ab-411c-88bf-b0e8ab7feeba
+.
+
+op:created_by(op:Work_of_art: zg-track:8cfbaf62-54ab-411c-88bf-b0e8ab7feeba, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:93701395-f673-4952-a733-cc0cf7eadca5
+.
+
+op:created_by(op:Work_of_art: zg-track:93701395-f673-4952-a733-cc0cf7eadca5, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:b55958a5-7925-4321-964b-3974f6688077
+.
+
+op:created_by(op:Work_of_art: zg-track:b55958a5-7925-4321-964b-3974f6688077, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c3b2c2bf-bba7-4f3d-8a3b-eac790249efe
+.
+
+op:created_by(op:Work_of_art: zg-track:c3b2c2bf-bba7-4f3d-8a3b-eac790249efe, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c42cd308-a9af-4fb2-bc5d-8b85e03f25d4
+.
+
+op:created_by(op:Work_of_art: zg-track:c42cd308-a9af-4fb2-bc5d-8b85e03f25d4, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c6d632f2-0bb7-4a39-9466-d51a0d508441
+.
+
+op:created_by(op:Work_of_art: zg-track:c6d632f2-0bb7-4a39-9466-d51a0d508441, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:c70bda61-97d9-4bad-8886-61706b0df2fa
+.
+
+op:created_by(op:Work_of_art: zg-track:c70bda61-97d9-4bad-8886-61706b0df2fa, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:e1e8bb16-c3e6-4fa8-b8fe-31e54a794365
+.
+
+op:created_by(op:Work_of_art: zg-track:e1e8bb16-c3e6-4fa8-b8fe-31e54a794365, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+zg-track:ed5fd640-f5a6-430d-aa98-734eaa693a2f
+.
+
+op:created_by(op:Work_of_art: zg-track:ed5fd640-f5a6-430d-aa98-734eaa693a2f, 
+        dc:creator: dbp-res:Charles_Bukowski)
+
+<http://en.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://en.wikipedia.org/wiki/The_buke>
+.
+
+<http://be.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D1%9E%D1%81%D0%BA%D1%96>
+.
+
+<http://bg.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>
+.
+
+<http://ca.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://cs.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://da.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://de.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://el.wikipedia.org/wiki/%CE%A4%CF%83%CE%B1%CF%81%CE%BB%CF%82_%CE%9C%CF%80%CE%BF%CF%85%CE%BA%CF%8C%CF%86%CF%83%CE%BA%CE%B9>
+.
+
+<http://eo.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://es.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://et.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://eu.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://fa.wikipedia.org/wiki/%DA%86%D8%A7%D8%B1%D9%84%D8%B2_%D8%A8%D9%88%DA%A9%D9%88%D9%81%D8%B3%DA%A9%DB%8C>
+.
+
+<http://fi.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://fr.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://fy.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://gl.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%A1_%D7%91%D7%95%D7%A7%D7%95%D7%91%D7%A1%D7%A7%D7%99>
+.
+
+<http://hr.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://hu.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://id.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://it.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://ko.wikipedia.org/wiki/%EC%B0%B0%EC%8A%A4_%EB%B6%80%EC%BD%94%EC%8A%A4%ED%82%A4>
+.
+
+<http://ku.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://lt.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://mk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%81_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>
+.
+
+<http://nl.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://no.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://pl.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://pt.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://ro.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%2C_%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7>
+.
+
+<http://sk.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://sl.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://sq.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://sr.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%81_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8>
+.
+
+<http://sv.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://th.wikipedia.org/wiki/%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%AA%E0%B9%8C_%E0%B8%9A%E0%B8%B9%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%A7%E0%B9%8C%E0%B8%AA%E0%B8%81%E0%B8%B5>
+.
+
+<http://tr.wikipedia.org/wiki/Charles_Bukowski>
+.
+
+<http://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D1%96>
+.
+
+<http://zh.wikipedia.org/wiki/%E6%9F%A5%E7%90%86%C2%B7%E5%B8%83%E8%80%83%E6%96%AF%E5%9F%BA>
+.
+
+dbp-res:James_Thurber
+.
+
+dbp-res:John_Fante
+.
+
+dbp-res:The_Most_Beautiful_Woman_in_Town
+.
+
+dbp-res:Ham_on_Rye
+.
+
+dbp-res:The_Charles_Bukowski_Tapes
+.
+
+<http://dbpedia.org/resource/The_Last_Straw_%28film%29>
+.
+
+dbp-res:Jon_Smith
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+op:written_by(op:Work_of_art: <http://dbpedia.org/resource/Barfly_%28film%29>, 
+        op:Author: dbp-res:Charles_Bukowski)
+
+dbp-res:Cold_Moon
+.
+
+op:written_by(op:Work_of_art: dbp-res:Cold_Moon, 
+        op:Author: dbp-res:Charles_Bukowski)
+
+dbp-res:Charles
+.
+
+dbp-res:The_Most_Beautiful_Woman_in_Town
+.
+
+dbp-res:Ham_on_Rye
+.
+
+<http://dbpedia.org/resource/Hollywood_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Pulp_%28novel%29>
+.
+
+dbp-res:Antonella_Gambotto-Burke
+.
+
+<http://dbpedia.org/resource/Jim_Northrup_%28writer%29>
+.
+
+dbp-res:Raegan_Butcher
+.
+
+dbp-res:Richard_Brautigan
+.
+
+dbp-res:Jon_Smith
+.
+
+dbp-res:Roni_Bandini
+.
+
+<http://dbpedia.org/resource/N%C3%A9stor_Barron>
+.
+
+dbp-res:Anton_Chekhov
+.
+
+dbp-res:D._H._Lawrence
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+dbp-res:Ezra_Pound
+.
+
+dbp-res:Franz_Kafka
+.
+
+dbp-res:James_Thurber
+.
+
+dbp-res:John_Fante
+.
+
+dbp-res:Knut_Hamsun
+.
+
+<http://dbpedia.org/resource/Louis-Ferdinand_C%C3%A9line>
+.
+
+dbp-res:Robinson_Jeffers
+.
+
+dbp-res:Sherwood_Anderson
+.
+
+dbp-res:Fyodor_Dostoyevsky
+.
+
+dbp-res:The_Charles_Bukowski_Tapes
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+dbp-res:Cold_Moon
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+dbp-res:Charles_Bukowski
+.
+
+dbp-res:The_buke
+.
+
+<http://dbpedia.org/resource/Bukowski%2C_Charles>
+.
+
+dbp-res:Raisa_ers
+.
+
+dbp-res:Charly_Bukowski
+.
+
+<http://dbpedia.org/resource/Bukowski:Born_into_This>
+.
+
+dbp-res:Bukowski_Court
+.
+
+dbp-res:Franz_Kafka
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+<http://dbpedia.org/resource/Louis-Ferdinand_C%C3%A9line>
+.
+
+dbp-res:Fyodor_Dostoyevsky
+.
+
+dbp-res:Ham_on_Rye
+.
+
+<http://dbpedia.org/resource/Hollywood_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Post_Office_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Pulp_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Women_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+dbp-res:Franz_Kafka
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+<http://dbpedia.org/resource/Factotum_%28film%29>
+.
+
+dbp-res:Tales_of_Ordinary_Madness
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+dbp-res:Knut_Hamsun
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+dbp-res:Knut_Hamsun
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+<http://dbpedia.org/resource/Hollywood_%28novel%29>
+.
+
+dbp-res:Notes_of_a_Dirty_Old_Man
+.
+
+dbp-res:The_Captain_Is_Out_to_Lunch_and_the_Sailors_Have_Taken_Over_the_Ship
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000014d6e84f>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000031382fa>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000313825e>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000031382cc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000313829b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000014d4e37d>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005a52ded>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000014c2392d>
+.
+
+<http://dbpedia.org/resource/Barfly_%28film%29>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000007586dce>
+.
+
+dbp-res:Antonella_Gambotto-Burke
+.
+
+dbp-res:Billy_Childish
+.
+
+<http://dbpedia.org/resource/Jim_Northrup_%28writer%29>
+.
+
+dbp-res:Raegan_Butcher
+.
+
+dbp-res:Richard_Brautigan
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000af1f0dc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000008d0cf7c>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009eddb37>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c651dd1>
+.
+
+<http://dbpedia.org/resource/Factotum_%28film%29>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000f478eb2>
+.
+
+dbp-res:Transgressional_fiction
+.
+
+dbp-res:Existentialism
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000000089>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000000565>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000011ae833>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000001237>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000010c3890>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000042cb6f1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000003cbf759>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005b87499>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000093a87f3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000003e083f6>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000010c3878>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000008c99eb3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000004531f35>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009208ca4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000b1926db>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000901ac11>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000498a3f8>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000014e097ef>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18890>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15fc4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f93>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1db8b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280f5>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18819>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a14aaa>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1db63>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a161f1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f9b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280cc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a14a98>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000048e6597>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15fcd>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15fb4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280ec>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a14aa1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f79>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18861>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18853>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a14a69>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1db82>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f62>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18842>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f59>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f82>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280b4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1db4c>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a16228>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a29699>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a187fe>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a18870>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a29682>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a16219>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a15f71>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a296d3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280d5>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1db44>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a1889d>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009a280e4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000013b9dd68>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000013cc5741>
+.
+
+dbp-res:The_Most_Beautiful_Woman_in_Town
+.
+
+<http://dbpedia.org/resource/Factotum_%28novel%29>
+.
+
+dbp-res:Ham_on_Rye
+.
+
+<http://dbpedia.org/resource/Hollywood_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Post_Office_%28novel%29>
+.
+
+<http://dbpedia.org/resource/Pulp_%28novel%29>
+.
+
+<http://dbpedia.org/resource/South_of_No_North_%28short_story_collection%29>
+.
+
+<http://dbpedia.org/resource/Women_%28novel%29>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c7b5e72>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1daa91>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cc00d25>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d4da8c5>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d5ea128>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cc02afe>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d0b0f00>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ccc4cd1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ca8539c>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c8a22fc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d136834>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d11d2ab>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d5a7cf1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c705dad>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d06b9f2>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cdf81cc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d65f8da>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cdff9c4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cde17f2>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cb5bb84>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d0c6a05>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd4b2a8>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd52c34>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ce6d420>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c79a9b0>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d709be4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c970e8e>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d24bbda>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c8e542a>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1e67c5>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d96ec74>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cae25bf>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ca4f644>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ca92d72>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d4f2a2c>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d21006e>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd5696b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d6e9d15>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ccc17fc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c795c50>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d7afb40>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d3a770c>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c9bea36>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd0acf9>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d5a8b31>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2c2f84>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2c302a>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d6f8029>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cbe2714>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c6f5041>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d05f9b1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d0961f3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c9c33d3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cf1be47>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000dab4bc3>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d9400fc>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c97b34b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ceab797>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c8c72c7>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cbb5bcb>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c942a0d>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c8c13da>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000da9a25a>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cebc7ba>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd2e6c0>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2058e7>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1acc45>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c7eb2b2>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2ff8b0>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2c04a0>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cfe238f>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d413f91>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c93376d>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c94723b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cbcfe79>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d6b5548>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000da9a9d7>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d644ed6>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1c68f7>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ce1918b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c9da983>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cb3e654>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1a3241>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d41313f>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d541406>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d072914>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c8be9a2>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d4972fa>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d541332>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d48fd50>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cd9d462>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1b87bb>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000caf76b8>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d22080b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cbd06d9>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cc59bbe>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cb2a955>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000ca6bf2b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d1e61ee>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d4e55d9>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d0e2d6b>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d566c1f>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000da10375>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c9cdef9>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000cb5bfe4>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000d2712e1>
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000caf972b>
+.
+
+dbp-res:Columnist
+.
+
+dbp-res:Poet
+.
+
+dbp-res:Scribbler
+.
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005c7bb76>
+.
+
+dbp-res:Leucosis
+.
+
+dbp-res:Andernach
+.
+
+<http://dbpedia.org/resource/Alfred_Perl%C3%A8s>
+.
+
+dbp-res:Anton_Artaud
+.
+
+dbp-res:Anton_Chekhov
+.
+
+<http://dbpedia.org/resource/Cummings%2C_E.E.>
+.
+
+dbp-res:D._H._Lawrence
+.
+
+dbp-res:Dostoevski
+.
+
+dbp-res:Ernest_Hemingway
+.
+
+dbp-res:Ezra_Pound
+.
+
+dbp-res:Franz_Kafka
+.
+
+dbp-res:James_Thurber
+.
+
+dbp-res:John_Fante
+.
+
+dbp-res:Knut_Hamsun
+.
+
+<http://dbpedia.org/resource/Louis-Ferdinand_C%C3%A9line>
+.
+
+dbp-res:Robinson_Jeffers
+.
+
+dbp-res:Sherwood_Anderson
+.
+

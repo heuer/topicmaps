@@ -1,0 +1,111 @@
+#
+# ==============================
+# Nick Cave's songs at Lyon 2001
+# ==============================
+#
+#
+# Description:  This topic map lists all songs played by Nick Cave 
+#               and the Bad Seeds at Lyon 2001, probably 8th June 2001
+#
+#               This topic map is neither useful nor a good example for 
+#               Topic Maps, but mainly a collection of bookmarks.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2011-02-16
+# 
+# Modified:     2011-01-16
+# 
+
+
+def is-at-youtube(slo)
+    #TODO
+    slo isa video.
+end
+
+
+# 1 
+= <http://www.youtube.com/watch?v=KgT2SE932eU>
+    - "Do You Love Me?";
+    is-at-youtube();
+.
+
+# 2
+= <http://www.youtube.com/watch?v=MAPASzuaBNE>
+    - "Oh My Lord";
+    is-at-youtube();
+.
+
+# 3
+= <http://www.youtube.com/watch?v=Ijb9c9Qhfs8>
+    - "Lime Tree Arbour";
+    is-at-youtube();
+.
+
+# 4
+= <http://www.youtube.com/watch?v=NLGNDSzC014>
+    - "Red Right Hand";
+    is-at-youtube();
+.
+
+# 5
+= <http://www.youtube.com/watch?v=cbl-wUVK068>
+    - "As I Sat Sadly By Her Side";
+    is-at-youtube();
+.
+
+# 6
+= <http://www.youtube.com/watch?v=erV6vHjAAs0>
+    - "The Weeping Song";
+    is-at-youtube();
+.
+
+# 7
+= <http://www.youtube.com/watch?v=y16ODSCx0UM>
+    - "God is in The House";
+    is-at-youtube();
+.
+
+# 8
+= <http://www.youtube.com/watch?v=XN5oEQyhziQ>
+    - "We Came Along This Road";
+    is-at-youtube();
+.
+
+# 9
+= <http://www.youtube.com/watch?v=Hg99BUHSgFA>
+    - "Papa Won't Leave You, Henry";
+    is-at-youtube();
+.
+
+# 10
+= <http://www.youtube.com/watch?v=HksdOcJDORs>
+    - "Hallelujah";
+    is-at-youtube();
+.
+
+# 11
+= <http://www.youtube.com/watch?v=6aiVGM0M71c>
+    - "The Mercy Seat";
+    is-at-youtube();
+.
+
+# 12
+= <http://www.youtube.com/watch?v=CSfO-k9tGAY>
+    - "Into my Arms";
+    is-at-youtube();
+.
+
+# 13
+= <http://www.youtube.com/watch?v=16JlXKqg53o>
+    - "Saint Huck";
+    is-at-youtube();
+.
+
+# 14
+= <http://www.youtube.com/watch?v=cJgj37WWnjk>
+    - "The Curse of Millhaven";
+    is-at-youtube();
+.
