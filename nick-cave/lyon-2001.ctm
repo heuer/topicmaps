@@ -16,9 +16,9 @@
 #
 # Date:         2011-02-16
 # 
-# Modified:     2011-02-16
+# Modified:     2011-02-18
 # 
-
+%prefix yt <http://www.youtube.com/watch?v=>
 
 def is-at-youtube(slo)
     #TODO
@@ -27,85 +27,85 @@ end
 
 
 # 1 
-= <http://www.youtube.com/watch?v=KgT2SE932eU>
+= yt:KgT2SE932eU
     - "Do You Love Me?";
     is-at-youtube();
 .
 
 # 2
-= <http://www.youtube.com/watch?v=MAPASzuaBNE>
+= yt:MAPASzuaBNE
     - "Oh My Lord";
     is-at-youtube();
 .
 
 # 3
-= <http://www.youtube.com/watch?v=Ijb9c9Qhfs8>
+= yt:Ijb9c9Qhfs8
     - "Lime Tree Arbour";
     is-at-youtube();
 .
 
 # 4
-= <http://www.youtube.com/watch?v=NLGNDSzC014>
+= yt:NLGNDSzC014
     - "Red Right Hand";
     is-at-youtube();
 .
 
 # 5
-= <http://www.youtube.com/watch?v=cbl-wUVK068>
+= yt:cbl-wUVK068
     - "As I Sat Sadly By Her Side";
     is-at-youtube();
 .
 
 # 6
-= <http://www.youtube.com/watch?v=erV6vHjAAs0>
+= yt:erV6vHjAAs0
     - "The Weeping Song";
     is-at-youtube();
 .
 
 # 7
-= <http://www.youtube.com/watch?v=y16ODSCx0UM>
+= yt:y16ODSCx0UM
     - "God is in The House";
     is-at-youtube();
 .
 
 # 8
-= <http://www.youtube.com/watch?v=XN5oEQyhziQ>
+= yt:XN5oEQyhziQ
     - "We Came Along This Road";
     is-at-youtube();
 .
 
 # 9
-= <http://www.youtube.com/watch?v=Hg99BUHSgFA>
+= yt:Hg99BUHSgFA
     - "Papa Won't Leave You, Henry";
     is-at-youtube();
 .
 
 # 10
-= <http://www.youtube.com/watch?v=HksdOcJDORs>
+= yt:HksdOcJDORs
     - "Hallelujah";
     is-at-youtube();
 .
 
 # 11
-= <http://www.youtube.com/watch?v=6aiVGM0M71c>
+= yt:6aiVGM0M71c
     - "The Mercy Seat";
     is-at-youtube();
 .
 
 # 12
-= <http://www.youtube.com/watch?v=CSfO-k9tGAY>
+= yt:CSfO-k9tGAY
     - "Into my Arms";
     is-at-youtube();
 .
 
 # 13
-= <http://www.youtube.com/watch?v=16JlXKqg53o>
+= yt:16JlXKqg53o
     - "Saint Huck";
     is-at-youtube();
 .
 
 # 14
-= <http://www.youtube.com/watch?v=cJgj37WWnjk>
+= yt:cJgj37WWnjk
     - "The Curse of Millhaven";
     is-at-youtube();
 .
