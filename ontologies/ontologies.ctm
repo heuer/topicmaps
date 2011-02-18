@@ -1,0 +1,32 @@
+#
+# ========================
+# Collection of Ontologies
+# ========================
+#
+#
+# Description:  Bookmarks of ontologies.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2011-02-10
+# 
+# Modified:     2011-02-18
+# 
+
+%prefix dc <http://purl.org/dc/elements/1.1/>
+
+= <http://musicontology.com/>
+    - "Music Ontology Specification";
+    dc:description: "The Music Ontology Specification provides main concepts and properties fo describing music (i.e. artists, albums, tracks, but also performances, arrangements, etc.) on the Semantic Web.";
+.
+
+= <http://vocab.org/>
+    dc:description: "Collection of ontologies";
+.
+
+= <http://www.semanticdesktop.org/ontologies/>
+    dc:description: "Ontologies of the NEPOMUK project, covers mainly contacts, msgs, files.";
+.
+

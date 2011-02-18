@@ -1,0 +1,109 @@
+#
+# ================
+# Warlogs Ontology
+# ================
+#
+#
+# Description:  This topic map describes the War Logs ontology
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2011-02-02
+# 
+# Modified:     2011-02-02
+# 
+
+%prefix onto <http://psi.metaleaks.org/warlogs/ontology/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix geo <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+#TODO: Any known ontology which mentions "abbreviation"?
+onto:abbreviation
+  - "abbreviation".
+
+onto:report
+  - "report".
+
+#
+# The following topic types aren't necessary but they simplify querying.
+#
+onto:afghanistan-report ako onto:report;
+  - "Afghanistan report".
+
+onto:iraq-report ako onto:report;
+  - "Iraq report".
+
+onto:report-key
+  - "report key".
+
+onto:tracking-number
+  - "tracking number".
+
+onto:ccir
+  - "Commander's Critical Information Requirements";
+  - onto:abbreviation: "CCIR".
+
+onto:mgrs
+  - "Military Grid Reference System coordinate";
+  - onto:abbreviation: "MGRS coordinate";
+.
+
+onto:summary
+  - "summary".
+
+onto:dcolor
+  - "display color".
+
+onto:dcolor-red isa onto:dcolor
+  - "RED";
+  dc:description: "Display color for enemies".
+
+onto:dcolor-blue isa onto:dcolor
+  - "BLUE";
+  dc:description: "Display color for coalition forces".
+
+onto:dcolor-green isa onto:dcolor
+  - "GREEN";
+  dc:description: "Display color for host nation".
+
+onto:dcolor-white isa onto:dcolor
+  - "WHITE";
+  dc:description: "Display color for civilians".
+
+onto:killed-in-action
+  - "killed in action".
+
+onto:wounded-in-action
+  - "wounded in action".
+
+onto:enemy-kia ako onto:killed-in-action;
+  - "enemy killed in action".
+
+onto:enemy-wia ako onto:wounded-in-action;
+  - "enemy wounded in action".
+
+onto:friendly-kia ako onto:killed-in-action;
+  - "coalition forces killed in action".
+
+onto:friendly-wia ako onto:wounded-in-action;
+  - "coalition forces wounded in action".
+
+onto:host-nation-kia ako onto:killed-in-action;
+  - "host nation killed in action".
+
+onto:host-nation-wia ako onto:wounded-in-action;
+  - "host nation wounded in action".
+
+onto:civilian-kia ako onto:killed-in-action;
+  - "civilian killed in action".
+
+onto:civilian-wia ako onto:wounded-in-action;
+  - "civilian wounded in action".
+
+dc:title
+  - "title".
+
+geo:lat - "latitude".
+geo:long - "longitude".
