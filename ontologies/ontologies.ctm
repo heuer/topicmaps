@@ -30,3 +30,7 @@
     dc:description: "Ontologies of the NEPOMUK project, covers mainly contacts, msgs, files.";
 .
 
+
+= <http://www.w3.org/TR/mediaont-10/>
+    - "Ontology for Media Resource 1.0";
+.
