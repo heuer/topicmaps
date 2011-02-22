@@ -12,13 +12,12 @@
 #
 # Date:         2011-01-04
 #
-# Modified:     2011-02-22
+# Modified:     2011-02-23
 # 
 
 #
 # Prefixes
 #
-%prefix cg <http://psi.metaleaks.org/cablegate/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>

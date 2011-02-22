@@ -11,7 +11,6 @@ from StringIO import StringIO
 from urllib import quote
 
 _NAMESPACES = {
-    'cg': 'http://psi.metaleaks.org/cablegate/',
     'onto': 'http://psi.metaleaks.org/cablegate/onto/',
     'subj': 'http://psi.metaleaks.org/cablegate/subject-tag/',
     'org': 'http://psi.metaleaks.org/cablegate/organization-tag/',
