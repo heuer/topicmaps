@@ -37,7 +37,6 @@ def read_tags(filename):
             l = l.rstrip()
             if not l or l.startswith('#'):
                 continue
-            #print 'Line: ', l
             tag, name = _TAG_NAME_PATTERN.match(l).groups()
             tag = _WS_NORMALIZER_PATTERN.sub(' ', tag.strip().upper())
             yield tag, name
