@@ -1,0 +1,99 @@
+#
+# Source: <https://cabletags.wordpress.com/wikileaks-cable-subject-tags/>
+#
+AADP 	Automated Data Processing
+ABLD 	Buildings and Grounds
+ABUD 	Budget Services and Financial Systems
+ACOA 	Communication Operations and Administration
+ACKM 	COMSEC Key Management
+ADCO 	Diplomatic Courier Operations
+ADPM 	Diplomatic Pouch and Mail
+AEMR 	Emergency Planning and Evacuation
+AFIN 	Financial Management
+AFSI 	Foreign Service Institute
+AFSN 	Foreign Service National Personnel
+AGAO 	General Accounting Office
+AINF 	Information Management Services
+AINR 	INR Program Administration
+AINT 	Internet Administration
+ALOW 	Allowances
+AMED 	Medical Services
+AMGT 	Management Operations
+AMTC 	Telecommunications Equipment Maintenance
+ANET 	Communications, Circuits, and Networks
+AODE 	Employees Abroad
+AOMS 	Office Management Specialist Issues
+AORC 	International Organizations and Conferences
+APCS 	Personal Computers
+APER 	Personnel
+ASCH 	U.S. Sponsored Schools
+ASEC 	Security
+ASIG 	Inspector General Activities
+BBSR 	Business Services Reporting
+BEXP 	Trade Expansion and Promotion
+BMGT 	FCS Management Operations
+BTIO 	Trade and Investment Opportunities
+CASC 	Assistance to Citizens
+CFED 	Federal Agency Services
+CJAN 	Judicial Assistance and Notarial Services
+CLOK 	Visa Lookout
+CMGT 	Consular Administration and Management
+CPAS 	Passport and Citizenship
+CVIS 	Visas
+EAGR 	Agriculture and Forestry
+EAID 	Foreign Economic Assistance
+EAIR 	Civil Aviation
+ECON 	Economic Conditions
+ECPS 	Communications and Postal Systems
+EFIN 	Financial and Monetary Affairs
+EFIS 	Commercial Fishing and Fish Processing
+EIND 	Industry and Manufacturing
+EINT 	Economic and Commercial Internet
+EINV 	Foreign Investments
+ELAB 	Labor Sector Affairs
+ELTN 	Land Transportation
+EMIN 	Minerals and Metals
+ENRG 	Energy and Power
+EPET 	Petroleum and Natural Gas
+ETRD 	Foreign Trade
+ETTC 	Trade and Technology Controls
+EWWT 	Waterborne Transportation
+MARR 	Military and Defense Arrangements
+MASS 	Military Assistance and Sales
+MCAP 	Military Capabilities
+MNUC 	Military Nuclear Applications
+MOPS 	Military Operations
+ODIP 	U.S. Diplomatic Representation
+OEXC 	Educational and Cultural Exchange Operations
+OFDP 	Foreign Diplomats and Foreign Missions
+OIIP 	International Information Programs
+OPDC 	Diplomatic Correspondence
+OPRC 	Public Relations and Correspondence
+OREP 	U.S. Congressional Travel
+OSCI 	Science Grants
+OTRA 	Travel
+OVIP 	Visits and Travel of Prominent Individuals and Leaders
+PARM 	Arms Controls and Disarmament
+PBTS 	National Boundaries, Territories, and Sovereignty
+PGOV 	Internal Governmental Affairs
+PHSA 	High Seas Affairs
+PHUM 	Human Rights
+PINR 	Intelligence
+PINS 	National Security
+PNAT 	National Independence
+PREF 	Refugees
+PREL 	External Political Relations
+PROP 	Propaganda and Psychological Operations
+PTER 	Terrorists and Terrorism
+SCUL 	Cultural Affairs
+SENV 	Environmental Affairs
+SMIG 	Migration
+SNAR 	Narcotics
+SOCI 	Social Conditions
+TBIO 	Biological and Medical Science
+TINT 	Internet Technology
+TNGD 	Engineering Research and Development
+TPHY 	Physical Sciences
+TRGY 	Energy Technology
+TSPA 	Space Activities
+TSPL 	Science and Technology Policy
