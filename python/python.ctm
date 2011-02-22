@@ -68,5 +68,5 @@ p:pythonfutures
     - "Python Futures";
     doap:homepage: <https://code.google.com/p/pythonfutures/>;
     doap:description: "A futures implementation for Python (backport of PEP 3148)";
-    pep: <http://www.python.org/dev/peps/pep-3148/>.
+    pep: <http://www.python.org/dev/peps/pep-3148/>;
 .
