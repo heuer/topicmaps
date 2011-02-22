@@ -55,3 +55,11 @@ p:flask
     doap:mailing-list: <http://flask.pocoo.org/mailinglist/>;
     doap:bug-database: <https://github.com/mitsuhiko/flask/issues>;
 .
+
+p:iep isa ide;
+    - "IEP";
+    doap:description: "IEP (pronounced as 'eep') is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing. Its practical design is aimed at simplicity and efficiency.";
+    doap:homepage: <https://code.google.com/p/iep/>;
+    doap:mailing-list: <http://groups.google.com/group/iep_>;
+    doap:bug-database: <https://code.google.com/p/iep/issues/list>;
+.
