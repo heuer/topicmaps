@@ -95,3 +95,30 @@ p:nltk
     doap:homepage: <http://www.nltk.org/>;
 .
 
+p:rdblib
+    - "RDFLib";
+    doap:description: "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.";
+    doap:homepage: <https://code.google.com/p/rdflib/>;
+    doap:homepage: <http://www.rdflib.net/>;
+.
+
+p:rdfextras
+    - "RDF Extras";
+    doap:description: "A collection of extra utilities based on RDFLib";
+    doap:mailing-list: <https://groups.google.com/group/rdflib-dev>;
+    doap:homepage: <https://code.google.com/p/rdfextras/>;
+.
+
+p:feedparser
+    - "Feedparser";
+    doap:description: "Universal Feed Parser -- Parse RSS and Atom feeds in Python.";
+    doap:homepage: <http://feedparser.org/>;
+    doap:homepage: <https://code.google.com/p/feedparser/>;
+.
+
+p:redis-py
+    - "Redis";
+    doap:description: "Python client for Redis key-value store";
+    doap:homepage: <https://github.com/andymccurdy/redis-py>;
+.
+
