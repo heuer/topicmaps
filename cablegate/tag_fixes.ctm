@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 # 
-
+%prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix tag <http://psi.metaleaks.org/cablegate/tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
@@ -20,14 +20,25 @@
 # Additional names
 #
 
-<http://psi.metaleaks.org/cablegate/tag/CLINTON,%20HILLARY> - "CLINTON, HILLARY"; -dc:title: "Hillary Clinton".
+<http://psi.metaleaks.org/cablegate/person-tag/CLINTON,%20HILLARY> isa onto:person-tag;
+    - "CLINTON, HILLARY"; 
+    -dc:title: "Hillary Clinton".
 
-<http://psi.metaleaks.org/cablegate/tag/RICE,%20CONDOLEEZZA> - "RICE, CONDOLEEZZA"; - dc:title: "Condoleezza Rice".
+<http://psi.metaleaks.org/cablegate/person-tag/RICE,%20CONDOLEEZZA> isa onto:person-tag;
+    - "RICE, CONDOLEEZZA"; 
+    - dc:title: "Condoleezza Rice".
 
-<http://psi.metaleaks.org/cablegate/tag/BIDEN,%20JOSEPH> - "BIDEN, JOSEPH"; - dc:title: "Joseph Biden".
+<http://psi.metaleaks.org/cablegate/person-tag/BIDEN,%20JOSEPH> isa onto:person-tag;
+    - "BIDEN, JOSEPH"; 
+    - dc:title: "Joseph Biden".
 
-<http://psi.metaleaks.org/cablegate/tag/STEINBERG,%20JAMES%20B.> - "STEINBERG, JAMES B."; - dc:title: "James B. Steinberg".
+<http://psi.metaleaks.org/cablegate/person-tag/STEINBERG,%20JAMES%20B.> isa onto:person-tag;
+    - "STEINBERG, JAMES B."; 
+    - dc:title: "James B. Steinberg".
 
+#
+#TODO: Decide the kind of tag and the namespace
+#
 <http://psi.metaleaks.org/cablegate/tag/GAZA%20DISENGAGEMENT> - "GAZA DISENGAGEMENT"; - dc:title: "Gaza disengagement".
 
 <http://psi.metaleaks.org/cablegate/tag/ISRAELI%20PALESTINIAN%20AFFAIRS> - "ISRAELI PALESTINIAN AFFAIRS"; - dc:title: "Israeli Palestinian affairs".

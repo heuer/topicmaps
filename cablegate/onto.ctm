@@ -52,6 +52,9 @@ onto:program-tag ako onto:tag;
 onto:organization-tag ako onto:tag;
   - "organization TAG".
 
+onto:person-tag ako onto:tag;
+  - "person TAG".
+
 onto:classification-level 
   - "classification level".
 
