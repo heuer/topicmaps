@@ -63,3 +63,10 @@ p:iep isa ide;
     doap:mailing-list: <http://groups.google.com/group/iep_>;
     doap:bug-database: <https://code.google.com/p/iep/issues/list>;
 .
+
+p:pythonfutures
+    - "Python Futures";
+    doap:homepage: <https://code.google.com/p/pythonfutures/>;
+    doap:description: "A futures implementation for Python (backport of PEP 3148)";
+    pep: <http://www.python.org/dev/peps/pep-3148/>.
+.
