@@ -1,0 +1,57 @@
+#
+# =============================
+# Collection of Python Projects
+# =============================
+#
+#
+# Description:  Bookmarks of Python projects.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2011-02-21
+# 
+# Modified:     2011-02-22
+# 
+
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix p <http://psi.semagia.com/python-projects/>
+%prefix doap <http://usefulinc.com/ns/doap#>
+
+p:tablefactory
+    - "Tablefactory";
+    doap:homepage: <http://kstrauser.github.com/tablefactory/>;
+    repository: <https://github.com/kstrauser/tablefactory>;
+    doap:description: "TableFactory is a simple API for creating tables in popular formats. It acts as a wrapper around other popular Python report generators and handles all the tedious, boilerplate problems of extracting columns from input data, creating the layout, applying formatting to cells, etc. ";
+.
+
+p:xlwt
+    - "xlwt";
+    doap:homepage: <http://pypi.python.org/pypi/xlwt>;
+    doap:mailing-list: <http://groups.google.com/group/python-excel>;
+    repository: <https://secure.simplistix.co.uk/svn/xlwt/trunk>;
+    doap:description: "Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform, with Python 2.3 to 2.6";
+.
+
+p:tablib
+    - "Tablib";
+    doap:homepage: <http://tablib.org/>;
+    doap:description: "Tablib is an MIT Licensed format-agnostic tabular dataset library, written in Python. It allows you to import, export, and manipulate tabular data sets. Advanced features include, segregation, dynamic columns, tags & filtering, and seamless format import & export.";
+    repository: <https://github.com/kennethreitz/tablib>;
+.
+
+p:nltk-trainer
+    - "NLTK Trainer";
+    repository: <https://github.com/japerk/nltk-trainer>;
+    doap:description: "NLTK Trainer exists to make training and evaluating NLTK objects as easy as possible.";
+.
+
+p:flask
+    - "Flask";
+    doap:description: "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.";
+    doap:homepage: <http://flask.pocoo.org/>;
+    repository: <https://github.com/mitsuhiko/flask>;
+    doap:mailing-list: <http://flask.pocoo.org/mailinglist/>;
+    doap:bug-database: <https://github.com/mitsuhiko/flask/issues>;
+.
