@@ -43,6 +43,15 @@ onto:country-tag ako onto:geo-tag;
 onto:region-tag ako onto:geo-tag;
   - "region TAG".
 
+onto:subject-tag ako onto:tag;
+  - "subject TAG".
+
+onto:program-tag ako onto:tag;
+  - "program TAG".
+
+onto:organization-tag ako onto:tag;
+  - "organization TAG".
+
 onto:classification-level 
   - "classification level".
 

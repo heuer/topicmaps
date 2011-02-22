@@ -1,0 +1,464 @@
+#
+# ==============
+# Cablegate TAGS
+# ==============
+#
+#
+# Description:  This topic map assigns names to TAGS
+#
+# License:      Public Domain
+#
+# Source:       <https://cabletags.wordpress.com/>
+#
+# Date:         2011-01-04
+#
+# Modified:     2011-02-22
+# 
+
+#
+# Prefixes
+#
+%prefix cg <http://psi.metaleaks.org/cablegate/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix onto <http://psi.metaleaks.org/cablegate/onto/>
+%prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
+%prefix program <http://psi.metaleaks.org/cablegate/program-tag/>
+%prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
+
+
+program:KACT isa onto:program-tag;
+    - "KACT";
+    - dc:title: "Strategic Arms Control (ACS) Treaties".
+
+program:KAWC isa onto:program-tag;
+    - "KAWC";
+    - dc:title: "Atrocities and War Crimes".
+
+program:KBCT isa onto:program-tag;
+    - "KBCT";
+    - dc:title: "Arab League Boycott".
+
+program:KCCP isa onto:program-tag;
+    - "KCCP";
+    - dc:title: "Classified Connectivity Deployment Program".
+
+program:KCFE isa onto:program-tag;
+    - "KCFE";
+    - dc:title: "Conventional Armed Forces in Europe".
+
+program:KCIP isa onto:program-tag;
+    - "KCIP";
+    - dc:title: "Critical Infrastructure Protection".
+
+program:KCIS isa onto:program-tag;
+    - "KCIS";
+    - dc:title: "Posts Classified Information Handling".
+
+program:KCOG isa onto:program-tag;
+    - "KCOG";
+    - dc:title: "Continuity of the Federal Government".
+
+program:KCOM isa onto:program-tag;
+    - "KCOM";
+    - dc:title: "Chief of Mission".
+
+program:KCOR isa onto:program-tag;
+    - "KCOR";
+    - dc:title: "Corruption and Anti-Corruption".
+
+program:KCRM isa onto:program-tag;
+    - "KCRM";
+    - dc:title: "Criminal Activity".
+
+program:KCRS isa onto:program-tag;
+    - "KCRS";
+    - dc:title: "Coordinator for Reconstruction and Stabilization".
+
+program:KCSY isa onto:program-tag;
+    - "KCSY";
+    - dc:title: "Consular System".
+
+program:KDEM isa onto:program-tag;
+    - "KDEM";
+    - dc:title: "Democratization".
+
+program:KDRG isa onto:program-tag;
+    - "KDRG";
+    - dc:title: "Detainee Repatriation from Guantanamo Bay".
+
+program:KEAI isa onto:program-tag;
+    - "KEAI";
+    - dc:title: "Enterprise for the Americas Initiative".
+
+program:KECF isa onto:program-tag;
+    - "KECF";
+    - dc:title: "The U.S. Africa Economic Cooperation Forum".
+
+program:KEMS isa onto:program-tag;
+    - "KEMS";
+    - dc:title: "Electronic Messaging Systems".
+
+program:KESS isa onto:program-tag;
+    - "KESS";
+    - dc:title: "Emergency Security Supplemental".
+
+program:KFAM isa onto:program-tag;
+    - "KFAM";
+    - dc:title: "Foreign Affairs Manual".
+
+program:KFLO isa onto:program-tag;
+    - "KFLO";
+    - dc:title: "Family Liaison".
+
+program:KFLU isa onto:program-tag;
+    - "KFLU";
+    - dc:title: "Avian and Pandemic Influenza Activities".
+
+program:KFPC isa onto:program-tag;
+    - "KFPC";
+    - dc:title: "Foreign Policy Trade Controls and East/West Trade".
+
+program:KFRD isa onto:program-tag;
+    - "KFRD";
+    - dc:title: "Fraud Prevention Programs".
+
+program:KFSC isa onto:program-tag;
+    - "KFSC";
+    - dc:title: "Financial Service Center Operations".
+
+program:KGCN isa onto:program-tag;
+    - "KGCN";
+    - dc:title: "Government to Government Claims Negotiations".
+
+program:KGHA isa onto:program-tag;
+    - "KGHA";
+    - dc:title: "Greater Horn of Africa Initiative".
+
+program:KGHG isa onto:program-tag;
+    - "KGHG";
+    - dc:title: "Global Climate Change".
+
+program:KGIC isa onto:program-tag;
+    - "KGIC";
+    - dc:title: "Global Initiative to Combat Nuclear Terrorism".
+
+program:KGIT isa onto:program-tag;
+    - "KGIT";
+    - dc:title: "Global Information Technology Modernization Program".
+
+program:KGLB isa onto:program-tag;
+    - "KGLB";
+    - dc:title: "Global Learning and Observations to Benefit the Environment (GLOBE)".
+
+program:KHDP isa onto:program-tag;
+    - "KHDP";
+    - dc:title: "Humanitarian Demining Program".
+
+program:KHIV isa onto:program-tag;
+    - "KHIV";
+    - dc:title: "Emerging Infectious Diseases and HIV/AIDS Program".
+
+program:KHLS isa onto:program-tag;
+    - "KHLS";
+    - dc:title: "Homeland Security".
+
+program:KICA isa onto:program-tag;
+    - "KICA";
+    - dc:title: "International Cooperative Administrative Support Services".
+
+program:KICR isa onto:program-tag;
+    - "KICR";
+    - dc:title: "International Coral Reef Initiative".
+
+program:KICT isa onto:program-tag;
+    - "KICT";
+    - dc:title: "Iran-U.S. Claims Tribunal".
+
+program:KIDE isa onto:program-tag;
+    - "KIDE";
+    - dc:title: "Investment Disputes and Property Expropriations".
+
+program:KIMT isa onto:program-tag;
+    - "KIMT";
+    - dc:title: "Information Management Training".
+
+program:KIPR isa onto:program-tag;
+    - "KIPR";
+    - dc:title: "Intellectual Property Rights".
+
+program:KIRC isa onto:program-tag;
+    - "KIRC";
+    - dc:title: "Information Resource Centers".
+
+program:KIRF isa onto:program-tag;
+    - "KIRF";
+    - dc:title: "International Religious Freedom".
+
+program:KISL isa onto:program-tag;
+    - "KISL";
+    - dc:title: "Islamic Issues".
+
+program:KJUS isa onto:program-tag;
+    - "KJUS";
+    - dc:title: "Administration of Justice".
+
+program:KLBO isa onto:program-tag;
+    - "KLBO";
+    - dc:title: "Information Resource Management Liaison Office to Overseas Buildings Operations".
+
+program:KLIG isa onto:program-tag;
+    - "KLIG";
+    - dc:title: "Foreign Litigation".
+
+program:KLSO isa onto:program-tag;
+    - "KLSO";
+    - dc:title: "Language Support Operations".
+
+program:KMCA isa onto:program-tag;
+    - "KMCA";
+    - dc:title: "Millennium Challenge Account".
+
+program:KMDR isa onto:program-tag;
+    - "KMDR";
+    - dc:title: "Media Reaction Reporting".
+
+program:KMFO isa onto:program-tag;
+    - "KMFO";
+    - dc:title: "Multinational Force Observers".
+
+program:KMPI isa onto:program-tag;
+    - "KMPI";
+    - dc:title: "Middle East Partnership Initiative".
+
+program:KMRS isa onto:program-tag;
+    - "KMRS";
+    - dc:title: "Rightsizing the U.S. Government’s Overseas Presence".
+
+program:KMSG isa onto:program-tag;
+    - "KMSG";
+    - dc:title: "Marine Security Guard Program".
+
+program:KNAR isa onto:program-tag;
+    - "KNAR";
+    - dc:title: "Nazi Assets and Restitution".
+
+program:KNEI isa onto:program-tag;
+    - "KNEI";
+    - dc:title: "Northern Europe Initiative (NEI)".
+
+program:KNEP isa onto:program-tag;
+    - "KNEP";
+    - dc:title: "Nonexpendable Property Application (NEPA)".
+
+program:KNET isa onto:program-tag;
+    - "KNET";
+    - dc:title: "Department of State Telecommunications Network (DOSTN) Program".
+
+program:KNNP isa onto:program-tag;
+    - "KNNP";
+    - dc:title: "Nuclear Non- Proliferation".
+
+program:KNSD isa onto:program-tag;
+    - "KNSD";
+    - dc:title: "North-South Dialogue".
+
+program:KOCI isa onto:program-tag;
+    - "KOCI";
+    - dc:title: "Children’s Issues".
+
+program:KOGL isa onto:program-tag;
+    - "KOGL";
+    - dc:title: "Open Source and Gray Literature".
+
+program:KOLY isa onto:program-tag;
+    - "KOLY";
+    - dc:title: "Olympic Games Reporting".
+
+program:KOMC isa onto:program-tag;
+    - "KOMC";
+    - dc:title: "Export Control of Defense Articles and Defense Services".
+
+program:KONP isa onto:program-tag;
+    - "KONP";
+    - dc:title: "OpenNet Plus Program".
+
+program:KPAL isa onto:program-tag;
+    - "KPAL";
+    - dc:title: "Palestinian Affairs".
+
+program:KPAM isa onto:program-tag;
+    - "KPAM";
+    - dc:title: "Property Accountability Management".
+
+program:KPAO isa onto:program-tag;
+    - "KPAO";
+    - dc:title: "Public Affairs Office".
+
+program:KPAP isa onto:program-tag;
+    - "KPAP";
+    - dc:title: "Overseas Presence Advisory Panel (OPAP)".
+
+program:KPDC isa onto:program-tag;
+    - "KPDC";
+    - dc:title: "Protected Digital Copier".
+
+program:KPIN isa onto:program-tag;
+    - "KPIN";
+    - dc:title: "Political Internationals".
+
+program:KPIR isa onto:program-tag;
+    - "KPIR";
+    - dc:title: "Maritime Piracy and Armed Robbery Against Ships".
+
+program:KPKO isa onto:program-tag;
+    - "KPKO";
+    - dc:title: "United Nations Peacekeeping Operations".
+
+program:KPLS isa onto:program-tag;
+    - "KPLS";
+    - dc:title: "Polls, Survey Research and Focus Groups".
+
+program:KPMP isa onto:program-tag;
+    - "KPMP";
+    - dc:title: "Patch Management Program".
+
+program:KPOW isa onto:program-tag;
+    - "KPOW";
+    - dc:title: "Prisoners of War/Missing in Action".
+
+program:KPRV isa onto:program-tag;
+    - "KPRV";
+    - dc:title: "Privatization".
+
+program:KPWR isa onto:program-tag;
+    - "KPWR";
+    - dc:title: "Power Support Program".
+
+program:KQDD isa onto:program-tag;
+    - "KQDD";
+    - dc:title: "Quadrennial Diplomacy and Developments Review".
+
+program:KRAD isa onto:program-tag;
+    - "KRAD";
+    - dc:title: "Radioactive Contamination of the Environment".
+
+program:KREC isa onto:program-tag;
+    - "KREC";
+    - dc:title: "Reciprocity".
+
+program:KRIM isa onto:program-tag;
+    - "KRIM";
+    - dc:title: "Regional Information Management Centers".
+
+program:KRVC isa onto:program-tag;
+    - "KRVC";
+    - dc:title: "Research Vessel Clearances".
+
+program:KSAC isa onto:program-tag;
+    - "KSAC";
+    - dc:title: "Security Advisory Council".
+
+program:KSAF isa onto:program-tag;
+    - "KSAF";
+    - dc:title: "Safety Program".
+
+program:KSCA isa onto:program-tag;
+    - "KSCA";
+    - dc:title: "Science Counselors and Attachés".
+
+program:KSEI isa onto:program-tag;
+    - "KSEI";
+    - dc:title: "Southeast European Cooperative Initiative".
+
+program:KSEO isa onto:program-tag;
+    - "KSEO";
+    - dc:title: "Security Engineering Operations".
+
+program:KSIP isa onto:program-tag;
+    - "KSIP";
+    - dc:title: "IT Skills Incentive Program".
+
+program:KSLG isa onto:program-tag;
+    - "KSLG";
+    - dc:title: "Secure Logistics".
+
+program:KSPR isa onto:program-tag;
+    - "KSPR";
+    - dc:title: "Strategic, Performance and Resource Planning".
+
+program:KSRK isa onto:program-tag;
+    - "KSRK";
+    - dc:title: "Visas Shark Communication".
+
+program:KSTC isa onto:program-tag;
+    - "KSTC";
+    - dc:title: "Strategic Trade and Technology Controls".
+
+program:KSTT isa onto:program-tag;
+    - "KSTT";
+    - dc:title: "State Transition Team".
+
+program:KSUM isa onto:program-tag;
+    - "KSUM";
+    - dc:title: "Summit Meetings".
+
+program:KTDB isa onto:program-tag;
+    - "KTDB";
+    - dc:title: "National Trade Data Bank".
+
+program:KTEX isa onto:program-tag;
+    - "KTEX";
+    - dc:title: "Textiles".
+
+program:KTFN isa onto:program-tag;
+    - "KTFN";
+    - dc:title: "Terrorism Finance Traffic".
+
+program:KTIA isa onto:program-tag;
+    - "KTIA";
+    - dc:title: "Treaties and International Agreements".
+
+program:KTIP isa onto:program-tag;
+    - "KTIP";
+    - dc:title: "Trafficking in Persons".
+
+program:KTSD isa onto:program-tag;
+    - "KTSD";
+    - dc:title: "Trilateral Strategic Dialogue".
+
+program:KUNC isa onto:program-tag;
+    - "KUNC";
+    - dc:title: "United Nations Compensation Commission".
+
+program:KUNR isa onto:program-tag;
+    - "KUNR";
+    - dc:title: "UN Reform".
+
+program:KVIR isa onto:program-tag;
+    - "KVIR";
+    - dc:title: "Computer Virus and/or Anti-Virus Program".
+
+program:KVPR isa onto:program-tag;
+    - "KVPR";
+    - dc:title: "Visas VIPER Communications".
+
+program:KWBG isa onto:program-tag;
+    - "KWBG";
+    - dc:title: "West Bank and Gaza".
+
+program:KWIR isa onto:program-tag;
+    - "KWIR";
+    - dc:title: "Wireless".
+
+program:KWMN isa onto:program-tag;
+    - "KWMN";
+    - dc:title: "Women Issues".
+
+program:KWPA isa onto:program-tag;
+    - "KWPA";
+    - dc:title: "Worldwide Property Accountability".
+
+program:KWWW isa onto:program-tag;
+    - "KWWW";
+    - dc:title: "World Wide Web Site".
+

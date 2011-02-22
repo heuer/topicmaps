@@ -1,0 +1,412 @@
+#
+# ==============
+# Cablegate TAGS
+# ==============
+#
+#
+# Description:  This topic map assigns names to TAGS
+#
+# License:      Public Domain
+#
+# Source:       <https://cabletags.wordpress.com/>
+#
+# Date:         2011-01-04
+#
+# Modified:     2011-02-22
+# 
+
+#
+# Prefixes
+#
+%prefix cg <http://psi.metaleaks.org/cablegate/>
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix onto <http://psi.metaleaks.org/cablegate/onto/>
+%prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
+%prefix program <http://psi.metaleaks.org/cablegate/program-tag/>
+%prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
+
+
+subj:AADP isa onto:subject-tag;
+    - "AADP";
+    - dc:title: "Automated Data Processing".
+
+subj:ABLD isa onto:subject-tag;
+    - "ABLD";
+    - dc:title: "Buildings and Grounds".
+
+subj:ABUD isa onto:subject-tag;
+    - "ABUD";
+    - dc:title: "Budget Services and Financial Systems".
+
+subj:ACOA isa onto:subject-tag;
+    - "ACOA";
+    - dc:title: "Communication Operations and Administration".
+
+subj:ACKM isa onto:subject-tag;
+    - "ACKM";
+    - dc:title: "COMSEC Key Management".
+
+subj:ADCO isa onto:subject-tag;
+    - "ADCO";
+    - dc:title: "Diplomatic Courier Operations".
+
+subj:ADPM isa onto:subject-tag;
+    - "ADPM";
+    - dc:title: "Diplomatic Pouch and Mail".
+
+subj:AEMR isa onto:subject-tag;
+    - "AEMR";
+    - dc:title: "Emergency Planning and Evacuation".
+
+subj:AFIN isa onto:subject-tag;
+    - "AFIN";
+    - dc:title: "Financial Management".
+
+subj:AFSI isa onto:subject-tag;
+    - "AFSI";
+    - dc:title: "Foreign Service Institute".
+
+subj:AFSN isa onto:subject-tag;
+    - "AFSN";
+    - dc:title: "Foreign Service National Personnel".
+
+subj:AGAO isa onto:subject-tag;
+    - "AGAO";
+    - dc:title: "General Accounting Office".
+
+subj:AINF isa onto:subject-tag;
+    - "AINF";
+    - dc:title: "Information Management Services".
+
+subj:AINR isa onto:subject-tag;
+    - "AINR";
+    - dc:title: "INR Program Administration".
+
+subj:AINT isa onto:subject-tag;
+    - "AINT";
+    - dc:title: "Internet Administration".
+
+subj:ALOW isa onto:subject-tag;
+    - "ALOW";
+    - dc:title: "Allowances".
+
+subj:AMED isa onto:subject-tag;
+    - "AMED";
+    - dc:title: "Medical Services".
+
+subj:AMGT isa onto:subject-tag;
+    - "AMGT";
+    - dc:title: "Management Operations".
+
+subj:AMTC isa onto:subject-tag;
+    - "AMTC";
+    - dc:title: "Telecommunications Equipment Maintenance".
+
+subj:ANET isa onto:subject-tag;
+    - "ANET";
+    - dc:title: "Communications, Circuits, and Networks".
+
+subj:AODE isa onto:subject-tag;
+    - "AODE";
+    - dc:title: "Employees Abroad".
+
+subj:AOMS isa onto:subject-tag;
+    - "AOMS";
+    - dc:title: "Office Management Specialist Issues".
+
+subj:AORC isa onto:subject-tag;
+    - "AORC";
+    - dc:title: "International Organizations and Conferences".
+
+subj:APCS isa onto:subject-tag;
+    - "APCS";
+    - dc:title: "Personal Computers".
+
+subj:APER isa onto:subject-tag;
+    - "APER";
+    - dc:title: "Personnel".
+
+subj:ASCH isa onto:subject-tag;
+    - "ASCH";
+    - dc:title: "U.S. Sponsored Schools".
+
+subj:ASEC isa onto:subject-tag;
+    - "ASEC";
+    - dc:title: "Security".
+
+subj:ASIG isa onto:subject-tag;
+    - "ASIG";
+    - dc:title: "Inspector General Activities".
+
+subj:BBSR isa onto:subject-tag;
+    - "BBSR";
+    - dc:title: "Business Services Reporting".
+
+subj:BEXP isa onto:subject-tag;
+    - "BEXP";
+    - dc:title: "Trade Expansion and Promotion".
+
+subj:BMGT isa onto:subject-tag;
+    - "BMGT";
+    - dc:title: "FCS Management Operations".
+
+subj:BTIO isa onto:subject-tag;
+    - "BTIO";
+    - dc:title: "Trade and Investment Opportunities".
+
+subj:CASC isa onto:subject-tag;
+    - "CASC";
+    - dc:title: "Assistance to Citizens".
+
+subj:CFED isa onto:subject-tag;
+    - "CFED";
+    - dc:title: "Federal Agency Services".
+
+subj:CJAN isa onto:subject-tag;
+    - "CJAN";
+    - dc:title: "Judicial Assistance and Notarial Services".
+
+subj:CLOK isa onto:subject-tag;
+    - "CLOK";
+    - dc:title: "Visa Lookout".
+
+subj:CMGT isa onto:subject-tag;
+    - "CMGT";
+    - dc:title: "Consular Administration and Management".
+
+subj:CPAS isa onto:subject-tag;
+    - "CPAS";
+    - dc:title: "Passport and Citizenship".
+
+subj:CVIS isa onto:subject-tag;
+    - "CVIS";
+    - dc:title: "Visas".
+
+subj:EAGR isa onto:subject-tag;
+    - "EAGR";
+    - dc:title: "Agriculture and Forestry".
+
+subj:EAID isa onto:subject-tag;
+    - "EAID";
+    - dc:title: "Foreign Economic Assistance".
+
+subj:EAIR isa onto:subject-tag;
+    - "EAIR";
+    - dc:title: "Civil Aviation".
+
+subj:ECON isa onto:subject-tag;
+    - "ECON";
+    - dc:title: "Economic Conditions".
+
+subj:ECPS isa onto:subject-tag;
+    - "ECPS";
+    - dc:title: "Communications and Postal Systems".
+
+subj:EFIN isa onto:subject-tag;
+    - "EFIN";
+    - dc:title: "Financial and Monetary Affairs".
+
+subj:EFIS isa onto:subject-tag;
+    - "EFIS";
+    - dc:title: "Commercial Fishing and Fish Processing".
+
+subj:EIND isa onto:subject-tag;
+    - "EIND";
+    - dc:title: "Industry and Manufacturing".
+
+subj:EINT isa onto:subject-tag;
+    - "EINT";
+    - dc:title: "Economic and Commercial Internet".
+
+subj:EINV isa onto:subject-tag;
+    - "EINV";
+    - dc:title: "Foreign Investments".
+
+subj:ELAB isa onto:subject-tag;
+    - "ELAB";
+    - dc:title: "Labor Sector Affairs".
+
+subj:ELTN isa onto:subject-tag;
+    - "ELTN";
+    - dc:title: "Land Transportation".
+
+subj:EMIN isa onto:subject-tag;
+    - "EMIN";
+    - dc:title: "Minerals and Metals".
+
+subj:ENRG isa onto:subject-tag;
+    - "ENRG";
+    - dc:title: "Energy and Power".
+
+subj:EPET isa onto:subject-tag;
+    - "EPET";
+    - dc:title: "Petroleum and Natural Gas".
+
+subj:ETRD isa onto:subject-tag;
+    - "ETRD";
+    - dc:title: "Foreign Trade".
+
+subj:ETTC isa onto:subject-tag;
+    - "ETTC";
+    - dc:title: "Trade and Technology Controls".
+
+subj:EWWT isa onto:subject-tag;
+    - "EWWT";
+    - dc:title: "Waterborne Transportation".
+
+subj:MARR isa onto:subject-tag;
+    - "MARR";
+    - dc:title: "Military and Defense Arrangements".
+
+subj:MASS isa onto:subject-tag;
+    - "MASS";
+    - dc:title: "Military Assistance and Sales".
+
+subj:MCAP isa onto:subject-tag;
+    - "MCAP";
+    - dc:title: "Military Capabilities".
+
+subj:MNUC isa onto:subject-tag;
+    - "MNUC";
+    - dc:title: "Military Nuclear Applications".
+
+subj:MOPS isa onto:subject-tag;
+    - "MOPS";
+    - dc:title: "Military Operations".
+
+subj:ODIP isa onto:subject-tag;
+    - "ODIP";
+    - dc:title: "U.S. Diplomatic Representation".
+
+subj:OEXC isa onto:subject-tag;
+    - "OEXC";
+    - dc:title: "Educational and Cultural Exchange Operations".
+
+subj:OFDP isa onto:subject-tag;
+    - "OFDP";
+    - dc:title: "Foreign Diplomats and Foreign Missions".
+
+subj:OIIP isa onto:subject-tag;
+    - "OIIP";
+    - dc:title: "International Information Programs".
+
+subj:OPDC isa onto:subject-tag;
+    - "OPDC";
+    - dc:title: "Diplomatic Correspondence".
+
+subj:OPRC isa onto:subject-tag;
+    - "OPRC";
+    - dc:title: "Public Relations and Correspondence".
+
+subj:OREP isa onto:subject-tag;
+    - "OREP";
+    - dc:title: "U.S. Congressional Travel".
+
+subj:OSCI isa onto:subject-tag;
+    - "OSCI";
+    - dc:title: "Science Grants".
+
+subj:OTRA isa onto:subject-tag;
+    - "OTRA";
+    - dc:title: "Travel".
+
+subj:OVIP isa onto:subject-tag;
+    - "OVIP";
+    - dc:title: "Visits and Travel of Prominent Individuals and Leaders".
+
+subj:PARM isa onto:subject-tag;
+    - "PARM";
+    - dc:title: "Arms Controls and Disarmament".
+
+subj:PBTS isa onto:subject-tag;
+    - "PBTS";
+    - dc:title: "National Boundaries, Territories, and Sovereignty".
+
+subj:PGOV isa onto:subject-tag;
+    - "PGOV";
+    - dc:title: "Internal Governmental Affairs".
+
+subj:PHSA isa onto:subject-tag;
+    - "PHSA";
+    - dc:title: "High Seas Affairs".
+
+subj:PHUM isa onto:subject-tag;
+    - "PHUM";
+    - dc:title: "Human Rights".
+
+subj:PINR isa onto:subject-tag;
+    - "PINR";
+    - dc:title: "Intelligence".
+
+subj:PINS isa onto:subject-tag;
+    - "PINS";
+    - dc:title: "National Security".
+
+subj:PNAT isa onto:subject-tag;
+    - "PNAT";
+    - dc:title: "National Independence".
+
+subj:PREF isa onto:subject-tag;
+    - "PREF";
+    - dc:title: "Refugees".
+
+subj:PREL isa onto:subject-tag;
+    - "PREL";
+    - dc:title: "External Political Relations".
+
+subj:PROP isa onto:subject-tag;
+    - "PROP";
+    - dc:title: "Propaganda and Psychological Operations".
+
+subj:PTER isa onto:subject-tag;
+    - "PTER";
+    - dc:title: "Terrorists and Terrorism".
+
+subj:SCUL isa onto:subject-tag;
+    - "SCUL";
+    - dc:title: "Cultural Affairs".
+
+subj:SENV isa onto:subject-tag;
+    - "SENV";
+    - dc:title: "Environmental Affairs".
+
+subj:SMIG isa onto:subject-tag;
+    - "SMIG";
+    - dc:title: "Migration".
+
+subj:SNAR isa onto:subject-tag;
+    - "SNAR";
+    - dc:title: "Narcotics".
+
+subj:SOCI isa onto:subject-tag;
+    - "SOCI";
+    - dc:title: "Social Conditions".
+
+subj:TBIO isa onto:subject-tag;
+    - "TBIO";
+    - dc:title: "Biological and Medical Science".
+
+subj:TINT isa onto:subject-tag;
+    - "TINT";
+    - dc:title: "Internet Technology".
+
+subj:TNGD isa onto:subject-tag;
+    - "TNGD";
+    - dc:title: "Engineering Research and Development".
+
+subj:TPHY isa onto:subject-tag;
+    - "TPHY";
+    - dc:title: "Physical Sciences".
+
+subj:TRGY isa onto:subject-tag;
+    - "TRGY";
+    - dc:title: "Energy Technology".
+
+subj:TSPA isa onto:subject-tag;
+    - "TSPA";
+    - dc:title: "Space Activities".
+
+subj:TSPL isa onto:subject-tag;
+    - "TSPL";
+    - dc:title: "Science and Technology Policy".
+
