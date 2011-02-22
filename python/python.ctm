@@ -70,3 +70,28 @@ p:pythonfutures
     doap:description: "A futures implementation for Python (backport of PEP 3148)";
     pep: <http://www.python.org/dev/peps/pep-3148/>;
 .
+
+p:tenjin
+    - "Tenjin";
+    doap:homepage: <http://www.kuwata-lab.com/tenjin/>;
+    doap:description: "A fast and full-featured template engine based on embedded Python";
+.
+
+p:ply
+    - "PLY";
+    doap:homepage: <http://www.dabeaz.com/ply/>
+    doap:description: "PLY is yet another implementation of lex and yacc for Python. Some notable features include the fact that its implemented entirely in Python and it uses LALR(1) parsing which is efficient and well suited for larger grammars.";
+.
+
+p:cython
+    - "Cython";
+    doap:description: "The Cython compiler for writing C extensions for the Python language.";
+    doap:homepage: <http://cython.org/>;
+.
+
+p:nltk
+    - "NLTK - Natural Language Toolkit";
+    doap:description: "The Natural Language Toolkit (NLTK) is a Python package for processing natural language text.";
+    doap:homepage: <http://www.nltk.org/>;
+.
+
