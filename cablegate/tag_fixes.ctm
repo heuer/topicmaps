@@ -12,14 +12,14 @@
 # Date:         2010-12-29
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
+%prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
 %prefix tag <http://psi.metaleaks.org/cablegate/tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
 
-#
-# Additional names
-#
-
+# -----------
+# Person TAGS
+# -----------
 <http://psi.metaleaks.org/cablegate/person-tag/CLINTON,%20HILLARY> isa onto:person-tag;
     - "CLINTON, HILLARY"; 
     -dc:title: "Hillary Clinton".
@@ -36,13 +36,22 @@
     - "STEINBERG, JAMES B."; 
     - dc:title: "James B. Steinberg".
 
-#
-#TODO: Decide the kind of tag and the namespace
-#
-<http://psi.metaleaks.org/cablegate/tag/GAZA%20DISENGAGEMENT> - "GAZA DISENGAGEMENT"; - dc:title: "Gaza disengagement".
+<http://psi.metaleaks.org/cablegate/person-tag/ZOELLICK,%20ROBERT> isa onto:person-tag;
+    - "ZOELLICK, ROBERT"; 
+    - dc:title: "Robert Zoellick".
 
-<http://psi.metaleaks.org/cablegate/tag/ISRAELI%20PALESTINIAN%20AFFAIRS> - "ISRAELI PALESTINIAN AFFAIRS"; - dc:title: "Israeli Palestinian affairs".
+# ------------
+# Subject TAGS
+#-------------
 
-<http://psi.metaleaks.org/cablegate/tag/ZOELLICK,%20ROBERT> - "ZOELLICK, ROBERT"; - dc:title: "Robert Zoellick".
+<http://psi.metaleaks.org/cablegate/subject-tag/GAZA%20DISENGAGEMENT> isa onto:subject-tag;
+    - "GAZA DISENGAGEMENT"; 
+    - dc:title: "Gaza disengagement".
 
-tag:COUNTERTERRORISM - "COUNTERTERRORISM"; -dc:title: "Counter-terrorism".
+<http://psi.metaleaks.org/cablegate/subject-tag/ISRAELI%20PALESTINIAN%20AFFAIRS> isa onto:subject-tag;
+    - "ISRAELI PALESTINIAN AFFAIRS"; 
+    - dc:title: "Israeli Palestinian affairs".
+
+subj:COUNTERTERRORISM isa onto:subject-tag;
+    - "COUNTERTERRORISM"; 
+    -dc:title: "Counter-terrorism".
