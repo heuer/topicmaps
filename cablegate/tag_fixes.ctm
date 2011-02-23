@@ -13,7 +13,6 @@
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
-%prefix tag <http://psi.metaleaks.org/cablegate/tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 
 
