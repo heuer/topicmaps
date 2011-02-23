@@ -127,3 +127,9 @@ p:mutagen
     doap:description: "Mutagen is a Python module to handle audio metadata. It supports ASF, FLAC, M4A, Monkey's Audio, MP3, Musepack, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, WavPack and OptimFROG audio files. All versions of ID3v2 are supported, and all standard ID3v2.4 frames are parsed.";
     doap:homepage: <https://code.google.com/p/mutagen/>;
 .
+
+p:pyyaml
+    - "PyYAML";
+    doap:description: "YAML parser and emitter for Python";
+    doap:homepage: <http://pyyaml.org/wiki/PyYAML>;
+.
