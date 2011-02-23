@@ -133,3 +133,15 @@ p:pyyaml
     doap:description: "YAML parser and emitter for Python";
     doap:homepage: <http://pyyaml.org/wiki/PyYAML>;
 .
+
+p:sphinx
+    - "Sphinx";
+    doap:homepage: <http://sphinx.pocoo.org/>;
+    doap:description: "Python documentation generator";
+.
+
+p:docutils
+    - "Docutils";
+    doap:homepage: <http://docutils.sourceforge.net/>;
+    doap:description: "Docutils is a modular system for processing documentation into useful formats, such as HTML, XML, and LaTeX. For input Docutils supports reStructuredText, an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax.";
+.
