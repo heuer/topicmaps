@@ -23,7 +23,7 @@ p:tablefactory
     - "Tablefactory";
     doap:homepage: <http://kstrauser.github.com/tablefactory/>;
     repository: <https://github.com/kstrauser/tablefactory>;
-    doap:description: "TableFactory is a simple API for creating tables in popular formats. It acts as a wrapper around other popular Python report generators and handles all the tedious, boilerplate problems of extracting columns from input data, creating the layout, applying formatting to cells, etc. ";
+    doap:description: "TableFactory is a simple API for creating tables in popular formats. It acts as a wrapper around other popular Python report generators and handles all the tedious, boilerplate problems of extracting columns from input data, creating the layout, applying formatting to cells, etc.";
 .
 
 p:xlwt
