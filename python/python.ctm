@@ -23,7 +23,7 @@ p:tablefactory
     - "Tablefactory";
     doap:homepage: <http://kstrauser.github.com/tablefactory/>;
     repository: <https://github.com/kstrauser/tablefactory>;
-    doap:description: "TableFactory is a simple API for creating tables in popular formats. It acts as a wrapper around other popular Python report generators and handles all the tedious, boilerplate problems of extracting columns from input data, creating the layout, applying formatting to cells, etc. ";
+    doap:description: "TableFactory is a simple API for creating tables in popular formats. It acts as a wrapper around other popular Python report generators and handles all the tedious, boilerplate problems of extracting columns from input data, creating the layout, applying formatting to cells, etc.";
 .
 
 p:xlwt
@@ -126,4 +126,28 @@ p:pyside
     - "PySide";
     doap:homepage: <http://www.pyside.org/>;
     doap:description: "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework. PySide Qt bindings allow both free open source and proprietary software development and ultimately aim to support all of the platforms as Qt itself.";
+.
+
+p:mutagen
+    - "Mutagen";
+    doap:description: "Mutagen is a Python module to handle audio metadata. It supports ASF, FLAC, M4A, Monkey's Audio, MP3, Musepack, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, WavPack and OptimFROG audio files. All versions of ID3v2 are supported, and all standard ID3v2.4 frames are parsed.";
+    doap:homepage: <https://code.google.com/p/mutagen/>;
+.
+
+p:pyyaml
+    - "PyYAML";
+    doap:description: "YAML parser and emitter for Python";
+    doap:homepage: <http://pyyaml.org/wiki/PyYAML>;
+.
+
+p:sphinx
+    - "Sphinx";
+    doap:homepage: <http://sphinx.pocoo.org/>;
+    doap:description: "Python documentation generator";
+.
+
+p:docutils
+    - "Docutils";
+    doap:homepage: <http://docutils.sourceforge.net/>;
+    doap:description: "Docutils is a modular system for processing documentation into useful formats, such as HTML, XML, and LaTeX. For input Docutils supports reStructuredText, an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax.";
 .
