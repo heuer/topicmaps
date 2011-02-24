@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-02-23
+# Modified:     2011-02-24
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -122,6 +122,12 @@ p:redis-py
     doap:homepage: <https://github.com/andymccurdy/redis-py>;
 .
 
+p:pyside
+    - "PySide";
+    doap:homepage: <http://www.pyside.org/>;
+    doap:description: "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework. PySide Qt bindings allow both free open source and proprietary software development and ultimately aim to support all of the platforms as Qt itself.";
+.
+
 p:mutagen
     - "Mutagen";
     doap:description: "Mutagen is a Python module to handle audio metadata. It supports ASF, FLAC, M4A, Monkey's Audio, MP3, Musepack, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, WavPack and OptimFROG audio files. All versions of ID3v2 are supported, and all standard ID3v2.4 frames are parsed.";
@@ -151,4 +157,11 @@ p:whoosh
     doap:homepage: <http://bitbucket.org/mchaput/whoosh>;
     doap:description: "Whoosh is a library of classes and functions for indexing text and then searching the index.";
     doap:mailing-list: <http://groups.google.com/group/whoosh>;
+.
+
+p:gensim
+    - "Gensim";
+    - doap:description: "Python Framework for Vector Space Modelling";
+    doap:homepage: <http://nlp.fi.muni.cz/projekty/gensim/>;
+    repository: <https://github.com/piskvorky/gensim/>;
 .
