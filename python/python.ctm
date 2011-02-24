@@ -161,7 +161,15 @@ p:whoosh
 
 p:gensim
     - "Gensim";
-    - doap:description: "Python Framework for Vector Space Modelling";
+    doap:description: "Python Framework for Vector Space Modelling";
     doap:homepage: <http://nlp.fi.muni.cz/projekty/gensim/>;
     repository: <https://github.com/piskvorky/gensim/>;
+.
+
+p:pyro
+    - "Pyro";
+    doap:description: "Distributed object middleware for Python (IPC/RPC)
+
+Pyro stands for PYthon Remote Objects. It is an advanced and powerful Distributed Object Technology system written entirely in Python";
+    doap:homepage: <http://www.xs4all.nl/~irmen/pyro3/>;
 .
