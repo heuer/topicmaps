@@ -145,3 +145,10 @@ p:docutils
     doap:homepage: <http://docutils.sourceforge.net/>;
     doap:description: "Docutils is a modular system for processing documentation into useful formats, such as HTML, XML, and LaTeX. For input Docutils supports reStructuredText, an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax.";
 .
+
+p:whoosh
+    - "Whoosh";
+    doap:homepage: <http://bitbucket.org/mchaput/whoosh>;
+    doap:description: "Whoosh is a library of classes and functions for indexing text and then searching the index.";
+    doap:mailing-list: <http://groups.google.com/group/whoosh>;
+.
