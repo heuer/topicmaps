@@ -161,7 +161,21 @@ p:whoosh
 
 p:gensim
     - "Gensim";
-    - doap:description: "Python Framework for Vector Space Modelling";
+    doap:description: "Python Framework for Vector Space Modelling";
     doap:homepage: <http://nlp.fi.muni.cz/projekty/gensim/>;
     repository: <https://github.com/piskvorky/gensim/>;
+.
+
+p:circuits
+    - "circuits";
+    doap:description: "Lightweight Event driven and Asynchronous Application Framework for the Python Programming Language with a strong Component Architecture";
+    doap:homepage: <https://bitbucket.org/prologic/circuits/>;
+    doap:mailing-list: <https://bitbucket.org/prologic/circuits/>;
+.
+
+p:processing
+    - "processing";
+    doap:description: "Package for using processes which mimics the threading module
+processing is a package for the Python language which supports the spawning of processes using the API of the standard library's threading module. It runs on both Unix and Windows.";
+    doap:homepage: <http://developer.berlios.de/projects/pyprocessing>;
 .
