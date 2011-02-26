@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-02-24
+# Modified:     2011-02-26
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -172,4 +172,23 @@ p:pyro
 
 Pyro stands for PYthon Remote Objects. It is an advanced and powerful Distributed Object Technology system written entirely in Python";
     doap:homepage: <http://www.xs4all.nl/~irmen/pyro3/>;
+
+p:circuits
+    - "circuits";
+    doap:description: "Lightweight Event driven and Asynchronous Application Framework for the Python Programming Language with a strong Component Architecture";
+    doap:homepage: <https://bitbucket.org/prologic/circuits/>;
+    doap:mailing-list: <https://bitbucket.org/prologic/circuits/>;
+.
+
+p:processing
+    - "processing";
+    doap:description: "Package for using processes which mimics the threading module
+processing is a package for the Python language which supports the spawning of processes using the API of the standard library's threading module. It runs on both Unix and Windows.";
+    doap:homepage: <http://developer.berlios.de/projects/pyprocessing>;
+.
+
+p:six
+    - "six";
+    doap:description: "Six provides simple utilities for wrapping over differences between Python 2 and Python 3";
+    doap:homepage: <http://packages.python.org/six/>;
 .
