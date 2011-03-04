@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-02-26
+# Modified:     2011-03-04
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -191,4 +191,10 @@ p:six
     - "six";
     doap:description: "Six provides simple utilities for wrapping over differences between Python 2 and Python 3";
     doap:homepage: <http://packages.python.org/six/>;
+.
+
+p:xlrd
+    - "xlrd";
+    doap:description: "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files";
+    doap:homepage: <http://www.lexicon.net/sjmachin/xlrd.htm>;
 .
