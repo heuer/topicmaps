@@ -198,3 +198,9 @@ p:xlrd
     doap:description: "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files";
     doap:homepage: <http://www.lexicon.net/sjmachin/xlrd.htm>;
 .
+
+p:cmislib
+    - "cmislib";
+    doap:description: "Implementation of the Content Management Interoperability Services (CMIS) specification.";
+    doap:homepage: <http://chemistry.apache.org/python/cmislib.html>;
+.
