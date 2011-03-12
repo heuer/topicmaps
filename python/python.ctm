@@ -222,3 +222,16 @@ p:agamemnon
 It allows you to use the Cassandra database (<http://cassandra.apache.org>) as a graph database. 
 Much of the API was inspired by the neo4j.py project (<http://components.neo4j.org/neo4j.py/snapshot/>)");
 .
+
+p:cmislib
+    - "cmislib";
+    doap:description: "Implementation of the Content Management Interoperability Services (CMIS) specification.";
+    doap:homepage: <http://chemistry.apache.org/python/cmislib.html>;
+.
+
+p:lindypy
+    - "lindpy";
+    - "Linda Tuple Spaces in Python";
+    doap:description: "This package implements simple Linda Tuple Spaces in Python, using multiprocessing to allow writing code that makes full use of multicore machines by still retaining a very simple communications API.";
+    doap:homepage: <http://pypi.python.org/pypi/lindypy/>;
+.
