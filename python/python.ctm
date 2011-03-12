@@ -20,7 +20,7 @@
 %prefix doap <http://usefulinc.com/ns/doap#>
 
 def nhd($t, $name, $homepage, $description)
-    $t - $name; doap:homepage: $homepage; doap:description: $description;
+    $t - $name; doap:homepage: $homepage; doap:description: $description.
 end
 
 p:tablefactory
