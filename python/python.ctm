@@ -12,12 +12,16 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-03-04
+# Modified:     2011-03-12
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/python-projects/>
 %prefix doap <http://usefulinc.com/ns/doap#>
+
+def nhd($t, $name, $homepage, $description)
+    $t - $name; doap:homepage: $homepage; doap:description: $description;
+end
 
 p:tablefactory
     - "Tablefactory";
@@ -197,4 +201,24 @@ p:xlrd
     - "xlrd";
     doap:description: "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files";
     doap:homepage: <http://www.lexicon.net/sjmachin/xlrd.htm>;
+.
+
+p:imapclient
+    - "IMAPClient";
+    doap:homepage: <http://imapclient.freshfoo.com/>;
+    doap:description: "IMAPClient aims to be a easy-to-use, Pythonic and complete IMAP client library with no dependencies outside the Python standard library.";
+.
+
+p:pycassa
+    nhd("pycassa", 
+        <https://github.com/pycassa/pycassa>, 
+        "pycassa is a python client library for Apache Cassandra");
+.
+
+p:agamemnon
+    nhd("Agamemnon", 
+        <https://github.com/turtlebender/agamemnon>, 
+        "Agamemnon is a thin library built on top of pycassa. 
+It allows you to use the Cassandra database (<http://cassandra.apache.org>) as a graph database. 
+Much of the API was inspired by the neo4j.py project (<http://components.neo4j.org/neo4j.py/snapshot/>)");
 .
