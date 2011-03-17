@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-03-12
+# Modified:     2011-03-17
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -234,4 +234,12 @@ p:lindypy
     - "Linda Tuple Spaces in Python";
     doap:description: "This package implements simple Linda Tuple Spaces in Python, using multiprocessing to allow writing code that makes full use of multicore machines by still retaining a very simple communications API.";
     doap:homepage: <http://pypi.python.org/pypi/lindypy/>;
+.
+
+p:vatnumber
+    nhd("vatnumber", <https://code.google.com/p/vatnumber/>, "Python module to validate VAT numbers.")
+.
+
+p:Suds
+    nhd("Suds", <https://fedorahosted.org/suds/>, "Suds is a lightweight SOAP python client for consuming Web Services.");
 .
