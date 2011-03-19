@@ -248,3 +248,14 @@ p:SleekXMPP
     nhd("SleekXMPP", <https://github.com/fritzy/SleekXMPP>, "SleekXMPP is an XMPP library written for Python 3.1+ (with 2.6 compatibility).");
     doap:mailing-list: <http://groups.google.com/group/sleekxmpp-discussion>;
 .
+
+p:WsgiDAV
+    nhd("WsgiDAV", <http://wsgidav.googlecode.com/>, "Generic WebDAV server based on WSGI
+
+WsgiDAV is a WebDAV server for sharing files and other resources over the web. It is based on the WSGI interface.");
+    doap:mailing-list: <https://groups.google.com/group/wsgidav>;
+.
+
+p:CloudDAV
+    nhd("CloudDAV", <https://code.google.com/p/clouddav/>, "CloudDAV is a WebDAV application that implements a virtual file system built on Google App Engine's data store.");
+.
