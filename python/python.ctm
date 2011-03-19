@@ -243,3 +243,8 @@ p:vatnumber
 p:Suds
     nhd("Suds", <https://fedorahosted.org/suds/>, "Suds is a lightweight SOAP python client for consuming Web Services.");
 .
+
+p:SleekXMPP
+    nhd("SleekXMPP", <https://github.com/fritzy/SleekXMPP>, "SleekXMPP is an XMPP library written for Python 3.1+ (with 2.6 compatibility).");
+    doap:mailing-list: <http://groups.google.com/group/sleekxmpp-discussion>;
+.
