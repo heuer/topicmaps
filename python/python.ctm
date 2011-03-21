@@ -261,5 +261,9 @@ p:CloudDAV
 .
 
 p:ijson 
-    nhd("ijson" <https://launchpad.net/ijson>, "Ijson is a Python wrapper to YAJL which is a streaming SAX-like JSON parser. Ijson provides a standard Python iterator interface for it.");
+    nhd("ijson", <https://launchpad.net/ijson>, "Ijson is a Python wrapper to YAJL which is a streaming SAX-like JSON parser. Ijson provides a standard Python iterator interface for it.");
+.
+
+p:pyfilesystem
+    nhd("Pyfilesystem", <https://code.google.com/p/pyfilesystem/>, "Pyfilesystem is a Python module that provides a simplified common interface to many types of filesystem. Filesystems exposed via Pyfilesystem can also be served over the network, or 'mounted' on the native filesystem.");
 .
