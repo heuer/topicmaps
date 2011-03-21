@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-03-17
+# Modified:     2011-03-21
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -258,4 +258,8 @@ WsgiDAV is a WebDAV server for sharing files and other resources over the web. I
 
 p:CloudDAV
     nhd("CloudDAV", <https://code.google.com/p/clouddav/>, "CloudDAV is a WebDAV application that implements a virtual file system built on Google App Engine's data store.");
+.
+
+p:ijson 
+    nhd("ijson" <https://launchpad.net/ijson>, "Ijson is a Python wrapper to YAJL which is a streaming SAX-like JSON parser. Ijson provides a standard Python iterator interface for it.");
 .
