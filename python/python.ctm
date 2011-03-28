@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-03-21
+# Modified:     2011-03-27
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -266,4 +266,9 @@ p:ijson
 
 p:pyfilesystem
     nhd("Pyfilesystem", <https://code.google.com/p/pyfilesystem/>, "Pyfilesystem is a Python module that provides a simplified common interface to many types of filesystem. Filesystems exposed via Pyfilesystem can also be served over the network, or 'mounted' on the native filesystem.");
+.
+
+p:tmve
+    nhd("Topic Model Visualization Engine", <https://code.google.com/p/tmve>, "A basic implementation of a topic model visualization engine.");
+    doap:homepage: <http://www.sccs.swarthmore.edu/users/08/ajb/tmve/>;
 .
