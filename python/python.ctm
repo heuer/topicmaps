@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-03-27
+# Modified:     2011-04-02
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -272,3 +272,9 @@ p:tmve
     nhd("Topic Model Visualization Engine", <https://code.google.com/p/tmve>, "A basic implementation of a topic model visualization engine.");
     doap:homepage: <http://www.sccs.swarthmore.edu/users/08/ajb/tmve/>;
 .
+
+p:radicale
+    nhd("Radicale", <http://www.radicale.org/>, "The Radicale Project is a CalDAV calendar server. It aims to be a light solution, easy to use, easy to install, easy to configure. As a consequence, it requires few software dependances and is pre-configured to work out-of-the-box.");
+.
+
+
