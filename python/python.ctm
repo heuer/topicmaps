@@ -277,4 +277,8 @@ p:radicale
     nhd("Radicale", <http://www.radicale.org/>, "The Radicale Project is a CalDAV calendar server. It aims to be a light solution, easy to use, easy to install, easy to configure. As a consequence, it requires few software dependances and is pre-configured to work out-of-the-box.");
 .
 
+p:scikits.learn
+    nhd("scikits.learn", <http://scikit-learn.sourceforge.net/>, "scikits.learn is a Python module integrating classic machine learning algorithms in the tightly-knit world of scientific Python packages (numpy, scipy, matplotlib).
 
+It aims to provide simple and efficient solutions to learning problems that are accessible to everybody and reusable in various contexts: machine-learning as a versatile tool for science and engineering.");
+.
