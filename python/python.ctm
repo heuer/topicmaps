@@ -18,6 +18,7 @@
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/python-projects/>
 %prefix doap <http://usefulinc.com/ns/doap#>
+%prefix wp <http://en.wikipedia.org/wiki/>
 
 def nhd($t, $name, $homepage, $description)
     $t - $name; doap:homepage: $homepage; doap:description: $description.
@@ -30,6 +31,11 @@ end
 def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
+
+template-engine
+    <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
+    - "Template engine";
+.
 
 
 p:tablefactory
