@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-04-02
+# Modified:     2011-04-03
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -22,6 +22,15 @@
 def nhd($t, $name, $homepage, $description)
     $t - $name; doap:homepage: $homepage; doap:description: $description.
 end
+
+def ml($t, $iri)
+    $t doap:mailing-list: $iri.
+end
+
+def tracker($t, $iri)
+    $t doap:bug-database: $iri.
+end
+
 
 p:tablefactory
     - "Tablefactory";
@@ -282,3 +291,14 @@ p:scikits.learn
 
 It aims to provide simple and efficient solutions to learning problems that are accessible to everybody and reusable in various contexts: machine-learning as a versatile tool for science and engineering.");
 .
+
+p:Mako 
+    isa template-engine;
+    nhd("Mako", <http://www.makotemplates.org/>, "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.");
+    ml(<https://groups.google.com/group/mako-discuss>);
+.
+
+p:Flask-Mako
+    nhd("Flask-Mako", <https://github.com/tzellman/flask-mako/>, "Provides Mako support in Flask.");
+.
+
