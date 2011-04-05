@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-04-03
+# Modified:     2011-04-05
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -37,6 +37,10 @@ template-engine
     - "Template engine";
 .
 
+
+p:seven
+    nhd("seven", <https://github.com/aatiis/seven>, "seven is a Python 2.6+ compatibility layer for Python 2.5. It allows you to import Python 2.6 or 2.7 code in a 2.5 interpreter.");
+.
 
 p:tablefactory
     - "Tablefactory";
