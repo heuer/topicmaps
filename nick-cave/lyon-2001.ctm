@@ -16,9 +16,10 @@
 #
 # Date:         2011-02-16
 # 
-# Modified:     2011-02-18
+# Modified:     2011-05-15
 # 
 %prefix yt <http://www.youtube.com/watch?v=>
+%prefix mo <http://purl.org/ontology/mo/>
 
 def is-at-youtube($slo)
     #TODO
@@ -29,83 +30,97 @@ end
 # 1 
 = yt:KgT2SE932eU
     - "Do You Love Me?";
+    mo:track_number: 1;
     is-at-youtube();
 .
 
 # 2
 = yt:MAPASzuaBNE
     - "Oh My Lord";
+    mo:track_number: 2;
     is-at-youtube();
 .
 
 # 3
 = yt:Ijb9c9Qhfs8
     - "Lime Tree Arbour";
+    mo:track_number: 3;
     is-at-youtube();
 .
 
 # 4
 = yt:NLGNDSzC014
     - "Red Right Hand";
+    mo:track_number: 4;
     is-at-youtube();
 .
 
 # 5
 = yt:cbl-wUVK068
     - "As I Sat Sadly By Her Side";
+    mo:track_number: 5;
     is-at-youtube();
 .
 
 # 6
 = yt:erV6vHjAAs0
     - "The Weeping Song";
+    mo:track_number: 6;
     is-at-youtube();
 .
 
 # 7
 = yt:y16ODSCx0UM
     - "God is in The House";
+    mo:track_number: 7;
     is-at-youtube();
 .
 
 # 8
 = yt:XN5oEQyhziQ
     - "We Came Along This Road";
+    mo:track_number: 8;
     is-at-youtube();
 .
 
 # 9
 = yt:Hg99BUHSgFA
     - "Papa Won't Leave You, Henry";
+    mo:track_number: 9;
     is-at-youtube();
 .
 
 # 10
 = yt:HksdOcJDORs
     - "Hallelujah";
+    mo:track_number: 10;
     is-at-youtube();
 .
 
 # 11
 = yt:6aiVGM0M71c
     - "The Mercy Seat";
+    mo:track_number: 11;
     is-at-youtube();
 .
 
 # 12
 = yt:CSfO-k9tGAY
     - "Into my Arms";
+    mo:track_number: 12;
     is-at-youtube();
 .
 
 # 13
 = yt:16JlXKqg53o
     - "Saint Huck";
+    mo:track_number: 13;
     is-at-youtube();
 .
 
 # 14
 = yt:cJgj37WWnjk
     - "The Curse of Millhaven";
+    mo:track_number: 14;
     is-at-youtube();
 .
