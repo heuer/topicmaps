@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-04-05
+# Modified:     2011-05-15
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -105,7 +105,7 @@ p:tenjin
 
 p:ply
     - "PLY";
-    doap:homepage: <http://www.dabeaz.com/ply/>
+    doap:homepage: <http://www.dabeaz.com/ply/>;
     doap:description: "PLY is yet another implementation of lex and yacc for Python. Some notable features include the fact that its implemented entirely in Python and it uses LALR(1) parsing which is efficient and well suited for larger grammars.";
 .
 
@@ -198,6 +198,7 @@ p:pyro
 
 Pyro stands for PYthon Remote Objects. It is an advanced and powerful Distributed Object Technology system written entirely in Python";
     doap:homepage: <http://www.xs4all.nl/~irmen/pyro3/>;
+.
 
 p:circuits
     - "circuits";
