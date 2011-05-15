@@ -20,7 +20,7 @@
 # 
 %prefix yt <http://www.youtube.com/watch?v=>
 
-def is-at-youtube(slo)
+def is-at-youtube($slo)
     #TODO
     slo isa video.
 end
