@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-02
 # 
-# Modified:     2011-02-02
+# Modified:     2011-05-15
 # 
 
 %prefix onto <http://psi.metaleaks.org/warlogs/ontology/>
@@ -56,19 +56,19 @@ onto:summary
 onto:dcolor
   - "display color".
 
-onto:dcolor-red isa onto:dcolor
+onto:dcolor-red isa onto:dcolor;
   - "RED";
   dc:description: "Display color for enemies".
 
-onto:dcolor-blue isa onto:dcolor
+onto:dcolor-blue isa onto:dcolor;
   - "BLUE";
   dc:description: "Display color for coalition forces".
 
-onto:dcolor-green isa onto:dcolor
+onto:dcolor-green isa onto:dcolor;
   - "GREEN";
   dc:description: "Display color for host nation".
 
-onto:dcolor-white isa onto:dcolor
+onto:dcolor-white isa onto:dcolor;
   - "WHITE";
   dc:description: "Display color for civilians".
 
