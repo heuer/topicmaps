@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-05-15
+# Modified:     2011-05-16
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,15 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:pyxmpp 
+    nhd("PyXMPP",
+        <https://github.com/Jajcus/pyxmpp>,
+        """PyXMPP is a Python XMPP (RFC 3920,3921) implementation, including some of the well-known extensions. It is based on libxml2 -- fast and fully-featured XML parser.
+
+PyXMPP provides most core features of the XMPP protocol and several JSF-defined extensions. PyXMPP provides building blocks for creating Jabber clients and components. Developer uses them to setup XMPP streams, handle incoming events and create outgoing stanzas (XMPP "packets")."""
+        );
 .
 
 p:schemaless
