@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-06-03
+# Modified:     2011-06-07
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,13 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:asq
+    nhd("asq",
+        <https://code.google.com/p/asq/>,
+        """A Python implementation of LINQ to objects and Parallel LINQ to objects."""
+        );
 .
 
 p:tinydav
