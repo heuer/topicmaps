@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-06-07
+# Modified:     2011-07-05
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,15 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Chameleon 
+    isa template-engine;
+    nhd("Chameleon", <http://pagetemplates.org/>, "Chameleon is an HTML/XML template engine for Python.");
+.
+
+p:aspen
+    nhd("Aspen", <http://aspen.io/>, "Aspen is a Python web framework.");
 .
 
 p:asq
