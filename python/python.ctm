@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-05
+# Modified:     2011-07-06
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,13 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:pyquery 
+    nhd("pyquery", <http://www.bitbucket.org/olauzanne/pyquery/>, 
+        "A jquery-like library for python.
+pyquery allows you to make jquery queries on xml documents. The API is as much as possible the similar to jquery. 
+pyquery uses lxml for fast xml and html manipulation.");
 .
 
 p:Chameleon 
