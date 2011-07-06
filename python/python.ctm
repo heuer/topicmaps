@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:pycountry
+    nhd("pycountry", <http://pypi.python.org/pypi/pycountry/>, 
+    "ISO country, subdivision, language, currency and script definitions and their translations");
+.
+
 p:pyblueprints
     nhd("pyblueprints", <https://github.com/escalant3/pyblueprints>, 
     "A Python version of the Tinkerpop Blueprints property graph model interface");
