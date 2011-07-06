@@ -37,6 +37,16 @@ template-engine
     - "Template engine";
 .
 
+p:pyblueprints
+    nhd("pyblueprints", <https://github.com/escalant3/pyblueprints>, 
+    "A Python version of the Tinkerpop Blueprints property graph model interface");
+.
+
+p:python-rexster
+    nhd("Python Rexter", <https://github.com/CulturePlex/python-rexster>, 
+    "A Python client for Rexster following the Tinkerpop Blueprints property graph model interface");
+.
+
 p:pyquery 
     nhd("pyquery", <http://www.bitbucket.org/olauzanne/pyquery/>, 
         "A jquery-like library for python.
