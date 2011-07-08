@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-06
+# Modified:     2011-07-08
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:django-shop
+    nhd("Django Shop", <https://github.com/divio/django-shop>,
+    "A Django based shop system");
 .
 
 p:pyquery 
