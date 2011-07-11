@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-06
+# Modified:     2011-07-11
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -88,6 +88,19 @@ p:pyxmpp
         """PyXMPP is a Python XMPP (RFC 3920,3921) implementation, including some of the well-known extensions. It is based on libxml2 -- fast and fully-featured XML parser.
 
 PyXMPP provides most core features of the XMPP protocol and several JSF-defined extensions. PyXMPP provides building blocks for creating Jabber clients and components. Developer uses them to setup XMPP streams, handle incoming events and create outgoing stanzas (XMPP "packets")."""
+        );
+.
+
+p:pyxmpp2 
+    nhd("PyXMPP2",
+        <https://github.com/Jajcus/pyxmpp2>,
+        """Python XMPP implementation, fork of PyXMPP <https://github.com/Jajcus/pyxmpp>
+
+Goals:
+* it doesn't rely on libxml2 any more
+* it uses most current Python APIs
+* its API is cleaned up
+"""
         );
 .
 
