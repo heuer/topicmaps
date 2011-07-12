@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:linkpath
+    nhd("LinkPath", <https://github.com/iand/linkpath>,
+    "This is a library for querying linked data on the web using a simple to learn path language based on the Fresnel Selector Language. A LinkPath is evaluated against the whole web, fetching the data it needs by following links between items. ");
+.
+
 p:pycountry
     nhd("pycountry", <http://pypi.python.org/pypi/pycountry/>, 
     "ISO country, subdivision, language, currency and script definitions and their translations");
