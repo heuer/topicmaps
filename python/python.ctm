@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-11
+# Modified:     2011-07-13
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,10 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:reblok 
+    nhd("reblok", <http://pypi.python.org/pypi/reblok/>, "Reblok creates an AST (Abstract Syntax Tree) from Python bytecode. (decompiler)");
 .
 
 p:linkpath
