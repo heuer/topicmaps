@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:pyperry
+    nhd("pyperry", <https://github.com/tpett/pyperry>,
+      "Python library for querying and mapping data over generic interfaces (port of the Ruby 'perry' library)");
+.
+
 p:simplekv
     nhd("simplekv", <https://github.com/mbr/simplekv>, 
     "simple key-value storage api
