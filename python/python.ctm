@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-17
+# Modified:     2011-07-18
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,15 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:simplekv
+    nhd("simplekv", <https://github.com/mbr/simplekv>, 
+    "simple key-value storage api
+
+simplekv is an API for very basic key-value stores for storing binary data. 
+Due to its basic interface, it is easy to implemented a large number of backends. 
+simplekv's origins are in storing user-uploaded files on websites, but its low overhead and design should make it applicable for numerous other problems.");
 .
 
 p:bulbflow
