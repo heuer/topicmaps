@@ -10,10 +10,13 @@
 # License:      Public Domain
 #
 # Date:         2010-12-29
+#
+# Modified:     2011-07-20
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
 
 
 # -----------
@@ -54,3 +57,12 @@
 subj:COUNTERTERRORISM isa onto:subject-tag;
     - "COUNTERTERRORISM"; 
     -dc:title: "Counter-terrorism".
+
+
+# -----------------
+# Organization TAGs
+# -----------------
+org:LLTE isa onto:organization-tag;
+    - "LLTE";
+    - dc:title: "Liberation Tigers of Tamil Eelam".
+
