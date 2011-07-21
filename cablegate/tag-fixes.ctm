@@ -68,6 +68,10 @@
     - "ROOD, JOHN"; 
     - dc:title: "John Rood".
 
+<http://psi.metaleaks.org/cablegate/person-tag/CROS,%20GERARD> isa onto:person-tag;
+    - "CROS, GERARD"; 
+    - dc:title: "Gerard Cros".
+
 person:MQADHAFI isa onto:person-tag;
     - "MQADHAFI";
     - dc:title: "Muammar Muhammad al-Gaddafi".
