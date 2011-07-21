@@ -137,6 +137,10 @@ subj:HUMOR isa onto:subject-tag;
     - "MEETINGS WITH AMBASSADOR"; 
     -dc:title: "Meetings with ambassador".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/COUNTRY%20CLEARANCE> isa onto:subject-tag;
+    - "COUNTRY CLEARANCE"; 
+    -dc:title: "Country clearance".
+
 
 # -----------------
 # Organization TAGs
