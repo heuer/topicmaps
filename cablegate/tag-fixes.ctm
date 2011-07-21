@@ -145,6 +145,10 @@ org:LLTE isa onto:organization-tag;
     - "LLTE";
     - dc:title: "Liberation Tigers of Tamil Eelam".
 
+org:ZANU-PF isa onto:organization-tag;
+    - "ZANU-PF";
+    - dc:title: "Zimbabwe African National Union – Patriotic Front".
+
 
 # --------
 # Geo TAGs
