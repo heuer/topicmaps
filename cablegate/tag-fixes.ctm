@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 #
-# Modified:     2011-07-20
+# Modified:     2011-07-21
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
@@ -42,6 +42,14 @@
     - "ZOELLICK, ROBERT"; 
     - dc:title: "Robert Zoellick".
 
+<http://psi.metaleaks.org/cablegate/person-tag/BUSH,%20GEORGE> isa onto:person-tag;
+    - "BUSH, GEORGE"; 
+    - dc:title: "George W. Bush".
+
+<http://psi.metaleaks.org/cablegate/person-tag/CARSON,%20JOHNNIE> isa onto:person-tag;
+    - "CARSON, JOHNNIE"; 
+    - dc:title: "Johnny Carson".
+
 # ------------
 # Subject TAGS
 #-------------
@@ -57,6 +65,14 @@
 subj:COUNTERTERRORISM isa onto:subject-tag;
     - "COUNTERTERRORISM"; 
     -dc:title: "Counter-terrorism".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/HUMAN%20RIGHTS> isa onto:subject-tag;
+    - "HUMAN RIGHTS"; 
+    -dc:title: "Human rights".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ECONOMIC%20AFFAIRS> isa onto:subject-tag;
+    - "ECONOMIC AFFAIRS"; 
+    -dc:title: "Economic affairs".
 
 
 # -----------------
