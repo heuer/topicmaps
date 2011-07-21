@@ -102,6 +102,22 @@ subj:HUMOR isa onto:subject-tag;
     - "ECONOMY AND FINANCE"; 
     -dc:title: "Economy and finance".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/IRAQI%20FREEDOM> isa onto:subject-tag;
+    - "IRAQI FREEDOM"; 
+    -dc:title: "Iraqi freedom".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ITALY%20NATIONAL%20ELECTIONS> isa onto:subject-tag;
+    - "ITALY NATIONAL ELECTIONS"; 
+    -dc:title: "Italy national elections".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ITALIAN%20POLITICS> isa onto:subject-tag;
+    - "ITALIAN POLITICS"; 
+    -dc:title: "Italian politics".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/DOMESTIC%20POLITICS> isa onto:subject-tag;
+    - "DOMESTIC POLITICS"; 
+    -dc:title: "Domestic politics".
+
 
 # -----------------
 # Organization TAGs
