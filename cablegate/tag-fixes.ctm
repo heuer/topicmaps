@@ -17,6 +17,7 @@
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
+%prefix person <http://psi.metaleaks.org/cablegate/person-tag/>
 
 
 # -----------
@@ -61,6 +62,11 @@
 <http://psi.metaleaks.org/cablegate/person-tag/JIMENEZ,%20GASPAR> isa onto:person-tag;
     - "JIMENEZ, GASPAR"; 
     - dc:title: "Gaspar Jimenez".
+
+person:MQADHAFI isa onto:person-tag;
+    - "MQADHAFI";
+    - dc:title: "Muammar Muhammad al-Gaddafi".
+
 
 # ------------
 # Subject TAGS
@@ -117,6 +123,11 @@ subj:HUMOR isa onto:subject-tag;
 <http://psi.metaleaks.org/cablegate/subject-tag/DOMESTIC%20POLITICS> isa onto:subject-tag;
     - "DOMESTIC POLITICS"; 
     -dc:title: "Domestic politics".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/MEETINGS%20WITH%20AMBASSADOR> isa onto:subject-tag;
+    - "MEETINGS WITH AMBASSADOR"; 
+    -dc:title: "Meetings with ambassador".
+
 
 
 # -----------------
