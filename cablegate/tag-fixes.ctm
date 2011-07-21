@@ -74,6 +74,10 @@ subj:COUNTERTERRORISM isa onto:subject-tag;
     - "ECONOMIC AFFAIRS"; 
     -dc:title: "Economic affairs".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/HUMOR> isa onto:subject-tag;
+    - "HUMOR"; 
+    -dc:title: "Humor".
+
 
 # -----------------
 # Organization TAGs
