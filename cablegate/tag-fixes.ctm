@@ -18,6 +18,7 @@
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
 %prefix person <http://psi.metaleaks.org/cablegate/person-tag/>
+%prefix geo <http://psi.metaleaks.org/cablegate/geo-tag/>
 
 
 # -----------
@@ -129,7 +130,6 @@ subj:HUMOR isa onto:subject-tag;
     -dc:title: "Meetings with ambassador".
 
 
-
 # -----------------
 # Organization TAGs
 # -----------------
@@ -137,3 +137,10 @@ org:LLTE isa onto:organization-tag;
     - "LLTE";
     - dc:title: "Liberation Tigers of Tamil Eelam".
 
+
+# --------
+# Geo TAGs
+# --------
+<http://psi.metaleaks.org/cablegate/geo-tag/NEW%20ZEALAND> isa onto:country-tag;
+    - "NEW ZEALAND"
+    - dc:title: "New Zealand".
