@@ -94,6 +94,14 @@ subj:HUMOR isa onto:subject-tag;
     - "CONSULAR AFFAIRS"; 
     -dc:title: "Consular affairs".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/GLOBAL%20DEFENSE> isa onto:subject-tag;
+    - "GLOBAL DEFENSE"; 
+    -dc:title: "Global defense".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ECONOMY%20AND%20FINANCE> isa onto:subject-tag;
+    - "ECONOMY AND FINANCE"; 
+    -dc:title: "Economy and finance".
+
 
 # -----------------
 # Organization TAGs
