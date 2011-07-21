@@ -50,6 +50,18 @@
     - "CARSON, JOHNNIE"; 
     - dc:title: "Johnny Carson".
 
+<http://psi.metaleaks.org/cablegate/person-tag/NOVO,%20GUILLERMO> isa onto:person-tag;
+    - "NOVO, GUILLERMO"; 
+    - dc:title: "Guillermo Novo".
+
+<http://psi.metaleaks.org/cablegate/person-tag/REMON,%20PEDRO> isa onto:person-tag;
+    - "REMON, PEDRO"; 
+    - dc:title: "Pedro Remon".
+
+<http://psi.metaleaks.org/cablegate/person-tag/JIMENEZ,%20GASPAR> isa onto:person-tag;
+    - "JIMENEZ, GASPAR"; 
+    - dc:title: "Gaspar Jimenez".
+
 # ------------
 # Subject TAGS
 #-------------
@@ -74,9 +86,13 @@ subj:COUNTERTERRORISM isa onto:subject-tag;
     - "ECONOMIC AFFAIRS"; 
     -dc:title: "Economic affairs".
 
-<http://psi.metaleaks.org/cablegate/subject-tag/HUMOR> isa onto:subject-tag;
+subj:HUMOR isa onto:subject-tag;
     - "HUMOR"; 
     -dc:title: "Humor".
+    
+<http://psi.metaleaks.org/cablegate/subject-tag/CONSULAR%20AFFAIRS> isa onto:subject-tag;
+    - "CONSULAR AFFAIRS"; 
+    -dc:title: "Consular affairs".
 
 
 # -----------------
