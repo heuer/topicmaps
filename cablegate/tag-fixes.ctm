@@ -64,6 +64,10 @@
     - "JIMENEZ, GASPAR"; 
     - dc:title: "Gaspar Jimenez".
 
+<http://psi.metaleaks.org/cablegate/person-tag/ROOD,%20JOHN> isa onto:person-tag;
+    - "ROOD, JOHN"; 
+    - dc:title: "John Rood".
+
 person:MQADHAFI isa onto:person-tag;
     - "MQADHAFI";
     - dc:title: "Muammar Muhammad al-Gaddafi".
