@@ -10,10 +10,15 @@
 # License:      Public Domain
 #
 # Date:         2010-12-29
+#
+# Modified:     2011-07-21
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
 %prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
+%prefix person <http://psi.metaleaks.org/cablegate/person-tag/>
+%prefix geo <http://psi.metaleaks.org/cablegate/geo-tag/>
 
 
 # -----------
@@ -39,6 +44,39 @@
     - "ZOELLICK, ROBERT"; 
     - dc:title: "Robert Zoellick".
 
+<http://psi.metaleaks.org/cablegate/person-tag/BUSH,%20GEORGE> isa onto:person-tag;
+    - "BUSH, GEORGE"; 
+    - dc:title: "George W. Bush".
+
+<http://psi.metaleaks.org/cablegate/person-tag/CARSON,%20JOHNNIE> isa onto:person-tag;
+    - "CARSON, JOHNNIE"; 
+    - dc:title: "Johnny Carson".
+
+<http://psi.metaleaks.org/cablegate/person-tag/NOVO,%20GUILLERMO> isa onto:person-tag;
+    - "NOVO, GUILLERMO"; 
+    - dc:title: "Guillermo Novo".
+
+<http://psi.metaleaks.org/cablegate/person-tag/REMON,%20PEDRO> isa onto:person-tag;
+    - "REMON, PEDRO"; 
+    - dc:title: "Pedro Remon".
+
+<http://psi.metaleaks.org/cablegate/person-tag/JIMENEZ,%20GASPAR> isa onto:person-tag;
+    - "JIMENEZ, GASPAR"; 
+    - dc:title: "Gaspar Jimenez".
+
+<http://psi.metaleaks.org/cablegate/person-tag/ROOD,%20JOHN> isa onto:person-tag;
+    - "ROOD, JOHN"; 
+    - dc:title: "John Rood".
+
+<http://psi.metaleaks.org/cablegate/person-tag/CROS,%20GERARD> isa onto:person-tag;
+    - "CROS, GERARD"; 
+    - dc:title: "Gerard Cros".
+
+person:MQADHAFI isa onto:person-tag;
+    - "MQADHAFI";
+    - dc:title: "Muammar Muhammad al-Gaddafi".
+
+
 # ------------
 # Subject TAGS
 #-------------
@@ -54,3 +92,71 @@
 subj:COUNTERTERRORISM isa onto:subject-tag;
     - "COUNTERTERRORISM"; 
     -dc:title: "Counter-terrorism".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/HUMAN%20RIGHTS> isa onto:subject-tag;
+    - "HUMAN RIGHTS"; 
+    -dc:title: "Human rights".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ECONOMIC%20AFFAIRS> isa onto:subject-tag;
+    - "ECONOMIC AFFAIRS"; 
+    -dc:title: "Economic affairs".
+
+subj:HUMOR isa onto:subject-tag;
+    - "HUMOR"; 
+    -dc:title: "Humor".
+    
+<http://psi.metaleaks.org/cablegate/subject-tag/CONSULAR%20AFFAIRS> isa onto:subject-tag;
+    - "CONSULAR AFFAIRS"; 
+    -dc:title: "Consular affairs".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/GLOBAL%20DEFENSE> isa onto:subject-tag;
+    - "GLOBAL DEFENSE"; 
+    -dc:title: "Global defense".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ECONOMY%20AND%20FINANCE> isa onto:subject-tag;
+    - "ECONOMY AND FINANCE"; 
+    -dc:title: "Economy and finance".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/IRAQI%20FREEDOM> isa onto:subject-tag;
+    - "IRAQI FREEDOM"; 
+    -dc:title: "Iraqi freedom".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ITALY%20NATIONAL%20ELECTIONS> isa onto:subject-tag;
+    - "ITALY NATIONAL ELECTIONS"; 
+    -dc:title: "Italy national elections".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ITALIAN%20POLITICS> isa onto:subject-tag;
+    - "ITALIAN POLITICS"; 
+    -dc:title: "Italian politics".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/DOMESTIC%20POLITICS> isa onto:subject-tag;
+    - "DOMESTIC POLITICS"; 
+    -dc:title: "Domestic politics".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/MEETINGS%20WITH%20AMBASSADOR> isa onto:subject-tag;
+    - "MEETINGS WITH AMBASSADOR"; 
+    -dc:title: "Meetings with ambassador".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/COUNTRY%20CLEARANCE> isa onto:subject-tag;
+    - "COUNTRY CLEARANCE"; 
+    -dc:title: "Country clearance".
+
+
+# -----------------
+# Organization TAGs
+# -----------------
+org:LLTE isa onto:organization-tag;
+    - "LLTE";
+    - dc:title: "Liberation Tigers of Tamil Eelam".
+
+org:ZANU-PF isa onto:organization-tag;
+    - "ZANU-PF";
+    - dc:title: "Zimbabwe African National Union – Patriotic Front".
+
+
+# --------
+# Geo TAGs
+# --------
+<http://psi.metaleaks.org/cablegate/geo-tag/NEW%20ZEALAND> isa onto:country-tag;
+    - "NEW ZEALAND"
+    - dc:title: "New Zealand".
