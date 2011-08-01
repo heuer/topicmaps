@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-07-08
+# Modified:     2011-08-01
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -37,9 +37,60 @@ template-engine
     - "Template engine";
 .
 
+p:svg.charts
+    nhd("svg.charts", <http://pypi.python.org/pypi/svg.charts/>,
+    "svg.charts is a pure-python library for generating charts and graphs in SVG.")
+.
+
 p:django-shop
     nhd("Django Shop", <https://github.com/divio/django-shop>,
     "A Django based shop system");
+.
+
+p:pyperry
+    nhd("pyperry", <https://github.com/tpett/pyperry>,
+      "Python library for querying and mapping data over generic interfaces (port of the Ruby 'perry' library)");
+.
+
+p:simplekv
+    nhd("simplekv", <https://github.com/mbr/simplekv>, 
+    "simple key-value storage api
+
+simplekv is an API for very basic key-value stores for storing binary data. 
+Due to its basic interface, it is easy to implemented a large number of backends. 
+simplekv's origins are in storing user-uploaded files on websites, but its low overhead and design should make it applicable for numerous other problems.");
+.
+
+p:bulbflow
+    nhd("bulbflow", <http://bulbflow.com/>, 
+    "A Python framework for graph databases.
+
+It connects to any Blueprints-enabled database, including TinkeGraph, Neo4j, OrientDB, Dex, and OpenRDF");
+.
+
+p:reblok 
+    nhd("reblok", <http://pypi.python.org/pypi/reblok/>, "Reblok creates an AST (Abstract Syntax Tree) from Python bytecode. (decompiler)");
+.
+
+p:linkpath
+    nhd("LinkPath", <https://github.com/iand/linkpath>,
+    "This is a library for querying linked data on the web using a simple to learn path language based on the Fresnel Selector Language. A LinkPath is evaluated against the whole web, fetching the data it needs by following links between items. ");
+.
+
+p:pycountry
+    nhd("pycountry", <http://pypi.python.org/pypi/pycountry/>, 
+    "ISO country, subdivision, language, currency and script definitions and their translations");
+.
+
+p:pyblueprints
+    nhd("pyblueprints", <https://github.com/escalant3/pyblueprints>, 
+    "A Python version of the Tinkerpop Blueprints property graph model interface");
+.
+
+p:python-rexster
+    nhd("Python Rexter", <https://github.com/CulturePlex/python-rexster>, 
+    "A Python client for Rexster following the Tinkerpop Blueprints property graph model interface");
+>>>>>>> 736696ea1b18f337b3a589a87d53b94c29f596fc
 .
 
 p:pyquery 
@@ -78,6 +129,19 @@ p:pyxmpp
         """PyXMPP is a Python XMPP (RFC 3920,3921) implementation, including some of the well-known extensions. It is based on libxml2 -- fast and fully-featured XML parser.
 
 PyXMPP provides most core features of the XMPP protocol and several JSF-defined extensions. PyXMPP provides building blocks for creating Jabber clients and components. Developer uses them to setup XMPP streams, handle incoming events and create outgoing stanzas (XMPP "packets")."""
+        );
+.
+
+p:pyxmpp2 
+    nhd("PyXMPP2",
+        <https://github.com/Jajcus/pyxmpp2>,
+        """Python XMPP implementation, fork of PyXMPP <https://github.com/Jajcus/pyxmpp>
+
+Goals:
+* it doesn't rely on libxml2 any more
+* it uses most current Python APIs
+* its API is cleaned up
+"""
         );
 .
 
