@@ -90,7 +90,6 @@ p:pyblueprints
 p:python-rexster
     nhd("Python Rexter", <https://github.com/CulturePlex/python-rexster>, 
     "A Python client for Rexster following the Tinkerpop Blueprints property graph model interface");
->>>>>>> 736696ea1b18f337b3a589a87d53b94c29f596fc
 .
 
 p:pyquery 
