@@ -1,0 +1,28 @@
+#
+# ========================
+# Cablegate Media Coverage
+# ========================
+#
+#
+# Description:  This topic map assigns additional media IRIs to cables.
+#
+# License:      Public Domain
+#
+# Date:         2011-07-20
+#
+# Modified:     2011-07-20
+# 
+%prefix c <http://psi.metaleaks.org/cablegate/cable/>
+
+
+def mentioned-by($cable, $iri)
+    #TODO
+end
+
+# ------
+# Cables
+# ------
+
+c:08BRASILIA672
+    mentioned-by(=<http://apublica.org/2011/06/08brasilia672/>);
+.
