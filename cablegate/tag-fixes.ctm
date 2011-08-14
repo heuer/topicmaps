@@ -153,6 +153,11 @@ org:ZANU-PF isa onto:organization-tag;
     - "ZANU-PF";
     - dc:title: "Zimbabwe African National Union – Patriotic Front".
 
+org:COPUOS isa onto:organization-tag;
+    - "COPUOS";
+    - dc:title: "Committee on the Peaceful Uses of Outer Space";
+.
+
 
 # --------
 # Geo TAGs
@@ -160,3 +165,7 @@ org:ZANU-PF isa onto:organization-tag;
 <http://psi.metaleaks.org/cablegate/geo-tag/NEW%20ZEALAND> isa onto:country-tag;
     - "NEW ZEALAND"
     - dc:title: "New Zealand".
+
+geo:CAMBODIA isa onto:country-tag;
+    - "CAMBODIA"
+    - dc:title: "Cambodia".
