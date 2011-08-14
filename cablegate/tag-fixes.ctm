@@ -158,6 +158,11 @@ org:COPUOS isa onto:organization-tag;
     - dc:title: "Committee on the Peaceful Uses of Outer Space";
 .
 
+org:ATPDEA isa onto:organization-tag;
+    - "ATPDEA";
+    - dc:title: "Andean Trade Promotion and Drug Eradication Act";
+.
+
 
 # --------
 # Geo TAGs
