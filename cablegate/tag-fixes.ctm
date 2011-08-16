@@ -19,6 +19,7 @@
 %prefix org <http://psi.metaleaks.org/cablegate/organization-tag/>
 %prefix person <http://psi.metaleaks.org/cablegate/person-tag/>
 %prefix geo <http://psi.metaleaks.org/cablegate/geo-tag/>
+%prefix program <http://psi.metaleaks.org/cablegate/program-tag/>
 
 
 # -----------
@@ -76,9 +77,16 @@ person:MQADHAFI isa onto:person-tag;
     - "MQADHAFI";
     - dc:title: "Muammar Muhammad al-Gaddafi".
 
+# ------------
+# Program TAGs
+# ------------
+program:POLINT isa onto:program-tag;        #TODO: Same as program:KPIN?
+    - "POLINT";
+    - dc:title: "Political Internationals".
+
 
 # ------------
-# Subject TAGS
+# Subject TAGs
 #-------------
 
 <http://psi.metaleaks.org/cablegate/subject-tag/GAZA%20DISENGAGEMENT> isa onto:subject-tag;
@@ -141,6 +149,38 @@ subj:HUMOR isa onto:subject-tag;
     - "COUNTRY CLEARANCE"; 
     -dc:title: "Country clearance".
 
+subj:POLITICAL isa onto:subject-tag;
+    - "POLITICAL";
+    - dc:title: "Political";
+.
+
+subj:REGION isa onto:subject-tag;
+    - "REGION";
+    - dc:title: "Region".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/FOREIGN%20POL> isa onto:subject-tag;
+    - "FOREIGN POL"; 
+    - dc:title: "Foreign Politics".
+
+#TODO: Merge "media reaction report" with "media reaction"?
+<http://psi.metaleaks.org/cablegate/subject-tag/MEDIA%20REACTION%20REPORT> isa onto:subject-tag;
+    - "MEDIA REACTION REPORT"; 
+    - dc:title: "Media reaction report".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/MEDIA%20REACTION> isa onto:subject-tag;
+    - "MEDIA REACTION"; 
+    - dc:title: "Media reaction".
+
+#TODO: See also: program:KTIP
+<http://psi.metaleaks.org/cablegate/subject-tag/TIP%20IN%20TURKEY> isa onto:subject-tag;
+    - "TIP IN TURKEY"; 
+    - dc:title: "TIP (trafficking in persons) in Turkey".
+
+subj:HEBRON isa onto:subject-tag;
+    - "HEBRON";
+    - dc:title: "Hebron";
+.
+
 
 # -----------------
 # Organization TAGs
@@ -174,3 +214,7 @@ org:ATPDEA isa onto:organization-tag;
 geo:CAMBODIA isa onto:country-tag;  # same as geo:CB
     - "CAMBODIA";
     - dc:title: "Cambodia".
+
+geo:TURKEY isa onto:country-tag;  # same as geo:TU
+    - "TURKEY";
+    - dc:title: "Turkey".
