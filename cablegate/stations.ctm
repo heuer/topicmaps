@@ -1,0 +1,78 @@
+#
+# ===================================================
+# U.S. Embassies, Consulates, and Diplomatic Missions
+# ===================================================
+#
+# Description:  PSIs for U.S. Embassies, Consulates, and Diplomatic Missions
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Source:       <http://www.usembassy.gov/>
+#               <http://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_the_United_States>
+#
+# Date:         2011-07-23
+#
+# Modified:     2011-07-25
+# 
+
+%prefix wp <http://en.wikipedia.org/wiki/>
+%prefix geo <http://www.w3.org/2003/01/geo/wgs84_pos#>
+%prefix foaf <http://xmlns.com/foaf/0.1/>
+%prefix s <http://psi.metaleaks.org/cg-station/>
+
+# ---------
+# Templates
+# ---------
+
+#
+# Assigns latitude and longitude to the provided station $s
+#
+  
+def lat-long($s, $lat, $long)
+  $s geo:lat: $lat; geo:long: $long.
+end
+
+# --------
+# Stations
+# --------
+
+s:Vienna isa wp:Diplomatic_mission;
+  wp:U.S._Embassy,_Vienna;
+  - "U.S. Embassy, Vienna"
+  lat-long(48.222778, 16.356111);
+  foaf:homepage: <http://austria.usembassy.gov/>;
+.
+
+s:Prague isa wp:Diplomatic_mission;
+  wp:U.S._Embassy,_Prague;
+  - "U.S. Embassy, Prague";
+.
+
+s:Berlin isa wp:Diplomatic_mission;
+  wp:Embassy_of_the_United_States_in_Berlin;
+  - "Embassy of the United States in Berlin";
+  lat-long(52.515278, 13.378333);
+  foaf:homepage: <http://germany.usembassy.gov/>;
+.
+
+s:Frankfurt isa wp:Diplomatic_mission;
+  wp:Consulate_General_of_the_United_States_in_Frankfurt;
+  - "U.S. Consulate General Frankfurt";
+  lat-long(50.141389, 8.693611);
+  foaf:homepage: <http://frankfurt.usconsulate.gov/>;
+.
+
+s:Athens isa wp:Diplomatic_mission;
+  wp:U.S._Embassy,_Athens;
+  - "U.S. Embassy, Athens"
+  lat-long(38.0573992, 23.8084102);
+  foaf:homepage: <http://athens.usembassy.gov/>;
+.
+
+s:Tapei # isa wp:Diplomatic_mission;
+  wp:American_Institute_in_Taiwan;
+  - "The American Institute in Taiwan";
+  foaf:homepage: <http://www.ait.org.tw/>;
+.
