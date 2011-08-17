@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-08-01
+# Modified:     2011-08-17
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,12 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Compass
+    nhd("Compass", <https://github.com/emehrkay/Compass>, 
+    "Compass is a simple Python REST interface for the OrientDB graph document store. 
+Later iterations of compass will allow you to choose between the REST or BINARY protocols while using the same compass interface.");
 .
 
 p:svg.charts
