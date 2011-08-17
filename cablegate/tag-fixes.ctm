@@ -101,6 +101,14 @@ subj:COUNTERTERRORISM isa onto:subject-tag;
     - "COUNTERTERRORISM"; 
     -dc:title: "Counter-terrorism".
 
+subj:TERRORISM isa onto:subject-tag;
+    - "TERRORISM"; 
+    -dc:title: "Terrorism".
+
+subj:AGRICULTURE isa onto:subject-tag;
+    - "AGRICULTURE"; 
+    -dc:title: "Agriculture".
+
 <http://psi.metaleaks.org/cablegate/subject-tag/HUMAN%20RIGHTS> isa onto:subject-tag;
     - "HUMAN RIGHTS"; 
     -dc:title: "Human rights".
