@@ -109,6 +109,21 @@ subj:AGRICULTURE isa onto:subject-tag;
     - "AGRICULTURE"; 
     -dc:title: "Agriculture".
 
+subj:ANARCHISTS isa onto:subject-tag;
+    - "ANARCHISTS";
+    - dc:title: "Anarchists";
+.
+
+subj:ECONOMIC isa onto:subject-tag;
+    - "ECONOMIC";
+    - dc:title: "Economic";
+.
+
+subj:ECONOMICS isa onto:subject-tag;
+    - "ECONOMICS";
+    - dc:title: "Economics";
+.
+
 subj:ELECTIONS isa onto:subject-tag;
     - "ELECTIONS"; 
     -dc:title: "Elections".
