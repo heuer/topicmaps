@@ -37,6 +37,16 @@ template-engine
     - "Template engine";
 .
 
+p:BagIt
+    nhd("BagIt", <https://github.com/edsu/bagit>, 
+    "This package can be used to create BagIt style packages programmatically
+in Python or from the command line.  More about BagIt can be found at:
+
+  http://purl.org/net/bagit
+
+bagit.py is a standalone python module");
+.
+
 p:Compass
     nhd("Compass", <https://github.com/emehrkay/Compass>, 
     "Compass is a simple Python REST interface for the OrientDB graph document store. 
