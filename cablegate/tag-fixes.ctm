@@ -109,6 +109,10 @@ subj:AGRICULTURE isa onto:subject-tag;
     - "AGRICULTURE"; 
     -dc:title: "Agriculture".
 
+subj:ELECTIONS isa onto:subject-tag;
+    - "ELECTIONS"; 
+    -dc:title: "Elections".
+
 <http://psi.metaleaks.org/cablegate/subject-tag/HUMAN%20RIGHTS> isa onto:subject-tag;
     - "HUMAN RIGHTS"; 
     -dc:title: "Human rights".
@@ -209,6 +213,11 @@ org:COPUOS isa onto:organization-tag;
 org:ATPDEA isa onto:organization-tag;
     - "ATPDEA";
     - dc:title: "Andean Trade Promotion and Drug Eradication Act";
+.
+
+<http://psi.metaleaks.org/cablegate/organization-tag/PHALANAGE%20PARTY> isa onto:organization-tag;
+    - "PHALANAGE PARTY";
+    - dc:title: "Phalanage Party";
 .
 
 
