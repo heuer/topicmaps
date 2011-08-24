@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 #
-# Modified:     2011-08-14
+# Modified:     2011-08-24
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
@@ -77,6 +77,39 @@ person:MQADHAFI isa onto:person-tag;
     - "MQADHAFI";
     - dc:title: "Muammar Muhammad al-Gaddafi".
 
+<http://psi.metaleaks.org/cablegate/person-tag/JOSEPH,%20ROBERT%20G.> isa onto:person-tag;
+    - "JOSEPH, ROBERT G."; 
+    - dc:title: "Robert G. Joseph".
+
+<http://psi.metaleaks.org/cablegate/person-tag/MURRAY,%20PATTY> isa onto:person-tag;
+    - "MURRAY, PATTY"; 
+    - dc:title: "Patty Murray".
+
+<http://psi.metaleaks.org/cablegate/person-tag/NELSON,%20BEN> isa onto:person-tag;
+    - "NELSON, BEN"; 
+    - dc:title: "Ben Nelson".
+
+<http://psi.metaleaks.org/cablegate/person-tag/LOTT,%20TRENT> isa onto:person-tag;
+    - "LOTT, TRENT"; 
+    - dc:title: "Trent Lott".
+
+<http://psi.metaleaks.org/cablegate/person-tag/HADLEY,%20STEPHEN> isa onto:person-tag;
+    - "HADLEY, STEPHEN"; 
+    - dc:title: "Stephen Hadley".
+
+<http://psi.metaleaks.org/cablegate/person-tag/THOMMA,%20THOMAS> isa onto:person-tag;
+    - "THOMMA, THOMAS"; 
+    - dc:title: "Thomas Thomma".
+    
+<http://psi.metaleaks.org/cablegate/person-tag/QADRI,%20MOHAMMAD%20AFZAL> isa onto:person-tag;
+    - "QADRI, MOHAMMAD AFZAL"; 
+    - dc:title: "Mohammad Afzal Qadri".
+
+<http://psi.metaleaks.org/cablegate/person-tag/BURNS,%20WILLIAM> isa onto:person-tag;
+    - "BURNS, WILLIAM"; 
+    - dc:title: "William Burns".
+
+
 # ------------
 # Program TAGs
 # ------------
@@ -92,6 +125,10 @@ program:POLINT isa onto:program-tag;        #TODO: Same as program:KPIN?
 <http://psi.metaleaks.org/cablegate/subject-tag/GAZA%20DISENGAGEMENT> isa onto:subject-tag;
     - "GAZA DISENGAGEMENT"; 
     - dc:title: "Gaza disengagement".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/ISRAELI%20SOCIETY> isa onto:subject-tag;
+    - "ISRAELI SOCIETY"; 
+    - dc:title: "Israeli society".
 
 <http://psi.metaleaks.org/cablegate/subject-tag/ISRAELI%20PALESTINIAN%20AFFAIRS> isa onto:subject-tag;
     - "ISRAELI PALESTINIAN AFFAIRS"; 
@@ -203,10 +240,22 @@ subj:REGION isa onto:subject-tag;
     - "TIP IN TURKEY"; 
     - dc:title: "TIP (trafficking in persons) in Turkey".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/ENVIRONMENT%20SCIENCE%20AND%20TECHNOLOGY> isa onto:subject-tag;
+    - "ENVIRONMENT SCIENCE AND TECHNOLOGY"; 
+    - dc:title: "Environment science and technology".
+
 subj:HEBRON isa onto:subject-tag;
     - "HEBRON";
     - dc:title: "Hebron";
 .
+
+subj:SETTLEMENTS isa onto:subject-tag;
+    - "SETTLEMENTS";
+    - dc:title: "Settlements".
+
+<http://psi.metaleaks.org/cablegate/subject-tag/KUWAIT%sIRAN%sRELATIONS> isa onto:subject-tag;
+    - "KUWAIT IRAN RELATIONS";
+    - dc:title: "Kuwait Iran Relations".
 
 
 # -----------------
