@@ -240,10 +240,18 @@ subj:REGION isa onto:subject-tag;
     - "TIP IN TURKEY"; 
     - dc:title: "TIP (trafficking in persons) in Turkey".
 
+<http://psi.metaleaks.org/cablegate/subject-tag/ENVIRONMENT%20SCIENCE%20AND%20TECHNOLOGY>  isa onto:subject-tag;
+    - "ENVIRONMENT SCIENCE AND TECHNOLOGY"; 
+    - dc:title: "Environment science and technology".
+
 subj:HEBRON isa onto:subject-tag;
     - "HEBRON";
     - dc:title: "Hebron";
 .
+
+subj:SETTLEMENTS isa onto:subject-tag;
+    - "SETTLEMENTS";
+    - dc:title: "Settlements".
 
 
 # -----------------
