@@ -257,6 +257,11 @@ subj:SETTLEMENTS isa onto:subject-tag;
     - "KUWAIT IRAN RELATIONS";
     - dc:title: "Kuwait Iran Relations".
 
+subj:RELFREE isa onto:subject-tag;
+  - "RELFREE";
+  - dc:title: "religious freedom"
+.
+
 
 # -----------------
 # Organization TAGs
