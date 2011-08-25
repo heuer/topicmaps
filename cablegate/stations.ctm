@@ -43,7 +43,7 @@ s:United_States_Secretary_of_Defense
 .
 
 s:Secretary_of_State
-  - "Secretary of State"
+  - "Secretary of State";
 .
 
 s:U.S._Embassy_Baghdad isa onto:usembassy;
@@ -104,7 +104,7 @@ s:U.S._Embassy_Dublin isa onto:usembassy;
   foaf:homepage: <hhttp://dublin.usembassy.gov/>;
 .
 
-s:Tapei # isa wp:Diplomatic_mission;
+s:The_American_Institute_in_Taiwan # isa wp:Diplomatic_mission;
   wp:American_Institute_in_Taiwan;
   - "The American Institute in Taiwan";
   foaf:homepage: <http://www.ait.org.tw/>;
@@ -119,6 +119,6 @@ s:Central_Intelligence_Agency
 
 s:Defense_Intelligence_Agency
   wp:Defense_Intelligence_Agency;
-  - "Defense Intelligence Agency"
+  - "Defense Intelligence Agency";
   foaf:homepage: <http://www.dia.mil/>
 .
