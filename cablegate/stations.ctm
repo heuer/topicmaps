@@ -14,7 +14,7 @@
 #
 # Date:         2011-07-23
 #
-# Modified:     2011-07-25
+# Modified:     2011-08-25
 # 
 
 %prefix wp <http://en.wikipedia.org/wiki/>
@@ -38,41 +38,87 @@ end
 # Stations
 # --------
 
-s:Vienna isa wp:Diplomatic_mission;
-  wp:U.S._Embassy,_Vienna;
-  - "U.S. Embassy, Vienna"
+s:United_States_Secretary_of_Defense
+  - "United States Secretary of Defense";
+.
+
+s:Secretary_of_State
+  - "Secretary of State"
+.
+
+s:U.S._Embassy_Baghdad isa onto:usembassy;
+  - "U.S. Embassy, Baghdad";
+  foaf:homepage: <http://austria.usembassy.gov/>;
+.
+
+s:U.S._Embassy_Vienna isa onto:usembassy;
+  http://en.wikipedia.org/wiki/U.S._Embassy,_Vienna;
+  - "U.S. Embassy, Vienna";
   lat-long(48.222778, 16.356111);
   foaf:homepage: <http://austria.usembassy.gov/>;
 .
 
-s:Prague isa wp:Diplomatic_mission;
-  wp:U.S._Embassy,_Prague;
+s:U.S._Embassy_Prague isa onto:usembassy;
+  http://en.wikipedia.org/wiki/U.S._Embassy,_Prague;
   - "U.S. Embassy, Prague";
 .
 
-s:Berlin isa wp:Diplomatic_mission;
-  wp:Embassy_of_the_United_States_in_Berlin;
+s:U.S._Embassy_Berlin isa onto:usembassy;
+  http://en.wikipedia.org/wiki/Embassy_of_the_United_States_in_Berlin;
   - "Embassy of the United States in Berlin";
   lat-long(52.515278, 13.378333);
   foaf:homepage: <http://germany.usembassy.gov/>;
 .
 
-s:Frankfurt isa wp:Diplomatic_mission;
+s:U.S._Consulate_Frankfurt isa onto:consultate;
   wp:Consulate_General_of_the_United_States_in_Frankfurt;
   - "U.S. Consulate General Frankfurt";
   lat-long(50.141389, 8.693611);
   foaf:homepage: <http://frankfurt.usconsulate.gov/>;
 .
 
-s:Athens isa wp:Diplomatic_mission;
-  wp:U.S._Embassy,_Athens;
-  - "U.S. Embassy, Athens"
+s:U.S._Embassy_Athens isa onto:usembassy;
+  http://en.wikipedia.org/wiki/U.S._Embassy,_Athens;
+  - "U.S. Embassy Athens";
   lat-long(38.0573992, 23.8084102);
   foaf:homepage: <http://athens.usembassy.gov/>;
+.
+
+s:U.S._Embassy_Buenos_Aires isa onto:usembassy;
+  - "U.S. Embassy Buenos Aires";
+  foaf:homepage: <http://argentina.usembassy.gov/>;
+.
+
+s:U.S._Embassy_Moscow isa onto:usembassy;
+  - "U.S. Embassy Moscow";
+  foaf:homepage: <http://moscow.usembassy.gov/>;
+.
+
+s:U.S._Embassy_Madrid isa onto:usembassy;
+  - "U.S. Embassy Madrid";
+  foaf:homepage: <hhttp://madrid.usembassy.gov/>;
+.
+
+s:U.S._Embassy_Dublin isa onto:usembassy;
+  - "U.S. Embassy Dublin";
+  foaf:homepage: <hhttp://dublin.usembassy.gov/>;
 .
 
 s:Tapei # isa wp:Diplomatic_mission;
   wp:American_Institute_in_Taiwan;
   - "The American Institute in Taiwan";
   foaf:homepage: <http://www.ait.org.tw/>;
+.
+
+s:Central_Intelligence_Agency
+  wp:Central_Intelligence_Agency;
+  - "Central Intelligence Agency";
+  foaf:homepage: <http://www.cia.gov/>;
+  lat-long(38.951796, -77.146586);
+.
+
+s:Defense_Intelligence_Agency
+  wp:Defense_Intelligence_Agency;
+  - "Defense Intelligence Agency"
+  foaf:homepage: <http://www.dia.mil/>
 .
