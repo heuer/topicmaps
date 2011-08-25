@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:urlwatch
+    nhd("urlwatch", <http://thp.io/2008/urlwatch/>,
+        "A tool for monitoring webpages for updates");
+.
+
 p:BagIt
     nhd("BagIt", <https://github.com/edsu/bagit>, 
     "This package can be used to create BagIt style packages programmatically
