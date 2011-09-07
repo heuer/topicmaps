@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:sqlitedict
+    nhd("sqlitedict", <https://github.com/piskvorky/sqlitedict>
+        "Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.");
+.
+
 p:urlwatch
     nhd("urlwatch", <http://thp.io/2008/urlwatch/>,
         "A tool for monitoring webpages for updates");
