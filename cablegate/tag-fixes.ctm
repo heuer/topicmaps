@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 #
-# Modified:     2011-08-24
+# Modified:     2011-09-04
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
@@ -116,6 +116,10 @@ person:MQADHAFI isa onto:person-tag;
 program:POLINT isa onto:program-tag;        #TODO: Same as program:KPIN?
     - "POLINT";
     - dc:title: "Political Internationals".
+
+http://psi.metaleaks.org/cablegate/program-tag/BLUE%20LANTERN isa program-tag;
+    - "BLUE LANTERN";
+    - dc:title: "Blue Lantern".
 
 
 # ------------
@@ -272,7 +276,7 @@ org:LLTE isa onto:organization-tag;
 
 org:ZANU-PF isa onto:organization-tag;
     - "ZANU-PF";
-    - dc:title: "Zimbabwe African National Union – Patriotic Front".
+    - dc:title: "Zimbabwe African National Union â€“ Patriotic Front".
 
 org:COPUOS isa onto:organization-tag;
     - "COPUOS";
@@ -287,6 +291,11 @@ org:ATPDEA isa onto:organization-tag;
 <http://psi.metaleaks.org/cablegate/organization-tag/PHALANAGE%20PARTY> isa onto:organization-tag;
     - "PHALANAGE PARTY";
     - dc:title: "Phalanage Party";
+.
+
+<http://psi.metaleaks.org/cablegate/organization-tag/BA%CA%BFTH> isa onto:organization-tag;
+    - "BA'ATH";
+    - dc:title: "Ba'ath";
 .
 
 
