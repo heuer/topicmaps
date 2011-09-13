@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-08-17
+# Modified:     2011-09-13
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:ldtools
+    nhd("Ldtools", <https://github.com/dmr/ldtools/>,
+        "Ldtools is a simple library to handle RDF data more conveniently.");
 .
 
 p:sqlitedict
