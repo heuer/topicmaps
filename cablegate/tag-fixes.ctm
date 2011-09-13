@@ -73,9 +73,9 @@
     - "CROS, GERARD"; 
     - dc:title: "Gerard Cros".
 
-person:MQADHAFI isa onto:person-tag;
-    - "MQADHAFI";
-    - dc:title: "Muammar Muhammad al-Gaddafi".
+<http://psi.metaleaks.org/cablegate/person-tag/AL-QADHAFI,%20MUATASSIM> isa onto:person-tag;
+    - "AL-QADHAFI, MUATASSIM";
+    - dc:title: "Muatassim al-Qadhafi".
 
 <http://psi.metaleaks.org/cablegate/person-tag/JOSEPH,%20ROBERT%20G.> isa onto:person-tag;
     - "JOSEPH, ROBERT G."; 
