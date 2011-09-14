@@ -297,19 +297,3 @@ org:ATPDEA isa onto:organization-tag;
     - "BA'ATH";
     - dc:title: "Ba'ath";
 .
-
-
-# --------
-# Geo TAGs
-# --------
-<http://psi.metaleaks.org/cablegate/geo-tag/NEW%20ZEALAND> isa onto:country-tag; # Same as geo:NZ
-    - "NEW ZEALAND";
-    - dc:title: "New Zealand".
-
-geo:CAMBODIA isa onto:country-tag;  # same as geo:CB
-    - "CAMBODIA";
-    - dc:title: "Cambodia".
-
-geo:TURKEY isa onto:country-tag;  # same as geo:TU
-    - "TURKEY";
-    - dc:title: "Turkey".
