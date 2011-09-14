@@ -37,6 +37,26 @@ template-engine
     - "Template engine";
 .
 
+p:openpyxl
+  nhd("openpyxl", <https://bitbucket.org/ericgazoni/openpyxl/>
+      "A Python library to read/write Excel 2007 xlsx/xlsm files.");
+.
+
+p:pyXLSX
+  nhd("pyXLSX", <https://github.com/leegao/pyXLSX>,
+      "pyXLSX - A python class library for reading Excel 2007 files");
+.
+
+p:python-xlsx
+  nhd("python-xlsx", <https://github.com/staale/python-xlsx>,
+      "A small footprint xslx reader that understands shared strings and can process excel dates.");
+.
+
+p:Pygcurse
+  nhd("Pygcurse", <http://inventwithpython.com/pygcurse/>,
+      "Pygcurse (pronounced "pig curse") is a curses library emulator that runs on top of the Pygame framework.");
+.
+
 p:ldtools
     nhd("Ldtools", <https://github.com/dmr/ldtools/>,
         "Ldtools is a simple library to handle RDF data more conveniently.");
