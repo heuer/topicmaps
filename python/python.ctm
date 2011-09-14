@@ -63,7 +63,7 @@ p:ldtools
 .
 
 p:sqlitedict
-    nhd("sqlitedict", <https://github.com/piskvorky/sqlitedict>
+    nhd("sqlitedict", <https://github.com/piskvorky/sqlitedict>,
         "Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.");
 .
 
