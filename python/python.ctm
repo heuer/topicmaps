@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-08-17
+# Modified:     2011-09-13
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,36 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:openpyxl
+  nhd("openpyxl", <https://bitbucket.org/ericgazoni/openpyxl/>,
+      "A Python library to read/write Excel 2007 xlsx/xlsm files.");
+.
+
+p:pyXLSX
+  nhd("pyXLSX", <https://github.com/leegao/pyXLSX>,
+      "pyXLSX - A python class library for reading Excel 2007 files");
+.
+
+p:python-xlsx
+  nhd("python-xlsx", <https://github.com/staale/python-xlsx>,
+      "A small footprint xslx reader that understands shared strings and can process excel dates.");
+.
+
+p:Pygcurse
+  nhd("Pygcurse", <http://inventwithpython.com/pygcurse/>,
+      "Pygcurse (pronounced "pig curse") is a curses library emulator that runs on top of the Pygame framework.");
+.
+
+p:ldtools
+    nhd("Ldtools", <https://github.com/dmr/ldtools/>,
+        "Ldtools is a simple library to handle RDF data more conveniently.");
+.
+
+p:sqlitedict
+    nhd("sqlitedict", <https://github.com/piskvorky/sqlitedict>,
+        "Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.");
 .
 
 p:urlwatch
