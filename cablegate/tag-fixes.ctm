@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 #
-# Modified:     2011-09-04
+# Modified:     2011-09-15
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
@@ -111,20 +111,16 @@
 
 
 # ------------
-# Program TAGs
-# ------------
-program:POLINT isa onto:program-tag;        #TODO: Same as program:KPIN?
+# Subject TAGs
+#-------------
+
+subj:POLINT isa onto:subject-tag;        #TODO: Same as program:KPIN?
     - "POLINT";
     - dc:title: "Political Internationals".
 
-http://psi.metaleaks.org/cablegate/program-tag/BLUE%20LANTERN isa program-tag;
+http://psi.metaleaks.org/cablegate/subject-tag/BLUE%20LANTERN isa onto:subject-tag;
     - "BLUE LANTERN";
     - dc:title: "Blue Lantern".
-
-
-# ------------
-# Subject TAGs
-#-------------
 
 <http://psi.metaleaks.org/cablegate/subject-tag/GAZA%20DISENGAGEMENT> isa onto:subject-tag;
     - "GAZA DISENGAGEMENT"; 
