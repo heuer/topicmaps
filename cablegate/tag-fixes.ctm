@@ -266,6 +266,11 @@ subj:RELFREE isa onto:subject-tag;
   - dc:title: "religious freedom"
 .
 
+subj:ATPDEA isa onto:subject-tag;
+    - "ATPDEA";
+    - dc:title: "Andean Trade Promotion and Drug Eradication Act";
+.
+
 
 # -----------------
 # Organization TAGs
@@ -281,11 +286,6 @@ org:ZANU-PF isa onto:organization-tag;
 org:COPUOS isa onto:organization-tag;
     - "COPUOS";
     - dc:title: "Committee on the Peaceful Uses of Outer Space";
-.
-
-org:ATPDEA isa onto:organization-tag;
-    - "ATPDEA";
-    - dc:title: "Andean Trade Promotion and Drug Eradication Act";
 .
 
 <http://psi.metaleaks.org/cablegate/organization-tag/PHALANAGE%20PARTY> isa onto:organization-tag;
