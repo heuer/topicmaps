@@ -14,7 +14,7 @@
 #
 # Date:         2011-07-23
 #
-# Modified:     2011-08-25
+# Modified:     2011-09-01
 # 
 
 %prefix wp <http://en.wikipedia.org/wiki/>
@@ -38,12 +38,17 @@ end
 # Stations
 # --------
 
-s:United_States_Secretary_of_Defense
-  - "United States Secretary of Defense";
+s:U.S._Secretary_of_Defense
+  wp:United_States_Department_of_Defense;
+  - "U.S. Secretary of Defense";
+  lat-long(38.870989, -77.055961);
+  foaf:homepage: <http://www.defense.gov/>;
 .
 
-s:Secretary_of_State
-  - "Secretary of State";
+s:U.S._Secretary_of_State
+  wp:United_States_Secretary_of_State;
+  - "U.S. Secretary of State";
+  foaf:homepage: <http://www.state.gov/>;
 .
 
 s:U.S._Embassy_Baghdad isa onto:usembassy;
@@ -53,7 +58,7 @@ s:U.S._Embassy_Baghdad isa onto:usembassy;
 
 s:U.S._Embassy_Vienna isa onto:usembassy;
   http://en.wikipedia.org/wiki/U.S._Embassy,_Vienna;
-  - "U.S. Embassy, Vienna";
+  - "U.S. Embassy Vienna";
   lat-long(48.222778, 16.356111);
   foaf:homepage: <http://austria.usembassy.gov/>;
 .
@@ -65,7 +70,7 @@ s:U.S._Embassy_Prague isa onto:usembassy;
 
 s:U.S._Embassy_Berlin isa onto:usembassy;
   http://en.wikipedia.org/wiki/Embassy_of_the_United_States_in_Berlin;
-  - "Embassy of the United States in Berlin";
+  - "U.S. Embassy Berlin";
   lat-long(52.515278, 13.378333);
   foaf:homepage: <http://germany.usembassy.gov/>;
 .
@@ -96,12 +101,12 @@ s:U.S._Embassy_Moscow isa onto:usembassy;
 
 s:U.S._Embassy_Madrid isa onto:usembassy;
   - "U.S. Embassy Madrid";
-  foaf:homepage: <hhttp://madrid.usembassy.gov/>;
+  foaf:homepage: <http://madrid.usembassy.gov/>;
 .
 
 s:U.S._Embassy_Dublin isa onto:usembassy;
   - "U.S. Embassy Dublin";
-  foaf:homepage: <hhttp://dublin.usembassy.gov/>;
+  foaf:homepage: <http://dublin.usembassy.gov/>;
 .
 
 s:The_American_Institute_in_Taiwan # isa wp:Diplomatic_mission;

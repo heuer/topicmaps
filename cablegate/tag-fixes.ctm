@@ -11,7 +11,7 @@
 #
 # Date:         2010-12-29
 #
-# Modified:     2011-09-04
+# Modified:     2011-09-15
 # 
 %prefix onto <http://psi.metaleaks.org/cablegate/onto/>
 %prefix subj <http://psi.metaleaks.org/cablegate/subject-tag/>
@@ -111,20 +111,16 @@
 
 
 # ------------
-# Program TAGs
-# ------------
-program:POLINT isa onto:program-tag;        #TODO: Same as program:KPIN?
+# Subject TAGs
+#-------------
+
+subj:POLINT isa onto:subject-tag;        #TODO: Same as program:KPIN?
     - "POLINT";
     - dc:title: "Political Internationals".
 
-http://psi.metaleaks.org/cablegate/program-tag/BLUE%20LANTERN isa program-tag;
+http://psi.metaleaks.org/cablegate/subject-tag/BLUE%20LANTERN isa onto:subject-tag;
     - "BLUE LANTERN";
     - dc:title: "Blue Lantern".
-
-
-# ------------
-# Subject TAGs
-#-------------
 
 <http://psi.metaleaks.org/cablegate/subject-tag/GAZA%20DISENGAGEMENT> isa onto:subject-tag;
     - "GAZA DISENGAGEMENT"; 
@@ -266,6 +262,11 @@ subj:RELFREE isa onto:subject-tag;
   - dc:title: "religious freedom"
 .
 
+subj:ATPDEA isa onto:subject-tag;
+    - "ATPDEA";
+    - dc:title: "Andean Trade Promotion and Drug Eradication Act";
+.
+
 
 # -----------------
 # Organization TAGs
@@ -283,11 +284,6 @@ org:COPUOS isa onto:organization-tag;
     - dc:title: "Committee on the Peaceful Uses of Outer Space";
 .
 
-org:ATPDEA isa onto:organization-tag;
-    - "ATPDEA";
-    - dc:title: "Andean Trade Promotion and Drug Eradication Act";
-.
-
 <http://psi.metaleaks.org/cablegate/organization-tag/PHALANAGE%20PARTY> isa onto:organization-tag;
     - "PHALANAGE PARTY";
     - dc:title: "Phalanage Party";
@@ -297,19 +293,3 @@ org:ATPDEA isa onto:organization-tag;
     - "BA'ATH";
     - dc:title: "Ba'ath";
 .
-
-
-# --------
-# Geo TAGs
-# --------
-<http://psi.metaleaks.org/cablegate/geo-tag/NEW%20ZEALAND> isa onto:country-tag; # Same as geo:NZ
-    - "NEW ZEALAND";
-    - dc:title: "New Zealand".
-
-geo:CAMBODIA isa onto:country-tag;  # same as geo:CB
-    - "CAMBODIA";
-    - dc:title: "Cambodia".
-
-geo:TURKEY isa onto:country-tag;  # same as geo:TU
-    - "TURKEY";
-    - dc:title: "Turkey".
