@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:jsonpath
+  nhd("JSONPath", <https://code.google.com/p/jsonpath/>,
+      "XPath like syntax for JSON");
+.
+
 p:openpyxl
   nhd("openpyxl", <https://bitbucket.org/ericgazoni/openpyxl/>,
       "A Python library to read/write Excel 2007 xlsx/xlsm files.");
