@@ -1,0 +1,112 @@
+#
+# Source: <https://cabletags.wordpress.com/wikileaks-cable-program-tags/>
+#
+KACT 	Strategic Arms Control (ACS) Treaties
+KAWC 	Atrocities and War Crimes
+KBCT 	Arab League Boycott
+KCCP 	Classified Connectivity Deployment Program
+KCFE 	Conventional Armed Forces in Europe
+KCIP 	Critical Infrastructure Protection
+KCIS 	Posts Classified Information Handling
+KCOG 	Continuity of the Federal Government
+KCOM 	Chief of Mission
+KCOR 	Corruption and Anti-Corruption
+KCRM 	Criminal Activity
+KCRS 	Coordinator for Reconstruction and Stabilization
+KCSY 	Consular System
+KDEM 	Democratization
+KDRG 	Detainee Repatriation from Guantanamo Bay
+KEAI 	Enterprise for the Americas Initiative
+KECF 	The U.S. Africa Economic Cooperation Forum
+KEMS 	Electronic Messaging Systems
+KESS 	Emergency Security Supplemental
+KFAM 	Foreign Affairs Manual
+KFLO 	Family Liaison
+KFLU 	Avian and Pandemic Influenza Activities
+KFPC 	Foreign Policy Trade Controls and East/West Trade
+KFRD 	Fraud Prevention Programs
+KFSC 	Financial Service Center Operations
+KGCN 	Government to Government Claims Negotiations
+KGHA 	Greater Horn of Africa Initiative
+KGHG 	Global Climate Change
+KGIC 	Global Initiative to Combat Nuclear Terrorism
+KGIT 	Global Information Technology Modernization Program
+KGLB 	Global Learning and Observations to Benefit the Environment (GLOBE)
+KHDP 	Humanitarian Demining Program
+KHIV 	Emerging Infectious Diseases and HIV/AIDS Program
+KHLS 	Homeland Security
+KICA 	International Cooperative Administrative Support Services
+KICR 	International Coral Reef Initiative
+KICT 	Iran-U.S. Claims Tribunal
+KIDE 	Investment Disputes and Property Expropriations
+KIMT 	Information Management Training
+KIPR 	Intellectual Property Rights
+KIRC 	Information Resource Centers
+KIRF 	International Religious Freedom
+KISL 	Islamic Issues
+KJUS 	Administration of Justice
+KLBO 	Information Resource Management Liaison Office to Overseas Buildings Operations
+KLIG 	Foreign Litigation
+KLSO 	Language Support Operations
+KMCA 	Millennium Challenge Account
+KMDR 	Media Reaction Reporting
+KMFO 	Multinational Force Observers
+KMPI 	Middle East Partnership Initiative
+KMRS 	Rightsizing the U.S. Government’s Overseas Presence
+KMSG 	Marine Security Guard Program
+KNAR 	Nazi Assets and Restitution
+KNEI 	Northern Europe Initiative (NEI)
+KNEP 	Nonexpendable Property Application (NEPA)
+KNET 	Department of State Telecommunications Network (DOSTN) Program
+KNNP 	Nuclear Non- Proliferation
+KNSD 	North-South Dialogue
+KOCI 	Children’s Issues
+KOGL 	Open Source and Gray Literature
+KOLY 	Olympic Games Reporting
+KOMC 	Export Control of Defense Articles and Defense Services
+KONP 	OpenNet Plus Program
+KPAL 	Palestinian Affairs
+KPAM 	Property Accountability Management
+KPAO 	Public Affairs Office
+KPAP 	Overseas Presence Advisory Panel (OPAP)
+KPDC 	Protected Digital Copier
+KPIN 	Political Internationals
+KPIR 	Maritime Piracy and Armed Robbery Against Ships
+KPKO 	United Nations Peacekeeping Operations
+KPLS 	Polls, Survey Research and Focus Groups
+KPMP 	Patch Management Program
+KPOW 	Prisoners of War/Missing in Action
+KPRV 	Privatization
+KPWR 	Power Support Program
+KQDD 	Quadrennial Diplomacy and Developments Review
+KRAD 	Radioactive Contamination of the Environment
+KREC 	Reciprocity
+KRIM 	Regional Information Management Centers
+KRVC 	Research Vessel Clearances
+KSAC 	Security Advisory Council
+KSAF 	Safety Program
+KSCA 	Science Counselors and Attachés
+KSEI 	Southeast European Cooperative Initiative
+KSEO 	Security Engineering Operations
+KSIP 	IT Skills Incentive Program
+KSLG 	Secure Logistics
+KSPR 	Strategic, Performance and Resource Planning
+KSRK 	Visas Shark Communication
+KSTC 	Strategic Trade and Technology Controls
+KSTT 	State Transition Team
+KSUM 	Summit Meetings
+KTDB 	National Trade Data Bank
+KTEX 	Textiles
+KTFN 	Terrorism Finance Traffic
+KTIA 	Treaties and International Agreements
+KTIP 	Trafficking in Persons
+KTSD 	Trilateral Strategic Dialogue
+KUNC 	United Nations Compensation Commission
+KUNR 	UN Reform
+KVIR 	Computer Virus and/or Anti-Virus Program
+KVPR 	Visas VIPER Communications
+KWBG 	West Bank and Gaza
+KWIR 	Wireless
+KWMN 	Women Issues
+KWPA 	Worldwide Property Accountability
+KWWW 	World Wide Web Site
