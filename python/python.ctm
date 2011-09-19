@@ -37,6 +37,17 @@ template-engine
     - "Template engine";
 .
 
+p:pSSLDA
+  nhd("pSSLDA", <https://github.com/davidandrzej/pSSLDA>,
+      """Parallel Semi-Supervised Latent Dirichlet Allocation 
+
+This software implements an extension of Latent Dirichlet Allocation
+(LDA) which includes "topic-in-set knowledge", or z-labels,
+allowing the user to supply (possibly noisy) labels for specific
+latent topic assignments.  Parallelized inference is done by the
+Approximate Distributed (AD) collapsed Gibbs sampling algorithm.""");
+.
+
 p:PyStemmer
   nhd("PyStemmer", <http://pypi.python.org/pypi/PyStemmer/>,
       "Snowball stemming algorithms, for information retrieval");
