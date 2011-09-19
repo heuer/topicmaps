@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-09-16
+# Modified:     2011-09-19
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:PyStemmer
+  nhd("PyStemmer", <http://pypi.python.org/pypi/PyStemmer/>,
+      "Snowball stemming algorithms, for information retrieval");
 .
 
 p:csvkit
