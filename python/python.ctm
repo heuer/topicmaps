@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-09-19
+# Modified:     2011-09-20
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Cobe
+  nhd("Cobe", <https://github.com/pteichman/cobe>,
+      "Cobe is a Markov chain based text generator. It provides a command line learning/replying interface, an IRC client, and a low-level API for writing your own text generation tools. It uses SQLite as its data store.");
 .
 
 p:pSSLDA
