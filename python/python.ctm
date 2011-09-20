@@ -37,6 +37,16 @@ template-engine
     - "Template engine";
 .
 
+p:asciitable
+  nhd("ASCII Table", <http://cxc.cfa.harvard.edu/contrib/asciitable/>,
+      "An extensible ASCII table reader and writer for Python 2 and 3.");
+.
+
+p:Lupyne
+  nhd("Lupyne", <https://code.google.com/p/lupyne/>,
+      "A pythonic search engine, based on PyLucene and CherryPy.");
+.
+
 p:Cobe
   nhd("Cobe", <https://github.com/pteichman/cobe>,
       "Cobe is a Markov chain based text generator. It provides a command line learning/replying interface, an IRC client, and a low-level API for writing your own text generation tools. It uses SQLite as its data store.");
