@@ -37,6 +37,10 @@ template-engine
     - "Template engine";
 .
 
+p:imapIO 
+  nhd("imapIO", <https://github.com/invisibleroads/imapIO>,
+      "Convenience classes and methods for processing IMAP mailboxes");
+
 p:sifter
   nhd("sifter", <https://github.com/garyp/sifter>,
       "Python implementation of the Sieve email filtering language (RFC 5228).");
