@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-09-13
+# Modified:     2011-09-21
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,52 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Landslide
+  nhd("Landslide", <https://github.com/adamzap/landslide>,
+      "Landslide generates a slideshow using the slides that power the html5-slides presentation.");
+.
+
+p:asciitable
+  nhd("ASCII Table", <http://cxc.cfa.harvard.edu/contrib/asciitable/>,
+      "An extensible ASCII table reader and writer for Python 2 and 3.");
+.
+
+p:Lupyne
+  nhd("Lupyne", <https://code.google.com/p/lupyne/>,
+      "A pythonic search engine, based on PyLucene and CherryPy.");
+.
+
+p:Cobe
+  nhd("Cobe", <https://github.com/pteichman/cobe>,
+      "Cobe is a Markov chain based text generator. It provides a command line learning/replying interface, an IRC client, and a low-level API for writing your own text generation tools. It uses SQLite as its data store.");
+.
+
+p:pSSLDA
+  nhd("pSSLDA", <https://github.com/davidandrzej/pSSLDA>,
+      """Parallel Semi-Supervised Latent Dirichlet Allocation 
+
+This software implements an extension of Latent Dirichlet Allocation
+(LDA) which includes "topic-in-set knowledge", or z-labels,
+allowing the user to supply (possibly noisy) labels for specific
+latent topic assignments.  Parallelized inference is done by the
+Approximate Distributed (AD) collapsed Gibbs sampling algorithm.""");
+.
+
+p:PyStemmer
+  nhd("PyStemmer", <http://pypi.python.org/pypi/PyStemmer/>,
+      "Snowball stemming algorithms, for information retrieval");
+.
+
+p:csvkit
+  nhd("csvkit", <https://github.com/onyxfish/csvkit>,
+      "A library of utilities for working with CSV");
+.
+
+p:jsonpath
+  nhd("JSONPath", <https://code.google.com/p/jsonpath/>,
+      "XPath like syntax for JSON");
 .
 
 p:openpyxl
