@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-09-28
+# Modified:     2011-10-09
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,17 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:requests
+  nhd("requests", <https://github.com/kennethreitz/requests>,
+      "Python HTTP Requests for Humans
+
+Requests: HTTP for Humans
+
+Requests allow you to send HEAD, GET, POST, PUT, PATCH, and DELETE HTTP requests. 
+You can add headers, form data, multipart files, and parameters with simple Python 
+dictionaries, and access the response data in the same way. It's powered by urllib2.");
 .
 
 p:imapIO 
