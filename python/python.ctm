@@ -37,6 +37,13 @@ template-engine
     - "Template engine";
 .
 
+p:clint
+  nhd("Clit", <https://github.com/kennethreitz/clint>,
+      "Clint: Python Command-line Application Tools
+
+Clint is a module filled with a set of awesome tools for developing commandline applications.");
+.
+
 p:requests
   nhd("requests", <https://github.com/kennethreitz/requests>,
       "Python HTTP Requests for Humans
