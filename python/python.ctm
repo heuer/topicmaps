@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-09
+# Modified:     2011-10-12
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Shove
+  nhd("Shove", <http://pypi.python.org/pypi/shove/>,
+      "Common object storage frontend that supports dictionary-style access, object serialization and compression, and multiple storage and caching backends.");
 .
 
 p:clint
