@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-09
+# Modified:     2011-10-12
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,14 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:Blogofile
+  nhd("Blogofile", <http://www.blogofile.com/>,
+      "Blogofile is a static website compiler, primarily (though not exclusively) designed to be a simple blogging engine. 
+It requires no database and no special hosting environment. You customize a set of templates with Mako, create posts in a 
+markup language of your choice and Blogofile renders your entire website as static HTML and Atom/RSS feeds which you can 
+then upload to any old web server you like.");
 .
 
 p:requests
