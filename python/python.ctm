@@ -45,6 +45,18 @@ markup language of your choice and Blogofile renders your entire website as stat
 then upload to any old web server you like.");
 .
 
+p:Shove
+  nhd("Shove", <http://pypi.python.org/pypi/shove/>,
+      "Common object storage frontend that supports dictionary-style access, object serialization and compression, and multiple storage and caching backends.");
+.
+
+p:clint
+  nhd("Clit", <https://github.com/kennethreitz/clint>,
+      "Clint: Python Command-line Application Tools
+
+Clint is a module filled with a set of awesome tools for developing commandline applications.");
+.
+
 p:requests
   nhd("requests", <https://github.com/kennethreitz/requests>,
       "Python HTTP Requests for Humans
