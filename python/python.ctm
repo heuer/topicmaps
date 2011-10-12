@@ -71,6 +71,7 @@ dictionaries, and access the response data in the same way. It's powered by urll
 p:imapIO 
   nhd("imapIO", <https://github.com/invisibleroads/imapIO>,
       "Convenience classes and methods for processing IMAP mailboxes");
+.
 
 p:sifter
   nhd("sifter", <https://github.com/garyp/sifter>,
