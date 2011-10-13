@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-12
+# Modified:     2011-10-13
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,17 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:DeltaLDA
+  nhd("DeltaLDA", <http://pages.cs.wisc.edu/~andrzeje/research/delta_lda.html>,
+      "This software implements the DeltaLDA model for discrete count data. 
+DeltaLDA is a modification of the Latent Dirichlet Allocation (LDA) model which uses two different 
+topic mixing weight priors to jointly model two corpora with a shared set of topics. 
+The inference method is Collapsed Gibbs sampling. 
+This code can also be used to do "standard" LDA.
+
+The code implements DeltaLDA as a Python C extension module, combining the speed of Python with the flexibility and ease-of-use of raw C");
 .
 
 p:Blogofile
