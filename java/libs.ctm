@@ -12,7 +12,7 @@
 #
 # Date:         2011-10-07
 # 
-# Modified:     2011-10-07
+# Modified:     2011-10-13
 # 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/java-projects/>
@@ -30,6 +30,11 @@ end
 def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
+
+p:orientdb-jdbc
+  nhd("OrientDB JDBC", <https://github.com/robfrank/orientdb-jdbc>,
+      "OrientDb JDBC Driver");
+.
 
 p:JWPL
   nhd("JWPL (Java Wikipedia Library)", <https://code.google.com/p/jwpl/>,
