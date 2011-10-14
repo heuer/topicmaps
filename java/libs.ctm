@@ -31,6 +31,13 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+
+p:mrg isa wp:Triplestore
+  nhd("MRG", <https://code.google.com/p/mrg/>,
+      "MRG allows Java developers to easily load, view and construct RDF graphs. 
+An API is provided that allows simple access to graph components, including RDF collections.");
+.
+
 p:orientdb-jdbc
   nhd("OrientDB JDBC", <https://github.com/robfrank/orientdb-jdbc>,
       "OrientDb JDBC Driver");

@@ -37,6 +37,13 @@ template-engine
     - "Template engine";
 .
 
+
+p:Dulwich
+  nhd("Dulwich", <http://www.samba.org/~jelmer/dulwich/>,
+      "Dulwich is a pure-Python implementation of the Git file formats and protocols.");
+  ml(<https://launchpad.net/~dulwich-users>);
+.
+
 p:DeltaLDA
   nhd("DeltaLDA", <http://pages.cs.wisc.edu/~andrzeje/research/delta_lda.html>,
       """This software implements the DeltaLDA model for discrete count data. 
@@ -450,6 +457,15 @@ p:gensim
     doap:description: "Python Framework for Vector Space Modelling";
     doap:homepage: <http://nlp.fi.muni.cz/projekty/gensim/>;
     repository: <https://github.com/piskvorky/gensim/>;
+    ml(<https://groups.google.com/group/gensim>);
+.
+
+#
+# TODO: Relationship between Pyro4 and Pyro
+#
+p:pyro4
+  nhd("Pyro4", <http://irmen.home.xs4all.nl/pyro/>,
+      "Pyro is a library that enables you to build applications in which objects can talk to each other over the network, with minimal programming effort.");
 .
 
 p:pyro
