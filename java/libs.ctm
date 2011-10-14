@@ -32,6 +32,11 @@ def tracker($t, $iri)
 end
 
 
+p:SemanticVectors
+  nhd("Semantic Vectors", <https://code.google.com/p/semanticvectors/>,
+      "SemanticVectors creates semantic WordSpace models from free natural language text. Such models are designed to represent words and documents in terms of underlying concepts.");
+.
+
 p:mrg isa wp:Triplestore
   nhd("MRG", <https://code.google.com/p/mrg/>,
       "MRG allows Java developers to easily load, view and construct RDF graphs. 
