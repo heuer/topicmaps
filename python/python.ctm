@@ -38,6 +38,11 @@ template-engine
 .
 
 
+p:tweetstream
+  nhd("tweetstream", <http://bitbucket.org/runeh/tweetstream/>,
+      "Simple Twitter streaming API access");
+.
+
 p:Dulwich
   nhd("Dulwich", <http://www.samba.org/~jelmer/dulwich/>,
       "Dulwich is a pure-Python implementation of the Git file formats and protocols.");
