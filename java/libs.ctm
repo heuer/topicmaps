@@ -19,6 +19,11 @@
 %prefix doap <http://usefulinc.com/ns/doap#>
 %prefix wp <http://en.wikipedia.org/wiki/>
 
+def uses($project, $lib)
+  #TODO
+  depends-on(project: $project, dependency: $lib)
+end
+
 def nhd($t, $name, $homepage, $description)
     $t - $name; doap:homepage: $homepage; doap:description: $description.
 end
@@ -31,6 +36,13 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+p:SCON
+  nhd("SCON", <https://code.google.com/p/scon/>,
+      """An implementation of JDBC for accessing SPARQL endpoints.
+
+The goal of this project is to transparently allow JDBC code run against a SPARQL endpoint. Ultimately, any operations that make sense in SPARQL and RDF should be possible through this API. This will allow anyone familiar with JDBC to easily interface with SPARQL, or to use JDBC tools to communicate with a SPARQL endpoint.""");
+  uses(p:mrg);
+.
 
 p:MALLET
   nhd("MALLET", <http://mallet.cs.umass.edu/>,
