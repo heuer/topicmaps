@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-13
+# Modified:     2011-10-18
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -37,6 +37,25 @@ template-engine
     - "Template engine";
 .
 
+p:piped
+  nhd("Piped", <http://www.piped.io/>,
+      "Piped is a MIT-licensed framework for flow based programming written in Python that focuses on:
+
+    * Ease of use.
+    * Extendability.
+    * Painless integrating with other systems.
+    * Testing and maintainability.
+    * Performance.
+
+A base Piped installation already speaks multiple protocols, such as HTTP, SMTP and Perspective Broker. 
+Contrib packages that extends Piped, adding support for database connectivity, message queues such as ZeroMQ and more are also available.");
+.
+
+p:WTF
+  nhd("WTForms", <http://wtforms.simplecodes.com/>,
+      "WTForms is a forms validation and rendering library for Python web development.");
+.
+  
 
 p:tweetstream
   nhd("tweetstream", <http://bitbucket.org/runeh/tweetstream/>,
@@ -393,7 +412,7 @@ p:nltk
     doap:homepage: <http://www.nltk.org/>;
 .
 
-p:rdblib
+p:rdblib isa wp:Triplestore
     - "RDFLib";
     doap:description: "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.";
     doap:homepage: <https://code.google.com/p/rdflib/>;
