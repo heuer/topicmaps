@@ -49,6 +49,7 @@ p:piped
 
 A base Piped installation already speaks multiple protocols, such as HTTP, SMTP and Perspective Broker. 
 Contrib packages that extends Piped, adding support for database connectivity, message queues such as ZeroMQ and more are also available.");
+  repository: <https://github.com/foundit/Piped>;
 .
 
 p:WTF
@@ -56,6 +57,10 @@ p:WTF
       "WTForms is a forms validation and rendering library for Python web development.");
 .
   
+p:Tweepy
+  nhd("Tweepy", <https://github.com/tweepy/tweepy>,
+      "A Python library for access the Twitter API");
+.
 
 p:tweetstream
   nhd("tweetstream", <http://bitbucket.org/runeh/tweetstream/>,
