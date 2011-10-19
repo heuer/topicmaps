@@ -12,8 +12,11 @@
 #
 # Date:         2011-07-20
 # 
-# Modified:     2011-07-20
+# Modified:     2011-10-19
 # 
+
+= <http://www.pkmurphy.com.au/images/ypathspec.pdf>
+  - "YAML Path Language (YPath) - A path language for YAML".
 
 = <http://www.spiegel.de/netzwelt/web/0,1518,768312,00.html>
   - "Googles genialer Urahn -- Netzvisionär Paul Otlet";
