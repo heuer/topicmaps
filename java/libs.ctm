@@ -36,6 +36,11 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+p:SnakeYAML
+  nhd("SnakeYAML", <https://code.google.com/p/snakeyaml/>,
+      "YAML parser and emitter for Java");
+.
+
 p:SCON
   nhd("SCON", <https://code.google.com/p/scon/>,
       """An implementation of JDBC for accessing SPARQL endpoints.
