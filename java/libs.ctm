@@ -12,7 +12,7 @@
 #
 # Date:         2011-10-07
 # 
-# Modified:     2011-10-16
+# Modified:     2011-10-21
 # 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/java-projects/>
@@ -35,6 +35,20 @@ end
 def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
+
+
+p:tuProlog
+  nhd("tuProlog", <http://alice.unibo.it/xwiki/bin/view/Tuprolog/>,
+      "tuProlog is a light-weight Prolog system for distributed applications and infrastructures, 
+intentionally designed around a minimal core (containing only the most essential properties of a Prolog engine), 
+to be later configured by (statically and dynamically) loading/unloading libraries of predicates. 
+tuProlog also natively supports multi-paradigm programming, providing a clean, seamless integration model between Prolog and mainstream object-oriented languages -- namely Java");
+.
+
+p:Jedis
+  nhd("Jedis", <https://github.com/xetorthio/jedis>,
+      "Jedis is a Redis Java client.");
+.
 
 p:SnakeYAML
   nhd("SnakeYAML", <https://code.google.com/p/snakeyaml/>,
