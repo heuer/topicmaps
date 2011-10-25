@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-18
+# Modified:     2011-10-25
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:intellect
+  nhd("Intellect", <https://github.com/nemonik/Intellect>,
+      """Intellect is a DSL ("Domain-Specific Language") and Rule Engine for Python I authored for expressing policies to orchestrate and control a dynamic network defense cyber-security platform being researched in The MITRE Corporation's Innovation Program.""");
 .
 
 p:piped
