@@ -37,6 +37,14 @@ template-engine
     - "Template engine";
 .
 
+p:ConceptNet
+  nhd("ConceptNet", <https://github.com/commonsense/conceptnet>,
+      """ConceptNet aims to give computers access to common-sense knowledge, the kind of information that ordinary people know but usually leave unstated.
+
+The data in ConceptNet was collected from ordinary people who contributed it over the Web. ConceptNet represents this data in the form of a semantic network, and makes it available to be used in natural language processing and intelligent user interfaces.""");
+  doap:homepage: <http://csc.media.mit.edu/conceptnet>;
+.
+
 p:yaupon
   nhd("yaupon", <https://github.com/aaw/yaupon>,
       """yaupon is a graph library written in Python.""");
