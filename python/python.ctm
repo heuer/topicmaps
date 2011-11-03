@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-10-25
+# Modified:     2011-11-02
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,22 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:yaupon
+  nhd("yaupon", <https://github.com/aaw/yaupon>,
+      """yaupon is a graph library written in Python.""");
+.
+
+p:sparql_shim
+  nhd("sparql_shim", <https://github.com/npilon/sparql-shim>,
+      """A minimal web application using pyramid that provides SPARQL 1.1 Uniform HTTP
+Protocol support for SPARQL 1.1 Update-capable graph stores.""");
+.
+
+p:Pylgrim
+  nhd("Pylgrim", <https://github.com/pwoolcoc/Pylgrim>,
+      """Graph library similar to (but not nearly as powerful as) the Gremlin project.""");
 .
 
 p:intellect
