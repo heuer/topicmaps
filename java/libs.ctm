@@ -12,7 +12,7 @@
 #
 # Date:         2011-10-07
 # 
-# Modified:     2011-10-21
+# Modified:     2011-11-04
 # 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/java-projects/>
@@ -35,6 +35,13 @@ end
 def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
+
+p:Blueredis
+  nhd("Blueredis", <https://github.com/dmitriid/blueredis>,
+      """This is a straightforward and rather naïve implementation of a Blueprints-enabled graph over Redis.
+
+Blueprints is a database-agnostic library for handling graphs. Blueredis allows you to run Blueprints on top of redis. Also see Pipes and Gremlin to see what this integration will also allow you to do""");
+.
 
 
 p:tuProlog
