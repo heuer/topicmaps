@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-11-02
+# Modified:     2011-11-04
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:rdb
+  nhd("rdb", <https://github.com/nvie/rdb>,
+      """rdb is an attempt at a lightweight wrapper around native Redis calls to represent and persist objects in Python. It does not aim to be yet another ORM library""");
 .
 
 p:ConceptNet
