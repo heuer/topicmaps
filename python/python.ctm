@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-11-04
+# Modified:     2011-12-25
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,12 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:easyply
+  nhd("easyply", <https://github.com/MHordecki/easyply>,
+      """easyply is a helper library for PLY, parser generator for Python. It acts as a middleware between your grammar definition and PLY.
+easyply adds some EBNF-y flavor to it""");
 .
 
 p:rdb
