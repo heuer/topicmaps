@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2011-12-25
+# Modified:     2012-01-09
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:calypso
+  nhd("Calypso", <http://keithp.com/blogs/calypso/>,
+      """'Radicale' fork which supports CardDAV""");
 .
 
 p:easyply
