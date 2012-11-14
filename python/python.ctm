@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2012-01-09
+# Modified:     2012-11-14
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,27 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+p:pattern
+  nhd("Pattern", <http://www.clips.ua.ac.be/pages/pattern>,
+      """Pattern is a web mining module for the Python programming language.
+
+It bundles tools for data retrieval (Google + Twitter + Wikipedia API, web spider, HTML DOM parser), \
+text analysis (rule-based shallow parser, WordNet interface, syntactical + semantical n-gram search algorithm, tf-idf + \
+cosine similarity + LSA metrics), clustering and classification (k-means, KNN, SVM), and data visualization (graph networks).""");
+.
+
+p:javalang
+  nhd("javalang", <https://github.com/c2nes/javalang>,
+      """javalang is a pure Python library for working with Java source code. javalang provies a lexer and parser targeting Java 7.""");
+.
+
+p:javasphinx
+  nhd("javasphinx", <https://github.com/bronto/javasphinx>,
+      """javasphinx is an extension to the Sphinx documentation system which adds support for documenting Java projects. 
+It includes a Java domain for writing documentation manually and a javasphinx-apidoc utility which will automatically generate API documentation from existing Javadoc markup.""");
+.
+
 
 p:calypso
   nhd("Calypso", <http://keithp.com/blogs/calypso/>,
