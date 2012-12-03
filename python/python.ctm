@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2012-11-14
+# Modified:     2012-12-03
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:font-awesome-to-png
+  nhd("Font Awesome to PNG", <https://github.com/odyniec/font-awesome-to-png>,
+      """This program allows you to extract the awesome Font Awesome icons as PNG images of specified size.""");
 .
 
 p:pattern
