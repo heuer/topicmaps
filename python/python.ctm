@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2012-12-03
+# Modified:     2013-02-02
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,12 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:Quepy
+  nhd("Quepy", <https://github.com/machinalis/quepy>,
+      """Quepy is a python framework to transform natural language questions to queries in a database query language""");
 .
 
 p:font-awesome-to-png
