@@ -37,6 +37,10 @@ template-engine
     - "Template engine";
 .
 
+p:jellyfish
+  nhd("Jellyfish", <https://github.com/sunlightlabs/jellyfish>,
+      """Jellyfish is a python library for doing approximate and phonetic matching of strings.""");
+.
 
 p:Quepy
   nhd("Quepy", <https://github.com/machinalis/quepy>,
