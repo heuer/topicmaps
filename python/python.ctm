@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-02-02
+# Modified:     2013-02-24
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,16 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:dedupe
+  nhd("dedupe", <https://github.com/open-city/dedupe>
+      """A free python library for accurate and scalelable deduplication and entity-resolution.""")
+.
+
+p:pydedupe
+  nhd("PyDedupe", <https://github.com/gpoulter/pydedupe>,
+      """Python dedupe library""")
 .
 
 p:jellyfish
