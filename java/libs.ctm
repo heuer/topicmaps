@@ -12,7 +12,7 @@
 #
 # Date:         2011-10-07
 # 
-# Modified:     2011-11-09
+# Modified:     2013-02-25
 # 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/java-projects/>
@@ -35,6 +35,12 @@ end
 def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
+
+
+p:OpenRefine
+  nhd("OpenRefine", <https://github.com/OpenRefine/OpenRefine>,
+      """OpenRefine is a free, open source power tool for working with messy data and improving it""")
+.
 
 p:sprotocol 
   nhd("sprotocol", <https://github.com/mischat/sprotocol>,

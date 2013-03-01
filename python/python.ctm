@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-02-24
+# Modified:     2013-03-01
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,17 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:docx2html
+  nhd("docx2html", <https://github.com/PolicyStat/docx2html/>,
+      """Convert a docx (OOXML) file to semantic HTML. All of Word formatting nonsense is stripped away and you're left with a cleanly-formatted version of the content.""")
+.
+
+p:pypdfml
+  nhd("PyPDFML", <https://github.com/badzong/pypdfml>,
+      """Simple XML wrapper for Reportlab with Jinja2 support""")
 .
 
 p:dedupe
