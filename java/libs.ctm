@@ -12,7 +12,7 @@
 #
 # Date:         2011-10-07
 # 
-# Modified:     2013-02-25
+# Modified:     2013-03-02
 # 
 %prefix dc <http://purl.org/dc/elements/1.1/>
 %prefix p <http://psi.semagia.com/java-projects/>
@@ -36,6 +36,10 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+p:MapDB
+  nhd("MapDB", <http://www.mapdb.org/>,
+      """MapDB provides concurrent TreeMap and HashMap backed by disk storage or off-heap memory. It is a fast, scalable and easy to use embedded Java database engine.""")
+.
 
 p:OpenRefine
   nhd("OpenRefine", <https://github.com/OpenRefine/OpenRefine>,
