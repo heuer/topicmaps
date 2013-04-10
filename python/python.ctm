@@ -38,6 +38,11 @@ template-engine
 .
 
 
+p:scrapely
+  ndh("Scrapely", <https://github.com/scrapy/scrapely>,
+      """Scrapely is a library for extracting structured data from HTML pages. Given some example web pages and the data to be extracted, scrapely constructs a parser for all similar pages.""")
+.
+
 p:docx2html
   nhd("docx2html", <https://github.com/PolicyStat/docx2html/>,
       """Convert a docx (OOXML) file to semantic HTML. All of Word formatting nonsense is stripped away and you're left with a cleanly-formatted version of the content.""")

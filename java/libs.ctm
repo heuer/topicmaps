@@ -36,6 +36,11 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+p:Persistit
+  nhd("Persistit", <http://akiban.github.com/persistit/>,
+      """A fast, transactional, Java B+Tree library.""")
+.
+
 p:MapDB
   nhd("MapDB", <http://www.mapdb.org/>,
       """MapDB provides concurrent TreeMap and HashMap backed by disk storage or off-heap memory. It is a fast, scalable and easy to use embedded Java database engine.""")
