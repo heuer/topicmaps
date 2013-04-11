@@ -36,6 +36,12 @@ def tracker($t, $iri)
     $t doap:bug-database: $iri.
 end
 
+p:SVGMap
+  nhd("SVGMap", <http://bg.upf.edu/svgmap/>,
+      """The aim of SVGMap is helping in the visualisation of experimental data which are associated with some graphical representation.
+SVGMap is a data browser which allows to generate images with colored areas corresponding to the chosen data and color scale.""")
+.
+
 p:Persistit
   nhd("Persistit", <http://akiban.github.com/persistit/>,
       """A fast, transactional, Java B+Tree library.""")
