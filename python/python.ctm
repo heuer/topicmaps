@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:sqlite3dbm
+  nhd("sqlite3dbm", <http://pythonhosted.org/sqlite3dbm/index.html>,
+      """sqlite3dbm provides a sqlite-backed dictionary conforming to the dbm interface, along with a shelve class that wraps the dict and provides serialization for it.""")
+.
+
 p:lrparsing
   nhd("lrparsing", <http://ace-host.stuart.id.au/russell/files/lrparsing/>,
       """Lrparsing is yet another parser for Python. The things that make lrparsing different is it combines a LR(1) parser with an easy to use grammar written using Python expressions, a tokeniser, and comes with extensive (and free!) documentation. """)
