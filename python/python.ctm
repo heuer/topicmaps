@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-03-01
+# Modified:     2013-04-22
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -37,6 +37,16 @@ template-engine
     - "Template engine";
 .
 
+p:lrparsing
+  nhd("lrparsing", <http://ace-host.stuart.id.au/russell/files/lrparsing/>,
+      """Lrparsing is yet another parser for Python. The things that make lrparsing different is it combines a LR(1) parser with an easy to use grammar written using Python expressions, a tokeniser, and comes with extensive (and free!) documentation. """)
+.
+
+p:pypng
+  nhd("PyPNG", <https://github.com/drj11/pypng>,
+      """PyPNG provides Python code for encoding/decoding PNG files.  In
+particular png.py is a Python module written entirely in Python.""")
+.
 
 p:scrapely
   ndh("Scrapely", <https://github.com/scrapy/scrapely>,
