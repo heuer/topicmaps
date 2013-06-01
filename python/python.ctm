@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-04-22
+# Modified:     2013-06-01
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,11 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+p:pyxll
+  nhd("PyXLL", <http://www.pyxll.com/>, """PyXLL makes it possible to write addins for Microsoft Excel in Python""")
+.
+
 
 p:sqlite3dbm
   nhd("sqlite3dbm", <http://pythonhosted.org/sqlite3dbm/index.html>,
