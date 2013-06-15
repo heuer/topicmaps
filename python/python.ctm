@@ -37,6 +37,12 @@ template-engine
     - "Template engine";
 .
 
+
+p:phonenumbers
+  nhd("phonenumbers Python Library", <https://github.com/daviddrysdale/python-phonenumbers>,
+      """This is a Python port of libphonenumber, originally from: http://code.google.com/p/libphonenumber/.""")
+.
+
 p:paramiko
   nhd("paramiko", <https://github.com/paramiko/paramiko>, """Python SSH module""")
 .
