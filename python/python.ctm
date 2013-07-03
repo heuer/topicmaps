@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-06-15
+# Modified:     2013-07-03
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,11 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:pyBarcode
+  nhd("pyBarcode", <https://bitbucket.org/whitie/python-barcode/>,
+      """This library provides a simple way to create barcodes using only the Python standardlib. The barcodes where created as SVG objects.""")
 .
 
 
