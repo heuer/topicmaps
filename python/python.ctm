@@ -37,6 +37,13 @@ template-engine
     - "Template engine";
 .
 
+
+p:PyPDF2
+  nhd("PyPDF2", <https://github.com/knowah/PyPDF2/>,
+      """Lib to read an write PDFs with Python""")
+.
+
+
 p:pyBarcode
   nhd("pyBarcode", <https://bitbucket.org/whitie/python-barcode/>,
       """This library provides a simple way to create barcodes using only the Python standardlib. The barcodes where created as SVG objects.""")
