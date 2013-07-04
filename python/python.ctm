@@ -38,6 +38,12 @@ template-engine
 .
 
 
+p:mlpy
+  nhd("mlpy -- Machine Learning Py", <http://mlpy.sourceforge.net/>,
+      """mlpy is a Python module for Machine Learning built on top of NumPy/SciPy and the GNU Scientific Libraries.""")
+.
+
+
 p:DecisionTree
   nhd("DecisionTree", <https://engineering.purdue.edu/kak/distDT/DecisionTree-2.0.html>,
       """A Python module for constructing a decision tree from multidimensional training data and for using the decision tree for classifying unlabeled data""")
