@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-07-03
+# Modified:     2013-07-04
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,18 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:DecisionTree
+  nhd("DecisionTree", <https://engineering.purdue.edu/kak/distDT/DecisionTree-2.0.html>,
+      """A Python module for constructing a decision tree from multidimensional training data and for using the decision tree for classifying unlabeled data""")
+.
+
+
+p:PyBrain
+  nhd("PyBrain", <https://github.com/pybrain/pybrain/>,
+      """PyBrain -- the Python Machine Learning Library""")
 .
 
 
