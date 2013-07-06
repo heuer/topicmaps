@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-07-04
+# Modified:     2013-07-06
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,12 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:python-geohash
+  nhd("python-geohash", <https://code.google.com/p/python-geohash/>,
+      """fast, accurate python geohashing library""")
 .
 
 
