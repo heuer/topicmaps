@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-07-06
+# Modified:     2013-07-07
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,24 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:pymdb-lightning
+  nhd("pymdb-lightning", <https://github.com/tspurway/pymdb-lightning>,
+      """Python interface to OpenLDAP MDB (aka. lightning db) key/value store.""")
+.
+
+
+p:py-lmdb
+  nhd("py-lmdb", <https://github.com/dw/py-lmdb/>,
+      """cffi/CPython wrapper for OpenLDAP MDB 'Lightning Database' library""")
+.
+
+
+p:redisco
+  nhd("redisco", <https://github.com/kiddouk/redisco>,
+      """A Python Library for Simple Models and Containers Persisted in Redis""")
 .
 
 
