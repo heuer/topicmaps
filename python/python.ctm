@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-07-15
+# Modified:     2013-08-12
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,35 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:python-qrcode
+  nhd("Python QR Code generator", <https://github.com/lincolnloop/python-qrcode>,
+      """Python QR Code image generator""")
+.
+
+
+p:WordGraph
+  nhd("Word Graph", <https://github.com/tistaharahap/WordGraph>
+      """Word Graph utility built with NLTK and TextBlob""")
+.
+
+
+p:TextBlob
+  nhd("TextBlob", <https://github.com/sloria/TextBlob>,
+      """Simple, Pythonic, text processing--Sentiment analysis, POS tagging, noun phrase extraction, translation, and more.""")
+.
+
+
+p:redis_wrap
+  nhd("redis_wrap", <https://github.com/Doist/redis_wrap>,
+      """Implements a wrapper for Redis datatypes so they mimic the datatypes found in Python.""")
+.
+
+
+p:redis-rdb-tools
+  nhd("redis-rdb-tools", <https://github.com/sripathikrishnan/redis-rdb-tools>,
+      """Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON""")
 .
 
 
