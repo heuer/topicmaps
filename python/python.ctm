@@ -38,6 +38,12 @@ template-engine
 .
 
 
+p:esky
+	nhd("esky", <http://github.com/cloudmatrix/esky/>,
+			"""Esky is an auto-update framework for frozen Python applications.""")
+.
+
+
 p:pyvat 
 	nhd("pyvat", <https://pypi.python.org/pypi/pyvat/>,
 			"""VAT validation for Python""")
