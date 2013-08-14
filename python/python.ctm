@@ -37,6 +37,13 @@ template-engine
     - "Template engine";
 .
 
+
+p:wda
+	nhd("wda", <https://github.com/mkroetzsch/wda>,
+			"""Several scripts to analyse Wikidata dumps""")
+.
+
+
 p:python-qrcode
   nhd("Python QR Code generator", <https://github.com/lincolnloop/python-qrcode>,
       """Python QR Code image generator""")
