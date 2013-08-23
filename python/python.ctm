@@ -38,6 +38,14 @@ template-engine
 .
 
 
+p:Wikipedia
+    nhd("Wikipedia", <https://github.com/goldsmith/Wikipedia>,
+        """Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
+
+Search Wikipedia, get article summaries, get data like links and images from a page, and more. Wikipedia wraps the MediaWiki API""")
+.
+
+
 p:Milk
     nhd("Milk", <https://github.com/luispedro/milk/>,
         """Milk is a machine learning toolkit in Python.""").
