@@ -87,20 +87,20 @@ p:redis-rdb-tools
 
 
 p:esky
-	nhd("esky", <http://github.com/cloudmatrix/esky/>,
-			"""Esky is an auto-update framework for frozen Python applications.""")
+    nhd("esky", <http://github.com/cloudmatrix/esky/>,
+        """Esky is an auto-update framework for frozen Python applications.""")
 .
 
 
 p:pyvat 
-	nhd("pyvat", <https://pypi.python.org/pypi/pyvat/>,
-			"""VAT validation for Python""")
+    nhd("pyvat", <https://pypi.python.org/pypi/pyvat/>,
+        """VAT validation for Python""")
 .
 
 
 p:sqlite3dbm
-	nhd("sqlite3dbm", <https://github.com/Yelp/sqlite3dbm/>,
-			"""sqlite-backed dictionary conforming to the dbm interface""")
+    nhd("sqlite3dbm", <https://github.com/Yelp/sqlite3dbm/>,
+        """sqlite-backed dictionary conforming to the dbm interface""")
 .
 
 
@@ -183,36 +183,43 @@ p:lrparsing
       """Lrparsing is yet another parser for Python. The things that make lrparsing different is it combines a LR(1) parser with an easy to use grammar written using Python expressions, a tokeniser, and comes with extensive (and free!) documentation. """)
 .
 
+
 p:pypng
   nhd("PyPNG", <https://github.com/drj11/pypng>,
       """PyPNG provides Python code for encoding/decoding PNG files.  In
 particular png.py is a Python module written entirely in Python.""")
 .
 
+
 p:scrapely
   ndh("Scrapely", <https://github.com/scrapy/scrapely>,
       """Scrapely is a library for extracting structured data from HTML pages. Given some example web pages and the data to be extracted, scrapely constructs a parser for all similar pages.""")
 .
+
 
 p:docx2html
   nhd("docx2html", <https://github.com/PolicyStat/docx2html/>,
       """Convert a docx (OOXML) file to semantic HTML. All of Word formatting nonsense is stripped away and you're left with a cleanly-formatted version of the content.""")
 .
 
+
 p:pypdfml
   nhd("PyPDFML", <https://github.com/badzong/pypdfml>,
       """Simple XML wrapper for Reportlab with Jinja2 support""")
 .
+
 
 p:dedupe
   nhd("dedupe", <https://github.com/open-city/dedupe>
       """A free python library for accurate and scalelable deduplication and entity-resolution.""")
 .
 
+
 p:pydedupe
   nhd("PyDedupe", <https://github.com/gpoulter/pydedupe>,
       """Python dedupe library""")
 .
+
 
 p:jellyfish
   nhd("Jellyfish", <https://github.com/sunlightlabs/jellyfish>,
