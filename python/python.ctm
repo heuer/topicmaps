@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-08-28
+# Modified:     2013-08-30
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,17 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:uncompyle2
+    ndh("uncompyle2", <https://github.com/Mysterie/uncompyle2>,
+        """A Python 2.5, 2.6, 2.7 byte-code decompiler, written in Python 2.7""")
+.
+
+
+p:chardet
+    nhd("chardet", <https://github.com/erikrose/chardet>,
+        """chardet guesses the encoding of text files.""")
 .
 
 
