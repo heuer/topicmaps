@@ -38,6 +38,14 @@ template-engine
 .
 
 
+p:pyqode
+    nhd("pyqode", <https://github.com/ColinDuquesnoy/pyqode.core>,
+        """Python/Qt Code Editor Widget library
+pyQode is a flexible source code editor widget for Python Qt applications.
+pyQode is a library/widget, not an IDE. You can see it as an alternative to QScintilla.""")
+.
+
+
 p:textfsm
     nhd("textfsm", <https://code.google.com/p/textfsm/>,
         """Python module for parsing semi-structured text into python tables.
