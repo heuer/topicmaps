@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-08-30
+# Modified:     2013-09-01
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,14 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+
+p:textfsm
+    nhd("textfsm", <https://code.google.com/p/textfsm/>,
+        """Python module for parsing semi-structured text into python tables.
+Python module which implements a template based state machine for parsing semi-formatted text.""")
+.
+
 
 p:uncompyle2
     ndh("uncompyle2", <https://github.com/Mysterie/uncompyle2>,
