@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-09-03
+# Modified:     2013-09-23
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,13 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:jusText
+   nhd("jusText", <https://github.com/miso-belica/jusText>, 
+       """jusText is a tool for removing boilerplate content, such as navigation links, headers, and footers from HTML pages.
+It is designed to preserve mainly text containing full sentences and it is therefore well suited for creating linguistic resources such as Web corpora.""")
 .
 
 
