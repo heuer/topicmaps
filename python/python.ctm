@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:jsonschema
+  nhd("jsonschema", <https://github.com/Julian/jsonschema>,
+      "An(other) implementation of JSON Schema for Python")
+.
+
 
 p:python-docx
   nhd("Python docx", <https://github.com/mikemaccana/python-docx>,
