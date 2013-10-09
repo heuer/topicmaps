@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-09-23
+# Modified:     2013-10-09
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,18 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:python-docx
+  nhd("Python docx", <https://github.com/mikemaccana/python-docx>,
+      """Reads, queries and modifies Microsoft Word 2007/2008 docx files.""")
+.
+
+
+p:ia-wrapper
+  nhd("ia-wrapper", <https://github.com/jjjake/ia-wrapper>,
+      """A python wrapper for the various archive.org APIs (IA-S3, Metadata API, etc.)""")
 .
 
 
