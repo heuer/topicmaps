@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-10-09
+# Modified:     2013-10-10
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,14 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+
+p:Pressagio
+  nhd("Pressagio", <https://github.com/cidles/pressagio>,
+      """Pressagio is a library that predicts text based on n-gram models.
+Pressagio is a pure Python port of the presage library <http://presage.sourceforge.net/>""")
+.
+
 
 p:jsonschema
   nhd("jsonschema", <https://github.com/Julian/jsonschema>,
