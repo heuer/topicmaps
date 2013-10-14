@@ -38,6 +38,12 @@ template-engine
 .
 
 
+p:Arrow
+  nhd("Arrow", <https://github.com/crsmithdev/arrow>,
+      """Arrow is a Python library that offers a sensible, human-friendly approach to creating, manipulating, formatting and converting dates, times, and timestamps.""")
+.
+
+
 p:CSSCompressor
   nhd("CSS Compressor", <https://github.com/sprymix/csscompressor>,
       """Port of YUI CSS Compressor to Python""")
