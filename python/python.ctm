@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-10-10
+# Modified:     2013-10-14
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,12 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:CSSCompressor
+  nhd("CSS Compressor", <https://github.com/sprymix/csscompressor>,
+      """Port of YUI CSS Compressor to Python""")
 .
 
 
