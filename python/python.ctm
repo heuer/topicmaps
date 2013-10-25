@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-10-14
+# Modified:     2013-10-25
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,35 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:goatfish
+  nhd("goatfish", <https://github.com/stochastic-technologies/goatfish>,
+      """goatfish is a small, schemaless ORM that is backed by SQLite.""")
+.
+
+
+p:PDFDocument
+   nhd("PDFDocument", <https://github.com/matthiask/pdfdocument>,
+       """Wrapper for ReportLab which allows easy creation of PDF documents""")
+.
+
+
+p:kvlite
+  nhd("kvlite", <https://github.com/ownport/kvlite>,
+      """key-value database wrapper for SQL database (MySQL, SQLite)""")
+.
+
+
+p:wtforms-jsonschema
+  nhd("WTForms JSONSchema", <https://github.com/zbyte64/wtforms-jsonschema>,
+      """wtforms-jsonschema converts WTForms into JSON Schema compatibile representations""")
+.
+
+
+p:ERequests
+  nhd("ERequests", <https://github.com/saghul/erequests/>,
+      """ERequests allows you to use Requests with Eventlet to make asyncronous HTTP requests easily.""")
 .
 
 
