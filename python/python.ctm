@@ -37,6 +37,11 @@ template-engine
     - "Template engine";
 .
 
+p:dinbrief
+  nhd("dinbrief", <https://bitbucket.org/terreon/dinbrief>,
+      """This package provides code for rendering PDF letters and invoices compliant to DIN 5008 and DIN 676 using reportlab. A so called "DIN Brief" fits into "DIN-lang" window envelopes.""")
+
+
 p:goatfish
   nhd("goatfish", <https://github.com/stochastic-technologies/goatfish>,
       """goatfish is a small, schemaless ORM that is backed by SQLite.""")
