@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2013-10-25
+# Modified:     2014-03-19
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,16 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+p:trollius
+  nhd("trollius", <https://bitbucket.org/enovance/trollius/>,
+      """Trollius is a portage of the Tulip project (asyncio module, PEP 3156) on Python 2. Trollius works on Python 2.6 - 3.4.""")
+.
+
+p:pulsar
+  nhd("pulsar", <https://github.com/quantmind/pulsar>,
+      """Event driven concurrent framework for python. With pulsar you can write asynchronous servers performing one or several activities in different threads and/or processes.""")
 .
 
 p:dinbrief
