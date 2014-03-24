@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2014-03-19
+# Modified:     2014-03-24
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,12 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+p:rumps
+  nhd("rumps", <https://github.com/jaredks/rumps>,
+      """Ridiculously Uncomplicated Mac OSX Python Statusbar apps""")
+.
+
 
 p:trollius
   nhd("trollius", <https://bitbucket.org/enovance/trollius/>,
