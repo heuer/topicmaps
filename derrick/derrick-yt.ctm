@@ -1,0 +1,433 @@
+#
+# ==========================
+# Derrick Folgen auf YouTube
+# ==========================
+#
+#
+# Description:  Derrick Topic Map von Folgen auf YouTube.
+#               Sollte mit der Topic Map "derrick.ctm" in einer Topic Maps Engine
+#               zusammengeführt werden um die Titel etc. zu erhalten.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2014-05-05
+# 
+# Modified:     2014-05-05
+#
+%prefix d <http://psi.example.org/derrick/>
+%prefix yt <https://www.youtube.com/watch?v=>
+
+
+d:folge-001 video: yt:iP_tedz6FyI .
+
+
+d:folge-002 video: yt:9WA6rEpS610 .
+
+
+d:folge-003 video: yt:6W1wKXzcGVs .
+
+
+d:folge-004 video: yt:nyxhWy8GziE .
+
+
+d:folge-005 video: yt:B8cp1icoKR0 .
+
+
+d:folge-008 video: yt:4J5Au5qeqFc .
+
+
+d:folge-009 video: yt:kNcDvglGFzg .
+
+
+d:folge-010 video: yt:3eGwA0KFXHQ .
+
+
+d:folge-011 video: yt:XRnDyls5AK4 .
+
+
+d:folge-012 video: yt:b_doUYDMhfQ .
+
+
+d:folge-013 video: yt:Gl9t8hgiaXE .
+
+
+d:folge-015 video: yt:S7l6cCm7xG4 .
+
+
+d:folge-016 video: yt:gNjXR9cbl0I .
+
+
+d:folge-017 video: yt:4plJThy1rUo .
+
+
+d:folge-018 video: yt:foLSqyt8YKk .
+
+
+d:folge-019 video: yt:DqG2bIDVP1I .
+
+
+d:folge-020 video: yt:LubkIi4iNU4 .
+
+
+d:folge-021 video: yt:zYfBuwUodqA .
+
+
+d:folge-022 video: yt:PUp-ZR7PJ6M .
+
+
+d:folge-023 video: yt:ldzkI0x1EIM .
+
+
+d:folge-024 video: yt:AQH8yBSf2-k .
+
+
+d:folge-025 video: yt:YxNr68UmbfA .
+
+
+d:folge-026 video: yt:fa57mlNcb9M .
+
+
+d:folge-027 video: yt:_ko6PKC3zI4 .
+
+
+d:folge-028 video: yt:RfgRzv4ckTE .
+
+
+d:folge-029 video: yt:kC1NiNwzYkY .
+
+
+d:folge-030 video: yt:WDi0omaDBZA .
+
+
+d:folge-031 video: yt:ur9xnzP1kqw .
+
+
+d:folge-032 video: yt:z4R5_j0v-KI .
+
+
+d:folge-033 video: yt:TDndZbcRVhs .
+
+
+d:folge-034 video: yt:CoXQucrQYXo .
+
+
+d:folge-035 video: yt:UN_jHA0D1cQ .
+
+
+d:folge-036 video: yt:1YinPAL7IvM .
+
+
+d:folge-037 video: yt:uX8Ym_vAqDk .
+
+
+d:folge-038 video: yt:kbFmK4Xd3YI .
+
+
+d:folge-039 video: yt:OenVFNgQRKo .
+
+
+d:folge-040 video: yt:bNn-P7H340I .
+
+
+d:folge-041 video: yt:4gGxd9cVr7I .
+
+
+d:folge-042 video: yt:rt2jZtHX5l0 .
+
+
+d:folge-043 video: yt:pqW43nO6Wv0 .
+
+
+d:folge-046 video: yt:esXvuqoKkwI .
+
+
+d:folge-047 video: yt:64KwtIJdFJg .
+
+
+d:folge-048 video: yt:7LFPTj3R1vA .
+
+
+d:folge-049 video: yt:w42KKH3NQbk .
+
+
+d:folge-050 video: yt:qEurisvne0Y .
+
+
+d:folge-053 video: yt:t8b03wq2l8g .
+
+
+d:folge-055 video: yt:Xzy7J9mlXEQ .
+
+
+d:folge-056 video: yt:u_q377BPtvw .
+
+
+d:folge-057 video: yt:MuwtRIGn3qU .
+
+
+d:folge-058 video: yt:MXVcSefKbPA .
+
+
+d:folge-059 video: yt:38oZGjTs7Ak .
+
+
+d:folge-060 video: yt:cUqpz9F7AnI .
+
+
+d:folge-062 video: yt:PasrUrfdWRo .
+
+
+d:folge-063 video: yt:dAOjsTl1PHw .
+
+
+d:folge-064 video: yt:zMwIwq4vw-c .
+
+
+d:folge-066 video: yt:ii4ff9T8W-o .
+
+
+d:folge-067 video: yt:gVl25rHXIs0 .
+
+
+d:folge-068 video: yt:WZejxGjBqaE .
+
+
+d:folge-071 video: yt:QPegH9-h1gQ .
+
+
+d:folge-073 video: yt:f_r_WDxsL6w .
+
+
+d:folge-074 video: yt:eYxHzypsvnw .
+
+
+d:folge-075 video: yt:slpfMs_nm48 .
+
+
+d:folge-077 video: yt:3kHgrusiBrg .
+
+
+d:folge-079 video: yt:BVdyBg4WHo8 .
+
+
+d:folge-080 video: yt:IoQoTAO41h0 .
+
+
+d:folge-081 video: yt:ZRenVfXnmiU .
+
+
+d:folge-082 video: yt:t4bKV202UVQ .
+
+
+d:folge-083 video: yt:wC62N8GOTsA .
+
+
+d:folge-084 video: yt:yL8jbfZdyUU .
+
+
+d:folge-085 video: yt:KWlO5cK9r-4 .
+
+
+d:folge-087 video: yt:D_lzYOwY8-0 .
+
+
+d:folge-088 video: yt:ZBz1HoK8KsI .
+
+
+d:folge-091 video: yt:0mxLmOXaUTU .
+
+
+d:folge-092 video: yt:srjo-8guAFY .
+
+
+d:folge-093 video: yt:kCXDvVy-OYw .
+
+
+d:folge-094 video: yt:tEq5UHFFr_w .
+
+
+d:folge-097 video: yt:fNG9SQlK-e8 .
+
+
+d:folge-099 video: yt:aM7lFkTdAh4 .
+
+
+d:folge-100 video: yt:GbGTpsIWi0Y .
+
+
+d:folge-102 video: yt:6z8fA-mfTCo .
+
+
+d:folge-103 video: yt:OfLx4kWOVZY .
+
+
+d:folge-106 video: yt:Hs_tBpwfFfY .
+
+
+d:folge-113 video: yt:h-OCyXf4J_0 .
+
+
+d:folge-120 video: yt:9eIHXXJ7AMA .
+
+
+d:folge-122 video: yt:vbWjHBXdqXA .
+
+
+d:folge-124 video: yt:Ufxk9OeZi2U .
+
+
+d:folge-125 video: yt:zkwjq3TRFXQ .
+
+
+d:folge-134 video: yt:zTqTlhXDFnw .
+
+
+d:folge-135 video: yt:LAfLnwiGc08 .
+
+
+d:folge-139 video: yt:ZGx9qyYW2fA .
+
+
+d:folge-140 video: yt:ICk2_spyOTI .
+
+
+d:folge-142 video: yt:fmJASQKSycM .
+
+
+d:folge-143 video: yt:iVKnjhakwhI .
+
+
+d:folge-145 video: yt:jT_DejOza7E .
+
+
+d:folge-147 video: yt:TKeFf8ObRXA .
+
+
+d:folge-148 video: yt:NTKytY2ZkOA .
+
+
+d:folge-149 video: yt:5FYvgh2lnbo .
+
+
+d:folge-154 video: yt:FTUrHWLSvgM .
+
+
+d:folge-156 video: yt:C4T3xWvALxI .
+
+
+d:folge-157 video: yt:1T3JgJP3oB4 .
+
+
+d:folge-158 video: yt:ZIq7AyPPijI .
+
+
+d:folge-160 video: yt:oq5jwgXxiUI .
+
+
+d:folge-164 video: yt:FSRtgjgHM7g .
+
+
+d:folge-165 video: yt:iDTDhrDvSqc .
+
+
+d:folge-166 video: yt:CRr1qHN3l9M .
+
+
+d:folge-170 video: yt:gQ1f8Fswv4Y .
+
+
+d:folge-171 video: yt:MLAvLGqCbsE .
+
+
+d:folge-172 video: yt:v514mtD1WY8 .
+
+
+d:folge-176 video: yt:kh4lEdaNjXg .
+
+
+d:folge-177 video: yt:lxpAAaZmbKY .
+
+
+d:folge-178 video: yt:9WGFagANayc .
+
+
+d:folge-179 video: yt:Soxnb4EK5C0 .
+
+
+d:folge-181 video: yt:t9kdE7vrBCU .
+
+
+d:folge-184 video: yt:UU3ApS4phos .
+
+
+d:folge-185 video: yt:vGGXw_nuXBU .
+
+
+d:folge-186 video: yt:vl1LEKbYjP8 .
+
+
+d:folge-187 video: yt:8lJ6z6gt-n0 .
+
+
+d:folge-189 video: yt:kj-0737GKpM .
+
+
+d:folge-198 video: yt:16Npf4nbFhU .
+
+
+d:folge-206 video: yt:OHO_kqHiedQ .
+
+
+d:folge-212 video: yt:8kULVgdRZgA .
+
+
+d:folge-213 video: yt:y2qf7jsrAqI .
+
+
+d:folge-215 video: yt:brM4brMNDVM .
+
+
+d:folge-216 video: yt:rmINvzZPTSk .
+
+
+d:folge-219 video: yt:fNpx7wT8sMo .
+
+
+d:folge-220 video: yt:_dkSjCq89ck .
+
+
+d:folge-228 video: yt:1bIWEOfjDZw .
+
+
+d:folge-235 video: yt:IHNE3dHua-M .
+
+
+d:folge-237 video: yt:m1ctxmNb98k .
+
+
+d:folge-238 video: yt:O_2NObbS4Rw .
+
+
+d:folge-239 video: yt:YRqoi59p4FI .
+
+
+d:folge-240 video: yt:Rd6YmE7zrWg .
+
+
+d:folge-242 video: yt:f_n9EIoCczc .
+
+
+d:folge-244 video: yt:HdmJgT8v6DE .
+
+
+d:folge-249 video: yt:HvcuzXds6Iw .
+
+
+d:folge-263 video: yt:wSpIdDKnJ_Y .
+
+
+d:folge-273 video: yt:MfXkuE-iEN4 .
+
+
