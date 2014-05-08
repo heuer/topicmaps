@@ -142,12 +142,12 @@ d:folge-022 folge(22, "Kein schöner Sonntag", 1976-06-27,
 
 
 d:folge-023 folge(23, "Auf eigene Faust", 1976-07-11,
-    "Horst Winterstein, ein fleißiger Kriminalbeamter, wird beim verlassen des Polizeipräsidiums erschossen. Derrick und Klein finden heraus, dass Winterstein seit einiger Zeit die Spur einer internationalen Geldfälscherbande verfolge. Behilflich ist dabei Wintersteins Notizbuch mit dem Namen eines inhaftierten \"Blütenspezialisten\".",
+    """Horst Winterstein, ein fleißiger Kriminalbeamter, wird beim verlassen des Polizeipräsidiums erschossen. Derrick und Klein finden heraus, dass Winterstein seit einiger Zeit die Spur einer internationalen Geldfälscherbande verfolge. Behilflich ist dabei Wintersteins Notizbuch mit dem Namen eines inhaftierten "Blütenspezialisten".""",
     <http://derrick-database.com/episode%2023.html>).
 
 
 d:folge-024 folge(24, "Ein unbegreiflicher Typ", 1976-07-25,
-    "Herr Koller befreundet sich mit einem \"Penner\", lädt diesen in sein Hotel ein und bewirtet ihn reichlich. Dann trifft sich Koller mit einem undurchsichtigen Geschäftsmann, lässt sich von diesem einen Koffer mit sehr viel Geld geben. Plötzlich wird Koller vermisst. Im Hotelzimmer liegt der tote \"Penner\". Derrick steht vor einem Rätsel.",
+    """Herr Koller befreundet sich mit einem "Penner", lädt diesen in sein Hotel ein und bewirtet ihn reichlich. Dann trifft sich Koller mit einem undurchsichtigen Geschäftsmann, lässt sich von diesem einen Koffer mit sehr viel Geld geben. Plötzlich wird Koller vermisst. Im Hotelzimmer liegt der tote "Penner". Derrick steht vor einem Rätsel.""",
     <http://derrick-database.com/episode%2024.html>).
 
 
@@ -282,12 +282,12 @@ d:folge-050 folge(50, "Die verlorenen Sekunden", 1978-10-20,
 
 
 d:folge-051 folge(51, "Ute und Manuela", 1978-11-17,
-    "Egon Sebald, Spitzname \"Blacky\", wird von einer anonymen Anruferin in die Tiefgarage zu seinem Auto gelockt. Er hätte seine Scheinwerfer vergessen auszuschalten. Plötzlich ist ein Revolver auf ihn gerichtet. Ein Schuss aus allernächster Nähe verletzt ihn tödlich. Die Sozialhelferin Ute gibt Blackys ehemaliger Freundin Manuela ein Alibi.",
+    """Egon Sebald, Spitzname "Blacky", wird von einer anonymen Anruferin in die Tiefgarage zu seinem Auto gelockt. Er hätte seine Scheinwerfer vergessen auszuschalten. Plötzlich ist ein Revolver auf ihn gerichtet. Ein Schuss aus allernächster Nähe verletzt ihn tödlich. Die Sozialhelferin Ute gibt Blackys ehemaliger Freundin Manuela ein Alibi.""",
     <http://derrick-database.com/episode%2051.html>).
 
 
 d:folge-052 folge(52, "Abitur", 1978-12-15,
-    "Werner Hofer, ein junger Assessor, soll Robert, Sohn des Landarztes Dr. Becker, \"gut\" auf das Abitur vorbereiten. Plötzlich passiert Hofer etwas furchtbares. Nach einem Disko-Besuch überfährt er einen Fußgänger und begehrt Fahrerflucht. Die Autopsie zeigt jedoch, dass der Überfahrene nicht an den Folgen des Unfalls starb, sondern durch Schläge auf den Kopf.",
+    """Werner Hofer, ein junger Assessor, soll Robert, Sohn des Landarztes Dr. Becker, "gut" auf das Abitur vorbereiten. Plötzlich passiert Hofer etwas furchtbares. Nach einem Disko-Besuch überfährt er einen Fußgänger und begehrt Fahrerflucht. Die Autopsie zeigt jedoch, dass der Überfahrene nicht an den Folgen des Unfalls starb, sondern durch Schläge auf den Kopf.""",
     <http://derrick-database.com/episode%2052.html>).
 
 
@@ -412,7 +412,7 @@ d:folge-076 folge(76, "Pricker", 1980-10-17,
 
 
 d:folge-077 folge(77, "Dem Mörder eine Kerze", 1980-11-21,
-    "Im Fotolabor des toten Dernberg findet Derrick einen Zettel, auf welchem das Wort \"Schule\" steht. Ein wichtiger Hinweis, wie sich herausstellt. Plötzlich taucht ein Pfarrer auf mit dem Wunsch, ein Gebet für den Ermordeten sprechen zu dürfen. Derrick begegnet dem Mann am nächsten Tag ausgerechnet in er Schule, nahe dem Tatort, wieder.",
+    """Im Fotolabor des toten Dernberg findet Derrick einen Zettel, auf welchem das Wort "Schule" steht. Ein wichtiger Hinweis, wie sich herausstellt. Plötzlich taucht ein Pfarrer auf mit dem Wunsch, ein Gebet für den Ermordeten sprechen zu dürfen. Derrick begegnet dem Mann am nächsten Tag ausgerechnet in er Schule, nahe dem Tatort, wieder.""",
     <http://derrick-database.com/episode%2077.html>).
 
 
@@ -427,7 +427,7 @@ d:folge-079 folge(79, "Der Kanal", 1981-01-02,
 
 
 d:folge-080 folge(80, "Am Abgrund", 1981-01-30,
-    "Die Tote im Hinterhof des Lokals \"Nachteule\" ist Ina Debel, gebürtige Düsseldorferin, 19 Jahre alt. Es besteht kein Zweifel, dass die Kunststudentin als Call-Girl ihren Lebensunterhalt verdient hat. Derrick wurde von einem Taxifahrer alarmiert. Dieser sah, als er die Tote entdeckte, einen Unbekannten davonlaufen.",
+    """Die Tote im Hinterhof des Lokals "Nachteule" ist Ina Debel, gebürtige Düsseldorferin, 19 Jahre alt. Es besteht kein Zweifel, dass die Kunststudentin als Call-Girl ihren Lebensunterhalt verdient hat. Derrick wurde von einem Taxifahrer alarmiert. Dieser sah, als er die Tote entdeckte, einen Unbekannten davonlaufen.""",
     <http://derrick-database.com/episode%2080.html>).
 
 
@@ -447,7 +447,7 @@ d:folge-083 folge(83, "Die Schwester", 1981-05-01,
 
 
 d:folge-084 folge(84, "Tod eines Italieners", 1981-07-10,
-    "Derrick und Klein besuchen das neueröffnete italienische Restaurant um die Ecke. Neidlos beobachtet Stephan, wie sein Kollege Harry bei Ursula Weichler, der attraktiven deutschen Schwägerin des Pizzeriabesitzers Mario Forlani, regelrecht \"in Flammen steht\". Plötzlich passieren Dinge, die die Familie Forlani in großes Unglück stürzen.",
+    """Derrick und Klein besuchen das neueröffnete italienische Restaurant um die Ecke. Neidlos beobachtet Stephan, wie sein Kollege Harry bei Ursula Weichler, der attraktiven deutschen Schwägerin des Pizzeriabesitzers Mario Forlani, regelrecht "in Flammen steht". Plötzlich passieren Dinge, die die Familie Forlani in großes Unglück stürzen.""",
     <http://derrick-database.com/episode%2084.html>).
 
 
@@ -542,7 +542,7 @@ d:folge-102 folge(102, "Der Täter schickte Blumen", 1983-04-29,
 
 
 d:folge-103 folge(103, "Die kleine Ahrens", 1983-05-27,
-    "Ein Schrottsammler entdeckt den toten Bernhard Molz gefesselt im Schuppen eines verlassenen Werksgeländes. Derrick ist der Meinung, dass sich hier eine grausame Hinrichtung abspielte. Während der Untersuchung taucht plötzlich ein gewisser Dr. Blomann, ein Oberstudienrat, auf. Nachforschungen ergeben, dass sich Molz oft im Lokal \"Paradies\" aufhielt. Dort ist auch Dr. Blomann häufig Gast.",
+    """Ein Schrottsammler entdeckt den toten Bernhard Molz gefesselt im Schuppen eines verlassenen Werksgeländes. Derrick ist der Meinung, dass sich hier eine grausame Hinrichtung abspielte. Während der Untersuchung taucht plötzlich ein gewisser Dr. Blomann, ein Oberstudienrat, auf. Nachforschungen ergeben, dass sich Molz oft im Lokal "Paradies" aufhielt. Dort ist auch Dr. Blomann häufig Gast.""",
     <http://derrick-database.com/episode%20103.html>).
 
 
@@ -562,7 +562,7 @@ d:folge-106 folge(106, "Attentat auf Derrick", 1983-11-11,
 
 
 d:folge-107 folge(107, "Die Schrecken der Nacht", 1983-12-09,
-    "Ein Münchner Stadtteil lebt in Angst und Schecken: schon drei Mädchenmorde sind geschehen. Die jungen Frauen wurden jedesmal von hinten angefallen und erwürgt. Erna Wilhelm, eine Studentin, war das letzte Opfer. Inspektor Klein löst wieder einmal den Fall. Er muss sich hartnäckig gegen den eigensinnigen Kollegen Kommissar Ludewig durchsetzen. Führt Kleins Idee, Carla Meissner als \"Lockvogel\" zu benutzen, zum Erfolg?",
+    """Ein Münchner Stadtteil lebt in Angst und Schecken: schon drei Mädchenmorde sind geschehen. Die jungen Frauen wurden jedesmal von hinten angefallen und erwürgt. Erna Wilhelm, eine Studentin, war das letzte Opfer. Inspektor Klein löst wieder einmal den Fall. Er muss sich hartnäckig gegen den eigensinnigen Kollegen Kommissar Ludewig durchsetzen. Führt Kleins Idee, Carla Meissner als "Lockvogel" zu benutzen, zum Erfolg?""",
     <http://derrick-database.com/episode%20107.html>).
 
 
@@ -772,7 +772,7 @@ d:folge-148 folge(148, "Mädchen in Angst", 1987-01-02,
 
 
 d:folge-149 folge(149, "Die Dame aus Amsterdam", 1987-01-30,
-    "Albert Hufland konnte noch einen Notruf durch das Telefon an Derrick geben. Dann fielen Schüsse, und die Leitung wurde unterbrochen. Derrick kannte Hufland vom Polizeidienst her, mittlerweile arbeitete er als Detektiv. Bei der Observation des Frankfurter Chemikers Dr. Soest sei er auf eine \"Riesensache\" gestoßen.",
+    """Albert Hufland konnte noch einen Notruf durch das Telefon an Derrick geben. Dann fielen Schüsse, und die Leitung wurde unterbrochen. Derrick kannte Hufland vom Polizeidienst her, mittlerweile arbeitete er als Detektiv. Bei der Observation des Frankfurter Chemikers Dr. Soest sei er auf eine "Riesensache" gestoßen.""",
     <http://derrick-database.com/episode%20149.html>).
 
 
@@ -802,7 +802,7 @@ d:folge-154 folge(154, "Ein Weg in die Freiheit", 1987-07-03,
 
 
 d:folge-155 folge(155, "Nachtstreife", 1987-09-18,
-    "Hauptkommissar Marx und sein jüngerer Kollege Reinhard vom Münchner Rauschgiftdezernat sind einer \"heißen Sache\" auf der Spur. Sie folgen den Hinweisen einer anonymen Anruferin und observieren nachts ein verdächtiges Fahrzeug. Dabei wird Reinhard erschossen. Marx, von Schuldgefühlen geplagt, setzt nun alles daran, Derricks Ermittlungen zu unterstützen.",
+    """Hauptkommissar Marx und sein jüngerer Kollege Reinhard vom Münchner Rauschgiftdezernat sind einer "heißen Sache" auf der Spur. Sie folgen den Hinweisen einer anonymen Anruferin und observieren nachts ein verdächtiges Fahrzeug. Dabei wird Reinhard erschossen. Marx, von Schuldgefühlen geplagt, setzt nun alles daran, Derricks Ermittlungen zu unterstützen.""",
     <http://derrick-database.com/episode%20155.html>).
 
 
@@ -892,7 +892,7 @@ d:folge-172 folge(172, "Kisslers Mörder", 1989-01-27,
 
 
 d:folge-173 folge(173, "Der zweite Mord", 1989-02-24,
-    "Hans Seelmann wird erschossen auf einem Parkplatz gefunden. In Seelmanns Wohnung treffen Derrick und Klein auf Ursula Kiefer, eine junge Frau, die gerade aus einem Jugendheim entlassen worden ist. Seelmann hätte sie angeblich als Zeugin gebracht und sie deshalb zu einer Verabredung mit \"windigen\" Leuten mitgenommen. Einer der zwei unbekannten Männer hätte an dem Treffpunkt auf Seelmann geschossen.",
+    """Hans Seelmann wird erschossen auf einem Parkplatz gefunden. In Seelmanns Wohnung treffen Derrick und Klein auf Ursula Kiefer, eine junge Frau, die gerade aus einem Jugendheim entlassen worden ist. Seelmann hätte sie angeblich als Zeugin gebracht und sie deshalb zu einer Verabredung mit "windigen" Leuten mitgenommen. Einer der zwei unbekannten Männer hätte an dem Treffpunkt auf Seelmann geschossen.""",
     <http://derrick-database.com/episode%20173.html>).
 
 
@@ -902,7 +902,7 @@ d:folge-174 folge(174, "Blaue Rose", 1989-03-17,
 
 
 d:folge-175 folge(175, "Die Stimme des Mörders", 1989-04-14,
-    "Tilde Riemann hat den Überfall eines Bankräubers überlebt, ihre Mutter Gudrun dagegen erlag den Schussverletzungen. Am Krankenbett erzählt Tilde dem Oberinspektor, wie der maskierte und bewaffnete Bankräuber sie zwang, durch die Stadt zu fahren. Ihre Mutter glaubte die Stimme des Täters zu kennen. Daraufhin schoss er sie nieder. Ihre letzten Worte, bevor sie starb, waren: \"Lokal Fürstenhof\".",
+    """Tilde Riemann hat den Überfall eines Bankräubers überlebt, ihre Mutter Gudrun dagegen erlag den Schussverletzungen. Am Krankenbett erzählt Tilde dem Oberinspektor, wie der maskierte und bewaffnete Bankräuber sie zwang, durch die Stadt zu fahren. Ihre Mutter glaubte die Stimme des Täters zu kennen. Daraufhin schoss er sie nieder. Ihre letzten Worte, bevor sie starb, waren: "Lokal Fürstenhof".""",
     <http://derrick-database.com/episode%20175.html>).
 
 
@@ -1107,7 +1107,7 @@ d:folge-215 folge(215, "Die Frau des Mörders", 1992-09-18,
 
 
 d:folge-216 folge(216, "Billies schöne, neue Welt", 1992-10-16,
-    "Heidi Wolf, die junge Drogenabhängige, wurde mit dem sogenannten \"goldenen Schuss\" ermordet. Derricks Ermittlungen führen zu den beiden Geschäftspartnern einer Diskothek: Bernhard Troyda und Ralf Wells. Durch Observation von Heidi Wolfs Freundin Lena Scholl stößt Derrick auf die Gymnasiastin Billie - Troydas Tochter. Sie verhält sich auffallend merkwürdig.",
+    """Heidi Wolf, die junge Drogenabhängige, wurde mit dem sogenannten "goldenen Schuss" ermordet. Derricks Ermittlungen führen zu den beiden Geschäftspartnern einer Diskothek: Bernhard Troyda und Ralf Wells. Durch Observation von Heidi Wolfs Freundin Lena Scholl stößt Derrick auf die Gymnasiastin Billie - Troydas Tochter. Sie verhält sich auffallend merkwürdig.""",
     <http://derrick-database.com/episode%20216.html>).
 
 
@@ -1122,7 +1122,7 @@ d:folge-218 folge(218, "Kein teurer Toter", 1992-12-11,
 
 
 d:folge-219 folge(219, "Ein sehr trauriger Vorgang", 1993-01-22,
-    "Gemütliche Runde bei Albert Krumme, dem Anführer einer Clique von sechs Oberstufenschülern. Krumme ruft übermütig Inge Waldstein an, eine Mitschülerin. Er erzählt ihr, dass alle sechs vor kurzem in einem Bordell waren, und wie ihr Schwarm Horst Wiegand dort seine \"ersten Erfahrungen\" gesammelt habe. Wenig später klingelt es an Krummes Haustür. Als dieser öffnet, fallen Schüsse. Krumme bricht zusammen.",
+    """Gemütliche Runde bei Albert Krumme, dem Anführer einer Clique von sechs Oberstufenschülern. Krumme ruft übermütig Inge Waldstein an, eine Mitschülerin. Er erzählt ihr, dass alle sechs vor kurzem in einem Bordell waren, und wie ihr Schwarm Horst Wiegand dort seine "ersten Erfahrungen" gesammelt habe. Wenig später klingelt es an Krummes Haustür. Als dieser öffnet, fallen Schüsse. Krumme bricht zusammen.""",
     <http://derrick-database.com/episode%20219.html>).
 
 
@@ -1227,7 +1227,7 @@ d:folge-239 folge(239, "Der Schlüssel", 1994-09-09,
 
 
 d:folge-240 folge(240, "Das Floß", 1994-10-07,
-    "Es war ein \"netter\" Abend bei Hans Nolte, wie schon so oft, erzählt Arnim Wexler, Noltes Geschäftspartner. Auch die 18 jährige Anna Bender war dabei. Wexler sei jedoch recht früh nach Hause, zu seiner Frau, gefahren. Der Gastgeber Nolte hat diesen \"netten\" Abend nicht überlebt. Er wurde erschossen, und Wexler und Anna Bender geben sich verhalten.",
+    """Es war ein "netter" Abend bei Hans Nolte, wie schon so oft, erzählt Arnim Wexler, Noltes Geschäftspartner. Auch die 18 jährige Anna Bender war dabei. Wexler sei jedoch recht früh nach Hause, zu seiner Frau, gefahren. Der Gastgeber Nolte hat diesen "netten" Abend nicht überlebt. Er wurde erschossen, und Wexler und Anna Bender geben sich verhalten.""",
     <http://derrick-database.com/episode%20240.html>).
 
 
@@ -1257,7 +1257,7 @@ d:folge-245 folge(245, "Ein Mord, zweiter Teil", 1995-03-24,
 
 
 d:folge-246 folge(246, "Teestunde mit einer Mörderin?", 1995-04-28,
-    "Isabel Bruhns, die attraktive Pflegerin der reichen, körperbehinderten Agnes Ortner, ist tot. Sie wurde in ihrer Wohnung erschossen. Der um 15 Jahre jüngere Ehemann von Agnes Ortner, Roland, war mit Billigung seiner Frau Isabels Geliebter. Dennoch behauptet Roland Ortner gegenüber Derrick: \"Sie haben mit einer Mörderin Tee getrunken!\" Er meint seine ältete Frau Agnes. Aber sie ist stark gehbehindert.",
+    """Isabel Bruhns, die attraktive Pflegerin der reichen, körperbehinderten Agnes Ortner, ist tot. Sie wurde in ihrer Wohnung erschossen. Der um 15 Jahre jüngere Ehemann von Agnes Ortner, Roland, war mit Billigung seiner Frau Isabels Geliebter. Dennoch behauptet Roland Ortner gegenüber Derrick: "Sie haben mit einer Mörderin Tee getrunken!" Er meint seine ältete Frau Agnes. Aber sie ist stark gehbehindert.""",
     <http://derrick-database.com/episode%20246.html>).
 
 
@@ -1302,7 +1302,7 @@ d:folge-254 folge(254, "Mitternachtssolo", 1995-12-15,
 
 
 d:folge-255 folge(255, "Die zweite Kugel", 1996-01-05,
-    "Der Gastwirt \"Veronese\" musste vermutlich deshalb sterben, weil er nicht bereit war, Schutzgeld an die Mafia zu zahlen. Er starb durch zwei Pistolenschüsse. Derrick findet aber nur eine Kugel am Tatort. Auch ein Anwohner hatte zwei Schüsse gehört.",
+    """Der Gastwirt "Veronese" musste vermutlich deshalb sterben, weil er nicht bereit war, Schutzgeld an die Mafia zu zahlen. Er starb durch zwei Pistolenschüsse. Derrick findet aber nur eine Kugel am Tatort. Auch ein Anwohner hatte zwei Schüsse gehört.""",
     <http://derrick-database.com/episode%20255.html>).
 
 
@@ -1322,7 +1322,7 @@ d:folge-258 folge(258, "Frühstückt Babette mit einem Mörder?", 1996-04-05,
 
 
 d:folge-259 folge(259, "Mädchen im Mondlicht", 1996-05-10,
-    "Ein Nachtbarbesitzer wurde ermordet. Doch weder seine Ehefrau noch seine Angestellten nehmen Anteil an seinem Tod. Derrick steht vor einem schwierigen Fall. Dann entdeckt er ein unvollendetes Ölgemälde. Das Bild \"Mädchen im Mondlicht\" bringt ihn schließlich auf die Spur des Täters.",
+    """Ein Nachtbarbesitzer wurde ermordet. Doch weder seine Ehefrau noch seine Angestellten nehmen Anteil an seinem Tod. Derrick steht vor einem schwierigen Fall. Dann entdeckt er ein unvollendetes Ölgemälde. Das Bild "Mädchen im Mondlicht" bringt ihn schließlich auf die Spur des Täters.""",
     <http://derrick-database.com/episode%20259.html>).
 
 
@@ -1342,7 +1342,7 @@ d:folge-262 folge(262, "Riekes trauriger Nachbar", 1996-08-09,
 
 
 d:folge-263 folge(263, "Der Verteidiger", 1996-09-06,
-    "Der \"Immobilienhai\" Rohm steht unter Mordverdacht. Er soll einen Mann mit drei Pistolenschüssen getötet haben. Derrick kann für diesen Verdacht eine Zeugin präsentieren - die Klavierlehrerin Irmgard Trenk. Rohm bestreitet die Tat. Sein Verteidiger weiß nur allzugut, dass das Schicksal seines Mandanten von der Aussage der Frau abhängt. Derrick beobachtet den Anwalt.",
+    """Der "Immobilienhai" Rohm steht unter Mordverdacht. Er soll einen Mann mit drei Pistolenschüssen getötet haben. Derrick kann für diesen Verdacht eine Zeugin präsentieren - die Klavierlehrerin Irmgard Trenk. Rohm bestreitet die Tat. Sein Verteidiger weiß nur allzugut, dass das Schicksal seines Mandanten von der Aussage der Frau abhängt. Derrick beobachtet den Anwalt.""",
     <http://derrick-database.com/episode%20263.html>).
 
 
@@ -1427,7 +1427,7 @@ d:folge-279 folge(279, "Herr Kordes braucht eine Million", 1998-04-17,
 
 
 d:folge-280 folge(280, "Mama Kaputtke", 1998-05-01,
-    "Am Rande eines Waldweges findet Inspektor Klein die 22 jährige Elisabeth Kraus - ermordet. Derrick sucht die Geschwister der Toten auf. \"Lissys\" Bruder Paul und die Schwester Gabriele wirken verstört. Nach einem Gespräch mit deren Mutter wird Derrick den Verdacht nicht los, dass die Geschwister vor irgend etwas Angst haben.",
+    """Am Rande eines Waldweges findet Inspektor Klein die 22 jährige Elisabeth Kraus - ermordet. Derrick sucht die Geschwister der Toten auf. "Lissys" Bruder Paul und die Schwester Gabriele wirken verstört. Nach einem Gespräch mit deren Mutter wird Derrick den Verdacht nicht los, dass die Geschwister vor irgend etwas Angst haben.""",
     <http://derrick-database.com/episode%20280.html>).
 
 
