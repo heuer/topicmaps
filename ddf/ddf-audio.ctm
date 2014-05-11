@@ -1,0 +1,843 @@
+#
+# ==================
+# Drei ??? Hörspiele
+# ==================
+#
+#
+# Description:  Drei ??? Hörspiele.
+#               Beschreibungen (c) <http://dreifragezeichen.net/>
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#               „Die drei ???“ ist eine eingetragene Marke der Franckh-Kosmos Verlags-GmbH & Co. KG, Stuttgart.
+#
+# Date:         2014-05-10
+# 
+# Modified:     2014-05-11
+#
+%prefix xsd <http://www.w3.org/2001/XMLSchema#>
+%prefix d <http://psi.example.org/ddf/>
+
+
+def folge($topic, $nr, $name, $veroeff, $beschreibung)
+  $topic - $name; 
+    nr: $nr;
+    veroeffentlichung: $veroeff;
+    beschreibung: $beschreibung .
+end
+
+
+
+folge(d:audio-001, 1, "… und der Super-Papagei", "1979"^^xsd:gYear,
+      "Der neueste Auftrag der drei ??? hört sich alles andere als aufregend an. Sie sollen den entflogenen Papagei eines Schriftstellers wiederfinden. Doch kaum beginnen sie mit ihren Ermittlungen, da scheint sich auch noch ein jähzorniger Kunsthändler für den Papageien zu interessieren. Bald geht es nicht nur um einen, sondern um insgesamt 7 Papageien und jeder von ihnen zitiert seltsame Sprüche. Sind die Rätselsprüche der Schlüssel zu einem Geheimnis? Plötzlich ist auch noch ein berühmter Kunstdieb den drei Detektiven auf den Fersen. Als sich die Ereignisse zu überschlagen drohen, kommt es mitten in der Nacht zum großen Finale auf einem alten Friedhof...")
+
+
+folge(d:audio-002, 2, "… und der Phantomsee", "1979"^^xsd:gYear,
+      "Was verbirgt sich hinter dem Inhalt einer alten geheimnisvollen Holztruhe, die Onkel Titus unter anderem von einem Museum für seinen Trödelmarkt erwerben konnte? Wie sich herausstellt stammt die Truhe von der „Argyll Queen“, einem Schiff, das vor mehr als 100 Jahren vor der kalifornischen Küste versunken war. Wurde tatsächlich in einer lange vergangenen Sturmnacht ein Piratenschatz heimlich von Bord gebracht? Und welche Rolle spielt der skrupellose Java-Jim, der um jeden Preis den Inhalt der Truhe an sich bringen will? Die drei Detektive müssen scharf kombinieren, um das Geheimnis des Phantomsees zu lüften und um den Gauner, der im Schutze der Nacht den Schatz an sich bringen will, zu enttarnen…")
+
+
+folge(d:audio-003, 3, "… und der Karpatenhund", "1979"^^xsd:gYear,
+      "In der Wohnung von Mr. Prentice, dem neuen Klienten der drei Detektive geschehen rätselhafte Dinge. Jemand verschafft sich unbemerkt Zutritt zu seiner Wohnung und gespenstische Lichtblitze leuchten im Arbeitszimmer auf. Als dann auch noch die wertvolle gläserne Figur des Karpatenhundes gestohlen wird, steht selbst der sonst so superschlaue erste Detektiv vor einem Rätsel. Erst als der Dieb ein hohes Lösegeld erpressen will und aus dem Appartmenthaus von Mr. Prentice ein Mieter nach dem anderen einem Anschlag zum Opfer fällt, hat Justus die entscheidende Idee...")
+
+
+folge(d:audio-004, 4, "… und die schwarze Katze", "1979"^^xsd:gYear,
+      "In einem kleinen Wanderzirkus, der für eine kurze Zeit in der Nähe von Rocky Beach gastiert, beginnt das neueste Abenteuer der drei Detektive. Als ein finster aussehender Mann eine wertlos scheinende schwarze Stoffkatze mit aller Gewalt an sich bringen will, sie schließlich auch erbeutet und kurz darauf auch noch ein Löwe freigelassen wird, muss einfach irgend etwas rätselhaftes dahinter stecken. Wer ist der tätowierte Unbekannte, der per Zeitungsanzeige nach weiteren Stoffkatzen fahndet?
+Die Ermittlungen führen Justus, Bob und Peter schließlich auf die Spur des Verdächtigen, und zwar genau dorthin wo alles begann, zurück zum Zirkus...")
+
+
+folge(d:audio-005, 5, "… und der Fluch des Rubins", "1979"^^xsd:gYear,
+      """Alfred Hitchcock hat einen neuen Auftrag für die drei Detektive. Horatio August hat seinem Neffen August etwas hinterlassen, aber was? Was genau steckt hinter dem geheimen Vermächtnis? Und wie passen die Gipsköpfe berühmter Männer dazu, die Onkel Titus günstig erstanden hat? Die drei Jungen müssen scharf kombinieren. Die Spuren führen sie auf die Fährte eines lange verschollenen Rubins von unschätzbarem Wert. Doch nicht nur die drei Detektive sind hinter dem wertvollen Edelstein her. Werden Justus, Bob und Peter das Rätsel um das "feurige Auge" rechtzeitig lösen?""")
+
+
+folge(d:audio-006, 6, "… und der sprechende Totenkopf", "1979"^^xsd:gYear,
+      "Bei einer Versteigerung ersteht Justus einen alten Künstlerkoffer, zu dessen Inhalt unter anderem auch ein alter Totenkopf gehört, von dem es heißt, er könne sprechen. Ohne es zu ahnen, stecken die drei Detektive mitten drin in einem neuen Fall. Denn wie sich herausstellt spricht der Schädel tatsächlich und nicht nur das, er führt die Jungen mit Hilfe einer wahrsagenden Zigeunerin auf die Spur eines verschollenen Zauberkünstlers und eines unaufgeklärten Bankraubes. Während dessen versucht eine Gangsterbande den drei Jungen den Koffer abzujagen. Als Justus, Bob und Peter den entscheidenden Hinweis zur Lösung des Falles in den Händen halten, scheint doch noch alles schief zu gehen...")
+
+
+folge(d:audio-007, 7, "… und der unheimliche Drache", "1979"^^xsd:gYear,
+      "Alfred Hitchcock erkundigt sich, ob die drei Detektive den entlaufenen Hund seines Freundes suchen würden. Dies ist jedoch noch lange nicht alles, was ihr neuer Klient zu berichten hat. Mr. Allen behauptet allen ernstes, er habe in der Nacht, als sein Hund verschwand, einen ziemlich großen Drachen aus dem Meer auftauchen und diesen in einer unterirdischen Höhle unter seinem Grundstück verschwinden sehen. Justus und Bob sind von dem neuen Fall sofort begeistert, nur Peter würde die Sache gerne auf sich beruhen lassen. Während ihrer Ermittlungen stossen die drei Detektive nicht nur auf ein mysteriöses Höhlenlabyrinth und verschiebbare Felswände, sondern auch auf zwei Taucher mit schussbereiten Harpunen. Und dann ist ja da auch noch der vermeintliche Drache....")
+
+
+folge(d:audio-008, 8, "… und der grüne Geist", "1979"^^xsd:gYear,
+      "Ein markerschütternder Schrei, der durch die Nacht hallt, macht Bob und Peter auf das Haus des lange verstorbenen Mathias Green aufmerksam. Als sie daraufhin das Haus zusammen mit sechs anderen Männern (oder waren es sieben...?) betreten, wird es richtig unheimlich. Oben auf der Treppe erscheint ihnen ein grün schimmerdes Gespenst, welches kurz darauf in der Wand verschwindet. Während Justus in Rocky Beach bleibt, führen die Ermittlungen Bob und Peter zu einem Weingut nahe San Fransisco, wo die mysteriösen Ereignisse sich fortsetzen. Auch hier taucht der Geist auf, eine wertvolle Perlenkette verschwindet und Bob und Peter sind plötzlich, ohne recht zu wissen warum, auf der Flucht durch einen alten Bergstollen. Doch Justus wäre nicht Justus, hätte er nicht gerade noch rechtzeitig die rettende Erleuchtung...")
+
+
+folge(d:audio-009, 9, "… und die rätselhaften Bilder", "1979"^^xsd:gYear,
+      "Viel hat der alte Maler Joshua Cameron wirklich nicht hinterlassen. Unter anderem 20 scheinbar wertlose Ölbilder mit ein und dem selben Motiv - seltsam... Nach und nach interessieren sich nicht nur eine Gräfin und ihr Verwalter, die extra aus Europa angereist sind, für die Bilder, sondern auch ein vermeintlicher Kunsthändler aus Holland und nicht zu vergessen, der Erzfeind der drei Detektive, Skinny Norris, der ihnen wo er nur kann das Leben schwer macht. Was verbirgt sich hinter den letzten im Fieberwahn gestammelten Worten des Joshua Cameron? Die drei Detektive müssen genau hinsehen, um auch diese Geheimnis zu entschlüsseln...")
+
+
+folge(d:audio-010, 10, "… und die flüsternde Mumie", "1980"^^xsd:gYear,
+      "Alfred Hitchcock hat einen neuen Fall für die drei Detektive aus Rocky Beach. Doch als sie den Brief des großen Regisseurs in den Händen halten, trauen sie ihren Augen nicht. Wie kann eine 3000 Jahre alte Mumie flüstern? Die Mumie, die sich in Besitz des Ägyptologen Professor Yarborough befindet, flüstert jedoch tatsächlich. Der Butler des Professors ist davon überzeugt, dass es sich um einen Fluch handelt. Was hat die verschwundene Katze von Mrs. Selby und ein aufgeregter lybischer Junge mit der ganzen Sache zu tun? Als zwei zwielichtige Männer die Mumie und den Sarkophag stehlen, kommt es zu einer Verfolgungsjagd quer durch Hollywood mit einem überraschenden Ziel...")
+
+
+folge(d:audio-011, 11, "… und das Gespensterschloß", "1980"^^xsd:gYear,
+      "Alfred Hitchcock sucht für einen Gruselfilm ein geeignetes Spukschloss. Doch kaum haben die drei Detektive ein passendes Schloss gefunden, stecken sie auch schon mitten drin in einem neuen Fall. Ein anonymer Anrufer versucht kramphaft, die drei Jungen vom Schloss fern zu halten. Mysteriöse Ereignisse, wie ein blaues Phantom, das Nachts auf einer Orgel spielt, lassen nicht nur Peter die Haare zu Berge stehen und erschweren die Nachforschungen. Zudem ist ihr Erzfeind Skinny Norris auch wieder mit von der Partie und schikaniert Justus, Bob und Peter wo er nur kann. Die Ermittlungen führen sie auf die Spur eines verstorbenen Stummfilmstars, der das Schloss einst verfluchte. Wird es ihnen gelingen, das Geheimnis des Gespensterschlosses aufzuklären ?")
+
+
+folge(d:audio-012, 12, "… und der seltsame Wecker", "1980"^^xsd:gYear,
+      "Was ist das für ein Wecker, der anstatt zu klingeln, mit einem furchtbar schrillen Kreischen endet? Ein seltsamer Wecker, soviel ist klar, aber was verbirgt sich dahinter? Wer hat einen solchen Wecker gebaut und warum?Die Spur des Besitzers führt die drei Detektive auf die Fährte von fünf verschwundenen Ölbildern, einer Reihe von merkwürdigen Botschaften und einem uns sehr bekannten französischen Bilderdieb. Justus, Bob und Peter müssen ihre ganze Kombinationsgabe in die Waagschale werfen, um alle Rätsel zu entschlüsseln und um den Fall zu lösen...")
+
+
+folge(d:audio-013, 13, "… und der lachende Schatten", "1980"^^xsd:gYear,
+      "Auf dem Landsitz der Miss Sanchez geschehen seltsame Dinge. Ein wertvolles Amulett verschwindet und ein nicht identifizierbarer Schatten gibt furchterregende schrille Töne von sich. Die drei Detektive nehmen die Ermittlungen auf und stossen dabei auf die Spur eines lange verschollenen Indianerschatzes und zwei entführter Indianerjungen. Als Bob und Peter einem rücksichtslosen Gangster, der den Schatz an sich reißen will, in die Hände fallen, ist Justus' Scharfsinn gefragt. Wird es dem ersten Detektiv gelingen, das Rätsel des alten Magnus Verde rechtzeitig zu entschlüsseln und den lachenden Schatten zu enttarnen? Was meint Ihr?")
+
+
+folge(d:audio-014, 14, "… und das Bergmonster", "1980"^^xsd:gYear,
+      "Patrick und Kenneth, die beiden irischen Gehilfen von Titus Jonas, wollen ihre Cousine Kathleen besuchen. Justus, Bob und Peter begleiten die beiden Brüder und alles fängt äußerst harmlos an, nämlich mit der Suche nach einem verlegten Schlüssel. Doch die Idylle trügt. Warum hat die so geschäftstüchtige Kathleen Hammond so ein Problem damit, ihre Unterschrift zu leisten, und warum baut ihr Mann, hinter dem kleinen Gasthof, für die wenigen Gäste ein so großes Schwimmbecken? Auf dem Berg hinter dem Haus entdecken die drei Jungen geheimnisvolle Spuren. Was verbirgt sich hinter der Legende vom Monsterberg? Sollte es mehr sein als eine Legende? Buchstäblich in letzter Sekunde, können die drei Detektive auch dieses Rätsel lösen. Mit einem überraschenden Ende...")
+
+
+folge(d:audio-015, 15, "… und der rasende Löwe", "1980"^^xsd:gYear,
+      """Alfred Hitchcock hat wieder einmal einen spannenden Fall für die drei Detektive. Der sonst so ruhige Löwe George ist in letzter Zeit ungewöhnlich nervös. Ohne zu zögern machen sich die drei Jungen auf ins "Dschungelland", einem nahe gelegenen Tierpark. Kaum angekommen begegnen sie dem frei umherstreifenden Löwen, doch dieser ist nicht das einzige frei umherlaufende wilde Tier im Park. Justus, Bob und Peter finden schnell heraus, dass etwas im "Dschungelland" nicht mit rechten Dingen zugeht. Wer könnte Interesse daran haben, die Tiere aus ihren Käfigen zu lassen und warum sind allerlei seltsame Typen auf der Suche nach alten Tierkäfigen? Die Ermittlungen führen die drei ??? auf die Spur von Diamantenschmugglern, mit denen nicht zu spaßen ist...""")
+
+
+folge(d:audio-016, 16, "… und der Zauberspiegel", "1980"^^xsd:gYear,
+      "In dem Zauberspiegel, der neusten Erwerbung von Mrs. Darnley, spukt es. Zumindest glaubt das die ältere Dame, als sie die drei Detektive um Hilfe bittet. Und nicht nur das - seltsame Geräusche sind in der Nacht zu hören und Justsus, Bob und Peter entdecken einen geheimen Gang im Haus ihrer neuen Klientin. Senor Santora, der angeblich rechtmässige Besitzer des Spiegels, möchte Mrs. Darnley diesen um jeden Preis abkaufen, doch was verbirgt sich hinter dem alten spanischen Spiegel? Der Präsident des Inselstaates Ruffino warnt vor einem gewissen Juan Gomez. Als Jeff, der Enkel von Mrs. Darnley schließlich entführt wird, geraten die drei Jungen mitten in ein politisches Intrigenspiel um Macht und die Zukunft des Staates Ruffino.")
+
+
+folge(d:audio-017, 17, "… und die gefährliche Erbschaft", "1980"^^xsd:gYear,
+      "Der Einsiedler Markus Town, auch Dingo genannt, hinterlässt ein völlig absurdes Testament in Rätselform. Wer das Rätsel lösen kann, soll den Schatz behalten dürfen. Natürlich sind Justus, Bob und Peter sofort Feuer und Flamme und machen sich im Auftrag der Familie Town auf, das Erbe zu finden. Die Rätselverse erweisen sich jedoch schwieriger als gedacht und dann sind ja da auch noch eine Heerschar von anderen Schatzsuchern und nicht zu vergessen ihr Erzfeind Skinny Norris, der den drei Detektiven dieses mal unbedingt zuvor kommen will.
+Wird es ihm gelingen?")
+
+
+folge(d:audio-018, 18, "… und die Geisterinsel", "1980"^^xsd:gYear,
+      "Alfred Hitchcocks neuster Auftrag für die drei Detektive führt sie auf eine kleine Atlantikinsel. Justus, Bob und Peter sollen Peters Vater und einen bekannten Hollywoodregisseur begleiten, um bei einem Kurzfilm drei tauchbegeisterte Jungen zu spielen. Das Fleckchen wird die Geisterinsel genannt und war früher ein Schlupfwinkel für Piraten. Hin und wieder werden bei stürmischer See Goldmünzen angespült. Kein Wunder also, dass die drei Jungen von dieser Reise begeistert sind. Kaum dort angekommen, passieren seltsame Dinge: Die Einheimischen fürchten sich vor dem in Sturmnächten erscheinenden Karussellgespenst und das Gerücht von einem verschollenen Piratenschatz hält sich ebenfalls hartnäckig. Mit Hilfe des griechischen Jungen Chris, machen sich die drei ??? auf die Suche nach dem Gold und machen dabei eine überraschende Entdeckung...")
+
+
+folge(d:audio-019, 19, "… und der Teufelsberg", "1980"^^xsd:gYear,
+      "Die drei Detektive, Justus Jonas, Peter Shaw und Bob Andrews verbringen ein paar Tage auf der Mendoza-Ranch. Doch woher kommt das allabendlich wiederkehrende schauerliche Heulen, dem das Tal der Wehklagen seinen Namen verdankt. Sollte an den Gerüchten etwas dran sein, dass das Geheul von einem legendären Bandit aus dem Inneren des Teufelsberges stammt? Die drei Jungen wollen nicht so recht daran glauben. Wer aber versucht mit allen Mitteln, neugierige Besucher vom Teufelsberg fernzuhalten? Bei ihren Ermittlungen stossen die drei ??? nicht nur auf eine vermeintliche Diamantenmine, sondern auch auf einen gerissenen Verbrecher, der ihnen nach dem Leben trachtet und den es zu enttarnen gilt.")
+
+
+folge(d:audio-020, 20, "… und die flammende Spur", "1980"^^xsd:gYear,
+      "Mr. Potter, der alte Töpfer ist plötzlich verschwunden. Grund genug für die drei Detektive der Sache auf den Grund zu gehen. Aber nicht nur die drei Jungen sind auf der Suche nach dem barfüssigen alten Mann. Auch zwei undurchsichtige Männer und ein Sportfischer wollen ihn unbedingt finden. Im Haus der Töpfers tauchen immer wieder flammende Fußspuren auf. Lange tappen die drei ??? im Dunkeln. Was steckt hinter dem Emblem eines doppelköpfigen Adlers? Fragen über Fragen, die es zu beantworten gilt, doch gerade als Justus den entscheidenden Einfall hat, tappen die drei Detektive in ihre eigene Falle...")
+
+
+folge(d:audio-021, 21, "… und der tanzende Teufel", "1980"^^xsd:gYear,
+      "Alles beginnt mit der verschwundenen Puppe der kleinen Tina. Doch plötzlich stellt sich heraus, dass die Puppe nur ein kleiner Teil einer ganzen Diebstahlserie ist. Die drei Detektive nehmen die Ermittlungen auf, bei denen es um schwarze Handkoffer zu gehen scheint. Doch immer dann, wenn die drei ??? dem Rätsel ein Stück näher zu kommen scheinen, begegnet ihnen eine unheimlich drohende Gestalt im Form eines tanzenden Dämons. Nicht nur Peter ist der Schrecken in alle Glieder gefahren, auch Bob und Justus können die dämonische Erscheinung nicht so recht einordnen. Werden die drei Juniordetektive aus Rocky Beach das Geheimnis um den tanzenden Teufel lösen können?")
+
+
+folge(d:audio-022, 22, "… und der verschwundene Schatz", "1981"^^xsd:gYear,
+      "Gerade als die drei Detektive eine Ausstellung japanischer Kunstschätze besuchen, wird dort das Prachtstück der Ausstellung, ein juwelenbesetzter goldener Gürtel, gestohlen. Der japanische Oberaufseher will die drei Jungen jedoch nicht ermitteln lassen. Alfred Hitchcock hat dafür einen neuen rätselhaften Auftrag für Justus, Bob und Peter. Eine alte Freundin des Regisseurs wird angeblich von Gnomen belästigt. Die drei ??? sind überzeugt  das es keine Gnome gibt, aber was sind das für kleine Kerle, die im Haus und Garten von Miss Agawam ihr Unwesen treiben? Während ihrer Ermittlungen kommen sie nicht nur einem raffiniert geplanten Bankraub auf die Spur, sondern auch dem Diebstahl des goldenen Gürtels. Sollten beide Fälle miteinander zu haben?")
+
+
+folge(d:audio-023, 23, "… und das Aztekenschwert", "1981"^^xsd:gYear,
+      "Durch ein Feuer verlieren die beiden Brüder Pico und Diego Alvaro ihren ganzen Besitz. Die letzte, zunächst völlig unrealistisch scheinende Hoffnung wäre, wenn sich das legendäre und unendlich wertvolle Aztekenschwert finden ließe, welches ein Vorfahre der Alvaros einst vom Eroberer Cortez aus Dankbarkeit geschenkt bekam. Allen Hindernissen zum trotz machen sich die drei Detektive und Diego Alvaro auf, das Unmögliche möglich zu machen. Doch die Ermittlungen stellen sich als äußerst schwierig und gefährlich heraus, nicht zuletzt weil ihr Erzfeind Skinny Norris mal wieder seine Finger mit im Spiel hat. Wird es den vier Jungen gelingen, vor ihren Widersachern das legendäre Cortez-Schwert zu finden?")
+
+
+folge(d:audio-024, 24, "… und die silberne Spinne", "1981"^^xsd:gYear,
+      """Durch einen "Beinahe-Autounfall" lernen die drei Detektive den jungen Lars Holmqvist aus Texas kennen, der in wenigen Tagen das Erbe seines Vaters - die Übernahme der Magnuswerke - antreten soll. Doch irgendjemand will genau das verhindern. Plötzlich ist das Wahrzeichen von Magnusstad, die legendäre silberne Spinne, verschwunden. Justus, Bob und Peter wollen ihrem neuen Freund gerne helfen und geraten dabei selbst in höchste Gefahr. Die Feinde von Lars wollen den drei ??? den Dienstahl der silbernen Spinne in die Schuhe schieben. Eine wilde Verfolgunsgsjagd quer durch Magnusstad beginnt. In luftiger Höhe hat Justus die rettende Idee...""")
+
+
+folge(d:audio-025, 25, "… und die singende Schlange", "1981"^^xsd:gYear,
+      "Allie Jamisson, ein Mädchen aus der Nachbarschaft, prallt eher unfreiwillig mit Justus zusammen. Allies Tante, Patricia Osborne, ist eine etwas seltsame Dame. Nicht nur das sie Spinnweben auf Wunden legt, auch sonst glaubt sie an eine ganze Menge Hokuspokus. Als auch noch der bleiche Mr. Asmodi als Hausgast bei den Jamissons einzieht und ein allabendliches gräsliches Singen zu hören ist, reicht es Allie. Sie bittet die drei Detektive um Hilfe. Justus, Peter und Bob kommen einer seltsamen Kultgemeinschaft auf die Spur, die in einem abelegenen Haus seltsame Zeremonien abhält. Wird es den drei ??? mit Allies Hilfe gelingen das Rätsel um die singende Schlange zu lösen?")
+
+
+folge(d:audio-026, 26, "… und die Silbermine", "1981"^^xsd:gYear,
+      """Die drei Detektive und Allie Jamisson, ihre Auftraggeberin von der "singenden Schlange", verbringen während der Sommerferien ein paar Tage in New Mexiko. Eigentlich wollen die drei Jungen nur Allies Onkel Harry auf seiner Weihnachtsbaumplantage helfen, doch Wesley Thurgood, der neue Nachbar, ist Allie nicht geheuer. Warum hat er die alte verlassenen Silbermine, von den Einheimischen auch Todesfalle genannt, gekauft und wieder aufgemacht? Und warum reagiert er so gereizt, als Allie die Mine erkunden will? Die drei ??? sind sich nicht sicher, was sie von der Sache halten sollen. Justus, Bob und Peter müssen Allie schließlich recht geben, als sie kurz darauf, in der Mine eine schreckliche Entdeckung machen...""")
+
+
+folge(d:audio-027, 27, "… und der magische Kreis", "1981"^^xsd:gYear,
+      "Justus, Bob und Peter haben einen Ferienjob in dem kleinen Verlag Amigos Press übernommen. Als dieser komplett ausbrennt und gleichzeitig in dem benachbarten Filmlabor sämtliche Filmrollen einer bekannten Schauspielerin gestohlen werden, wittern die drei Detektive einen neuen Fall. Die drei Jungen kommen nicht nur einem geheimnisvollen Hexenzirkel auf die Spur, sondern auch einem raffinierten Betrugsversuch rund um die verschwundenen Memoiren von Madeline Bainbridge. Was geschah in der Vergangenheit der bekannten Schauspielerin und hält sie sich tatsächlich für eine Hexe? Als die drei den geheimnisvollen Vorgängen ganz nahe zu sein scheinen, gerät Peter in tödliche Gefahr...")
+
+
+folge(d:audio-028, 28, "… und der Doppelgänger", "1982"^^xsd:gYear,
+      "Justus wird entführt!
+Gerade, als die drei Detektive einen Ausflug in einen nahegelegenen Vergnügungspark machen wollen, wird der erste Detektiv ohne ersichtlichen Grund von zwei Männern verschleppt. Voller Sorge um ihren ersten Detektiv schalten Bob und Peter zusammen mit Tante Mathilda Hauptkommissar Reynolds ein. Als sie Justus kurz darauf unversehrt in einer Hütte nahe den Bergen von Rocky Beach entdecken, kann sich zunächst niemand erklären, warum ausgerechnet Justus entführt wurde. 
+Die Ermittlungen führen die drei ??? auf die Spur eines Jungen, der dem ersten Detektiv zum verwechseln ähnlich sieht und der sich weiterhin in Lebensgefahr befindet, denn die Entführer haben noch nicht aufgegeben...")
+
+
+folge(d:audio-029, 29, "Die Originalmusik", "1982"^^xsd:gYear,
+      "Originalmusik")
+
+
+folge(d:audio-030, 30, "… und das Riff der Haie", "1982"^^xsd:gYear,
+      "Während einer Demonstration lernen Justus, Bob und Peter, die drei Detektive aus Rocky Beach, den Kriminalschriftsteller John Crowe kennen. Dieser ist neben seiner Schriftstellertätigkeit auch der Sprecher der Bürger-Initiative gegen eine große Ölplattform vor der Küste von Santa Barbara. Mr. Crowe bittet die drei Detektive, den rätselhaften Kraftstoffverlust eines der Demonstrationsschiffe aufzuklären. Während ein Hurrikan aufzieht, werden die drei ??? in turbulente Ereignisse rund um ein altes japanisches U-Boot, welches während des zweiten Weltkrieges vor der kalifornischen Küste gesunken ist, verwickelt. Werden sie Licht ins Dunkel bringen und ein lange gehegtes Geheimnis um das Riff der Haie lüften können...?")
+
+
+folge(d:audio-031, 31, "… und das Narbengesicht", "1983"^^xsd:gYear,
+      "Ohne es zu ahnen, wird Bob an einem stürmischen Tag, während er an einer Bushaltestelle steht, Zeuge eines Banküberfalls. Die verlorene Brieftasche eines angeblich blinden Bettlers führt die drei Detektive zu einem Schriftsteller, der früher als Detektiv gearbeitet hat und zu einem Wachmann der verdächtigt wird an dem Banküberfall in Santa Monica beteiligt gewesen zu sein. Während die drei Jungen alles versuchen um die Umschuld des Wachmannes zu beweisen, führen sie ihre Ermittlungen auf die Spur einer misteriösen Sekte, einer Frau mit Visionen, die tatsächlich einzutreten scheinen und jeder Menge anderer undurchsichtiger Personen. Als alle Fragen beantwortet scheinen, geraten die ??? doch noch in eine brenzlige Situation...")
+
+
+folge(d:audio-032, 32, "… und der Ameisenmensch", "1983"^^xsd:gYear,
+      "Nach einer Autopanne in den Bergen von Rocky Beach, machen die drei Detektive die seltsame Bekanntschaft mit dem Insektenforscher Dr. Wooley, der Justus für eine lebendige Volgelscheuche hält. Aber nicht nur er - Letitia Radford, die panische Angst vor Insekten hat, und einen Anschlag nach dem anderen über sich ergehen lassen muss, beauftragt die drei ??? schließlich, das Rätsel um die wandelnde Vogelscheuche zu lösen. Wer könnte einen Grund haben, Letitia an den Rande des Wahnsinns zu treiben und wer oder was verbirgt sich hinter der Maske der Vogelscheuche? Voller Eifer nehmen Justus, Bob und Peter die Ermittlungen auf und geraten dabei selbst in Lebensgefahr, als sie sich plötzlich eingesperrt in der Kühlkammer der Radford-Villa wiederfinden. Werden die drei Jungen sich befreien können und auch diesen Fall erfolgreich lösen?")
+
+
+folge(d:audio-033, 33, "… und die bedrohte Ranch", "1983"^^xsd:gYear,
+      """Auf dem Schrottplatz von Onkel Titus lernen die drei Detektive das exzentrische Ehepaar Barron kennen. Mrs. Barron glaubt doch tatsächlich das der Erde eine Katastrophe droht und das Ausserirdische vom Planeten Omega kommen werden um sie zu "erretten". Was am Anfang wie ein Scherz klingt, scheint sehr bald ernst zu werden. Nachdem die drei ??? zusammen mit Patrick, dem Ehepaar Barron die gekauften Sachen auf Ihre Ranch gebracht haben, werden sie von einer Militärstreife  daran gehindert das Grundstück wieder  zu verlassen. Der jähzornige und stets misstrauische Mr. Barron ist davon überzeugt, das man ihn von der Aussenwelt abschneiden möchte - aber warum? Die Ereignisse scheinen sich zu überschlagen. Das Telefon fällt aus, der Präsident erklärt im Radio den Ausnahmezustand und plötzlich erscheint ein unbekanntes Flugobjekt am nächtlichen Himmel und ein Mitarbeiter der Ranch wird mit verbrannten Haaren gefunden. Justus, Bob und Peter bleibt wenig Zeit zum ermitteln, bevor die "Retter von Omega" eintreffen...""")
+
+
+folge(d:audio-034, 34, "… und der rote Pirat", "1984"^^xsd:gYear,
+      "Eines Morgens wird Peter von seinem Vater auf eine interessante Zeitungsannonce aufmerksam gemacht, in der jemand 25 Dollar für jeden bietet, der ihm etwas über die ehemalige Piraten Kaliforniens erzählen kann. Natürlich sind die drei Jungen sofort Feuer und Flamme. Was verbirgt sich hinter dem Tonbandinterview von Major Karnes und warum ist er ausschließlich an Erzählungen von Käpitän Joy über den roten Piraten interessiert. Die drei Detektive wittern einen neuen Fall und sie behalten recht. Mitten in ihren Ermittlungen, werden sie unversehens von einem als roter Pirat maskierten Mann bedroht. Und auch Joshua Evans, der Enkel des roten Piraten, ist lange eine schwer einzuordnende Figur. Sollte des Rätsels Lösung doch in dem alten Leuchtturm zu finden sein?")
+
+
+folge(d:audio-035, 35, "… und der Höhlenmensch", "1984"^^xsd:gYear,
+      """In dem kleinen Ort Citrus Grove wurde das Skelett eines Steinzeitmenschen gefunden. Ohne zu zögern machen sich die drei Detektive auf den Weg. Kaum sind sie angekommen, geschehen seltsame Dinge - "Zigeuner-John", der den Urzeitmenschen bewachen soll, erzählt den drei ??? völlig verstört, dass der Höhlemensch aufgestanden und weggegangen ist, die ganze Gemeinde wird während einer Feier mit Hilfe einer Beregnungsanlage in den Schlaf geschickt und der Höhlenmensch wird währenddessen gestohlen. Nicht erst nachdem der Dieb ein hohes Lösegeld verlangt, wissen die drei ???, dass sie mitten in einem neuen Fall stecken. Wird es ihnen gelingen, die rätselhaften Vorkomnisse aufzuklären und den Erpresser zu entlarven?""")
+
+
+folge(d:audio-036, 36, "… und der Super-Wal", "1985"^^xsd:gYear,
+      "Während Justus, Bob und Peter einen schönen Tag am Meer genießen, entdecken sie einen gestrandeten Wal. Um ihn vor dem sicheren Tod zu bewahren, legen die drei Jungen mit Hilfe einer Plane schnell ein provisorisches Schwimmbecken für den Wal an. Als sie später zurückkommen um zu beobachten, wie der Wal zurück ins Meer schwimmt, ist dieser verschwunden. Die drei ??? machen sich sogleich auf die Suche. Bei Ocean World machen sie die Bekanntschaft mit Constance Carmel, die den Wal in einem abgelegenen Schwimmbecken für Bergungsarbeiten abrichten soll. Gleichzeitig werden die drei ??? von einem mysteriösen Anrufer anonym beauftragt, dies zu verhindern und den Wal umgehend ins Meer frei zu lassen. Wer könnte ein Interesse daran haben, die Bergungsarbeiten zu verhindern?
+Aber Klarheit über diesen Fall erhält wohl nur, wer in die Tiefe geht...")
+
+
+folge(d:audio-037, 37, "… und der heimliche Hehler", "1985"^^xsd:gYear,
+      "Während ihres Besuches in dem kleinen Ort Venice verschwindet der fünfjährige Ted Stratton und sein Hund wird tot aufgefunden. Ungeahnt der Gefahr, dass der Junge entführt worden sein könnte, bieten die drei Detektive der Mutter des Jungen ihre Hilfe an. Doch auch nach mehreren Tagen kommt es zu keiner Lösegeldforderung oder sonst einem Zeichen des vermeintlichen Entführers. Der kleine Teddy bleibt spurlos verschwunden. Sollte dem Jungen etwas völlig anderes zugestossen sein? Wenn ja, wo ist er dann? Und was verbirgt sich hinter dem seit Jahren leer stehenden Mermaid Hotel und dessen Besitzer? Die Spuren führen in mehrere Richtungen. Die drei ??? tappen lange im Dunkeln, bis der erste Detektiv den entscheidenden Einfall zur Lösung des Falles vor Augen hat...")
+
+
+folge(d:audio-038, 38, "… und der unsichtbare Gegner", "1986"^^xsd:gYear,
+      "Ben Peck, Peters Großvater, ist ein wenig streitbar aber ein liebenswürdiger Mann. Was jedoch seinen Nachbarn Mr. Snabel angeht, da könnte Mr. Peck regelrecht an die Decke gehen. Peters Opa ist davon überzeugt, dass ihm Mr. Snabel seine neuste Erfindung stehlen möchte, die er in New York vorstellen will. Mit ein wenig Überredungskunst gelingt es den drei Jungen, Peters Mutter zu überzeugen, Mr. Peck auf seiner Fahrt nach New York zu begleiten. So beginnt eine aufregende Fahrt quer durch Amerika. Und tatsächlich weicht ihnen der seltsame Mr. Snabel nicht von ihrer Seite und folgt ihnen auf Schritt und Tritt. Die drei ??? müssen viele brenzlige Situationen überstehen, bevor sie begreifen, worum es tatsächlich geht und sie das Ziel ihrer Reise erreichen...")
+
+
+folge(d:audio-039, 39, "… und die Perlenvögel", "1986"^^xsd:gYear,
+      "Nach einem langen Badetag machen die drei Detektive die Bekanntschaft mit dem etwas unbeholfen wirkenden Blinky, der während sie sich noch unterhalten plötzlich Hals über Kopf das Lokal verlässt und dabei einen Karton mit seltsamem Inhalt vergisst. Wie sich herausstellt ist eine Taube in dem Karton, die mitten in der Nacht durch eine andere ausgetauscht wird. Kein Frage also, dass die drei Jungen den rätselhaften Ereignissen nachgehen. Ein geheimnisvolles Abenteuer beginnt, worin es um Brieftauben, wertvolle Perlen und ermordete Vögel geht. Eine Vogelliebhaberin bittet Justus, Bob und Peter um Hilfe und ein angesehner Juwelier ist ebenso schwer zu durchschauen wie der maskierte Unbekannte, der den drei Jungen immer wieder in die Quere kommt...")
+
+
+folge(d:audio-040, 40, "… und der Automarder", "1986"^^xsd:gYear,
+      """Überall in Rocky-Beach gehen Autoscheiben zu bruch, die ein Unbekannter aus unerklärlichen Gründen reihenweise zerstört. Der Junge Paul bittet die drei Detektive um Hilfe. Nachdem innerhalb kürzester Zeit wiederholt die Scheiben am Wagen seines Vaters zerstört wurden, lässt dieser seinen Sohn den Wagen nicht mehr benutzen. Aber nicht nur das, aus einem der beschädigten Autos wird eine seltene Münze, der sogenannte "Doppeladler" gestohlen. Die drei ??? machen sich mit Pauls Hilfe auf die Suche nach dem Automarder und kommen dabei auch dem Dieb des "Doppeladlers" auf die Spur...""")
+
+
+folge(d:audio-041, 41, "… und das Volk der Winde", "1987"^^xsd:gYear,
+      """Professor Arnold Brewster bittet die drei Detektive um Hilfe. Sein Neffe Clifford hat ihn mit Hilfe eines etwas undurchsichtigen Anwaltes entmündigen und in ein Altersheim stecken lassen. Die drei ??? sollen für ihn den "tanzenden Dinosaurier" in Sicherheit bringen. Justus, Bob und Peter versuchen alles, um dem "alten Brewster" zu helfen. Welche Absichten hat Martin Ishniak, der Assistent von Arnold Brewster? Und was verbirgt sich hinter den tanzenden Wassern? Während ihrer Ermittlungen stossen sie auf die Spur eines als verschollen geltenden Indianerstammes vom Volk der Winde und nicht nur das...
+Die unwegsamen Berge um Comina, wo die drei Jungen nach Antworten suchen, halten nicht nur angenehme Überraschungen bereit...""")
+
+
+folge(d:audio-042, 42, "… und der weinende Sarg", "1987"^^xsd:gYear,
+      "Michael Cross verbringt mit seinen Eltern den Urlaub in Rocky Beach, ein recht langweiliger Urlaub, zumal ihn seine Mutter von einer vermeintlichen Sehenswürdigkeit zur nächsten schleppt. Interessant wird es erst, als er die drei Detektive kennenlernt. Kurz darauf werden die vier Jungen Zeuge eines mysteriösen Einbruchs in der Villa Markels. Die Angaben des Verwalters decken sich jedoch so gar nicht mit den Beobachtungen der vier Jungen. Welches Geheimnis verbirgt sich hinter dem sogenannten weinenden Sarg, mit seinen unheimlich dreinblickenden Totenköpfen. Justus, Bob und Peter machen sich mit Michael auf die Suche nach dem Testament von Jonathan Markels und stossen dabei auf jede Menge falsche Wertsachen, einen finster aussehenden Gärtner mit Messer und ein letztes Rätsel, welches tatsächlich 1 A ist...")
+
+
+folge(d:audio-043, 43, "… und der höllische Werwolf", "1988"^^xsd:gYear,
+      "Justus, Bob und Peter entdecken am Strand eine Tasche mit scheinbar wertlosem Inhalt, die offensichtlich einem jungen Mädchen gehört. In der Tasche finden die drei neben einem Teddybären auch ein Buch, welches sich das Mädchen in einer Bücherei entliehen hat. Über die Bücherei finden die drei ??? heraus, dass das Mädchen von zu Hause weggelaufen ist, um in Hollywood Karriere als Schauspielerin zu machen. Die Eltern bitten die drei Detektive, ihre Tochter wiederzufinden. Während ihrer Ermittlungen stellt sich den drei Detektiven immer wieder ein Mann mit einer furchtbaren Werwolfmaske in den Weg. Wer verbirgt sich hinter der Maske und welche Ziele verfolgt der Unbekannte und was hat das alles mit dem verschwundenen Mädchen zu tun? Fragen über Fragen die es zu beantworten gilt...")
+
+
+folge(d:audio-044, 44, "… und der gestohlene Preis", "1988"^^xsd:gYear,
+      """Justus wird von seiner Vergangenheit eingeholt. Als Kind spielt er den kugelrunden "Baby Fatso" in der Serie "Die kleinen Strolche". Nun soll er zusammen mit den anderen damaligen Darstellern an einem Quiz teilnehmen. Das gefällt dem ersten Detektiv natürlich gar nicht. Doch plötzlich verschwinden die Pokale, die für dieTeilnehmer gedacht waren, und die drei Detektive wittern einen neuen Fall. Und nicht nur das. Die "liebreizende" Peggy verschwindet und der rücksichtslose Bonehead versucht das Quiz und die dazugehörenden 20.000 Dollar um jeden Preis zu gewinnen. Aber noch jemand scheint falsch zu spielen, jemand im Hintergrund, den die drei ??? lange nicht im Verdacht haben...""")
+
+
+folge(d:audio-045, 45, "… und das Gold der Wikinger", "1989"^^xsd:gYear,
+      "Während eines Ausfluges vor der Küste von Ragnarson Rock sollen Justus, Bob und Peter für Bobs Vater ein paar außergewönhliche Fotos von den jährlich nachgestellten Kämpfen der Wikinger mit den Chumasch-Indianern machen. Doch dabei bleibt es nicht. Ein Ruderboot wird führerlos angetrieben und auch sonst geschehen seltsame Dinge auf der Insel. Geisterhafte Erscheinungen und ein unheimliches Heulen verderben den Besuchern den Spaß auf der Insel. Als Bob am hellichten Tag überfallen und ihm die am Vortag gemachten Fotos gestohlen werden, ist den drei Jungen endgültig klar, dass etwas dahinter stecken muss. Wer könnte ein Interesse an den Fotos haben und warum versucht jemand die so friedlichen Ragnarsons von der Insel zu vertreiben?
+Die drei ??? nehmen die Spur auf und enthüllen dabei nicht nur das Rätsel um die Vorkomnisse auf Ragnarson Rock...")
+
+
+folge(d:audio-046, 46, "… und der schrullige Millionär", "1989"^^xsd:gYear,
+      """Während der Verlobungsfeier seiner Tochter Marilyn, auf der Justus, Bob und Peter als Aushilfskräfte arbeiten, bricht der Millionär Jeremy Pilcher plötzlich mit einem Herzanfall zusammen und verschwindet kurz darauf  auf rätselhafte Weise. Wie sich kurz darauf herausstellt wurde er entführt und die Kidnapper wollen den "alten Pilcher" nur gegen Herrausgabe des "Buch des Bischofs" wieder freilassen. Nach anfänglichem zögern beauftragt Marilyn die drei Detektive, das Buch zu finden um ihren Vater auszulösen. Die Aufzeichnungen im Computer des schrulligen Millionärs führen die drei ??? auf die Spur eines lange als verschollen geglaubten Buches und letztendlich auch auf die Fährte des Endführers, dem es allem Anschein nach um die "Tränen der Götter" geht...""")
+
+
+folge(d:audio-047, 47, "… und der giftige Gockel", "1990"^^xsd:gYear,
+      """Als Justus und Peter ihre Freundin Kelly im Krankenhaus besuchen bekommen sie mit, dass es sich bei Kellys Bettnachbarin um Julia Crown, die Tochter eines bekannten Imbisskettenbesitzers, die Grillhähnchen vertreibt, handelt. Das Mädchen ist offenbar mit ihrem Wagen verunglückt. Als sie jedoch im Schlaf zu stammeln beginnt: "Millionen werden sterben", ist das Interesse der drei Detektive geweckt. Was steckt hinter den Worten, die Julia im Traum von sich gibt und wer ist Mr. "Sweetness" der den drei Jungen plötzlich auf Schritt und Tritt zu folgen scheint. Sollte wirklich jemand die köstlichen Hähnchen vergiften wollen? Als die drei ??? nur knapp einem Anschlag entgehen, wird die Zeit knapp die ihnen bleibt, um die Katastrophe noch zu verhindern...""")
+
+
+folge(d:audio-048, 48, "… und die gefährlichen Fässer", "1990"^^xsd:gYear,
+      "Die drei Detektive begleiten Bobs Vater auf eine Flugreise nach Diamont Lake. Über der Sierra Nevada kommt es zur Katastrophe: Der Motor der gemieteten Cessna fällt plötzlich aus und sie stürzen ab. Kaum haben sie sich von der Bruchlandung erholt, da verschwindet Bobs Vater spurlos. Auf der Suche nach Mr. Andrews begegnet ihnen ein Indianerjunge, der ebenfalls auf der Suche nach einem verschwundenen Familienmitglied ist. Aber nicht nur das... Immer mehr Indianer im Dorf erkranken auf mysteriöse Weise. Wer oder was könnte dahinter stecken und gibt es eine Verbindung zu ihrem Flugzeugabsturz? Während ihrer Ermittlungen geraten sie in tödliche Gefahr, da irgend jemand mit allen Mitteln versucht, die weitere Suche nach den Verschwundenen zu verhindern. 
+Doch so leicht lassen sich die ??? nicht aufhalten. In den heiligen Tälern der Indianer machen sie eine schreckliche Entdeckung...")
+
+
+folge(d:audio-049, 49, "… und die Comic-Diebe", "1990"^^xsd:gYear,
+      "Auf der Inter-ComicCon, einer bekannten Comic-Börse, versuchen Justus, Bob und Peter ein paar alte Comic-Hefte gewinnbringend an den Mann zu bringen. Gerade als sie einen interessierten Käufer gefunden zu haben scheinen, wird neben ihren eigenen Comics ein sehr seltenes Heft von hohem Sammlerwert von einem Unbekannten in der Maske eines bekannten Comic-Helden gestohlen. Schon stecken die drei Detektive mitten drin in einem neuen Fall, in dem Peter plötzlich in tödliche Gefahr gerät. Aber auch sonst stellen sich die Ermittlungen als äußerst schwierig heraus. Jede Menge Leute könnten ein Interesse daran haben, das seltene Heft verschwinden zu lassen. Die drei ??? müssen scharf kombinieren, um aus all den Verdächtigen den Richtigen zu entlarven.")
+
+
+folge(d:audio-050, 50, "… und der verschwundene Filmstar", "1991"^^xsd:gYear,
+      """Diller Rourke, der Star des Gruselschokers Atemberaubend II, wird entführt. Peter, der für seinen Vater einige Requisiten zum Drehort bringt, wird zufällig Zeuge des ganzen Geschehens und bietet dem Produzenten Marty Morningbaum die Hilfe der drei Detektive an. Doch dieser will seinen Star um jeden Preis schützen und drängt darauf, nichts zu unternehmen. Als die Zentrale von einem Mann in einer unheimlichen Maske verwüstet wird, stellen die drei ??? gegen den Willen des Produzenten heimlich Nachforschungen an. Will Marty Morningbaum seinen Star wirklich nur schützen, oder steckt mehr dahinter und welche Ziele verfolgt der "Pseudo-Guru" Marble Ackbourne-Smith? Ein Zufall bringt Justus, Bob und Peter schließlich doch noch auf die richtige Spur...""")
+
+
+folge(d:audio-051, 51, "… und der riskante Ritt", "1991"^^xsd:gYear,
+      """Justus gewinnt bei einem äußerst einfachen Kreuzworträtsel eine Reise nach Mexiko. Mit etwas Überredungskunst gelingt es ihm, das Bob und Peter ihn auf die Ranch begleiten dürfen. Kurz vor ihrer Abreise erhalten die drei Detektive eine mysteriöse Kassette zugeschickt. Die Stimme auf dem Band ist der von Justus unheimlich ähnlich. Auf der Ranch angekommen ist der Ranchbesitzer Dusty Rice ganz versessen darauf, dass Justus sich mit dem Wildesel "Blondie" beschäftigt, der überraschend zutraulich auf den ersten Detektiv reagiert. Davon überzeugt, dass hier etwas nicht stimmt, begleiten die drei Detektive Dusty Rice in die Berge.
+Als die drei ??? herausbekommen, worum es dem Rancher in Wirklichkeit geht, geraten sie in tödliche Gefahr...""")
+
+
+folge(d:audio-052, 52, "… und die Musikpiraten", "1991"^^xsd:gYear,
+      "Auf einem Volksfest geraten Bob und Peter zwischen die Fronten zweier rivalisierender Banden, die offensichtlich mit illegalem Musikmaterial handeln. Die Ermittlungen führen Bob, Peter und Justus zu der renomierten Plattenfirma Galactic Sound. Dort verschwinden seit langer Zeit sogenannte Masterbänder. Nur wie schmuggeln die Musikpiraten die gestohlenen Bänderr aus dem Haus und gibt es eine Verbindung mit dem Zwischenfall auf dem Volksfest? Die drei ??? lassen sich zum Schein als Praktikanten bei der Plattenfirma anstellen und machen dabei einige interessante Entdeckungen.")
+
+
+folge(d:audio-053, 53, "… und die Automafia", "1991"^^xsd:gYear,
+      """Justus' Vetter Ty wird kurz nach seinem überraschenden Besuch von der Polizeit verhaftet. Angeblich soll er ein Auto gestohlen haben. Ty behauptet dagegen, dass er den Wagen für jemanden überführen sollte. Während Justus' Vetter in Untersuchungshaft sitzt, nehmen die drei Detektive die Ermittlungen auf. Alles scheint gegen Ty zu sprechen, doch Justus glaubt an seine Unschuld. Die Spur führt die drei ??? auf die Fährte einer mysteriösen Latino-Band, die mit ihren auffälligen Autos von Stadt zu Stadt zieht, um in kleineren Clubs aufzutreten. Sollten "El Tiburón & die Piranhas" hinter den Diebstählen stecken und welche Ziele verfolgt der Manager der Latino-Band? Als Justus, Bob und Peter versuchen den Verdächtigen eine Falle zu stellen, wird ihnen endgültig klar, dass sie es mit ausgekochten Profis zu tun haben, die vor nichts zurück schrecken...""")
+
+
+folge(d:audio-054, 54, "Gefahr im Verzug", "1992"^^xsd:gYear,
+      """Zufällig trifft Justus einen alten Bekannten aus seiner Zeit als Kinderstar "Pummelchen" bei den kleinen Strolchen wieder. Freudig überrascht, Justus nach so vielen Jahren wieder zu sehen, beauftragt George Brandon die drei Detektive, ihm aus der Klemme zu helfen. Seit längerer Zeit wird der Star des kurz vor der Premiere stehenden Musicals "Gefahr im Verzug" bedroht. Was relativ harmlos mit Drohbriefen beginnt, gipfelt in umstürzernden Kullissen und anderen lebensgefährlichen Anschlägen. Je mehr das Leben von George Brandon in Gefahr gerät, desto größer scheint das Interesse an der Show zu werden. Wer könnte George nach dem Leben trachten?
+Als Statisten getarnt beginnen Justus, Peter und Bob, die Geschehnisse zu untersuchen und werden dabei beinahe selbst Opfer eines tödlichen Anschlages.""")
+
+
+folge(d:audio-055, 55, "Gekaufte Spieler", "1992"^^xsd:gYear,
+      "In buchstäblich letzter Sekunde hat Peter den entscheidenden Treffer beim Baskettball für sein Team erziehlt. Als ihm Trainer Duggan kurz darauf ein Stipendium für das Shoremont College in Aussicht stellt, scheint Peters Glück endgültig perfekt zu sein. Während er voller Begeisterung Justus, Bob und seiner Freundin Kelly von dem Angebot berichtet, entdeckt er in seinem Wagen einen Umschlag mit einem Bündel Hundert-Dollar Scheine. Kurz entschlossen berichten die drei Detektive dem Direktor des Shoremont Colleges von dem versuchten Bestechungsversuch. Dieser beauftragt die drei ??? herauszufinden, wer dahinter stecken könnte. Während Justus als Maskottchen verkleidet versucht, etwas heraus zu finden, geht Peter zum Schein auf die Bestechung ein. Werden sie den Skandal um die gekauften Spieler aufdecken können?")
+
+
+folge(d:audio-056, 56, "Angriff der Computer-Viren", "1992"^^xsd:gYear,
+      """Völlig aufgelöst rennt der erste Detektiv von einer Ecke des Wohnwagens, der den drei Detektiven als Zentrale dient, zur Anderen. Ein heimtückischer Computer-Virus hat große Teile des gespeicherten Detektiv-Archivs völlig zerstört. Während Justus verzweifelt versucht zu retten was noch zu retten ist, stösst er auf einen versteckten Erpresserbrief:
+"Das Chaos lässt grüßen - fünf Millionen Dollar, oder sie werden mit sammt ihren Daten gelöscht!"
+Die Ermittlungen führen die drei Detektive auf die Spur eines genialen Programmierers namens Norton Rome, der offensichtlich seine Firma erpressen will und dabei vor nichts zurück schreckt. 
+Des Rätsels Lösung führt die drei ??? schließlich an einen Ort, an dem sie den skrupellosen Erpresser niemals vermutet hätten.""")
+
+
+folge(d:audio-057, 57, "Tatort Zirkus", "1994"^^xsd:gYear,
+      "Während einer abendlichen Vorstellung im Zirkus Winkler Bros. & Son stürzt die junge Artistin Mary di Domenico vom Drahtseil und verletzt sich dabei schwer. Als die drei Detektive erfahren, das Mary als Alleinerbin der wertvollen Sammlung des berühmten Clowns Jacky Knivel gilt steht für sie fest, dass der Sturz kein Unfall war. Kaum haben sich die drei ??? entschlossen den Fall zu übernehmen, stellen sich ihnen die ersten Fragen: Welche Verbindung besteht zwischen dem verstorbenen Jacky Knivel und Mary und warum hat er ausgerechnet sie als Alleinerbin eingesetzt? Vielleicht kann Tante Mathilda helfen, schließlich hat sie den Clown gekannt. Während ihrer Ermittlungen stoßen Justus, Bob und Peter auf eine verzwickte Familiengeschichte und jede Menge skrupellose Gestalten, die das Erbe an sich bringen wollen. Werden sie rechtzeitig herausfinden, wem die Hinterlassenschaft tatsächlich zusteht?")
+
+
+folge(d:audio-058, 58, "… und der verrückte Maler", "1994"^^xsd:gYear,
+      "Streit im Hause Jonas. Tante Mathilda ist völlig entsetzt über Onkel Titus neueste Erwerbung. Ein Ölbild ausschließlich in gelben Farben gemalt, das neuerdings das Wohnzimmer der Familie Jonas ziert. Noch in der selben Nacht versucht ein Unbekannter, das scheinbar wertlose Bild zu stehlen. Das riecht nach einem neuen Fall für die drei ???. Und tatsächlich scheint sich ein Geheimnis hinter dem hässlichen Bild zu verbergen. Die Spur führt die drei Detektive zu dem Chef einer gut laufenden Safe-Firma, der allem Anschein nach der Schöpfer des gelben Ölgemäldes ist. Sollte er etwas mit dem Vorkomnissen in den lezten Tagen zu tun haben? Und welche Rolle spielt der Mann mit dem Kamelhaarmantel? 
+Die Antwort auf all diese Frage erwartet Justus, Bob und Peter an einem abgelegenen Küstenstreifen, wo sich das Atelier des verrückten Malers befindet.")
+
+
+folge(d:audio-059, 59, "Giftiges Wasser", "1994"^^xsd:gYear,
+      "Justus, Bob und Peter sind zu einem Musikfestival in das Städtchen Sedona eingeladen worden. In einem kleinen Café machen die drei Detektive die Bekanntschaft mit dem Geschwisterpaar Ruth & Chosmo, die für die ansässige Lokalzeitung Sedona-Tribune arbeiten. Hierbei erfahren sie, dass jemand das alljährlich stattfindende Festival mit allen Mitteln verhindern will. Der Unbekannte droht, das gesamte Trinkwasser des verschlafenen Touristenstädtchens zu vergiften. Welchen Grund könnte jemand haben, dies zu tun? Die Verantwortlichen sind ratlos. 
+Die drei ??? übernehmen den Fall und stoßen dabei auf einen Skandal, bei dem es um weit mehr als nur um die Wasserrechte von Sedona geht. Werden sie die drohende Katastrophe noch rechtzeitig verhindern können?")
+
+
+folge(d:audio-060, 60, "Dopingmixer", "1994"^^xsd:gYear,
+      "Tante Mathilda hat einen neuen Auftrag für die drei Detektive. Ihrer Freundin Eleonore werden immer wieder wertvolle Pflanzen aus ihrem Garten gestohlen.
+Gleichzeitig ereignen sich auf dem Sportplatz der High-School erstaunliche Dinge. Einer der Jungs, die mit Peter zusammen trainieren, ist auffallend schnell für sein Alter. Das Interesse der drei ??? ist geweckt. Sollte es tatsächlich Fälle von Doping an der High-School geben? Es hat tatsächlich den Anschein. Doch plötzlich ist der verdächtige Dopingsünder von der Bildfläche verschwunden und Justus, Bob und Peter scheinen mit ihren Ermittlungen auf der Stelle zu treten, bis es im Sportstadion zu einem überraschenden Geständnis kommt. 
+Wird es den drei Detektiven aus Rocky Beach gelingen, den Pflanzendieb zur Strecke zu bringen und den mysteriösen Dopingfall aufzuklären?")
+
+
+folge(d:audio-061, 61, "… und die Rache des Tigers", "1995"^^xsd:gYear,
+      """Justus, Bob und Peter kommen nur knapp mit dem Schrecken davon. Während der Einweihungsfeier des neuen Vergnügungsparks von Rocky Beach kommt es zu einer Explosion. Kaum haben die drei Detektive den ersten Schrecken verdaut, da stürzem sie sich auch voll in die Ermittlungen. Sollte tatsächlich die Bürgerinitiative hinter dem Anschlag stecken, die auf dem gleichen Gelände eine Jugendfarm errichten will?
+Die drei ??? tappen lange im Dunkeln, bis ihnen plötzlich ein geheimnisvoller Brief in die Hände fällt, in dem es unter anderem um den "Thron des Tigers" geht. Doch dort erwartet die drei Jungen eine gefährliche Überraschung.""")
+
+
+folge(d:audio-062, 62, "Spuk im Hotel", "1995"^^xsd:gYear,
+      """Justus Freundin Lys bittet die drei Detektive, ihrer ehemaligen Schauspiellehrerin Amanda Black zu helfen. In dem von Amanda Black geführten Hotel ereignen sich merkwürdige Dinge. Gegenstände verschwinden und tauchen an anderer Stelle wieder auf und auch sonst scheint es im "Old Star" nicht mit rechten Dingen zu zu gehen. Als Angestellte des Hotels bzw. als Gast getarnt mischen sich die drei ??? unter die Hotelgäste, um dem rätselhaften Treiben ein Ende zu bereiten. 
+Doch als eine wertvolle Standuhr im Pool wieder auftaucht und ein alter Geräteschuppen neben dem Hotel in Flammen aufgeht, bleibt den drei Detektive nur noch eine Möglichkeit. Sie müssen dem Dieb eine Falle stellen. Wenn das mal gut geht...""")
+
+
+folge(d:audio-063, 63, "Fußball-Gangster", "1995"^^xsd:gYear,
+      """Justus fussballbegeisterter Cousin James Jonas, liebevoll Jimboy genannt, kommt für ein paar Tage zu Besuch. Wie sich bereits kurz nach seiner Ankunft herausstellt, handelt es sich bei Justus Cousin um einen echten Könner am Ball. Als der Lebensmittelkonzern "Smell", der u.a. auch ein großes Sportinternat betreibt, Jimboy für ein Jahr unter seine Fittiche nehmen will, scheint das Glück des jungen Mannes perfekt. Doch der Schein trügt. Schon bei seiner Ankunft kommen Jimboy erste Zweifel. Das Sportinternat erinnert eher an eine bewachte Kaserne als an eine Sportschule, aber auch im Inneren des Internates passieren seltsame Dinge. Während sich Jimboy äußerst zweifelhaften Trainingsmethoden unterziehen muss, nehmen die drei Detektive die Ermittlungen auf, denn ihnen ist längst klar, dass hier etwas nicht stimmt, aber was?""")
+
+
+folge(d:audio-064, 64, "Geisterstadt", "1995"^^xsd:gYear,
+      "Tante Mathildas Freundin Emily, die für den berühmten Spieleverleger Michael Oames als Haushälterin arbeitet, liegt mit Knochenbrüchen im Krankenhaus. Keine Frage also, das Tante Mathilda für sie einspringt.
+Diese Gelegenheit lassen sich die drei Detektive nicht nehmen und begleiten Justus Tante in den verschneiten Ort Lake Tahoe. Kaum sind sie in der malerischen Winterlandschaft angekommen, nehmen die geplanten Skiferien eine überraschende Wendung. Der Spieleverleger Michael Oames wurde entführt! Die Kidnapper verlangen 1 Millionen Dollar Lösegeld.
+Justus, Bob und Peter beschließen die örtlichen Polizei ohne deren Wissen ein wenig zu unterstützen und ermitteln auf eigene Faust. Die Spuren führen die drei ??? nach Virginia City. In der alten verlassenen Geisterstadt kommt es zu einer entscheidenden Begegnung...")
+
+
+folge(d:audio-065, 65, "Diamantenschmuggel", "1995"^^xsd:gYear,
+      """Ihre erste Reise nach Europa haben sich die drei Detektive auch etwas anders vorgestellt. In London, ihrem ersten Reiseziel, treffen sie den Juwelier Alexander Burlington, der gleichzeitig Präsident des Fussballvereins Arsenal London ist. Doch statt der erhofften Urlaubstour durch die englische Metropole werden sie in einen Diamantenschmuggel verwickelt. Ohne es zu ahnen, bringen sie die "heißen Steine" auf ihrer Reise unbemerkt nach Holland. Schnell wird den drei ??? klar, dass es sich bei der Reisegruppe nicht nur um Rotterdamer Touristen handelt. Doch ehe sie sich versehen ist das Päckchen mit Diamanten auch schon wieder verschwunden. 
+Scheinbar unbemerkt nehmen die drei Detektive die Ermittlungen auf und lassen sich dabei auch nicht von anonymen Drohbriefen abschrecken. Als die Spur zu den Schmugglern im Sande zu verlaufen scheint, kommt ihnen "Kommissar Zufall" zur Hilfe und präsentiert ihnen den Verbindungsmann zu den Gaunern buchstäblich auf dem Silbertablett.""")
+
+
+folge(d:audio-066, 66, "… und die Schattenmänner", "1995"^^xsd:gYear,
+      """Das neuste Ziel der drei Detektive auf ihrer Europa-Reise ist die italienische Hauptstadt Rom. Doch kaum sind sie dort angekommen, wird Justus von einem Handtaschenräuber sein Rucksack gestohlen. Der erste Detektiv ist jedoch nicht das einzige Opfer. Auf der Polizeiwache lernen die drei ??? das deutsche Au-Pair Mädchen Alexandra kennen, die bereits mehrfach Opfer der Handtaschenräuber geworden ist. Bei der Routine, mit der die Diebe zu Werke gehen, ist Justus, Bob und Peter schnell klar, dass es sich um Profis handeln muss. Als Alexandra ein Treffen mit dem Fotografen Alberto Bergamelli arangiert und Justus plötzlich verschwindet, wird Bob und Peter klar, dass sie ganz Nahe an der Lösung des Falles sind und sich in großer Gefahr befinden.
+Welche Ziele verfolgt der Fotogtraf und gibt es eine Verbindung zu den Handtaschenräubern? Während einer Modenschau auf der "spanischen Treppe" kommt es zur entscheidenden Begegnung.""")
+
+
+folge(d:audio-067, 67, "Geheimnis der Särge", "1996"^^xsd:gYear,
+      "Justus, Bob und Peter begleiten Alexandra, das Au-Pair Mädchen, das sie in Rom kennen gelernt haben, nach Deutschland, genauer gesagt in die schwäbische Alb. Dort möchten die drei Detektive ein paar berühmte Höhlen erkunden. Bestens ausgerüstet betreten die drei Jungen eine der berühmte Höhlen und machen dort eine grausige Entdeckung.
+Was verbirgt sich hinter dem Inhalt der Särge, die versteckt in der Höhle liegen und welche Rolle spielt Babette Eberle, die Tochter eines berühmten Höhlenforschers? 
+Die Spur führ die drei ??? nach Wien. Werden sie dort das Geheimnis der Särge lösen können?")
+
+
+folge(d:audio-068, 68, "Schatz im Bergsee", "1996"^^xsd:gYear,
+      "Schon fast auf dem Heimweg zurück nach Amerika stürzt das kleine Flugzeug mit Justus, Bob und Peter an Bord über den schweizer Alpen ab. Die drei Detektive kommen gerade noch mit dem Schrecken davon, doch während Justus sich noch um den vom Schock gezeichneten Peter kümmert und der Pilot noch bewusstlos neben der zerstörten Maschine liegt, landet ein Hubschrauber mit mehreren maskierten Männern an Bord. Aus der Ferne müssen Peter und Justus hilflos mit ansehen, wie Bob gefesselt und geknebelt wird und die Gangster das Flugzeugwrack durchsuchen. Als die Männer kurz darauf verschwinden, stellen die drei ??? den wieder zu Bewußtsein gekommenen Piloten zur Rede. Die Geschichte, die ihnen der polnische Pilot auftischen will, nehmen ihm die drei Jungen jedoch nicht ab. 
+Die Spur führt Justus, Bob und Peter zu einem abgelegenen Bergsee, der weit mehr als nur ein Geheimnis birgt...")
+
+
+folge(d:audio-069, 69, "Späte Rache", "1996"^^xsd:gYear,
+      "Nach einem mitternächtlichen Discothekenbesuch verabschiedet sich Peter von seiner Freundin Kelly. Als der zweite Detektiv nichts ahnend in sein Auto steigt, gerät er in die Gewalt eines Unbekannten. 
+Als Tags darauf  Peters Mutter besorgt bei Justus anruft und nach ihrem Sohn fragt, ahnt er nicht, dass sein Freund entführt wurde. Er ist damit beschäftigt, sich um Tante Mathilda zu kümmern, die nach einem Sturz von der Leiter mit Knochenbrüchen im Krankenhaus liegt. Nach einem Krankenbesuch seiner Tante überreicht Onkel Titus ihm einen Brief, der dem ersten Detektiv engültig die Gewissheit gibt, dass Peter entführt wurde. Zusammen mit Bob und Kelly versucht Justus herauszufinden, wer ein Interesse daran haben könnte, Peter zu entführen.
+Sollte es tatsächlich ein Racheakt sein? Aber warum ausgerechnet Peter? Während Justus eine Spur zu Tante Mathildas Bettnachbarin im Krankenhaus prüft, fangen Bob und Kelly an, das umfangreiche Detektivarchiv zu durchforsten.
+Sie stossen dabei auf einen lange zurückliegenden Fall und ihnen wird sehr schnell klar, dass sie nicht mehr viel Zeit haben...")
+
+
+folge(d:audio-070, 70, "Schüsse aus dem Dunkel", "1996"^^xsd:gYear,
+      """Die drei Detektibve besuchen ihren Freund Alan Manley, der dabei ist, sich in der Modebranche einen "Namen" zu machen. Doch während der Bühnenshow der Modedesignerin Sally Samson kommt es zu einem tragischen Zwischenfall. Ein Model wird von einem Schuss getroffen. Gleichzeizig werden die Entwürfe der neusten Kollektion von Sally Samson gestohlen. Die drei Detektive sind sofort zur Stelle. Warum sollte jemand auf die junge Frau schiessen, oder sollte der Anschlag nur von dem Diebstahl der Entwürfe ablenken?
+Justus, Bob und Peter sehen nur eine Möglichkeit Licht ins Dunkel zu bringen: Sie müssen sich als Model bewerben.""")
+
+
+folge(d:audio-071, 71, "Die verschwundene Seglerin", "1996"^^xsd:gYear,
+      "Was ist bloß im Hause Jonas los? Onkel Titus wird beschuldigt, einem Kunden einen angebliche einzigartigen Spiegel verkauft zu haben, von dem es aber allem Anschein nach noch einen zweiten gibt. Onkel Titus erwarb den seltenen Spiegel von einer Freundin, die vor ein paar Wochen auf tragische Weise vor der Küste von Ventura ums Leben gekommen war. 
+Doch was geschah tatsächlich mit Irma Bannister? Die drei Detektive nehmen die Ermittlungen auf und stoßen dabei auf ein paar interessante Fakten aus dem Leben der Ertrunkenen. Welche Interessen verfolgt der mysteriöse Mr. Santoria, der einzige Verwandte von Irma Bannister?
+Als der Reporter, der über den tragischen Badeunfall vor der Küste von Ventura berichtete, den Fall wieder aufnehmen will, kurz darauf Opfer eines Anschlages wird und mit lebensgefährlichen Verletzungen im Krankenhaus landet, nimmt der Fall eine entscheidende Wendung.")
+
+
+folge(d:audio-072, 72, "Dreckiger Deal", "1996"^^xsd:gYear,
+      "Das Café von Malcolm King ist ein beliebter Treffpunkt für die Schülerinnen und Schüler der High School von Rocky Beach. Doch eines Morgens wird der freundliche und allseits beliebte Besitzer plötzlich verhaftet. Schnell spricht sich herum, dass die Polizei Rauschgift in seinem Laden gefunden hat. Justus, Bob und Peter glauben nicht an die Schuld von Mr. King und stellen mit Hilfe von Kings Anwältin erste Nachforschungen an. 
+Wer steckt hinter dem anonymen Anruf, der die Polizei auf Kings Laden aufmerksam gemacht hat? Ist er tatsächlich unschuldig und wenn ja, wer könnte ihm die Drogen untergeschoben haben? Fragen über Fragen, die es zu beantworten gilt. Werden die drei ??? auch dieses Rätsel lösen?")
+
+
+folge(d:audio-073, 73, "Poltergeist", "1997"^^xsd:gYear,
+      "Der neue Auftrag, den Peters Freundin Kelly für die drei Detektive hat, klingt nicht besonders aufregend. Kellys Tante, Eleonor Madigan, vermisst ihr Medaillon. Doch die Suche nach dem verschwundenen Schmuckstück ist schwerer als erwartet, denn Miss Madigan kontrolliert die drei Jungen auf Schritt und Tritt, sodass die drei Jungen kurz davor sind, die Suche aufzugeben.
+Wenig später erhalten die drei Detektive einen zweiten Auftrag. Und dieser hat es wirklich in sich. Im Haus von Lydia Cartier geschehen unheimliche Dinge: Möbel bewegen sich, eine Tasse fliegt quer durch den Raum. Die Geschehnisse lassen die ältere Dame nicht zur Ruhe kommen.
+Handelt es sich bei dem mysteriösen Treiben tatsächlich um das Werk eines Poltergeistes? Es scheint keine logische Erklärung für die Vorgänge zu geben, bis Justus eine Entdeckung macht, die die drei ??? auf die Spur eines alten Bekannten führt...")
+
+
+folge(d:audio-074, 74, "… und das brennende Schwert", "1997"^^xsd:gYear,
+      "Onkel Titus wird zu einer Testamentsvollstreckung eingeladen. Die Erbschaft erweist sich jedoch etwas überraschend. Sie umfasst nämlich lediglich 100 Dollar und einen scheinbar wertlosen rot schimmernden Kristall in einer Schachtel, den Onkel Titus an einen gewissen Beany weitergeben soll. Leider kennt er keinen Beany. 
+Justus, Bob und Peter nehmen die Ermittlungen auf. Doch als sich die ersten Ergebnisse abzeichnen, wird ihnen der rote Stein gestohlen und ein mysteriöser anonymer Anrufer führt die drei Detektive auf die Spur eines Geheimbundes, voller besessener Sektenmitglieder. 
+Plötzlich überschlagen sich die Ereignisse und die drei ??? stecken mitten in einem Fall der böse zu enden droht. Während sich die Sonne über dem Wüstehimmel immer mehr verdunkelt und die Sektenmitglieder gebannt der Sonnenfinsternis beiwohnen, kommt es zum großen Finale.")
+
+
+folge(d:audio-075, 75, "Die Spur des Raben", "1997"^^xsd:gYear,
+      """In Los Angeles findet die große Filmfeier zur Verleihung des goldenen Raben statt. Justus, Bob und Peter sollen für Bobs Vater ein paar interessante Bilder für die Los Angeles Post machen. Mit Kamaras ausgerüstet machen sich die drei Detektive auf in die berühmte Fimmetropole. Kaum dort angekommen, macht Peter eine sensationelle Aufnahme des "Raben", einem dreisten Dieb, der es auf die Juwelen berühmter Filmschauspielerinnen abgesehen hat, gerade als dieser in luftiger Höhe in ein Hotelzimmer einbrechen will. Das Foto ist eine echte Sensation.
+Kurz darauf erhalten die drei ??? eine rätselhafte Botschaft des "fliegenden Juwelendiebes". Während sie versuchen, das Rätsel zu entschlüsseln, wird wieder eine Schauspielerin beraubt.
+Justus, Bob und Peter bleibt nicht viel Zeit um den "Raben" noch rechtzeitig vor der Preisverleihung zur Strecke zu bringen...""")
+
+
+folge(d:audio-076, 76, "Stimmen aus dem Nichts", "1997"^^xsd:gYear,
+      """Die ältere Dame, die neben Justus im Wartezimmer sitzt, ist mit den Nerven am Ende. "Meine Schwester will mich in den Tod treiben!"schluchzt die alte Dame. Sofort ist Justus Interesse geweckt. Er bietet ihr die Hilfe der drei ??? an, doch was die völlig verstörte Mrs. Holligan dem ersten Detektiv berichtet, lässt ihn erschaudern. Immer wieder erhält sie Anrufe ihrer Schwester, in denen sie beschimpft und bedroht wird. Die Sache hat nur einen Hacken - Mrs. Holligans Schwester ist bereits seit mehrerern Monaten tot!
+Die drei Detektive übernehmen den Fall und ihnen wird schnell klar, das sie nicht mehr viel Zeit haben, den das Herz der älteren Dame ist nicht mehr das stärkste und jede weitere Aufregung könnte ihr Ende sein. Doch wer oder was steckt hinter dem Terror.
+Um das Rätsel um die Stimmen aus dem Nichts zu lösen begibt sich der dritte Detektiv sogar auf die Couch einer namenhaften Psychotherapeutin, während seine beiden Detektivkollegen in tödliche Gefahr geraten...""")
+
+
+folge(d:audio-077, 77, "Pistenteufel", "1997"^^xsd:gYear,
+      "Justus, Bob und Peter werden von ihrer Geschichtslehrerein beauftragt, der berühmten Skifahrerein Karen Sulzenberger zu helfen. Der deutsche Ski-Star erhält seit einiger Zeit Drohbriefe. Mit Skiern und Snowboard bestens ausgerüstet nehmen die drei Detektive die Ermittlungen in den Bergen des Wintersportortes Vail auf. Doch das erste Attentat können auch die drei ??? nicht verhindern. Wer könnte ein Interesse daran haben, die sympathische Skifahrerein aus der Erfolgsspur zu stoßen?
+Werden Justus, Bob und Peter den skrupellosen Pistenteufel rechtzeitig zur Strecke bringen können, bevor er erneut zuschlägt?")
+
+
+folge(d:audio-078, 78, "Das leere Grab", "1998"^^xsd:gYear,
+      "Fassungslos lauscht der erste Detektiv den Worten eines alten Bekannten. Das was Mr. Hitfield Justus zu erzählen hat, scheint unfassbar. Der Schriftsteller war vor wenigen Tagen aus Südamerika zurückgekehrt und hatte dabei die Bekanntschaft mit einem Ehepaar aus Kalifornien gemacht, welches interessanter Weise auch den Namen Jonas trägt. Aber nicht nur das, völlig durcheinander starrt Justus auf das Foto von Catherine Jonas. Ist die Frau auf dem Foto tatasächlich seine Mutter?
+Doch wie ist das möglich? Justus Eltern wurden bereits vor Jahren für tot erklärt. Ihr Flugzeug stürzte vor der Küste Südamerikas ins Meer.
+Sollte doch jemand die Katastrophe überlebt haben? Aber warum hatten seine Eltern dann nie Kontakt zu ihm aufgenommen?
+Ohne nachzudenken, bucht Justus Hals über Kopf einen Flug nach Venezuela und macht sich, völlig auf sich allein gestellt, auf die Suche nach seinen Eltern. In der abgelegenen Diamantenstadt Suerte wird der erste Detektiv schließlich fündig.")
+
+
+folge(d:audio-079, 79, "Im Bann des Voodoo", "1998"^^xsd:gYear,
+      """Während Bob sich in der Sauna entspannt, kommt es zu einem merkwürdigen Zwischenfall. Der Musikproduzent Al Parker bekommt plötzlich keine Luft mehr und kann nur noch mit Hilfe des für Recherchen und Archiv verantwortlichen Detektivs die Sauna unbeschadet verlassen. Als Bob die Sauna schließlich verlassen will, macht er eine interessante Entdeckung - eine Voodoo-Puppe, die dem Produzenten sehr ähnlich sieht.
+Noch etwas irritiert erzählt Bob seinen beiden Detektivkollegen von dem soeben Erlebten. Als die drei ??? Al Parker kurz darauf einen Besuch abstatten und ihn mit der Puppe konfrontieren, gerät dieser erneut in Panik. Er gesteht den drei Jungen, dass ihm diese Puppen seit längerem "begegnen". Doch wie können diese dem Produzenten tatsächlich körperliche Schmerzen zufügen? Es sind doch nur Puppen, oder?
+Sollten die Zwischenfälle mit den "Wet Boys", einer bekannten Hip-Hop Band, zu tun haben, oder steckt tatsächlich etwas Übernatürliches dahinter? Werden die drei Detektive Al Parker helfen können, bevor es zu spät ist?""")
+
+
+folge(d:audio-080, 80, "Geheimakte Ufo", "1998"^^xsd:gYear,
+      "Während Bob und Peter den Kometen Chandra 7 beobachten, machen sie eine mysteriöse Entdeckung. Über den Wäldern taucht plötzlich eine hell schimmernde Scheibe am Himmel auf und scheint kurz darauf in einer nahe gelegenen Orangenplantage zu landen. Während Justus noch zweifelt sind Bob und Peter davon überzeugt, es mit einem Raumschiff aus einer fernen Galaxis zu tun zu haben.
+Plötzlich taucht eine weitere Zeugin auf und die drei ??? bekommen ein Video mit brisantem Inhalt zugespielt. Sind tatsächlich Außerirdische auf der Erde gelandet? Welche Absichten verfolgen die Männer in schwarz?
+Als Justus, Bob und Peter noch einmal zur Orangenplantage zurückkehren ahnen sie nicht, dass sie bereits erwartet werden...")
+
+
+folge(d:audio-081, 81, "Verdeckte Fouls", "1998"^^xsd:gYear,
+      "Der Fusballverein 1. FC Borussia aus Deutschland hat in Rocky Beach sein Winter Trainingslager aufgeschlagen. Doch in dem so erfolgreichen Klub scheint sich Ärger an zu bahnen. Ein Unbekannter treibt ein böses Spiel mit dem Star der Mannschaft, Julio DaElba. Weches Ziel verfolgt der Unruhestifter mit dem zerschneiden des Trikots und dem Aufsprayen eines schwarzen Jaguars?
+Die drei Detektive nehmen die Ermittlungen auf und kommen dabei den Machenschaften einer skrupellosen Sekte auf die Spur, in die allem Anschein nach auch der Bruder des Fussballstars DaElba verwickelt zu sein scheint.")
+
+
+folge(d:audio-082, 82, "Die Karten des Bösen", "1998"^^xsd:gYear,
+      """Die berühmte Astrologin Milva Summer beauftragt die drei Detektive, ihren Kater "Come In" wieder zu finden. Als die drei ??? das Grundstück von Mrs. Summer betreten, machen sie eine schreckliche Entdeckung. Der Kater der Astrologin hängt leblos in einem Gebüsch.
+Milva Summer, die sich seit längerem mit dem Tarot beschäftigt, ist davon überzeugt, dass ihre Tage gezählt sind, schließlich haben es ihr die Karten mehrfach prophezeit.
+Justus, Bob und Peter glauben nicht so recht an die Macht der Karten. Mitten in ihren Ermittlungen werden die Recherchen von einer schrecklichen Radiomeldung überschattet.""")
+
+
+folge(d:audio-083, 83, "Meuterei auf hoher See", "1998"^^xsd:gYear,
+      """Bobs Vater vermittelt den drei Detektiven eine Reise auf dem Forschungsschiff "Wavedancer" unter dem Kommando eines alten Bekannten - Käptn Jason, um an einer Expedition zu den Tiefseequellen im Pazifik teilzunehmen. 
+Aus der gemütlichen Forschungsreise wird jedoch nichts. Ehe sich die drei ??? versehen, geraten sie in einen Orkan und werden unfreiwillig Zeugen einer Meutrerei auf hoher See. In den Händen eines fanatischen Wissenschaftlers nimmt die "Wavedancer" Kurs auf unbekannte Gewässer.
+Als sich die Situation an Bord zu beruhigen scheint, sucht ein skrupelloser Saboteur seine Chance und bringt dabei Justus und das kleine Forschungsteam gefangen in einem kleinen U-Boot  in mehreren 100 Metern Tiefe in tödliche Gefahr.""")
+
+
+folge(d:audio-084, 84, "Musik des Teufels", "1999"^^xsd:gYear,
+      "Was ist nur mit Bob los? Der sonst so ausgeglichene dritte Detektiv reagiert äußerst gereizt auf seine beiden Detektivkollegen Justus und Peter. Und warum schleicht er sich im Anzug heimlich davon? Es hat fast den Anschein, als stehe der für Recherchen und Archiv verantwortliche Detektiv unter dem Einfluss einer fremden Macht.
+Als Justus und Peter ihren Freund heimlich beschatten, führt er sie ohne es zu ahnen zu einer abgelegenen Villa, in der offenbar ein Geigenkonzert für ein paar wenige auserwählte  Gäste gegeben wird. Darunter auch ein junges Mädchen im Rollstuhl, das den Klängen des mysteriösen Geigers ebenso gebannt lauscht wie Bob. Ehe es sich Justus und Peter versehen, befinden auch sie sich im Bann der Musik, die eine eigenartige Faszination auf sie ausübt. 
+Werden sie sich der Musik rechtzeitig entziehen können und das Geheimnis um den Teufelsgeiger lüften, bevor es zu spät ist?")
+
+
+folge(d:audio-085, 85, "Feuerturm", "1999"^^xsd:gYear,
+      """Mitten am Strand überreicht ein Junge den drei Detektiven einen mysteriösen Brief. Wie sich herausstellt ist der Brief für einen gewissen Jonny, aber wer ist dieser Jonny überhaupt? Und um was geht es eigentlich? 
+Schnell ist das Interesse der drei ??? geweckt. Der rätselhafte Brief führt sie in den Kings National Park und zu einer weiteren Botschaft. Als Peter plötzlich niedergeschlagen wird und Bob und Justus in dem unheimlichen schwarzen Turm in einen Hinterhalt geraten, wird ihnen endgültig klar, dass es um etwas Wertvolles gehen muss. Denn nicht nur die "Herrscherin des schwarzen Turms" will den drei Detektiven zuvorkommen.
+Ein Wettlauf gegen die Zeit beginnt.""")
+
+
+folge(d:audio-086, 86, "Nacht in Angst", "1999"^^xsd:gYear,
+      """Auf dem Rückweg von der Filmpremiere des neuen Star Wars Films, zu der die drei Detektive zu ihrem Leidwesen keine Karten mehr bekommen haben, lernen sie den sympatischen aber etwas schusseligen Direktor des Steadman-Museums, Mr. Peacock kennen. Dieser lädt die drei Detektive und Morton zu später Stunde ein, sich das "Feuer des Mondes", einen äußerst wertvollen Diamanten, vor der bevorstehenden Ausstellungseröffung anzusehen. Natürlich sind die drei ??? und der Chauffeur von Mr. Peacocks Vorschlag hellauf begeistert.
+Wenige Minuten nachdem die drei Detektive zusammen mit Morton und Mr. Peacock das Museum betreten, fällt plötzlich der Strom aus.
+Während Justus und Morton im Fahrstuhl feststecken, geraten Bob, Peter und der Museumsdirektor in die Gewalt skrupelloser Gangster, die es auf den wertvollen Diamanten abgesehn haben und bereit sind, dafür über Leichen zu gehen. """)
+
+
+folge(d:audio-087, 87, "Wolfsgesicht", "1999"^^xsd:gYear,
+      "Inspektor Cotte steckt wirklich in der Klemme. Ein anonymer Schreiber, der sich selbst das Wolfsgesicht nennt, hält den Inspektor und die Polizei von Rocky Beach mit seinen rätselhaften Botschaften ganz schön auf Trab. Mehrfach schlägt der Unbekannte zu und nicht nur die Polizei, sondern auch Justus, Bob und Peter tappen lange im Dunkeln.
+Was plant das Wolfsgesicht? Steckt er tatasächlich hinter der Entführung eines verschwundenen Jungen oder sollte er wirklich vorhaben, einen Anschlag auf den amerikanischen Präsidenten zu verüben?
+Die Zeit scheint den drei Detektiven davonzulaufen, schließlich steht der Besuch des Präsidenten in Rocky Beach unmittlbar bevor. Werden sie das geplante Attentat rechtzeitig verhindern können?")
+
+
+folge(d:audio-088, 88, "Vampir im Internet", "1999"^^xsd:gYear,
+      "Das Computerspiel Sweet Revenge von Doe Dungeon ist der absolute Wahnsinn. Schon nach wenigen Minuten zieht das Fantasie-Spiel Justus, Bob und Peter in seinen Bann, so dass die drei Detektive beinahe alles um sich herum vergessen. Doch auch außerhalb der virtuellen Welt scheint sich einiges zu tun. Der sympatische Spieleprogrammierer Mr. Dungeon scheint in ernsten finanziellen Schwierigkeiten zu stecken. 
+Welche Verbindung gibt es zum Direktor einer großen Bank in Rocky Beach und wie passt das merkwürdige Rätsel zum Ende des Computerspiels in die ganze Geschichte?
+Die drei Detektive müssen scharf kombinieren, um das Rätsel zu lösen und um in das letzte entscheidende Level vorzustossen.")
+
+
+folge(d:audio-089, 89, "Tödliche Spur", "2000"^^xsd:gYear,
+      "Völlig entsetzt legt der erste Detektiv den Telefonhöhrer auf die Gabel. Er kann nicht glauben, was ihm soeben mitgeteilt wurde. Morton, der Chauffeur und langjährige Freund der drei ???, ist mit seinem Wagen tödlich verunglückt.
+Justus, Bob und Peter sind geschockt und ratlos zugleich. Was wissen sie eigentlich über Morton? Die drei Jungen fangen an, in der Vergangenheit ihres Freundes zu stöbern. Als ihnen plötzlich eine geheime Botschaft zugespielt wird, fangen sie an, an dem angeblichen Unfall zu zweifeln. Sollte der Chauffeur etwa ermordet worden sein? Je mehr die ??? nachforschen, desto mehr geraten sie in Gefahr. Die Spuren führen zu einer skrupellosen Gangsterbande und einer Million englischer Pfund...")
+
+
+folge(d:audio-090, 90, "Der Feuerteufel", "2000"^^xsd:gYear,
+      "Auf der Suche nach einer passenden Maske für eine Halloween-Party lernt Peter den exzentrischen Grusel-Autor Aaron Moore kennen. Angeblich trachtet ein grässlicher Dämon, der sogenante Feuerteufel, nach seinem Leben. Die unheimlichen Vorzeichen des Feuerteufels, Feuer, Erde und Luft, lassen Mr. Moore um sein Leben bangen. Sollte sich auch das letzte Zeichen erfüllen, bedeutet das den Tod des Schriftstellers.
+Die drei Detektive stehen vor einem Rätsel. Wer verbirgt sich hinter dem Feuerteufel? Oder sollten es die drei ??? tatsächlich mit einem leibhaftigen Dämon zu tun haben? Justus, Bob und Peter müssen schnell handeln, denn die Zeit läuft. Ihnen bleibt nur wenig Zeit bis zur alles entscheidenden, unheilbringenden Halloweennacht.")
+
+
+folge(d:audio-091, 91, "Labyrinth der Götter", "2000"^^xsd:gYear,
+      """Mr. Shaw, Peters Vater, hat einen neuen Fall für die drei Detektive. Sie sollen den geheimnisvollen Film "Utopia", von dem niemand so richtig weiß, ob es ihn tatasächlich gibt, finden. Wenn die Gerüchte stimmen, hat der Regisseur des Films, Edward Truman, damals ganz neue Techniken und Spezialeffekte entwickelt, um seine Vision umzusetzen. Außer der Schauspielerin Josephine Jones scheint jedoch niemand mehr am Leben zu sein, der den drei Detektiven weiterhelfen könnte.
+Ein rätselhafter Hinweis führt die drei ??? zum Sohn von Edward Truman. Dessen Grundstück ist von einem gigantischen Labyrinth aus dichten Hecken umgeben, in dem sich zahllose Götterstatuen befinden. Welches Rätsel birgt der Irrgarten und gibt es einen Zusammenhang zum Planetarium im inneren des Hauses?
+Werden die drei Detektive das Rätsel um das Labyrinth der Götter und das Geheimnis um den legendären Film von Edward Truman lösen können ?""")
+
+
+folge(d:audio-092, 92, "Todesflug", "2000"^^xsd:gYear,
+      """Auf dem Weg zum Science Fiction Festival wollen die drei Detektive einen Abstecher zum "summenden Berg" machen, von dem sie kurz zuvor gehört haben. Mitten in der Wüste versagt plötzlich ihr Auto und die drei Detektive sitzen fest. Und nicht nur das, auch ihr spärlicher Wasservorrat geht schnell zur Neige.
+Als kurz darauf ein Flugzeug dicht über ihren Köpfen vorbei zieht und ihnen aus der Ferne ein Auto in der öden Landschaft entgegen kommt, schöpfen die drei Jungen Hoffnung. Doch unversehens geraten die drei ??? in die Gewalt eines größenwahnsinnigen Wissenschaftlers. Was planen Dr. Gregstone und seine Gehilfen Butch und Ramirez mitten in der Wüste? Während sie noch rätseln worum es eigentlich geht, gerät Bob an Bord eines Space Shuttles in tödliche Gefahr. 
+Justus und Peter bleiben nur noch wenige Minuten bis zum Start, um ihren Freund zu retten, denn der Countdown läuft bereits. Zehn, neun, acht, sieben, sechs...""")
+
+
+folge(d:audio-093, 93, "… und das Geisterschiff", "2000"^^xsd:gYear,
+      "Auf dem Rückweg von der Disco wird Peter mitten in der Nacht von einer völlig verstörten Joggerin angehalten. Die junge Frau behauptet doch tatsächlich, vor der Küste von Mallibu Beach ein hell erleuchtetes Geisterschiff gesehen zu haben. Als Peter seinen beiden Detektivkollegen von dem nächtlichen Erlebnis berichtet, ist vor allem der erste Detektiv doch recht skeptisch. Als die drei Detektive kurz darauf den unheimlich leuchtenden Dreimaster mit seinen zerfetzten Segeln, der durch die nebelige See gleitet, mit eigenen Augen sehen, sitzt der Schock zunächst tief. Die Recherchen führen die drei ??? auf die Spur von Piraten aus längst vergangenen Zeiten. Ist tatsächlich das Geisterschiff aus der Vergangenheit in die Gegenwart zurückgekehrt?
+Den drei Detektiven bleibt nur eine Möglichkeit, um das Rätsel zu lösen. Sie müssen selbst an Bord gehen.")
+
+
+folge(d:audio-094, 94, "Das schwarze Monster", "2000"^^xsd:gYear,
+      """An seinems Geburtstag wird Peter von seinen beiden Detektivkollegen in den Zirkus Trinket "entführt". Neben dem übliche Zirkusprogramm wartet der Zirkus mit einer unglaublichen Attraktion auf. "Dunnerak", das schwarze Monster aus der Wildnis Alaskas, streift durch die Manege. Das Zirkuspublikum hält gespannt den Atem an...
+Doch plötzlich ist das Monster verschwunden und verbreitet Angst und Schrecken. Der Zirkus steht kurz vor dem Ende. 
+Ein neuer Fall für die drei schlauen Detektive aus Rocky Beach. Die drei ??? nehmen die Spur des vermeintlichen Monsters auf, schließlich glauben sie nicht, dass es sich um ein echtes Monster handelt, bis es wie aus dem Nichts plötzlich vor ihnen steht...""")
+
+
+folge(d:audio-095, 95, "Botschaft von Geisterhand", "2001"^^xsd:gYear,
+      "Eine alte Bekannte hat einen neuen Fall für die drei Detektive. Jelena hat durch einen Zufall erfahren, dass das Popol Vuh, ein altes wertvolles Buch der Maya-Indianer, gestohlen werden soll. Ohne zu zögern machen sich die drei Detektive mit Jelena auf den Weg zu Dr. Arroway, der Besitzerin des alten Buches. Bevor die drei ??? dem vermeintlichen Dieb eine Falle stellen können wird das Buch tatsächlich gestohlen. Wem ist das Popol Vuh so wichtig, dass er es um jeden Preis an sich bringen musste? Sollte sich darin tatsächlich eine geheime Botschaft befinden?
+Die drei Detektive nehmen die Ermittlungen nach dem Dieb auf.
+Plötzlich ist Jelena spurlos verschwunden. Ist sie dem Dieb des Popol Vuhs zu nahe gekommen? Als ihr Vater kurz darauf einen anonymen Brief des Entführers in den Händen hält hat Justus die rettende Idee.")
+
+
+folge(d:audio-096, 96, "… und der rote Rächer", "2001"^^xsd:gYear,
+      "Feuer am Hafen von Rocky Beach!
+Ein anonymer Anrufer meldet Justus das Feuer. Ohne zu zögern ruft der erste Detektiv die Feuerwehr. Vor Ort scheint sich das Blatt jedoch zu wenden. Die Visitenkarte der drei ??? wird am Tatort gefunden und die Jungen geraten in den Verdacht, das Feuer selbst gelegt zu haben. 
+Doch bei einem Feuer bleibt es nicht. Erneut wird Justus ein Feuer telefonisch angekündigt. Wer ist der unbekannte anonyme Anrufer und warum ruft er ausgerechnet Justus an? Die drei Detektive haben nur eine Chance ihre Unschuld zu beweisen, sie müssen den Brandstifter selbst zur Strecke bringen. Justus, Bob und Peter nehmen die Ermittlungen auf. Die Spur führt zu einem skrupellosen rothaarigen Mann, der auch auf Mrs. Ferguson, eine ältere Dame aus der Nachbarschaft, keine Rücksicht zu nehmen scheint.
+Als die drei Detektive die Lösung des Rätsels in den Händen zu halten scheinen, stockt ihnen der Atem. Sollten sie recht behalten, könnte das letzte Ziel des Brandstifters der Schrottplatz von Onkel Titus sein. ")
+
+
+folge(d:audio-097, 97, "Insektenstachel", "2001"^^xsd:gYear,
+      """Onkel Titus erhält die einmalige Chance, eine ganze Sammlung wertvoller Bücher zu erweben. Aber warum will sich Mrs. Hazelwood von ihren "Schätzen" trennen, fragt sich der erste Detektiv? Der Grund ist einfach und bedauerlich zu gleich - Mrs. Hazelwood ist blind. 
+Während Justus der älteren Dame anbietet, die Bücher meistbietend zu versteigern, wird ihre Hausangestellte Laura Opfer eines Hornissenangriffs. Mrs. Hazelwood gerät in Panik. Seit Jahren hat sie eine schreckliche Angst vor Insekten und sie ist felsenfest davon überzeugt, dass dies erst der Anfang einer erneuten Schreckensserie für sie ist. 
+Justus, Bob und Peter versuchen sie zu beruhigen. Doch irgend etwas scheint hier tatsächlich nicht mit rechten Dingen zu zu gehen. Mysteriöse Dinge geschehen im Haus der blinden Frau.
+Sollte die verstörte ältere Dame mit ihren Vorahnungen recht behalten? 
+Die drei ??? müssen schnell handeln, denn der Zustand ihrer Klientin scheint von Minute zu Minute schlechter zu werden...""")
+
+
+folge(d:audio-098, 98, "Tal des Schreckens", "2001"^^xsd:gYear,
+      "Die Frau am Telefon klingt völlig verstört. 
+Offensichtlich fehlen Ann Sullivan ein paar Stunden aus ihrem Leben, an die sie sich nach ihrem Ausflug in die Magic Mountains nicht mehr erinner kann. Das Letzte an was sich die junge Frau erinnern kann, sind einzelne Bilder von einem mysteriösen Indianerkult, welche ihr im Kopf herumspuken. Natürlich sind die drei Detektive sofort begeistert von dem neuen Fall. Als Justus vorschlägt, den Vorkomnissen in den Magic Mountains vor Ort auf den Grund zu gehen, kommen Peter die ersten Zweifel. Und der zweite Detektiv behält tatsächlich recht - mitten in den Bergen überschlagen sich die Ereignisse und die drei ??? werden in einen unüberschaubaren Strudel von mysteriösen Ereignissen rund um einen angeblichen Bankräuber, einen unheimlichen Indianerkult und eine weitere verstörte Frau mit Gedächtnislücken verwickelt.
+Wird es den drei Jungen gelingen, das Rätsel um das Tal des Schreckens zu lösen, bevor sie ebenfalls Opfer eines unerklärlichen Gedächtnisverlustes werden?")
+
+
+folge(d:audio-099, 99, "Rufmord", "2001"^^xsd:gYear,
+      """Prime-Time! 
+Die drei Detektive aus Rocky Beach sind zu Gast in der Live-Sendung von Kevin Anderson, einem der angesagtesten Radiomoderatoren. Justus, Bob und Peter erzählen der Reihe nach von ihrer Detektivarbeit, bis sich plötzlich ein anonymer Anrufer in die Sendung schaltet und mit stark verstellter Stimme eine merkwürdige Botschaft von sich gibt. Der sonst so coole Starmoderator reagiert verunsichert. Wenige Tage später kommt es mitten in der Radiosendung zu einem ähnlichen Zwischenfall - nur dieses Mal handelt es sich bei dem anonymen Anrufer um eine Frau. Wieder reagiert Kevin Anderson geschockt. Das Interesse der drei Detektive ist geweckt. Was hat das Ganze zu bedeuten? 
+Und nicht nur das - Bob ist sich ganz sicher, die Stimme der anonymen Anruferin zu kennen. Die Spur führt in die geschlossene Psychatrie nach Pasadena, wo die drei ??? auf eine "alte Bekannte" treffen. Hat sie etwas mit den Vorkomnissen in der Prime-Time zu tun?""")
+
+
+folge(d:audio-100, 100, "Toteninsel", "2001"^^xsd:gYear,
+      "Die drei ??? übernehmen ihren 100sten Fall!
+In drei spannenden Folgen sind sie dem Geheimnis der Toteninsel auf der Spur. Eine große Herausforderung für unsere drei Helden, die es mit alten Freunden und Feinden und einem Fall der es in sich hat, zu tun bekommen.")
+
+
+folge(d:audio-101, 101, "… und das Hexenhandy", "2001"^^xsd:gYear,
+      "Nach einem ausgiebigen Badetag finden Bob und Peter auf dem Rückweg im Wald den Schulranzen des dreijährigen Jeremy Scott. Kurz darauf zerreisst ein fürchterliches Kichern die Stille des Waldes. Die unheimlichen Laute scheinen aus der Schultasche zu kommen - und tatasächlich, im Inneren befindet sich ein grün schillerndes Handy. Am Telefon ist die Mutter des Jungen, die sich voller Sorge nach ihrem Sohn erkundigt. Doch Bob und Peter haben keine gute Nachricht für die verängstigte Mutter - ihr Sohn wurde offensichtlich entführt.
+Doch bei dem einen Zwischenfall bleibt es nicht. Weitere Kinder verschwinden. Am Tatort bleiben nur die grell leuchten Hexenhandys zurück. Die drei Detektive nehmen die Ermittlungen auf. Die Spur führt zu einem großen Mobilfunkunternehmen. Sind die Entführungen Teil einer raffinierten Marketingstrategie?
+Doch plötzlich stehen die drei ??? einer unheimlichen grün schimmernden Gestalt gegenüber. Sollte es sich bei der bedrohlichen Erscheinung tatsächlich um eine leibhaftige Hexe handeln?")
+
+
+folge(d:audio-102, 102, "Doppelte Täuschung", "2002"^^xsd:gYear,
+      "Justus und Peter trauen ihren Augen nicht. Im Fernsehen läuft gerade ein Bericht über einen Banküberfall in Rocky-Beach. Und niemand anderes als ihr Freund Bob wurde Zeuge des Überfalls. Aber nicht nur das - beim Verlasseen der Bank konnte der dritte Detektiv für Bruchteile von Sekunden das Gesicht des Bankräubers sehen.
+Justus wittert sofort einen neuen Fall und betrachtet eingehend das mit Bobs Hilfe erstellte Phantombild. Am gleichen Abend bekommt der erste Detektiv überraschend Besuch. Vor der Zentrale wartet der vermeintliche Bankräuber. Schnell scheint jedoch klar, dass es sich beim dem nächtlichen Besucher um den Zwillingsbruder des Bankräubers handelt.
+Doch dann wendet sich das Blatt und den drei ??? kommen die ersten Zweifel. Plötzlich wissen sie nicht mehr mit welchem der Brüder sie es zu tun haben. Die drei müssen scharf kombinieren, um in diesem Verwirrspiel den Überblick zu behalten.")
+
+
+folge(d:audio-103, 103, "Das Erbe des Meisterdiebs", "2002"^^xsd:gYear,
+      "Victor Hugenay ist tot!
+Der berühmte Meisterdieb, dem die drei Detektive in der Vergangenheit bereits des Öfteren begegnet sind, ist tödlich verunglückt. In einem rätselhaften Brief fordert er die drei ??? zum letzten Mal heraus. Bei dem Schatz, den es zu finden gilt, geht es um gestohlene Gemälde im Wert von mehreren Millionen Dollar. 
+Die drei Detektive nehmen die Spur auf. Der erste Detektiv scheint mit seinen Gedanken jedoch ein wenig woanders zu sein. Was ist los mit dem Anführer der drei ???. Als ein geheimnisvoller Unbekannter auf der Bildfläche erscheint, wird die Zeit knapp. Justus, Bob und Peter müssen sich ranhalten. Werden sie auch noch das letzte Rätsel lösen und die verschollenen Bilder vor ihrem mysteriösen Verfolger finden?")
+
+
+folge(d:audio-104, 104, "Gift per E-Mail", "2002"^^xsd:gYear,
+      """Quallen im Computer?
+Das was Mrs. Baker den drei Detektiven am Telefon erzählt, klingt höchst merkwürdig. Während eines Tauchgangs entgeht Mrs. Baker nur knapp einer großen Anzahl von Feuerquallen. Kurz darauf erscheinen unzählige Quallen auf ihrem Computerbildschirm. Mit Hilfe von Tom Wood, einem Mitschüler und Computerspezialisten, versuchen die drei ??? dem mysteriösen "Quallenvirus" auf die Spur zu kommen. Wenn da nur nicht Dick Perry wäre. Der überhebliche Detektiv macht Justus, Bob und Peter das Leben gehörig schwer.
+Doch plötzlich ist Tom verschwunden! Zurück bleibt nur eine E-Mail mit einer verschlüsselten Botschaft. Die drei Detektive müssen schnell handeln, um ihrem Freund zu finden und das "Quallen-Rätsel" vor Dick Perry lösen zu können. Wird es ihnen rechtzeitig gelingen?""")
+
+
+folge(d:audio-105, 105, "… und der Nebelberg", "2002"^^xsd:gYear,
+      "Es war Peters Idee, in den Ferien eine Wandertour in den Rocky Mountains zu machen. Alles, nur kein neuer Fall sollte es werden, einfach nur Ferien.
+Doch alles kommt wie es kommen muss - unterwegs verhüllt ein undurchdringlicher Nebel den Berggipfel und die drei Detektive werden von einer schrecklichen Geistererscheinung überrascht. Von den Strapazen der Wandetour geplagt, gelangen die drei ??? zu einem abgelegen Haus am See. Dort überschlagen sich die Ereignisse. Ein Gast des Hauses verschwindet spurlos im Nebel. Wurde er Opfer des Nebelphantoms?
+Während Bob sein verletztes Bein schont, machen sich Justus und Peter auf, das Geheimnis des Nebelbergs zu lösen. Doch plötzlich steht die bedrohlich wirkende geisterhafte Erscheinung direkt vor ihnen...")
+
+
+folge(d:audio-106, 106, "Der Mann ohne Kopf", "2002"^^xsd:gYear,
+      """Das Planet-Evil, eine neue Disco, ist die absolute Sensation, nicht nur bei jungen Diskothekenbesuchern. Der sogenannte "Satans-DJ" scheint tatsächlich über teuflische Fähigkeiten zu verfügen. Scheinbar ohne Kopf steht er hinter seinem Mischpult. Bei ihrem Besuch in der neuen Disco geraten nicht nur Justus, Bob und Peter in den Bann des kopflosen DJ´s. 
+Von den unheimlichen Beats förmlich getragen, bricht eine ältere Dame auf der Tanzfläche zusammen. Die Sanitäter können nur noch ihren Tod feststellen.
+Sollten tatsächlich übernatürliche Phänomene mit im Spiel sein? Die drei Detektive nehmen die Ermittlungen auf. Als sie der Lösung des Rätsels ganz nahe zu sein scheinen, geraten die drei Jungen in eine tödliche Falle.""")
+
+
+folge(d:audio-107, 107, "… und der Schatz der Mönche", "2003"^^xsd:gYear,
+      """Auf der Suche nach einem geeigneten Drehort für ein Filmprojekt in der Schule findet Peter in einer verlassenen Fabrikhalle ein kleines Kästchen. Doch offensichtlich ist der zweite Detektiv unfreiwillig in eine Übergabe hinein geplatzt. Kurz nachdem er das geheimnisvolle Kästchen in seinen Händen hält, ist ihm schon ein messerwerfender Asiate auf den Fersen.
+Mit Mühe und Not rettet sich der zweite Detektiv in die Zentrale. Während Peter noch völlig außer Atem seinen Freunden von dem Erlebten berichtet klingelt das Telefon. "Ich möchte Peter Shaw sprechen, es ist dringend!" - "Worum geht es denn, Mister?" - "Um sein Leben!" 
+Den drei Detektiven ist sofort klar worum es dem anonymen Anrufer geht - er möchte um jeden Preis das Kästchen zurück. Es gibt nur ein Problem - Peter hat das Kästchen nicht mehr....
+Trotz der drohenden Gefahr nehmen die ??? die Spur des Messerwerfers auf. Ihnen bleibt jedoch nicht viel Zeit. In wenigen Stunden soll das Kästchen übergeben werden.""")
+
+
+folge(d:audio-108, 108, "Die sieben Tore", "2003"^^xsd:gYear,
+      """Der unheimliche und wortkarge Mr. Carter ist schon ein sonderbarer Zeitgenosse. Einerseits bittet er die drei Detektive ihm zu helfen, "Die sieben Tore" zu finden. Andererseits ist der zurückgezogen lebende Mr. Carter was Information angeht äußerst zurückhaltend. Sollte sein Misstrauen mit seinem erlittenen Gedächtnisverlust zusammen hängen? Die "sieben Tore" sollen sich in seinem spärlich eingerichteten Haus befinden. Aber wo?
+Und warum hat er alles aus seiner jüngsten Vergangenheit aus dem Haus räumen lassen? Voller Eifer fangen die drei ??? an, das ganze Haus zu erkunden, und stossen hierbei auf einige interessante Fakten aus Caspar Carters Vergangenheit. Besteht tatsächlich eine Verbindung zu der kriminellen Soo-An-Sekte? 
+Trotz größter Mühe tappen Justus, Bob und Peter lange im Dunkeln. Ohne es zu ahnen gibt der zweite Detektive den entscheidenden Hinweis zur Lösung des Rätsels. Wird es ihnen gelingen, das Versteck, welches von den sieben Toren bewacht wird, zu finden, bevor ihnen jemand zuvor kommt?""")
+
+
+folge(d:audio-109, 109, "Gefährliches Quiz", "2003"^^xsd:gYear,
+      """Justus hat das große Los gezogen und ist der Gewinner eines äußerst schweren Kreuzworträtsels. Als Hauptpreis darf er als Kandidat in der Quizshow "Wer knackt die Nuss?" um eine halbe Million Dollar spielen.
+Die Anspannung steigt! Nur noch wenige Minuten bis zum Beginn der Quizsendung. Doch die Show verläuft anders als erwartet. Der sonst so cool wirkende Showmaster Nick Nobel ist ungewöhnlich nervös. Der erste Detektiv muss sich ein paar harten Rätselnüssen stellen. Wird Justus alle Fragen richtig beantworten können? Er muss - ein Menschenleben hängt davon ab.
+Skrupelose Gangster haben einen raffinierten Plan ausgeheckt. Mit den richtigen Antworten hoffen sie das Rätsel eines lange verschwundenen Piratenschatzes lüften zu können. Wieder einmal müssen die drei ??? scharf kombinieren, um den Verbrechern zuvor zu kommen.""")
+
+
+folge(d:audio-110, 110, "Panik im Park", "2003"^^xsd:gYear,
+      "Nach einem abendlichen Kinobesuch spazieren die drei Dektive durch den Palisades Park von Rocky Beach. Dort vernehmen sie ein unheimliches Knurren und sie werden Zeugen, wie ein schwarzer Schatten in den Büschen des Parks verschwindet. Kurz darauf entdecken sie einen völlig verstörten Hund, der alles andere als gefährlich wirkt. Die drei ??? stehen vor einem Rätsel.
+Doch dies bleibt nicht der einzige Zwischenfall. In der gleichen Nacht werden zwei weitere Personen von Hunden attackiert. Und auch Justus, Bob und Peter entgehen bei ihrem zweiten Besuch im Park nur knapp einem Hundeangriff. Was lässt die sonst so harmlosen Hunde zu wilden Bestien werden? Gibt es einen Zusammenhang zu dem mysteriösen Gesteinsbrocken, den die drei ??? im Stadtpark entdeckt haben?
+Voller Eifer stürzen sich die drei Detektive in den neuen Fall. Die Ermittlungen führen die drei Jungen auf eine überraschende Fährte. Sollten die unheimlichen Vorkomnisse im Palisades Park von Rocky Beach tatsächlich auf einen ganz anderen Ursprung zurückzuführen sein?")
+
+
+folge(d:audio-111, 111, "Die Höhle des Grauens", "2003"^^xsd:gYear,
+      """Die drei Detektive, Justus Jonas, Peter Shaw und Bob Andrews haben bei einem Detektivwettbewerb eine aufregende Woche in der Geisterburg gewonnen. Voller Freude machen sich die drei Detektive auf die Reise. Im Zug begegnen die drei ??? den anderen Gewinnern des Detektivwettbewerbs. Das Duo "Callidae" kommt aus San Francisco und besteht aus den beiden Mädchen Corona und Althena.
+Kaum haben sich die drei Jungen in dem Erlebnishotel für wohliges Gruseln eingefunden, ereignen sich bereits die ersten Zwischenfälle. Zu alledem scheint ein nicht einzuordnender Wilderer in der Nähe des Hotels sein Unwesen zu treiben.
+Was als spannender, aber harmloser Aufenthalt geplant war, entpuppt sich schnell als neues gefährliches Abenteuer für die drei Detektive. Welches Geheimnis verbirgt sich hinter der Höhle des Grauens, die von dem schwarzen Henker bewacht wird. Um das Rätsel zu lösen, müssen sich die drei ??? drei Prüfungen auf Leben und Tod stellen.""")
+
+
+folge(d:audio-112, 112, "Schlucht der Dämonen", "2003"^^xsd:gYear,
+      """Während einer Rodeoshow verschwindet die 29jährige Mustangstute "Lady". Kurzentschlossen bietet Peter dem Pferdebesitzer, Mr. Donovan die Hilfe der drei Detektive an. Doch wer könnt ein Interesse haben, ein so altes Pferd zu stehlen?
+Die drei ??? übernehmen den Fall und geraten bereits kurz darauf in große Gefahr. Irgendjemand will um jeden Preis verhindern, dass sich die drei Jungen mit dem Fall befassen. Als Warnung hinterlässt der Unbekannte immer eine schwarze Feder. Gibt es einen Zusammenhang zwischen den Federn und dem Indianerstamm der Kitanemuk? 
+Die Spuren führen die drei Juniordetektive zur Schlucht der Dämonen, einem unheimlichen Ort mitten in der Mojave-Wüste, der nur zu Pferd erreicht werden kann.""")
+
+
+folge(d:audio-113, 113, "Das Auge des Drachen", "2003"^^xsd:gYear,
+      "Ein Hilfeschrei durchbricht die Stille des Waldes.
+Ein Drache, ein Drache! Völlig verstört zeigt die kleine Emily in den Himmel - Es war ein Drache, er hat mich angegriffen. Justus, Bob und Peter sind sofort zur Stelle und kümmern sich um das verängstigte Mädchen. Nachdem die drei Detektive Emily zu ihrer Mutter zurück gebracht haben, kehren sie in den Wald zurück und machen eine seltsame Entdeckung - hoch oben in den Bäumen fliegt tatsächlich ein seltsames Geschöpf. Sollte es sich bei dem grün gefiederten Tier tatsächlich um einen Drachen handeln?
+Die Ermittlungen führen die drei ??? auf die Spur einer verstorbenen Künstlerin aus Rocky Beach, für die die Farbe gelb ebenso eine ganz besondere Bedeutung hat, wie für die kleine Emily, aber welche?")
+
+
+folge(d:audio-114, 114, "Die Villa der Toten", "2004"^^xsd:gYear,
+      "Der neuste Auftrag der drei Detektive erscheint äußerst merkwürdig. Die drei Jungen sollen beweisen, dass es in der Villa der kürzlich verstorbenen Opernsängerin Dora Mastrantoni nicht spukt. Nichts leichter als das, doch es kommt, wie es kommen muss. Bei dem halbherzigen Versuch, den nicht vorhanden Geist während einer Séance zu rufen, antwortet dieser tatsächlich! Und die tote Sängerin erklärt, dass ihr Tod kein Unfall war, sondern dass sie ermordet wurde. Die drei ??? fangen an, in der Vergangenheit der Operndiva zu stöbern und stoßen dabei auf jede Menge interessante Fakten und verdächtige Personen, die einen Grund gehabt hätten, der Opernsängerin nach dem Leben zu trachten.
+Plötzlich ermitteln Justus, Peter und Bob im Auftrag eines spukenden Geistes und werden dabei in ein gefährliches Intrigenspiel verwickelt...")
+
+
+folge(d:audio-115, 115, "Auf tödlichem Kurs", "2004"^^xsd:gYear,
+      """Welches Geheimnis verbirgt sich hinter dem Bild, auf dem die Segeljacht "Gwendolyn" zu sehen ist? Wer könnte Interesse an diesem wertlosen Gemälde haben, welches dem vor Jahren in Pension gegangenen Kommisar Reynolds entwendet wurde? Justus, Peter und Bob stehen vor einem Rätsel. Wie sich herausstellt, handelt es sich um insgesamt drei Ölbilder, hinter denen nicht nur der skrupellose Mr. Escovedo her ist, sondern auch jemand, der um jeden Preis verhindern will, dass ein lange gehütetes Geheimnis ans Tageslicht kommt. Während Bob und Justus Stück für Stück der Lösung des dreiteiligen "Bilder-Rätsels" näher zu kommen scheinen, gerät Peter auf hoher See in tödliche Gefahr.""")
+
+
+folge(d:audio-116, 116, "Codename: Cobra", "2004"^^xsd:gYear,
+      "Julia bittet die drei ??? um Hilfe. Sie hat eine verschlüsselte E-Mail von ihrem Bruder Ted erhalten, obwohl dieser bereits vor Wochen tödlich verunglückt ist. Plötzlich verschwindet Julia - zurück bleibt nur eine E-Mail auf ihrem PC, die das Bild einer drohenden Cobra zeigt. Kurz entschlossen bieten die drei Detektive Julias Vater ihre Hilfe an. Fragen über Fragen: Wer ist der Absender der Nachricht? Was ist mit Julia geschehen? Justus, Peter und Bob müssen wieder einmal scharf kombinieren, um auch diesen Fall zu lösen...")
+
+
+folge(d:audio-117, 117, "Der finstere Rivale", "2004"^^xsd:gYear,
+      "Ein Unbekannter wirft mitten in der Nacht einen geheimnisvollen Koffer über den Zaun des Schrottplatzes. Justus, Peter und Bob trauen ihren Augen kaum, als ihnen bewusst wird, was dieser enthält. Geld, sehr viel Geld! Voller Tatendrang stürzen sich die drei Detektive in die Ermittlungen zu ihrem neusten Fall. Doch plötzlich bricht auf dem Schrottplatz ein Feuer aus und der Koffer wird von einem Unbekannten gestohlen. 
+Den drei Jungen ist sofort klar, dass das Feuer ein Ablenkungsmanöver war.
+Bei ihren Recherchen treffen die drei ??? auf einen alten Bekannten und jede Menge düstere undurchschaubare Personen, die alle hinter dem Geld her zu sein scheinen. Bei dem Versuch, die Gangster zur Strecke zu bringen, gerät Justus in tödliche Gefahr.")
+
+
+folge(d:audio-118, 118, "Das düstere Vermächtnis", "2004"^^xsd:gYear,
+      """Eigentlich wollten Bob und Peter nur ihr Schulpraktikum bei einer bekannten Theatergruppe  namens REALITY 5 machen. Doch schon nach kurzer Zeit geschehen bei den Proben zum Bühnenstück "Das düstere Vermächtnis" unheimliche Dinge, die nicht nur dem zweiten Detektiv das Blut in den Adern gefrieren lassen. Die beiden Detektive überraschen einen Einbrecher in Gestalt eines fellbekleideten Steinzeitmenschen und auf dem Theatergelände bricht ein Feuer aus. War es Brandstiftung? Wärend Bob und Peter noch rätseln liegt der erste Detektiv und Chef des Trios Justus Jonas mit einem Gipsbein zu Hause. Offenbar geht es um die fehlende Seite eines Theatermanuskripts des verstorbenen Drehbuchautors Scott Carrara. Die Recherchen führen die drei ??? mitten hinein in einen neuen spannenden Fall.""")
+
+
+folge(d:audio-119, 119, "Der geheime Schlüssel", "2004"^^xsd:gYear,
+      "Verwirrung auf dem Schrottplatz von Onkel Titus. Warum interessieren sich plötzlich so viele Leute für Blechspielzeug? Nachdem Justus auch noch eine verschlüsselte Botschaft in die Hände fällt, ist das Interesse des ersten Detektivs endgültig geweckt. Als Peter jedoch nur knapp einem Anschlag entgeht und der Spielzeugmacher spurlos verschwindet, wird den drei Detektiven klar, dass sie sich mitten in einem neuen gefährlichen Abenteuer befinden. Sie müssen all ihr detektivisches Können in die Waagschale werfen, um alle Puzzleteile dieses mysteriösen Falles richtig zusammenzusetzen.")
+
+
+folge(d:audio-120, 120, "Der schwarze Skorpion", "2005"^^xsd:gYear,
+      "Unter den begeisterten Zuschauern des Volleyball-Spiels bricht Panik aus. Ein Skorpion, ein Skorpion schallt es von den Rängen. Einer der Spieler wurde von dem giftigen Stachel eines Skorpions gestochen und bricht zusammen. Wie konnte es zu dieser Tragödie kommen? Hat jemand absichtlich dieses gefährliche Tier im Sand plaziert, um den Sieg der einheimischen Manschaft zu verhindern? Trotz drohender Gefahr nehmen die drei Detektive die Ermittlungen auf. Wird es ihnen gelingen, das Rätsel um den schwarzen Skorpion zu lösen?")
+
+
+folge(d:audio-121, 121, "Spur ins Nichts", 2008-04-04,
+      "Justus sitzt in der Falle! Orientierungslos und ohne Erinnerung erwacht er in einer dunklen, kalten, verschlossenen Kammer. Wurde der Erste Detektiv entführt und in ein geheimes Versteck gebracht? Und wer ist der junge Mann, der mit ihm zusammen eingeschlossen ist? Kann er sich tatsächlich auch an nichts erinnern? Oder weiß er mehr, als er Justus verraten will? Die drei ??? werden in einen höchst mysteriösen Fall verwickelt. Der Täter hat sich ein raffinierte Täuschungsmanöver ausgedacht, um seine finsteren Machenschaften verdeckt zu halten. Die drei erfolgreichen Detektive aus Rocky Beach müssen scharf kombinieren, um dem Gegner auf die Spur zu kommen. Doch dieser schreckt vor nichts zurück...")
+
+
+folge(d:audio-122, 122, "… und der Geisterzug", 2008-04-04,
+      "Die Fahrt mit dem Museumszug hatten sich die drei Detektive aus Rocky Beach eigentlich gemütlicher vorgestellt. Doch spätestens im Eisenbahntunnel durch den Black Mountain vergeht den Freunden die Ausflugslaune.
+Die Durchfahrt wird aufs Gruseligste boykottiert. Natürlich glauben die Drei ??? kein Wort von der Spukgeschichte, nach der verunglückte Arbeiter ihr geisterhaftes Unwesen im Tunnel treiben sollen. Doch um herauszufinden, wer tatsächlich hinter den üblen Machenschaften steckt, bleiben Justus, Peter und Bob nur wenige Stunden...")
+
+
+folge(d:audio-123, 123, "Fußballfieber", 2008-05-09,
+      "Der zweite Detektiv, Peter Shaw, trainiert begeistert für die kalifornischen Schulfußballmeisterschaften. Zur gleichen Zeit erscheint ein Junge auf dem Schrottplatz von Titus Jonas und bittet die drei Detektive um Hilfe: Im Haus seiner Großeltern geschehen unheimliche Dinge und die beiden alten Leute sind davon überzeugt, dass sie es mit den schrecklichen Vorzeichen des Todes zu tun haben.
+Als Justus, Peter und Bob die Ermittlungen aufnehmen, ahnen sie nicht, welche Gefahren noch auf sie zukommen werden und welch enger Zusammenhang zwischen ihrem neusten Fall und der Fussballmeisterschaft besteht.")
+
+
+folge(d:audio-124, 124, "Geister-Canyon", 2008-07-11,
+      "Als die Drei ??? versprechen, bei einer Lösegeldübergabe zu helfen, ahnen sie noch nicht, was auf sie zukommt. Unversehens befinden sie sich auf einer nervenaufreibenden Irrfahrt durch den wilden Westen Amerikas. Welchen hinterhältigen Plan verfolgt der Erpresser? Wozu lockt er sie in die tiefsten und gefährlichsten Canyons? Und dann geschieht, was nie hätte geschehen dürfen...")
+
+
+folge(d:audio-125, 125, "Feuermond", 2008-10-10,
+      "Die drei ??? übernehmen ihren 125sten Fall!
+Rätselhafte Briefe eines verstorbenen Malers bringen Die drei ??? auf die Spur eines verschollenes Gemäldes...
+Und der Gegenspieler der Detektive aus Rocky Beach ist kein geringerer als der französische Meisterdieb Victor Hugenay! Wird es den drei ??? gelingen, das Rätsel um Feuermond zu lüften?")
+
+
+folge(d:audio-126, 126, "Schrecken aus dem Moor", 2008-11-14,
+      "Der zweite Detektiv arbeitet in seiner Freizeit als Nachtwächter im Steadman-Museum von Los Angeles.
+Während seiner allerersten Schicht, in der er seinen beiden Detektivkollegen Justus und Bob eine Privatvorführung durch das Museum gewährt, gefriert im das Blut in den Adern. Plötzlich scheint eine alte Moorleiche zum Leben zu erwachen. Wie ist das nur möglich? Ohne zu zögern machen sich die drei Detektive auf, dem Rätsel der Moorleiche auf die Spur zu kommen.
+Wird es ihnen gelingen?")
+
+
+folge(d:audio-127, 127, "Schwarze Madonna", 2008-12-05,
+      """Auf dem alljährlich stattfindenden Festival in Carino Beach schlittern die drei Detektive in ihren neusten Fall. Ein paar, scheinbar aus dem Nichts auftauchende Männer mit Clownsmasken, ein mexikanischer Junge in tödlicher Gefahr und eine gestohlene Statur. Dies alles ist erst der Anfang zum neusten Abenteuer unserer drei jungen Helden aus Rocky Beach, der für Justus Bob und Peter auf der Suche nach der "schwarzen Madonna" gefährlicher wird, als sie zunächst glauben. Denn er gefährdet nicht nur das Leben der drei Detektive, sondern bedroht sogar die Existenz ihres Detektivunternehmens. 
+Wo wurde die begehrte und äußerst wertvolle Statue versteckt? Wer steckt hinter den Männern mir den Clowsmasken? Viele Spuren und noch mehr offene Fragen, die es zu beantworten gilt. Wird es den drei ??? gelingen den Kopf rechtzeitig aus der Schlinge zu ziehen und das Geheimnis der "schwarzen Madonna" zu lüften?""")
+
+
+folge(d:audio-128, 128, "Schatten über Hollywood", 2009-02-06,
+      "Eine weiße Gestalt stürzt vom berühmten Hollywood-Schriftzug in Hollywood Hills und verschwindet spurlos. Fragmente eines seltsamen Briefs tauchen auf, Menschen geraten in hinterhältige Fallen und die drei ??? bekommen es mit dem Geist einer Hollywood-Schauspielerin zu tun. Sehr schnell wird den drei Detektiven klar, dass dieses Abenteuer sehr viele Gefahren birgt!")
+
+
+folge(d:audio-129, 129, "SMS aus dem Grab", 2009-03-13,
+      "Rubbish-George, der schrullige Tramp aus Rocky Beach, den die drei Detektive bereist aus dem einen oder anderen zurückliegenden Fall kennen, verschwindet plötzlich. Nur ein rätselhafter Brief bleibt als Spur zurück. Das Interesse von Justus, Peter und Bob ist geweckt und führt die drei Detektive zu den Pyramiden in Ägypten! 
+Welches Geheimnis aber will Rubbish-George dort lüften? Die drei ??? trotzen aller Gefahrenh und wagen sich ins dunkle Reich der Sphinx. Doch kurz vor dem Ziel geraten die drei Jungen, trotz größter Vorsicht, in eine Falle.")
+
+
+folge(d:audio-130, 130, "Der Fluch des Drachen", 2009-05-15,
+      "Justus Jonas von den drei Detektiven aus Rocky Beach ist schockiert: durch seine Schuld ist die wertvolle Vase, die ein Kunde auf dem Schrottplatz deponiert hatte, in tausend Scherben zersprungen. Die drei ??? haben 24 Stunden Zeit, um für Ersatz zu sorgen. Schnell zeigt sich, dass nicht nur Justus, Peter und Bob großes Interesse an einer dunkelblauen Vase mit weißem Drachenmotiv haben. Und die Gegner schrecken vor nichts zurück.
+Ein gefährliches Abenteuer nimmt seinen Lauf...")
+
+
+folge(d:audio-131, 131, "Haus des Schreckens", 2009-07-03,
+      """Auf einer einsamen Insel, im "Marriott House", einem alten gruseligen Gebäude, mit unzähligen Zimmern erleben die drei ??? die Horror-Nacht ihres Lebens. Was als harmlos inszeniertes Krimi-Spiel beginnt, wird schnell bitterer Ernst und das Spiel gerät außer Kontrolle. Ein Mann verschwindet spurlos, und unheimliche Spuren und Geräusche lassen Böses erahnen. Wer oder was steckt hinter den unheimlichen Geschehnissen, die die Teilnehmer in grenzenlosen Schrecken versetzen? Oder spukt es in dem alten Gebäude tatsächlich?
+Justus, Bob und Peter fällt es schwer die Ruhe zu bewahren, denn dieser Fall führt sie an die Grenzen ihrer detektivischen Fähigkeiten. Wird es ihnen gelingen das Rätsel um das "Haus des Schreckens" zu lüften bevor es zu spät ist? Ein atemberaubender Wettlauf gegen die Zeit beginnt...""")
+
+
+folge(d:audio-132, 132, "Spuk im Netz", 2009-08-21,
+      "Die Leiterin der Bücherei von Rocky Beach ist spurlos verschwunden. Beinahe spurlos...
+Eine Reihe merkwürdiger Zahlen auf einem Zettel, ein paar gelöschte Dateien auf dem Bibliothekscomputer und eine scheinbar überstürzt verlassene Wohnung weisen auf einen sehr mysteriösen Fall hin. Ohne zu zögern machen sich die drei ??? Justus, Peter und Bob auf die Suche nach der sympathischen Miss Bennett. Die ersten Anzeichen auf Ihr Verschwinden lassen nicht nur dem zweiten Detektiv das Blut in den Adern gefrieren - Die Bibliothekarin ist offensichtlich den geheimnisvollen Zeichen einer geisterhaften Erscheinung im Internet gefolgt. Doch wohin ist sie verschwunden? Wurde sie entführt? Welche geheimnisvolle Botschaft hat sie erhalten? Fragen über Fragen die es zu entschlüsseln gilt. Die drei ??? müssen scharf kombinieren, denn die Antwort steht in den Sterne geschrieben. 
+Werden die drei erfolgreichen Detektive aus Rocky Beach das Rätsel um die verschwundene Miss Bennett lösen können?")
+
+
+folge(d:audio-133, 133, "Fels der Dämonen", 2009-10-02,
+      """Endlich Ferien! Ausspannen! Faulenzen! Ein traumhafter Sandstrand, perfektes Surf-Wetter, ein schönes schattiges Plätzchen für das Zelt: Die drei ??? freuen sich auf ein paar Ferientage am Meer. Doch dann taucht plötzlich ein völlig verängstigter Junge auf und berichtet von einem gruseligen schwarzen Zwerg, der ihn verfolgt. Als Peter kurz darauf eine mehr als unheimliche Begegnung im Wasser hat, ist klar: Die drei Detektive stecken mitten in einem neuen Abenteuer!
+Wer oder was treibt sein Unwesen in der abgelegenen Bucht? Ohne es zu ahnen tappen sie von einer lebensgefährlichen Situation in die Nächste. Die drei ??? trotzen den Gefahren und versuchen de seltsamen Geschehnissen auf den Grund zu gehen. Wird es ihnen gelingen das Geheimnis um den "Fels der Dämonen" zu lüften?""")
+
+
+folge(d:audio-134, 134, "Der tote Mönch", 2009-10-02,
+      "Auf dem Rückweg von einem schönen Tag am Strand werden die drei Detektive Zeuge eines Zwischenfalles auf dem Highway, der beinahe tödlich endet. Bei dem völlig verstörten Mann handelt es sich um den chinesische Gärtner, der sich um das Anwesen der Künstlerin Christine Harkinson kümmert.
+Schnell wittern die drei ??? einen neuen Fall - kurz nachdem die drei Jungen den verängstigten Lo nach Hause gebracht haben, werden sie von Miss Harkinson damit beauftragt, herauszufinden, warum sich ihr Gärtner in letzter Zeit so merkwürdig verhält. Lo Wang befürchtet das Schlimmste. Er ist felsenfest davon überzeugt, dass ein böser Dämon Miss Harkinson aus ihrem Haus vertreiben will! Justus, Peter und Bob machen sich auf die Suche nach dem ominösen Geist. Doch was dann geschieht, übertrifft alle gruseligen Vorahnungen. Wird es ihnen gelingen das Geheimnis um den toten Mönch zu lüften?")
+
+
+folge(d:audio-135, 135, "Fluch des Piraten", 2009-11-27,
+      "Auf dem Weg zu einer Strandparty stoßen die drei Detektive mit einer alten Bekannten zusammen, die sich offensichtlich auf der Flucht vor einem Unbekannten befindet. Als Ihnen dazu noch eine Reihe rätselhafter Fotos in die Hände fallen ist der Spürsinn der drei ??? endgültig geweckt. Voller Tatendrang stürzen sich Justus, Bob und Peter auf den neuen Fall.
+Alles scheint daraufhin zu deutet, dass ein kostbarer Goldschatz auf einer einsamen Insel verborgen ist. Doch vor Ort wird ihnen schnell klar, dass sie nicht alleine von diesem Geheimnis wissen. Eine wilde Jagd quer über die Insel beginnt. Wird es den drei Jungen gelingen das Rätsel zu lösen und den Goldschatz zu bergen? Oder wird ihnen der Unbekannte kurz vor dem Ziel doch noch zuvor kommen?")
+
+
+folge(d:audio-136, 136, "… und das versunkene Dorf", 2010-02-05,
+      "Darren Duff verbringt einige Tage bei seinem Großonkel. In dem kleinen Dorf Ridgelake gehen seltsame Dinge vor sich. Darren bitten die drei Detektive den seltsamen Vorkommnissen auf den Grund zu gehen. Ohne zu zögern machen die drei ??? sich auf nach Oregon. Kaum sind sie dort angekommen, kommt es zu einem dramatischen Zwischenfall und die wenigen Bewohner des Dorfes machen keinen besonders gastfreundlichen Eindruck auf Justus, Peter und Bob. Doch so leicht lassen sich unsere drei Helden aus Rocky Beach nicht abschrecken. 
+Ein Geist soll sein Unwesen am nahe gelegenen Stausee treiben! Auf dem Grund des Sees befinden sich die Überreste eines Dorfes, das vor Jahrzehnten geflutet wurde. Welch dunkles Geheimnis liegt hier verborgen? Was steckt hinter der gespenstischen Erscheinung am Ufer? Die drei ??? müssen auf Tauchstation gehen und versunkene Häuser erkunden und entdecken das Unvorstellbare...")
+
+
+folge(d:audio-137, 137, "Pfad der Angst", 2010-03-12,
+      "Ein neuer Fall, ganz nach dem Geschmack unserer drei Detektive aus Rocky Beach: Durch einen verschlüsselten Auftrag lernen Justus, Peter und Bob den verschrobenen Wissenschaftler Winston Granville kennen. Dieser bittet die drei ??? um Hilfe bei der Wiederbeschaffung einer Erfindung, die ihm gestohlen wurde. Von Anfang an behindern merkwürdige Geschehnisse die Recherchen zu diesem Fall. Wer gräbt mitten in der Nacht im Hause Granville? Welche Rolle spielt der Bruder des Wissenschaftlers Matthew? Dann nimmt der Fall eine überraschende Wende!
+Voller Eifer nehmen die drei Detektive die Ermittlungen auf und stoßen dabei auf ein lange zurückliegendes schreckliches Geheimnis, jede Menge Ungereimtheiten, die es zu lösen gilt. Justus, Peter und Bob lassen sich nicht beeindrucken - bis sie plötzlich mitten in der Wüste um ihr Leben bangen müssen...")
+
+
+folge(d:audio-138, 138, "Die geheime Treppe", 2010-05-21,
+      "Ein neuer Fall für die drei ???. Am Strand machen die drei Detektive eine seltsame Entdeckung. Eine Schiffsplanke auf der jemand einen verzweifelten Hilferuf geschrieben hat. Justus, Peter und Bob nehmen die Spur auf und stoßen dabei auf ein Haus in den Felsen hoch über dem Meer, einen entführter jungen Wissenschaftler, vermummte Täter, eine düstere Bibliothek, ein geheimnisvolles Buch, ein merkwürdiges Rätsel, einen alten Code und... einen versteckten Schatz. Und das alles ist erst der Anfang. Die drei ??? müssen schnell recherchieren und noch schneller kombinieren um das Rätsel des Geheimbundes der Löwenritter zu lösen. Wird es ihnen gelingen den alten Code rechtzeitig zu entschlüsseln? Und werden sie am Ende den Schatz in den Händen halten?")
+
+
+folge(d:audio-139, 139, "Das Geheimnis der Diva", 2010-07-09,
+      """Seltsame Ereignisse überschatten die Proben der Schauspielgruppe "Die Masken" und beunruhigen die die Schauspieler und Bühnenarbeiter am alten Stadttheater von Rocky Beach: Kulissen verschwinden, eine Schauspielerin wird von einem grässlichen Phantom beinahe zu Tode erschreckt und die Souffleuse verschwindet scheinbar spurlos.
+Was steckt dahinter?! Und was hat das ganze mit der weltberühmten Diva Helena Darraz zu tun? Die drei ??? Justus, Peter und Bob nehmen die Ermittlungen auf. Bei ihren Recherchen müssen sie tief ins Innere des Theaters vordringen und kommen dabei einer lange zurückliegenden Geschichte auf die Spur. Wird es den drei Jungen gelingen, das Rätsel des alten Theaters zu lösen und unter all den Verdächtigen, den wahren Täter zu entlarven?""")
+
+
+folge(d:audio-140, 140, "Stadt der Vampire", 2010-08-20,
+      "Eigentlich wollten die drei ??? nur einen kleinen Wanderausflug, fernab von Rätseln und Geheimnissen unternehmen. Doch wieder einmal kommt es anders...
+Eine riesige Fledermaus versetzt das kleine Dorf Yonderwood in Angst und Schrecken. Der Großteil der Einwohner hat bereits das Weite gesucht, nachdem einige Menschen mit Bissspuren und einer Menge Blut in ihren Betten erwacht sind. Die letzten verbliebenen Dorfbewohner verschanzen sich nachts in ihren Häusern. Justus, Peter und Bob, die drei Detektive haben noch nie an Vampire geglaubt. In diesem neuen Fall jedoch scheint es, als müssten die drei berühmten Detektive aus Rocky Beach ihre Meinung ändern. Mit Hilfe der jungen Josy nehmen sie die Spur auf. Diese führt sie in einen längst vergangene Zeit...")
+
+
+folge(d:audio-141, 141, "… und die Fußball-Falle", 2010-10-01,
+      "Der Fußballstar und Kapitän der amerikanischen Fußball-Nationalmannschaft Jeffrey Seaman und seine Mannschaft bereiten sich in Rocky-Beach auf das Mehrländertournier vor. Doch der Aufenthalt in dem kalifornischen Städtchen scheint unter keinem guten Stern zu stehen. Merkwürdige Zwischenfälle stören das Training und eine rätselhafte Verletzungsserie versetzt die Männer in Angst und Schrecken. Sollte es einen Zusammenhang zu dem Besuch in dem ägyptischen Museum geben? Als der ägyptische Totengott Anubis in den Katakomben unter dem Fußballstadion auftaucht und sein Unwesen treibt, ist klar: Die drei ??? haben einen neuen Fall und müssen all Ihren detektivischen Spürsinn aufbieten, um diesen Fall zu lösen!")
+
+
+folge(d:audio-142, 142, "Tödliches Eis", 2010-12-03,
+      "Die drei ??? werden gebeten, die Journalistin Carol Ford bei einer Reportage über das vielleicht härteste Schlittenhunderennen der Welt, dem Nordic Wilderness Race, zu unterstützen. Voller Begeisterung nehmen die drei Detektive das Angebot an, ohne zu ahnen, dass sie sich damit auf ein gefährliches Abenteuer einlassen, bei dem es um mehr als nur ein Rennen unter arktischen Bedingungen geht. Mysteriöse Unfälle passieren, es wird von unheimlichen Gestalten berichtet, und dann findet sich noch eine Blutspur im Schnee. Alles deutet auf eine skrupellosen Saboteuer hin, der das Rennen um jeden Preis gewinnen will und dabei vor nichts zurückschreckt. Und dann ist da noch der rätselhafte Diebstahl im Heimatmuseum von Dawson, den es aufzuklären gilt. Als es zu einem ernsthaften Zwischenfall auf einem zugefrorenen Fluss kommt, ist klar: Die drei ??? müssen schnell handeln, damit dies nicht ihr letzter Fall ist.")
+
+
+folge(d:audio-143, 143, "… und die Poker-Hölle", 2010-12-03,
+      "In einer Postfiliale werden Justus und Peter Zeugen eines dramatischen Zwischenfalls, als einem jungen Mann vor ihren Augen mehrere Geldbündel gestohlen werden. Ohne zu zögern bieten die drei ??? ihre Hilfe an und geraten dabei mitten in einen neuen Fall, der sie in die gefährliche Unterwelt von Chinatown führt. Bei ihren Ermittlungen kommen sie einer illegalen Pokerspielhölle auf die Spur und müssen die Erfahrung machen, dass die Beteiligten sehr unangenehm werden, wenn man ihnen in die Karten sieht. Während die drei Detektive anhand von geheimnisvolle Botschaften versuchen, dass Rätsel eines versteckten Vermögens zu lösen, sind ihnen die skrupellose Verbrecher aus der Unterwelt von Chinatown dicht auf den Fersen. Und dann geschieht, was nie hätte geschehen dürfen...")
+
+
+folge(d:audio-144, 144, "Zwillinge der Finsternis", 2011-01-28,
+      """Justus und sein Onkel trauen ihren Augen nicht. Ohne Vorwarnung wird ihnen von einer finster gekleideten Gestalt ein Buch gestohlen, welches Titus Jonas kurz zuvor bei einer Nachlassversteigerung erstanden hat. Wie sich kurz darauf herausstellt, handelt es sich um ein äußerst wertvolles original Exemplar, von dem es nur eines geben soll. Genau genommen um den ersten Band der "Zwillinge der Finsternis". Der Legende nach stammen die beiden in schwarzes Leder gebundenen Bücher vom Teufel höchstpersönlich und sollen satanische Zauberformeln enthalten. Wer sie besitzt hat teuflische Macht über die vier Elemente Wasser, Feuer, Erde und Luft. Fakten, die nicht nur dem zweiten Detektiv das Blut in den Adern gefrieren lässt.
+Doch nicht nur die drei ??? sind hinter den seltenen Büchern her. Als es bei plus 10 Grad zu schneien beginnt, ein riesiger Erdspalt sich über Nacht mitten in Rocky Beach auftut und ein Mann Flammen aus seiner Hand wachsen lässt, ist den drei Detektiven klar, dass sie schnell handeln müssen, um das Schlimmste zu verhindern...""")
+
+
+folge(d:audio-145, 145, "… und die Rache der Samurai", 2011-03-04,
+      "Auf dem alten schlossähnlichen Internat „Shadow Stone“ passieren seltsame Dinge. Ein Schüler ist spurlos verschwunden, und die Mitglieder der Samurai-AG, die mit alten japanischen Schwertern kämpfen, verhalten sich mehr als merkwürdig. Um den Fall zu klären, schleusen sich die drei ??? in die Schule ein. Was verbirgt sich in dem geheimnisvollen Turm, den sie nicht betreten dürfen? Irgendjemand versucht etwas zu verheimlichen. Aber wer? Und warum? Während Bob im benachbarten Dorf versucht Licht ins Dunkel zu bringen, treffen Justus und Peter  auf eine Mauer des Schweigens und bekommen schnell zu spüren, dass sie hier unerwünscht sind. Besonders Peter muss nun all seinen Mut unter Beweis stellen: Das Schwert. Ein kurzer Schwung, der die Luft durchschnitt. Das Blut gefror in seinen Adern. Es war so weit. Der Tod. Warum bloß hatten sie diesen Auftrag angenommen? Warum bloß?!")
+
+
+folge(d:audio-146, 146, "Der Biss der Bestie", 2011-05-06,
+      "Im alten Naturkundemuseum von Rocky Beach geht es nicht mit rechten Dingen zu. Das Säbelzahntigerskelett, die Attraktion des Museums mit den riesigen Fangzähnen sieht wirklich sehr bedrohlich aus, aber dass es nachts durch die Gegend spukt können Justus, Peter und Bob nicht glauben. Wer oder was hat dann den Direktor Dr. Wadleigh angefallen, gebissen und treibt sein Unwesen in dem alten renovierungsbedürftigen Museumsgebäude? Peter ist sich sicher: Irgendetwas stimmt hier nicht! Bevor sie sich versehen stecken die drei Detektive mitten in einem neuen gefährlich Fall, bei dem es um weit mehr, als ein paar alte fossile Knochen geht. Die drei ??? gehen den Spuren nach. Und entdecken das Unfassbare...")
+
+
+folge(d:audio-147, 147, "Grusel auf Campbell Castle", 2011-06-24,
+      "Adam Campbell hat ein schweres Erbe angetreten: er muss das imposante, aber in die Jahre gekommene Schloss seines vor fünfzehn Jahren verstorbenen Vaters in Schuss halten. Bei einer spiritistischen Sitzung meldet sich der Geist von Samuel Campbell und spricht von einem geheimnisvollen Vermächtnis. In seiner Verzweiflung bittet Adam Campbell die drei Detektive um Hilfe. Natürlich nehmen die drei ??? den Fall an und stürzen sich voller Tatendrang in die Ermittlungen. Scheinbar mit jeder neuen Spur, jedem Rätsel kommt es zu weiteren unheimlichen und unerklärlichen Zwischenfällen. Vor allem Justus und Bob sind lange sicher es mit keinem Gespenst zu tun zu haben. Doch als Peter von einer gruseligen schwarzen Hand ins Meer gezogen wird und erst in letzter Sekunde gerettet werden kann, ahnt nicht nur der Zweite Detektiv Unheilvolles: Wurde er von einem Wassergeist attackiert?")
+
+
+folge(d:audio-148, 148, "… und die feurige Flut", 2011-08-19,
+      "Ein schwerer Fluch lastet auf Allie Jamison, einer alten Bekannten der drei ???. 
+Jedenfalls ist sie davon überzeugt. Schon in der nächsten Vollmondnacht soll etwas Schlimmes geschehen! Es gibt nur einen Weg zum Gegenmittel: Justus, Peter und Bob, müssen ein alchemistisches Rätsel lösen – in nur 24 Stunden. Ihre fieberhaften Ermittlungen führen die drei Detektive in eine Welt von Zauberern und Wahrsagern. Als Justus schließlich in einen Hinterhalt gelockt wird, ist klar: Dieser Fall ist lebensgefährlich!")
+
+
+folge(d:audio-149, 149, "Der namenlose Gegner", 2011-09-30,
+      "In dem sonst so idyllischen Vorort Seven Pines droht ein Nachbarschaftskrieg auszuarten. Die aufgebrachten Anwohner bitten die drei ??? um Hilfe. Doch Bob wird bei einer nächtlichen Beschattungsaktion verletzt und verliert das Bewusstsein. Als er wieder zu sich kommt, weiß er nicht mehr, wer er ist! Das nutzt ein alter Feind der drei ??? gnadenlos aus. Während der dritte Detektiv nun auf unerwartete Abwege gerät, bekommen Justus und Peter es mit einem gefährlichen Gegner zu tun. Schnell wird aus einem scheinbar harmlosen Routinefall eine harte Probe für das berühmte Trio aus Rocky Beach –womöglich die härteste, die es für sie geben kann...")
+
+
+folge(d:audio-150, 150, "Geisterbucht", 2011-11-11,
+      "Die drei erfolgreichen Detektive aus Rocky Beach übernehmen ihren 150. Fall!
+In drei spannenden Fällen ist der Spürsinn unserer drei Helden aus Rocky Beach wieder einmal gefragt.")
+
+
+folge(d:audio-151, 151, "Schwarze Sonne", 2012-01-20,
+      "Bei einem Malkurs lernt Bob den sympathischen und begabten Denzel Hopkins kennen. Der Mann wird plötzlich beschuldigt, ein wertvolles Gemälde  gestohlen  zu haben. Denzel beteuert, das Bild noch nie gesehen zu haben und unschuldig zu sein. Doch warum  hat er bereits in der Vergangenheit  immer wieder ein zentrales Motiv aus diesem Bild gemalt - die schwarze Sonne?
+Die drei ??? müssen ihren gesamten  detektivische Spürsinn aufbieten, um diesen Fall zu lösen.")
+
+
+folge(d:audio-152, 152, "Skateboardfieber", 2012-03-02,
+      "Ein riesiges Skatertreffen findet in Rocky Beach statt. In der Stadt ist die Hölle los, und das nicht nur wegen des Skating-Events: Eine Reihe zwielichtiger Gestalten treibt sich in der Gegend herum, es fallen Schüsse, und niemand weiß genau, wer auf welcher Seite steht. Ein alter Fall der drei ??? spielt auf einmal wieder eine wichtige Rolle. Und ohne die Hilfe ihrer alten und neuen Freunde könnte dies der letzte Fall für einen der drei Detektive werden...")
+
+
+folge(d:audio-153, 153, "… und das Fußballphantom", 2012-04-13,
+      "Das Fußball-Stadion brodelt. Die Los Angeles Hawks spielen gegen die Philadelphia Tornados um den amerikanischen Highschool Meisterschaftstitel. Peter gerät durch eine Fehlvermittlung zufällig in ein Handygespräch. Was er mithört, lässt ihm das Blut in den Adern gefrieren. Unversehens müssen die drei ??? einem gefährlichen Erpresser das Handwerk legen. Werden sie rechtzeitig die seltsamen Rätsel des Fußball-Phantoms lösen können? Sie müssen. Das Leben eines Menschen draußen auf dem Spielfeld hängt davon ab!")
+
+
+folge(d:audio-154, 154, "Botschaft aus der Unterwelt", 2012-05-18,
+      "Kaum haben „Die drei ???“ ihren jüngsten Fall zu den Akten gelegt, bekommen sie Post von einem mysteriösen Klienten: Er nennt sich Professor Moriarty und beauftragt sie, eine geheimnisvolle Botschaft für ihn zu entschlüsseln. Die Detektive nehmen den Auftrag an und finden sich rasch in einem intriganten Spiel wieder, das ihr Leben für immer verändern könnte...")
+
+
+folge(d:audio-155, 155, "… und der Meister des Todes", 2012-07-13,
+      "Das einsam gelegene Haus an der Küste gehörte einst einem Marionettenspieler. Reihenweise hängen dort unheimliche Puppen. Der perfekte Drehort für ihren Horrorfilm finden „Die drei ???“ und ihre Schulkollegen der Film AG. Als es in der Nähe zu mysteriösen Ereignissen kommt, glauben Justus, Peter und Bob zunächst nicht an Magie, doch dann beginnt der Horror in der Realität: Die ersten Schüler beginnen sich höchst merkwürdig zu verhalten – fast so als seien sie Marionetten einer höheren Macht. Auch der erste Detektiv verhält sich alles andere als normal. Haben die unheimlichen Marionetten ihre Finger im Spiel? Oder zieht jemand anderes im Hintergrund die Fäden? Die drei Detektive müssen sich anstrengen, um auch diesen Fall zu meistern.")
+
+
+folge(d:audio-156, 156, "Im Netz des Drachen", 2012-08-24,
+      """Dragoncourt, das Anwesen des genialen und exzentrischen Spieleprogrammierers Stephen Baron, steht zum Verkauf. Der Mann ist todkrank und hat sich nach Europa zurückgezogen. Doch der mit dem Verkauf der Immobilie beauftragte Makler Ryan Holbrooke ist verzweifelt, denn seltsame Dinge geschehen auf Dragoncourt. Ganz klar ein Fall für die drei berühmten Detektive aus Rocky Beach. Die Recherchen führen Justus, Bob und Peter in die fantastische Welt des Online-Games "Im Land der Drachen" und schnell wird aus einem scheinbar harmlosen Spiel eine tödliche Gefahr: Alles deutet darauf hin, dass die virtuellen Figuren den Weg in die Wirklichkeit gefunden haben und hier ihr Unwesen treiben.""")
+
+
+folge(d:audio-157, 157, "Im Zeichen der Schlangen", 2012-09-28,
+      "Auf dem Schrottplatz laufen die Vorbereitungen für eine große Auktion auf Hochtouren. Plötzlich erscheint ein bedrohlicher Riese und beauftragt die drei Detektive mit einem geheimnisvollen Fall. Die Spur führt immer tiefer in längst vergangene Zeiten. Noch ahnen Justus, Peter und Bob nicht, dass sie schon bald in einen Strudel gefährlicher Ereignisse geraten werden. Doch mysteriöse Rätsel, nächtliche Beschatter, geisterhafter Rauch und ein bewaffnetes Phantom machen den „Die drei ???“ schnell klar, dass ihr ganzes Können gefordert ist, um nicht auf der Strecke zu bleiben. Nichts ist so, wie es auf den ersten Blick scheint…")
+
+
+folge(d:audio-158, 158, "… und der Feuergeist", 2012-11-30,
+      "Die kleine, privat geführte Oper Califia in Rocky Beach steht vor dem finanziellen Aus. So ist es nicht verwunderlich, dass „Die drei ???“ zunächst an eine werbewirksame Veranstaltung glauben, als sich eine Mitarbeiterin der Oper Hilfe suchend an sie wendet: Im Gewölbekeller des Gebäudes
+gehen mysteriöse Dinge vor sich – und ein seltsames Wesen wurde gesichtet! Justus, Peter und Bob übernehmen den Fall und ahnen nicht, auf was sie sich da einlassen. Plötzlich bricht während einer Aufführung ein Großfeuer aus! War es Brandstiftung? Welche Rolle spielt dabei der undurchsichtige Moody Firthway und sein rotes Notizbuch? Nur Justus erkennt als Einziger, was sich tatsächlich hinter den Kulissen abspielt. Ein Wettlauf mit der Zeit beginnt!")
+
+
+folge(d:audio-159, 159, "Nacht der Tiger", 2013-01-11,
+      "Wie von Geisterhand erscheinen verschlüsselte Botschaften auf dem Computerbildschirm in der Zentrale. Justus’ Ehrgeiz ist geweckt und „Die drei ???“ beginnen zu ermitteln. Sie lösen die komplizierten Rätsel des Unbekannten und folgen seiner Spur. Dabei werden die drei Jungen immer tiefer in dubiose Machenschaften verstrickt. Als sich herausstellt, dass ein guter Freund von ihnen als Täter infrage kommt, stehen Justus, Peter und Bob vor einer schwierigen Entscheidung: Sollen sie ihren Freund ausliefern oder der Polizei die Wahrheit verschweigen? Justus fasst einen Plan – und „Die drei ???“ entdecken das Unvorstellbare in der „Nacht der Tiger“...")
+
+
+folge(d:audio-160, 160, "Geheimnisvolle Botschaften", 2013-03-01,
+      "Der Raub eines alten, handgefertigten Buchs stellt die drei ??? vor ein Rätsel. Denn im Haus von Professor Mathewson hätte es weitaus wertvollere Beute gegeben. Schon stecken Justus, Peter und Bob in den Ermittlungen. Doch ihr skrupelloser Gegner scheint ihnen stets einen Schritt voraus zu sein - und schreckt vor nichts zurück...")
+
+
+folge(d:audio-161, 161, "Die blutenden Bilder", 2013-05-10,
+      "Ein mysteriöser Drohbriefschreiber hat sich auf das Kidnapping von Gemälden spezialisiert. Als ein Opfer seinen Forderungen nicht nachkommt, wird ihr Porträt regelrecht hingerichtet. Und plötzlich tauchen dreizehn rätselhafte Gemälde auf dem Schrottplatz auf. Können Justus, Peter und Bob das Geheimnis lüften?")
+
+
+folge(d:audio-162, 162, "… und der schreiende Nebel", 2013-07-12,
+      "Als die drei ??? Post von einem alten Bekannten erhalten, ahnen sie noch nicht, was für ein gefährliches Abenteuer sie erwartet. Der rätselhafte Hilferuf führt sie mitten in die Einöde von South Dakota. Dort werden sie Zeugen unfassbarer Ereignisse, die eine abgelegene Prärie-Ortschaft heimsuchen. Welches dunkle Geheimnis steckt hinter dem unheimlichen Nebel, der die Einwohner in Angst und Schrecken versetzt? Und was hat es mit den grässlichen Schreien auf sich, die immer wieder aus den weißen Schwaden dringen? Die drei Detektive nehmen die Ermittlungen auf – und geraten selbst in die Fänge des Nebels…")
+
+
+folge(d:audio-163, 163, "… und der verschollene Pilot", 2013-08-30,
+      "Eigentlich sollen Die drei ??? für Onkel Titus nur ein Auto überführen. Doch der dichte Nebel in den Bergen zwingt sie, sich dort eine Unterkunft zu suchen. Ein seltsamer Pick-up-Fahrer führt sie zu einem mysteriösen Hotel, dem „King of the Mountain“. Das Seltsame: Im Hotel nächtigt kein einziger Gast. Schon bald geschehen merkwürdige Dinge, die nur eins bedeuten können: Das Hotel birgt ein Geheimnis. Hat vielleicht das Wrack eines vor Jahren in den Bergen abgestürzten Flugzeugs etwas damit zu tun?")
+
+
+folge(d:audio-164, 164, "Fußball-Teufel", 2013-10-04,
+      "Der erfolgreiche Nachwuchs-Fußballer Lenni Carson trainiert beim Club Santa Ynez Rapids in Rocky Beach. Der junge Sportler möchte unbedingt den Wechsel in die Profi-Liga schaffen. Ihm steht eine große Karriere bevor, denn ihm gelingen mit dem Fußball unglaubliche Tricks, die seinerzeit nur der Nationalspieler John Greyfox beherrschte. Eine ganze Reihe rätselhafter")
+
+
+folge(d:audio-165, 165, "Im Schatten des Giganten", 2013-11-29,
+      "Die drei ??? begleiten Mr. Andrews, Bobs Vater, auf eine Recherche-Reise in den Yosemite Nationalpark. Als merkwürdige Ereignisse sich häufen, wird klar: Die drei Detektive müssen wieder einmal ihren Plan, einfach nur Urlaub zu machen, aufgeben. Justus, Bob und Peter finden sich plötzlich mitten in einem hochgefährlichen Fall wieder: Einer von ihnen wird angeschossen, im Wald geben Blutspuren Rätsel auf und die drei Detektive machen einen schrecklichen Fund. Schließlich kommt es am Half Dome, dem großen Granitfelsen im Park, zu einer Kletterpartie auf Leben und Tod ...")
+
+
+folge(d:audio-166, 166, "… und die brennende Stadt", 2014-01-17,
+      "Ex-Kommissar Reynolds stattet den drei Detektiven einen Besuch ab. Doch die Wiedersehensfreude wird überschattet von dem rätselhaften Testament seines Bruders, das Justus, Peter und Bob für ihren alten Freund entschlüsseln sollen. Ehe sie sich’s versehen, stecken die drei ???mitten in einem brandheißen Fall, der ihnen vollen Einsatz abverlangt. Denn das Erbe ruft düstere Gestalten auf den Plan – und die schrecken vor nichts zurück, um ihr Ziel zu erreichen...")
+
+
+folge(d:audio-167, 167, "… und das blaue Biest", 2014-02-21,
+      "Im Film-Erlebnispark „Movie Empire“ gehen seltsame Dinge vor sich. Ein Unbekannter verübt hinterhältige Sabotage-Akte und bringt damit die Shows und Besucher in Gefahr. Aber wem könnte daran gelegen sein, den Park zu ruinieren? Als wäre das nicht genug, taucht immer wieder ein blau schimmerndes Monstrum auf, das einem mythischen Mantikor ähnelt. Furchtlos nehmen die drei ??? die Ermittlungen auf. Bis sie eines Nachts plötzlich dem Biest gegenüberstehen...")
+
+
+folge(d:audio-168, 168, "GPS-Gangster", 2014-05-02,
+      "Die drei ??? kommen zu spät: Sie können die Prinzessin nicht vor der Katastrophe retten! Zum Glück ist es nur ein Geocaching-Wettbewerb, bei dem Justus, Peter und Bob ihr Ziel um Haaresbreite verfehlen. Doch aus dem Spiel wird gefährlicher Ernst, als der geheimnisvolle Captain Skull auf der Bildfläche erscheint. Auf seinem Raubzug durch Rocky Beach spielt er ein rätselhaftes Katz-und-Maus- Spiel mit der Polizei. Wird er über Leichen gehen? Können die Detektive den Wettlauf mit der Zeit gewinnen?")
+
