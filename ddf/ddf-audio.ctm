@@ -6,6 +6,7 @@
 #
 # Description:  Drei ??? Hörspiele.
 #               Beschreibungen (c) <http://dreifragezeichen.net/>
+#               Beschreibungen Folge 144 - 168: (c) Sony Music Entertainment Germany GmbH
 #
 # Author:       Lars Heuer <heuer[at]semagia.com>
 #
@@ -14,7 +15,7 @@
 #
 # Date:         2014-05-10
 # 
-# Modified:     2014-05-11
+# Modified:     2014-05-14
 #
 %prefix xsd <http://www.w3.org/2001/XMLSchema#>
 %prefix ddf <http://psi.example.org/ddf/>
@@ -738,106 +739,105 @@ folge(ddf:audio-143, 143, "… und die Poker-Hölle", 2010-12-03,
 
 
 folge(ddf:audio-144, 144, "Zwillinge der Finsternis", 2011-01-28,
-      """Justus und sein Onkel trauen ihren Augen nicht. Ohne Vorwarnung wird ihnen von einer finster gekleideten Gestalt ein Buch gestohlen, welches Titus Jonas kurz zuvor bei einer Nachlassversteigerung erstanden hat. Wie sich kurz darauf herausstellt, handelt es sich um ein äußerst wertvolles original Exemplar, von dem es nur eines geben soll. Genau genommen um den ersten Band der "Zwillinge der Finsternis". Der Legende nach stammen die beiden in schwarzes Leder gebundenen Bücher vom Teufel höchstpersönlich und sollen satanische Zauberformeln enthalten. Wer sie besitzt hat teuflische Macht über die vier Elemente Wasser, Feuer, Erde und Luft. Fakten, die nicht nur dem zweiten Detektiv das Blut in den Adern gefrieren lässt.
-Doch nicht nur die drei ??? sind hinter den seltenen Büchern her. Als es bei plus 10 Grad zu schneien beginnt, ein riesiger Erdspalt sich über Nacht mitten in Rocky Beach auftut und ein Mann Flammen aus seiner Hand wachsen lässt, ist den drei Detektiven klar, dass sie schnell handeln müssen, um das Schlimmste zu verhindern...""")
+      """Es schneit bei 20 Grad über Null, ein riesiger Erdspalt tut sich über Nacht auf, seltsame Nebel wabern, und ein Mann lässt Flammen aus seiner Hand wachsen: Rocky Beach hat es mit dem Teufel zu tun! Das jedenfalls nimmt Peter an, als er und seine beiden Detektivkollegen in den Fall "Zwillinge der Finsternis" geraten. Zwei in Leder gebundene Bücher sollen satanische Zauberformeln enthalten. Wer sie besitzt, hat teuflische Macht. Und es gibt einige Menschen, die hinter den beiden Büchern her sind. Ein Exemplar wurde bereits gestohlen! Die drei ??? müssen ihren Widersachern schnellstens zuvorkommen, um das Schlimmste zu verhindern...""")
 
 
 folge(ddf:audio-145, 145, "… und die Rache der Samurai", 2011-03-04,
-      "Auf dem alten schlossähnlichen Internat „Shadow Stone“ passieren seltsame Dinge. Ein Schüler ist spurlos verschwunden, und die Mitglieder der Samurai-AG, die mit alten japanischen Schwertern kämpfen, verhalten sich mehr als merkwürdig. Um den Fall zu klären, schleusen sich die drei ??? in die Schule ein. Was verbirgt sich in dem geheimnisvollen Turm, den sie nicht betreten dürfen? Irgendjemand versucht etwas zu verheimlichen. Aber wer? Und warum? Während Bob im benachbarten Dorf versucht Licht ins Dunkel zu bringen, treffen Justus und Peter  auf eine Mauer des Schweigens und bekommen schnell zu spüren, dass sie hier unerwünscht sind. Besonders Peter muss nun all seinen Mut unter Beweis stellen: Das Schwert. Ein kurzer Schwung, der die Luft durchschnitt. Das Blut gefror in seinen Adern. Es war so weit. Der Tod. Warum bloß hatten sie diesen Auftrag angenommen? Warum bloß?!")
+      """Auf dem Internat "Shadow Stone" geht es nicht mit rechten Dingen zu. Ein Schüler ist spurlos verschwunden, und die Mitglieder der Samurai-AG, die mit alten japanischen Schwertern kämpfen, verhalten sich mehr als merkwürdig. Um den Fall zu klären, schleusen sich die drei ??? in die Schule ein. Doch schnell bekommen sie zu spüren, dass sie hier unerwünscht sind. Besonders Peter muss nun all seinen Mut unter Beweis stellen: Das Schwert. Ein kurzer Schwung, der die Luft durchschnitt. Das Blut gefror in seinen Adern. Es war so weit. Der Tod. Warum bloß hatten sie diesen Auftrag angenommen? Warum bloß?!""")
 
 
 folge(ddf:audio-146, 146, "Der Biss der Bestie", 2011-05-06,
-      "Im alten Naturkundemuseum von Rocky Beach geht es nicht mit rechten Dingen zu. Das Säbelzahntigerskelett, die Attraktion des Museums mit den riesigen Fangzähnen sieht wirklich sehr bedrohlich aus, aber dass es nachts durch die Gegend spukt können Justus, Peter und Bob nicht glauben. Wer oder was hat dann den Direktor Dr. Wadleigh angefallen, gebissen und treibt sein Unwesen in dem alten renovierungsbedürftigen Museumsgebäude? Peter ist sich sicher: Irgendetwas stimmt hier nicht! Bevor sie sich versehen stecken die drei Detektive mitten in einem neuen gefährlich Fall, bei dem es um weit mehr, als ein paar alte fossile Knochen geht. Die drei ??? gehen den Spuren nach. Und entdecken das Unfassbare...")
+      """Zugegeben das Säbelzahntigerskelett mit den riesigen Fangzähnen im Naturkundemuseum von Rocky Beach sieht sehr bedrohlich aus. Aber dass es nachts durch die Gegend spukt, kann Justus nun wirklich nicht glauben! Wer oder was treibt dann sein Unwesen im "Geistermuseum", wie der Ort von den Nachbarn schon genannt wird? Die drei ??? gehen den Spuren nach. Und entdecken das Unfassbare...""")
 
 
 folge(ddf:audio-147, 147, "Grusel auf Campbell Castle", 2011-06-24,
-      "Adam Campbell hat ein schweres Erbe angetreten: er muss das imposante, aber in die Jahre gekommene Schloss seines vor fünfzehn Jahren verstorbenen Vaters in Schuss halten. Bei einer spiritistischen Sitzung meldet sich der Geist von Samuel Campbell und spricht von einem geheimnisvollen Vermächtnis. In seiner Verzweiflung bittet Adam Campbell die drei Detektive um Hilfe. Natürlich nehmen die drei ??? den Fall an und stürzen sich voller Tatendrang in die Ermittlungen. Scheinbar mit jeder neuen Spur, jedem Rätsel kommt es zu weiteren unheimlichen und unerklärlichen Zwischenfällen. Vor allem Justus und Bob sind lange sicher es mit keinem Gespenst zu tun zu haben. Doch als Peter von einer gruseligen schwarzen Hand ins Meer gezogen wird und erst in letzter Sekunde gerettet werden kann, ahnt nicht nur der Zweite Detektiv Unheilvolles: Wurde er von einem Wassergeist attackiert?")
+      "Adam Campbell hat ein schweres Erbe angetreten: er muss das imposante Schloss seines verstorbenen Vaters in Schuss halten. Bei einer spiritistischen Sitzung meldet sich dessen Geist und spricht von einem sonderbaren Vermächtnis. Natürlich nehmen die drei ??? die Ermittlungen auf. Mit einem Gespenst, davon sind sie überzeugt, haben sie es nicht zu tun! Bis Peter von einer gruseligen schwarzen Hand ins Meer gezogen wird. Erst in letzter Sekunde kann er gerettet werden. Der Zweite Detektiv ahnt Unheilvolles: Wurde er von einem Wassergeist attackiert?")
 
 
 folge(ddf:audio-148, 148, "… und die feurige Flut", 2011-08-19,
-      "Ein schwerer Fluch lastet auf Allie Jamison, einer alten Bekannten der drei ???. 
-Jedenfalls ist sie davon überzeugt. Schon in der nächsten Vollmondnacht soll etwas Schlimmes geschehen! Es gibt nur einen Weg zum Gegenmittel: Justus, Peter und Bob, müssen ein alchemistisches Rätsel lösen – in nur 24 Stunden. Ihre fieberhaften Ermittlungen führen die drei Detektive in eine Welt von Zauberern und Wahrsagern. Als Justus schließlich in einen Hinterhalt gelockt wird, ist klar: Dieser Fall ist lebensgefährlich!")
+      "Ein schwerer Fluch lastet auf Allie Jamison, einer alten Bekannten der drei ???. Jedenfalls ist sie davon überzeugt. Schon in der nächsten Vollmondnacht soll etwas Schlimmes geschehen! Es gibt nur einen Ausweg: Justus, Peter und Bob müssen ein alchemistisches Rätsel lösen - in nur 24 Stunden. Ihre fieberhaften Ermittlungen führen die drei Detektive in eine Welt von Zauberern und Wahrsagern.
+Als Justus jedoch in einen Hinterhalt gelockt wird, ist klar: Dieser Fall ist lebensgefährlich!")
 
 
 folge(ddf:audio-149, 149, "Der namenlose Gegner", 2011-09-30,
-      "In dem sonst so idyllischen Vorort Seven Pines droht ein Nachbarschaftskrieg auszuarten. Die aufgebrachten Anwohner bitten die drei ??? um Hilfe. Doch Bob wird bei einer nächtlichen Beschattungsaktion verletzt und verliert das Bewusstsein. Als er wieder zu sich kommt, weiß er nicht mehr, wer er ist! Das nutzt ein alter Feind der drei ??? gnadenlos aus. Während der dritte Detektiv nun auf unerwartete Abwege gerät, bekommen Justus und Peter es mit einem gefährlichen Gegner zu tun. Schnell wird aus einem scheinbar harmlosen Routinefall eine harte Probe für das berühmte Trio aus Rocky Beach –womöglich die härteste, die es für sie geben kann...")
+      "In dem sonst so idyllischen Vorort Seven Pines droht ein Nachbarschaftskrieg auszuarten. Die aufgebrachten Anwohner bitten die drei ??? um Hilfe. Doch Bob wird bei einer nächtlichen Beschattungsaktion verletzt und verliert das Bewusstsein. Als er wieder zu sich kommt, weiß er nicht mehr, wer er ist! Das nutzt ein alter Feind der drei ??? gnadenlos aus. Während der dritte Detektiv nun auf unerwartete Abwege gerät, bekommen Justus und Peter es mit einem gefährlichen Gegner zu tun. Schnell wird aus einem scheinbar harmlosen Routinefall eine harte Probe für das berühmte Trio aus Rocky Beach - womöglich die härteste, die es für sie gegeben hat…")
 
 
 folge(ddf:audio-150, 150, "Geisterbucht", 2011-11-11,
-      "Die drei erfolgreichen Detektive aus Rocky Beach übernehmen ihren 150. Fall!
-In drei spannenden Fällen ist der Spürsinn unserer drei Helden aus Rocky Beach wieder einmal gefragt.")
+      "Die drei ??? übernehmen und lösen (hoffentlich!) ihren 150sten Fall! In drei atemberaubenden Folgen sind sie dem Rätsel der Geisterbucht auf der Spur! Welches Geheimnis verbirgt sich hinter dem Testament, dass der exzentrische Harry Shreber kurz vor seinem Tod verfasst hat? Führen die verschlüsselten Verse tatsächlich zu Rashuras Schatz? (Teil A) Den drei Detektiven wird nichts anderes übrig bleiben: Sie müssen in Flammendes Wasser (Teil B) hinab tauchen; denn nur in der Tiefe des Meeres kann geklärt werden, warum Der brennende Kristall (Teil C) so viel Unglück über eine große Anzahl Menschen bringen konnte…")
 
 
 folge(ddf:audio-151, 151, "Schwarze Sonne", 2012-01-20,
-      "Bei einem Malkurs lernt Bob den sympathischen und begabten Denzel Hopkins kennen. Der Mann wird plötzlich beschuldigt, ein wertvolles Gemälde  gestohlen  zu haben. Denzel beteuert, das Bild noch nie gesehen zu haben und unschuldig zu sein. Doch warum  hat er bereits in der Vergangenheit  immer wieder ein zentrales Motiv aus diesem Bild gemalt - die schwarze Sonne?
-Die drei ??? müssen ihren gesamten  detektivische Spürsinn aufbieten, um diesen Fall zu lösen.")
+      "Bei einem Malkurs lernt Bob den sympathischen und begabten Denzel Hopkins kennen. Der Mann wird plötzlich beschuldigt, ein wertvolles Gemälde gestohlen zu haben. Denzel beteuert, das Bild noch nie gesehen zu haben und unschuldig zu sein. Wie konnte er dann bereits in der Vergangenheit immer wieder ein zentrales Motiv aus diesem Bild malen - die schwarze Sonne? Die drei ??? müssen ihren gesamten detektivischen Spürsinn aufbieten, um diesen Fall zu lösen.")
 
 
 folge(ddf:audio-152, 152, "Skateboardfieber", 2012-03-02,
-      "Ein riesiges Skatertreffen findet in Rocky Beach statt. In der Stadt ist die Hölle los, und das nicht nur wegen des Skating-Events: Eine Reihe zwielichtiger Gestalten treibt sich in der Gegend herum, es fallen Schüsse, und niemand weiß genau, wer auf welcher Seite steht. Ein alter Fall der drei ??? spielt auf einmal wieder eine wichtige Rolle. Und ohne die Hilfe ihrer alten und neuen Freunde könnte dies der letzte Fall für einen der drei Detektive werden...")
+      "Ein riesiges Skatertreffen findet in Rocky Beach statt. In der Stadt ist die Hölle los, und das nicht nur wegen des Skating-Events: Eine Reihe zwielichtiger Gestalten treibt sich in der Gegend herum, es fallen Schüsse, und niemand weiß genau, wer auf welcher Seite steht.
+Ein alter Fall der drei ??? spielt auf einmal wieder eine wichtige Rolle. Und ohne die Hilfe ihrer alten und neuen Freunde könnte dies der letzte Fall für einen der drei Detektive werden…")
 
 
 folge(ddf:audio-153, 153, "… und das Fußballphantom", 2012-04-13,
-      "Das Fußball-Stadion brodelt. Die Los Angeles Hawks spielen gegen die Philadelphia Tornados um den amerikanischen Highschool Meisterschaftstitel. Peter gerät durch eine Fehlvermittlung zufällig in ein Handygespräch. Was er mithört, lässt ihm das Blut in den Adern gefrieren. Unversehens müssen die drei ??? einem gefährlichen Erpresser das Handwerk legen. Werden sie rechtzeitig die seltsamen Rätsel des Fußball-Phantoms lösen können? Sie müssen. Das Leben eines Menschen draußen auf dem Spielfeld hängt davon ab!")
+      "Das Fußballstadion brodelt. Die Los Angeles Hawks spielen gegen die Philadelphia Tornados um den amerikanischen Highschool-Meisterschaftstitel. Peter gerät durch eine Fehlvermittlung zufällig in ein fremdes Handygespräch. Was er mithört, lässt ihm das Blut in den Adern gefrieren.
+Unversehens müssen die drei ??? einem gefährlichen Erpresser das Handwerk legen. Werden sie die seltsamen Rätsel des Fußballphantoms lösen können? Sie müssen. Das Leben eines Menschen draußen auf dem Spielfeld hängt davon ab.")
 
 
 folge(ddf:audio-154, 154, "Botschaft aus der Unterwelt", 2012-05-18,
-      "Kaum haben „Die drei ???“ ihren jüngsten Fall zu den Akten gelegt, bekommen sie Post von einem mysteriösen Klienten: Er nennt sich Professor Moriarty und beauftragt sie, eine geheimnisvolle Botschaft für ihn zu entschlüsseln. Die Detektive nehmen den Auftrag an und finden sich rasch in einem intriganten Spiel wieder, das ihr Leben für immer verändern könnte...")
+      """Dank seiner unfehlbaren Kombinationsgabe hat Justus Jonas wieder einmal einen Fall der drei ??? im Handumdrehen gelöst. Doch kaum ist die Akte geschlossen, bekommen die drei Detektive Post von einem mysteriösen Klienten. Er benennt sich selbst nach Sherlock Holmes großem Erzfeind "Professor Moriarty" und beauftragt Justus, Peter und Bob, für ihn eine geheimnisvolle Botschaft zu entschlüsseln. Schon bald müssen die drei ??? erfahren, dass sie Figuren in einem gefährlichen Spiel sind: Onkel Titus wird verhaftet, Inspektor Cotta ist unerreichbar - und Moriarty scheint stets einen Schritt voraus zu sein. Aber Justus wäre nicht Justus, wenn er die Herausforderung nicht annehmen würde!""")
 
 
 folge(ddf:audio-155, 155, "… und der Meister des Todes", 2012-07-13,
-      "Das einsam gelegene Haus an der Küste gehörte einst einem Marionettenspieler. Reihenweise hängen dort unheimliche Puppen. Der perfekte Drehort für ihren Horrorfilm finden „Die drei ???“ und ihre Schulkollegen der Film AG. Als es in der Nähe zu mysteriösen Ereignissen kommt, glauben Justus, Peter und Bob zunächst nicht an Magie, doch dann beginnt der Horror in der Realität: Die ersten Schüler beginnen sich höchst merkwürdig zu verhalten – fast so als seien sie Marionetten einer höheren Macht. Auch der erste Detektiv verhält sich alles andere als normal. Haben die unheimlichen Marionetten ihre Finger im Spiel? Oder zieht jemand anderes im Hintergrund die Fäden? Die drei Detektive müssen sich anstrengen, um auch diesen Fall zu meistern.")
+      "Das alte Haus an der Küste hat einst einem Marionettenspieler gehört. Der perfekte Drehort für ihren Horrorfilm, finden die drei ??? und ihre Schulkollegen aus dem Filmkurs. Schließlich hängen die unheimlichen Puppen immer noch an den Wänden. Als es in ihrer Nähe zu mysteriösen Ereignissen kommt, glauben Justus, Peter und Bob zunächst nicht an Magie. Doch dann gerät ausgerechnet einer der Detektive in den Bann einer düsteren Macht. Haben die Marionetten ihre Finger im Spiel? Oder zieht jemand anderes im Hintergrund die Fäden?")
 
 
 folge(ddf:audio-156, 156, "Im Netz des Drachen", 2012-08-24,
-      """Dragoncourt, das Anwesen des genialen und exzentrischen Spieleprogrammierers Stephen Baron, steht zum Verkauf. Der Mann ist todkrank und hat sich nach Europa zurückgezogen. Doch der mit dem Verkauf der Immobilie beauftragte Makler Ryan Holbrooke ist verzweifelt, denn seltsame Dinge geschehen auf Dragoncourt. Ganz klar ein Fall für die drei berühmten Detektive aus Rocky Beach. Die Recherchen führen Justus, Bob und Peter in die fantastische Welt des Online-Games "Im Land der Drachen" und schnell wird aus einem scheinbar harmlosen Spiel eine tödliche Gefahr: Alles deutet darauf hin, dass die virtuellen Figuren den Weg in die Wirklichkeit gefunden haben und hier ihr Unwesen treiben.""")
+      """Dragoncourt, das Anwesen des exzentrischen Spiele-Programmierers Stephen Baron, steht zum Verkauf. Der Mann ist schwer erkrankt und hat sich nach Europa zurückgezogen. Doch der mit dem Verkauf der Immobilie beauftragte Makler ist verzweifelt, denn seltsame Dinge geschehen auf Dragoncourt. Ganz klar: hier müssen die drei erfolgreichen Detektive aus Rocky Beach ermitteln! Die Recherchen führen Justus, Bob und Peter in die fantastische Welt des Online-Games "Im Land der Drachen". Und schnell wird aus einem scheinbar harmlosen Spiel eine tödliche Gefahr: Alles deutet darauf hin, dass die virtuellen Figuren den Weg in die Wirklichkeit gefunden haben und hier ihr Unwesen treiben…""")
 
 
 folge(ddf:audio-157, 157, "Im Zeichen der Schlangen", 2012-09-28,
-      "Auf dem Schrottplatz laufen die Vorbereitungen für eine große Auktion auf Hochtouren. Plötzlich erscheint ein bedrohlicher Riese und beauftragt die drei Detektive mit einem geheimnisvollen Fall. Die Spur führt immer tiefer in längst vergangene Zeiten. Noch ahnen Justus, Peter und Bob nicht, dass sie schon bald in einen Strudel gefährlicher Ereignisse geraten werden. Doch mysteriöse Rätsel, nächtliche Beschatter, geisterhafter Rauch und ein bewaffnetes Phantom machen den „Die drei ???“ schnell klar, dass ihr ganzes Können gefordert ist, um nicht auf der Strecke zu bleiben. Nichts ist so, wie es auf den ersten Blick scheint…")
+      "Auf dem Schrottplatz laufen die Vorbereitungen für eine große Auktion auf Hochtouren. Plötzlich erscheint ein bedrohlicher Riese und beauftragt die drei Detektive mit einem geheimnisvollen Fall. Die Spur führt immer tiefer in längst vergangene Zeiten. Noch ahnen Justus, Peter und Bob nicht, dass sie schon bald in einen Strudel gefährlicher Ereignisse geraten werden. Doch mysteriöse Rätsel, nächtliche Beschatter, geisterhafter Rauch und ein bewaffnetes Phantom machen den drei ??? schnell klar, dass ihr ganzes Können gefordert ist, um nicht auf der Strecke zu bleiben. Nichts ist so, wie es auf den ersten Blick scheint…")
 
 
 folge(ddf:audio-158, 158, "… und der Feuergeist", 2012-11-30,
-      "Die kleine, privat geführte Oper Califia in Rocky Beach steht vor dem finanziellen Aus. So ist es nicht verwunderlich, dass „Die drei ???“ zunächst an eine werbewirksame Veranstaltung glauben, als sich eine Mitarbeiterin der Oper Hilfe suchend an sie wendet: Im Gewölbekeller des Gebäudes
-gehen mysteriöse Dinge vor sich – und ein seltsames Wesen wurde gesichtet! Justus, Peter und Bob übernehmen den Fall und ahnen nicht, auf was sie sich da einlassen. Plötzlich bricht während einer Aufführung ein Großfeuer aus! War es Brandstiftung? Welche Rolle spielt dabei der undurchsichtige Moody Firthway und sein rotes Notizbuch? Nur Justus erkennt als Einziger, was sich tatsächlich hinter den Kulissen abspielt. Ein Wettlauf mit der Zeit beginnt!")
+      "Die privat geführte Oper Califia in Rocky Beach steht vor dem finanziellen Aus. So ist es nicht verwunderlich, dass die drei ??? zunächst an eine werbewirksame Veranstaltung glauben, als sich eine Mitarbeiterin der Oper Hilfe suchend an sie wendet: Im Gewölbekeller des Gebäudes gehen mysteriöse Dinge vor sich - und ein seltsames Wesen wurde gesichtet! Justus, Peter und Bob übernehmen den Fall und ahnen nicht, auf was sie sich da einlassen. Plötzlich bricht während einer Aufführung ein Großfeuer aus! War es Brandstiftung? Welche Rolle spielen dabei der undurchsichtige Moody Firthway und sein rotes Notizbuch?
+Nur Justus erkennt als Einziger, was sich tatsächlich hinter den Kulissen abspielt.")
 
 
 folge(ddf:audio-159, 159, "Nacht der Tiger", 2013-01-11,
-      "Wie von Geisterhand erscheinen verschlüsselte Botschaften auf dem Computerbildschirm in der Zentrale. Justus’ Ehrgeiz ist geweckt und „Die drei ???“ beginnen zu ermitteln. Sie lösen die komplizierten Rätsel des Unbekannten und folgen seiner Spur. Dabei werden die drei Jungen immer tiefer in dubiose Machenschaften verstrickt. Als sich herausstellt, dass ein guter Freund von ihnen als Täter infrage kommt, stehen Justus, Peter und Bob vor einer schwierigen Entscheidung: Sollen sie ihren Freund ausliefern oder der Polizei die Wahrheit verschweigen? Justus fasst einen Plan – und „Die drei ???“ entdecken das Unvorstellbare in der „Nacht der Tiger“...")
+      "Wer ist der unbekannte Auftraggeber im neuen Fall der drei erfolgreichen Detektive aus Rocky Beach? Wie von Geisterhand erscheinen verschlüsselte Botschaften auf dem Computerbildschirm in der Zentrale. Justus' Ehrgeiz ist geweckt und die drei ??? beginnen zu ermitteln. Sie lösen die komplizierten Rätsel des Unbekannten und folgen seiner Spur. Dabei werden die drei Jungen immer tiefer in dubiose Machenschaften verstrickt. Als sich herausstellt, dass ein guter Freund von ihnen als Täter infrage kommt, stehen Justus, Peter und Bob vor einer schwierigen Entscheidung: Sollen sie ihren Freund ausliefern oder der Polizei die Wahrheit verschweigen? Justus fasst einen Plan - und die drei ??? entdecken das Unvorstellbare in der 'Nacht der Tiger'…")
 
 
 folge(ddf:audio-160, 160, "Geheimnisvolle Botschaften", 2013-03-01,
-      "Der Raub eines alten, handgefertigten Buchs stellt die drei ??? vor ein Rätsel. Denn im Haus von Professor Mathewson hätte es weitaus wertvollere Beute gegeben. Schon stecken Justus, Peter und Bob in den Ermittlungen. Doch ihr skrupelloser Gegner scheint ihnen stets einen Schritt voraus zu sein - und schreckt vor nichts zurück...")
+      "Der Raub eines alten handgefertigten Buchs stellt die drei ??? vor ein Rätsel. Denn im Haus von Professor Mathewson hätte es weitaus wertvollere Beute gegeben. Kaum beginnen Justus, Peter und Bob zu ermitteln, stecken sie schon bis zum Hals in Schwierigkeiten: Ein geheimnisvoller Gegner ist ihnen stets einen Schritt voraus und schreckt vor nichts zurück…")
 
 
 folge(ddf:audio-161, 161, "Die blutenden Bilder", 2013-05-10,
-      "Ein mysteriöser Drohbriefschreiber hat sich auf das Kidnapping von Gemälden spezialisiert. Als ein Opfer seinen Forderungen nicht nachkommt, wird ihr Porträt regelrecht hingerichtet. Und plötzlich tauchen dreizehn rätselhafte Gemälde auf dem Schrottplatz auf. Können Justus, Peter und Bob das Geheimnis lüften?")
+      "Dreizehn geheimnisvolle Bilder sorgen auf dem Schrottplatz von Justus' Onkel Titus für allerhand Aufregung. Als sich eine ganze Reihe von zwielichtigen Gestalten für die Gemälde interessiert wittern die drei ??? einen Fall. Zu dumm, dass einige der Bilder bereits spurlos verschwunden sind. Justus, Peter und Bob müssen sich bei ihrer Suche beeilen, denn Rocky Beach wird von einem hinterhältigen Erpresser heimgesucht, der es ausgerechnet auf Kunstwerke abgesehen hat und eine mysteriöse Spur hinterlässt!")
 
 
 folge(ddf:audio-162, 162, "… und der schreiende Nebel", 2013-07-12,
-      "Als die drei ??? Post von einem alten Bekannten erhalten, ahnen sie noch nicht, was für ein gefährliches Abenteuer sie erwartet. Der rätselhafte Hilferuf führt sie mitten in die Einöde von South Dakota. Dort werden sie Zeugen unfassbarer Ereignisse, die eine abgelegene Prärie-Ortschaft heimsuchen. Welches dunkle Geheimnis steckt hinter dem unheimlichen Nebel, der die Einwohner in Angst und Schrecken versetzt? Und was hat es mit den grässlichen Schreien auf sich, die immer wieder aus den weißen Schwaden dringen? Die drei Detektive nehmen die Ermittlungen auf – und geraten selbst in die Fänge des Nebels…")
+      "Als die drei ??? Post von einem alten Bekannten erhalten, ahnen sie noch nicht, was für ein gefährliches Abenteuer sie erwartet. Der rätselhafte Hilferuf führt sie mitten in die Einöde von South Dakota. Dort werden sie Zeugen unfassbarer Ereignisse, die eine abgelegene Prärie-Ortschaft heimsuchen. Welches dunkle Geheimnis steckt hinter dem unheimlichen Nebel, der die Einwohner in Angst und Schrecken versetzt? Und was hat es mit den grässlichen Schreien auf sich, die immer wieder aus den weißen Schwaden dringen? Die drei Detektive nehmen die Ermittlungen auf - und geraten selbst in die Fänge des Nebels.")
 
 
 folge(ddf:audio-163, 163, "… und der verschollene Pilot", 2013-08-30,
-      "Eigentlich sollen Die drei ??? für Onkel Titus nur ein Auto überführen. Doch der dichte Nebel in den Bergen zwingt sie, sich dort eine Unterkunft zu suchen. Ein seltsamer Pick-up-Fahrer führt sie zu einem mysteriösen Hotel, dem „King of the Mountain“. Das Seltsame: Im Hotel nächtigt kein einziger Gast. Schon bald geschehen merkwürdige Dinge, die nur eins bedeuten können: Das Hotel birgt ein Geheimnis. Hat vielleicht das Wrack eines vor Jahren in den Bergen abgestürzten Flugzeugs etwas damit zu tun?")
+      """Eigentlich sollen die drei ??? für Onkel Titus nur ein Auto überführen. Doch der dichte Nebel in den Bergen zwingt sie, sich dort eine Unterkunft zu suchen. Ein seltsamer Pick-up-Fahrer führt sie zum 'King of the Mountain', einem heruntergekommenen Hotel ohne einen einzigen Gast. Bald geschehen seltsame Dinge, die nur eins bedeuten können: Das Hotel birgt ein Geheimnis. Hat das Wrack eines vor Jahren in den Bergen abgestürzten Flugzeugs etwas damit zu tun?""")
 
 
 folge(ddf:audio-164, 164, "Fußball-Teufel", 2013-10-04,
-      "Der erfolgreiche Nachwuchs-Fußballer Lenni Carson trainiert beim Club Santa Ynez Rapids in Rocky Beach. Der junge Sportler möchte unbedingt den Wechsel in die Profi-Liga schaffen. Ihm steht eine große Karriere bevor, denn ihm gelingen mit dem Fußball unglaubliche Tricks, die seinerzeit nur der Nationalspieler John Greyfox beherrschte. Eine ganze Reihe rätselhafter")
+      "Eigentlich wollen Die drei ??? am Felsen Hookes Nose nur nach einem verschwundenen Hund suchen, doch schon bald taucht ein düsterer Mann mit Pferdefuß auf. Ist der Hooked Nose wirklich ein verfluchter Ort, an dem der Teufel umgeht? Und was hat der junge Fußballer Lenni Carson mit dem Geheimnis des Felsens zu tun? Müssen es Justus, Peter und Bob bei ihren Ermittlungen diesmal wirklich mit dem Teufel persönlich aufnehmen?")
 
 
 folge(ddf:audio-165, 165, "Im Schatten des Giganten", 2013-11-29,
-      "Die drei ??? begleiten Mr. Andrews, Bobs Vater, auf eine Recherche-Reise in den Yosemite Nationalpark. Als merkwürdige Ereignisse sich häufen, wird klar: Die drei Detektive müssen wieder einmal ihren Plan, einfach nur Urlaub zu machen, aufgeben. Justus, Bob und Peter finden sich plötzlich mitten in einem hochgefährlichen Fall wieder: Einer von ihnen wird angeschossen, im Wald geben Blutspuren Rätsel auf und die drei Detektive machen einen schrecklichen Fund. Schließlich kommt es am Half Dome, dem großen Granitfelsen im Park, zu einer Kletterpartie auf Leben und Tod ...")
+      "Die drei ??? begleiten Mr. Andrews auf eine Recherche-Reise in den Yosemite National Park. Doch anstatt sich zu erholen, finden sich Justus, Bob und Peter plötzlich mitten in einem hochgefährlichen Fall wieder: Einer von ihnen wird angeschossen, im Wald geben mysteriöse Blutspuren Rätsel auf und die drei Detektive machen einen schrecklichen Fund. Schließlich kommt es am Half Dome, dem großen Granitfelsen im Park, zu einer Kletterpartie auf Leben und Tod...")
 
 
 folge(ddf:audio-166, 166, "… und die brennende Stadt", 2014-01-17,
-      "Ex-Kommissar Reynolds stattet den drei Detektiven einen Besuch ab. Doch die Wiedersehensfreude wird überschattet von dem rätselhaften Testament seines Bruders, das Justus, Peter und Bob für ihren alten Freund entschlüsseln sollen. Ehe sie sich’s versehen, stecken die drei ???mitten in einem brandheißen Fall, der ihnen vollen Einsatz abverlangt. Denn das Erbe ruft düstere Gestalten auf den Plan – und die schrecken vor nichts zurück, um ihr Ziel zu erreichen...")
+      "Ex-Kommissar Reynolds stattet den drei Detektiven einen Besuch ab. Es geht um das rätselhafte Testament seines Bruders, das Justus, Peter und Bob für ihren alten Freund entschlüsseln sollen. Ehe sie sich`s versehen, stecken die drei ??? mitten in einem brandheißen Fall, der ihren vollen Einsatz verlangt. Denn das Erbe ruft düstere Gestalten auf den Plan - und die schrecken vor nichts zurück...")
 
 
 folge(ddf:audio-167, 167, "… und das blaue Biest", 2014-02-21,
-      "Im Film-Erlebnispark „Movie Empire“ gehen seltsame Dinge vor sich. Ein Unbekannter verübt hinterhältige Sabotage-Akte und bringt damit die Shows und Besucher in Gefahr. Aber wem könnte daran gelegen sein, den Park zu ruinieren? Als wäre das nicht genug, taucht immer wieder ein blau schimmerndes Monstrum auf, das einem mythischen Mantikor ähnelt. Furchtlos nehmen die drei ??? die Ermittlungen auf. Bis sie eines Nachts plötzlich dem Biest gegenüberstehen...")
+      "Im Film-Erlebnispark Movie Empire gehen seltsame Dinge vor sich. Ein Unbekannter verübt hinterhältige Sabotage-Akte und bringt damit die Shows und Besucher in Gefahr. Aber wem könnte daran gelegen sein, den Park zu ruinieren? Als wäre das nicht genug, taucht immer wieder ein blau schimmerndes Monstrum auf, das einem mythischen Mantikor ähnelt. Furchtlos nehmen die drei ??? die Ermittlungen auf. Bis sie eines Nachts plötzlich dem Biest gegenüberstehen!")
 
 
 folge(ddf:audio-168, 168, "GPS-Gangster", 2014-05-02,
-      "Die drei ??? kommen zu spät: Sie können die Prinzessin nicht vor der Katastrophe retten! Zum Glück ist es nur ein Geocaching-Wettbewerb, bei dem Justus, Peter und Bob ihr Ziel um Haaresbreite verfehlen. Doch aus dem Spiel wird gefährlicher Ernst, als der geheimnisvolle Captain Skull auf der Bildfläche erscheint. Auf seinem Raubzug durch Rocky Beach spielt er ein rätselhaftes Katz-und-Maus- Spiel mit der Polizei. Wird er über Leichen gehen? Können die Detektive den Wettlauf mit der Zeit gewinnen?")
+      "Die drei ??? kommen zu spät: Sie können die Prinzessin nicht vor der Katastrophe retten! Zum Glück ist es nur ein Geocaching-Wettbewerb, bei dem Justus, Peter und Bob ihr Ziel um Haaresbreite verfehlen. Doch aus dem Spiel wird gefährlicher Ernst, als der geheimnisvolle Captain Skull auf der Bildfläche erscheint. Auf seinem Raubzug durch Rocky Beach spielt er ein rätselhaftes Katz- und- Maus-Spiel mit der Polizei. Wird er über Leichen gehen? Können die Detektive den Wettlauf mit der Zeit gewinnen?")
 
