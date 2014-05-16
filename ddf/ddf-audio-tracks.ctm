@@ -16,7 +16,6 @@
 # 
 # Modified:     2014-05-16
 #
-%prefix xsd <http://www.w3.org/2001/XMLSchema#>
 %prefix ddf <http://psi.example.org/ddf/>
 
 
