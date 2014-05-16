@@ -391,6 +391,8 @@ ddf:audio-028
     has-track(ddf:audio-028-7, "Das Ebenbild", 7);
     has-track(ddf:audio-028-8, "Der Gegner steht vor einem Problem", 8).
 
+#TODO: Folge 29
+
 #
 # Folge 30
 #
@@ -546,6 +548,8 @@ ddf:audio-041
     has-track(ddf:audio-041-6, "Entdeckungen in der Höhle", 6);
     has-track(ddf:audio-041-7, "Pamir, der Stammeshäuptling", 7);
     has-track(ddf:audio-041-8, "Kommt das Erdbeben", 8).
+
+#TODO: Folge 42
 
 #
 # Folge 43
@@ -1281,6 +1285,8 @@ ddf:audio-100
     has-track(ddf:audio-100-19, "Die Rache des Tigers", 19);
     has-track(ddf:audio-100-20, "Tödliche Spur", 20).
 
+#TODO: Folge 101
+
 #
 # Folge 102
 #
@@ -1372,6 +1378,8 @@ ddf:audio-108
     has-track(ddf:audio-108-7, "Der heilige Skarabäus", 7);
     has-track(ddf:audio-108-8, "Soo-Ann", 8);
     has-track(ddf:audio-108-9, "Erinnerung", 9).
+
+#TODO: Folge 109
 
 #
 # Folge 110
@@ -1747,6 +1755,8 @@ ddf:audio-129
     has-track(ddf:audio-129-15, "Im Sendebereich", 15);
     has-track(ddf:audio-129-16, "Betäubt", 16);
     has-track(ddf:audio-129-17, "Letzte Fragen", 17).
+
+#TODO: Folge 130
 
 #
 # Folge 131
@@ -2411,3 +2421,5 @@ ddf:audio-167
     has-track(ddf:audio-167-13, "Das blaue Biest", 13);
     has-track(ddf:audio-167-14, "Die Zeit läuft ab", 14);
     has-track(ddf:audio-167-15, "Showdown", 15).
+
+#TODO: Folge 168
