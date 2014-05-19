@@ -1,14 +1,16 @@
 #
-# ==============
-# Derrick Folgen
-# ==============
+# =================
+# Derrick -- Folgen
+# =================
 #
 #
-# Description:  Derrick Topic Map.
+# Description:  Derrick Topic Map: Folgen.
+#
 #               Übersetzt ein Subset von <http://derrick-database.com/> in eine Topic Map.
 #               Listet derzeit nur die Folgen.
+#               Schauspieler: derrick-schauspieler.ctm
+#               Charaktere:   derrick-figuren.ctm
 #               Wünschenswerte Erweiterungen: 
-#               * Verlinkung zu Wikipedia und IMDd für Darsteller, Regisseure etc.
 #               * Information [Quelle: Hampel, Katrin: Das Derrick Buch] via Reification
 #
 # Author:       Lars Heuer <heuer[at]semagia.com>
@@ -17,7 +19,7 @@
 #
 # Date:         2014-05-05
 # 
-# Modified:     2014-05-10
+# Modified:     2014-05-20
 #
 %prefix d <http://psi.example.org/derrick/>
 
