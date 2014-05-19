@@ -1,0 +1,6963 @@
+#
+# =================
+# Derrick -- Rollen
+# =================
+#
+#
+# Description:  Derrick Topic Map: Rollen.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2014-05-18
+# 
+# Modified:     2014-05-20
+#
+%prefix f <http://psi.example.org/derrick/figur/>
+
+
+<http://psi.example.org/derrick/figur/Schr%C3%B6der> - "Schröder".
+
+
+f:Benno_Lippert - "Benno Lippert".
+
+
+f:Echterding - "Echterding".
+
+
+f:Harder - "Harder".
+
+
+f:Harry_Klein - "Harry Klein".
+
+
+f:Renate_Konrad - "Renate Konrad".
+
+
+f:Sophie_Lauer - "Sophie Lauer".
+
+
+f:Stephan_Derrick - "Stephan Derrick".
+
+
+f:Willy_Berger - "Willy Berger".
+
+
+f:folge-001-Anni - "Anni".
+
+
+f:folge-001-Bahnhofsvorsteher - "Bahnhofsvorsteher".
+
+
+f:folge-001-Ellen - "Ellen".
+
+
+f:folge-001-Frau_Baumann - "Frau Baumann".
+
+
+<http://psi.example.org/derrick/figur/folge-001-Frau_Dr._G%C3%B6bel> - "Frau Dr. Göbel".
+
+
+f:folge-001-Frau_Manger - "Frau Manger".
+
+
+f:folge-001-Herr_Dackmann - "Herr Dackmann".
+
+
+f:folge-001-Herr_Dirks - "Herr Dirks".
+
+
+f:folge-001-Herr_Manger - "Herr Manger".
+
+
+f:folge-001-Herr_Sparke - "Herr Sparke".
+
+
+f:folge-001-Herr_Speidel - "Herr Speidel".
+
+
+f:folge-001-Inge - "Inge".
+
+
+f:folge-001-Veronika - "Veronika".
+
+
+f:folge-002-Alfred_Balke - "Alfred Balke".
+
+
+f:folge-002-Frau_Meinecke - "Frau Meinecke".
+
+
+f:folge-002-Herr_Meinecke - "Herr Meinecke".
+
+
+f:folge-002-Johanna_Jensen - "Johanna Jensen".
+
+
+f:folge-002-Martha_Balke - "Martha Balke".
+
+
+f:folge-002-Nachbar - "Nachbar".
+
+
+f:folge-002-Roswitha_Meinecke - "Roswitha Meinecke".
+
+
+f:folge-002-Wirt - "Wirt".
+
+
+f:folge-003-August_Bark - "August Bark".
+
+
+f:folge-003-Bierzapfer - "Bierzapfer".
+
+
+f:folge-003-Broll - "Broll".
+
+
+f:folge-003-Feldmann - "Feldmann".
+
+
+<http://psi.example.org/derrick/figur/folge-003-Frau_K%C3%B6hler> - "Frau Köhler".
+
+
+f:folge-003-Helmut_Bark - "Helmut Bark".
+
+
+f:folge-003-Herr_Eppler - "Herr Eppler".
+
+
+f:folge-003-Inge_Bark - "Inge Bark".
+
+
+f:folge-003-Irene_Eppler - "Irene Eppler".
+
+
+<http://psi.example.org/derrick/figur/folge-003-K%C3%B6hler> - "Köhler".
+
+
+f:folge-003-Lore_Bark - "Lore Bark".
+
+
+f:folge-003-Nachtportier - "Nachtportier".
+
+
+f:folge-004-Assmann - "Assmann".
+
+
+f:folge-004-Berger - "Berger".
+
+
+f:folge-004-Bruno_Wollweber - "Bruno Wollweber".
+
+
+f:folge-004-Erich_Holler - "Erich Holler".
+
+
+f:folge-004-Frau_Jahn - "Frau Jahn".
+
+
+f:folge-004-Heissmann - "Heissmann".
+
+
+f:folge-004-Helga_Landau - "Helga Landau".
+
+
+f:folge-004-Herr_Wollweber - "Herr Wollweber".
+
+
+f:folge-004-Oskar_Holler - "Oskar Holler".
+
+
+f:folge-005-Dr._Zimmermann - "Dr. Zimmermann".
+
+
+f:folge-005-Emilio - "Emilio".
+
+
+f:folge-005-Frau_Hase - "Frau Hase".
+
+
+f:folge-005-Hamann - "Hamann".
+
+
+f:folge-005-Hannelore_Greiser - "Hannelore Greiser".
+
+
+f:folge-005-Herr_Greiser - "Herr Greiser".
+
+
+f:folge-005-Herr_Heller - "Herr Heller".
+
+
+f:folge-005-Herr_Meringer - "Herr Meringer".
+
+
+f:folge-005-Hugo_Hase - "Hugo Hase".
+
+
+f:folge-005-Junge_Dirne - "Junge Dirne".
+
+
+f:folge-005-Korkes - "Korkes".
+
+
+f:folge-005-Lumann - "Lumann".
+
+
+f:folge-005-Maria_Heller - "Maria Heller".
+
+
+f:folge-005-Marianne_Docke - "Marianne Docke".
+
+
+f:folge-005-Spieler - "Spieler".
+
+
+f:folge-005-Spielerin - "Spielerin".
+
+
+f:folge-005-Stationsvorsteher - "Stationsvorsteher".
+
+
+f:folge-006-Dr._Bonsmann - "Dr. Bonsmann".
+
+
+f:folge-006-Eugen_Seibach - "Eugen Seibach".
+
+
+f:folge-006-Harald_Rohn - "Harald Rohn".
+
+
+f:folge-006-Herr_Kagenbauer - "Herr Kagenbauer".
+
+
+f:folge-006-Lena_Seibach - "Lena Seibach".
+
+
+f:folge-006-Paul_Seibach - "Paul Seibach".
+
+
+f:folge-006-Richard_Kern - "Richard Kern".
+
+
+f:folge-006-Sprechstundenhilfe - "Sprechstundenhilfe".
+
+
+<http://psi.example.org/derrick/figur/folge-006-Verk%C3%A4uferin> - "Verkäuferin".
+
+
+f:folge-007-Agnes_Domberg - "Agnes Domberg".
+
+
+f:folge-007-Frau_Werth - "Frau Werth".
+
+
+f:folge-007-Gerd_Werth - "Gerd Werth".
+
+
+f:folge-007-Herr_Saalbach - "Herr Saalbach".
+
+
+<http://psi.example.org/derrick/figur/folge-007-Kl%C3%A4re_Henkel> - "Kläre Henkel".
+
+
+f:folge-007-Linda_Peters - "Linda Peters".
+
+
+f:folge-007-Paul_Bubach - "Paul Bubach".
+
+
+f:folge-008-Dr._Manfred_Rieger - "Dr. Manfred Rieger".
+
+
+f:folge-008-Dreyer - "Dreyer".
+
+
+<http://psi.example.org/derrick/figur/folge-008-Fr%C3%A4ulein_Binder> - "Fräulein Binder".
+
+
+f:folge-008-Frau_Groscher - "Frau Groscher".
+
+
+<http://psi.example.org/derrick/figur/folge-008-G%C3%BCnter_Hausmann> - "Günter Hausmann".
+
+
+f:folge-008-Herr_Pleitgen - "Herr Pleitgen".
+
+
+f:folge-008-Herta_Rieger - "Herta Rieger".
+
+
+f:folge-008-Irina_Hausmann - "Irina Hausmann".
+
+
+f:folge-008-Kind - "Kind".
+
+
+f:folge-008-Max_Tolpe - "Max Tolpe".
+
+
+f:folge-008-Palm - "Palm".
+
+
+<http://psi.example.org/derrick/figur/folge-008-Parkw%C3%A4chter> - "Parkwächter".
+
+
+f:folge-008-Pinas - "Pinas".
+
+
+f:folge-008-Verkehrspolizist - "Verkehrspolizist".
+
+
+f:folge-009-Frau_Hofer - "Frau Hofer".
+
+
+f:folge-009-Gottfried_Ehring - "Gottfried Ehring".
+
+
+f:folge-009-Irene_Hofer - "Irene Hofer".
+
+
+f:folge-009-Oswald_Paddenberg - "Oswald Paddenberg".
+
+
+f:folge-009-Robert_Hofer - "Robert Hofer".
+
+
+<http://psi.example.org/derrick/figur/folge-010-Anneliese_R%C3%B6hrig> - "Anneliese Röhrig".
+
+
+f:folge-010-Autofahrer - "Autofahrer".
+
+
+f:folge-010-Erich_Hoffmann - "Erich Hoffmann".
+
+
+f:folge-010-Frau_Hoffmann - "Frau Hoffmann".
+
+
+<http://psi.example.org/derrick/figur/folge-010-Frau_R%C3%B6hrig> - "Frau Röhrig".
+
+
+<http://psi.example.org/derrick/figur/folge-010-Gerda_R%C3%B6hrig> - "Gerda Röhrig".
+
+
+f:folge-010-Herr_Hoffmann - "Herr Hoffmann".
+
+
+<http://psi.example.org/derrick/figur/folge-010-Herr_R%C3%B6hrig> - "Herr Röhrig".
+
+
+f:folge-010-Josef_Horkel - "Josef Horkel".
+
+
+f:folge-010-Lisabeth_Hoffmann - "Lisabeth Hoffmann".
+
+
+<http://psi.example.org/derrick/figur/folge-011-Albert_Schr%C3%B6der> - "Albert Schröder".
+
+
+f:folge-011-Erich_Forster - "Erich Forster".
+
+
+<http://psi.example.org/derrick/figur/folge-011-Frau_B%C3%A4nker> - "Frau Bänker".
+
+
+f:folge-011-Frau_Karruska - "Frau Karruska".
+
+
+f:folge-011-Frau_Thieme - "Frau Thieme".
+
+
+f:folge-011-Ingo_Behr - "Ingo Behr".
+
+
+f:folge-011-Killy - "Killy".
+
+
+f:folge-011-Pfandhausbesitzer_Karruska - "Pfandhausbesitzer Karruska".
+
+
+f:folge-012-Beamter_der_Funkzentrale - "Beamter der Funkzentrale".
+
+
+f:folge-012-Bezirksinspektor_Wirz - "Bezirksinspektor Wirz".
+
+
+f:folge-012-Dannhoff - "Dannhoff".
+
+
+f:folge-012-Frau_im_Hof - "Frau im Hof".
+
+
+f:folge-012-Hacker - "Hacker".
+
+
+f:folge-012-Heiderer - "Heiderer".
+
+
+f:folge-012-Hilde_Brand - "Hilde Brand".
+
+
+f:folge-012-Inge_Pachla - "Inge Pachla".
+
+
+f:folge-012-Karl_Hinz - "Karl Hinz".
+
+
+<http://psi.example.org/derrick/figur/folge-012-Kl%C3%A4re_Hinz> - "Kläre Hinz".
+
+
+f:folge-012-Korschoff - "Korschoff".
+
+
+<http://psi.example.org/derrick/figur/folge-012-Kriminalbeamter_Sch%C3%A4fer> - "Kriminalbeamter Schäfer".
+
+
+f:folge-012-Mann_im_Hof - "Mann im Hof".
+
+
+f:folge-012-Richard_Hinz - "Richard Hinz".
+
+
+f:folge-012-Rolfs - "Rolfs".
+
+
+f:folge-012-Schalke - "Schalke".
+
+
+f:folge-012-Scharwedder - "Scharwedder".
+
+
+f:folge-012-Schepka - "Schepka".
+
+
+f:folge-012-Wirtin - "Wirtin".
+
+
+f:folge-013-Beamter_im_Heim - "Beamter im Heim".
+
+
+f:folge-013-Dr._Hauffe - "Dr. Hauffe".
+
+
+f:folge-013-Eichinger - "Eichinger".
+
+
+f:folge-013-Frau_Hauffe - "Frau Hauffe".
+
+
+f:folge-013-Gaby - "Gaby".
+
+
+f:folge-013-Herr_Bocke - "Herr Bocke".
+
+
+f:folge-013-Herr_Helm - "Herr Helm".
+
+
+f:folge-013-Herr_Kessler - "Herr Kessler".
+
+
+f:folge-013-Herr_Veith - "Herr Veith".
+
+
+f:folge-013-Hinkmann - "Hinkmann".
+
+
+f:folge-013-Kamilla_Kessler - "Kamilla Kessler".
+
+
+f:folge-013-Kaub - "Kaub".
+
+
+f:folge-013-Marczek - "Marczek".
+
+
+f:folge-013-Marlies - "Marlies".
+
+
+f:folge-013-Martha - "Martha".
+
+
+f:folge-013-Polizeifotograf_Saltzmann - "Polizeifotograf Saltzmann".
+
+
+f:folge-013-Weiler - "Weiler".
+
+
+<http://psi.example.org/derrick/figur/folge-014-Andrea_K%C3%B6niger> - "Andrea Königer".
+
+
+f:folge-014-Enrico - "Enrico".
+
+
+<http://psi.example.org/derrick/figur/folge-014-Frau_K%C3%B6niger> - "Frau Königer".
+
+
+f:folge-014-Frau_Wegmann - "Frau Wegmann".
+
+
+<http://psi.example.org/derrick/figur/folge-014-Herr_K%C3%B6niger> - "Herr Königer".
+
+
+f:folge-014-Herr_Schulz - "Herr Schulz".
+
+
+f:folge-014-Herr_Wegmann - "Herr Wegmann".
+
+
+f:folge-014-Horst_Wegmann - "Horst Wegmann".
+
+
+f:folge-014-Mario - "Mario".
+
+
+f:folge-015-Frau_Ross - "Frau Ross".
+
+
+f:folge-015-Herr_Fleischmann - "Herr Fleischmann".
+
+
+f:folge-015-Herr_Haller - "Herr Haller".
+
+
+f:folge-015-Herr_Wichmann - "Herr Wichmann".
+
+
+f:folge-015-Koch - "Koch".
+
+
+f:folge-015-Krosske - "Krosske".
+
+
+f:folge-015-Lona_Ross - "Lona Ross".
+
+
+f:folge-015-Oberinspektor_Matthes - "Oberinspektor Matthes".
+
+
+f:folge-015-Ross - "Ross".
+
+
+f:folge-015-Schlack - "Schlack".
+
+
+f:folge-015-Weber - "Weber".
+
+
+f:folge-016-Anita - "Anita".
+
+
+f:folge-016-Birkmann - "Birkmann".
+
+
+f:folge-016-Dr._Scheibnitz - "Dr. Scheibnitz".
+
+
+f:folge-016-Frau_Gubeck - "Frau Gubeck".
+
+
+f:folge-016-Frau_Kulm - "Frau Kulm".
+
+
+f:folge-016-Herr_Gubeck - "Herr Gubeck".
+
+
+f:folge-016-Herr_Hiebach - "Herr Hiebach".
+
+
+f:folge-016-Herr_Judix - "Herr Judix".
+
+
+f:folge-016-Krankenschwester - "Krankenschwester".
+
+
+f:folge-016-Kriminalbeamter_Wilmers - "Kriminalbeamter Wilmers".
+
+
+f:folge-016-Pham_Thi - "Pham Thi".
+
+
+f:folge-016-Phu_Tam_Nhu - "Phu Tam Nhu".
+
+
+f:folge-016-Scheppmann - "Scheppmann".
+
+
+f:folge-016-Zamecke - "Zamecke".
+
+
+f:folge-017-Achim_Bielek - "Achim Bielek".
+
+
+f:folge-017-Banderi - "Banderi".
+
+
+f:folge-017-Brinkmann - "Brinkmann".
+
+
+f:folge-017-Franconi - "Franconi".
+
+
+f:folge-017-Georg_Schrahl - "Georg Schrahl".
+
+
+f:folge-017-Heinz_Sorek - "Heinz Sorek".
+
+
+f:folge-017-Herr_Sorek - "Herr Sorek".
+
+
+f:folge-017-Hilde_Werner - "Hilde Werner".
+
+
+f:folge-017-Johannes_Schrahl - "Johannes Schrahl".
+
+
+f:folge-017-Kellner - "Kellner".
+
+
+f:folge-017-Kriminalbeamter_Becker - "Kriminalbeamter Becker".
+
+
+f:folge-017-Kriminalbeamter_Wagner - "Kriminalbeamter Wagner".
+
+
+f:folge-017-Kriminalbeamter_Wehr - "Kriminalbeamter Wehr".
+
+
+f:folge-017-Robert_Lammers - "Robert Lammers".
+
+
+f:folge-018-Dr._Hertel - "Dr. Hertel".
+
+
+f:folge-018-Franziska_Hertel - "Franziska Hertel".
+
+
+f:folge-018-Helene_Thimm - "Helene Thimm".
+
+
+<http://psi.example.org/derrick/figur/folge-018-Herr_Schr%C3%B6der> - "Herr Schröder".
+
+
+f:folge-018-Herr_Thalmeier - "Herr Thalmeier".
+
+
+f:folge-018-Irene_Kronach - "Irene Kronach".
+
+
+<http://psi.example.org/derrick/figur/folge-018-J%C3%BCrgen_Kerwin> - "Jürgen Kerwin".
+
+
+<http://psi.example.org/derrick/figur/folge-019-Dr._Sch%C3%B6ne> - "Dr. Schöne".
+
+
+f:folge-019-Ewald_Malenke - "Ewald Malenke".
+
+
+f:folge-019-Frau_Hager - "Frau Hager".
+
+
+f:folge-019-Frau_Kissler - "Frau Kissler".
+
+
+f:folge-019-Joseph_Rothe - "Joseph Rothe".
+
+
+<http://psi.example.org/derrick/figur/folge-019-K%C3%A4mmerer> - "Kämmerer".
+
+
+f:folge-019-Karl-Maria_Reeke - "Karl-Maria Reeke".
+
+
+f:folge-019-Kellner_Walter - "Kellner Walter".
+
+
+f:folge-019-Mann_im_Auto - "Mann im Auto".
+
+
+f:folge-019-Merks - "Merks".
+
+
+f:folge-019-Winkler - "Winkler".
+
+
+f:folge-019-Wirt_Schermann - "Wirt Schermann".
+
+
+f:folge-020-Alfred_Recke - "Alfred Recke".
+
+
+f:folge-020-Becker - "Becker".
+
+
+f:folge-020-Dr._Heimweg - "Dr. Heimweg".
+
+
+<http://psi.example.org/derrick/figur/folge-020-Dr._Sch%C3%B6ller> - "Dr. Schöller".
+
+
+f:folge-020-Frau_Recke - "Frau Recke".
+
+
+f:folge-020-Heinz_Recke - "Heinz Recke".
+
+
+f:folge-020-Helga_Hoffmann - "Helga Hoffmann".
+
+
+f:folge-020-Kerrak - "Kerrak".
+
+
+f:folge-020-Lusseck - "Lusseck".
+
+
+<http://psi.example.org/derrick/figur/folge-020-Ralf_Sch%C3%B6ller> - "Ralf Schöller".
+
+
+f:folge-020-Schlott - "Schlott".
+
+
+f:folge-021-Anita_Wenger - "Anita Wenger".
+
+
+f:folge-021-Assistentin - "Assistentin".
+
+
+f:folge-021-Barkeeper - "Barkeeper".
+
+
+f:folge-021-Dr._Bergmann - "Dr. Bergmann".
+
+
+f:folge-021-Fotograf - "Fotograf".
+
+
+f:folge-021-Frau_Boven-Berg - "Frau Boven-Berg".
+
+
+f:folge-021-Funkstreifenbeamter - "Funkstreifenbeamter".
+
+
+f:folge-021-Garderobenfrau - "Garderobenfrau".
+
+
+f:folge-021-Herr_Bleiche - "Herr Bleiche".
+
+
+f:folge-021-Herr_Boven-Berg - "Herr Boven-Berg".
+
+
+f:folge-021-Herr_Dilk - "Herr Dilk".
+
+
+f:folge-021-Herr_Keppler - "Herr Keppler".
+
+
+f:folge-021-Herr_Renz - "Herr Renz".
+
+
+f:folge-021-Herr_Sobeck - "Herr Sobeck".
+
+
+f:folge-021-Herr_Wenger - "Herr Wenger".
+
+
+f:folge-021-Irene_Wiloff - "Irene Wiloff".
+
+
+f:folge-021-Konsistorialrat - "Konsistorialrat".
+
+
+f:folge-021-Kriminalbeamter_Senkmann - "Kriminalbeamter Senkmann".
+
+
+f:folge-021-Leiterin_des_Kinderheims - "Leiterin des Kinderheims".
+
+
+f:folge-021-Toilettenfrau - "Toilettenfrau".
+
+
+f:folge-021-Wirt - "Wirt".
+
+
+f:folge-022-Frau_Balte - "Frau Balte".
+
+
+f:folge-022-Frau_Schliebach - "Frau Schliebach".
+
+
+f:folge-022-Hans_Schirmer - "Hans Schirmer".
+
+
+f:folge-022-Helga_Schirmer - "Helga Schirmer".
+
+
+f:folge-022-Herr_Balte - "Herr Balte".
+
+
+f:folge-022-Herr_Schunk - "Herr Schunk".
+
+
+<http://psi.example.org/derrick/figur/folge-022-J%C3%BCrgen_Schirmer> - "Jürgen Schirmer".
+
+
+f:folge-022-Krankenschwester - "Krankenschwester".
+
+
+f:folge-022-Margot_Schirmer - "Margot Schirmer".
+
+
+f:folge-023-Achim_Schenke - "Achim Schenke".
+
+
+f:folge-023-Agnes_Schulte - "Agnes Schulte".
+
+
+f:folge-023-Andy_der_Strassenmusikant - "Andy der Strassenmusikant".
+
+
+f:folge-023-Barbara - "Barbara".
+
+
+f:folge-023-Becker - "Becker".
+
+
+f:folge-023-Beifuss - "Beifuss".
+
+
+f:folge-023-Duktus - "Duktus".
+
+
+f:folge-023-Euler - "Euler".
+
+
+f:folge-023-Kallmerten - "Kallmerten".
+
+
+f:folge-023-Polizeibeamter - "Polizeibeamter".
+
+
+f:folge-023-Polizist - "Polizist".
+
+
+f:folge-023-Winterstein - "Winterstein".
+
+
+f:folge-023-Wirt - "Wirt".
+
+
+<http://psi.example.org/derrick/figur/folge-024-Frau_B%C3%B6senhaupt> - "Frau Bösenhaupt".
+
+
+f:folge-024-Frau_Grundmeier - "Frau Grundmeier".
+
+
+f:folge-024-Herr_Grothke - "Herr Grothke".
+
+
+f:folge-024-Herr_Koller - "Herr Koller".
+
+
+f:folge-024-Herr_Langheimer - "Herr Langheimer".
+
+
+<http://psi.example.org/derrick/figur/folge-024-Herr_P%C3%B6llmann> - "Herr Pöllmann".
+
+
+f:folge-024-Herr_Sander - "Herr Sander".
+
+
+f:folge-024-Herr_Sass - "Herr Sass".
+
+
+<http://psi.example.org/derrick/figur/folge-024-Herr_Sch%C3%BCndler> - "Herr Schündler".
+
+
+f:folge-024-Hotelportier - "Hotelportier".
+
+
+f:folge-024-Katharina_Koller - "Katharina Koller".
+
+
+f:folge-025-Andreas_Fritz - "Andreas Fritz".
+
+
+f:folge-025-Angnes_Solms - "Angnes Solms".
+
+
+f:folge-025-Ernst_Kettwig - "Ernst Kettwig".
+
+
+f:folge-025-Frau_Wagner - "Frau Wagner".
+
+
+f:folge-025-Gisela_Trubal - "Gisela Trubal".
+
+
+f:folge-025-Herr_Steiner - "Herr Steiner".
+
+
+f:folge-025-Hetty_Kettwig - "Hetty Kettwig".
+
+
+<http://psi.example.org/derrick/figur/folge-025-Kapit%C3%A4n_Keile> - "Kapitän Keile".
+
+
+f:folge-025-Walter_Solms - "Walter Solms".
+
+
+f:folge-025-Werner_Solms - "Werner Solms".
+
+
+f:folge-026-Bankmitarbeiter - "Bankmitarbeiter".
+
+
+f:folge-026-Bauunternehmer - "Bauunternehmer".
+
+
+f:folge-026-Bittrop - "Bittrop".
+
+
+f:folge-026-Direktor_Veicht - "Direktor Veicht".
+
+
+f:folge-026-Eberhard_Witte - "Eberhard Witte".
+
+
+f:folge-026-Frau_Veicht - "Frau Veicht".
+
+
+f:folge-026-Frau_Walke - "Frau Walke".
+
+
+f:folge-026-Frl._Bracht - "Frl. Bracht".
+
+
+f:folge-026-Gerke - "Gerke".
+
+
+f:folge-026-Gogo-Girl - "Gogo-Girl".
+
+
+f:folge-026-Herr_Vogt - "Herr Vogt".
+
+
+f:folge-026-Kranz - "Kranz".
+
+
+f:folge-026-Krummbach - "Krummbach".
+
+
+f:folge-026-Simke_Mains - "Simke Mains".
+
+
+f:folge-026-Telefonistin - "Telefonistin".
+
+
+f:folge-026-Victor_Veicht - "Victor Veicht".
+
+
+f:folge-027-Alex_Schech - "Alex Schech".
+
+
+f:folge-027-Brigitte_Tetzlaff - "Brigitte Tetzlaff".
+
+
+f:folge-027-Dr._Meyers - "Dr. Meyers".
+
+
+f:folge-027-Dr._Schech - "Dr. Schech".
+
+
+f:folge-027-Frau_Habinger - "Frau Habinger".
+
+
+f:folge-027-Herr_Habinger - "Herr Habinger".
+
+
+f:folge-027-Horst_Habinger - "Horst Habinger".
+
+
+f:folge-027-Klose - "Klose".
+
+
+<http://psi.example.org/derrick/figur/folge-027-Sekret%C3%A4rin> - "Sekretärin".
+
+
+f:folge-027-Stolpe - "Stolpe".
+
+
+f:folge-027-Vera_Habinger - "Vera Habinger".
+
+
+f:folge-028-Baume - "Baume".
+
+
+f:folge-028-Frau_Lange - "Frau Lange".
+
+
+f:folge-028-Holger - "Holger".
+
+
+f:folge-028-Inge_Biebach - "Inge Biebach".
+
+
+f:folge-028-Liska - "Liska".
+
+
+f:folge-028-Pecko - "Pecko".
+
+
+f:folge-028-Prinx - "Prinx".
+
+
+f:folge-029-1._Justizwachtmeister - "1. Justizwachtmeister".
+
+
+f:folge-029-2._Justizwachtmeister - "2. Justizwachtmeister".
+
+
+f:folge-029-Direktor_Mugrauer - "Direktor Mugrauer".
+
+
+f:folge-029-Dr._Pinaldi - "Dr. Pinaldi".
+
+
+f:folge-029-Frau_Bachler - "Frau Bachler".
+
+
+f:folge-029-Frau_Parenge - "Frau Parenge".
+
+
+f:folge-029-Hausdiener_Mierbach - "Hausdiener Mierbach".
+
+
+f:folge-029-Herr_Bachler - "Herr Bachler".
+
+
+f:folge-029-Herr_Kremp - "Herr Kremp".
+
+
+f:folge-029-Ingo_Parenge - "Ingo Parenge".
+
+
+f:folge-029-Luise_Bachler - "Luise Bachler".
+
+
+f:folge-029-Margot_Parenge - "Margot Parenge".
+
+
+f:folge-029-Max_Sieburg - "Max Sieburg".
+
+
+f:folge-029-Theo_Kremp - "Theo Kremp".
+
+
+f:folge-030-Albert_Rabes - "Albert Rabes".
+
+
+f:folge-030-Ali - "Ali".
+
+
+f:folge-030-Benocha - "Benocha".
+
+
+f:folge-030-Dr._Georg_Rabes - "Dr. Georg Rabes".
+
+
+f:folge-030-Erika_Rabes - "Erika Rabes".
+
+
+f:folge-030-Helga_Schirrmeyer - "Helga Schirrmeyer".
+
+
+<http://psi.example.org/derrick/figur/folge-030-Pf%C3%B6rtner> - "Pförtner".
+
+
+f:folge-030-Schirrmayer - "Schirrmayer".
+
+
+f:folge-030-Yellow_He - "Yellow He".
+
+
+f:folge-031-Frau_Becker - "Frau Becker".
+
+
+f:folge-031-Heli - "Heli".
+
+
+f:folge-031-Herr_Kress - "Herr Kress".
+
+
+f:folge-031-Herr_Ludemann - "Herr Ludemann".
+
+
+f:folge-031-Ingo - "Ingo".
+
+
+f:folge-031-Marion_Kress - "Marion Kress".
+
+
+f:folge-032-Agnes_Lechner - "Agnes Lechner".
+
+
+f:folge-032-Dr._Lechner - "Dr. Lechner".
+
+
+f:folge-032-Frau_Lechner - "Frau Lechner".
+
+
+f:folge-032-Frau_Schweik - "Frau Schweik".
+
+
+<http://psi.example.org/derrick/figur/folge-032-Gottfried_M%C3%BCller> - "Gottfried Müller".
+
+
+f:folge-032-Hilde_Weiss - "Hilde Weiss".
+
+
+f:folge-032-Rosy_Kramer - "Rosy Kramer".
+
+
+f:folge-032-Staatsanwalt_Dr._Meyers - "Staatsanwalt Dr. Meyers".
+
+
+f:folge-032-Steinbrink - "Steinbrink".
+
+
+f:folge-032-Werner_Schranz - "Werner Schranz".
+
+
+f:folge-033-Alfred_Engel - "Alfred Engel".
+
+
+f:folge-033-Direktor - "Direktor".
+
+
+f:folge-033-Josef_Toppe - "Josef Toppe".
+
+
+<http://psi.example.org/derrick/figur/folge-033-Josefa_Sch%C3%B6nhals> - "Josefa Schönhals".
+
+
+f:folge-033-Lisa_Toppe - "Lisa Toppe".
+
+
+f:folge-033-Robert_Berger - "Robert Berger".
+
+
+f:folge-033-Willi_Nell - "Willi Nell".
+
+
+f:folge-034-Dr._Zogel - "Dr. Zogel".
+
+
+f:folge-034-Erich_Winterhammer - "Erich Winterhammer".
+
+
+f:folge-034-Frau_Hecker - "Frau Hecker".
+
+
+f:folge-034-Frau_Minsch - "Frau Minsch".
+
+
+f:folge-034-Gecko_Schuster - "Gecko Schuster".
+
+
+f:folge-034-Herr_Minsch - "Herr Minsch".
+
+
+f:folge-034-Hilde_Hensch - "Hilde Hensch".
+
+
+f:folge-034-Ralf_Ziemann - "Ralf Ziemann".
+
+
+f:folge-035-Alfred_Horre - "Alfred Horre".
+
+
+f:folge-035-Eberhard_Horre - "Eberhard Horre".
+
+
+<http://psi.example.org/derrick/figur/folge-035-Frau_St%C3%B6ssl> - "Frau Stössl".
+
+
+f:folge-035-Frau_Wendt - "Frau Wendt".
+
+
+<http://psi.example.org/derrick/figur/folge-035-Herr_St%C3%B6ssl> - "Herr Stössl".
+
+
+f:folge-035-Irmi_Becker - "Irmi Becker".
+
+
+f:folge-035-Mutter_Horre - "Mutter Horre".
+
+
+f:folge-035-Siegfried_Horre - "Siegfried Horre".
+
+
+f:folge-035-Vater_Horre - "Vater Horre".
+
+
+f:folge-036-Andrea - "Andrea".
+
+
+f:folge-036-Harris - "Harris".
+
+
+f:folge-036-Mohr - "Mohr".
+
+
+f:folge-037-Fasold - "Fasold".
+
+
+f:folge-037-Franz_Rosska - "Franz Rosska".
+
+
+f:folge-037-Frau_Miele - "Frau Miele".
+
+
+f:folge-037-Frau_Renz - "Frau Renz".
+
+
+f:folge-037-Helene_Rosska - "Helene Rosska".
+
+
+f:folge-037-Helga_Renz - "Helga Renz".
+
+
+f:folge-037-Jakob_Renz - "Jakob Renz".
+
+
+f:folge-037-Kranz - "Kranz".
+
+
+f:folge-038-Achim_Breiteck - "Achim Breiteck".
+
+
+f:folge-038-Backhaus - "Backhaus".
+
+
+<http://psi.example.org/derrick/figur/folge-038-Buchh%C3%A4ndler_Hasse> - "Buchhändler Hasse".
+
+
+f:folge-038-Buchheim - "Buchheim".
+
+
+f:folge-038-Hasse - "Hasse".
+
+
+f:folge-038-Irene_Rombach - "Irene Rombach".
+
+
+f:folge-038-Lena - "Lena".
+
+
+f:folge-038-Lore - "Lore".
+
+
+f:folge-038-Reger - "Reger".
+
+
+<http://psi.example.org/derrick/figur/folge-038-Sch%C3%B6nhuber> - "Schönhuber".
+
+
+f:folge-038-Soska - "Soska".
+
+
+f:folge-038-Weyk - "Weyk".
+
+
+f:folge-039-Burgstaller - "Burgstaller".
+
+
+f:folge-039-Hans_Beck - "Hans Beck".
+
+
+f:folge-039-Joan_Harrison - "Joan Harrison".
+
+
+f:folge-039-Lohmann - "Lohmann".
+
+
+f:folge-039-Lore_Beck - "Lore Beck".
+
+
+f:folge-039-Manfred_Donk - "Manfred Donk".
+
+
+f:folge-039-Stocker - "Stocker".
+
+
+f:folge-040-Alwin_Merz - "Alwin Merz".
+
+
+f:folge-040-Andreas_Merz - "Andreas Merz".
+
+
+f:folge-040-Blodin - "Blodin".
+
+
+f:folge-040-Inge_Merz - "Inge Merz".
+
+
+f:folge-041-Egon_Peiss - "Egon Peiss".
+
+
+f:folge-041-Frau_Golz - "Frau Golz".
+
+
+<http://psi.example.org/derrick/figur/folge-041-G%C3%BCnther_Orkel> - "Günther Orkel".
+
+
+f:folge-041-Harry_Dugan - "Harry Dugan".
+
+
+f:folge-041-Hotelportier - "Hotelportier".
+
+
+f:folge-041-Ingo_Grasser - "Ingo Grasser".
+
+
+f:folge-041-Konrad_Peiss - "Konrad Peiss".
+
+
+f:folge-041-Marianne_Golz - "Marianne Golz".
+
+
+f:folge-041-Oskar_Heckel - "Oskar Heckel".
+
+
+f:folge-041-Reporter - "Reporter".
+
+
+<http://psi.example.org/derrick/figur/folge-041-Sekret%C3%A4rin> - "Sekretärin".
+
+
+<http://psi.example.org/derrick/figur/folge-041-Vera_H%C3%B6fer> - "Vera Höfer".
+
+
+f:folge-042-Alfons_Ullmann - "Alfons Ullmann".
+
+
+<http://psi.example.org/derrick/figur/folge-042-Annabelle_Sch%C3%B6nerer> - "Annabelle Schönerer".
+
+
+f:folge-042-Beate_Stenger - "Beate Stenger".
+
+
+f:folge-042-Berthold_Sturm - "Berthold Sturm".
+
+
+f:folge-042-Erna_Herbach - "Erna Herbach".
+
+
+f:folge-042-Ewald_Stenger - "Ewald Stenger".
+
+
+f:folge-042-Frau_Oshaupt - "Frau Oshaupt".
+
+
+<http://psi.example.org/derrick/figur/folge-042-Helene_Sch%C3%BCbel> - "Helene Schübel".
+
+
+f:folge-042-Jakob_Stanz - "Jakob Stanz".
+
+
+<http://psi.example.org/derrick/figur/folge-042-Lona_M%C3%BChl> - "Lona Mühl".
+
+
+<http://psi.example.org/derrick/figur/folge-042-Margarete_Sch%C3%BCbel> - "Margarete Schübel".
+
+
+f:folge-042-Waldemar_Kreuzer - "Waldemar Kreuzer".
+
+
+f:folge-042-Winnifred_Kalkreuth - "Winnifred Kalkreuth".
+
+
+f:folge-042-Zitherspieler - "Zitherspieler".
+
+
+f:folge-043-Agnes_Bracht - "Agnes Bracht".
+
+
+f:folge-043-Albert_Kolpe - "Albert Kolpe".
+
+
+f:folge-043-Alf_Borsch - "Alf Borsch".
+
+
+f:folge-043-Bruno_Kolpe - "Bruno Kolpe".
+
+
+f:folge-043-Dahle - "Dahle".
+
+
+f:folge-043-Dr._Marta_Schwenn - "Dr. Marta Schwenn".
+
+
+f:folge-043-Frau_Borsch - "Frau Borsch".
+
+
+f:folge-043-Frau_Ziehm - "Frau Ziehm".
+
+
+f:folge-043-Hacker - "Hacker".
+
+
+f:folge-043-Herr_Borsch - "Herr Borsch".
+
+
+f:folge-043-Hessler - "Hessler".
+
+
+f:folge-043-Lindemann - "Lindemann".
+
+
+f:folge-043-Maria - "Maria".
+
+
+f:folge-043-Robert_Borsch - "Robert Borsch".
+
+
+f:folge-044-Alexander_Bork - "Alexander Bork".
+
+
+f:folge-044-Bings - "Bings".
+
+
+f:folge-044-Cosima_Stein - "Cosima Stein".
+
+
+f:folge-044-Heinz_Betzky - "Heinz Betzky".
+
+
+f:folge-044-Hinz - "Hinz".
+
+
+f:folge-044-Lutter - "Lutter".
+
+
+f:folge-044-Oswald_Stein - "Oswald Stein".
+
+
+f:folge-044-Pohlmann - "Pohlmann".
+
+
+f:folge-044-Schlobach - "Schlobach".
+
+
+f:folge-045-Carol_Ostrow - "Carol Ostrow".
+
+
+f:folge-045-Frau_Kling - "Frau Kling".
+
+
+f:folge-045-Frau_Mulak - "Frau Mulak".
+
+
+f:folge-045-Frau_Seibold - "Frau Seibold".
+
+
+f:folge-045-Helga_Kling - "Helga Kling".
+
+
+f:folge-045-Herr_Baum - "Herr Baum".
+
+
+f:folge-045-Isabella - "Isabella".
+
+
+f:folge-045-Luisa_van_Doom - "Luisa van Doom".
+
+
+f:folge-045-Robert_van_Doom - "Robert van Doom".
+
+
+f:folge-045-Walter_Schumann - "Walter Schumann".
+
+
+f:folge-045-Wirt - "Wirt".
+
+
+f:folge-046-Beate_Schill - "Beate Schill".
+
+
+f:folge-046-Frau_Pacha - "Frau Pacha".
+
+
+f:folge-046-Frau_Wollak - "Frau Wollak".
+
+
+f:folge-046-Helga - "Helga".
+
+
+f:folge-046-Herr_Pacha - "Herr Pacha".
+
+
+f:folge-046-Herr_Serball - "Herr Serball".
+
+
+f:folge-046-Herwig - "Herwig".
+
+
+f:folge-047-Alexis - "Alexis".
+
+
+f:folge-047-Arzt - "Arzt".
+
+
+f:folge-047-Celia - "Celia".
+
+
+f:folge-047-Frau_Ellweg - "Frau Ellweg".
+
+
+f:folge-047-Liebs - "Liebs".
+
+
+f:folge-047-Margarete - "Margarete".
+
+
+f:folge-047-Polizist - "Polizist".
+
+
+f:folge-047-Ruff - "Ruff".
+
+
+f:folge-047-Ursula - "Ursula".
+
+
+f:folge-048-Elsa_Hassler - "Elsa Hassler".
+
+
+f:folge-048-Georg_Hassler - "Georg Hassler".
+
+
+<http://psi.example.org/derrick/figur/folge-048-Herr_Schr%C3%B6der> - "Herr Schröder".
+
+
+f:folge-048-Herr_Zubringer - "Herr Zubringer".
+
+
+f:folge-048-Lissa - "Lissa".
+
+
+f:folge-048-Ludwig_Heimer - "Ludwig Heimer".
+
+
+f:folge-049-Burkhardt - "Burkhardt".
+
+
+f:folge-049-Doris_Hemma - "Doris Hemma".
+
+
+f:folge-049-Edmund_Singer - "Edmund Singer".
+
+
+f:folge-049-Fehrenbach - "Fehrenbach".
+
+
+f:folge-049-Frau_Lukas - "Frau Lukas".
+
+
+f:folge-049-Georg_Lukas - "Georg Lukas".
+
+
+f:folge-049-Henze - "Henze".
+
+
+f:folge-049-Hochmann - "Hochmann".
+
+
+f:folge-049-Inga - "Inga".
+
+
+f:folge-049-Josef_Hossbach - "Josef Hossbach".
+
+
+f:folge-049-Maria_Singer - "Maria Singer".
+
+
+f:folge-049-Rosse - "Rosse".
+
+
+<http://psi.example.org/derrick/figur/folge-050-%C3%84lteres_Ehepaar> - "Älteres Ehepaar".
+
+
+f:folge-050-Cornelia_Haupt - "Cornelia Haupt".
+
+
+f:folge-050-Frau_Kunz - "Frau Kunz".
+
+
+f:folge-050-Frau_Leubel - "Frau Leubel".
+
+
+f:folge-050-Friedrich_Bursbach - "Friedrich Bursbach".
+
+
+f:folge-050-Hanna_Schenk - "Hanna Schenk".
+
+
+<http://psi.example.org/derrick/figur/folge-050-Harro_Br%C3%BCckner> - "Harro Brückner".
+
+
+f:folge-050-Herr_Kwien - "Herr Kwien".
+
+
+f:folge-050-Herr_Leubel - "Herr Leubel".
+
+
+f:folge-050-Michaela_Scheu - "Michaela Scheu".
+
+
+f:folge-050-Polizeiarzt - "Polizeiarzt".
+
+
+f:folge-051-Blacky - "Blacky".
+
+
+f:folge-051-Frau_Bilser - "Frau Bilser".
+
+
+f:folge-051-Hans_Stroppe - "Hans Stroppe".
+
+
+f:folge-051-Herr_Stroppe - "Herr Stroppe".
+
+
+f:folge-051-Hugo - "Hugo".
+
+
+f:folge-051-Kellner - "Kellner".
+
+
+f:folge-051-Manuela - "Manuela".
+
+
+f:folge-051-Russa - "Russa".
+
+
+f:folge-051-Ute - "Ute".
+
+
+f:folge-052-Adelheid_Becker - "Adelheid Becker".
+
+
+f:folge-052-Dr._Becker - "Dr. Becker".
+
+
+f:folge-052-Lisa_Klose - "Lisa Klose".
+
+
+f:folge-052-Robert_Becker - "Robert Becker".
+
+
+f:folge-052-Rolf_Bucke - "Rolf Bucke".
+
+
+f:folge-052-Ross - "Ross".
+
+
+f:folge-052-Werner_Hofer - "Werner Hofer".
+
+
+f:folge-053-Agnes_Waldhoff - "Agnes Waldhoff".
+
+
+f:folge-053-Dr._Irmgard_Minz - "Dr. Irmgard Minz".
+
+
+f:folge-053-Dr._Klemm - "Dr. Klemm".
+
+
+f:folge-053-Heinz_Bruhn - "Heinz Bruhn".
+
+
+f:folge-053-Michael_Bruhn - "Michael Bruhn".
+
+
+f:folge-053-Professor_Waldhoff - "Professor Waldhoff".
+
+
+f:folge-054-Arzt - "Arzt".
+
+
+f:folge-054-Bruno_Kerk - "Bruno Kerk".
+
+
+f:folge-054-Ernst_Weise - "Ernst Weise".
+
+
+f:folge-054-Frau_Schwarzkopf - "Frau Schwarzkopf".
+
+
+f:folge-054-Gerda_Henk - "Gerda Henk".
+
+
+f:folge-054-Helmut_Kerk - "Helmut Kerk".
+
+
+f:folge-054-Herr_Schaufuss - "Herr Schaufuss".
+
+
+f:folge-054-Herr_Schraudolf - "Herr Schraudolf".
+
+
+f:folge-054-Kollegin_von_Gerda_Henk - "Kollegin von Gerda Henk".
+
+
+f:folge-054-Martha_Kerk - "Martha Kerk".
+
+
+f:folge-054-Oskark_Kerk - "Oskark Kerk".
+
+
+f:folge-054-Walter_Henk - "Walter Henk".
+
+
+f:folge-055-Dr._Richard_Homann - "Dr. Richard Homann".
+
+
+f:folge-055-Frank - "Frank".
+
+
+f:folge-055-Frau_Scheibl - "Frau Scheibl".
+
+
+f:folge-055-Gerhard_Schubach - "Gerhard Schubach".
+
+
+f:folge-055-Helga_Homann - "Helga Homann".
+
+
+f:folge-055-Willi_Schubach - "Willi Schubach".
+
+
+f:folge-056-Anita - "Anita".
+
+
+f:folge-056-Annie - "Annie".
+
+
+f:folge-056-Dr._Beck - "Dr. Beck".
+
+
+f:folge-056-Elvira_Kamenoff - "Elvira Kamenoff".
+
+
+<http://psi.example.org/derrick/figur/folge-056-Frau_Schl%C3%B6r> - "Frau Schlör".
+
+
+f:folge-056-Georg_Kamenoff - "Georg Kamenoff".
+
+
+<http://psi.example.org/derrick/figur/folge-056-Martin_Schl%C3%B6r> - "Martin Schlör".
+
+
+f:folge-056-Oskar_Sobak - "Oskar Sobak".
+
+
+f:folge-057-Adi_Dong - "Adi Dong".
+
+
+f:folge-057-Dr._Schneider - "Dr. Schneider".
+
+
+f:folge-057-Frau_Borsich - "Frau Borsich".
+
+
+f:folge-057-Frau_Sebald - "Frau Sebald".
+
+
+f:folge-057-Herr_Gerdes - "Herr Gerdes".
+
+
+f:folge-057-Johann_Gall - "Johann Gall".
+
+
+f:folge-057-Luise_Staller - "Luise Staller".
+
+
+f:folge-058-Charlotte_Nolde - "Charlotte Nolde".
+
+
+f:folge-058-Euler - "Euler".
+
+
+f:folge-058-Ewald_Bienert - "Ewald Bienert".
+
+
+f:folge-058-Rottmann - "Rottmann".
+
+
+f:folge-058-Rudolf_Nolde - "Rudolf Nolde".
+
+
+f:folge-058-Wirt - "Wirt".
+
+
+f:folge-059-Agnes_Horn - "Agnes Horn".
+
+
+f:folge-059-Anita_Horn - "Anita Horn".
+
+
+f:folge-059-Herr_Witte - "Herr Witte".
+
+
+<http://psi.example.org/derrick/figur/folge-059-Kunsth%C3%A4ndler> - "Kunsthändler".
+
+
+f:folge-059-Lena - "Lena".
+
+
+f:folge-059-Mesmer - "Mesmer".
+
+
+f:folge-059-Rechtsanwalt_Dr._Voss - "Rechtsanwalt Dr. Voss".
+
+
+f:folge-059-Weyrich - "Weyrich".
+
+
+f:folge-059-Wolfgang_Horn - "Wolfgang Horn".
+
+
+f:folge-061-Der_Narbige - "Der Narbige".
+
+
+f:folge-061-Dr._Hauk - "Dr. Hauk".
+
+
+f:folge-061-Dr._Maier-Ollendorf - "Dr. Maier-Ollendorf".
+
+
+f:folge-061-Dr._Maria_Meinrad - "Dr. Maria Meinrad".
+
+
+f:folge-061-Frau_Braun-Gorres - "Frau Braun-Gorres".
+
+
+f:folge-061-Hans-Martin_Jurek - "Hans-Martin Jurek".
+
+
+f:folge-061-Herr_Hinz - "Herr Hinz".
+
+
+f:folge-061-Kriminalbeamter_Jaschke - "Kriminalbeamter Jaschke".
+
+
+f:folge-061-Kriminalbeamter_Mierich - "Kriminalbeamter Mierich".
+
+
+f:folge-061-Lore_Hinz - "Lore Hinz".
+
+
+f:folge-061-Pia_Jurek - "Pia Jurek".
+
+
+f:folge-061-Prof._Braun-Gorres - "Prof. Braun-Gorres".
+
+
+f:folge-062-Albert_Grosser - "Albert Grosser".
+
+
+f:folge-062-Alfred_Dorp - "Alfred Dorp".
+
+
+f:folge-062-Frau_Karges - "Frau Karges".
+
+
+f:folge-062-Gabriele_Voss - "Gabriele Voss".
+
+
+f:folge-062-Hella_Dorp - "Hella Dorp".
+
+
+f:folge-062-Martin_Dorp - "Martin Dorp".
+
+
+<http://psi.example.org/derrick/figur/folge-063-Ingrid_M%C3%B6bius> - "Ingrid Möbius".
+
+
+f:folge-063-Oswald_Demmer - "Oswald Demmer".
+
+
+<http://psi.example.org/derrick/figur/folge-063-Pf%C3%B6rtner> - "Pförtner".
+
+
+f:folge-063-Roland_Schneider - "Roland Schneider".
+
+
+f:folge-063-Rolf_Sossner - "Rolf Sossner".
+
+
+f:folge-063-Vera_Schneider - "Vera Schneider".
+
+
+<http://psi.example.org/derrick/figur/folge-063-Walter_M%C3%B6bius> - "Walter Möbius".
+
+
+f:folge-064-Anita_Glonn - "Anita Glonn".
+
+
+f:folge-064-Arthur_Tobbe - "Arthur Tobbe".
+
+
+f:folge-064-Dr._Kirchhoff - "Dr. Kirchhoff".
+
+
+f:folge-064-Frau_Tobbe - "Frau Tobbe".
+
+
+f:folge-064-Herr_Tobbe - "Herr Tobbe".
+
+
+f:folge-064-Martin_Elsner - "Martin Elsner".
+
+
+f:folge-065-Agnes_Demmler - "Agnes Demmler".
+
+
+f:folge-065-Bernhard_Demmler - "Bernhard Demmler".
+
+
+f:folge-065-Jochen_Karo - "Jochen Karo".
+
+
+f:folge-065-Luisa_Demmler - "Luisa Demmler".
+
+
+f:folge-065-Roman_Schulz - "Roman Schulz".
+
+
+f:folge-065-Wirt - "Wirt".
+
+
+<http://psi.example.org/derrick/figur/folge-066-B%C3%A4chler> - "Bächler".
+
+
+f:folge-066-Elisa - "Elisa".
+
+
+f:folge-066-Ernst_Windorf - "Ernst Windorf".
+
+
+f:folge-066-Ewald_Balke - "Ewald Balke".
+
+
+f:folge-066-Hanna_Windorf - "Hanna Windorf".
+
+
+f:folge-066-Hugo_Gresko - "Hugo Gresko".
+
+
+f:folge-066-Inspektionsleiter - "Inspektionsleiter".
+
+
+f:folge-066-Magda_Klein - "Magda Klein".
+
+
+f:folge-066-Polizeibeamter - "Polizeibeamter".
+
+
+f:folge-067-Barbesitzer - "Barbesitzer".
+
+
+f:folge-067-Eberhard_Wichmann - "Eberhard Wichmann".
+
+
+f:folge-067-Elisabeth_Wichmann - "Elisabeth Wichmann".
+
+
+f:folge-067-Frau_Keeler - "Frau Keeler".
+
+
+<http://psi.example.org/derrick/figur/folge-067-Harald_L%C3%BCssmann> - "Harald Lüssmann".
+
+
+f:folge-067-Helga_Wichmann - "Helga Wichmann".
+
+
+f:folge-067-Herr_Ecker - "Herr Ecker".
+
+
+f:folge-067-Ralf_Gebhardt - "Ralf Gebhardt".
+
+
+f:folge-067-Robert_Berger - "Robert Berger".
+
+
+f:folge-067-Werner_Hess - "Werner Hess".
+
+
+<http://psi.example.org/derrick/figur/folge-068-Dr._B%C3%BCttner> - "Dr. Büttner".
+
+
+f:folge-068-Dr._Munch - "Dr. Munch".
+
+
+<http://psi.example.org/derrick/figur/folge-068-Frau_D%C3%B6bel> - "Frau Döbel".
+
+
+f:folge-068-Frau_Machnow - "Frau Machnow".
+
+
+f:folge-068-Frau_Schulz - "Frau Schulz".
+
+
+f:folge-068-Hans_Machnow - "Hans Machnow".
+
+
+f:folge-068-Inge_Bruckmann - "Inge Bruckmann".
+
+
+f:folge-068-Irma_Munch - "Irma Munch".
+
+
+f:folge-068-Robert_Munch - "Robert Munch".
+
+
+f:folge-068-Ulrich_Hemp - "Ulrich Hemp".
+
+
+f:folge-069-Achim_Rudolf - "Achim Rudolf".
+
+
+f:folge-069-Albert_Rudolf - "Albert Rudolf".
+
+
+f:folge-069-Franz_Lohmann - "Franz Lohmann".
+
+
+f:folge-069-Frau_Kahl - "Frau Kahl".
+
+
+f:folge-069-Frau_Rudolf - "Frau Rudolf".
+
+
+f:folge-069-Gerhard_Dommberg - "Gerhard Dommberg".
+
+
+f:folge-069-Hasso - "Hasso".
+
+
+f:folge-069-Ina_Dommberg - "Ina Dommberg".
+
+
+f:folge-069-Johann_Kahl - "Johann Kahl".
+
+
+f:folge-069-Marianne_Schieder - "Marianne Schieder".
+
+
+f:folge-069-Walter_Lohmann - "Walter Lohmann".
+
+
+f:folge-069-Willi_Tembroke - "Willi Tembroke".
+
+
+f:folge-070-Agnes_Dornwall - "Agnes Dornwall".
+
+
+f:folge-070-Harald_Dornwall - "Harald Dornwall".
+
+
+f:folge-070-Hugo_Dornwall - "Hugo Dornwall".
+
+
+f:folge-070-Jakob_Wilhelmi - "Jakob Wilhelmi".
+
+
+f:folge-070-Josla - "Josla".
+
+
+f:folge-070-Lisbeth_Dornwall - "Lisbeth Dornwall".
+
+
+f:folge-071-Alf_Hauff - "Alf Hauff".
+
+
+f:folge-071-Blaufuss - "Blaufuss".
+
+
+f:folge-071-Henriette_Hauff - "Henriette Hauff".
+
+
+f:folge-071-Ina_Hauff - "Ina Hauff".
+
+
+f:folge-071-Margot_Hauff - "Margot Hauff".
+
+
+f:folge-071-Peter_Hauff - "Peter Hauff".
+
+
+f:folge-071-Ulrich_Hauff - "Ulrich Hauff".
+
+
+f:folge-072-Berthold_Engels - "Berthold Engels".
+
+
+f:folge-072-Frau_Wohmann - "Frau Wohmann".
+
+
+f:folge-072-Frl._Schuchardt - "Frl. Schuchardt".
+
+
+f:folge-072-Heinz_Engels - "Heinz Engels".
+
+
+f:folge-072-Herr_Scholz - "Herr Scholz".
+
+
+f:folge-072-Kommissar_Nowak - "Kommissar Nowak".
+
+
+f:folge-072-Kurt_Weber - "Kurt Weber".
+
+
+f:folge-072-Lieselotte_Schenke - "Lieselotte Schenke".
+
+
+f:folge-072-Marga_Mende - "Marga Mende".
+
+
+f:folge-072-Roswitha_Wohmann - "Roswitha Wohmann".
+
+
+f:folge-072-Rudolf_Schenke - "Rudolf Schenke".
+
+
+f:folge-072-Wirt - "Wirt".
+
+
+f:folge-073-Eberhard_Heimann - "Eberhard Heimann".
+
+
+f:folge-073-Gerhard_Wesenbrink - "Gerhard Wesenbrink".
+
+
+f:folge-073-Ina_Schulte - "Ina Schulte".
+
+
+f:folge-073-Marlene_Schulte - "Marlene Schulte".
+
+
+f:folge-073-Richard_Schulte - "Richard Schulte".
+
+
+f:folge-073-Waltraud_Heimann - "Waltraud Heimann".
+
+
+f:folge-073-Wirt - "Wirt".
+
+
+f:folge-074-Albert_Schuler - "Albert Schuler".
+
+
+f:folge-074-Answald_Rothe - "Answald Rothe".
+
+
+f:folge-074-Erich_Yurowski - "Erich Yurowski".
+
+
+f:folge-074-Helene_Yurowski - "Helene Yurowski".
+
+
+f:folge-074-Herr_Baumbauer - "Herr Baumbauer".
+
+
+f:folge-074-Herr_Soske - "Herr Soske".
+
+
+f:folge-074-Irmgard_Becker - "Irmgard Becker".
+
+
+f:folge-074-Karin_Yurowski - "Karin Yurowski".
+
+
+f:folge-074-Karl_Yurowski - "Karl Yurowski".
+
+
+f:folge-075-Alberta_Renz - "Alberta Renz".
+
+
+f:folge-075-Erich_Renz - "Erich Renz".
+
+
+f:folge-075-Luise - "Luise".
+
+
+f:folge-075-Mahler - "Mahler".
+
+
+f:folge-075-Robert_Renz - "Robert Renz".
+
+
+f:folge-075-Ursula_Momm - "Ursula Momm".
+
+
+f:folge-076-Franziska_Sailer - "Franziska Sailer".
+
+
+f:folge-076-Frau_Zander - "Frau Zander".
+
+
+f:folge-076-Hamann - "Hamann".
+
+
+f:folge-076-Hanni_Sailer - "Hanni Sailer".
+
+
+f:folge-076-Inhaberin_des_Modesalons - "Inhaberin des Modesalons".
+
+
+f:folge-076-Josefine_Hamann - "Josefine Hamann".
+
+
+f:folge-076-Pricker - "Pricker".
+
+
+f:folge-077-Albert_Hess - "Albert Hess".
+
+
+f:folge-077-Frau_Brand - "Frau Brand".
+
+
+f:folge-077-Frau_Hess - "Frau Hess".
+
+
+f:folge-077-Frau_Hessler - "Frau Hessler".
+
+
+f:folge-077-Herr_Essling - "Herr Essling".
+
+
+f:folge-077-Horst_Gronau - "Horst Gronau".
+
+
+f:folge-077-Pfarrer_Scholz - "Pfarrer Scholz".
+
+
+f:folge-077-Vera_Essling - "Vera Essling".
+
+
+f:folge-078-Achim_Moldau - "Achim Moldau".
+
+
+f:folge-078-Frau_Riebeck - "Frau Riebeck".
+
+
+f:folge-078-Gudrun_Hofstetter - "Gudrun Hofstetter".
+
+
+f:folge-078-Hans_Hofstetter - "Hans Hofstetter".
+
+
+f:folge-078-Helene_Moldau - "Helene Moldau".
+
+
+f:folge-078-Josef_Schenk - "Josef Schenk".
+
+
+f:folge-078-Mauser - "Mauser".
+
+
+f:folge-078-Recke - "Recke".
+
+
+f:folge-078-Wiebler - "Wiebler".
+
+
+<http://psi.example.org/derrick/figur/folge-079-Elisabeth_R%C3%B6der> - "Elisabeth Röder".
+
+
+f:folge-079-Hannelore_Junker - "Hannelore Junker".
+
+
+f:folge-079-Herbert_Junker - "Herbert Junker".
+
+
+<http://psi.example.org/derrick/figur/folge-079-Herr_R%C3%B6der> - "Herr Röder".
+
+
+f:folge-079-Herr_Zeissler - "Herr Zeissler".
+
+
+f:folge-079-Hilde_Tibold - "Hilde Tibold".
+
+
+<http://psi.example.org/derrick/figur/folge-079-J%C3%BCrgen_R%C3%B6der> - "Jürgen Röder".
+
+
+f:folge-079-Rudolf_Tibold - "Rudolf Tibold".
+
+
+f:folge-080-Alfred_Bandera - "Alfred Bandera".
+
+
+f:folge-080-Arthur_Bandera - "Arthur Bandera".
+
+
+f:folge-080-Hanni_Krotte - "Hanni Krotte".
+
+
+f:folge-080-Ina_Debel - "Ina Debel".
+
+
+f:folge-080-Jakob_Hesse - "Jakob Hesse".
+
+
+f:folge-080-Lohmann - "Lohmann".
+
+
+f:folge-080-Taxifahrer - "Taxifahrer".
+
+
+f:folge-080-Ursula_Hesse - "Ursula Hesse".
+
+
+f:folge-080-Walter_Raspe - "Walter Raspe".
+
+
+f:folge-080-Willi_Raspe - "Willi Raspe".
+
+
+f:folge-081-Ingo_Rolfs - "Ingo Rolfs".
+
+
+f:folge-081-Nadine_Voss - "Nadine Voss".
+
+
+f:folge-081-Rudolf_Voss - "Rudolf Voss".
+
+
+f:folge-081-Ullrich_Reber - "Ullrich Reber".
+
+
+f:folge-081-Ute_Reber - "Ute Reber".
+
+
+f:folge-082-Alfred_Answald - "Alfred Answald".
+
+
+f:folge-082-Almuth_Answald - "Almuth Answald".
+
+
+f:folge-082-Andrea_Answald - "Andrea Answald".
+
+
+f:folge-082-Arne_Reuter - "Arne Reuter".
+
+
+f:folge-082-Erwin_Answald - "Erwin Answald".
+
+
+f:folge-082-Jane_Robbins - "Jane Robbins".
+
+
+f:folge-082-Oberstaatsanwalt - "Oberstaatsanwalt".
+
+
+f:folge-083-Alex_Stomann - "Alex Stomann".
+
+
+f:folge-083-Bruno_Kieler - "Bruno Kieler".
+
+
+f:folge-083-Der_alte_Lehrer - "Der alte Lehrer".
+
+
+f:folge-083-Doris_Menke - "Doris Menke".
+
+
+f:folge-083-Frau_Kieler - "Frau Kieler".
+
+
+f:folge-083-Tochter_von_Doris_Menke - "Tochter von Doris Menke".
+
+
+f:folge-083-Ursula_Wissmann - "Ursula Wissmann".
+
+
+f:folge-084-Anna_Forlani - "Anna Forlani".
+
+
+f:folge-084-Edwin_Marian - "Edwin Marian".
+
+
+f:folge-084-Herr_Weichler - "Herr Weichler".
+
+
+f:folge-084-Hugo_Bolis - "Hugo Bolis".
+
+
+f:folge-084-Josef_Grabbe - "Josef Grabbe".
+
+
+f:folge-084-Luigi_Cesare_Mentone - "Luigi Cesare Mentone".
+
+
+f:folge-084-Marie_Bolis - "Marie Bolis".
+
+
+f:folge-084-Ursula_Weichler - "Ursula Weichler".
+
+
+f:folge-084-Wilhelm_Rodorf - "Wilhelm Rodorf".
+
+
+f:folge-085-Egon_Janson - "Egon Janson".
+
+
+f:folge-085-Georg - "Georg".
+
+
+f:folge-085-Hans - "Hans".
+
+
+f:folge-085-Henry_Janson - "Henry Janson".
+
+
+f:folge-085-Herr_Winter - "Herr Winter".
+
+
+f:folge-085-Irmgard_Schneider - "Irmgard Schneider".
+
+
+f:folge-085-Jo_Mahler - "Jo Mahler".
+
+
+f:folge-085-Konrad_Vollmer - "Konrad Vollmer".
+
+
+f:folge-085-Luise - "Luise".
+
+
+f:folge-085-Rolf_Heckel - "Rolf Heckel".
+
+
+f:folge-085-Ulrich - "Ulrich".
+
+
+f:folge-085-Vera - "Vera".
+
+
+f:folge-085-Wirtin - "Wirtin".
+
+
+f:folge-086-Alice_Hollerer - "Alice Hollerer".
+
+
+f:folge-086-Frau_Mertens - "Frau Mertens".
+
+
+f:folge-086-Hausmeister - "Hausmeister".
+
+
+f:folge-086-Herr_Brasse - "Herr Brasse".
+
+
+f:folge-086-Herr_Hollerer - "Herr Hollerer".
+
+
+f:folge-086-Herr_Mahler - "Herr Mahler".
+
+
+f:folge-086-Martin_Schlehdorn - "Martin Schlehdorn".
+
+
+f:folge-086-Richard_Siebert - "Richard Siebert".
+
+
+f:folge-086-Susanne_Schlehdorn - "Susanne Schlehdorn".
+
+
+f:folge-087-Gudrun_Kaul - "Gudrun Kaul".
+
+
+f:folge-087-Leo_Kurat - "Leo Kurat".
+
+
+f:folge-087-Ulrich_Kaul - "Ulrich Kaul".
+
+
+f:folge-087-Ulrich_Steinitz - "Ulrich Steinitz".
+
+
+f:folge-087-Walter_Buschmann - "Walter Buschmann".
+
+
+f:folge-088-Anita_Kampe - "Anita Kampe".
+
+
+f:folge-088-Herr_Bornfeld - "Herr Bornfeld".
+
+
+f:folge-088-Herr_Randolf - "Herr Randolf".
+
+
+f:folge-088-Rudolf_Wiegand - "Rudolf Wiegand".
+
+
+f:folge-088-Ursula_Wiegand - "Ursula Wiegand".
+
+
+f:folge-089-Frau_Beermann - "Frau Beermann".
+
+
+f:folge-089-Frau_Dederich - "Frau Dederich".
+
+
+f:folge-089-Frau_Korda - "Frau Korda".
+
+
+f:folge-089-Frau_Rosenheim - "Frau Rosenheim".
+
+
+f:folge-089-Herr_Bonna - "Herr Bonna".
+
+
+f:folge-089-Herr_Godell - "Herr Godell".
+
+
+f:folge-089-Herr_Mahler - "Herr Mahler".
+
+
+f:folge-089-Herr_Schulau - "Herr Schulau".
+
+
+f:folge-089-Inge_Korda - "Inge Korda".
+
+
+f:folge-090-Andreas_Minge - "Andreas Minge".
+
+
+<http://psi.example.org/derrick/figur/folge-090-Elena_Grobm%C3%BCller> - "Elena Grobmüller".
+
+
+f:folge-090-Maria_Minge - "Maria Minge".
+
+
+f:folge-090-Marion_Diebach - "Marion Diebach".
+
+
+f:folge-090-Michael_Rothaupt - "Michael Rothaupt".
+
+
+f:folge-090-Riebold - "Riebold".
+
+
+f:folge-091-Frau_Mommsen - "Frau Mommsen".
+
+
+f:folge-091-Herr_Baumann - "Herr Baumann".
+
+
+f:folge-091-Herr_Ludenke - "Herr Ludenke".
+
+
+<http://psi.example.org/derrick/figur/folge-091-Herr_M%C3%BChlau> - "Herr Mühlau".
+
+
+f:folge-091-Ludenke_jun. - "Ludenke jun.".
+
+
+f:folge-091-Maria_Roth - "Maria Roth".
+
+
+f:folge-091-Mommsen_jun. - "Mommsen jun.".
+
+
+f:folge-091-Staatsanwalt - "Staatsanwalt".
+
+
+f:folge-092-Dr._Hansen - "Dr. Hansen".
+
+
+f:folge-092-Dr._Stoll - "Dr. Stoll".
+
+
+f:folge-092-Erich_Steuber - "Erich Steuber".
+
+
+f:folge-092-Frau_Baum - "Frau Baum".
+
+
+f:folge-092-Frau_Dr._Nolde - "Frau Dr. Nolde".
+
+
+f:folge-092-Hilde_Stettner - "Hilde Stettner".
+
+
+f:folge-092-Polizeibeamter - "Polizeibeamter".
+
+
+f:folge-092-Professor_Jahn - "Professor Jahn".
+
+
+f:folge-092-Werner_Stettner - "Werner Stettner".
+
+
+f:folge-093-Albert_Roor - "Albert Roor".
+
+
+<http://psi.example.org/derrick/figur/folge-093-Herr_W%C3%B6rner> - "Herr Wörner".
+
+
+f:folge-093-Malte_Gericke - "Malte Gericke".
+
+
+f:folge-093-Martin_Gericke - "Martin Gericke".
+
+
+f:folge-093-Mona_Gericke - "Mona Gericke".
+
+
+f:folge-093-Ricarda_Beck - "Ricarda Beck".
+
+
+f:folge-093-Wilma_Gericke - "Wilma Gericke".
+
+
+f:folge-094-Frau_Klinger - "Frau Klinger".
+
+
+f:folge-094-Heinrich_Gruga - "Heinrich Gruga".
+
+
+f:folge-094-Herr_Klinger - "Herr Klinger".
+
+
+f:folge-094-Herta_Klinger - "Herta Klinger".
+
+
+f:folge-094-Richard_Klinger - "Richard Klinger".
+
+
+f:folge-094-Walter_Klinger - "Walter Klinger".
+
+
+f:folge-095-Dr._Schumann - "Dr. Schumann".
+
+
+f:folge-095-Hanna_Wedekind - "Hanna Wedekind".
+
+
+f:folge-095-Hausmeister - "Hausmeister".
+
+
+f:folge-095-Herr_Schinkel - "Herr Schinkel".
+
+
+f:folge-095-Horst_Kluge - "Horst Kluge".
+
+
+f:folge-095-Martina_Busse - "Martina Busse".
+
+
+f:folge-095-Rotraut_Liebermann - "Rotraut Liebermann".
+
+
+f:folge-095-Rudolf_Hasse - "Rudolf Hasse".
+
+
+f:folge-095-Ulrich_Schumann - "Ulrich Schumann".
+
+
+f:folge-095-Ursula_Berthold - "Ursula Berthold".
+
+
+f:folge-095-Vermieterin - "Vermieterin".
+
+
+f:folge-096-Andreas_Kober - "Andreas Kober".
+
+
+f:folge-096-Anita_Dettmers - "Anita Dettmers".
+
+
+f:folge-096-Berthold_Dettmers - "Berthold Dettmers".
+
+
+f:folge-096-Chefarzt - "Chefarzt".
+
+
+f:folge-096-Frau_Dettmers - "Frau Dettmers".
+
+
+f:folge-096-Herbert_Hannawald - "Herbert Hannawald".
+
+
+<http://psi.example.org/derrick/figur/folge-096-Lena_Sch%C3%A4rer> - "Lena Schärer".
+
+
+f:folge-096-Rudolf_Dettmers - "Rudolf Dettmers".
+
+
+f:folge-096-Wilhelm_Dettmers - "Wilhelm Dettmers".
+
+
+f:folge-097-Dora_Korin - "Dora Korin".
+
+
+f:folge-097-Frau_Henseler - "Frau Henseler".
+
+
+f:folge-097-Georg_Korin - "Georg Korin".
+
+
+f:folge-097-Karl_Waginger - "Karl Waginger".
+
+
+f:folge-097-Maria_Korin - "Maria Korin".
+
+
+f:folge-097-Passant - "Passant".
+
+
+f:folge-097-Pensionswirtin - "Pensionswirtin".
+
+
+f:folge-097-Prof._Bruhns - "Prof. Bruhns".
+
+
+f:folge-097-Theaterschauspieler - "Theaterschauspieler".
+
+
+f:folge-097-Ulrich_Korin - "Ulrich Korin".
+
+
+f:folge-098-Andreas_Kuhn - "Andreas Kuhn".
+
+
+f:folge-098-Anita_Schneider - "Anita Schneider".
+
+
+f:folge-098-Answald_Hohner - "Answald Hohner".
+
+
+f:folge-098-Berti_Engler - "Berti Engler".
+
+
+f:folge-098-Egon_Schuster - "Egon Schuster".
+
+
+f:folge-098-Frau_Engler - "Frau Engler".
+
+
+f:folge-098-Frau_Simon - "Frau Simon".
+
+
+f:folge-098-Gisela_Engler - "Gisela Engler".
+
+
+f:folge-098-Immel - "Immel".
+
+
+f:folge-098-Ralf_Schneider - "Ralf Schneider".
+
+
+f:folge-098-Udo_Engler - "Udo Engler".
+
+
+f:folge-099-Achim_Huber - "Achim Huber".
+
+
+<http://psi.example.org/derrick/figur/folge-099-Aim%C3%A9e_Lucienne> - "Aimée Lucienne".
+
+
+f:folge-099-Amadu - "Amadu".
+
+
+f:folge-099-Hans_Lammers - "Hans Lammers".
+
+
+f:folge-099-Helga_Lupien - "Helga Lupien".
+
+
+f:folge-099-Herr_Lammers - "Herr Lammers".
+
+
+f:folge-099-Jean_Lucienne - "Jean Lucienne".
+
+
+f:folge-099-Lammers_Diener - "Lammers Diener".
+
+
+f:folge-099-Lusenke - "Lusenke".
+
+
+f:folge-099-Rezeptionist - "Rezeptionist".
+
+
+f:folge-099-Rudolf_Lammers - "Rudolf Lammers".
+
+
+f:folge-100-Alfred_Stolze - "Alfred Stolze".
+
+
+f:folge-100-Annemarie - "Annemarie".
+
+
+f:folge-100-Arthur_Dissmann - "Arthur Dissmann".
+
+
+f:folge-100-Gerlinde_Rudolf - "Gerlinde Rudolf".
+
+
+f:folge-100-Ingo_Reitz - "Ingo Reitz".
+
+
+f:folge-100-Josef_Matusek - "Josef Matusek".
+
+
+f:folge-100-Maria_Dissmann - "Maria Dissmann".
+
+
+f:folge-100-Robert_Kabeck - "Robert Kabeck".
+
+
+f:folge-101-Andreas_Sobach - "Andreas Sobach".
+
+
+f:folge-101-Dr._Albert_Vrings - "Dr. Albert Vrings".
+
+
+f:folge-101-Erika_Fischer - "Erika Fischer".
+
+
+f:folge-101-Gustav_Vrings - "Gustav Vrings".
+
+
+f:folge-101-Hausmeister_Fischer - "Hausmeister Fischer".
+
+
+f:folge-101-Maria_Sobach - "Maria Sobach".
+
+
+f:folge-101-Martina_Vrings - "Martina Vrings".
+
+
+f:folge-102-Alexander_Rudow - "Alexander Rudow".
+
+
+f:folge-102-Herr_Baruda - "Herr Baruda".
+
+
+f:folge-102-Herr_Lenau - "Herr Lenau".
+
+
+<http://psi.example.org/derrick/figur/folge-102-Herr_Schr%C3%B6der> - "Herr Schröder".
+
+
+<http://psi.example.org/derrick/figur/folge-102-Udo_M%C3%BCller> - "Udo Müller".
+
+
+f:folge-102-Vera_Baruda - "Vera Baruda".
+
+
+f:folge-102-Walter_Lenau - "Walter Lenau".
+
+
+f:folge-103-Bernhard_Molz - "Bernhard Molz".
+
+
+f:folge-103-Dr._Blomann - "Dr. Blomann".
+
+
+f:folge-103-Eliane - "Eliane".
+
+
+<http://psi.example.org/derrick/figur/folge-103-Fr%C3%A4ulein_Schwindt> - "Fräulein Schwindt".
+
+
+f:folge-103-Frau_Reiners - "Frau Reiners".
+
+
+f:folge-103-Frau_Winterfeld - "Frau Winterfeld".
+
+
+f:folge-103-Hannes_Guhl - "Hannes Guhl".
+
+
+f:folge-103-Kellner_Brusse - "Kellner Brusse".
+
+
+f:folge-103-Konrad_Jacobi - "Konrad Jacobi".
+
+
+f:folge-103-Sandra - "Sandra".
+
+
+f:folge-103-Ursula_Hardt - "Ursula Hardt".
+
+
+f:folge-103-Vera - "Vera".
+
+
+f:folge-104-Anita_Hagemann - "Anita Hagemann".
+
+
+f:folge-104-Frau_Hagemann - "Frau Hagemann".
+
+
+f:folge-104-Herr_Kessler - "Herr Kessler".
+
+
+f:folge-104-Manfred_Kessler - "Manfred Kessler".
+
+
+f:folge-104-Peter_Hagemann - "Peter Hagemann".
+
+
+f:folge-104-Walter_Hagemann - "Walter Hagemann".
+
+
+f:folge-105-Alex_Lohmann - "Alex Lohmann".
+
+
+f:folge-105-Andrea_Reichel - "Andrea Reichel".
+
+
+f:folge-105-Hanna_Schorff - "Hanna Schorff".
+
+
+f:folge-105-Helene_Reichel - "Helene Reichel".
+
+
+f:folge-105-Herr_Obermann - "Herr Obermann".
+
+
+f:folge-105-Ludwig_Reichel - "Ludwig Reichel".
+
+
+f:folge-105-Werner_Schorff - "Werner Schorff".
+
+
+f:folge-105-Willi_Reichel - "Willi Reichel".
+
+
+f:folge-106-Frau_Jakobsen - "Frau Jakobsen".
+
+
+f:folge-106-Frau_Korda - "Frau Korda".
+
+
+f:folge-106-Herr_Jakobsen - "Herr Jakobsen".
+
+
+f:folge-106-Michael_Korda - "Michael Korda".
+
+
+f:folge-106-Ross - "Ross".
+
+
+<http://psi.example.org/derrick/figur/folge-106-Trudi_H%C3%A4ssler> - "Trudi Hässler".
+
+
+f:folge-107-Alwin_Bosler - "Alwin Bosler".
+
+
+f:folge-107-Carla_Meissner - "Carla Meissner".
+
+
+f:folge-107-Erna_Wilhelm - "Erna Wilhelm".
+
+
+f:folge-107-Herr_Bandener - "Herr Bandener".
+
+
+<http://psi.example.org/derrick/figur/folge-107-Herr_Schr%C3%B6der> - "Herr Schröder".
+
+
+f:folge-107-Inge_Holz - "Inge Holz".
+
+
+f:folge-107-Ludewig - "Ludewig".
+
+
+f:folge-107-Maria_Bandener - "Maria Bandener".
+
+
+f:folge-107-Rudolf_Bandener - "Rudolf Bandener".
+
+
+f:folge-108-Dr._Brigitte_Schenk - "Dr. Brigitte Schenk".
+
+
+<http://psi.example.org/derrick/figur/folge-108-Dr._R%C3%B6mer> - "Dr. Römer".
+
+
+f:folge-108-Hanna_Krosigk - "Hanna Krosigk".
+
+
+<http://psi.example.org/derrick/figur/folge-108-Margarete_R%C3%B6mer> - "Margarete Römer".
+
+
+<http://psi.example.org/derrick/figur/folge-108-Pf%C3%B6rtner_Gantner> - "Pförtner Gantner".
+
+
+<http://psi.example.org/derrick/figur/folge-108-Pf%C3%B6rtner_Schl%C3%B6r> - "Pförtner Schlör".
+
+
+f:folge-108-Professor_Rauh - "Professor Rauh".
+
+
+f:folge-108-Professor_Rotheim - "Professor Rotheim".
+
+
+f:folge-108-Schwester_Berta - "Schwester Berta".
+
+
+f:folge-109-Dr._Ursula_von_Haidersfeld - "Dr. Ursula von Haidersfeld".
+
+
+f:folge-109-Eliane_von_Haidersfeld - "Eliane von Haidersfeld".
+
+
+f:folge-109-Frau_Waffler - "Frau Waffler".
+
+
+f:folge-109-Herr_Martin - "Herr Martin".
+
+
+f:folge-109-Professor_Joachim_von_Haidersfeld - "Professor Joachim von Haidersfeld".
+
+
+f:folge-109-Rita_Hauff - "Rita Hauff".
+
+
+f:folge-110-Erich_Wobeck - "Erich Wobeck".
+
+
+f:folge-110-Heinz_Zander - "Heinz Zander".
+
+
+f:folge-110-Karl_Zander - "Karl Zander".
+
+
+f:folge-110-Knut_Herzog - "Knut Herzog".
+
+
+f:folge-110-Kommissar_Wobeck - "Kommissar Wobeck".
+
+
+f:folge-110-Willi_Stein - "Willi Stein".
+
+
+f:folge-111-Anna_Degenhardt - "Anna Degenhardt".
+
+
+f:folge-111-Dr._Wolfgang_Rohm - "Dr. Wolfgang Rohm".
+
+
+f:folge-111-Frau_Schosser - "Frau Schosser".
+
+
+<http://psi.example.org/derrick/figur/folge-111-Herr_F%C3%A4rber> - "Herr Färber".
+
+
+f:folge-111-Ingrid_Moorhof - "Ingrid Moorhof".
+
+
+f:folge-111-Manuel_Rohm - "Manuel Rohm".
+
+
+f:folge-112-Chauffeur - "Chauffeur".
+
+
+f:folge-112-Harald_Wiemann - "Harald Wiemann".
+
+
+f:folge-112-Helga_Schuster - "Helga Schuster".
+
+
+f:folge-112-Herr_Jablonski - "Herr Jablonski".
+
+
+f:folge-112-Karl_Schuster - "Karl Schuster".
+
+
+f:folge-112-Vater_Schuster - "Vater Schuster".
+
+
+f:folge-113-Antonia_Hauser - "Antonia Hauser".
+
+
+f:folge-113-Birgit_Heise - "Birgit Heise".
+
+
+<http://psi.example.org/derrick/figur/folge-113-G%C3%BCnter_Hauser> - "Günter Hauser".
+
+
+f:folge-113-Hanna_Schieda - "Hanna Schieda".
+
+
+f:folge-113-Robert_Hauser - "Robert Hauser".
+
+
+f:folge-113-Rudolf_Hauser - "Rudolf Hauser".
+
+
+f:folge-114-Frau_Reis - "Frau Reis".
+
+
+f:folge-114-Hamann - "Hamann".
+
+
+f:folge-114-Herr_Reis - "Herr Reis".
+
+
+f:folge-114-Martin_Maurus - "Martin Maurus".
+
+
+f:folge-114-Sabine_Reis - "Sabine Reis".
+
+
+f:folge-114-Spediteur_Henschel - "Spediteur Henschel".
+
+
+f:folge-115-Agnes_Hossner - "Agnes Hossner".
+
+
+f:folge-115-Ariane - "Ariane".
+
+
+f:folge-115-Herr_Muschmann - "Herr Muschmann".
+
+
+f:folge-115-Lena_Kussloff - "Lena Kussloff".
+
+
+f:folge-115-Martin_Kussloff - "Martin Kussloff".
+
+
+f:folge-115-Ulrich_Hossner - "Ulrich Hossner".
+
+
+f:folge-116-Alfons_Bracht - "Alfons Bracht".
+
+
+f:folge-116-Alois_Bracht - "Alois Bracht".
+
+
+f:folge-116-Herr_Diehl - "Herr Diehl".
+
+
+f:folge-116-Holger_Kramer - "Holger Kramer".
+
+
+f:folge-116-Marianne_Kramer - "Marianne Kramer".
+
+
+f:folge-116-Walter_Kramer - "Walter Kramer".
+
+
+f:folge-117-Albert_Scherer - "Albert Scherer".
+
+
+f:folge-117-Ariane - "Ariane".
+
+
+f:folge-117-Arthur_Scherer - "Arthur Scherer".
+
+
+f:folge-117-Conny_Kessler - "Conny Kessler".
+
+
+f:folge-117-Frau_Rootz - "Frau Rootz".
+
+
+f:folge-117-Frau_Scherer - "Frau Scherer".
+
+
+f:folge-117-Herr_Scherer - "Herr Scherer".
+
+
+f:folge-117-Ute_Reiners - "Ute Reiners".
+
+
+f:folge-118-Alwin_Merck - "Alwin Merck".
+
+
+f:folge-118-Gitarrist - "Gitarrist".
+
+
+f:folge-118-Herr_Merck - "Herr Merck".
+
+
+f:folge-118-Irene_Merck - "Irene Merck".
+
+
+f:folge-118-Ruth_Palmer - "Ruth Palmer".
+
+
+f:folge-119-Dr._Blunk - "Dr. Blunk".
+
+
+f:folge-119-Herr_Bools - "Herr Bools".
+
+
+f:folge-119-Maria_Tobler - "Maria Tobler".
+
+
+f:folge-119-Professor_Balthaus - "Professor Balthaus".
+
+
+f:folge-119-Roland_Lieboth - "Roland Lieboth".
+
+
+f:folge-119-Ruth_Balthaus - "Ruth Balthaus".
+
+
+f:folge-120-Berta_Haginger - "Berta Haginger".
+
+
+f:folge-120-Bruno_Bussoni - "Bruno Bussoni".
+
+
+f:folge-120-Charlotte_Bussoni - "Charlotte Bussoni".
+
+
+f:folge-120-Dr._Kuhn - "Dr. Kuhn".
+
+
+f:folge-120-Manfred_Richter - "Manfred Richter".
+
+
+f:folge-120-Martin_Richter - "Martin Richter".
+
+
+f:folge-121-Dita_Mahler - "Dita Mahler".
+
+
+f:folge-121-Grit - "Grit".
+
+
+f:folge-121-Hannelore_Wiegand - "Hannelore Wiegand".
+
+
+f:folge-121-Hugo_Lossmann - "Hugo Lossmann".
+
+
+<http://psi.example.org/derrick/figur/folge-121-Sch%C3%B6nfeld> - "Schönfeld".
+
+
+f:folge-121-Uschi - "Uschi".
+
+
+f:folge-121-Willi_Anholt - "Willi Anholt".
+
+
+f:folge-121-Wohlers - "Wohlers".
+
+
+f:folge-121-Wolfgang_Anders - "Wolfgang Anders".
+
+
+f:folge-122-Alexander_Kolberg - "Alexander Kolberg".
+
+
+f:folge-122-Dora_Kolberg - "Dora Kolberg".
+
+
+f:folge-122-Dr._Gerhard_Prestel - "Dr. Gerhard Prestel".
+
+
+f:folge-122-Frau_Wilmers - "Frau Wilmers".
+
+
+<http://psi.example.org/derrick/figur/folge-122-Herr_M%C3%BCnardy> - "Herr Münardy".
+
+
+f:folge-122-Herr_Soskind - "Herr Soskind".
+
+
+f:folge-122-Lisbeth - "Lisbeth".
+
+
+f:folge-123-Bondeck - "Bondeck".
+
+
+f:folge-123-Irene_Maurer - "Irene Maurer".
+
+
+f:folge-123-Joe_Schneider - "Joe Schneider".
+
+
+f:folge-123-Limbach - "Limbach".
+
+
+f:folge-123-Vater_Maurer - "Vater Maurer".
+
+
+f:folge-124-Andreas_Klinger - "Andreas Klinger".
+
+
+f:folge-124-Benno - "Benno".
+
+
+f:folge-124-Berkhahn - "Berkhahn".
+
+
+f:folge-124-Cornelia - "Cornelia".
+
+
+f:folge-124-Joachim_Lutze - "Joachim Lutze".
+
+
+f:folge-124-Norman_Greg - "Norman Greg".
+
+
+f:folge-124-Sussanne_Loon - "Sussanne Loon".
+
+
+f:folge-125-Albert_Rasko - "Albert Rasko".
+
+
+f:folge-125-Alwin_Docker - "Alwin Docker".
+
+
+f:folge-125-Anja_Rasko - "Anja Rasko".
+
+
+f:folge-125-Evelyn - "Evelyn".
+
+
+f:folge-125-Grohmann - "Grohmann".
+
+
+f:folge-125-Krassner - "Krassner".
+
+
+f:folge-125-Kurt_Eger - "Kurt Eger".
+
+
+f:folge-125-Michael_Rasko - "Michael Rasko".
+
+
+f:folge-126-Andreas_Hessler - "Andreas Hessler".
+
+
+f:folge-126-Helga - "Helga".
+
+
+f:folge-126-Ingo_Stettner - "Ingo Stettner".
+
+
+f:folge-126-Julia_Stettner - "Julia Stettner".
+
+
+f:folge-126-Lapper - "Lapper".
+
+
+f:folge-126-Roland_Marks - "Roland Marks".
+
+
+f:folge-126-Schumann - "Schumann".
+
+
+f:folge-126-Wolfgang_Scholz - "Wolfgang Scholz".
+
+
+f:folge-127-Benno_Schliers - "Benno Schliers".
+
+
+f:folge-127-Erni_Weik - "Erni Weik".
+
+
+f:folge-127-Heinz_Weik - "Heinz Weik".
+
+
+f:folge-127-Helene_Asmy - "Helene Asmy".
+
+
+f:folge-127-Herta_Stemmer - "Herta Stemmer".
+
+
+f:folge-127-Johann_Bracke - "Johann Bracke".
+
+
+f:folge-127-Madame_Asmy - "Madame Asmy".
+
+
+f:folge-127-Robert_Asmy - "Robert Asmy".
+
+
+f:folge-128-Anton_Hoppe - "Anton Hoppe".
+
+
+f:folge-128-Fred_Stargard - "Fred Stargard".
+
+
+f:folge-128-Gertrud_Simka - "Gertrud Simka".
+
+
+<http://psi.example.org/derrick/figur/folge-128-Helga_S%C3%B6dern> - "Helga Södern".
+
+
+f:folge-128-Ludwig_Simka - "Ludwig Simka".
+
+
+<http://psi.example.org/derrick/figur/folge-128-Stargard%2C_senior> - "Stargard, senior".
+
+
+f:folge-128-Udo_Hassler - "Udo Hassler".
+
+
+f:folge-128-Wiemann - "Wiemann".
+
+
+f:folge-129-Bernhard_D._Kolewski - "Bernhard D. Kolewski".
+
+
+f:folge-129-Frau_Meissner - "Frau Meissner".
+
+
+f:folge-129-Herr_Diebolz - "Herr Diebolz".
+
+
+f:folge-129-Kellner_Kajus - "Kellner Kajus".
+
+
+f:folge-129-Klaus_Diebolz - "Klaus Diebolz".
+
+
+f:folge-129-Liane_Diebolz - "Liane Diebolz".
+
+
+f:folge-129-Maria - "Maria".
+
+
+f:folge-129-Prokurist_Heffner - "Prokurist Heffner".
+
+
+f:folge-130-Anita_Henk - "Anita Henk".
+
+
+<http://psi.example.org/derrick/figur/folge-130-Chefin_in_Parf%C3%BCmerie> - "Chefin in Parfümerie".
+
+
+f:folge-130-Frau_Born - "Frau Born".
+
+
+f:folge-130-Herr_Born - "Herr Born".
+
+
+f:folge-130-Kurt_Born - "Kurt Born".
+
+
+f:folge-130-Kusich - "Kusich".
+
+
+f:folge-130-Schwester_Anna - "Schwester Anna".
+
+
+f:folge-130-Schwester_Hilde - "Schwester Hilde".
+
+
+f:folge-131-Annegret_Rotter - "Annegret Rotter".
+
+
+f:folge-131-Dr._Bomann - "Dr. Bomann".
+
+
+f:folge-131-Elvira_Bomann - "Elvira Bomann".
+
+
+f:folge-131-Frau_Seyner - "Frau Seyner".
+
+
+f:folge-131-Herr_Stoll - "Herr Stoll".
+
+
+f:folge-131-Honold - "Honold".
+
+
+f:folge-131-Kriminaldirektor_Golz - "Kriminaldirektor Golz".
+
+
+f:folge-131-Rechtsanwalt_Strobel - "Rechtsanwalt Strobel".
+
+
+f:folge-131-Roberta_Bomann - "Roberta Bomann".
+
+
+f:folge-131-Rotter - "Rotter".
+
+
+f:folge-131-Sobach - "Sobach".
+
+
+f:folge-132-Adrian_Schycker - "Adrian Schycker".
+
+
+f:folge-132-Frau_Dr._Lissner - "Frau Dr. Lissner".
+
+
+f:folge-132-Gerhard_Trosse - "Gerhard Trosse".
+
+
+f:folge-132-Heinz_Lissner - "Heinz Lissner".
+
+
+f:folge-133-Agnes_Linder - "Agnes Linder".
+
+
+f:folge-133-Albert_Sussloff - "Albert Sussloff".
+
+
+f:folge-133-Bertold_Linder - "Bertold Linder".
+
+
+f:folge-133-Hans_Glogau - "Hans Glogau".
+
+
+f:folge-133-Harald_Linder - "Harald Linder".
+
+
+f:folge-133-Ilse_Becker - "Ilse Becker".
+
+
+f:folge-133-Robert_Linder - "Robert Linder".
+
+
+f:folge-133-Rudolf_Dorsen - "Rudolf Dorsen".
+
+
+f:folge-134-Dr._Kestrich - "Dr. Kestrich".
+
+
+f:folge-134-Dr._Rohner - "Dr. Rohner".
+
+
+f:folge-134-Frau_Brack - "Frau Brack".
+
+
+f:folge-134-Frau_Dr._Hofer - "Frau Dr. Hofer".
+
+
+f:folge-134-Frau_Rohner - "Frau Rohner".
+
+
+f:folge-134-Katrin_May - "Katrin May".
+
+
+<http://psi.example.org/derrick/figur/folge-134-Nina_M%C3%BCller> - "Nina Müller".
+
+
+f:folge-134-Ralf_Becker - "Ralf Becker".
+
+
+f:folge-134-Studienrat_Hammer - "Studienrat Hammer".
+
+
+f:folge-135-Anna_Bohl - "Anna Bohl".
+
+
+f:folge-135-Erich_Lesko - "Erich Lesko".
+
+
+f:folge-135-Franz_Weiler - "Franz Weiler".
+
+
+f:folge-135-Frau_Weiler - "Frau Weiler".
+
+
+f:folge-135-Thea_Bohl - "Thea Bohl".
+
+
+f:folge-135-Ulrich_Bohl - "Ulrich Bohl".
+
+
+f:folge-135-Walter_Bohl - "Walter Bohl".
+
+
+f:folge-136-Biggy - "Biggy".
+
+
+f:folge-136-Frau_Heilmann - "Frau Heilmann".
+
+
+f:folge-136-Frau_Herbach - "Frau Herbach".
+
+
+f:folge-136-Hassel - "Hassel".
+
+
+f:folge-136-Herr_Herbach - "Herr Herbach".
+
+
+f:folge-136-Koller - "Koller".
+
+
+f:folge-136-Manuel - "Manuel".
+
+
+f:folge-136-Weber - "Weber".
+
+
+f:folge-137-Anita - "Anita".
+
+
+f:folge-137-Bertram_Tass - "Bertram Tass".
+
+
+f:folge-137-Else_Naujock - "Else Naujock".
+
+
+f:folge-137-Frank - "Frank".
+
+
+f:folge-137-Frau_Anders - "Frau Anders".
+
+
+f:folge-137-Martina - "Martina".
+
+
+f:folge-137-Schuler - "Schuler".
+
+
+f:folge-137-Walter - "Walter".
+
+
+f:folge-137-Wenk - "Wenk".
+
+
+f:folge-138-Alwin_Hauweg - "Alwin Hauweg".
+
+
+f:folge-138-Erich_Fiska - "Erich Fiska".
+
+
+f:folge-138-Frau_Hauweg - "Frau Hauweg".
+
+
+f:folge-138-Jakob_Viersen - "Jakob Viersen".
+
+
+f:folge-138-Karl_Hauweg - "Karl Hauweg".
+
+
+f:folge-138-Krositz - "Krositz".
+
+
+f:folge-138-Susanne_Sokal - "Susanne Sokal".
+
+
+f:folge-138-Vater_Fiska - "Vater Fiska".
+
+
+f:folge-139-Adrian_Bossner - "Adrian Bossner".
+
+
+f:folge-139-Erich_Schuster - "Erich Schuster".
+
+
+f:folge-139-Erika_Schuster - "Erika Schuster".
+
+
+f:folge-139-Johannes_Halsner - "Johannes Halsner".
+
+
+f:folge-139-Juwelier_Masoni - "Juwelier Masoni".
+
+
+f:folge-139-Lene_Wiesner - "Lene Wiesner".
+
+
+f:folge-139-Sohn_Wiesner - "Sohn Wiesner".
+
+
+f:folge-139-Wachmann_Wiesner - "Wachmann Wiesner".
+
+
+f:folge-140-Carmen_Kolka - "Carmen Kolka".
+
+
+f:folge-140-Hans_Mahler - "Hans Mahler".
+
+
+f:folge-140-Herr_Kolka - "Herr Kolka".
+
+
+f:folge-140-Herta_Kolka - "Herta Kolka".
+
+
+f:folge-140-Hubert_Kolka - "Hubert Kolka".
+
+
+f:folge-140-Koby - "Koby".
+
+
+f:folge-140-Ralf_Kolka - "Ralf Kolka".
+
+
+f:folge-140-Reinhard_Wessel - "Reinhard Wessel".
+
+
+f:folge-140-Rocco_Gretschkow - "Rocco Gretschkow".
+
+
+f:folge-141-Bettina_Brosch - "Bettina Brosch".
+
+
+<http://psi.example.org/derrick/figur/folge-141-Carina_M%C3%BCller-Brode> - "Carina Müller-Brode".
+
+
+f:folge-141-Dr._Krosinger - "Dr. Krosinger".
+
+
+f:folge-141-Dr._Schwede - "Dr. Schwede".
+
+
+f:folge-141-Franz_Brosch - "Franz Brosch".
+
+
+f:folge-141-Gerhard_Brosch - "Gerhard Brosch".
+
+
+<http://psi.example.org/derrick/figur/folge-141-Hans_M%C3%BCller-Brode> - "Hans Müller-Brode".
+
+
+<http://psi.example.org/derrick/figur/folge-141-Richard_M%C3%BCnch> - "Richard Münch".
+
+
+f:folge-142-Adrian_Lutter - "Adrian Lutter".
+
+
+f:folge-142-Britta_Stolze - "Britta Stolze".
+
+
+f:folge-142-Dr._Walter_Schenk - "Dr. Walter Schenk".
+
+
+f:folge-142-Frau_Lutter - "Frau Lutter".
+
+
+f:folge-142-Georg_Rechtaler - "Georg Rechtaler".
+
+
+f:folge-142-Gregor_Ronda - "Gregor Ronda".
+
+
+f:folge-142-Hannelore_Schenk - "Hannelore Schenk".
+
+
+f:folge-142-Manni_Schliemann - "Manni Schliemann".
+
+
+f:folge-142-Ursula_Westhof - "Ursula Westhof".
+
+
+f:folge-143-Frau_Hasselbach - "Frau Hasselbach".
+
+
+f:folge-143-Greta_Riemann - "Greta Riemann".
+
+
+f:folge-143-Herr_Probeil - "Herr Probeil".
+
+
+f:folge-143-Jakob_Lohbach - "Jakob Lohbach".
+
+
+f:folge-143-Luise_Lohbach - "Luise Lohbach".
+
+
+f:folge-143-Robert_Hagener - "Robert Hagener".
+
+
+f:folge-143-Rudolf_Riemann - "Rudolf Riemann".
+
+
+f:folge-144-Albrecht_Weidau - "Albrecht Weidau".
+
+
+f:folge-144-Annelie_Weidau - "Annelie Weidau".
+
+
+f:folge-144-Erich_Pauli - "Erich Pauli".
+
+
+<http://psi.example.org/derrick/figur/folge-144-G%C3%B6sta_von_Turban> - "Gösta von Turban".
+
+
+f:folge-144-Hubert_Weidau - "Hubert Weidau".
+
+
+f:folge-144-Katharina_von_Turban - "Katharina von Turban".
+
+
+f:folge-144-Martina_Weidau - "Martina Weidau".
+
+
+f:folge-144-Richard_Hahn - "Richard Hahn".
+
+
+f:folge-144-Roland_Weidau - "Roland Weidau".
+
+
+f:folge-145-Arzt - "Arzt".
+
+
+f:folge-145-Eberhard_Bothe - "Eberhard Bothe".
+
+
+f:folge-145-Frau_Lohse - "Frau Lohse".
+
+
+f:folge-145-Georg_Bothe - "Georg Bothe".
+
+
+f:folge-145-Helene_Bothe - "Helene Bothe".
+
+
+f:folge-145-Ralf_Bothe - "Ralf Bothe".
+
+
+f:folge-146-Adi_Kessler - "Adi Kessler".
+
+
+f:folge-146-Dinah_Theimer - "Dinah Theimer".
+
+
+f:folge-146-Frau_Kieler - "Frau Kieler".
+
+
+<http://psi.example.org/derrick/figur/folge-146-Georg_G%C3%B6bel> - "Georg Göbel".
+
+
+f:folge-146-Helmut_Bossner - "Helmut Bossner".
+
+
+f:folge-146-Lydia_Theimer - "Lydia Theimer".
+
+
+f:folge-146-Martin_Theimer - "Martin Theimer".
+
+
+f:folge-146-Mischa_Kranz - "Mischa Kranz".
+
+
+f:folge-146-Robby_Bracht - "Robby Bracht".
+
+
+f:folge-146-Roland_Scholler - "Roland Scholler".
+
+
+<http://psi.example.org/derrick/figur/folge-146-Sekret%C3%A4rin> - "Sekretärin".
+
+
+f:folge-147-Dr._Anna_Kerwien - "Dr. Anna Kerwien".
+
+
+f:folge-147-Dr._Kraus - "Dr. Kraus".
+
+
+f:folge-147-Dr._Kroll - "Dr. Kroll".
+
+
+f:folge-147-Erich_Kerwien - "Erich Kerwien".
+
+
+f:folge-147-Frau_Schlehdorf - "Frau Schlehdorf".
+
+
+f:folge-147-Karl_Kerwien - "Karl Kerwien".
+
+
+f:folge-147-Professor_Schenker - "Professor Schenker".
+
+
+f:folge-148-Anja_Ruland - "Anja Ruland".
+
+
+f:folge-148-Anna_Wiebusch - "Anna Wiebusch".
+
+
+f:folge-148-Arzt - "Arzt".
+
+
+f:folge-148-Dr._Krohn - "Dr. Krohn".
+
+
+f:folge-148-Franz_Belter - "Franz Belter".
+
+
+f:folge-148-Herr_Rotter - "Herr Rotter".
+
+
+f:folge-148-Johannes_Ruland - "Johannes Ruland".
+
+
+f:folge-148-Margot_Ruland - "Margot Ruland".
+
+
+f:folge-149-Albert_Hufland - "Albert Hufland".
+
+
+f:folge-149-Alina_Bradley - "Alina Bradley".
+
+
+f:folge-149-Andrea_Hufland - "Andrea Hufland".
+
+
+f:folge-149-Dr._Heising - "Dr. Heising".
+
+
+f:folge-149-Dr._Soest - "Dr. Soest".
+
+
+f:folge-149-Frau_Soest - "Frau Soest".
+
+
+f:folge-150-Anna_Gerres - "Anna Gerres".
+
+
+f:folge-150-Anton_Gerres - "Anton Gerres".
+
+
+f:folge-150-Enrico_Paulista - "Enrico Paulista".
+
+
+f:folge-150-Erich_Bronner - "Erich Bronner".
+
+
+f:folge-150-Frau_Bronner - "Frau Bronner".
+
+
+f:folge-150-Frau_Gerres - "Frau Gerres".
+
+
+<http://psi.example.org/derrick/figur/folge-150-Frau_S%C3%BCskind> - "Frau Süskind".
+
+
+f:folge-150-Manfred_Gerres - "Manfred Gerres".
+
+
+f:folge-150-Martin_Bronner - "Martin Bronner".
+
+
+f:folge-150-Walter_Bronner - "Walter Bronner".
+
+
+f:folge-150-Wilhelm_Gerres - "Wilhelm Gerres".
+
+
+f:folge-151-Dagmar_Engler - "Dagmar Engler".
+
+
+f:folge-151-Heinz_Engler - "Heinz Engler".
+
+
+<http://psi.example.org/derrick/figur/folge-151-Helga_Sch%C3%B6nhauser> - "Helga Schönhauser".
+
+
+f:folge-151-Herr_Mertens - "Herr Mertens".
+
+
+f:folge-151-Martha_Mertens - "Martha Mertens".
+
+
+<http://psi.example.org/derrick/figur/folge-151-Rudolf_Sch%C3%B6nhauser> - "Rudolf Schönhauser".
+
+
+f:folge-151-Susi_Moll - "Susi Moll".
+
+
+f:folge-152-Frau_Huberti - "Frau Huberti".
+
+
+f:folge-152-Frau_Lindemann - "Frau Lindemann".
+
+
+f:folge-152-Frau_Lomer - "Frau Lomer".
+
+
+<http://psi.example.org/derrick/figur/folge-152-Frl._Sch%C3%B6nborn> - "Frl. Schönborn".
+
+
+f:folge-152-Patricia_Lomer - "Patricia Lomer".
+
+
+f:folge-152-Udo_Lindemann - "Udo Lindemann".
+
+
+f:folge-152-Ulrich_Huberti - "Ulrich Huberti".
+
+
+f:folge-153-Albert_Trabuhr - "Albert Trabuhr".
+
+
+f:folge-153-Dr._Trabuhr - "Dr. Trabuhr".
+
+
+f:folge-153-Frau_Trabuhr - "Frau Trabuhr".
+
+
+f:folge-153-Harald_Trabuhr - "Harald Trabuhr".
+
+
+<http://psi.example.org/derrick/figur/folge-153-Inge_F%C3%B6rster> - "Inge Förster".
+
+
+f:folge-154-Ewald_Potter - "Ewald Potter".
+
+
+f:folge-154-Hans_Potter - "Hans Potter".
+
+
+f:folge-154-Helene_Potter - "Helene Potter".
+
+
+f:folge-155-Conny_de_Mohl - "Conny de Mohl".
+
+
+f:folge-155-Dr._Roland - "Dr. Roland".
+
+
+f:folge-155-Erika_Marx - "Erika Marx".
+
+
+f:folge-155-Herr_de_Mohl - "Herr de Mohl".
+
+
+f:folge-155-Kind - "Kind".
+
+
+f:folge-155-Luise_Marx - "Luise Marx".
+
+
+f:folge-155-Marx - "Marx".
+
+
+f:folge-155-Walter_de_Mohl - "Walter de Mohl".
+
+
+f:folge-156-Emil_Miele - "Emil Miele".
+
+
+f:folge-156-Franziska_Miele - "Franziska Miele".
+
+
+f:folge-156-Martin_Koldau - "Martin Koldau".
+
+
+f:folge-157-Armand_Zoller - "Armand Zoller".
+
+
+f:folge-157-Arthur_Dribald - "Arthur Dribald".
+
+
+f:folge-157-Dora - "Dora".
+
+
+f:folge-157-Dr._Steinweg - "Dr. Steinweg".
+
+
+f:folge-157-Ewald_Scholler - "Ewald Scholler".
+
+
+f:folge-157-Raimund_Jakobs - "Raimund Jakobs".
+
+
+f:folge-157-Rezeptionist - "Rezeptionist".
+
+
+f:folge-157-Rita_Jakobs - "Rita Jakobs".
+
+
+f:folge-158-Bruno_Viebach - "Bruno Viebach".
+
+
+f:folge-158-Elena_Goos - "Elena Goos".
+
+
+f:folge-158-Frau_Messner - "Frau Messner".
+
+
+f:folge-158-Gregor_Goos - "Gregor Goos".
+
+
+f:folge-158-Ingrid_Goos - "Ingrid Goos".
+
+
+f:folge-158-Konsul_Goos - "Konsul Goos".
+
+
+f:folge-158-Linda_Corvin - "Linda Corvin".
+
+
+f:folge-158-Malente - "Malente".
+
+
+f:folge-158-Thomas_Goos - "Thomas Goos".
+
+
+f:folge-159-Albert_Wilke - "Albert Wilke".
+
+
+f:folge-159-Bettina_Rudolf - "Bettina Rudolf".
+
+
+f:folge-159-Dr._Brigitte_Kordes - "Dr. Brigitte Kordes".
+
+
+f:folge-159-Hilde_Kordes - "Hilde Kordes".
+
+
+f:folge-159-Horst_Wilke - "Horst Wilke".
+
+
+f:folge-159-Werner_Kordes - "Werner Kordes".
+
+
+f:folge-160-Anette_Schilling - "Anette Schilling".
+
+
+f:folge-160-Dr._Pfeifer - "Dr. Pfeifer".
+
+
+f:folge-160-Jakob_Binder - "Jakob Binder".
+
+
+f:folge-160-Max_Binder - "Max Binder".
+
+
+f:folge-160-Stockey - "Stockey".
+
+
+f:folge-160-Susanne_Binder - "Susanne Binder".
+
+
+f:folge-161-Anna_Beermann - "Anna Beermann".
+
+
+f:folge-161-Frau_Flor - "Frau Flor".
+
+
+f:folge-161-Harald_Kernbacher - "Harald Kernbacher".
+
+
+f:folge-161-Holwein - "Holwein".
+
+
+f:folge-161-Maurer - "Maurer".
+
+
+f:folge-161-Rolffs - "Rolffs".
+
+
+f:folge-161-Rudolf_Beermann - "Rudolf Beermann".
+
+
+<http://psi.example.org/derrick/figur/folge-161-Sch%C3%B6nwald> - "Schönwald".
+
+
+f:folge-161-Ziegler - "Ziegler".
+
+
+f:folge-162-Andrea_Weimann - "Andrea Weimann".
+
+
+f:folge-162-Anna_Kubelke - "Anna Kubelke".
+
+
+f:folge-162-Ariane_Budde - "Ariane Budde".
+
+
+f:folge-162-Frau_Altman - "Frau Altman".
+
+
+<http://psi.example.org/derrick/figur/folge-162-Harald_K%C3%B6rner> - "Harald Körner".
+
+
+f:folge-162-Ingo_Wecker - "Ingo Wecker".
+
+
+f:folge-162-Prof._Danecker - "Prof. Danecker".
+
+
+f:folge-162-Roland_Weimann - "Roland Weimann".
+
+
+f:folge-162-Rust - "Rust".
+
+
+f:folge-162-Steinlechner - "Steinlechner".
+
+
+f:folge-163-Arlene_Kessler - "Arlene Kessler".
+
+
+f:folge-163-Erich_Karau - "Erich Karau".
+
+
+f:folge-163-Heine - "Heine".
+
+
+f:folge-163-Herr_Wege - "Herr Wege".
+
+
+f:folge-163-Karla_Wege - "Karla Wege".
+
+
+f:folge-163-Rausch - "Rausch".
+
+
+f:folge-163-Willy_Laufen - "Willy Laufen".
+
+
+f:folge-164-Anna - "Anna".
+
+
+f:folge-164-Anwalt - "Anwalt".
+
+
+<http://psi.example.org/derrick/figur/folge-164-Arnold_Wegm%C3%BCller> - "Arnold Wegmüller".
+
+
+f:folge-164-Gregor - "Gregor".
+
+
+f:folge-164-Kolowski - "Kolowski".
+
+
+f:folge-164-Mario - "Mario".
+
+
+f:folge-164-Ruth - "Ruth".
+
+
+f:folge-165-Barkellner - "Barkellner".
+
+
+f:folge-165-Dr._Stein - "Dr. Stein".
+
+
+f:folge-165-Hanna_Reimers - "Hanna Reimers".
+
+
+f:folge-165-Herwig - "Herwig".
+
+
+f:folge-165-Lydia - "Lydia".
+
+
+f:folge-165-Roland - "Roland".
+
+
+f:folge-165-Sanders - "Sanders".
+
+
+f:folge-165-Sundermann - "Sundermann".
+
+
+f:folge-166-Anita_Drehwitz - "Anita Drehwitz".
+
+
+f:folge-166-Arnold_Lippert - "Arnold Lippert".
+
+
+f:folge-166-Dr._Lothar_Lippert - "Dr. Lothar Lippert".
+
+
+f:folge-166-Frau_Wolf - "Frau Wolf".
+
+
+f:folge-166-Hofner - "Hofner".
+
+
+f:folge-166-Inge_Lippert - "Inge Lippert".
+
+
+f:folge-166-Ruth_Lippert - "Ruth Lippert".
+
+
+f:folge-166-Walter_Lippert - "Walter Lippert".
+
+
+f:folge-166-Wirth - "Wirth".
+
+
+f:folge-167-Erich_Rieger - "Erich Rieger".
+
+
+f:folge-167-Helga_Weinert - "Helga Weinert".
+
+
+f:folge-167-Paula_Bertram - "Paula Bertram".
+
+
+<http://psi.example.org/derrick/figur/folge-167-Randy_Schr%C3%B6der> - "Randy Schröder".
+
+
+f:folge-167-Rudolf_Schowenke - "Rudolf Schowenke".
+
+
+f:folge-167-Ulrich_Schowenke - "Ulrich Schowenke".
+
+
+f:folge-168-Anita - "Anita".
+
+
+f:folge-168-Breuer - "Breuer".
+
+
+f:folge-168-Diener - "Diener".
+
+
+f:folge-168-Dr._Wienand - "Dr. Wienand".
+
+
+f:folge-168-Frau_Vidua - "Frau Vidua".
+
+
+f:folge-168-Frau_von_Wedel - "Frau von Wedel".
+
+
+f:folge-168-Ria - "Ria".
+
+
+f:folge-168-Roland_Kranz - "Roland Kranz".
+
+
+f:folge-168-Schumann - "Schumann".
+
+
+f:folge-169-Armin_Rasche - "Armin Rasche".
+
+
+f:folge-169-Bernd_Druse - "Bernd Druse".
+
+
+f:folge-169-Blohme - "Blohme".
+
+
+f:folge-169-Dr._Wedekind - "Dr. Wedekind".
+
+
+f:folge-169-Eva_Hauk - "Eva Hauk".
+
+
+f:folge-169-Herr_Hauk - "Herr Hauk".
+
+
+f:folge-169-Kabek - "Kabek".
+
+
+f:folge-169-Lore_Hauk - "Lore Hauk".
+
+
+f:folge-170-Amalie_Rutger - "Amalie Rutger".
+
+
+f:folge-170-Burke - "Burke".
+
+
+<http://psi.example.org/derrick/figur/folge-170-Gef%C3%A4ngnisdirektor> - "Gefängnisdirektor".
+
+
+f:folge-170-Karl_Rutger - "Karl Rutger".
+
+
+f:folge-170-Marianne_Burke - "Marianne Burke".
+
+
+f:folge-170-Pensionswirtin - "Pensionswirtin".
+
+
+f:folge-170-Werner_Rutger - "Werner Rutger".
+
+
+f:folge-171-Bodetzki - "Bodetzki".
+
+
+f:folge-171-Brandeck - "Brandeck".
+
+
+f:folge-171-Dr._Heimhaus - "Dr. Heimhaus".
+
+
+f:folge-171-Jonas_Velden - "Jonas Velden".
+
+
+f:folge-171-Korte - "Korte".
+
+
+f:folge-171-Roska_May - "Roska May".
+
+
+f:folge-171-Strobel - "Strobel".
+
+
+f:folge-171-Tubeck - "Tubeck".
+
+
+f:folge-171-Walter_Loss - "Walter Loss".
+
+
+f:folge-172-Heimeran - "Heimeran".
+
+
+f:folge-172-Irene_Stubach - "Irene Stubach".
+
+
+f:folge-172-Karl_Bode - "Karl Bode".
+
+
+f:folge-172-Katja_Lohnert - "Katja Lohnert".
+
+
+f:folge-172-Kudau - "Kudau".
+
+
+f:folge-172-Ralf_Stubach - "Ralf Stubach".
+
+
+f:folge-172-Rudolf_Kissler - "Rudolf Kissler".
+
+
+f:folge-172-Steiner - "Steiner".
+
+
+f:folge-173-Bruno_Hauser - "Bruno Hauser".
+
+
+f:folge-173-Frau_Hauser - "Frau Hauser".
+
+
+f:folge-173-Hans_Seelmann - "Hans Seelmann".
+
+
+f:folge-173-Herr_Hauser - "Herr Hauser".
+
+
+f:folge-173-Notarzt - "Notarzt".
+
+
+f:folge-173-Ursula_Kieler - "Ursula Kieler".
+
+
+f:folge-174-Arthur - "Arthur".
+
+
+<http://psi.example.org/derrick/figur/folge-174-Frau_H%C3%A4ssler> - "Frau Hässler".
+
+
+<http://psi.example.org/derrick/figur/folge-174-J%C3%BCrgen_H%C3%A4ssler> - "Jürgen Hässler".
+
+
+f:folge-174-Kossler - "Kossler".
+
+
+f:folge-174-Oswald - "Oswald".
+
+
+f:folge-174-Rubina - "Rubina".
+
+
+<http://psi.example.org/derrick/figur/folge-175-Arthur_R%C3%BCge> - "Arthur Rüge".
+
+
+f:folge-175-Erich_Kugler - "Erich Kugler".
+
+
+f:folge-175-Gudrun_Riemann - "Gudrun Riemann".
+
+
+f:folge-175-Oswald - "Oswald".
+
+
+f:folge-175-Tilde_Riemann - "Tilde Riemann".
+
+
+f:folge-176-Cornelia - "Cornelia".
+
+
+f:folge-176-Frau_Renzi - "Frau Renzi".
+
+
+f:folge-176-Henriette_Simon - "Henriette Simon".
+
+
+f:folge-176-Katharina - "Katharina".
+
+
+f:folge-176-Mutter_Renzi - "Mutter Renzi".
+
+
+f:folge-176-Renzi - "Renzi".
+
+
+f:folge-177-Arno_Bracht - "Arno Bracht".
+
+
+f:folge-177-Dr._Schwede - "Dr. Schwede".
+
+
+f:folge-177-Frau_Dr._Kolbe - "Frau Dr. Kolbe".
+
+
+f:folge-177-Mimi_Weiser - "Mimi Weiser".
+
+
+f:folge-177-Paul_Wickert - "Paul Wickert".
+
+
+f:folge-177-Sylvia_Mohn - "Sylvia Mohn".
+
+
+f:folge-177-Walter_Hessler - "Walter Hessler".
+
+
+f:folge-177-Wossnitz - "Wossnitz".
+
+
+f:folge-178-Bareck - "Bareck".
+
+
+f:folge-178-Barkeeper - "Barkeeper".
+
+
+f:folge-178-Frau_Leberecht - "Frau Leberecht".
+
+
+f:folge-178-Hoss - "Hoss".
+
+
+f:folge-178-Kluge - "Kluge".
+
+
+f:folge-178-Libeta - "Libeta".
+
+
+f:folge-178-Rosa - "Rosa".
+
+
+f:folge-178-Rossner - "Rossner".
+
+
+f:folge-179-Eckler - "Eckler".
+
+
+<http://psi.example.org/derrick/figur/folge-179-Gr%C3%B6ner> - "Gröner".
+
+
+f:folge-179-Justus_Roth - "Justus Roth".
+
+
+f:folge-179-Luders - "Luders".
+
+
+f:folge-179-Marion_Schulz - "Marion Schulz".
+
+
+f:folge-179-Moseck - "Moseck".
+
+
+f:folge-179-Paul - "Paul".
+
+
+f:folge-179-Wanda - "Wanda".
+
+
+f:folge-180-Ali - "Ali".
+
+
+<http://psi.example.org/derrick/figur/folge-180-D%C3%BCsberg> - "Düsberg".
+
+
+f:folge-180-Empfangschef - "Empfangschef".
+
+
+f:folge-180-Frau_Friess - "Frau Friess".
+
+
+f:folge-180-Herr_Friess - "Herr Friess".
+
+
+f:folge-180-Kruns - "Kruns".
+
+
+f:folge-180-Marion_Siebach - "Marion Siebach".
+
+
+f:folge-180-Prof._Siebach - "Prof. Siebach".
+
+
+f:folge-180-Soest - "Soest".
+
+
+f:folge-181-Haffner - "Haffner".
+
+
+f:folge-181-Herrmann_Bohl - "Herrmann Bohl".
+
+
+f:folge-181-Karl_Diebach - "Karl Diebach".
+
+
+f:folge-181-Maria_Diebach - "Maria Diebach".
+
+
+f:folge-181-Pfarrer_Bohl - "Pfarrer Bohl".
+
+
+f:folge-182-1._Bankangestellter - "1. Bankangestellter".
+
+
+f:folge-182-2._Bankangestellter - "2. Bankangestellter".
+
+
+f:folge-182-Alfons_Voss - "Alfons Voss".
+
+
+f:folge-182-Arno_Huber - "Arno Huber".
+
+
+f:folge-182-Arthur_Kissner - "Arthur Kissner".
+
+
+f:folge-182-Erich_Kleemann - "Erich Kleemann".
+
+
+f:folge-182-Gustav_Schwabe - "Gustav Schwabe".
+
+
+f:folge-182-Jakob_Engler - "Jakob Engler".
+
+
+f:folge-182-Jobst_Huber - "Jobst Huber".
+
+
+f:folge-182-Kissner - "Kissner".
+
+
+f:folge-182-Kossmann - "Kossmann".
+
+
+f:folge-182-Michaela_Huber - "Michaela Huber".
+
+
+f:folge-182-Vertreter - "Vertreter".
+
+
+f:folge-183-Hauser - "Hauser".
+
+
+f:folge-183-Homburg - "Homburg".
+
+
+f:folge-183-Lore_Kargus - "Lore Kargus".
+
+
+f:folge-183-Ralf_Kargus - "Ralf Kargus".
+
+
+f:folge-183-Thea_Grogau - "Thea Grogau".
+
+
+f:folge-183-Udo_Tessinger - "Udo Tessinger".
+
+
+f:folge-184-Birgit_Paulsen - "Birgit Paulsen".
+
+
+f:folge-184-Dorn - "Dorn".
+
+
+f:folge-184-Dr._Curtius - "Dr. Curtius".
+
+
+f:folge-184-Dr._Spitz - "Dr. Spitz".
+
+
+f:folge-184-Kastrup - "Kastrup".
+
+
+<http://psi.example.org/derrick/figur/folge-184-Pr%C3%A4sident> - "Präsident".
+
+
+f:folge-184-Weck - "Weck".
+
+
+f:folge-184-Wolf - "Wolf".
+
+
+f:folge-185-Ali_Biber - "Ali Biber".
+
+
+f:folge-185-Frau_Soest - "Frau Soest".
+
+
+f:folge-185-Judith_Loska - "Judith Loska".
+
+
+f:folge-185-Professor_Laux - "Professor Laux".
+
+
+f:folge-185-Susanne_Loska - "Susanne Loska".
+
+
+f:folge-185-Wirt - "Wirt".
+
+
+f:folge-186-Albert_Rolfs - "Albert Rolfs".
+
+
+f:folge-186-Carola_Tossner - "Carola Tossner".
+
+
+f:folge-186-Dickmann - "Dickmann".
+
+
+f:folge-186-Dr._Anita_Rolfs - "Dr. Anita Rolfs".
+
+
+f:folge-186-Tossner - "Tossner".
+
+
+f:folge-186-Ulrich_Kraus - "Ulrich Kraus".
+
+
+f:folge-187-Arnold_Kiesing - "Arnold Kiesing".
+
+
+f:folge-187-Benno_Sebald - "Benno Sebald".
+
+
+f:folge-187-Kiwi_Liebner - "Kiwi Liebner".
+
+
+f:folge-187-Liebner - "Liebner".
+
+
+f:folge-188-Bollmann - "Bollmann".
+
+
+f:folge-188-Ingo_Wolf - "Ingo Wolf".
+
+
+f:folge-188-Malikowa - "Malikowa".
+
+
+f:folge-188-Marion - "Marion".
+
+
+f:folge-188-Peter_Roth - "Peter Roth".
+
+
+f:folge-188-Solinger - "Solinger".
+
+
+f:folge-188-Sundermann - "Sundermann".
+
+
+f:folge-189-Harold_Kubeck - "Harold Kubeck".
+
+
+f:folge-189-Herr_Wegener - "Herr Wegener".
+
+
+f:folge-189-Lissy_Stein - "Lissy Stein".
+
+
+f:folge-189-Lotte_Wegener - "Lotte Wegener".
+
+
+f:folge-189-Schiska - "Schiska".
+
+
+f:folge-189-Wessel - "Wessel".
+
+
+f:folge-190-Anton_Fischer - "Anton Fischer".
+
+
+f:folge-190-Eduard_Senger - "Eduard Senger".
+
+
+f:folge-190-Erich_Fries - "Erich Fries".
+
+
+f:folge-190-Frau_Roon - "Frau Roon".
+
+
+f:folge-190-Frau_Senger - "Frau Senger".
+
+
+<http://psi.example.org/derrick/figur/folge-190-G%C3%A4rtner> - "Gärtner".
+
+
+f:folge-190-Herr_Roon - "Herr Roon".
+
+
+f:folge-190-Hetti_Roon - "Hetti Roon".
+
+
+f:folge-190-Manni_Georg - "Manni Georg".
+
+
+f:folge-190-Margarete_Fischer - "Margarete Fischer".
+
+
+f:folge-190-Olga_Fries - "Olga Fries".
+
+
+f:folge-190-Robert_Fischer - "Robert Fischer".
+
+
+f:folge-191-Albert_Lussmann - "Albert Lussmann".
+
+
+f:folge-191-Arthur_Lickmann - "Arthur Lickmann".
+
+
+f:folge-191-Donath - "Donath".
+
+
+<http://psi.example.org/derrick/figur/folge-191-Dr._Sch%C3%B6ne> - "Dr. Schöne".
+
+
+f:folge-191-Erich_Heller - "Erich Heller".
+
+
+f:folge-191-Frau_Joksch - "Frau Joksch".
+
+
+f:folge-191-Herr_Joksch - "Herr Joksch".
+
+
+f:folge-191-Herr_Kessler - "Herr Kessler".
+
+
+f:folge-191-Ina_Straub - "Ina Straub".
+
+
+f:folge-191-Krankenschwester - "Krankenschwester".
+
+
+f:folge-191-Psychiater - "Psychiater".
+
+
+f:folge-192-Albert_Kremer - "Albert Kremer".
+
+
+f:folge-192-Arno_Hauk - "Arno Hauk".
+
+
+f:folge-192-Herr_Busse - "Herr Busse".
+
+
+f:folge-192-Herr_Hunold - "Herr Hunold".
+
+
+f:folge-192-Junger_Mann - "Junger Mann".
+
+
+f:folge-192-Kati_Busse - "Kati Busse".
+
+
+f:folge-192-Kurt_Schenk - "Kurt Schenk".
+
+
+f:folge-192-Lisbeth_Hunold - "Lisbeth Hunold".
+
+
+f:folge-193-Dr._Steinitz - "Dr. Steinitz".
+
+
+f:folge-193-Eberhard_Kraus - "Eberhard Kraus".
+
+
+f:folge-193-Frau_Bessemer - "Frau Bessemer".
+
+
+f:folge-193-Harald_Bessemer - "Harald Bessemer".
+
+
+f:folge-193-Ilona_Reichel - "Ilona Reichel".
+
+
+f:folge-193-Professor_Reichel - "Professor Reichel".
+
+
+f:folge-194-Alfons_Koppel - "Alfons Koppel".
+
+
+f:folge-194-Carlo_Larossa - "Carlo Larossa".
+
+
+f:folge-194-Emil - "Emil".
+
+
+f:folge-194-Frau_Puschka - "Frau Puschka".
+
+
+f:folge-194-Hellwege - "Hellwege".
+
+
+f:folge-194-Herr_Puschka - "Herr Puschka".
+
+
+f:folge-194-Irma_Labuch - "Irma Labuch".
+
+
+f:folge-194-Josef_Steckel - "Josef Steckel".
+
+
+f:folge-194-Kessler - "Kessler".
+
+
+<http://psi.example.org/derrick/figur/folge-194-Pf%C3%B6rtner> - "Pförtner".
+
+
+f:folge-194-Steiner - "Steiner".
+
+
+f:folge-195-Alfred_Steiner - "Alfred Steiner".
+
+
+f:folge-195-Anwalt - "Anwalt".
+
+
+f:folge-195-Caprese - "Caprese".
+
+
+f:folge-195-Carl_Runold - "Carl Runold".
+
+
+f:folge-195-Gaug - "Gaug".
+
+
+f:folge-195-Inge_Runold - "Inge Runold".
+
+
+f:folge-195-Renata - "Renata".
+
+
+f:folge-196-Benno_Hauke - "Benno Hauke".
+
+
+<http://psi.example.org/derrick/figur/folge-196-Dr._Sch%C3%B6ler> - "Dr. Schöler".
+
+
+f:folge-196-Eva_Meineke - "Eva Meineke".
+
+
+f:folge-196-Herr_Meineke - "Herr Meineke".
+
+
+f:folge-196-Isabel_Lenz - "Isabel Lenz".
+
+
+<http://psi.example.org/derrick/figur/folge-196-J%C3%BCrgen_Klose> - "Jürgen Klose".
+
+
+f:folge-196-Martha_Hauke - "Martha Hauke".
+
+
+f:folge-197-Anna_Dehmel - "Anna Dehmel".
+
+
+f:folge-197-Bubach - "Bubach".
+
+
+<http://psi.example.org/derrick/figur/folge-197-Diana_Sch%C3%B6nfelder> - "Diana Schönfelder".
+
+
+<http://psi.example.org/derrick/figur/folge-197-Dr._Sch%C3%B6nfelder> - "Dr. Schönfelder".
+
+
+f:folge-197-Grunau - "Grunau".
+
+
+f:folge-197-Hans_Droste - "Hans Droste".
+
+
+f:folge-197-Maria_Langer - "Maria Langer".
+
+
+<http://psi.example.org/derrick/figur/folge-197-Sophie_Schl%C3%BCter> - "Sophie Schlüter".
+
+
+f:folge-199-Dina_Wolf - "Dina Wolf".
+
+
+f:folge-199-Gerhard_Kuhnert - "Gerhard Kuhnert".
+
+
+f:folge-199-Gossmann - "Gossmann".
+
+
+<http://psi.example.org/derrick/figur/folge-199-Holger_K%C3%BCster> - "Holger Küster".
+
+
+<http://psi.example.org/derrick/figur/folge-199-J%C3%BCrgen_Soost> - "Jürgen Soost".
+
+
+f:folge-199-Kuhnert_sen. - "Kuhnert sen.".
+
+
+f:folge-199-Lubich - "Lubich".
+
+
+f:folge-200-Dr._Bloss - "Dr. Bloss".
+
+
+f:folge-200-Dr._Gessler - "Dr. Gessler".
+
+
+f:folge-200-Harald_Bloss - "Harald Bloss".
+
+
+f:folge-200-Kurt_Kubian - "Kurt Kubian".
+
+
+f:folge-200-Manuela_Bolitz - "Manuela Bolitz".
+
+
+f:folge-200-Walter_Bolitz - "Walter Bolitz".
+
+
+f:folge-201-Andrea_Zoller - "Andrea Zoller".
+
+
+f:folge-201-Bache - "Bache".
+
+
+f:folge-201-Helen_Kaminski - "Helen Kaminski".
+
+
+f:folge-201-Hubert_Zoller - "Hubert Zoller".
+
+
+f:folge-201-Kaminski - "Kaminski".
+
+
+f:folge-201-Schwacke - "Schwacke".
+
+
+f:folge-201-Weigand - "Weigand".
+
+
+f:folge-202-Andreas_Kordes - "Andreas Kordes".
+
+
+f:folge-202-Erich_Dustler - "Erich Dustler".
+
+
+f:folge-202-Jansen - "Jansen".
+
+
+f:folge-202-Katrin_Kordes - "Katrin Kordes".
+
+
+f:folge-202-Kinser - "Kinser".
+
+
+f:folge-202-Magda_Kordes - "Magda Kordes".
+
+
+f:folge-202-Rosa_Dustler - "Rosa Dustler".
+
+
+f:folge-203-Doris_Mundt - "Doris Mundt".
+
+
+f:folge-203-Frau_Alderhof - "Frau Alderhof".
+
+
+f:folge-203-Heidi_Roll - "Heidi Roll".
+
+
+f:folge-203-Lackner - "Lackner".
+
+
+f:folge-203-Orff - "Orff".
+
+
+f:folge-203-Rolf_Laduhn - "Rolf Laduhn".
+
+
+f:folge-203-Susi - "Susi".
+
+
+f:folge-204-Anita - "Anita".
+
+
+f:folge-204-Frau_Wiesner - "Frau Wiesner".
+
+
+f:folge-204-Helga_Wiesner - "Helga Wiesner".
+
+
+f:folge-204-Maitre - "Maitre".
+
+
+f:folge-204-Rudolf_Schalk - "Rudolf Schalk".
+
+
+<http://psi.example.org/derrick/figur/folge-204-Simon_Kr%C3%BCger> - "Simon Krüger".
+
+
+f:folge-205-Andrea_Bloch - "Andrea Bloch".
+
+
+f:folge-205-Anette_Heuer - "Anette Heuer".
+
+
+f:folge-205-Arzthelferin - "Arzthelferin".
+
+
+f:folge-205-Doktor_Bloch - "Doktor Bloch".
+
+
+f:folge-205-Erna_Glubitsch - "Erna Glubitsch".
+
+
+f:folge-205-Herr_Heuer - "Herr Heuer".
+
+
+f:folge-205-Igor_Brunner - "Igor Brunner".
+
+
+f:folge-205-Journalist - "Journalist".
+
+
+f:folge-205-Partygast - "Partygast".
+
+
+<http://psi.example.org/derrick/figur/folge-206-Berthold_Dr%C3%B6ger> - "Berthold Dröger".
+
+
+f:folge-206-Erwin_Rossky - "Erwin Rossky".
+
+
+f:folge-206-Georg_Tanner - "Georg Tanner".
+
+
+f:folge-206-Gerlinde_Rossky - "Gerlinde Rossky".
+
+
+f:folge-206-Gregor_Mansdorf - "Gregor Mansdorf".
+
+
+<http://psi.example.org/derrick/figur/folge-206-Herr_Dr%C3%B6ger> - "Herr Dröger".
+
+
+f:folge-206-Isolde_Rossky - "Isolde Rossky".
+
+
+f:folge-206-Kellner - "Kellner".
+
+
+f:folge-206-Kurt_Rossky - "Kurt Rossky".
+
+
+f:folge-206-Roberta_Rossky - "Roberta Rossky".
+
+
+f:folge-206-Sudhoff - "Sudhoff".
+
+
+f:folge-207-Amelie_Sassner - "Amelie Sassner".
+
+
+f:folge-207-Andrea_Gartner - "Andrea Gartner".
+
+
+f:folge-207-Berthold_Holzinger - "Berthold Holzinger".
+
+
+f:folge-207-Frau_Holzinger - "Frau Holzinger".
+
+
+f:folge-207-Hugo_Sassner - "Hugo Sassner".
+
+
+f:folge-207-Kioskbesitzer - "Kioskbesitzer".
+
+
+f:folge-207-Maria - "Maria".
+
+
+f:folge-207-Nissen - "Nissen".
+
+
+f:folge-207-Polizist - "Polizist".
+
+
+<http://psi.example.org/derrick/figur/folge-207-Sekret%C3%A4rin> - "Sekretärin".
+
+
+f:folge-207-Speditionsunternehmer - "Speditionsunternehmer".
+
+
+f:folge-207-Taxifahrer - "Taxifahrer".
+
+
+f:folge-208-Anna_Krowacs - "Anna Krowacs".
+
+
+f:folge-208-Berthold_Masinger - "Berthold Masinger".
+
+
+f:folge-208-Grigo - "Grigo".
+
+
+<http://psi.example.org/derrick/figur/folge-208-K%C3%B6rner> - "Körner".
+
+
+f:folge-208-Krowacs - "Krowacs".
+
+
+f:folge-208-Kurt_Masinger - "Kurt Masinger".
+
+
+f:folge-208-Lena_Masinger - "Lena Masinger".
+
+
+f:folge-208-Schuster - "Schuster".
+
+
+f:folge-208-Wirt - "Wirt".
+
+
+f:folge-209-Dr._Strohm - "Dr. Strohm".
+
+
+f:folge-209-Dr._Wischenko - "Dr. Wischenko".
+
+
+f:folge-209-Helga_Strohm - "Helga Strohm".
+
+
+f:folge-209-Herr_Kollwitz - "Herr Kollwitz".
+
+
+f:folge-209-Hotelmanager - "Hotelmanager".
+
+
+f:folge-209-Lore_Wischenko - "Lore Wischenko".
+
+
+f:folge-209-Martin_Kollwitz - "Martin Kollwitz".
+
+
+f:folge-209-Martina_Kollwitz - "Martina Kollwitz".
+
+
+f:folge-209-Persky - "Persky".
+
+
+f:folge-209-Polizist - "Polizist".
+
+
+f:folge-209-Sieber - "Sieber".
+
+
+f:folge-210-Anneliese - "Anneliese".
+
+
+f:folge-210-Dr._Lessner - "Dr. Lessner".
+
+
+f:folge-210-Gustav_Borgelt - "Gustav Borgelt".
+
+
+f:folge-210-Manfred_Lessner - "Manfred Lessner".
+
+
+f:folge-210-Marlene_Schall - "Marlene Schall".
+
+
+f:folge-210-Rosanna_Wolf - "Rosanna Wolf".
+
+
+f:folge-210-Susanne_Borgelt - "Susanne Borgelt".
+
+
+f:folge-210-Zimmerkellner - "Zimmerkellner".
+
+
+f:folge-211-Dowald - "Dowald".
+
+
+f:folge-211-Frau_Maurus - "Frau Maurus".
+
+
+f:folge-211-Frau_Weber - "Frau Weber".
+
+
+f:folge-211-Greta_Zinser - "Greta Zinser".
+
+
+f:folge-211-Hahne - "Hahne".
+
+
+f:folge-211-Justus_Breuer - "Justus Breuer".
+
+
+f:folge-211-Linda_Maurus - "Linda Maurus".
+
+
+f:folge-211-Reni_Zinser - "Reni Zinser".
+
+
+f:folge-211-Roland_Maurus - "Roland Maurus".
+
+
+f:folge-211-Susanne_Zinser - "Susanne Zinser".
+
+
+f:folge-211-Weber - "Weber".
+
+
+f:folge-212-Agnes_Feldhaus - "Agnes Feldhaus".
+
+
+f:folge-212-Arthur_Bellmann - "Arthur Bellmann".
+
+
+f:folge-212-Beatrice_Deininger - "Beatrice Deininger".
+
+
+f:folge-212-David_Herbst - "David Herbst".
+
+
+f:folge-212-Helga_Feldhaus - "Helga Feldhaus".
+
+
+f:folge-212-Oberschwester - "Oberschwester".
+
+
+f:folge-212-Oliver_Vogt - "Oliver Vogt".
+
+
+f:folge-212-Professor_Zoller - "Professor Zoller".
+
+
+f:folge-212-Ruth - "Ruth".
+
+
+f:folge-213-Alfred_Reimann - "Alfred Reimann".
+
+
+f:folge-213-Frau_Kussner - "Frau Kussner".
+
+
+f:folge-213-Herr_Kussner - "Herr Kussner".
+
+
+<http://psi.example.org/derrick/figur/folge-213-Herr_Sch%C3%B6nholz> - "Herr Schönholz".
+
+
+f:folge-213-Joachim_Kramer - "Joachim Kramer".
+
+
+f:folge-213-Katrin_Kramer - "Katrin Kramer".
+
+
+f:folge-213-Robert_Rudger - "Robert Rudger".
+
+
+f:folge-213-Thorsten_Hohner - "Thorsten Hohner".
+
+
+f:folge-213-Walter_Kussner - "Walter Kussner".
+
+
+f:folge-214-Agnes_Heckel - "Agnes Heckel".
+
+
+f:folge-214-Alfred_Heckel - "Alfred Heckel".
+
+
+f:folge-214-Benno - "Benno".
+
+
+f:folge-214-Herr_Grosser - "Herr Grosser".
+
+
+f:folge-214-Ingo_Donath - "Ingo Donath".
+
+
+f:folge-214-Rezeptionist - "Rezeptionist".
+
+
+f:folge-214-Rezeptionistin - "Rezeptionistin".
+
+
+f:folge-214-Roomservice - "Roomservice".
+
+
+f:folge-214-Simone - "Simone".
+
+
+<http://psi.example.org/derrick/figur/folge-214-T%C3%A4nzerin> - "Tänzerin".
+
+
+f:folge-215-Abel - "Abel".
+
+
+f:folge-215-Alexander_Sierich - "Alexander Sierich".
+
+
+f:folge-215-Benny_Abel - "Benny Abel".
+
+
+f:folge-215-Dr._Riemann - "Dr. Riemann".
+
+
+f:folge-215-Frau_Haupt - "Frau Haupt".
+
+
+f:folge-215-Helena_Sierich - "Helena Sierich".
+
+
+f:folge-215-Krankenschwester - "Krankenschwester".
+
+
+f:folge-215-Robert_Sierich - "Robert Sierich".
+
+
+f:folge-215-Ruth_Abel - "Ruth Abel".
+
+
+f:folge-215-Tina_Sierich - "Tina Sierich".
+
+
+f:folge-215-Wohmann - "Wohmann".
+
+
+f:folge-216-Bernhard_Troyda - "Bernhard Troyda".
+
+
+f:folge-216-Billie - "Billie".
+
+
+f:folge-216-Christian - "Christian".
+
+
+f:folge-216-DJ - "DJ".
+
+
+f:folge-216-Frau_Troyda - "Frau Troyda".
+
+
+f:folge-216-Frau_Wells - "Frau Wells".
+
+
+f:folge-216-Frau_Wings - "Frau Wings".
+
+
+f:folge-216-Hajo_Dickel - "Hajo Dickel".
+
+
+f:folge-216-Heidi_Wolf - "Heidi Wolf".
+
+
+f:folge-216-Lena_Scholl - "Lena Scholl".
+
+
+f:folge-216-Ralf_Wells - "Ralf Wells".
+
+
+f:folge-217-Frau_Sorge - "Frau Sorge".
+
+
+f:folge-217-Hanna_Lipper - "Hanna Lipper".
+
+
+<http://psi.example.org/derrick/figur/folge-217-Ingo_G%C3%B6rner> - "Ingo Görner".
+
+
+f:folge-217-Johann_Raude - "Johann Raude".
+
+
+f:folge-217-Johannes_Lipper - "Johannes Lipper".
+
+
+f:folge-217-Margarete_Paporski - "Margarete Paporski".
+
+
+f:folge-217-Sandra_Raude - "Sandra Raude".
+
+
+f:folge-218-Dr._Lohst - "Dr. Lohst".
+
+
+f:folge-218-Elfriede_Hohner - "Elfriede Hohner".
+
+
+f:folge-218-Erich_Kaindorf - "Erich Kaindorf".
+
+
+f:folge-218-Hanna_Berger - "Hanna Berger".
+
+
+f:folge-218-Johannes_Berger - "Johannes Berger".
+
+
+f:folge-218-Martha_Berger - "Martha Berger".
+
+
+f:folge-218-Tressler - "Tressler".
+
+
+f:folge-219-Albert_Krumme - "Albert Krumme".
+
+
+f:folge-219-Anton_Robel - "Anton Robel".
+
+
+f:folge-219-Bertram_Becker - "Bertram Becker".
+
+
+f:folge-219-Dr._Scheu - "Dr. Scheu".
+
+
+f:folge-219-Horst_Wiegand - "Horst Wiegand".
+
+
+f:folge-219-Inge_Waldstein - "Inge Waldstein".
+
+
+f:folge-219-Jochen_Huber - "Jochen Huber".
+
+
+f:folge-219-Josef_Liebich - "Josef Liebich".
+
+
+f:folge-219-Ricarda_Hohner - "Ricarda Hohner".
+
+
+f:folge-220-Frau_Lohmann - "Frau Lohmann".
+
+
+f:folge-220-Hannelore_Hoss - "Hannelore Hoss".
+
+
+<http://psi.example.org/derrick/figur/folge-220-Hans_R%C3%B6der> - "Hans Röder".
+
+
+<http://psi.example.org/derrick/figur/folge-220-Luis_R%C3%B6der> - "Luis Röder".
+
+
+<http://psi.example.org/derrick/figur/folge-220-R%C3%B6der> - "Röder".
+
+
+f:folge-220-Robert_Lohmann - "Robert Lohmann".
+
+
+f:folge-221-Frau_Kubeck - "Frau Kubeck".
+
+
+f:folge-221-Frau_Wagner - "Frau Wagner".
+
+
+f:folge-221-Inge_Sanders - "Inge Sanders".
+
+
+f:folge-221-Kubeck - "Kubeck".
+
+
+f:folge-221-Monika_Wagner - "Monika Wagner".
+
+
+f:folge-221-Ulrich_Wagner - "Ulrich Wagner".
+
+
+f:folge-222-Dr._Tussner - "Dr. Tussner".
+
+
+f:folge-222-Empfangsdame - "Empfangsdame".
+
+
+f:folge-222-Fotograf - "Fotograf".
+
+
+f:folge-222-Frau_Weissauer - "Frau Weissauer".
+
+
+f:folge-222-Gaston_Riemann - "Gaston Riemann".
+
+
+f:folge-222-Gastronom - "Gastronom".
+
+
+f:folge-222-Irene_Solms - "Irene Solms".
+
+
+f:folge-222-Rob_Simon - "Rob Simon".
+
+
+f:folge-222-Taxifahrer - "Taxifahrer".
+
+
+f:folge-222-Ursula_Bender - "Ursula Bender".
+
+
+f:folge-222-Vicky_Lange - "Vicky Lange".
+
+
+f:folge-222-Viktor_Lange - "Viktor Lange".
+
+
+f:folge-223-Albert - "Albert".
+
+
+f:folge-223-Andres_Heine - "Andres Heine".
+
+
+f:folge-223-Bernhard_Heine - "Bernhard Heine".
+
+
+f:folge-223-Charlotte_Heine - "Charlotte Heine".
+
+
+f:folge-223-Kellner - "Kellner".
+
+
+f:folge-223-Korda - "Korda".
+
+
+f:folge-223-Laura_Heine - "Laura Heine".
+
+
+f:folge-223-Martha_Scarletti - "Martha Scarletti".
+
+
+f:folge-223-Martin_Howald - "Martin Howald".
+
+
+f:folge-223-Scarletti - "Scarletti".
+
+
+f:folge-223-Zensky - "Zensky".
+
+
+f:folge-224-Andy_Stein - "Andy Stein".
+
+
+<http://psi.example.org/derrick/figur/folge-224-Dr._M%C3%B6ller> - "Dr. Möller".
+
+
+f:folge-224-Egon_Scholz - "Egon Scholz".
+
+
+f:folge-224-Hilde_Lussek - "Hilde Lussek".
+
+
+f:folge-224-Marie_Scholz - "Marie Scholz".
+
+
+f:folge-224-Max_Scholz - "Max Scholz".
+
+
+f:folge-224-Vera_Lohwald - "Vera Lohwald".
+
+
+f:folge-224-Walter_Scholz - "Walter Scholz".
+
+
+f:folge-225-Alfred_Stellweg - "Alfred Stellweg".
+
+
+f:folge-225-Anna_Bechler - "Anna Bechler".
+
+
+f:folge-225-Arnold_Soske - "Arnold Soske".
+
+
+f:folge-225-Bahnbeamter - "Bahnbeamter".
+
+
+f:folge-225-Doris_Stein - "Doris Stein".
+
+
+f:folge-225-Helene_Soske - "Helene Soske".
+
+
+f:folge-225-Klavierspieler - "Klavierspieler".
+
+
+f:folge-225-Linda - "Linda".
+
+
+<http://psi.example.org/derrick/figur/folge-225-Sch%C3%B6beck> - "Schöbeck".
+
+
+f:folge-225-Seidel - "Seidel".
+
+
+f:folge-225-Ulrich_Lohse - "Ulrich Lohse".
+
+
+f:folge-226-Achim_Kronau - "Achim Kronau".
+
+
+f:folge-226-Debbie - "Debbie".
+
+
+f:folge-226-Frau_Dessauer - "Frau Dessauer".
+
+
+f:folge-226-Herr_Beckum - "Herr Beckum".
+
+
+f:folge-226-Herr_Kronau - "Herr Kronau".
+
+
+<http://psi.example.org/derrick/figur/folge-226-M%C3%B6hle> - "Möhle".
+
+
+f:folge-226-Sabine_Kronau - "Sabine Kronau".
+
+
+f:folge-227-Arzt - "Arzt".
+
+
+f:folge-227-Dr._Kabusch - "Dr. Kabusch".
+
+
+f:folge-227-Erna_Seligmann - "Erna Seligmann".
+
+
+f:folge-227-Frau_Homann - "Frau Homann".
+
+
+f:folge-227-Horst - "Horst".
+
+
+f:folge-227-Hugo - "Hugo".
+
+
+f:folge-227-Krankenschwester - "Krankenschwester".
+
+
+f:folge-227-Ludwig_Homann - "Ludwig Homann".
+
+
+f:folge-227-Manauer - "Manauer".
+
+
+f:folge-227-Renate_Lauer - "Renate Lauer".
+
+
+f:folge-227-Rudolf_Manauer - "Rudolf Manauer".
+
+
+f:folge-227-Voss - "Voss".
+
+
+f:folge-227-Werner - "Werner".
+
+
+f:folge-228-Arnold_Stemmer - "Arnold Stemmer".
+
+
+f:folge-228-Gerrit_Hauser - "Gerrit Hauser".
+
+
+f:folge-228-Helene_v._Schulze-Westorp - "Helene v. Schulze-Westorp".
+
+
+f:folge-228-Helga_v._Schulze-Westorp - "Helga v. Schulze-Westorp".
+
+
+f:folge-228-Ilona_Keller - "Ilona Keller".
+
+
+f:folge-228-Wolfram_v._Schulze-Westorp - "Wolfram v. Schulze-Westorp".
+
+
+f:folge-229-Adi_Mahler - "Adi Mahler".
+
+
+f:folge-229-Aline - "Aline".
+
+
+f:folge-229-Andrea - "Andrea".
+
+
+<http://psi.example.org/derrick/figur/folge-229-Ariane_G%C3%B6rlitz> - "Ariane Görlitz".
+
+
+f:folge-229-Bardame - "Bardame".
+
+
+f:folge-229-Benno_Mahler - "Benno Mahler".
+
+
+f:folge-229-Christian_Bender - "Christian Bender".
+
+
+f:folge-229-Dixi - "Dixi".
+
+
+f:folge-229-Luna - "Luna".
+
+
+f:folge-229-Rezeptionist - "Rezeptionist".
+
+
+f:folge-229-Taxifahrer - "Taxifahrer".
+
+
+f:folge-230-Bleiweg - "Bleiweg".
+
+
+f:folge-230-Hans_Ratinger - "Hans Ratinger".
+
+
+f:folge-230-Helene_Soost - "Helene Soost".
+
+
+f:folge-230-Karoline_Hecht - "Karoline Hecht".
+
+
+f:folge-230-Kieler - "Kieler".
+
+
+f:folge-230-Kowalski - "Kowalski".
+
+
+f:folge-230-Martha_Zieler - "Martha Zieler".
+
+
+f:folge-230-Soost - "Soost".
+
+
+f:folge-230-Tuball - "Tuball".
+
+
+f:folge-231-Frau_Waldhaus - "Frau Waldhaus".
+
+
+f:folge-231-Herr_Kindermann - "Herr Kindermann".
+
+
+f:folge-231-Monika_Godel - "Monika Godel".
+
+
+f:folge-231-Ralf_Kranz - "Ralf Kranz".
+
+
+f:folge-231-Werner_Godel - "Werner Godel".
+
+
+f:folge-232-Dengler - "Dengler".
+
+
+f:folge-232-Doris_Meissner - "Doris Meissner".
+
+
+f:folge-232-Gerhard_Meissner - "Gerhard Meissner".
+
+
+f:folge-232-Hafner - "Hafner".
+
+
+f:folge-232-Helene_Meissner - "Helene Meissner".
+
+
+f:folge-232-Jakob_Meissner - "Jakob Meissner".
+
+
+f:folge-232-Maria_Saska - "Maria Saska".
+
+
+f:folge-233-Dr._Erich_Kolbe - "Dr. Erich Kolbe".
+
+
+f:folge-233-Eichholz - "Eichholz".
+
+
+f:folge-233-Frau_Doppler - "Frau Doppler".
+
+
+f:folge-233-Ingeborg_Kolbe - "Ingeborg Kolbe".
+
+
+f:folge-233-Pedell - "Pedell".
+
+
+f:folge-233-Rudolf_Lakonda - "Rudolf Lakonda".
+
+
+f:folge-233-Wenk - "Wenk".
+
+
+f:folge-234-Albert_Kallus - "Albert Kallus".
+
+
+f:folge-234-Alex - "Alex".
+
+
+f:folge-234-Alfons_Schwarzer - "Alfons Schwarzer".
+
+
+f:folge-234-Arzt - "Arzt".
+
+
+f:folge-234-Borkmann - "Borkmann".
+
+
+f:folge-234-Dr._Fasold - "Dr. Fasold".
+
+
+f:folge-234-Erich_Buschler - "Erich Buschler".
+
+
+f:folge-234-Frau_Hinkel - "Frau Hinkel".
+
+
+f:folge-234-Hanna_Fasold - "Hanna Fasold".
+
+
+f:folge-234-Marta_Killich - "Marta Killich".
+
+
+<http://psi.example.org/derrick/figur/folge-234-Parkplatzw%C3%A4chter> - "Parkplatzwächter".
+
+
+f:folge-234-Roland_Fasold - "Roland Fasold".
+
+
+f:folge-234-Rosy_Steinwald - "Rosy Steinwald".
+
+
+f:folge-235-Anna_Kolpe - "Anna Kolpe".
+
+
+f:folge-235-Arno_Schuster - "Arno Schuster".
+
+
+<http://psi.example.org/derrick/figur/folge-235-Berta_S%C3%A4nger> - "Berta Sänger".
+
+
+f:folge-235-Erich_Kolpe - "Erich Kolpe".
+
+
+f:folge-235-Frau_Leonhard - "Frau Leonhard".
+
+
+f:folge-235-Hagemann - "Hagemann".
+
+
+f:folge-235-Klinikarzt - "Klinikarzt".
+
+
+f:folge-235-Konrad_Schreiber - "Konrad Schreiber".
+
+
+f:folge-235-Krankenschwester - "Krankenschwester".
+
+
+f:folge-235-Robert_Schreiber - "Robert Schreiber".
+
+
+f:folge-235-Vera_Schreiber - "Vera Schreiber".
+
+
+<http://psi.example.org/derrick/figur/folge-236-G%C3%B6bel> - "Göbel".
+
+
+f:folge-236-Harald_Sauters - "Harald Sauters".
+
+
+f:folge-236-Hoss - "Hoss".
+
+
+f:folge-236-Mirbach - "Mirbach".
+
+
+f:folge-236-Pianist - "Pianist".
+
+
+f:folge-236-Renate_Sauters - "Renate Sauters".
+
+
+f:folge-236-Sauters - "Sauters".
+
+
+<http://psi.example.org/derrick/figur/folge-236-Sch%C3%B6nlechner> - "Schönlechner".
+
+
+f:folge-236-Ulrich_Kemp - "Ulrich Kemp".
+
+
+f:folge-237-Albert_Weiss - "Albert Weiss".
+
+
+f:folge-237-Erna_Kaspers - "Erna Kaspers".
+
+
+f:folge-237-Gerhard_Schumann - "Gerhard Schumann".
+
+
+f:folge-237-Gitta_Kaspers - "Gitta Kaspers".
+
+
+f:folge-237-Hilde_Dumaske - "Hilde Dumaske".
+
+
+f:folge-237-Kripobeamter - "Kripobeamter".
+
+
+f:folge-237-Mathilde - "Mathilde".
+
+
+f:folge-237-Max - "Max".
+
+
+f:folge-237-Oskar_Demmler - "Oskar Demmler".
+
+
+f:folge-237-Rezeptionist - "Rezeptionist".
+
+
+f:folge-237-Rudolf_Kaspers - "Rudolf Kaspers".
+
+
+f:folge-237-Walter_Schumann - "Walter Schumann".
+
+
+f:folge-238-Adrian - "Adrian".
+
+
+f:folge-238-Arno_Beckmann - "Arno Beckmann".
+
+
+f:folge-238-Hanna_Zeller - "Hanna Zeller".
+
+
+f:folge-238-Hugo_Zeller - "Hugo Zeller".
+
+
+f:folge-238-Kubanke - "Kubanke".
+
+
+f:folge-238-Monika_Zeller - "Monika Zeller".
+
+
+<http://psi.example.org/derrick/figur/folge-239-Hanna_Lab%C3%B6> - "Hanna Labö".
+
+
+f:folge-239-Konstantin_Howald - "Konstantin Howald".
+
+
+f:folge-239-Kromann - "Kromann".
+
+
+f:folge-239-Marianne_Kork - "Marianne Kork".
+
+
+f:folge-239-Pianist_Pierre - "Pianist Pierre".
+
+
+f:folge-239-Susanne_Howald - "Susanne Howald".
+
+
+f:folge-240-Anna_Bender - "Anna Bender".
+
+
+f:folge-240-Arnim_Wexler - "Arnim Wexler".
+
+
+f:folge-240-Borchert - "Borchert".
+
+
+f:folge-240-Elvira_Nolte - "Elvira Nolte".
+
+
+f:folge-240-Hans_Nolte - "Hans Nolte".
+
+
+f:folge-241-Anita_Kersky - "Anita Kersky".
+
+
+f:folge-241-Dr._Roth - "Dr. Roth".
+
+
+f:folge-241-Frau_Roth - "Frau Roth".
+
+
+f:folge-241-Kottbus - "Kottbus".
+
+
+f:folge-241-Marianne - "Marianne".
+
+
+f:folge-241-Sacko - "Sacko".
+
+
+f:folge-242-Bruno_Sasse - "Bruno Sasse".
+
+
+f:folge-242-Holger_Keller - "Holger Keller".
+
+
+f:folge-242-Ingrid_Sasse - "Ingrid Sasse".
+
+
+<http://psi.example.org/derrick/figur/folge-242-J%C3%BCrgen_Simon> - "Jürgen Simon".
+
+
+f:folge-242-Mandy - "Mandy".
+
+
+f:folge-242-Martin_Sasse - "Martin Sasse".
+
+
+f:folge-242-Professor - "Professor".
+
+
+f:folge-242-Sasse_Senior - "Sasse Senior".
+
+
+f:folge-243-Andreas_Klausen - "Andreas Klausen".
+
+
+f:folge-243-Dr._Kostiz - "Dr. Kostiz".
+
+
+f:folge-243-Frau_Klausen - "Frau Klausen".
+
+
+f:folge-243-Jakobsen - "Jakobsen".
+
+
+f:folge-243-Karina_Wienand - "Karina Wienand".
+
+
+f:folge-243-Manfred_Mauser - "Manfred Mauser".
+
+
+<http://psi.example.org/derrick/figur/folge-244-B%C3%BCttner> - "Büttner".
+
+
+f:folge-244-Babette_Bach - "Babette Bach".
+
+
+f:folge-244-Bach - "Bach".
+
+
+<http://psi.example.org/derrick/figur/folge-244-Charlotte_Z%C3%B6llner> - "Charlotte Zöllner".
+
+
+f:folge-244-Kriminaldirektor - "Kriminaldirektor".
+
+
+f:folge-244-Ulrike_Bach - "Ulrike Bach".
+
+
+f:folge-245-Agnes_Braun - "Agnes Braun".
+
+
+f:folge-245-Arno_Braun - "Arno Braun".
+
+
+f:folge-245-Badoni - "Badoni".
+
+
+f:folge-245-Dr._Gossler - "Dr. Gossler".
+
+
+f:folge-245-Kessler - "Kessler".
+
+
+f:folge-245-Rudolf_Kollau - "Rudolf Kollau".
+
+
+f:folge-246-Agnes_Ortner - "Agnes Ortner".
+
+
+f:folge-246-Bettina - "Bettina".
+
+
+<http://psi.example.org/derrick/figur/folge-246-Gesch%C3%A4ftsf%C3%BChrer> - "Geschäftsführer".
+
+
+f:folge-246-Isabel_Bruhns - "Isabel Bruhns".
+
+
+f:folge-246-Roland_Ortner - "Roland Ortner".
+
+
+f:folge-247-Frau_Dr._Wolfen - "Frau Dr. Wolfen".
+
+
+f:folge-247-Hanna_Kelpe - "Hanna Kelpe".
+
+
+f:folge-247-Hans_Bienert - "Hans Bienert".
+
+
+f:folge-247-Isolde_Steinhoff - "Isolde Steinhoff".
+
+
+f:folge-247-Jacob_Bienert - "Jacob Bienert".
+
+
+f:folge-247-Konrad_Kelpe - "Konrad Kelpe".
+
+
+f:folge-247-Lona_Winter - "Lona Winter".
+
+
+f:folge-247-Pfarrer - "Pfarrer".
+
+
+f:folge-247-Ruth_Winter - "Ruth Winter".
+
+
+f:folge-248-Arnold_Kieler - "Arnold Kieler".
+
+
+f:folge-248-Frau_Kostloff - "Frau Kostloff".
+
+
+f:folge-248-Henry_Kostloff - "Henry Kostloff".
+
+
+f:folge-248-Joachim_Wessling - "Joachim Wessling".
+
+
+f:folge-248-Rob_Kremer - "Rob Kremer".
+
+
+f:folge-248-Sally_Worms - "Sally Worms".
+
+
+f:folge-248-Theaterhausmeister - "Theaterhausmeister".
+
+
+f:folge-248-Wachtmeister - "Wachtmeister".
+
+
+f:folge-249-Arno_Beckmann - "Arno Beckmann".
+
+
+<http://psi.example.org/derrick/figur/folge-249-Dr._Schr%C3%B6der> - "Dr. Schröder".
+
+
+f:folge-249-Helga_Trenk - "Helga Trenk".
+
+
+f:folge-249-Herr_Stein - "Herr Stein".
+
+
+f:folge-249-Ilse_Stein - "Ilse Stein".
+
+
+<http://psi.example.org/derrick/figur/folge-249-Leo_K%C3%B6rner> - "Leo Körner".
+
+
+f:folge-249-Martha_Hauser - "Martha Hauser".
+
+
+f:folge-249-Roland_Trenk - "Roland Trenk".
+
+
+f:folge-249-Werner_Hauser - "Werner Hauser".
+
+
+f:folge-250-Arnold_Bertram - "Arnold Bertram".
+
+
+f:folge-250-Dr._Kirchheimer - "Dr. Kirchheimer".
+
+
+f:folge-250-Eva_Dalinger - "Eva Dalinger".
+
+
+f:folge-250-Frau_Kirchheimer - "Frau Kirchheimer".
+
+
+f:folge-250-Josef - "Josef".
+
+
+f:folge-250-Ludwig_Dalinger - "Ludwig Dalinger".
+
+
+f:folge-250-Polizeimeister - "Polizeimeister".
+
+
+f:folge-250-Rolf_Kirchheimer - "Rolf Kirchheimer".
+
+
+f:folge-250-Rosi - "Rosi".
+
+
+f:folge-251-Frau_Podewil - "Frau Podewil".
+
+
+f:folge-251-Frau_Wunderlich - "Frau Wunderlich".
+
+
+f:folge-251-Herta_Podewil - "Herta Podewil".
+
+
+f:folge-251-Hubert_Basler - "Hubert Basler".
+
+
+f:folge-251-Karl_Podewil - "Karl Podewil".
+
+
+f:folge-251-Liane_Basler - "Liane Basler".
+
+
+f:folge-251-Randolf_Basler - "Randolf Basler".
+
+
+f:folge-251-Vera_Podewil - "Vera Podewil".
+
+
+f:folge-252-Ali_Klais - "Ali Klais".
+
+
+f:folge-252-Geissler - "Geissler".
+
+
+f:folge-252-Hanna - "Hanna".
+
+
+f:folge-252-Ingeborg_Noll - "Ingeborg Noll".
+
+
+f:folge-252-Johannes_Keller - "Johannes Keller".
+
+
+f:folge-252-Professor_Weiland - "Professor Weiland".
+
+
+f:folge-252-Ruth_Bronner - "Ruth Bronner".
+
+
+f:folge-253-Agnes_Voss - "Agnes Voss".
+
+
+f:folge-253-Benda_Scholze - "Benda Scholze".
+
+
+f:folge-253-Dina - "Dina".
+
+
+f:folge-253-Dr._Dahlau - "Dr. Dahlau".
+
+
+f:folge-253-Gerda_Widanje - "Gerda Widanje".
+
+
+f:folge-253-Hans - "Hans".
+
+
+f:folge-253-Kergel - "Kergel".
+
+
+f:folge-253-Victor_Eppler - "Victor Eppler".
+
+
+f:folge-253-Widanje - "Widanje".
+
+
+f:folge-254-Arthur_Bolz - "Arthur Bolz".
+
+
+f:folge-254-Benjamin_Prasko - "Benjamin Prasko".
+
+
+f:folge-254-Conny_Kieler - "Conny Kieler".
+
+
+f:folge-254-Gus_Doppler - "Gus Doppler".
+
+
+f:folge-254-Inge_Prasko - "Inge Prasko".
+
+
+f:folge-254-Thomas_Randel - "Thomas Randel".
+
+
+f:folge-255-Dr._Stanz - "Dr. Stanz".
+
+
+f:folge-255-Johannes_Kahlert - "Johannes Kahlert".
+
+
+f:folge-255-Konrad_Kahlert - "Konrad Kahlert".
+
+
+f:folge-255-Pfarrer_Figges - "Pfarrer Figges".
+
+
+f:folge-255-Valentino - "Valentino".
+
+
+f:folge-256-Albert_Dannhof - "Albert Dannhof".
+
+
+f:folge-256-Alex_Hasinger - "Alex Hasinger".
+
+
+f:folge-256-Hans_Dannhof - "Hans Dannhof".
+
+
+f:folge-256-Rudolf_Hasinger - "Rudolf Hasinger".
+
+
+f:folge-256-Walter_Kottler - "Walter Kottler".
+
+
+f:folge-257-Arthur_Mommsen - "Arthur Mommsen".
+
+
+f:folge-257-Frau_Bonte - "Frau Bonte".
+
+
+f:folge-257-Herr_Bonte - "Herr Bonte".
+
+
+f:folge-257-Herr_Kuhlmann - "Herr Kuhlmann".
+
+
+f:folge-257-Hugo_Voss - "Hugo Voss".
+
+
+f:folge-257-Ludwig_Hinz - "Ludwig Hinz".
+
+
+f:folge-257-Ruth_Mommsen - "Ruth Mommsen".
+
+
+f:folge-257-Ullrich_Bonte - "Ullrich Bonte".
+
+
+f:folge-257-Wirt_Alex - "Wirt Alex".
+
+
+<http://psi.example.org/derrick/figur/folge-258-Babette_K%C3%B6nig> - "Babette König".
+
+
+f:folge-258-Frau_Scholz - "Frau Scholz".
+
+
+f:folge-258-Herr_Tscheka - "Herr Tscheka".
+
+
+f:folge-258-Kirsten_Kamrau - "Kirsten Kamrau".
+
+
+<http://psi.example.org/derrick/figur/folge-258-Magnus_K%C3%B6lner> - "Magnus Kölner".
+
+
+f:folge-258-Walter_Kamrau - "Walter Kamrau".
+
+
+f:folge-259-Anna_Schuster - "Anna Schuster".
+
+
+f:folge-259-Frau_Bossler - "Frau Bossler".
+
+
+f:folge-259-Gaby_Herbst - "Gaby Herbst".
+
+
+f:folge-259-Herr_Bossler - "Herr Bossler".
+
+
+f:folge-259-Kallek - "Kallek".
+
+
+f:folge-259-Linda - "Linda".
+
+
+f:folge-259-Peter_Wegener - "Peter Wegener".
+
+
+f:folge-259-Robby_Proske - "Robby Proske".
+
+
+f:folge-260-Direktor - "Direktor".
+
+
+f:folge-260-Dr._Heinrich - "Dr. Heinrich".
+
+
+f:folge-260-Dr._Howald - "Dr. Howald".
+
+
+f:folge-260-Dr._Lammers - "Dr. Lammers".
+
+
+f:folge-260-Hugo_Dorste - "Hugo Dorste".
+
+
+f:folge-260-Kroll - "Kroll".
+
+
+f:folge-261-Albert_Soderer - "Albert Soderer".
+
+
+f:folge-261-Dr._Kues - "Dr. Kues".
+
+
+f:folge-261-Karl_Luserke - "Karl Luserke".
+
+
+f:folge-261-Labrina_Schulte - "Labrina Schulte".
+
+
+f:folge-261-Martina_Luserke - "Martina Luserke".
+
+
+f:folge-261-Zeller - "Zeller".
+
+
+f:folge-262-Benny_Klagges - "Benny Klagges".
+
+
+<http://psi.example.org/derrick/figur/folge-262-Gudrun_Sch%C3%B6ne> - "Gudrun Schöne".
+
+
+f:folge-262-Johannes_Brusius - "Johannes Brusius".
+
+
+f:folge-262-Manfred_Bigas - "Manfred Bigas".
+
+
+f:folge-262-Regisseurin - "Regisseurin".
+
+
+<http://psi.example.org/derrick/figur/folge-262-Rieke_K%C3%B6rner> - "Rieke Körner".
+
+
+f:folge-262-William_Bosse - "William Bosse".
+
+
+f:folge-263-Armin_Rohm - "Armin Rohm".
+
+
+f:folge-263-Dr._Gessler - "Dr. Gessler".
+
+
+f:folge-263-Dr._Pabel - "Dr. Pabel".
+
+
+f:folge-263-Dr._Ulrich_Steinhoff - "Dr. Ulrich Steinhoff".
+
+
+f:folge-263-Irmgard_Trenk - "Irmgard Trenk".
+
+
+f:folge-263-Maler - "Maler".
+
+
+f:folge-263-Reporter - "Reporter".
+
+
+f:folge-263-Seibold - "Seibold".
+
+
+f:folge-263-Trenk - "Trenk".
+
+
+f:folge-264-Direktor - "Direktor".
+
+
+f:folge-264-Gabriele_Dressler - "Gabriele Dressler".
+
+
+f:folge-264-Karel_Labeck - "Karel Labeck".
+
+
+f:folge-264-Lothar_Bruns - "Lothar Bruns".
+
+
+f:folge-264-Malte_Labeck - "Malte Labeck".
+
+
+f:folge-265-Arthur_Hanau - "Arthur Hanau".
+
+
+f:folge-265-Eva_Paulus - "Eva Paulus".
+
+
+f:folge-265-Hannelore_Paulus - "Hannelore Paulus".
+
+
+f:folge-265-Konrad_Paulus - "Konrad Paulus".
+
+
+f:folge-265-Paul_Kahrun - "Paul Kahrun".
+
+
+f:folge-266-Daniela_Zuber - "Daniela Zuber".
+
+
+f:folge-266-Dominique_Horwitz - "Dominique Horwitz".
+
+
+<http://psi.example.org/derrick/figur/folge-266-Frau_Bleichr%C3%B6der> - "Frau Bleichröder".
+
+
+f:folge-266-Frau_Zuber - "Frau Zuber".
+
+
+f:folge-266-Lothar_Pfeifer - "Lothar Pfeifer".
+
+
+<http://psi.example.org/derrick/figur/folge-266-Randolf_Bleichr%C3%B6der> - "Randolf Bleichröder".
+
+
+f:folge-267-Andreas_Zeisig - "Andreas Zeisig".
+
+
+f:folge-267-Harald_Breuer - "Harald Breuer".
+
+
+f:folge-267-Herr_Breuer - "Herr Breuer".
+
+
+f:folge-267-Renate_Winzer - "Renate Winzer".
+
+
+f:folge-268-Andy_Klenze - "Andy Klenze".
+
+
+f:folge-268-Anna - "Anna".
+
+
+f:folge-268-Arnold_Leskow - "Arnold Leskow".
+
+
+f:folge-268-Helga_Klenze - "Helga Klenze".
+
+
+f:folge-268-Robert_Kaltenbach - "Robert Kaltenbach".
+
+
+f:folge-269-Gregor_Lenau - "Gregor Lenau".
+
+
+f:folge-269-Herta_Lenau - "Herta Lenau".
+
+
+f:folge-269-Lore_Lenau - "Lore Lenau".
+
+
+f:folge-269-Marietta_Lenau - "Marietta Lenau".
+
+
+f:folge-269-Martin_Lenau - "Martin Lenau".
+
+
+f:folge-270-Bernd_Weinding - "Bernd Weinding".
+
+
+f:folge-270-Dr._Rosenfeld - "Dr. Rosenfeld".
+
+
+f:folge-270-Frau_Rosenfeld - "Frau Rosenfeld".
+
+
+f:folge-270-Lorenz_Rosenfeld - "Lorenz Rosenfeld".
+
+
+f:folge-270-Marga_Weinding - "Marga Weinding".
+
+
+f:folge-271-Alfred - "Alfred".
+
+
+f:folge-271-Anja_Kajunke - "Anja Kajunke".
+
+
+<http://psi.example.org/derrick/figur/folge-271-Anneliese_L%C3%BCnnhof> - "Anneliese Lünnhof".
+
+
+f:folge-271-Frau_Hessler - "Frau Hessler".
+
+
+f:folge-271-Frau_Kajunke - "Frau Kajunke".
+
+
+f:folge-271-Gast_in_der_Kneipe - "Gast in der Kneipe".
+
+
+f:folge-271-Herr_Hessler - "Herr Hessler".
+
+
+f:folge-271-Kajunke - "Kajunke".
+
+
+f:folge-271-Milly_Kajunke - "Milly Kajunke".
+
+
+f:folge-271-Notarzt - "Notarzt".
+
+
+f:folge-271-Walter_Ahrens - "Walter Ahrens".
+
+
+f:folge-271-Wirt - "Wirt".
+
+
+f:folge-272-Armin_Terza - "Armin Terza".
+
+
+f:folge-272-Bruno_Brandecker - "Bruno Brandecker".
+
+
+f:folge-272-Carlo_Bonte - "Carlo Bonte".
+
+
+f:folge-272-Herr_Terza - "Herr Terza".
+
+
+f:folge-272-Hulda_Brandecker - "Hulda Brandecker".
+
+
+f:folge-272-Leiter_des_Reiterhofs - "Leiter des Reiterhofs".
+
+
+f:folge-272-Luise_Terza - "Luise Terza".
+
+
+f:folge-272-Manuel_Bonte - "Manuel Bonte".
+
+
+f:folge-272-Rezeptionist - "Rezeptionist".
+
+
+f:folge-273-Bernhard_Laux - "Bernhard Laux".
+
+
+f:folge-273-Helene_Gropius - "Helene Gropius".
+
+
+f:folge-273-Helene_Laux - "Helene Laux".
+
+
+f:folge-273-Johannes_Bender - "Johannes Bender".
+
+
+f:folge-273-Notting - "Notting".
+
+
+f:folge-273-Robert_Reitmoor - "Robert Reitmoor".
+
+
+f:folge-274-Anneliese_Beck - "Anneliese Beck".
+
+
+f:folge-274-Armin_Waldhaus - "Armin Waldhaus".
+
+
+f:folge-274-Arno_Beck - "Arno Beck".
+
+
+f:folge-274-Erika_Waldhaus - "Erika Waldhaus".
+
+
+f:folge-274-Frau_Zechner - "Frau Zechner".
+
+
+f:folge-274-Grosser - "Grosser".
+
+
+f:folge-274-Mandy_Waldhaus - "Mandy Waldhaus".
+
+
+f:folge-275-Agnes_Strobel - "Agnes Strobel".
+
+
+f:folge-275-Bernhard_Strobel - "Bernhard Strobel".
+
+
+f:folge-275-Edmund_Strobel - "Edmund Strobel".
+
+
+f:folge-275-Kokopelli - "Kokopelli".
+
+
+f:folge-275-Kruse - "Kruse".
+
+
+f:folge-275-Peter_Kruse - "Peter Kruse".
+
+
+f:folge-275-Susanne - "Susanne".
+
+
+f:folge-275-Vater_Strobel - "Vater Strobel".
+
+
+f:folge-276-Anna_von_Landinius - "Anna von Landinius".
+
+
+f:folge-276-Brand - "Brand".
+
+
+f:folge-276-Carlos_Blecher - "Carlos Blecher".
+
+
+f:folge-276-Chauffeur - "Chauffeur".
+
+
+f:folge-276-Gitta_Manzer - "Gitta Manzer".
+
+
+f:folge-276-Johann_von_Landinius - "Johann von Landinius".
+
+
+f:folge-276-Ritschie_Manzer - "Ritschie Manzer".
+
+
+f:folge-277-Bertram - "Bertram".
+
+
+f:folge-277-Bubal - "Bubal".
+
+
+<http://psi.example.org/derrick/figur/folge-277-Gina_K%C3%B6nig> - "Gina König".
+
+
+f:folge-277-Johannes_Dohna - "Johannes Dohna".
+
+
+f:folge-277-Lara_Kronach - "Lara Kronach".
+
+
+<http://psi.example.org/derrick/figur/folge-277-Luise_K%C3%B6hler> - "Luise Köhler".
+
+
+f:folge-277-Vera_Dohna - "Vera Dohna".
+
+
+<http://psi.example.org/derrick/figur/folge-277-Walter_K%C3%B6nig> - "Walter König".
+
+
+f:folge-278-Anna_Lakowski - "Anna Lakowski".
+
+
+f:folge-278-Frau_Lauer - "Frau Lauer".
+
+
+f:folge-278-Jakob_Droste - "Jakob Droste".
+
+
+f:folge-278-Kantrop - "Kantrop".
+
+
+f:folge-278-Kessler - "Kessler".
+
+
+f:folge-278-Nana - "Nana".
+
+
+f:folge-278-Sorpe - "Sorpe".
+
+
+f:folge-279-Cornelia_Kordes - "Cornelia Kordes".
+
+
+f:folge-279-Frau_Heimeran - "Frau Heimeran".
+
+
+f:folge-279-Herr_Heimeran - "Herr Heimeran".
+
+
+f:folge-279-Leopold_Kordes - "Leopold Kordes".
+
+
+f:folge-280-Gabriele - "Gabriele".
+
+
+f:folge-280-Herr_Reuter - "Herr Reuter".
+
+
+f:folge-280-Herta_Reuter - "Herta Reuter".
+
+
+f:folge-280-Kranz - "Kranz".
+
+
+f:folge-280-Kraus - "Kraus".
+
+
+f:folge-280-Ornithologe - "Ornithologe".
+
+
+f:folge-280-Paul - "Paul".
+
+
+f:folge-280-Ruperti - "Ruperti".
+
+
+f:folge-280-Weigand - "Weigand".
+
+
+f:folge-281-Albert_Kaschonnick - "Albert Kaschonnick".
+
+
+f:folge-281-Andrea_Kaschonnick - "Andrea Kaschonnick".
+
+
+f:folge-281-Axel_Richter - "Axel Richter".
+
+
+<http://psi.example.org/derrick/figur/folge-281-Chef_d._Polizei%2C_der_neben_dem_Polizeipr%C3%A4sidenten_sitzt> - "Chef d. Polizei, der neben dem Polizeipräsidenten sitzt".
+
+
+f:folge-281-Festredner - "Festredner".
+
+
+f:folge-281-Fotograf - "Fotograf".
+
+
+f:folge-281-Gerd_Heymann - "Gerd Heymann".
+
+
+f:folge-281-Johannes_Templin - "Johannes Templin".
+
+
+f:folge-281-Lagusta - "Lagusta".
+
+
+f:folge-281-Leo_Kress - "Leo Kress".
+
+
+<http://psi.example.org/derrick/figur/folge-281-Polizeipr%C3%A4sident> - "Polizeipräsident".
+
+
+f:folge-281-Stefanie_Bauer - "Stefanie Bauer".
+
+
+f:folge-281-Udo_Templin - "Udo Templin".
+
+
+f:folge-281-Vera_Kaschonnick - "Vera Kaschonnick".
+
+
+f:folge-281-Walter_Kaschonnick - "Walter Kaschonnick".
+
+
+f:folge-281-Werner_Riedmann - "Werner Riedmann".
+
