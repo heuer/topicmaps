@@ -453,7 +453,7 @@ p:Antony_Paul - "Antony Paul";
     spielt-in-folge(d:folge-133).
 
 
-<http://psi.example.org/person/Armin_M%C3%BCller-Stahl> - "Armin Müller-Stahl";
+p:Armin_Mueller-Stahl - "Armin Mueller-Stahl";
     spielt-figur(f:folge-122-Alexander_Kolberg, d:folge-122).
 
 
