@@ -3290,10 +3290,6 @@ p:Heide_Keller - "Heide Keller";
     spielt-figur(f:folge-099-Helga_Lupien, d:folge-099).
 
 
-p:Heide_Kiunka - "Heide Kiunka";
-    spielt-in-folge(d:folge-075).
-
-
 p:Heidelinde_Weis - "Heidelinde Weis";
     spielt-figur(f:folge-018-Franziska_Hertel, d:folge-018);
     spielt-figur(f:folge-097-Dora_Korin, d:folge-097);
@@ -3309,7 +3305,8 @@ p:Heidi_Forster - "Heidi Forster";
 
 
 p:Heidi_Kiunka - "Heidi Kiunka";
-    spielt-in-folge(d:folge-064).
+    spielt-in-folge(d:folge-064);
+    spielt-in-folge(d:folge-075).
 
 
 p:Heidy_Forster - "Heidy Forster";
