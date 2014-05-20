@@ -3264,11 +3264,8 @@ p:Hartmut_Hinrichs - "Hartmut Hinrichs";
 
 
 p:Hartmut_Kollakowsky - "Hartmut Kollakowsky";
+    spielt-in-folge(d:folge-153);
     spielt-figur(f:folge-178-Kluge, d:folge-178).
-
-
-p:Hartmut_Kollalowsky - "Hartmut Kollalowsky";
-    spielt-in-folge(d:folge-153).
 
 
 p:Hartmut_Lange - "Hartmut Lange";
