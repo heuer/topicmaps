@@ -2011,15 +2011,9 @@ p:Fred_Berhoff - "Fred Berhoff";
 
 
 p:Frederic_Meisner - "Frederic Meisner";
-    spielt-in-folge(d:folge-107).
-
-
-p:Frederick_Meissner - "Frederick Meissner";
+    spielt-in-folge(d:folge-035);
+    spielt-in-folge(d:folge-107);
     spielt-in-folge(d:folge-140).
-
-
-p:Fredric_Meisner - "Fredric Meisner";
-    spielt-in-folge(d:folge-035).
 
 
 p:Friedrich_Georg_Beckhaus - "Friedrich Georg Beckhaus";
