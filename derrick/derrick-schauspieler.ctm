@@ -2357,6 +2357,7 @@ p:Gabriele_Dossi - "Gabriele Dossi";
 
 
 p:Gabriele_Fischer - "Gabriele Fischer";
+    spielt-figur(f:folge-005-Spielerin, d:folge-005);
     spielt-figur(f:folge-129-Maria, d:folge-129).
 
 
@@ -2382,10 +2383,6 @@ p:Gaby_Dohm - "Gaby Dohm";
     spielt-figur(f:folge-118-Ruth_Palmer, d:folge-118);
     spielt-figur(f:folge-186-Dr._Anita_Rolfs, d:folge-186);
     spielt-figur(f:folge-263-Irmgard_Trenk, d:folge-263).
-
-
-p:Gaby_Fischer - "Gaby Fischer";
-    spielt-figur(f:folge-005-Spielerin, d:folge-005).
 
 
 p:Gaby_Herbst - "Gaby Herbst";
