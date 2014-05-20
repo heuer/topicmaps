@@ -3181,7 +3181,7 @@ p:Hans-Georg_Eichler - "Hans-Georg Eichler";
 
 p:Hans-Georg_Panczak - "Hans-Georg Panczak";
     spielt-figur(f:folge-043-Bruno_Kolpe, d:folge-043);
-    spielt-figur(f:folge-091-Ludenke_jun., d:folge-091);
+    spielt-figur(<http://psi.example.org/derrick/figur/folge-091-Ludenke_jun.>, d:folge-091);
     spielt-figur(f:folge-135-Ulrich_Bohl, d:folge-135);
     spielt-figur(f:folge-157-Raimund_Jakobs, d:folge-157);
     spielt-figur(f:folge-171-Korte, d:folge-171);
@@ -3573,7 +3573,7 @@ p:Herbert_Stass - "Herbert Stass";
 
 
 p:Herbert_Tiede - "Herbert Tiede";
-    spielt-figur(f:folge-017-Johannes_Schrahl, d:folge-017)
+    spielt-figur(f:folge-017-Johannes_Schrahl, d:folge-017);
     spielt-figur(f:folge-017-Georg_Schrahl, d:folge-017);
     spielt-in-folge(d:folge-036);
     spielt-figur(f:folge-072-Herr_Scholz, d:folge-072);
@@ -4644,7 +4644,7 @@ p:Karin_Hardt - "Karin Hardt";
     spielt-figur(f:folge-035-Frau_Wendt, d:folge-035).
 
 
-p:Karin_Hardt_/_Eduard_Linkers - "Karin Hardt / Eduard Linkers";
+p:Karin_Hardt__Eduard_Linkers - "Karin Hardt / Eduard Linkers";
     spielt-figur(<http://psi.example.org/derrick/figur/folge-050-%C3%84lteres_Ehepaar>, d:folge-050).
 
 
@@ -5224,7 +5224,7 @@ p:Lilith_Ungerer - "Lilith Ungerer";
 
 
 p:Lilli_Palmer - "Lilli Palmer";
-    spielt-figur(f:folge-002-Martha_Balke, d:folge-002)
+    spielt-figur(f:folge-002-Martha_Balke, d:folge-002);
     spielt-figur(f:folge-002-Johanna_Jensen, d:folge-002).
 
 
@@ -5256,7 +5256,7 @@ p:Lisa_Helwig - "Lisa Helwig";
 
 p:Lisa_Kreuzer - "Lisa Kreuzer";
     spielt-figur(f:folge-038-Lena, d:folge-038);
-    spielt-figur(f:folge-047-Margarete, d:folge-047)
+    spielt-figur(f:folge-047-Margarete, d:folge-047);
     spielt-figur(f:folge-047-Ursula, d:folge-047);
     spielt-figur(f:folge-056-Annie, d:folge-056);
     spielt-figur(f:folge-069-Ina_Dommberg, d:folge-069);
@@ -6324,7 +6324,7 @@ p:Peter_Ehrlich - "Peter Ehrlich";
     spielt-figur(f:folge-104-Walter_Hagemann, d:folge-104);
     spielt-figur(f:folge-125-Albert_Rasko, d:folge-125);
     spielt-figur(f:folge-156-Martin_Koldau, d:folge-156);
-    spielt-figur(f:folge-199-Kuhnert_sen., d:folge-199);
+    spielt-figur(<http://psi.example.org/derrick/figur/folge-199-Kuhnert_sen.>, d:folge-199);
     spielt-figur(f:folge-226-Herr_Kronau, d:folge-226).
 
 
@@ -7931,7 +7931,7 @@ p:Walter_Bluhm - "Walter Bluhm";
 
 
 p:Walter_Doppler - "Walter Doppler";
-    spielt-figur(f:folge-091-Mommsen_jun., d:folge-091).
+    spielt-figur(<http://psi.example.org/derrick/figur/folge-091-Mommsen_jun.>, d:folge-091).
 
 
 p:Walter_Fitz - "Walter Fitz";
