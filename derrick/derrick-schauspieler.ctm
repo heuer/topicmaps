@@ -5902,7 +5902,7 @@ p:Miroslav_Nemec - "Miroslav Nemec";
     spielt-figur(f:folge-178-Barkeeper, d:folge-178).
 
 
-p:Miroslava_Stein - "Miroslava Stein";
+<http://psi.example.org/person/Miroslava_%C5%A0afr%C3%A1nkov%C3%A1> - "Miroslava Šafránková";
     spielt-in-folge(d:folge-100).
 
 
