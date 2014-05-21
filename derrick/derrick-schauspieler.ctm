@@ -1741,12 +1741,9 @@ http://dbpedia.org/resource/Ernst_Schr%C3%B6der - "Ernst Schröder";
 
 p:Esther_Hausmann - "Esther Hausmann";
     spielt-figur(f:folge-173-Ursula_Kieler, d:folge-173);
-    spielt-figur(<http://psi.example.org/derrick/figur/folge-229-Ariane_G%C3%B6rlitz>, d:folge-229).
-
-
-p:Esther_Haussmann - "Esther Haussmann";
     spielt-figur(f:folge-195-Inge_Runold, d:folge-195);
-    spielt-figur(f:folge-215-Tina_Sierich, d:folge-215).
+    spielt-figur(f:folge-215-Tina_Sierich, d:folge-215);
+    spielt-figur(<http://psi.example.org/derrick/figur/folge-229-Ariane_G%C3%B6rlitz>, d:folge-229).
 
 
 p:Eva_Bergmanova - "Eva Bergmanova";
@@ -1812,15 +1809,12 @@ p:Eva_Rieck - "Eva Rieck";
     spielt-figur(f:folge-029-Margot_Parenge, d:folge-029).
 
 
-<http://psi.example.org/person/Eva_R%C3%B6ber> - "Eva Röber";
-    spielt-in-folge(d:folge-183).
-
-
 <http://psi.example.org/person/Eva_R%C3%B6der> - "Eva Röder";
     spielt-in-folge(d:folge-081);
     spielt-in-folge(d:folge-122);
     spielt-in-folge(d:folge-132);
     spielt-in-folge(d:folge-150);
+    spielt-in-folge(d:folge-183);
     spielt-in-folge(d:folge-188);
     spielt-in-folge(d:folge-200);
     spielt-figur(f:folge-215-Krankenschwester, d:folge-215);
@@ -4437,10 +4431,7 @@ dp:Josef_Dahmen - "Josef Dahmen";
     spielt-in-folge(d:folge-052);
     spielt-in-folge(d:folge-077);
     spielt-figur(f:folge-150-Martin_Bronner, d:folge-150);
-    spielt-figur(f:folge-192-Herr_Hunold, d:folge-192).
-
-
-<http://psi.example.org/person/Josef_Fr%C3%B6hllich> - "Josef Fröhllich";
+    spielt-figur(f:folge-192-Herr_Hunold, d:folge-192);
     spielt-in-folge(d:folge-197).
 
 
@@ -5603,10 +5594,7 @@ p:Mathias_Ponnier - "Mathias Ponnier";
 
 http://dbpedia.org/resource/Mathieu_Carri%C3%A8re - "Mathieu Carrière";
     spielt-figur(f:folge-025-Walter_Solms, d:folge-025);
-    spielt-figur(f:folge-082-Arne_Reuter, d:folge-082).
-
-
-<http://psi.example.org/person/Mathieu_Carri%C3%A9re> - "Mathieu Carriére";
+    spielt-figur(f:folge-082-Arne_Reuter, d:folge-082);
     spielt-figur(f:folge-160-Max_Binder, d:folge-160).
 
 
