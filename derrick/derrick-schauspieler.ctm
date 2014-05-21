@@ -8467,11 +8467,8 @@ p:Wolfgang_Wahl - "Wolfgang Wahl";
 p:Wolfram_A._Guenther - "Wolfram A. Guenther";
     spielt-figur(f:folge-205-Partygast, d:folge-205);
     spielt-figur(f:folge-212-David_Herbst, d:folge-212);
+    spielt-in-folge(d:folge-266);
     spielt-figur(f:folge-280-Ornithologe, d:folge-280).
-
-
-p:Wolfram_Gunether - "Wolfram Gunether";
-    spielt-in-folge(d:folge-266).
 
 
 p:Wolfried_Lier - "Wolfried Lier";
