@@ -2011,10 +2011,11 @@ p:Frederic_Meisner - "Frederic Meisner";
     spielt-in-folge(d:folge-140).
 
 
-p:Friedrich_Georg_Beckhaus - "Friedrich Georg Beckhaus";
+p:Friedrich_G._Beckhaus - "Friedrich G. Beckhaus";
     spielt-figur(f:folge-001-Bahnhofsvorsteher, d:folge-001);
     spielt-figur(f:folge-052-Ross, d:folge-052);
-    spielt-figur(f:folge-070-Jakob_Wilhelmi, d:folge-070).
+    spielt-figur(f:folge-070-Jakob_Wilhelmi, d:folge-070);
+    spielt-figur(f:folge-137-Schuler, d:folge-137).
 
 
 dp:Friedrich_Joloff - "Friedrich Joloff";
@@ -2024,10 +2025,6 @@ dp:Friedrich_Joloff - "Friedrich Joloff";
 p:Friedrich_von_Thun - "Friedrich von Thun";
     spielt-figur(f:folge-144-Roland_Weidau, d:folge-144);
     spielt-figur(f:folge-274-Armin_Waldhaus, d:folge-274).
-
-
-p:Friedrich-Georg_Beckhaus - "Friedrich-Georg Beckhaus";
-    spielt-figur(f:folge-137-Schuler, d:folge-137).
 
 
 p:Frithjof_Vierock - "Frithjof Vierock";
@@ -3017,11 +3014,8 @@ p:Hans_Dieter_Zeidler - "Hans Dieter Zeidler";
 
 
 p:Hans_Elwenspoek - "Hans Elwenspoek";
+    spielt-figur(f:folge-024-Hotelportier, d:folge-024);
     spielt-figur(<http://psi.example.org/derrick/figur/folge-025-Kapit%C3%A4n_Keile>, d:folge-025).
-
-
-p:Hans_Etwenspoek - "Hans Etwenspoek";
-    spielt-figur(f:folge-024-Hotelportier, d:folge-024).
 
 
 dp:Hans_Georg_Panczak - "Hans Georg Panczak";
@@ -4117,12 +4111,9 @@ p:Inge_Schulz - "Inge Schulz";
     spielt-in-folge(d:folge-279).
 
 
-p:Inge_Schwannecke - "Inge Schwannecke";
-    spielt-in-folge(d:folge-098).
-
-
 p:Inge_Schwanneke - "Inge Schwanneke";
-    spielt-figur(f:folge-024-Frau_Grundmeier, d:folge-024).
+    spielt-figur(f:folge-024-Frau_Grundmeier, d:folge-024);
+    spielt-in-folge(d:folge-098).
 
 
 p:Ingeborg_Lapsien - "Ingeborg Lapsien";
