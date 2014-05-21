@@ -1458,7 +1458,7 @@ p:Eduard_Erne - "Eduard Erne";
 dp:Eduard_Linkers - "Eduard Linkers";
     spielt-figur(f:folge-021-Herr_Renz, d:folge-021);
     spielt-figur(f:folge-041-Hotelportier, d:folge-041);
-    spielt-in-folge(d:folge-050);
+    spielt-figur(f:folge-050-Nachbar, d:folge-050);
     spielt-figur(f:folge-223-Kellner, d:folge-223);
     spielt-in-folge(d:folge-240).
 
@@ -4628,7 +4628,7 @@ p:Karin_Glier - "Karin Glier";
 
 dp:Karin_Hardt - "Karin Hardt";
     spielt-figur(f:folge-035-Frau_Wendt, d:folge-035);
-    spielt-in-folge(d:folge-050).
+    spielt-figur(f:folge-050-Nachbarin, d:folge-050).
 
 
 p:Karin_Heske - "Karin Heske";
