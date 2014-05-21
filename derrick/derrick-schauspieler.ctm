@@ -7505,11 +7505,8 @@ p:Tobias_Ringelmann - "Tobias Ringelmann";
     spielt-in-folge(d:folge-158).
 
 
-p:Tommi_Pieper - "Tommi Pieper";
-    spielt-figur(f:folge-041-Harry_Dugan, d:folge-041).
-
-
 p:Tommi_Piper - "Tommi Piper";
+    spielt-figur(f:folge-041-Harry_Dugan, d:folge-041);
     spielt-figur(f:folge-078-Josef_Schenk, d:folge-078);
     spielt-figur(f:folge-085-Henry_Janson, d:folge-085);
     spielt-figur(<http://psi.example.org/derrick/figur/folge-091-Herr_M%C3%BChlau>, d:folge-091);
