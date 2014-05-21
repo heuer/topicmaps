@@ -5081,10 +5081,7 @@ p:Kristina_Nel - "Kristina Nel";
 
 
 p:Kunibert_Gensichen - "Kunibert Gensichen";
-    spielt-figur(f:folge-069-Johann_Kahl, d:folge-069).
-
-
-p:Kunibert_Gensischen - "Kunibert Gensischen";
+    spielt-figur(f:folge-069-Johann_Kahl, d:folge-069);
     spielt-in-folge(d:folge-123).
 
 
@@ -6644,16 +6641,13 @@ p:Renate_Langer - "Renate Langer";
     spielt-in-folge(d:folge-260).
 
 
-p:Rene_Heinersdorff - "Rene Heinersdorff";
-    spielt-in-folge(d:folge-170);
-    spielt-in-folge(d:folge-175).
-
-
 p:Renzo_Martini - "Renzo Martini";
     spielt-figur(f:folge-014-Mario, d:folge-014).
 
 
 <http://psi.example.org/person/Ren%C3%A9_Heinersdorff> - "René Heinersdorff";
+    spielt-in-folge(d:folge-170);
+    spielt-in-folge(d:folge-175);
     spielt-figur(f:folge-230-Bleiweg, d:folge-230);
     spielt-figur(f:folge-234-Roland_Fasold, d:folge-234).
 
@@ -7601,13 +7595,10 @@ p:Ulf_Grachtmann - "Ulf Grachtmann";
 
 
 <http://psi.example.org/person/Ulf_J._S%C3%B6hmisch> - "Ulf J. Söhmisch";
+    spielt-in-folge(d:folge-104);
     spielt-in-folge(d:folge-116);
     spielt-in-folge(d:folge-121);
     spielt-in-folge(d:folge-128).
-
-
-<http://psi.example.org/person/Ulf_S%C3%B6hmisch> - "Ulf Söhmisch";
-    spielt-in-folge(d:folge-104).
 
 
 <http://psi.example.org/person/Ulf-J%C3%BCrgen_Wagner> - "Ulf-Jürgen Wagner";
