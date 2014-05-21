@@ -3110,6 +3110,7 @@ dp:Hans_Quest - "Hans Quest";
 p:Hans_Stadlbauer - "Hans Stadlbauer";
     spielt-in-folge(d:folge-090);
     spielt-in-folge(d:folge-104);
+    spielt-in-folge(d:folge-113);
     spielt-in-folge(d:folge-132);
     spielt-in-folge(d:folge-157);
     spielt-in-folge(d:folge-197).
@@ -4354,10 +4355,6 @@ dp:Jochen_Horst - "Jochen Horst";
     spielt-figur(<http://psi.example.org/derrick/figur/folge-174-J%C3%BCrgen_H%C3%A4ssler>, d:folge-174);
     spielt-figur(f:folge-192-Kurt_Schenk, d:folge-192);
     spielt-figur(f:folge-231-Werner_Godel, d:folge-231).
-
-
-p:Johann_Stadlbauer - "Johann Stadlbauer";
-    spielt-in-folge(d:folge-113).
 
 
 p:Johanna_Baumann - "Johanna Baumann";
