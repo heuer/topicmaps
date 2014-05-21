@@ -7518,21 +7518,15 @@ dp:Toni_Berger - "Toni Berger";
     spielt-figur(f:folge-190-Eduard_Senger, d:folge-190).
 
 
-p:Toni_Ertel - "Toni Ertel";
-    spielt-figur(f:folge-017-Franconi, d:folge-017).
-
-
 p:Toni_Ertl - "Toni Ertl";
-    spielt-in-folge(d:folge-117).
+    spielt-figur(f:folge-017-Franconi, d:folge-017);
+    spielt-in-folge(d:folge-117);
+    spielt-in-folge(d:folge-155).
 
 
 p:Toni_Netzle - "Toni Netzle";
     spielt-figur(f:folge-134-Frau_Brack, d:folge-134);
     spielt-figur(f:folge-190-Frau_Senger, d:folge-190).
-
-
-p:Tony_Ertl - "Tony Ertl";
-    spielt-in-folge(d:folge-155).
 
 
 <http://psi.example.org/person/Torsten_M%C3%BCnchow> - "Torsten Münchow";
@@ -7612,16 +7606,13 @@ p:Ulf_Grachtmann - "Ulf Grachtmann";
     spielt-in-folge(d:folge-128).
 
 
-<http://psi.example.org/person/Ulf_J%C3%BCrgen_Wagner> - "Ulf Jürgen Wagner";
-    spielt-in-folge(d:folge-110).
-
-
 <http://psi.example.org/person/Ulf_S%C3%B6hmisch> - "Ulf Söhmisch";
     spielt-in-folge(d:folge-104).
 
 
 <http://psi.example.org/person/Ulf-J%C3%BCrgen_Wagner> - "Ulf-Jürgen Wagner";
-    spielt-figur(f:folge-017-Kriminalbeamter_Wagner, d:folge-017).
+    spielt-figur(f:folge-017-Kriminalbeamter_Wagner, d:folge-017);
+    spielt-in-folge(d:folge-110).
 
 
 p:Uli_Hub - "Uli Hub";
