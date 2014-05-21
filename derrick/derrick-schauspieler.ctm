@@ -6138,11 +6138,8 @@ dp:Otto_Stern - "Otto Stern";
     spielt-in-folge(d:folge-033).
 
 
-dp:Panos_Papadopoulos - "Panos Papadopoulos";
-    spielt-figur(f:folge-003-Nachtportier, d:folge-003).
-
-
 dp:Panos_Papadopulos - "Panos Papadopulos";
+    spielt-figur(f:folge-003-Nachtportier, d:folge-003);
     spielt-in-folge(d:folge-035).
 
 
@@ -6585,10 +6582,6 @@ p:Ray_le_Clair - "Ray le Clair";
 p:Rebecca_Winter - "Rebecca Winter";
     spielt-figur(f:folge-080-Ina_Debel, d:folge-080);
     spielt-in-folge(d:folge-139).
-
-
-<http://psi.example.org/person/Regie%3A> - "Regie:";
-    spielt-in-folge(d:folge-198).
 
 
 p:Regine_Leonhardt - "Regine Leonhardt";
