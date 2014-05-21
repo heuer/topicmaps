@@ -4206,16 +4206,10 @@ p:Isolde_Zimmermann - "Isolde Zimmermann";
     spielt-in-folge(d:folge-028).
 
 
-p:Jacob_Bolzhofer - "Jacob Bolzhofer";
-    spielt-in-folge(d:folge-185).
-
-
 p:Jacob_Holzhofer - "Jacob Holzhofer";
+    spielt-in-folge(d:folge-185);
+    spielt-in-folge(d:folge-193);
     spielt-in-folge(d:folge-200).
-
-
-p:Jacob_Holzofer - "Jacob Holzofer";
-    spielt-in-folge(d:folge-193).
 
 
 dp:Jacques_Breuer - "Jacques Breuer";
