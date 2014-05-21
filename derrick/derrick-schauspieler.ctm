@@ -5980,6 +5980,8 @@ p:Nate_Seids - "Nate Seids";
 
 
 p:Nicolas_Lansky - "Nicolas Lansky";
+    spielt-in-folge(d:folge-136);
+    spielt-figur(f:folge-163-Heine, d:folge-163);
     spielt-figur(f:folge-194-Emil, d:folge-194).
 
 
@@ -5989,11 +5991,6 @@ p:Niels_Ostermann - "Niels Ostermann";
 
 p:Nikki_Frantz - "Nikki Frantz";
     spielt-in-folge(d:folge-077).
-
-
-p:Nikolas_Lansky - "Nikolas Lansky";
-    spielt-in-folge(d:folge-136);
-    spielt-figur(f:folge-163-Heine, d:folge-163).
 
 
 <http://psi.example.org/person/Nikolaus_B%C3%BCchel> - "Nikolaus Büchel";
