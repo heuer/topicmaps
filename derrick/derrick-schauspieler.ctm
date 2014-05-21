@@ -2827,7 +2827,7 @@ http://dbpedia.org/resource/G%C3%BCnter_Gr%C3%A4wert - "Günter Gräwert";
     spielt-figur(f:folge-200-Walter_Bolitz, d:folge-200).
 
 
-<http://psi.example.org/person/G%C3%BCnter_Sp%C3%B6%C3%B6rle> - "Günter Spöörle";
+<http://psi.example.org/person/G%C3%BCnter_Sp%C3%B6rrle> - "Günter Spörrle";
     spielt-in-folge(d:folge-205).
 
 
