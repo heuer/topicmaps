@@ -5186,14 +5186,11 @@ p:Liane_Hielscher - "Liane Hielscher";
     spielt-figur(f:folge-156-Franziska_Miele, d:folge-156);
     spielt-figur(f:folge-158-Elena_Goos, d:folge-158);
     spielt-figur(f:folge-170-Marianne_Burke, d:folge-170);
+    spielt-figur(f:folge-187-Frau_Rosen, d:folge-187);
     spielt-figur(f:folge-202-Magda_Kordes, d:folge-202);
     spielt-figur(f:folge-212-Oberschwester, d:folge-212);
     spielt-figur(f:folge-226-Frau_Dessauer, d:folge-226);
     spielt-figur(f:folge-237-Mathilde, d:folge-237).
-
-
-<http://psi.example.org/person/Liane_Hielscher_%28Frau_Rosen> - "Liane Hielscher (Frau Rosen";
-    spielt-in-folge(d:folge-187).
 
 
 p:Lilian_Rack - "Lilian Rack";
