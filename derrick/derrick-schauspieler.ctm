@@ -8096,16 +8096,8 @@ p:Willi_Kowalj - "Willi Kowalj";
     spielt-in-folge(d:folge-116).
 
 
-p:Willi_Schultes - "Willi Schultes";
-    spielt-in-folge(d:folge-124).
-
-
 dp:William_Ray - "William Ray";
     spielt-figur(f:folge-011-Killy, d:folge-011).
-
-
-p:Willy_Schulters - "Willy Schulters";
-    spielt-figur(f:folge-182-Gustav_Schwabe, d:folge-182).
 
 
 p:Willy_Schultes - "Willy Schultes";
@@ -8113,8 +8105,10 @@ p:Willy_Schultes - "Willy Schultes";
     spielt-figur(f:folge-073-Wirt, d:folge-073);
     spielt-figur(f:folge-096-Herbert_Hannawald, d:folge-096);
     spielt-figur(f:folge-112-Vater_Schuster, d:folge-112);
+    spielt-in-folge(d:folge-124);
     spielt-in-folge(d:folge-137);
     spielt-in-folge(d:folge-143);
+    spielt-figur(f:folge-182-Gustav_Schwabe, d:folge-182);
     spielt-figur(f:folge-263-Seibold, d:folge-263).
 
 
