@@ -6118,11 +6118,8 @@ p:Olly_Pfister - "Olly Pfister";
 
 
 p:Oskar_Werner_Engartner - "Oskar Werner Engartner";
+    spielt-in-folge(d:folge-150);
     spielt-in-folge(d:folge-201).
-
-
-p:Oskar-Werner_Engartner - "Oskar-Werner Engartner";
-    spielt-in-folge(d:folge-150).
 
 
 p:Otto_Bolesch - "Otto Bolesch";
