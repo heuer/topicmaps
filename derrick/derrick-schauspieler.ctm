@@ -12,13 +12,14 @@
 #
 # Date:         2014-05-18
 # 
-# Modified:     2014-05-21
+# Modified:     2014-06-06
 #
 %prefix d <http://psi.example.org/derrick/>
 %prefix f <http://psi.example.org/derrick/figur/>
 %prefix p <http://psi.example.org/person/>
 %prefix wp <http://de.wikipedia.org/wiki/>
 %prefix dp <http://dbpedia.org/resource/>
+%prefix foaf <http://xmlns.com/foaf/0.1/>
 
 
 def spielt-in-folge($person, $folge)
@@ -7565,11 +7566,6 @@ p:Uli_Hub - "Uli Hub";
     spielt-in-folge(d:folge-123).
 
 
-p:Uli_Kinalzik - "Uli Kinalzik";
-    spielt-in-folge(d:folge-114);
-    spielt-in-folge(d:folge-150).
-
-
 p:Uli_Krohm - "Uli Krohm";
     spielt-figur(f:folge-161-Ziegler, d:folge-161);
     spielt-figur(f:folge-172-Kudau, d:folge-172);
@@ -7593,6 +7589,8 @@ dp:Ulli_Kinalzik - "Ulli Kinalzik";
     spielt-figur(f:folge-019-Merks, d:folge-019);
     spielt-figur(f:folge-049-Rosse, d:folge-049);
     spielt-in-folge(d:folge-090);
+    spielt-in-folge(d:folge-114);
+    spielt-in-folge(d:folge-150);
     spielt-in-folge(d:folge-173).
 
 
