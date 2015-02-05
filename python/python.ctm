@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2014-03-24
+# Modified:     2015-02-05
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -36,6 +36,37 @@ template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
 .
+
+
+p:fnpy
+    nhd("Fn.py", <https://github.com/kachayev/fn.py>,
+        """Functional programming in Python: implementation of missing features to enjoy FP""")
+.
+
+
+p:funcy
+    nhd("Funcy", <https://github.com/suor/funcy/>,
+        """A collection of fancy functional tools focused on practicality.""")
+.
+
+
+p:ctoolz
+    nhd("ctoolz", <https://github.com/pytoolz/cytoolz/>,
+        """C-implementation of toolz 'List processing tools and functional utilities'""")
+.
+
+
+p:toolz
+    nhd("toolz", <https://github.com/pytoolz/toolz/>,
+        """List processing tools and functional utilities""")
+.
+
+
+p:into
+    nhd("Into", <https://github.com/ContinuumIO/into>,
+        """Data migration utilities""")
+.
+
 
 p:rumps
   nhd("rumps", <https://github.com/jaredks/rumps>,
