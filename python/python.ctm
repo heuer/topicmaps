@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2015-02-05
+# Modified:     2015-02-07
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -35,6 +35,18 @@ end
 template-engine
     <http://en.wikipedia.org/wiki/Template_engine_%28web%29>;
     - "Template engine";
+.
+
+
+p:cython_hunspell
+  nhd("Cython Hunspell", <https://github.com/OpenGov/cython_hunspell>,
+      """Cython wrapper on Hunspell Dictionary """)
+.
+
+
+p:hunspell
+  nhd("PyHunspell", <https://github.com/blatinier/pyhunspell>,
+      """Pyhunspell is a set of Python bindings for the Hunspell spellchecker engine.""")
 .
 
 
