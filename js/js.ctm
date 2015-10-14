@@ -30,3 +30,12 @@ p:autocomplete.js
   nhd("autocomplete.js", <https://github.com/autocompletejs/autocomplete.js>,
       """autocomplete.js is a Javascript project with purpose to propose an autocomplete, fast, lite and without dependency.""")
 .
+
+
+p:jQuery-Autocomplete
+  nhd("jQuery-Autocomplete", <https://github.com/devbridge/jQuery-Autocomplete>,
+      """Ajax Autocomplete for jQuery allows you to easily create autocomplete/autosuggest boxes for text input fields.
+
+Has no dependencies other than jQuery.""")
+.
+
