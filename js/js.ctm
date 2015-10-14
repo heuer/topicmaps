@@ -1,0 +1,32 @@
+#
+# =================================
+# Collection of JavaScript Projects
+# =================================
+#
+#
+# Description:  Bookmarks of JavaScript projects.
+#
+# Author:       Lars Heuer <heuer[at]semagia.com>
+#
+# License:      Public Domain
+#
+# Date:         2015-10-14
+# 
+# Modified:     2015-10-14
+# 
+
+%prefix dc <http://purl.org/dc/elements/1.1/>
+%prefix p <http://psi.semagia.com/js-projects/>
+%prefix doap <http://usefulinc.com/ns/doap#>
+%prefix wp <http://en.wikipedia.org/wiki/>
+
+
+def nhd($t, $name, $homepage, $description)
+    $t - $name; doap:homepage: $homepage; doap:description: $description.
+end
+
+
+p:autocomplete.js
+  nhd("autocomplete.js", <https://github.com/autocompletejs/autocomplete.js>,
+      """autocomplete.js is a Javascript project with purpose to propose an autocomplete, fast, lite and without dependency.""")
+.
