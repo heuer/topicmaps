@@ -12,7 +12,7 @@
 #
 # Date:         2015-10-14
 # 
-# Modified:     2015-10-14
+# Modified:     2015-11-11
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -24,6 +24,11 @@
 def nhd($t, $name, $homepage, $description)
     $t - $name; doap:homepage: $homepage; doap:description: $description.
 end
+
+
+p:animatedModal.js
+  nhd("animatedModal.js", <https://github.com/joaopereirawd/animatedModal.js>,
+      """animatedModal.js is a jQuery plugin to create a fullscreen modal with CSS3 transitions.""")
 
 
 p:autocomplete.js
@@ -38,4 +43,13 @@ p:jQuery-Autocomplete
 
 Has no dependencies other than jQuery.""")
 .
+
+
+p:dynamics.js
+  nhd("dynamics.js", <https://github.com/michaelvillar/dynamics.js>,
+      """Javascript library to create physics-based animations""")
+.
+
+
+p:
 

@@ -12,7 +12,7 @@
 #
 # Date:         2011-02-21
 # 
-# Modified:     2015-08-28
+# Modified:     2015-11-11
 # 
 
 %prefix dc <http://purl.org/dc/elements/1.1/>
@@ -37,6 +37,15 @@ template-engine
     - "Template engine";
 .
 
+
+p:tensorflow
+    nhd("TensorFlow", <http://tensorflow.org/>,
+        """TensorFlow is an Open Source Software Library for Machine Intelligence.
+TensorFlow™ is an open source software library for numerical computation using data flow graphs. 
+Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional 
+data arrays (tensors) communicated between them.""")
+
+
 p:mitie
   nhd("MITIE", <https://github.com/mit-nlp/MITIE>,
       """This project provides free (even for commercial use) state-of-the-art information extraction tools. The current release includes 
@@ -44,7 +53,7 @@ tools for performing named entity extraction and binary relation detection as we
 .
 
 
-p:casta
+p:castra
   nhd("Castra", <https://github.com/blaze/castra>,
       """Castra is an on-disk, partitioned, compressed, column store.""")
 .
