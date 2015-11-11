@@ -26,10 +26,15 @@ def nhd($t, $name, $homepage, $description)
 end
 
 
+p:slick
+  nhd("slick", <https://github.com/kenwheeler/slick/>,
+      """Carousel / content slider""")
+.
+
 p:animatedModal.js
   nhd("animatedModal.js", <https://github.com/joaopereirawd/animatedModal.js>,
       """animatedModal.js is a jQuery plugin to create a fullscreen modal with CSS3 transitions.""")
-
+.
 
 p:autocomplete.js
   nhd("autocomplete.js", <https://github.com/autocompletejs/autocomplete.js>,
@@ -49,7 +54,3 @@ p:dynamics.js
   nhd("dynamics.js", <https://github.com/michaelvillar/dynamics.js>,
       """Javascript library to create physics-based animations""")
 .
-
-
-p:
-
