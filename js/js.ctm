@@ -25,6 +25,11 @@ def nhd($t, $name, $homepage, $description)
     $t - $name; doap:homepage: $homepage; doap:description: $description.
 end
 
+p:CementJS
+  nhd("CementJS", <https://github.com/zessx/cementjs>,
+      """CementJS is a jQuery plugin, which will allow you to quickly present a list of elements under a grid layout. It is a Masonry alternative.""")
+.
+
 
 p:Shuffle
   nhd("Shuffle", <https://github.com/Vestride/Shuffle>,
